@@ -81,6 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "LaunchBoard" },
       { name: "description", content: "Internships and entry-level jobs." },
+      { name: "theme-color", content: "#07060d" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
