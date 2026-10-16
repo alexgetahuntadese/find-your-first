@@ -205,7 +205,7 @@ function Index() {
 
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden">
-          <div className="absolute inset-0 bg-background/70 backdrop-blur-sm animate-in fade-in" onClick={() => setDrawer(false)} />
+          <div className="absolute inset-0 bg-scrim backdrop-blur-sm animate-in fade-in" onClick={() => setDrawer(false)} />
           <div className="absolute inset-x-0 bottom-0 max-h-[85vh] overflow-y-auto rounded-t-2xl border-t bg-card p-5 animate-in slide-in-from-bottom">
             <div className="mb-4 flex items-center justify-between">
               <p className="font-medium">Filters</p>
