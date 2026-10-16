@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "LaunchBoard" },
       { name: "description", content: "Internships and entry-level jobs." },
-      { name: "theme-color", content: "#07060d" },
+      { name: "theme-color", content: "#eff2fa" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -118,7 +118,7 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
-      <Toaster theme="dark" position="bottom-center" />
+      <Toaster theme="light" position="bottom-center" />
     </QueryClientProvider>
   );
 }
