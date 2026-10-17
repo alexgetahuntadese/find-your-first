@@ -4,6 +4,8 @@ export type SessionUser = {
   email: string;
   role: "user" | "admin";
   accessToken?: string;
+  refreshToken?: string;
+  expiresAt?: number;
 };
 
 const SESSION_KEY = "launchboard-session";
@@ -34,7 +36,7 @@ async function supabaseAuth(path: string, body: Record<string, unknown>) {
   });
   const data = await response.json();
   if (!response.ok) throw new Error(data.error_description || data.msg || data.message || "Authentication failed");
-  return data as { access_token?: string; user?: { id?: string; email?: string; user_metadata?: { name?: string } } };
+  return data as { access_token?: string; refresh_token?: string; expires_in?: number; user?: { id?: string; email?: string; user_metadata?: { name?: string } } };
 }
 
 async function getRole(userId: string | undefined, token: string | undefined) {
@@ -47,16 +49,31 @@ async function getRole(userId: string | undefined, token: string | undefined) {
 
 export async function signIn(email: string, password: string) {
   const data = await supabaseAuth("/token?grant_type=password", { email, password });
-  const user = { id: data.user?.id, name: data.user?.user_metadata?.name || email.split("@")[0], email: data.user?.email || email, role: await getRole(data.user?.id, data.access_token), accessToken: data.access_token };
+  if (!data.access_token || !data.user?.id) throw new Error("Sign-in did not return a valid session");
+  const user = { id: data.user.id, name: data.user.user_metadata?.name || email.split("@")[0], email: data.user.email || email, role: await getRole(data.user.id, data.access_token), accessToken: data.access_token, refreshToken: data.refresh_token, expiresAt: Date.now() + (data.expires_in || 3600) * 1000 };
   saveSession(user);
   return user;
 }
 
 export async function signUp(name: string, email: string, password: string) {
   const data = await supabaseAuth("/signup", { email, password, data: { name } });
-  const user = { id: data.user?.id, name, email: data.user?.email || email, role: await getRole(data.user?.id, data.access_token), accessToken: data.access_token };
+  if (!data.access_token || !data.user?.id) return { requiresEmailConfirmation: true as const };
+  const user = { id: data.user.id, name, email: data.user.email || email, role: await getRole(data.user.id, data.access_token), accessToken: data.access_token, refreshToken: data.refresh_token, expiresAt: Date.now() + (data.expires_in || 3600) * 1000 };
   saveSession(user);
-  return user;
+  return { requiresEmailConfirmation: false as const, user };
+}
+
+export async function refreshSession() {
+  const session = getSession();
+  if (!session?.refreshToken || !SUPABASE_URL || !SUPABASE_KEY) return session;
+  if (session.expiresAt && session.expiresAt > Date.now() + 60_000) return session;
+  const response = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, { method: "POST", headers: { apikey: SUPABASE_KEY, "Content-Type": "application/json" }, body: JSON.stringify({ refresh_token: session.refreshToken }) });
+  if (!response.ok) { clearSession(); return null; }
+  const data = await response.json() as { access_token?: string; refresh_token?: string; expires_in?: number };
+  if (!data.access_token) { clearSession(); return null; }
+  const next = { ...session, accessToken: data.access_token, refreshToken: data.refresh_token || session.refreshToken, expiresAt: Date.now() + (data.expires_in || 3600) * 1000 };
+  saveSession(next);
+  return next;
 }
 
 export function clearSession() {
@@ -69,6 +86,10 @@ export type PendingJob = {
   company: string;
   location: string;
   type: string;
+  mode?: string;
+  pay?: string;
+  description?: string;
+  applyUrl?: string;
   status: "pending" | "approved" | "rejected";
   submittedBy: string;
   submittedAt: string;
