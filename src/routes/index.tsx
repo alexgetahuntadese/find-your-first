@@ -37,7 +37,7 @@ function toggle<T>(arr: T[], v: T) {
 function Index() {
   const navigate = useNavigate();
   const session = getSession();
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [q, setQ] = useState("");
   const [loc, setLoc] = useState("");
   const [type, setType] = useState("");
@@ -51,7 +51,7 @@ function Index() {
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("launchboard-theme");
-    const nextTheme = storedTheme ? storedTheme === "dark" : true;
+    const nextTheme = storedTheme ? storedTheme === "dark" : false;
     setDarkMode(nextTheme);
     document.documentElement.classList.toggle("dark", nextTheme);
     try { setSaved(JSON.parse(localStorage.getItem("saved-jobs") || "[]")); } catch {}
