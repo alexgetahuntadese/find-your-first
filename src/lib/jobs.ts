@@ -13,8 +13,8 @@ function requireUrl() {
   return SUPABASE_URL;
 }
 
-export async function createJob(token: string, submittedBy: string, job: Pick<PendingJob, "title" | "company" | "location" | "type">) {
-  const response = await fetch(`${requireUrl()}/rest/v1/job_submissions`, { method: "POST", headers: headers(token, { Prefer: "return=representation" }), body: JSON.stringify({ ...job, submitted_by: submittedBy }) });
+export async function createJob(token: string, submittedBy: string, job: Pick<PendingJob, "title" | "company" | "location" | "type" | "mode" | "pay" | "description" | "applyUrl">) {
+  const response = await fetch(`${requireUrl()}/rest/v1/job_submissions`, { method: "POST", headers: headers(token, { Prefer: "return=representation" }), body: JSON.stringify({ title: job.title, company: job.company, location: job.location, type: job.type, mode: job.mode, pay: job.pay, description: job.description, apply_url: job.applyUrl || null, submitted_by: submittedBy }) });
   if (!response.ok) throw new Error("Could not submit this job");
 }
 
@@ -22,7 +22,7 @@ export async function listJobs(token: string) {
   const response = await fetch(`${requireUrl()}/rest/v1/job_submissions?select=*&order=created_at.desc`, { headers: headers(token) });
   if (!response.ok) throw new Error("Could not load job submissions");
   const rows = await response.json() as Array<PendingJob & { submitted_by: string; created_at: string }>;
-  return rows.map((row) => ({ ...row, submittedBy: row.submitted_by, submittedAt: row.created_at }));
+  return rows.map((row) => ({ ...row, submittedBy: row.submitted_by, submittedAt: row.created_at, applyUrl: (row as PendingJob & { apply_url?: string }).apply_url }));
 }
 
 export async function updateJob(token: string, id: string, status: PendingJob["status"]) {
