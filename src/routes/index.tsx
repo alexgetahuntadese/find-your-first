@@ -9,9 +9,9 @@ import { getSession } from "@/lib/auth";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "LaunchBoard â€” Internships & Entry-Level Jobs" },
+      { title: "SERATEGNA â€” Internships & Entry-Level Jobs" },
       { name: "description", content: "Hand-picked daily internships and entry-level roles for students, fresh graduates, and junior professionals." },
-      { property: "og:title", content: "LaunchBoard â€” Internships & Entry-Level Jobs" },
+      { property: "og:title", content: "SERATEGNA â€” Internships & Entry-Level Jobs" },
       { property: "og:description", content: "Hand-picked daily opportunities for students, new grads, and junior pros." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -125,7 +125,7 @@ function Index() {
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
           <div className="flex items-center gap-2 font-semibold tracking-tight">
             <span className="grid h-7 w-7 place-items-center rounded-lg bg-gradient-primary shadow-glow"><Rocket className="h-4 w-4 text-primary-foreground" /></span>
-            LaunchBoard
+            SERATEGNA
           </div>
           <div className="flex items-center gap-2 text-sm">
             <span className="hidden items-center gap-1 text-muted-foreground sm:flex"><Heart className="h-4 w-4" />{saved.length} saved</span>
@@ -220,7 +220,7 @@ function Index() {
         </div>
       </main>
 
-      <footer className="border-t py-8 text-center text-sm text-muted-foreground">Â© 2026 LaunchBoard Â· Built for early-career talent</footer>
+      <footer className="border-t py-8 text-center text-sm text-muted-foreground">Â© 2026 SERATEGNA Â· Built for early-career talent</footer>
 
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden">
