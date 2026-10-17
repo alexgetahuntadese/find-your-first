@@ -56,7 +56,7 @@ Build a modern, full-featured web application for a Job & Internship Board platf
 
   * Company Logo placeholder, Company Name, Role Title, Location badge, Work Mode (Remote/Hybrid/Onsite).
 
-  * Salary / Stipend range badge (e.g., "$25–$35/hr" or "Competitive").
+  * Salary / Stipend range badge (e.g., "$25â€“$35/hr" or "Competitive").
 
   * "Posted X hours ago" badge with a "NEW" highlight tag.
 
@@ -92,7 +92,7 @@ Continue developing this project in the [Lovable editor](https://lovable.dev/pro
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Prefer working locally? You need Node.js and npm â€” [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
 git clone <this-repository-url>
@@ -100,3 +100,14 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+## Demo workflow
+
+- Visit `/auth` to create a local demo account or sign in.
+- Signed-in users can submit opportunities from `/post`; submissions are stored locally and wait for review.
+- Use `admin@launchboard.dev` with any password of 6+ characters to open `/admin` and approve or reject submissions.
+
+This is a front-end demo flow using `localStorage`. Replace `src/lib/auth.ts` with your production authentication and API integration before launch.
+
+Supabase authentication is configured through `.env.local` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. The publishable key is safe for browser use; never expose a service-role key.
+
