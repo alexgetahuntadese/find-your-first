@@ -1,16 +1,17 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
+import { getSession } from "@/lib/auth";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "LaunchBoard — Internships & Entry-Level Jobs" },
+      { title: "LaunchBoard â€” Internships & Entry-Level Jobs" },
       { name: "description", content: "Hand-picked daily internships and entry-level roles for students, fresh graduates, and junior professionals." },
-      { property: "og:title", content: "LaunchBoard — Internships & Entry-Level Jobs" },
+      { property: "og:title", content: "LaunchBoard â€” Internships & Entry-Level Jobs" },
       { property: "og:description", content: "Hand-picked daily opportunities for students, new grads, and junior pros." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -34,6 +35,9 @@ function toggle<T>(arr: T[], v: T) {
 }
 
 function Index() {
+  const navigate = useNavigate();
+  const session = getSession();
+  const [darkMode, setDarkMode] = useState(true);
   const [q, setQ] = useState("");
   const [loc, setLoc] = useState("");
   const [type, setType] = useState("");
@@ -46,6 +50,10 @@ function Index() {
   const [drawer, setDrawer] = useState(false);
 
   useEffect(() => {
+    const storedTheme = localStorage.getItem("launchboard-theme");
+    const nextTheme = storedTheme ? storedTheme === "dark" : true;
+    setDarkMode(nextTheme);
+    document.documentElement.classList.toggle("dark", nextTheme);
     try { setSaved(JSON.parse(localStorage.getItem("saved-jobs") || "[]")); } catch {}
     const t = setTimeout(() => setLoading(false), 700);
     return () => clearTimeout(t);
@@ -62,6 +70,13 @@ function Index() {
     setSaved(next);
     localStorage.setItem("saved-jobs", JSON.stringify(next));
     toast(next.includes(id) ? "Saved to your list" : "Removed from saved");
+  };
+
+  const toggleTheme = () => {
+    const nextTheme = !darkMode;
+    setDarkMode(nextTheme);
+    document.documentElement.classList.toggle("dark", nextTheme);
+    localStorage.setItem("launchboard-theme", nextTheme ? "dark" : "light");
   };
 
   const filtered = useMemo(() => {
@@ -114,7 +129,11 @@ function Index() {
           </div>
           <div className="flex items-center gap-2 text-sm">
             <span className="hidden items-center gap-1 text-muted-foreground sm:flex"><Heart className="h-4 w-4" />{saved.length} saved</span>
-            <button onClick={() => toast("Employer posting opens soon!")} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Post a job</button>
+            <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">
+              {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+            </button>
+            {session?.role === "admin" && <button onClick={() => navigate({ to: "/admin" })} className="hidden rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex">Admin</button>}
+            <button onClick={() => navigate({ to: session ? "/post" : "/auth" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Post a job</button>
           </div>
         </div>
       </header>
@@ -184,7 +203,7 @@ function Index() {
 
           <div>
             <div className="mb-4 flex items-center justify-between">
-              <p className="text-sm text-muted-foreground">{loading ? "Loading…" : `${filtered.length} roles`}</p>
+              <p className="text-sm text-muted-foreground">{loading ? "Loadingâ€¦" : `${filtered.length} roles`}</p>
               <button onClick={() => setDrawer(true)} className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm lg:hidden">
                 <SlidersHorizontal className="h-4 w-4" /> Filters{exp.length + ind.length ? ` (${exp.length + ind.length})` : ""}
               </button>
@@ -201,7 +220,7 @@ function Index() {
         </div>
       </main>
 
-      <footer className="border-t py-8 text-center text-sm text-muted-foreground">© 2026 LaunchBoard · Built for early-career talent</footer>
+      <footer className="border-t py-8 text-center text-sm text-muted-foreground">Â© 2026 LaunchBoard Â· Built for early-career talent</footer>
 
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden">
@@ -294,3 +313,4 @@ function SkeletonCard() {
     </div>
   );
 }
+
