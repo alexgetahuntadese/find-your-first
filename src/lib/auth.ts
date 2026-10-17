@@ -90,6 +90,8 @@ export type PendingJob = {
   pay?: string;
   description?: string;
   applyUrl?: string;
+  contactEmail?: string;
+  contactPhone?: string;
   status: "pending" | "approved" | "rejected";
   submittedBy: string;
   submittedAt: string;
@@ -106,4 +108,3 @@ export function getPendingJobs(): PendingJob[] {
 export function savePendingJobs(jobs: PendingJob[]) {
   localStorage.setItem(PENDING_JOBS_KEY, JSON.stringify(jobs));
 }
-

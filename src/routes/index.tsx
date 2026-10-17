@@ -9,9 +9,9 @@ import { getSession } from "@/lib/auth";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SERATEGNA â€” Internships & Entry-Level Jobs" },
+      { title: "SERATEGNA — Internships & Entry-Level Jobs" },
       { name: "description", content: "Hand-picked daily internships and entry-level roles for students, fresh graduates, and junior professionals." },
-      { property: "og:title", content: "SERATEGNA â€” Internships & Entry-Level Jobs" },
+      { property: "og:title", content: "SERATEGNA — Internships & Entry-Level Jobs" },
       { property: "og:description", content: "Hand-picked daily opportunities for students, new grads, and junior pros." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -203,7 +203,7 @@ function Index() {
 
           <div>
             <div className="mb-4 flex items-center justify-between">
-              <p className="text-sm text-muted-foreground">{loading ? "Loadingâ€¦" : `${filtered.length} roles`}</p>
+              <p className="text-sm text-muted-foreground">{loading ? "Loading…" : `${filtered.length} roles`}</p>
               <button onClick={() => setDrawer(true)} className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm lg:hidden">
                 <SlidersHorizontal className="h-4 w-4" /> Filters{exp.length + ind.length ? ` (${exp.length + ind.length})` : ""}
               </button>
@@ -220,7 +220,7 @@ function Index() {
         </div>
       </main>
 
-      <footer className="border-t py-8 text-center text-sm text-muted-foreground">Â© 2026 SERATEGNA Â· Built for early-career talent</footer>
+      <footer className="border-t py-8 text-center text-sm text-muted-foreground">© 2026 SERATEGNA · Built for early-career talent</footer>
 
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden">
@@ -313,4 +313,3 @@ function SkeletonCard() {
     </div>
   );
 }
-

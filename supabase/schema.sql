@@ -14,6 +14,8 @@
   pay text not null default 'Not specified',
   description text not null check (char_length(description) between 40 and 3000),
   apply_url text,
+  contact_email text not null,
+  contact_phone text not null,
     status text not null default 'pending' check (status in ('pending', 'approved', 'rejected')),
     submitted_by uuid not null references auth.users(id) on delete cascade,
     created_at timestamptz not null default now()
@@ -51,7 +53,8 @@ alter table public.job_submissions add column if not exists mode text not null d
 alter table public.job_submissions add column if not exists pay text not null default 'Not specified';
 alter table public.job_submissions add column if not exists description text not null default 'No description provided';
 alter table public.job_submissions add column if not exists apply_url text;
+alter table public.job_submissions add column if not exists contact_email text;
+alter table public.job_submissions add column if not exists contact_phone text;
 
   -- After creating an account, promote the intended admin in Supabase SQL editor:
   -- insert into public.profiles (id, role) values ('USER_UUID_HERE', 'admin') on conflict (id) do update set role = 'admin';
-
