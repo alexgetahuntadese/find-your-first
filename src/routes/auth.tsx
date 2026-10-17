@@ -24,8 +24,10 @@ function AuthPage() {
       return;
     }
     try {
-      if (mode === "signup") await signUp(name, email, password);
-      else await signIn(email, password);
+      if (mode === "signup") {
+        const result = await signUp(name, email, password);
+        if (result.requiresEmailConfirmation) { toast.success("Check your email to confirm your account, then sign in"); setMode("signin"); return; }
+      } else await signIn(email, password);
       toast.success(mode === "signup" ? "Account created" : "Welcome back");
       navigate({ to: "/post" });
     } catch (error) {
