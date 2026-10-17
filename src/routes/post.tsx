@@ -2,7 +2,7 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { FormEvent, useEffect, useState } from "react";
 import { ArrowLeft, BriefcaseBusiness, Rocket, CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
-import { refreshSession } from "@/lib/auth";
+import { getSession, refreshSession } from "@/lib/auth";
 import { createJob } from "@/lib/jobs";
 
 export const Route = createFileRoute("/post")({ component: PostJobPage });
