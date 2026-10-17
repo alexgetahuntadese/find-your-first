@@ -107,7 +107,7 @@ npm run dev
 - Signed-in users can submit opportunities from `/post`; submissions are stored locally and wait for review.
 - Use `admin@launchboard.dev` with any password of 6+ characters to open `/admin` and approve or reject submissions.
 
-This is a front-end demo flow using `localStorage`. Replace `src/lib/auth.ts` with your production authentication and API integration before launch.
+Job submissions and moderation use Supabase with Row Level Security. Run `supabase/schema.sql` in the Supabase SQL Editor before launch.
 
 Supabase authentication is configured through `.env.local` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. The publishable key is safe for browser use; never expose a service-role key.
 
