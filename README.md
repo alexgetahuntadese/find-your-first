@@ -1,4 +1,4 @@
-# Find Your First
+# SERATEGNA
 
 Build a modern, full-featured web application for a Job & Internship Board platform launching tomorrow. The design should be clean, fast, mobile-responsive, and optimized for high conversions and user engagement.
 
