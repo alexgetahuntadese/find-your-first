@@ -24,8 +24,8 @@ export function saveSession(user: SessionUser) {
   localStorage.setItem(SESSION_KEY, JSON.stringify(user));
 }
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+const SUPABASE_URL = import.meta.env["VITE_SUPABASE_URL"] as string | undefined;
+const SUPABASE_KEY = import.meta.env["VITE_SUPABASE_ANON_KEY"] as string | undefined;
 
 async function supabaseAuth(path: string, body: Record<string, unknown>) {
   if (!SUPABASE_URL || !SUPABASE_KEY) throw new Error("Supabase is not configured");
@@ -50,7 +50,7 @@ async function getRole(userId: string | undefined, token: string | undefined) {
 export async function signIn(email: string, password: string) {
   const data = await supabaseAuth("/token?grant_type=password", { email, password });
   if (!data.access_token || !data.user?.id) throw new Error("Sign-in did not return a valid session");
-  const user = { id: data.user.id, name: data.user.user_metadata?.name || email.split("@")[0], email: data.user.email || email, role: await getRole(data.user.id, data.access_token), accessToken: data.access_token, refreshToken: data.refresh_token, expiresAt: Date.now() + (data.expires_in || 3600) * 1000 };
+  const user = { id: data.user.id, name: data.user.user_metadata?.name || (email.split("@")[0] ?? email), email: data.user.email || email, role: await getRole(data.user.id, data.access_token), accessToken: data.access_token, refreshToken: data.refresh_token, expiresAt: Date.now() + (data.expires_in || 3600) * 1000 };
   saveSession(user);
   return user;
 }
