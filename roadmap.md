@@ -1,2 +1,2 @@
-- [ ] Scrape real Ethiopian jobs into feed
-- [ ] Blog section for fresh graduates with posts
+- [x] Scrape real Ethiopian jobs into feed
+- [x] Blog section for fresh graduates with posts
