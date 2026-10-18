@@ -132,9 +132,7 @@ function Index() {
             <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
-            {session?.role === "admin" && <button onClick={() => navigate({ to: "/admin" })} className="hidden rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex">Admin</button>}
             <button onClick={() => navigate({ to: "/blog" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Blog</button>
-            <button onClick={() => navigate({ to: session ? "/post" : "/auth" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Post a job</button>
           </div>
         </div>
       </header>
@@ -290,7 +288,7 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
         </button>
         <a href={job.url} target="_blank" rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-1 rounded-lg bg-gradient-primary px-4 text-sm font-medium text-primary-foreground sm:flex-none">
-          Apply Now <ArrowUpRight className="h-4 w-4" />
+          Apply on EthioJobs <ArrowUpRight className="h-4 w-4" />
         </a>
       </div>
       {saved && <Heart className="absolute right-4 top-4 hidden h-4 w-4 fill-current text-destructive sm:block sm:group-hover:hidden" />}
