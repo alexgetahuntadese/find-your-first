@@ -24,8 +24,8 @@ export function saveSession(user: SessionUser) {
   localStorage.setItem(SESSION_KEY, JSON.stringify(user));
 }
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+const SUPABASE_URL = import.meta.env["VITE_SUPABASE_URL"] as string | undefined;
+const SUPABASE_KEY = import.meta.env["VITE_SUPABASE_ANON_KEY"] as string | undefined;
 
 async function supabaseAuth(path: string, body: Record<string, unknown>) {
   if (!SUPABASE_URL || !SUPABASE_KEY) throw new Error("Supabase is not configured");

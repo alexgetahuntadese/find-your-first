@@ -1,7 +1,7 @@
 import type { PendingJob } from "@/lib/auth";
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+const SUPABASE_URL = import.meta.env["VITE_SUPABASE_URL"] as string | undefined;
+const SUPABASE_KEY = import.meta.env["VITE_SUPABASE_ANON_KEY"] as string | undefined;
 
 function headers(token: string, extra: Record<string, string> = {}) {
   if (!SUPABASE_KEY) throw new Error("Supabase is not configured");
