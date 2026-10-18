@@ -112,7 +112,7 @@ function Index() {
         <p className="text-sm font-medium">Get new roles daily</p>
         <p className="mt-1 text-xs text-muted-foreground">Fresh picks in your inbox every morning.</p>
         <form onSubmit={(e) => { e.preventDefault(); toast.success("You're on the list!"); (e.target as HTMLFormElement).reset(); }} className="mt-3 flex gap-2">
-          <input required type="email" placeholder="you@school.edu" className="min-w-0 flex-1 rounded-md border bg-background px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-ring" />
+          <input required type="email" placeholder="you@aau.edu.et" className="min-w-0 flex-1 rounded-md border bg-background px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-ring" />
           <button className="rounded-md bg-gradient-primary px-3 text-sm font-medium text-primary-foreground">Join</button>
         </form>
       </div>
@@ -133,6 +133,7 @@ function Index() {
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
             {session?.role === "admin" && <button onClick={() => navigate({ to: "/admin" })} className="hidden rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex">Admin</button>}
+            <button onClick={() => navigate({ to: "/blog" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Blog</button>
             <button onClick={() => navigate({ to: session ? "/post" : "/auth" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Post a job</button>
           </div>
         </div>
@@ -161,7 +162,7 @@ function Index() {
             <label className="flex items-center gap-2 rounded-xl px-3 py-2.5 hover:bg-secondary/60">
               <MapPin className="h-4 w-4 shrink-0 text-muted-foreground" />
               <input list="locs" value={loc} onChange={(e) => setLoc(e.target.value)} placeholder="Remote, city, on-site" className="w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground" />
-              <datalist id="locs"><option value="Remote" /><option value="Onsite" /><option value="New York" /><option value="San Francisco" /><option value="Austin" /></datalist>
+              <datalist id="locs"><option value="Remote" /><option value="Onsite" /><option value="Addis Ababa" /><option value="Oromia" /></datalist>
             </label>
             <label className="flex items-center gap-2 rounded-xl px-3 py-2.5 hover:bg-secondary/60">
               <Briefcase className="h-4 w-4 shrink-0 text-muted-foreground" />
@@ -287,10 +288,10 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
           className={cn("grid h-9 w-9 place-items-center rounded-lg border transition-all active:scale-90", saved ? "border-destructive/40 text-destructive" : "hover:bg-secondary")}>
           <Heart className={cn("h-4 w-4", saved && "fill-current")} />
         </button>
-        <button onClick={() => toast.success(`Application started for ${job.title}`)}
+        <a href={job.url} target="_blank" rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-1 rounded-lg bg-gradient-primary px-4 text-sm font-medium text-primary-foreground sm:flex-none">
           Apply Now <ArrowUpRight className="h-4 w-4" />
-        </button>
+        </a>
       </div>
       {saved && <Heart className="absolute right-4 top-4 hidden h-4 w-4 fill-current text-destructive sm:block sm:group-hover:hidden" />}
     </article>
