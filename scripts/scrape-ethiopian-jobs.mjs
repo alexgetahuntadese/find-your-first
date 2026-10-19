@@ -1,16 +1,24 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 
-const SITEMAP_URL = "https://ethiojobs.net/sitemap-jobs.xml";
 const OUTPUT = new URL("../src/data/scraped-jobs.ts", import.meta.url);
-const freshSignal = /\b(intern(ship)?|trainee|graduate|entry[- ]level|junior|assistant|no experience|fresh)\b/i;
+const SOURCES = [
+  { name: "EthioJobs", kind: "jsonld", url: "https://ethiojobs.net/sitemap-jobs.xml", sitemap: true },
+  { name: "Ethiopiawork", kind: "html", url: "https://www.ethiopiawork.com/", linkPattern: /\/job-vacancies-ethiopia\//i },
+  { name: "Enat Jobs", kind: "html", url: "https://enatjobs.com/jobs/", linkPattern: /^https:\/\/enatjobs\.com\/(?!jobs\/?$|category\/)/i },
+  { name: "EthioJob.org", kind: "html", url: "https://ethiojob.org/", linkPattern: /^https:\/\/ethiojob\.org\/(?!category\/|author\/|privacy|terms|cookies)/i },
+];
+const freshSignal = /\b(intern(ship)?|trainee|graduate|entry[- ]level|junior|assistant|no experience|fresh|vacanc(y|ies)|job)\b/i;
+const articleSignal = /\b(guide|tips|prepare|preparation|how to|cv|interview|training|course|scholarship|privacy|terms|cookie)\b/i;
+const seniorSignal = /\b(senior|director|chief|vice president|vp)\b/i;
 const categoryRules = [[/software|developer|engineer|it |data|technical|cyber|qa/i, "Software Engineering"], [/design|creative|graphic|ux|ui/i, "Design"], [/finance|account|audit|bank|econom/i, "Finance"], [/health|medical|nurse|pharmacy|clinic/i, "Healthcare"], [/sales|marketing|brand|customer/i, "Marketing"]];
+const headers = { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" };
 
-function text(value) { return String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); }
-function escape(value) { return String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\r?\n/g, " "); }
+function text(value) { return String(value || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code))).replace(/\s+/g, " ").trim(); }
 function categoryFor(value) { return categoryRules.find(([rule]) => rule.test(value))?.[1] || "Operations"; }
 function stableId(url) { return `scraped-${createHash("sha1").update(url).digest("hex").slice(0, 12)}`; }
-function locationFor(job) { return text(job.jobLocation?.address?.addressLocality || job.jobLocation?.name || "Ethiopia") || "Ethiopia"; }
+function hoursAgo(date) { const parsed = Date.parse(date || ""); return Number.isFinite(parsed) ? Math.max(0, Math.floor((Date.now() - parsed) / 3600000)) : 0; }
+function absoluteUrl(url, base) { try { return new URL(url, base).href; } catch { return ""; } }
 function parseJsonLd(html) {
   const scripts = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
   for (const match of scripts) {
@@ -23,33 +31,85 @@ function parseJsonLd(html) {
   }
   return null;
 }
-function hoursAgo(date) { const parsed = Date.parse(date || ""); return Number.isFinite(parsed) ? Math.max(0, Math.floor((Date.now() - parsed) / 3600000)) : 0; }
-
-const sitemap = await (await fetch(SITEMAP_URL, { headers: { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" } })).text();
-const urls = [...sitemap.matchAll(/<loc>(https:\/\/ethiojobs\.net\/job\/[^<]+)<\/loc>/g)].map((match) => match[1]).slice(0, 120);
-const jobs = [];
-for (let index = 0; index < urls.length; index += 6) {
-  const batch = await Promise.all(urls.slice(index, index + 6).map(async (url) => {
-    try {
-      const response = await fetch(url, { headers: { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" } });
-      if (!response.ok) return null;
-      const job = parseJsonLd(await response.text());
-      if (!job) return null;
-      const title = text(job.title);
-      const description = text(job.description);
-      const location = locationFor(job);
-      const searchable = `${title} ${description} ${location}`;
-      const titleFresh = freshSignal.test(title);
-      if (!titleFresh || (!/\bintern(ship)?\b/i.test(title) && /\b(senior|manager|director|lead)\b/i.test(title)) || !/ethiopia|addis ababa|oromia|amhara|tigray|sidama|hawassa|dire dawa|bahir dar/i.test(searchable)) return null;
-      const category = categoryFor(title);
-      const internship = /\bintern(ship)?\b/i.test(title);
-      return { id: stableId(url), company: text(job.hiringOrganization?.name) || "Ethiopian employer", title, location, mode: /remote/i.test(title) ? "Remote" : /hybrid/i.test(title) ? "Hybrid" : "Onsite", type: internship ? "Internship" : "Full-time Entry Level", experience: internship || /trainee|graduate|entry[- ]level|no experience|fresh/i.test(title) ? "New Grad" : "0-2 Years", industry: category === "Software Engineering" ? "Tech" : category, category, pay: "See listing", paid: false, hoursAgo: hoursAgo(job.datePosted), tags: ["Ethiopia", internship ? "Internship" : "Early career"], url };
-    } catch { return null; }
-  }));
-  jobs.push(...batch.filter(Boolean));
+function meta(html, name) {
+  const match = html.match(new RegExp(`<meta[^>]+(?:name|property)=["']${name}["'][^>]+content=["']([^"']*)["']`, "i"));
+  return text(match?.[1]);
 }
-const unique = [...new Map(jobs.map((job) => [job.url, job])).values()].sort((a, b) => a.hoursAgo - b.hoursAgo).slice(0, 60);
+function pageTitle(html) { return text(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]).replace(/\s*[|–-]\s*(Enat Jobs|EthioJob\.org|Ethiopiawork).*$/i, ""); }
+function locationFor(value) { return /addis ababa/i.test(value) ? "Addis Ababa" : /oromia|amhara|tigray|sidama|hawassa|dire dawa|bahir dar|mekelle|adama/i.test(value) ? (value.match(/(Oromia|Amhara|Tigray|Sidama|Hawassa|Dire Dawa|Bahir Dar|Mekelle|Adama)/i)?.[1] || "Ethiopia") : "Ethiopia"; }
+function toJob({ source, url, title, description, datePosted }) {
+  const searchable = `${title} ${description}`;
+  if (!title || articleSignal.test(title)) return null;
+  const category = categoryFor(searchable);
+  const internship = /\bintern(ship)?\b/i.test(title);
+  const fresh = freshSignal.test(title);
+  return { id: stableId(url), company: source, title, location: locationFor(searchable), mode: /remote/i.test(searchable) ? "Remote" : /hybrid/i.test(searchable) ? "Hybrid" : "Onsite", type: internship ? "Internship" : "Full-time Entry Level", experience: internship || fresh ? "New Grad" : "0-2 Years", industry: category === "Software Engineering" ? "Tech" : category, category, pay: "See listing", paid: false, hoursAgo: datePosted ? hoursAgo(datePosted) : 48, tags: ["Ethiopia", internship ? "Internship" : "Job listing"], url };
+}
+
+async function fetchText(url, timeoutMs = 12000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { headers, signal: controller.signal });
+    return response.ok ? response.text() : "";
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function mapLimit(items, limit, mapper) {
+  const results = [];
+  for (let index = 0; index < items.length; index += limit) {
+    results.push(...await Promise.all(items.slice(index, index + limit).map(mapper)));
+  }
+  return results;
+}
+
+async function collectEthioJobs(source) {
+  const sitemap = await fetchText(source.url, 30000);
+  const urls = [...sitemap.matchAll(/<loc>(https:\/\/ethiojobs\.net\/job\/[^<]+)<\/loc>/g)].map((match) => match[1]).slice(0, 160);
+  return mapLimit(urls, 8, async (url) => {
+    try {
+      const html = await fetchText(url);
+      const job = parseJsonLd(html);
+      if (!job) return null;
+      return toJob({ source: source.name, url, title: text(job.title), description: text(job.description), datePosted: job.datePosted });
+    } catch { return null; }
+  });
+}
+
+async function collectHtmlSource(source) {
+  const listingHtml = await fetchText(source.url);
+  const candidates = [...listingHtml.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .map((match) => ({ url: absoluteUrl(match[1], source.url), label: text(match[2]) }))
+    .filter(({ url, label }) => url && source.linkPattern.test(url) && label.length > 8 && label.length < 180)
+    .slice(0, 80);
+  const unique = [...new Map(candidates.map((item) => [item.url, item])).values()];
+  return mapLimit(unique, 8, async ({ url, label }) => {
+    try {
+      const html = await fetchText(url);
+      const job = parseJsonLd(html);
+      const title = text(job?.title) || label || pageTitle(html);
+      const description = text(job?.description) || meta(html, "description") || meta(html, "og:description");
+      const published = job?.datePosted || meta(html, "article:published_time") || html.match(/<time[^>]+datetime=["']([^"']+)/i)?.[1] || "";
+      return toJob({ source: source.name, url, title, description, datePosted: published });
+    } catch { return null; }
+  });
+}
+
+const collected = [];
+for (const source of SOURCES) {
+  try {
+    const jobs = source.sitemap ? await collectEthioJobs(source) : await collectHtmlSource(source);
+    collected.push(...jobs.filter(Boolean));
+    console.log(`${source.name}: ${jobs.filter(Boolean).length} listings`);
+  } catch (error) {
+    console.warn(`Could not refresh ${source.name}: ${error.message}`);
+  }
+}
+
+const unique = [...new Map(collected.map((job) => [job.url, job])).values()].sort((a, b) => a.hoursAgo - b.hoursAgo).slice(0, 120);
 const source = `// Generated by scripts/scrape-ethiopian-jobs.mjs. Refresh with npm run scrape:jobs.\nimport type { Job } from "./jobs";\n\nexport const scrapedJobs: Job[] = ${JSON.stringify(unique, null, 2)};\n`;
 await mkdir(new URL("../src/data/", import.meta.url), { recursive: true });
 await writeFile(OUTPUT, source);
-console.log(`Saved ${unique.length} fresh Ethiopia jobs to ${OUTPUT.pathname}`);
+console.log(`Saved ${unique.length} Ethiopian jobs from ${SOURCES.length} sources to ${OUTPUT.pathname}`);

@@ -1,4 +1,4 @@
-name: Refresh Ethiopian early-career jobs
+name: Refresh Ethiopian jobs from multiple sources
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Refresh public Ethiopia early-career listings
+      - name: Refresh public Ethiopian job listings
         run: npm run scrape:jobs
       - name: Commit refreshed listings
         run: |

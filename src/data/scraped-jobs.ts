@@ -3,10 +3,10 @@ import type { Job } from "./jobs";
 
 export const scrapedJobs: Job[] = [
   {
-    "id": "scraped-8192fe37b5eb",
-    "company": "Sun Jun Bo Furniture Production",
-    "title": "Production Assistant",
-    "location": "Menagesha, Oromia",
+    "id": "scraped-fe990eaa9983",
+    "company": "Ethiopiawork",
+    "title": "Logistics Technician- Addis Ababa",
+    "location": "Addis Ababa",
     "mode": "Onsite",
     "type": "Full-time Entry Level",
     "experience": "0-2 Years",
@@ -14,18 +14,436 @@ export const scrapedJobs: Job[] = [
     "category": "Operations",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 12,
+    "hoursAgo": 48,
     "tags": [
       "Ethiopia",
-      "Early career"
+      "Job listing"
     ],
-    "url": "https://ethiojobs.net/job/ont94evvxz-production-assistant"
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/logistics-technician-addis-ababa-61632"
   },
   {
-    "id": "scraped-dbd79ac07c60",
-    "company": "Sun Jun Bo Furniture Production",
-    "title": "Finance Assistant",
-    "location": "Menagesha, Oromia",
+    "id": "scraped-1c9452728811",
+    "company": "Ethiopiawork",
+    "title": "Head of Quality Assurance and Standard- Addis Ababa",
+    "location": "Addis Ababa",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/head-quality-assurance-standard-addis-ababa-87077"
+  },
+  {
+    "id": "scraped-05ac9b1dd4aa",
+    "company": "Ethiopiawork",
+    "title": "Cooperative Liaison Officer (Farmer Sourcing)- Field Based",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/cooperative-liaison-officer-farmer-sourcing-field-based-87197"
+  },
+  {
+    "id": "scraped-069b86d495bd",
+    "company": "Ethiopiawork",
+    "title": "Payroll Officer- Addis Ababa",
+    "location": "Addis Ababa",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/payroll-officer-addis-ababa-91040"
+  },
+  {
+    "id": "scraped-37b7477a0299",
+    "company": "Ethiopiawork",
+    "title": "Student Advisor- Ethiopia",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/student-advisor-ethiopia-94856"
+  },
+  {
+    "id": "scraped-99c815241dd8",
+    "company": "Ethiopiawork",
+    "title": "Office Administrator- Afar",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/office-administrator-afar-96835"
+  },
+  {
+    "id": "scraped-2dbf804cb5f1",
+    "company": "Ethiopiawork",
+    "title": "HR Manager- Addis Ababa",
+    "location": "Addis Ababa",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/hr-manager-addis-ababa-97610"
+  },
+  {
+    "id": "scraped-a79ec6d232ec",
+    "company": "Ethiopiawork",
+    "title": "Medicine and Medical Equipment Store Manager- Saris Abo, Akaki Kality, Addis Ababa",
+    "location": "Addis Ababa",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Design",
+    "category": "Design",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/medicine-medical-equipment-store-manager-saris-abo-akaki-kality-addis-ababa"
+  },
+  {
+    "id": "scraped-4998c1870e42",
+    "company": "Ethiopiawork",
+    "title": "ANGULAR Developer (M/F)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Tech",
+    "category": "Software Engineering",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/angular-developer-mf-62750"
+  },
+  {
+    "id": "scraped-29b047b70a3f",
+    "company": "Enat Jobs",
+    "title": "Skip to content",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/jobs/#content"
+  },
+  {
+    "id": "scraped-77c75ebe5053",
+    "company": "Enat Jobs",
+    "title": "Enat Jobs",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/"
+  },
+  {
+    "id": "scraped-f7cf0158c9b4",
+    "company": "Enat Jobs",
+    "title": "Various NGO Job Vacancies – Multiple Roles Available",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/various-ngo-job-vacancies-multiple-roles-available/"
+  },
+  {
+    "id": "scraped-7b9d4510b006",
+    "company": "Enat Jobs",
+    "title": "Various NGO Positions – Multiple Roles Available",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/various-ngo-positions-multiple-roles-available-2/"
+  },
+  {
+    "id": "scraped-40a7c765526d",
+    "company": "Enat Jobs",
+    "title": "Multiple Vacancies – International Clinical Laboratories (ICL)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Healthcare",
+    "category": "Healthcare",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/multiple-vacancies-international-clinical-laboratories-icl/"
+  },
+  {
+    "id": "scraped-ed284fd329f8",
+    "company": "Enat Jobs",
+    "title": "Various NGO Positions – Multiple Roles Available",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/various-ngo-positions-multiple-roles-available/"
+  },
+  {
+    "id": "scraped-ed8b1bb2a923",
+    "company": "Enat Jobs",
+    "title": "Senior Project Associate & Project Associate (IBG) – International Organization for Migration (IOM)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/senior-project-associate-project-associate-ibg-international-organization-for-migration-iom-12/"
+  },
+  {
+    "id": "scraped-019aedbce9b8",
+    "company": "Enat Jobs",
+    "title": "Senior Project Associate & Project Associate (IBG) – International Organization for Migration (IOM)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/senior-project-associate-project-associate-ibg-international-organization-for-migration-iom-11/"
+  },
+  {
+    "id": "scraped-8bd57b46a66b",
+    "company": "Enat Jobs",
+    "title": "Senior Project Associate & Project Associate (IBG) – International Organization for Migration (IOM)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/senior-project-associate-project-associate-ibg-international-organization-for-migration-iom-10/"
+  },
+  {
+    "id": "scraped-19e160781f46",
+    "company": "Enat Jobs",
+    "title": "Senior Project Associate & Project Associate (IBG) – International Organization for Migration (IOM)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/senior-project-associate-project-associate-ibg-international-organization-for-migration-iom-9/"
+  },
+  {
+    "id": "scraped-1b7070b38f01",
+    "company": "Enat Jobs",
+    "title": "Senior Project Associate & Project Associate (IBG) – International Organization for Migration (IOM)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/senior-project-associate-project-associate-ibg-international-organization-for-migration-iom-8/"
+  },
+  {
+    "id": "scraped-d02278e9f59a",
+    "company": "Enat Jobs",
+    "title": "Next &rarr;",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://enatjobs.com/jobs/page/2/"
+  },
+  {
+    "id": "scraped-efb9a4a638d7",
+    "company": "EthioJob.org",
+    "title": "Disclaimer",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/disclaimer/"
+  },
+  {
+    "id": "scraped-87a462265fd2",
+    "company": "EthioJob.org",
+    "title": "Author Info",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 48,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/author-info/"
+  },
+  {
+    "id": "scraped-56ed0d8cb5b1",
+    "company": "EthioJob.org",
+    "title": "Skip to content",
+    "location": "Ethiopia",
     "mode": "Onsite",
     "type": "Full-time Entry Level",
     "experience": "0-2 Years",
@@ -33,18 +451,18 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 12,
+    "hoursAgo": 5541,
     "tags": [
       "Ethiopia",
-      "Early career"
+      "Job listing"
     ],
-    "url": "https://ethiojobs.net/job/zfij4hgthq-finance-assistant"
+    "url": "https://ethiojob.org/#content"
   },
   {
-    "id": "scraped-6bf2ff893f6f",
-    "company": "GKP Construction and Import",
-    "title": "JUNIOR ACCOUNTANT",
-    "location": "Addis Ababa",
+    "id": "scraped-0710143082a6",
+    "company": "EthioJob.org",
+    "title": "Home Page",
+    "location": "Ethiopia",
     "mode": "Onsite",
     "type": "Full-time Entry Level",
     "experience": "0-2 Years",
@@ -52,68 +470,505 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 34,
+    "hoursAgo": 5541,
     "tags": [
       "Ethiopia",
-      "Early career"
+      "Job listing"
     ],
-    "url": "https://ethiojobs.net/job/5zsxgt8rfd-junior-accountant"
+    "url": "https://ethiojob.org/"
   },
   {
-    "id": "scraped-e6020c08ebb7",
-    "company": "Moyee coffee Rosting plc",
-    "title": "Junior HR Officer",
-    "location": "Addis Ababa",
+    "id": "scraped-f6f7d719ccdb",
+    "company": "EthioJob.org",
+    "title": "March 2, 2026 at 9:48 am",
+    "location": "Ethiopia",
     "mode": "Onsite",
     "type": "Full-time Entry Level",
     "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-601"
+  },
+  {
+    "id": "scraped-97accdb0b9f6",
+    "company": "EthioJob.org",
+    "title": "April 24, 2026 at 1:39 pm",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-631"
+  },
+  {
+    "id": "scraped-abb2c5bc80d1",
+    "company": "EthioJob.org",
+    "title": "May 13, 2026 at 9:19 am",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-643"
+  },
+  {
+    "id": "scraped-65b96f30f96c",
+    "company": "EthioJob.org",
+    "title": "May 23, 2026 at 2:25 pm",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-651"
+  },
+  {
+    "id": "scraped-f434bbace001",
+    "company": "EthioJob.org",
+    "title": "June 1, 2026 at 6:10 am",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-660"
+  },
+  {
+    "id": "scraped-6e062e0cac8d",
+    "company": "EthioJob.org",
+    "title": "July 20, 2026 at 6:41 am",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-781"
+  },
+  {
+    "id": "scraped-98aa055e7f69",
+    "company": "EthioJob.org",
+    "title": "July 20, 2026 at 2:47 pm",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-790"
+  },
+  {
+    "id": "scraped-3f401f8825d1",
+    "company": "EthioJob.org",
+    "title": "July 23, 2026 at 9:30 pm",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-793"
+  },
+  {
+    "id": "scraped-c72e38165d9b",
+    "company": "EthioJob.org",
+    "title": "October 17, 2026 at 1:14 am",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#comment-885"
+  },
+  {
+    "id": "scraped-8e21d9c1447a",
+    "company": "EthioJob.org",
+    "title": "Cancel reply",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#respond"
+  },
+  {
+    "id": "scraped-104b3ee64c6b",
+    "company": "EthioJob.org",
+    "title": "View preferences",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5541,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/#"
+  },
+  {
+    "id": "scraped-f238aa9ef57a",
+    "company": "EthioJob.org",
+    "title": "Contact Us",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Design",
+    "category": "Design",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5543,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/contact-us/"
+  },
+  {
+    "id": "scraped-e259da6a3b18",
+    "company": "EthioJob.org",
+    "title": "Yara Trading Ethiopia Jobs 2026 –for Fresh Graduates",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
     "industry": "Operations",
     "category": "Operations",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 44,
+    "hoursAgo": 5716,
     "tags": [
       "Ethiopia",
-      "Early career"
+      "Job listing"
     ],
-    "url": "https://ethiojobs.net/job/ju0ucpxq3q-junior-hr-officer"
+    "url": "https://ethiojob.org/yara-trading-ethiopia-jobs-2026-for-fresh-graduates/"
   },
   {
-    "id": "scraped-c6f5f8ca961c",
-    "company": "Dema Hope Real Estate",
-    "title": "Junior HR Officer",
-    "location": "Addis Ababa",
+    "id": "scraped-98e2895f4b8e",
+    "company": "EthioJob.org",
+    "title": "IRC, GIZ and NGO Jobs This Week",
+    "location": "Ethiopia",
     "mode": "Onsite",
     "type": "Full-time Entry Level",
     "experience": "0-2 Years",
+    "industry": "Tech",
+    "category": "Software Engineering",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5789,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/irc-giz-and-ngo-jobs-this-week/"
+  },
+  {
+    "id": "scraped-80e62bb17590",
+    "company": "EthioJob.org",
+    "title": "National Bank, Zemzem Bank and CBE Jobs This Week",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Tech",
+    "category": "Software Engineering",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5919,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/national-bank-zemzem-bank-and-cbe-jobs-this-week/"
+  },
+  {
+    "id": "scraped-017aa62c63bc",
+    "company": "EthioJob.org",
+    "title": "Yegna Microfinance Jobs 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 5992,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/yegna-microfinance-jobs-2026/"
+  },
+  {
+    "id": "scraped-cc525e306770",
+    "company": "EthioJob.org",
+    "title": "Global,Nib,Zemen and Lion Insurance jobs This Week",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "0-2 Years",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6158,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/globalnibzemen-and-lion-insurance-jobs-thise-week/"
+  },
+  {
+    "id": "scraped-775e56945cc9",
+    "company": "EthioJob.org",
+    "title": "Enat Bank Job Vacancy 2026 – Fresh Graduates (Ethiopia)",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6546,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/enat-bank-job-vacancy-2026-fresh-graduates-ethiopia/"
+  },
+  {
+    "id": "scraped-6084672b9b18",
+    "company": "EthioJob.org",
+    "title": "British Embassy in Addis Ababa Job Vacancy 2026",
+    "location": "Addis Ababa",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
     "industry": "Operations",
     "category": "Operations",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 44,
+    "hoursAgo": 6595,
     "tags": [
       "Ethiopia",
-      "Early career"
+      "Job listing"
     ],
-    "url": "https://ethiojobs.net/job/2ejtctg3oo-junior-hr-officer"
+    "url": "https://ethiojob.org/british-embassy-in-addis-ababa-job-vacancy-2026/"
   },
   {
-    "id": "scraped-3f28033f9ed4",
-    "company": "Central Hills Real Estate",
-    "title": "Junior Real Estate Sales Consultant",
+    "id": "scraped-6362928db715",
+    "company": "EthioJob.org",
+    "title": "Ahadu Bank Job Vacancies 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6634,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/ahadu-bank-job-vacancies-2026/"
+  },
+  {
+    "id": "scraped-d26f67eb91e8",
+    "company": "EthioJob.org",
+    "title": "AMG Steel Factory Job Vacancies 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Operations",
+    "category": "Operations",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6635,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/amg-steel-factory-job-vacancies-2026/"
+  },
+  {
+    "id": "scraped-bd1ef4fbc514",
+    "company": "EthioJob.org",
+    "title": "SNV Netherlands Development Organisation – Project Assistant Intern 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Internship",
+    "experience": "New Grad",
+    "industry": "Design",
+    "category": "Design",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6646,
+    "tags": [
+      "Ethiopia",
+      "Internship"
+    ],
+    "url": "https://ethiojob.org/snv-netherlands-development-organisation-project-assistant-intern-2026/"
+  },
+  {
+    "id": "scraped-2e8bb2d59bd9",
+    "company": "EthioJob.org",
+    "title": "Addis Ababa City Administration Job Vacancies 2026",
     "location": "Addis Ababa",
     "mode": "Onsite",
     "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Marketing",
-    "category": "Marketing",
+    "experience": "New Grad",
+    "industry": "Design",
+    "category": "Design",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 68,
+    "hoursAgo": 6666,
     "tags": [
       "Ethiopia",
-      "Early career"
+      "Job listing"
     ],
-    "url": "https://ethiojobs.net/job/5nzuia8tac-junior-real-estate-sales-consultant"
+    "url": "https://ethiojob.org/addis-ababa-city-administration-job-vacancies-2026/"
+  },
+  {
+    "id": "scraped-c20d79e78d55",
+    "company": "EthioJob.org",
+    "title": "SIKET Bank S.C Job Vacancies 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Tech",
+    "category": "Software Engineering",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6690,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/siket-bank-s-c-job-vacancies-2026/"
+  },
+  {
+    "id": "scraped-e06c68e505a1",
+    "company": "EthioJob.org",
+    "title": "Goh Betoch Bank S.C Job 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6707,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/goh-betoch-bank-s-c-job-2026/"
+  },
+  {
+    "id": "scraped-fa5488b74f8b",
+    "company": "EthioJob.org",
+    "title": "Abay Bank S.C. Job Vacancies 2026",
+    "location": "Ethiopia",
+    "mode": "Onsite",
+    "type": "Full-time Entry Level",
+    "experience": "New Grad",
+    "industry": "Finance",
+    "category": "Finance",
+    "pay": "See listing",
+    "paid": false,
+    "hoursAgo": 6755,
+    "tags": [
+      "Ethiopia",
+      "Job listing"
+    ],
+    "url": "https://ethiojob.org/abay-bank-s-c-job-vacancies-2026/"
   }
 ];
