@@ -80,7 +80,7 @@ inance, Healthcare, Operations).
 
 This project was built with [Lovable](https://lovable.dev).
 
-**Live app**: https://find-your-first.lovable.app
+**Live app**: https://serategna.com.et
 
 ## Build with Lovable
 

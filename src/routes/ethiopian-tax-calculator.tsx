@@ -12,7 +12,7 @@ export const Route = createFileRoute("/ethiopian-tax-calculator")({
       { property: "og:description", content: "Estimate Ethiopian PAYE, pension deductions, and take-home pay." },
       { name: "robots", content: "index,follow" },
     ],
-    links: [{ rel: "canonical", href: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/ethiopian-tax-calculator" }],
+    links: [{ rel: "canonical", href: "https://serategna.com.et/ethiopian-tax-calculator" }],
   }),
   component: EthiopianTaxCalculator,
 });

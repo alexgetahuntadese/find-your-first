@@ -11,7 +11,7 @@ export const Route = createFileRoute("/currency-converter")({
       { property: "og:description", content: "Convert ETB and major world currencies with current daily reference rates." },
       { name: "robots", content: "index,follow" },
     ],
-    links: [{ rel: "canonical", href: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/currency-converter" }],
+    links: [{ rel: "canonical", href: "https://serategna.com.et/currency-converter" }],
   }),
   component: CurrencyConverter,
 });

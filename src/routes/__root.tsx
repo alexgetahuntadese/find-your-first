@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Internships and entry-level jobs." },
       { name: "theme-color", content: "#eff2fa" },
       { property: "og:site_name", content: "SERATEGNA" },
-      { property: "og:url", content: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/" },
+      { property: "og:url", content: "https://serategna.com.et/" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -108,9 +108,9 @@ function RootShell({ children }: { children: ReactNode }) {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "SERATEGNA",
-          url: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/",
+          url: "https://serategna.com.et/",
           description: "Early-career jobs, Ethiopian calendar tools, and practical online converters.",
-          potentialAction: { "@type": "SearchAction", target: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/?q={search_term_string}", "query-input": "required name=search_term_string" },
+          potentialAction: { "@type": "SearchAction", target: "https://serategna.com.et/?q={search_term_string}", "query-input": "required name=search_term_string" },
         }) }} />
       </head>
       <body>

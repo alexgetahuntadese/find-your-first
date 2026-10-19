@@ -25,13 +25,13 @@ function parseJsonLd(html) {
 }
 function hoursAgo(date) { const parsed = Date.parse(date || ""); return Number.isFinite(parsed) ? Math.max(0, Math.floor((Date.now() - parsed) / 3600000)) : 0; }
 
-const sitemap = await (await fetch(SITEMAP_URL, { headers: { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://find-your-first-x5un-8ylvz7cqb.vercel.app/)" } })).text();
+const sitemap = await (await fetch(SITEMAP_URL, { headers: { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" } })).text();
 const urls = [...sitemap.matchAll(/<loc>(https:\/\/ethiojobs\.net\/job\/[^<]+)<\/loc>/g)].map((match) => match[1]).slice(0, 120);
 const jobs = [];
 for (let index = 0; index < urls.length; index += 6) {
   const batch = await Promise.all(urls.slice(index, index + 6).map(async (url) => {
     try {
-      const response = await fetch(url, { headers: { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://find-your-first-x5un-8ylvz7cqb.vercel.app/)" } });
+      const response = await fetch(url, { headers: { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" } });
       if (!response.ok) return null;
       const job = parseJsonLd(await response.text());
       if (!job) return null;

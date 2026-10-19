@@ -12,7 +12,7 @@ export const Route = createFileRoute("/unit-converter")({
       { property: "og:description", content: "Fast, free online conversions for everyday units." },
       { name: "robots", content: "index,follow" },
     ],
-    links: [{ rel: "canonical", href: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/unit-converter" }],
+    links: [{ rel: "canonical", href: "https://serategna.com.et/unit-converter" }],
   }),
   component: UnitConverter,
 });
