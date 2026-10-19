@@ -1,0 +1,29 @@
+name: Refresh Ethiopian early-career jobs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out SERATEGNA
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh public Ethiopia early-career listings
+        run: npm run scrape:jobs
+      - name: Commit refreshed listings
+        run: |
+          git config user.name "SERATEGNA Job Indexer"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/scraped-jobs.ts
+          git diff --cached --quiet || git commit -m "Refresh Ethiopian early-career jobs"
+          git push

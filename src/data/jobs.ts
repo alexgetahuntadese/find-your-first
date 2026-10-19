@@ -23,7 +23,7 @@ export interface Job {
   url: string;
 }
 
-export const jobs: Job[] = [
+const seedJobs: Job[] = [
   { id: "1", company: "Sun Jun Bo Furniture Production", title: "Showroom Manager", location: "Addis Ababa", mode: "Onsite", type: "Full-time Entry Level", experience: "0-2 Years", industry: "Operations", category: "Operations", pay: "Negotiable", paid: true, hoursAgo: 0, tags: ["Sales", "Retail", "Leadership"], featured: true, hue: 285, url: "https://ethiojobs.net/job/Rf9wdVtoOU-showroom-manager" },
   { id: "2", company: "Sun Jun Bo Furniture Production", title: "Showroom Sales Associate", location: "Addis Ababa", mode: "Onsite", type: "Full-time Entry Level", experience: "New Grad", industry: "Operations", category: "Marketing", pay: "Negotiable", paid: true, hoursAgo: 0, tags: ["Sales", "Customer Service"], hue: 292, url: "https://ethiojobs.net/job/tX57wyv1AP-showroom-sales-associate" },
   { id: "3", company: "Sun Jun Bo Furniture Production", title: "IT Support Specialist", location: "Addis Ababa", mode: "Onsite", type: "Full-time Entry Level", experience: "0-2 Years", industry: "Tech", category: "Software Engineering", pay: "Negotiable", paid: true, hoursAgo: 0, tags: ["Networking", "Hardware", "PMS"], featured: true, hue: 300, url: "https://ethiojobs.net/job/9RoIOvnYjK-it-support-specialist" },
@@ -38,8 +38,12 @@ export const jobs: Job[] = [
   { id: "12", company: "GKP Construction and Import", title: "Irrigation Foreman / Engineer", location: "Addis Ababa", mode: "Onsite", type: "Full-time Entry Level", experience: "0-2 Years", industry: "Operations", category: "Operations", pay: "Negotiable", paid: true, hoursAgo: 24, tags: ["Engineering", "Irrigation"], hue: 312, url: "https://ethiojobs.net/job/waD2h2JJ98-irrigation-foreman-engineer" },
 ];
 
+export const jobs: Job[] = [...new Map([...scrapedJobs, ...seedJobs].map((job) => [job.url, job])).values()];
+
 export function postedLabel(h: number) {
   if (h < 24) return `${h}h ago`;
   const d = Math.floor(h / 24);
   return `${d}d ago`;
 }
+import { scrapedJobs } from "./scraped-jobs";
+
