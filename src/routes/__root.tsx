@@ -79,13 +79,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SERATEGNA" },
-      { name: "description", content: "Internships and entry-level jobs." },
+      { title: "SERATEGNA — Ethiopia Jobs, News, Tools & Opportunities" },
+      { name: "description", content: "Find internships, entry-level jobs, Ethiopian news, business listings, calculators, converters, and practical tools on SERATEGNA." },
       { name: "theme-color", content: "#eff2fa" },
       { property: "og:site_name", content: "SERATEGNA" },
       { property: "og:url", content: "https://serategna.com.et/" },
+      { property: "og:type", content: "website" },
+      { property: "og:title", content: "SERATEGNA — Ethiopia Jobs, News, Tools & Opportunities" },
+      { property: "og:description", content: "Jobs, Ethiopian news, business listings, and practical tools in one useful platform." },
+      { property: "og:image", content: "https://serategna.com.et/og-image.svg" },
+      { property: "og:image:alt", content: "SERATEGNA — Ethiopia jobs, news, and tools" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "SERATEGNA — Ethiopia Jobs, News, Tools & Opportunities" },
+      { name: "twitter:description", content: "Jobs, Ethiopian news, business listings, and practical tools in one useful platform." },
+      { name: "twitter:image", content: "https://serategna.com.et/og-image.svg" },
     ],
     links: [
+      { rel: "canonical", href: "https://serategna.com.et/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" },
@@ -107,10 +117,22 @@ function RootShell({ children }: { children: ReactNode }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
+          "@id": "https://serategna.com.et/#website",
           name: "SERATEGNA",
           url: "https://serategna.com.et/",
-          description: "Early-career jobs, Ethiopian calendar tools, and practical online converters.",
+          inLanguage: ["en", "am"],
+          description: "Ethiopia jobs, news, business listings, and practical online tools.",
+          publisher: { "@id": "https://serategna.com.et/#organization" },
           potentialAction: { "@type": "SearchAction", target: "https://serategna.com.et/?q={search_term_string}", "query-input": "required name=search_term_string" },
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://serategna.com.et/#organization",
+          name: "SERATEGNA",
+          url: "https://serategna.com.et/",
+          logo: "https://serategna.com.et/favicon.ico",
+          areaServed: { "@type": "Country", name: "Ethiopia" },
         }) }} />
       </head>
       <body>

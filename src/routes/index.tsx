@@ -15,8 +15,12 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "SERATEGNA — Internships & Entry-Level Jobs" },
       { property: "og:description", content: "Hand-picked daily opportunities for students, new grads, and junior pros." },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://serategna.com.et/" },
+      { property: "og:image", content: "https://serategna.com.et/og-image.svg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "https://serategna.com.et/og-image.svg" },
     ],
+    links: [{ rel: "canonical", href: "https://serategna.com.et/" }],
   }),
   component: Index,
 });
