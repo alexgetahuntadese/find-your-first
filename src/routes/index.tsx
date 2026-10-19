@@ -1,10 +1,9 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, CalendarDays, Calculator, ReceiptText, Coins, Globe2 } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
-import { getSession } from "@/lib/auth";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -40,7 +39,6 @@ function toggle<T>(arr: T[], v: T) {
 
 function Index() {
   const navigate = useNavigate();
-  const session = getSession();
   const [darkMode, setDarkMode] = useState(false);
   const [q, setQ] = useState("");
   const [loc, setLoc] = useState("");
@@ -136,12 +134,7 @@ function Index() {
             <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
-            <button onClick={() => navigate({ to: "/blog" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Blog</button>
-            <button onClick={() => navigate({ to: "/calendar" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><CalendarDays className="h-4 w-4" /> Calendar</button>
-            <button onClick={() => navigate({ to: "/unit-converter" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><Calculator className="h-4 w-4" /> Converter</button>
-            <button onClick={() => navigate({ to: "/ethiopian-tax-calculator" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><ReceiptText className="h-4 w-4" /> Tax</button>
-            <button onClick={() => navigate({ to: "/currency-converter" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><Coins className="h-4 w-4" /> Currency</button>
-            <button onClick={() => navigate({ to: "/ethiopia" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><Globe2 className="h-4 w-4" /> Ethiopia</button>
+            <button onClick={() => navigate({ to: "/post" })} className="rounded-full bg-gradient-primary px-3 py-1.5 font-medium text-primary-foreground transition-transform hover:scale-[1.02]">Post a job</button>
           </div>
         </div>
       </header>
