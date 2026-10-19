@@ -1,10 +1,11 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, CalendarDays, Calculator, ReceiptText, Coins, Globe2 } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, CalendarDays, Calculator, ReceiptText, Coins, Globe2, Newspaper, Clock3 } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
 import { getSession } from "@/lib/auth";
+import { latestNews } from "@/data/news";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -191,6 +192,17 @@ function Index() {
         </div>
       </section>
 
+      <section className="border-b bg-secondary/20">
+        <div className="mx-auto max-w-6xl px-4 py-10">
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div><p className="flex items-center gap-2 text-sm font-medium text-primary"><Newspaper className="h-4 w-4" /> Ethiopia today</p><h2 className="mt-1 text-2xl font-semibold tracking-tight">Latest news</h2><p className="mt-1 text-sm text-muted-foreground">Fresh headlines and short summaries, right here on SERATEGNA.</p></div>
+            <span className="text-xs text-muted-foreground">Updated hourly</span>
+          </div>
+          {latestNews.length > 0 ? <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">{latestNews.slice(0, 6).map((item) => <article key={`${item.source}-${item.title}`} className="rounded-2xl border bg-card p-5"><div className="flex items-center justify-between gap-3 text-xs text-muted-foreground"><span className="font-medium text-primary">{item.source}</span><span className="flex items-center gap-1"><Clock3 className="h-3.5 w-3.5" />{formatNewsDate(item.publishedAt)}</span></div><h3 className="mt-3 font-semibold leading-6">{item.title}</h3>{item.summary && <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.summary}</p>}</article>)}</div> : <div className="mt-6 rounded-2xl border border-dashed bg-card p-6 text-sm text-muted-foreground">News is being refreshed. Check back shortly for the latest headlines.</div>}
+          <p className="mt-4 text-xs text-muted-foreground">Headlines are aggregated from public feeds and attributed to their publishers. SERATEGNA does not republish full articles.</p>
+        </div>
+      </section>
+
       <main id="feed" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-10">
         <div className="-mx-4 mb-6 flex gap-1 overflow-x-auto px-4 pb-1">
           {TABS.map((t) => (
@@ -241,6 +253,12 @@ function Index() {
       )}
     </div>
   );
+}
+
+function formatNewsDate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Recently";
+  return new Intl.DateTimeFormat("en", { month: "short", day: "numeric" }).format(date);
 }
 
 function FilterGroup<T extends string>({ title, items, selected, onToggle }: { title: string; items: T[]; selected: T[]; onToggle: (v: T) => void }) {

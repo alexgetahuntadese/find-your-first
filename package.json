@@ -13,6 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest"
     ,"scrape:jobs": "node scripts/scrape-ethiopian-jobs.mjs"
+    ,"scrape:news": "node scripts/scrape-ethiopian-news.mjs"
   },
   "overrides": {
     "rolldown": "1.2.1"
