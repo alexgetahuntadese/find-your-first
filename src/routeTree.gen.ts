@@ -15,6 +15,7 @@ import { Route as AuthRouteImport } from './routes/auth'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as PostRouteImport } from './routes/post'
 import { Route as CalendarRouteImport } from './routes/calendar'
+import { Route as UnitConverterRouteImport } from './routes/unit-converter'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -46,6 +47,11 @@ const CalendarRoute = CalendarRouteImport.update({
   path: '/calendar',
   getParentRoute: () => rootRouteImport,
 } as any)
+const UnitConverterRoute = UnitConverterRouteImport.update({
+  id: '/unit-converter',
+  path: '/unit-converter',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -54,6 +60,7 @@ export interface FileRoutesByFullPath {
   '/blog': typeof BlogRoute
   '/post': typeof PostRoute
   '/calendar': typeof CalendarRoute
+  '/unit-converter': typeof UnitConverterRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -62,6 +69,7 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogRoute
   '/post': typeof PostRoute
   '/calendar': typeof CalendarRoute
+  '/unit-converter': typeof UnitConverterRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -71,13 +79,14 @@ export interface FileRoutesById {
   '/blog': typeof BlogRoute
   '/post': typeof PostRoute
   '/calendar': typeof CalendarRoute
+  '/unit-converter': typeof UnitConverterRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar'
+  fullPaths: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar'
-  id: '__root__' | '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar'
+  to: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter'
+  id: '__root__' | '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -87,6 +96,7 @@ export interface RootRouteChildren {
   BlogRoute: typeof BlogRoute
   PostRoute: typeof PostRoute
   CalendarRoute: typeof CalendarRoute
+  UnitConverterRoute: typeof UnitConverterRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -133,6 +143,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CalendarRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/unit-converter': {
+      id: '/unit-converter'
+      path: '/unit-converter'
+      fullPath: '/unit-converter'
+      preLoaderRoute: typeof UnitConverterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -143,6 +160,7 @@ const rootRouteChildren: RootRouteChildren = {
   BlogRoute: BlogRoute,
   PostRoute: PostRoute,
   CalendarRoute: CalendarRoute,
+  UnitConverterRoute: UnitConverterRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

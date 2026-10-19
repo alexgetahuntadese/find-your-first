@@ -82,6 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "SERATEGNA" },
       { name: "description", content: "Internships and entry-level jobs." },
       { name: "theme-color", content: "#eff2fa" },
+      { property: "og:site_name", content: "SERATEGNA" },
+      { property: "og:url", content: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -102,6 +104,14 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "SERATEGNA",
+          url: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/",
+          description: "Early-career jobs, Ethiopian calendar tools, and practical online converters.",
+          potentialAction: { "@type": "SearchAction", target: "https://find-your-first-x5un-8ylvz7cqb.vercel.app/?q={search_term_string}", "query-input": "required name=search_term_string" },
+        }) }} />
       </head>
       <body>
         {children}
