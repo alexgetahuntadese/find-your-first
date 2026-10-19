@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
@@ -50,6 +50,7 @@ function Index() {
   const [saved, setSaved] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [drawer, setDrawer] = useState(false);
+  const [exploreOpen, setExploreOpen] = useState(false);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("launchboard-theme");
@@ -134,6 +135,21 @@ function Index() {
             <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
+            <div className="relative">
+              <button onClick={() => setExploreOpen((open) => !open)} aria-expanded={exploreOpen} className="inline-flex items-center gap-1 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary"><span className="hidden sm:inline">Explore Ethiopia</span><span className="sm:hidden">Explore</span><ChevronDown className={`h-4 w-4 transition-transform ${exploreOpen ? "rotate-180" : ""}`} /></button>
+              {exploreOpen && <>
+                <button aria-label="Close explore menu" className="fixed inset-0 z-40 cursor-default" onClick={() => setExploreOpen(false)} />
+                <nav className="absolute right-0 z-50 mt-2 w-56 rounded-xl border bg-card p-2 text-left shadow-xl">
+                  <p className="px-3 pb-2 pt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">Ethiopia hub</p>
+                  <a href="/ethiopia#news" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Ethiopian News</a>
+                  <a href="/#feed" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Jobs</a>
+                  <a href="/ethiopia#real-estate" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Real Estate</a>
+                  <a href="/ethiopia#entertainment" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Entertainment</a>
+                  <a href="/ethiopia#classifieds" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Classifieds</a>
+                  <a href="/ethiopia#business" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Business Directory</a>
+                </nav>
+              </>}
+            </div>
             <button onClick={() => navigate({ to: "/post" })} className="rounded-full bg-gradient-primary px-3 py-1.5 font-medium text-primary-foreground transition-transform hover:scale-[1.02]">Post a job</button>
           </div>
         </div>
