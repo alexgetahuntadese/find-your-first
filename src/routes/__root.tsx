@@ -79,6 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "google-site-verification", content: "_EbEVXSgjtdwMhRTP9dr8I6Y67zhdkox1Nm-EHeSC-I" },
       { title: "SERATEGNA — Ethiopia Jobs, News, Tools & Opportunities" },
       { name: "description", content: "Find internships, entry-level jobs, Ethiopian news, business listings, calculators, converters, and practical tools on SERATEGNA." },
       { name: "theme-color", content: "#eff2fa" },
