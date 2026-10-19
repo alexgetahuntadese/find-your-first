@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown, CalendarDays, ExternalLink } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
@@ -82,6 +82,17 @@ function Index() {
     localStorage.setItem("launchboard-theme", nextTheme ? "dark" : "light");
   };
 
+  const shareSite = async () => {
+    const shareData = { title: "SERATEGNA — Jobs in Ethiopia", text: "Find internships and entry-level jobs in Ethiopia on SERATEGNA.", url: window.location.origin };
+    try {
+      if (navigator.share) await navigator.share(shareData);
+      else { await navigator.clipboard.writeText(shareData.url); toast.success("SERATEGNA link copied"); }
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      toast.error("Could not share the site");
+    }
+  };
+
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
     return jobs.filter((j) => {
@@ -150,6 +161,7 @@ function Index() {
                 </nav>
               </>}
             </div>
+            <button onClick={shareSite} aria-label="Share SERATEGNA" title="Share SERATEGNA" className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary"><Share2 className="h-4 w-4" /></button>
             <button onClick={() => navigate({ to: "/post" })} className="rounded-full bg-gradient-primary px-3 py-1.5 font-medium text-primary-foreground transition-transform hover:scale-[1.02]">Post a job</button>
           </div>
         </div>
