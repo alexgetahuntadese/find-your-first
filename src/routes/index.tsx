@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown, CalendarDays, ExternalLink } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
@@ -284,6 +284,7 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
             {job.company}
+            {job.source && <span className="text-xs">· via {job.source}</span>}
             {job.featured && <span className="rounded-full bg-accent px-2 py-0.5 text-[11px] font-medium text-accent-foreground">Featured</span>}
           </div>
           <h3 className="mt-0.5 font-medium leading-snug">{job.title}</h3>
@@ -297,6 +298,7 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
           <div className="mt-3 flex flex-wrap gap-1.5">
             {job.tags.map((t) => <span key={t} className="rounded-md bg-secondary px-2 py-0.5 text-xs text-secondary-foreground">{t}</span>)}
           </div>
+          {job.description && <details className="mt-3 rounded-lg border bg-background/60 px-3 py-2 text-sm"><summary className="cursor-pointer font-medium">View job details</summary><p className="mt-2 leading-6 text-muted-foreground">{job.description}</p>{job.deadline && <p className="mt-2 flex items-center gap-1.5 text-xs text-foreground"><CalendarDays className="h-3.5 w-3.5" /> Deadline: {formatDeadline(job.deadline)}</p>}</details>}
         </div>
       </div>
       <div className="mt-4 flex gap-2 sm:absolute sm:right-5 sm:top-5 sm:mt-0 sm:opacity-0 sm:transition-opacity sm:group-hover:opacity-100 sm:focus-within:opacity-100">
@@ -306,12 +308,17 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
         </button>
         <a href={job.url} target="_blank" rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-1 rounded-lg bg-gradient-primary px-4 text-sm font-medium text-primary-foreground sm:flex-none">
-          Apply on EthioJobs <ArrowUpRight className="h-4 w-4" />
+          Apply{job.source ? ` on ${job.source}` : " now"} <ExternalLink className="h-4 w-4" />
         </a>
       </div>
       {saved && <Heart className="absolute right-4 top-4 hidden h-4 w-4 fill-current text-destructive sm:block sm:group-hover:hidden" />}
     </article>
   );
+}
+
+function formatDeadline(value: string) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : new Intl.DateTimeFormat("en", { dateStyle: "medium" }).format(date);
 }
 
 function Badge({ children, className }: { children: React.ReactNode; className?: string }) {

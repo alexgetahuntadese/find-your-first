@@ -18,6 +18,9 @@ export interface Job {
   paid: boolean;
   hoursAgo: number;
   tags: string[];
+  description?: string;
+  deadline?: string;
+  source?: string;
   featured?: boolean;
   hue: number;
   url: string;

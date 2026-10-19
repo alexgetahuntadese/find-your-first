@@ -36,14 +36,24 @@ function meta(html, name) {
   return text(match?.[1]);
 }
 function pageTitle(html) { return text(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]).replace(/\s*[|–-]\s*(Enat Jobs|EthioJob\.org|Ethiopiawork).*$/i, ""); }
+function pageDescription(html, title) {
+  const body = text(html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1]);
+  const marker = body.search(/job ad|job description|position\s*:/i);
+  const start = marker >= 0 ? marker : Math.max(body.indexOf(title) + title.length, 0);
+  return body.slice(start, start + 1000);
+}
+function normalizeDate(value) {
+  const match = String(value || "").match(/(\d{2})\.(\d{2})\.(\d{4})/);
+  return match ? `${match[3]}-${match[2]}-${match[1]}` : value;
+}
 function locationFor(value) { return /addis ababa/i.test(value) ? "Addis Ababa" : /oromia|amhara|tigray|sidama|hawassa|dire dawa|bahir dar|mekelle|adama/i.test(value) ? (value.match(/(Oromia|Amhara|Tigray|Sidama|Hawassa|Dire Dawa|Bahir Dar|Mekelle|Adama)/i)?.[1] || "Ethiopia") : "Ethiopia"; }
-function toJob({ source, url, title, description, datePosted }) {
+function toJob({ source, company, url, title, description, datePosted, deadline }) {
   const searchable = `${title} ${description}`;
   if (!title || articleSignal.test(title)) return null;
   const category = categoryFor(searchable);
   const internship = /\bintern(ship)?\b/i.test(title);
   const fresh = freshSignal.test(title);
-  return { id: stableId(url), company: source, title, location: locationFor(searchable), mode: /remote/i.test(searchable) ? "Remote" : /hybrid/i.test(searchable) ? "Hybrid" : "Onsite", type: internship ? "Internship" : "Full-time Entry Level", experience: internship || fresh ? "New Grad" : "0-2 Years", industry: category === "Software Engineering" ? "Tech" : category, category, pay: "See listing", paid: false, hoursAgo: datePosted ? hoursAgo(datePosted) : 48, tags: ["Ethiopia", internship ? "Internship" : "Job listing"], url };
+  return { id: stableId(url), company: company || source, source, title, location: locationFor(searchable), mode: /remote/i.test(searchable) ? "Remote" : /hybrid/i.test(searchable) ? "Hybrid" : "Onsite", type: internship ? "Internship" : "Full-time Entry Level", experience: internship || fresh ? "New Grad" : "0-2 Years", industry: category === "Software Engineering" ? "Tech" : category, category, pay: "See listing", paid: false, hoursAgo: datePosted ? hoursAgo(datePosted) : 48, description: description.slice(0, 700), deadline, tags: ["Ethiopia", internship ? "Internship" : "Job listing"], url };
 }
 
 async function fetchText(url, timeoutMs = 12000) {
@@ -73,7 +83,7 @@ async function collectEthioJobs(source) {
       const html = await fetchText(url);
       const job = parseJsonLd(html);
       if (!job) return null;
-      return toJob({ source: source.name, url, title: text(job.title), description: text(job.description), datePosted: job.datePosted });
+      return toJob({ source: source.name, company: text(job.hiringOrganization?.name), url, title: text(job.title), description: text(job.description), datePosted: job.datePosted, deadline: job.validThrough });
     } catch { return null; }
   });
 }
@@ -90,9 +100,9 @@ async function collectHtmlSource(source) {
       const html = await fetchText(url);
       const job = parseJsonLd(html);
       const title = text(job?.title) || label || pageTitle(html);
-      const description = text(job?.description) || meta(html, "description") || meta(html, "og:description");
-      const published = job?.datePosted || meta(html, "article:published_time") || html.match(/<time[^>]+datetime=["']([^"']+)/i)?.[1] || "";
-      return toJob({ source: source.name, url, title, description, datePosted: published });
+      const description = text(job?.description) || meta(html, "description") || meta(html, "og:description") || pageDescription(html, title);
+      const published = job?.datePosted || meta(html, "article:published_time") || html.match(/<time[^>]+datetime=["']([^"']+)/i)?.[1] || normalizeDate(html.match(/published on\s+(\d{2}\.\d{2}\.\d{4})/i)?.[1]) || "";
+      return toJob({ source: source.name, url, title, description, datePosted: published, deadline: meta(html, "job:deadline") });
     } catch { return null; }
   });
 }
