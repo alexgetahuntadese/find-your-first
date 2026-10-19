@@ -51,4 +51,52 @@ export const posts: Post[] = [
       "Ask for a letter or certificate at the end — it strengthens every future application.",
     ],
   },
+  {
+    slug: "find-internships-ethiopia",
+    title: "How to find internships in Ethiopia",
+    excerpt: "A practical weekly routine for finding, checking, and applying to internships in Ethiopia.",
+    date: "Oct 3, 2026", read: "6 min",
+    body: [
+      "Start with a clear target: choose two or three role families such as accounting, software, sales, communications, laboratory work, or operations. A focused search makes it easier to tailor your CV and spot a real match.",
+      "Check new listings every morning and keep a simple application tracker with the company, role, closing date, contact, and status. Apply early because entry-level opportunities can close quickly.",
+      "Use your university network. Ask lecturers, career offices, alumni, and internship supervisors about openings, but verify every opportunity through an official company contact or website.",
+      "Before accepting an internship, confirm the duties, location, schedule, supervisor, stipend or transport support, and whether you will receive a certificate or reference. Never pay a recruiter to secure a job.",
+    ],
+  },
+  {
+    slug: "entry-level-jobs-addis-ababa",
+    title: "Entry-level jobs in Addis Ababa: what to prepare",
+    excerpt: "Documents, skills, and application habits that help new graduates compete for Addis Ababa roles.",
+    date: "Sep 29, 2026", read: "5 min",
+    body: [
+      "Keep a ready-to-send application folder with your CV, degree or temporary certificate, transcript, ID, internship letters, and two references. Use clear filenames and keep both PDF and printed copies.",
+      "For many Addis Ababa roles, practical skills can make a difference: Excel, accounting software, customer service, English writing, data entry, digital marketing, coding, and professional communication are useful across industries.",
+      "Tailor the first third of your CV to the job. If the employer needs an assistant, show organization and reporting experience; if the employer needs a junior developer, show projects and the tools you used.",
+      "Be precise about your location and availability. If you can work in Addis Ababa, nearby towns, onsite, hybrid, or remote, say so clearly and provide a phone number that you answer professionally.",
+    ],
+  },
+  {
+    slug: "avoid-job-scams-ethiopia",
+    title: "How to avoid job scams in Ethiopia",
+    excerpt: "Simple checks to protect yourself when applying for jobs, internships, and overseas opportunities.",
+    date: "Sep 24, 2026", read: "5 min",
+    body: [
+      "Be careful when a recruiter promises guaranteed employment, asks for money before an interview, or refuses to identify the employer. A legitimate employer should explain the role and hiring process clearly.",
+      "Check the sender’s email domain and compare the opportunity with the employer’s official website or verified social account. Do not trust a logo, letterhead, or copied job description by itself.",
+      "Never send passwords, one-time codes, bank PINs, or unnecessary identity documents during an application. Share sensitive documents only after you have verified the employer and understand why they are needed.",
+      "Keep evidence of suspicious messages and report them to the platform, the claimed employer, and the relevant authorities. If an offer feels rushed or secretive, pause and verify it before responding.",
+    ],
+  },
+  {
+    slug: "write-application-email-ethiopia",
+    title: "How to write a job application email in Ethiopia",
+    excerpt: "A concise structure for sending a professional CV and application message by email.",
+    date: "Sep 18, 2026", read: "4 min",
+    body: [
+      "Use a specific subject line such as ‘Application — Junior Accountant — Your Name’. This helps a recruiter identify the role quickly and keeps your application from looking like spam.",
+      "In the first sentence, name the role and where you found it. In the next two or three sentences, connect your education, experience, and strongest relevant skill to the employer’s need.",
+      "Attach a PDF CV with a professional filename, for example ‘YourName-Junior-Accountant-CV.pdf’. Check that the file opens on a phone and that your phone number and email address are correct.",
+      "Close politely with your availability and phone number. Read the message once before sending and do not send the same generic email to many employers without changing the role and company name.",
+    ],
+  },
 ];

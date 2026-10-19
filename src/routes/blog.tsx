@@ -4,10 +4,10 @@ import { posts } from "@/data/posts";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Fresh Graduate Career Blog — SERATEGNA" },
-      { name: "description", content: "Career advice for fresh graduates in Ethiopia: CVs, interviews, internships and landing your first job." },
-      { property: "og:title", content: "Fresh Graduate Career Blog — SERATEGNA" },
-      { property: "og:description", content: "Career advice for fresh graduates in Ethiopia." },
+      { title: "Ethiopia Job Search Guides — CVs, Interviews & Internships | SERATEGNA" },
+      { name: "description", content: "Practical Ethiopia job search guides for fresh graduates: CVs, interviews, internships, application emails, and scam prevention." },
+      { property: "og:title", content: "Ethiopia Job Search Guides | SERATEGNA" },
+      { property: "og:description", content: "Practical career advice for Ethiopian students and fresh graduates." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -20,8 +20,8 @@ function Blog() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
       <Link to="/" className="text-sm text-muted-foreground hover:text-foreground">← Back to jobs</Link>
-      <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Fresh Graduate Career Blog</h1>
-      <p className="mt-2 text-muted-foreground">Practical advice for starting your career in Ethiopia.</p>
+      <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Ethiopia job search guides</h1>
+      <p className="mt-2 text-muted-foreground">Practical advice for CVs, interviews, internships, applications, and starting your career in Ethiopia.</p>
       <div className="mt-8 space-y-6">
         {posts.map((p) => (
           <article key={p.slug} id={p.slug} className="rounded-xl border bg-card p-5">

@@ -8,10 +8,10 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SERATEGNA — Internships & Entry-Level Jobs" },
-      { name: "description", content: "Hand-picked daily internships and entry-level roles for students, fresh graduates, and junior professionals." },
-      { property: "og:title", content: "SERATEGNA — Internships & Entry-Level Jobs" },
-      { property: "og:description", content: "Hand-picked daily opportunities for students, new grads, and junior pros." },
+      { title: "Jobs in Ethiopia — Internships & Entry-Level Roles | SERATEGNA" },
+      { name: "description", content: "Find daily internships, fresh graduate jobs, and entry-level opportunities in Ethiopia, Addis Ababa, and remote roles." },
+      { property: "og:title", content: "Jobs in Ethiopia — Internships & Entry-Level Roles" },
+      { property: "og:description", content: "Daily opportunities for students, fresh graduates, and junior professionals in Ethiopia." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://serategna.com.et/" },
       { property: "og:image", content: "https://serategna.com.et/og-image.svg" },
@@ -163,10 +163,10 @@ function Index() {
             <Sparkles className="h-3.5 w-3.5 text-primary-glow" /> {jobs.filter((j) => j.hoursAgo < 24).length} new roles added today
           </span>
           <h1 className="text-gradient mt-5 text-4xl font-semibold tracking-tight sm:text-6xl">
-            Launch Your Career with Top Internships & Entry-Level Roles.
+            Jobs in Ethiopia for your first opportunity.
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground sm:text-lg">
-            Hand-picked daily opportunities for students, fresh graduates, and junior professionals.
+            Find internships, fresh graduate jobs, and entry-level roles in Addis Ababa, across Ethiopia, and remotely.
           </p>
 
           <form onSubmit={(e) => { e.preventDefault(); document.getElementById("feed")?.scrollIntoView({ behavior: "smooth" }); }}
@@ -237,7 +237,7 @@ function Index() {
         </div>
       </main>
 
-      <footer className="border-t py-8 text-center text-sm text-muted-foreground">© 2026 SERATEGNA · Built for early-career talent</footer>
+      <footer className="border-t py-8 text-center text-sm text-muted-foreground">© 2026 SERATEGNA · Built for early-career talent · <button onClick={() => navigate({ to: "/blog" })} className="text-primary hover:underline">Career guides</button></footer>
 
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden">
