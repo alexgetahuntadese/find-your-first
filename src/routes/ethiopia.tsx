@@ -33,12 +33,12 @@ const realEstate = [
 ];
 
 const entertainment = [
-  "Saba Andemariam — Awdeamet Eritrean Tigrigna Music",
-  "ወጥመድ — Ethiopian movie 2026",
-  "Tesfa Getaneh — Shewayew Ethiopian Amharic Music",
-  "Yo Mariyos — Bahir Dar Ethiopian Music",
-  "Medhanit Tamirat — Zafu Ethiopian Music",
-  "Mekonen Ezra — Zemed Ethiopian Tigrigna Music",
+  ["Saba Andemariam — Awdeamet Eritrean Tigrigna Music", "https://www.youtube.com/results?search_query=Saba+Andemariam+Awdeamet"],
+  ["ወጥመድ — Ethiopian movie 2026", "https://www.youtube.com/results?search_query=Ethiopian+movie+2026+%E1%8B%88%E1%8C%A5%E1%88%98%E1%8B%B5"],
+  ["Tesfa Getaneh — Shewayew Ethiopian Amharic Music", "https://www.youtube.com/results?search_query=Tesfa+Getaneh+Shewayew"],
+  ["Yo Mariyos — Bahir Dar Ethiopian Music", "https://www.youtube.com/results?search_query=Yo+Marios+Bahir+Dar+Ethiopian+Music"],
+  ["Medhanit Tamirat — Zafu Ethiopian Music", "https://www.youtube.com/results?search_query=Medhanit+Tamirat+Zafu"],
+  ["Mekonen Ezra — Zemed Ethiopian Tigrigna Music", "https://www.youtube.com/results?search_query=Mekonen+Ezra+Zemed"],
 ];
 
 const classifieds = [
@@ -75,7 +75,7 @@ function EthiopiaHub() {
           <section id="jobs" className="scroll-mt-6"><SectionHeading icon={BriefcaseBusiness} title="Jobs" text="Early-career opportunities already indexed inside SERATEGNA." /><div className="mt-5 grid gap-3 md:grid-cols-2">{jobs.slice(0, 6).map((job) => <article key={job.id} className="rounded-2xl border bg-card p-4"><div className="flex items-start justify-between gap-3"><div><h3 className="font-semibold">{job.title}</h3><p className="mt-1 text-sm text-muted-foreground">{job.company} · {job.location}</p></div><span className="rounded-full bg-secondary px-2.5 py-1 text-xs">{job.type}</span></div><p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground"><MapPin className="h-3.5 w-3.5" /> {job.mode} · {job.experience}</p></article>)}</div><Link to="/" className="mt-4 inline-flex text-sm font-medium text-primary hover:underline">Search all jobs on SERATEGNA →</Link></section>
 
           <HubSection id="real-estate" icon={Building2} title="Real Estate" text="Homes, apartments, and rental categories for Ethiopian cities." source="Ezega Real Estate" items={realEstate.map(([title, detail, meta]) => ({ title, detail, meta }))} />
-          <HubSection id="entertainment" icon={Clapperboard} title="Entertainment" text="New Ethiopian music, films, and video topics in one feed." source="Ezega Entertainment" items={entertainment.map((title) => ({ title, detail: "Ethiopian music, film, or video", meta: "Entertainment" }))} />
+          <HubSection id="entertainment" icon={Clapperboard} title="Entertainment" text="New Ethiopian music, films, and video topics in one feed." source="Ezega Entertainment" items={entertainment.map(([title, href]) => ({ title, href, detail: "Ethiopian music, film, or video", meta: "Entertainment" }))} />
           <HubSection id="classifieds" icon={Store} title="Classifieds" text="Discover useful categories for buying, selling, renting, and trading." source="Ezega Classifieds" items={classifieds.map(([title, detail]) => ({ title, detail, meta: "Classifieds" }))} />
           <HubSection id="business" icon={UsersRound} title="Business Directory" text="Ethiopian companies and local business profiles surfaced in one place." source="Ezega Business Guide" items={businesses.map((title) => ({ title, detail: "Ethiopian business profile", meta: "Business directory" }))} />
         </div>
@@ -90,8 +90,13 @@ function SectionHeading({ icon: Icon, title, text }: { icon: typeof Newspaper; t
   return <div className="flex items-start gap-3"><span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-gradient-primary"><Icon className="h-5 w-5 text-primary-foreground" /></span><div><h2 className="text-2xl font-semibold tracking-tight">{title}</h2><p className="mt-1 text-sm text-muted-foreground">{text}</p></div></div>;
 }
 
-function HubSection({ id, icon, title, text, source, items }: { id: string; icon: typeof Newspaper; title: string; text: string; source: string; items: Array<{ title: string; detail: string; meta: string }> }) {
-  return <section id={id} className="scroll-mt-6"><SectionHeading icon={icon} title={title} text={text} /><p className="mt-3 text-xs text-muted-foreground">Latest source snapshot · {source}</p><div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{items.map((item) => <article key={item.title} className="rounded-2xl border bg-card p-5"><div className="flex items-center justify-between gap-3"><Tag className="h-4 w-4 text-primary" /><span className="text-xs text-muted-foreground">{item.meta}</span></div><h3 className="mt-4 font-semibold leading-6">{item.title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{item.detail}</p></article>)}</div></section>;
+function HubSection({ id, icon, title, text, source, items }: { id: string; icon: typeof Newspaper; title: string; text: string; source: string; items: Array<{ title: string; detail: string; meta: string; href?: string }> }) {
+  return <section id={id} className="scroll-mt-6"><SectionHeading icon={icon} title={title} text={text} /><p className="mt-3 text-xs text-muted-foreground">Latest source snapshot · {source}</p><div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{items.map((item) => <HubCard key={item.title} item={item} />)}</div></section>;
+}
+
+function HubCard({ item }: { item: { title: string; detail: string; meta: string; href?: string } }) {
+  const content = <><div className="flex items-center justify-between gap-3"><Tag className="h-4 w-4 text-primary" /><span className="text-xs text-muted-foreground">{item.meta}</span></div><h3 className="mt-4 font-semibold leading-6">{item.title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{item.detail}</p>{item.href && <p className="mt-4 text-xs font-medium text-primary">Find on YouTube ↗</p>}</>;
+  return item.href ? <a href={item.href} target="_blank" rel="noreferrer" className="rounded-2xl border bg-card p-5 transition-colors hover:border-primary/40 hover:bg-secondary/30">{content}</a> : <article className="rounded-2xl border bg-card p-5">{content}</article>;
 }
 
 function SourceNote({ text }: { text: string }) {
