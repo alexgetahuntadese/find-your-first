@@ -3,6 +3,18 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Airbus Forecasts Sixfold Growth in Ethiopia’s Air Passenger Traffic, Citing Ethiopian Airlines’ Expanding Reach",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s air passenger traffic is projected to grow more than sixfold over the next two decades, with Ethiopian Airlines well positioned to capitalize on rising demand and strengthen Addis Ababa’s role as a major African",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 14:20:59 +0000"
+  },
+  {
+    "title": "Ethiopia’s Historical Maritime Connections and Naval Capacity Offer Path to Greater Red Sea Security",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s historical maritime experience and naval capabilities can contribute to addressing security challenges in the Red Sea, while the country pursues its maritime interests through legal and diplomatic channels, Gran",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 14:06:29 +0000"
+  },
+  {
     "title": "Beyond Inherited Greatness: Ethiopia’s Quest to Shape Its Own Civilization",
     "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s next phase of national development is framed around an ambition that extends beyond economic growth and institutional reform: building a distinct Ethiopian civilization grounded in the country’s own history, ide",
     "source": "FBC English",
@@ -61,17 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ሉዓላዊነትና ደኅንነት የሚረጋገጠው በጠንካራ ተቋማት፣ በተደራጀ የመከላከያ አቅም፣ በሕዝብ ድጋፍና በወታደራዊ ዝግጁነት ነው። የኢትዮጵያ ሉዓላዊነት ዘብ የሆነው መከላከያ ሠራዊትም የሕዝብ አለኝታ፣ ዘመናዊ ቴክኖሎጂ የታጠቀ፣ በወታደራዊ ዲሲፕሊን የታነጸና ለማንኛውም ፈተና ዝግጁ መሆን የሚያስችሉ አቅሞችን ፈጥሯል። ይህም የሠራዊቱን የውጊያ አቅም ብ",
     "source": "Fana Media",
     "publishedAt": "Sun, 18 Oct 2026 18:20:55 +0000"
-  },
-  {
-    "title": "የዲጂታል ኢትዮጵያ 2030 ስትራቴጂ – ለማይበገር የሳይበር ደኅንነት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት የኢትዮጵያን ኢኮኖሚ ከመሠረተባቸው ምሰሶዎች መካከል ኢንፎርሜሽን ቴክኖሎጂ አንዱ ነው። በዚህም ባለፉት ዓመታት በተሠሩ ሥራዎች በተለይም በዲጂታል ኢኮኖሚ ግንባታ አስደናቂ ውጤት መጥቷል። በዘርፉ ከፍተኛ ውጤት የተመዘገበ ቢሆንም የሳይበር ደኅንነት ሥጋት መኖሩ አልቀረም። 7ኛው አገር አቀፍ የሳይበር ደኅንነት ወር “ንቁ ዜጋ፤ ደኅንነቷ ለተጠበ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 18:19:17 +0000"
-  },
-  {
-    "title": "የሀሰት ፕሮፓጋንዳን ያከሸፈው የወታደራዊ አታሼዎች ምስክርነት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ዘመናዊ ታሪክና የፖለቲካ ምህዳር በየጊዜው በሚያጋጥሙ ፈተናዎችና የለውጥ ማዕበሎች ውስጥ አልፎ ዛሬ ላለበት ጥንካሬና ጽናት መድረሱ ይታወቃል። በተለይም የሀገርን ሉዓላዊነት የሚፈታተኑ አደጋዎች በሚከሰቱበት ወቅት የኢትዮጵያ ሀገር መከላከያ ሠራዊት የሕግ የበላይነትና የሉዓላዊነት አለኝታነቱን በተግባር ያስመሰከረ ዋነኛ የሕዝብ አለኝታ ሆኖ ዘልቋል። በ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 18:13:29 +0000"
   }
 ];
