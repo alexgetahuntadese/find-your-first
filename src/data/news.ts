@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Beyond Inherited Greatness: Ethiopia’s Quest to Shape Its Own Civilization",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s next phase of national development is framed around an ambition that extends beyond economic growth and institutional reform: building a distinct Ethiopian civilization grounded in the country’s own history, ide",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 13:26:46 +0000"
+  },
+  {
+    "title": "Russian, Chinese Scientists Develop Ultrasonic Technology to Strengthen Metal Welding",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Scientists from Russia and China have developed an ultrasonic welding technology that doubles the strength of metal joints and extends component service life by 1.9 times, opening new possibilities for manufacturing lighte",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 13:15:04 +0000"
+  },
+  {
+    "title": "Ethiopia’s Growth Ambition Challenges the Economic Hierarchy of Africa",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s projected 9.2% economic growth in 2026 places the country among Africa’s fastest-growing economies, strengthening its ambition to expand its economic weight and influence across the continent. The International ",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 11:13:33 +0000"
+  },
+  {
+    "title": "Ethiopia’s Industrial Revival Lays Foundations for a New Era of National Production",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s drive to expand domestic manufacturing is reshaping the country’s economic ambitions, seeking to turn its productive potential into industrial capacity, competitive exports and a stronger foundation for long-ter",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 11:03:16 +0000"
+  },
+  {
+    "title": "Ethiopia Puts AI, Digital Skills at Center of Jobs and Private Investment Agenda",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia is advancing an integrated approach to artificial intelligence, digital skills and employment, with Governor Eyob Tekalign outlining how public policy, technology-driven learning and private capital can help equip",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 10:44:15 +0000"
+  },
+  {
+    "title": "Ethiopia Through Nigerian Eyes: From Wheat Fields to a Wider African Lesson",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — For Nigerian journalist Jonathan Nda-Isaiah, a return to Addis Ababa after a decade became more than a journey through a changing city. It became an encounter with a development experience that left him questioning why Nig",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 08:50:37 +0000"
+  },
+  {
+    "title": "Ethiopia’s Citizen-Centered Diplomacy Brings 1,447 More Nationals Home from Saudi Arabia",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia has repatriated 1,447 nationals from Saudi Arabia over the past week, continuing the government’s efforts to bring citizens home from difficult conditions and reunite them with their families. The returnees compri",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 06:58:00 +0000"
+  },
+  {
+    "title": "Ethiopia and U.S. Treasury Explore Expanded Support for Economic Reform Agenda",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia and the United States have reaffirmed their commitment to economic cooperation, with discussions in Bangkok focusing on expanded technical and financial support to sustain and accelerate Ethiopia’s ongoing economi",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 06:49:35 +0000"
+  },
+  {
     "title": "ባሕር በር፤ የኢትዮጵያ የሕልውና ጥያቄ",
     "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የባሕር በር ጉዳይ ለኢትዮጵያ እና ለሕዝቦቿ የቅንጦት ወይም የፖለቲካ ምርጫ ሳይሆን የሕልውና፣ የኢኮኖሚ ደኅንነት እና የትውልድ ቀጣይነት መሠረታዊ ጥያቄ ነው። ኢትዮጵያ ከፍተኛ የሕዝብ ቁጥር ይዛ በዓለም ላይ ካሉ ወደብ አልባ ሀገራት መካከል ቀዳሚዋ መሆኗ የባሕር በር ፍላጎቷን የሞትና የሽረት ጉዳይ ያደርገዋል። የባሕር በር ባለመኖሩ በሀገሪቱ የውጭ ምንዛሬ [",
     "source": "Fana Media",
@@ -25,53 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ዘመናዊ ታሪክና የፖለቲካ ምህዳር በየጊዜው በሚያጋጥሙ ፈተናዎችና የለውጥ ማዕበሎች ውስጥ አልፎ ዛሬ ላለበት ጥንካሬና ጽናት መድረሱ ይታወቃል። በተለይም የሀገርን ሉዓላዊነት የሚፈታተኑ አደጋዎች በሚከሰቱበት ወቅት የኢትዮጵያ ሀገር መከላከያ ሠራዊት የሕግ የበላይነትና የሉዓላዊነት አለኝታነቱን በተግባር ያስመሰከረ ዋነኛ የሕዝብ አለኝታ ሆኖ ዘልቋል። በ",
     "source": "Fana Media",
     "publishedAt": "Sun, 18 Oct 2026 18:13:29 +0000"
-  },
-  {
-    "title": "Ethiopia’s Long Tradition as a Haven of Refuge: From the Aksumite Kingdom’s Historic Welcome to Hosting More Than 1.2 Million Refugees and Asylum Seekers Today",
-    "summary": "Addis Ababa, October 18, 2026 (FMC) — Ethiopia’s history of offering refuge reaches back more than a millennium, to a time when people fleeing persecution crossed the Red Sea in search of safety. Today, that tradition remains part of the country’s national exp",
-    "source": "FBC English",
-    "publishedAt": "Sun, 18 Oct 2026 15:42:54 +0000"
-  },
-  {
-    "title": "በአማራ ክልል በክረምት በጎ ፈቃድ አገልግሎት ከ34 ቢሊየን ብር በላይ ሃብት ማዳን ተቻለ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8 ፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል በክረምት በጎ ፈቃድ አገልግሎት ከ34 ቢሊየን ብር በላይ ሃብት ማዳን ተችሏል አለ የክልሉ ሴቶች፣ ወጣቶች እና ማኅበራዊ ጉዳይ ቢሮ፡፡ ቢሮው የክረምት በጎ ፈቃድ አገልግሎት ማጠቃለያ እና የበጋ በጎ ፈቃድ አገልግሎት ማስጀመሪያ መርሐ ግብር አካሂዷል። በመድረኩ የአማራ ክልል ብልጽግና ፓርቲ ቅርንጫፍ ጽሕፈት ቤት ኃላፊ ይርጋ […] The post ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 13:00:36 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ እውነት እና የማርኮ ሩቢዮ ምስክርነት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8 ፣ 2019 (ኤፍ ኤም ሲ) የአሜሪካ የውጭ ጉዳይ ሚስትር ማርኮ ሩቢዮ በኢትዮጵያ ውስጥ የሽብር ድርጊት የሚፈጽሙ ኃይሎች መኖራቸውን እና የኢትዮጵያ መንግሥት ተመጣጣኝ ምላሽ እየሰጠ መሆኑን ተናገሩ፡፡ የውጭ ጉዳይ ሚኒስትሩ ጉዳዩን አስመልክተው በሜሪላንድ አንድሪው የጦር ሰፈር ለጋዜጠኞች በሰጡት ምላሽ÷ በኢትዮጵያ ውስጥ ጥቃት የሚፈጽሙ “ተገንጣይ ኃይሎች” መኖራቸውን ጠቅሰው የኢትዮጵያ ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 12:38:09 +0000"
-  },
-  {
-    "title": "ምክረ ሃሳቦችን ለመተግበር መንግሥት ዝግጁነቱን መግለጹ ለውጤታማነቱ መሰረት ነው – መስፍን አርአያ (ፕ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) ለሀገራዊ መግባባት የሚረዱ ምክረ ሃሳቦችን ለመተግበር መንግሥት ዝግጁነቱን መግለጹ ለውጤታማነቱ መሰረት ነው አሉ የሀገራዊ ምክክር ኮሚሽን ዋና ኮሚሽነር መስፍን አርአያ (ፕ/ር)፡፡ ኮሚሽነሩ እንዳሉት÷ ሀገራዊ የምክክር ጉባኤው ኢትዮጵያውያን በታሪካቸው ለመጀመሪያ ጊዜ በአንድነት ተሰባስበው በሀገራዊ ጉዳዮች ላይ በሰፊው የመከሩበት ነው፡፡ የፖለቲካ ፓርቲዎች የተ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 12:20:47 +0000"
-  },
-  {
-    "title": "የነዋሪዎቻችንን የኑሮ ሁኔታ ለማሻሻል በትጋት እየሠራን ነው – ከንቲባ አዳነች አቤቤ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የነዋሪዎቻችንን የኑሮ ሁኔታ ለማሻሻል በትጋት እየሠራን ነው አሉ ከንቲባ አዳነች አቤቤ፡፡ ከንቲባዋ ዛሬ በአቃቂ ቃሊቲ ክፍለ ከተማ የተገነባውን የበጎነት መኖሪያ ለአቅመ ደካሞችና ለሀገር ባለውለታዎች አስረክበዋል። ከንቲባዋ ይህንን አስመልክተው በማህበራዊ የትስስር ገጻቸው ባስተላለፉት መልዕክት እንዳሉት÷ ለእኛ የቤት ልማት ማለት ሕንፃ መገንባት ብቻ ሳይሆን፣ ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 11:23:29 +0000"
-  },
-  {
-    "title": "ከኢትዮጵያ መንግሥት የኢኮኖሚ ዕድገት ትንበያ ጋር የተቀራረበው የአይ ኤም ኤፍ ትንበያ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መንግሥት የሀገሪቱ ኢኮኖሚ በ2019 በጀት ዓመት 10.2 በመቶ እንደሚድግ ያስቀመጠው ግምት ከዓለም የገንዘብ ድርጅት (አይ ኤም ኤፍ) ትንበያ ጋር የተቀራረበ ነው፡፡ አይ.ኤም.ኤፍ ይፋ ባደረገው በፈረንጆቹ የ2026 የዓለም የኢኮኖሚ ትንበያ መሰረት፣ የኢትዮጵያ ጠቅላላ የሀገር ውስጥ ምርት (GDP) ዕድገት 9.2 በመቶ እንደሚሆን ትንበያውን አስቀምጧ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 10:38:35 +0000"
-  },
-  {
-    "title": "መደመር ከዓባይ ጫፍ እስከ አቪዬሽን ከተማ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8 ፣ 2019 (ኤፍ ኤም ሲ) ታሪክ ሁልጊዜም በነጋሪዎች ብቻ አይጻፍም፤ አንዳንዴ በግዙፍ ማሽነሪዎች፣ በኮንክሪት ፅናት እና በሕዝብ የጋራ ላብ ጭምር ይተረካል። በአሁኑ ወቅት ኢትዮጵያ የአህጉሪቱን የንግድ፣ የኃይል እና የትራንስፖርት ካርታ የመቀየር አቅም ያላቸውን ግዙፍ ሜጋ ፕሮጀክቶች በከፍተኛ ፍጥነት በመገንባት ላይ ትገኛለች፤ ገንብታለችም። በመደመር መንግሥት የሚተገበሩት እነዚህ ስል",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 10:14:13 +0000"
-  },
-  {
-    "title": "The ENDF: Ethiopia’s Ultimate Shield of Sovereignty and Territorial Integrity",
-    "summary": "Addis Ababa, October 17, 2026 (FMC) — The streets of towns and cities across the Amhara Region carried a message today that reaches far beyond the crowds that filled them: Ethiopia’s sovereignty is not negotiable, its territorial integrity is not an expendable",
-    "source": "FBC English",
-    "publishedAt": "Sat, 17 Oct 2026 18:00:26 +0000"
   }
 ];
