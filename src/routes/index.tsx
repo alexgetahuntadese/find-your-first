@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, CalendarDays } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
@@ -133,6 +133,7 @@ function Index() {
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
             <button onClick={() => navigate({ to: "/blog" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Blog</button>
+            <button onClick={() => navigate({ to: "/calendar" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><CalendarDays className="h-4 w-4" /> Calendar</button>
           </div>
         </div>
       </header>
