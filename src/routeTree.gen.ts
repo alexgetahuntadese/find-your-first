@@ -16,6 +16,7 @@ import { Route as BlogRouteImport } from './routes/blog'
 import { Route as PostRouteImport } from './routes/post'
 import { Route as CalendarRouteImport } from './routes/calendar'
 import { Route as UnitConverterRouteImport } from './routes/unit-converter'
+import { Route as EthiopianTaxCalculatorRouteImport } from './routes/ethiopian-tax-calculator'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -52,6 +53,11 @@ const UnitConverterRoute = UnitConverterRouteImport.update({
   path: '/unit-converter',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EthiopianTaxCalculatorRoute = EthiopianTaxCalculatorRouteImport.update({
+  id: '/ethiopian-tax-calculator',
+  path: '/ethiopian-tax-calculator',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -61,6 +67,7 @@ export interface FileRoutesByFullPath {
   '/post': typeof PostRoute
   '/calendar': typeof CalendarRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/ethiopian-tax-calculator': typeof EthiopianTaxCalculatorRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -70,6 +77,7 @@ export interface FileRoutesByTo {
   '/post': typeof PostRoute
   '/calendar': typeof CalendarRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/ethiopian-tax-calculator': typeof EthiopianTaxCalculatorRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -80,13 +88,14 @@ export interface FileRoutesById {
   '/post': typeof PostRoute
   '/calendar': typeof CalendarRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/ethiopian-tax-calculator': typeof EthiopianTaxCalculatorRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter'
+  fullPaths: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter' | '/ethiopian-tax-calculator'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter'
-  id: '__root__' | '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter'
+  to: '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter' | '/ethiopian-tax-calculator'
+  id: '__root__' | '/' | '/admin' | '/auth' | '/blog' | '/post' | '/calendar' | '/unit-converter' | '/ethiopian-tax-calculator'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -97,6 +106,7 @@ export interface RootRouteChildren {
   PostRoute: typeof PostRoute
   CalendarRoute: typeof CalendarRoute
   UnitConverterRoute: typeof UnitConverterRoute
+  EthiopianTaxCalculatorRoute: typeof EthiopianTaxCalculatorRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -150,6 +160,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof UnitConverterRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ethiopian-tax-calculator': {
+      id: '/ethiopian-tax-calculator'
+      path: '/ethiopian-tax-calculator'
+      fullPath: '/ethiopian-tax-calculator'
+      preLoaderRoute: typeof EthiopianTaxCalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -161,6 +178,7 @@ const rootRouteChildren: RootRouteChildren = {
   PostRoute: PostRoute,
   CalendarRoute: CalendarRoute,
   UnitConverterRoute: UnitConverterRoute,
+  EthiopianTaxCalculatorRoute: EthiopianTaxCalculatorRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, CalendarDays, Calculator } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, CalendarDays, Calculator, ReceiptText } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { cn } from "@/lib/utils";
@@ -135,6 +135,7 @@ function Index() {
             <button onClick={() => navigate({ to: "/blog" })} className="rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary">Blog</button>
             <button onClick={() => navigate({ to: "/calendar" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><CalendarDays className="h-4 w-4" /> Calendar</button>
             <button onClick={() => navigate({ to: "/unit-converter" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><Calculator className="h-4 w-4" /> Converter</button>
+            <button onClick={() => navigate({ to: "/ethiopian-tax-calculator" })} className="hidden items-center gap-1.5 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary sm:inline-flex"><ReceiptText className="h-4 w-4" /> Tax</button>
           </div>
         </div>
       </header>
