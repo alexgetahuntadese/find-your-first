@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Airbus Forecasts Sixfold Growth in Ethiopia’s Air Passenger Traffic, Citing Ethiopian Airlines’ Expanding Reach",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s air passenger traffic is projected to grow more than sixfold over the next two decades, with Ethiopian Airlines well positioned to capitalize on rising demand and strengthen Addis Ababa’s role as a major African",
+    "title": "Ethiopia’s Renewable Energy Resources Create New Opportunities for Africa’s Agricultural and Transport Transformation",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopia’s vast renewable energy resources offer opportunities to deepen African cooperation in agricultural modernization, regional electricity trade and clean transport, with representatives from Uganda and Nigeria highl",
     "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 14:20:59 +0000"
+    "publishedAt": "Tue, 20 Oct 2026 08:01:33 +0000"
   },
   {
-    "title": "Ethiopia’s Historical Maritime Connections and Naval Capacity Offer Path to Greater Red Sea Security",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s historical maritime experience and naval capabilities can contribute to addressing security challenges in the Red Sea, while the country pursues its maritime interests through legal and diplomatic channels, Gran",
+    "title": "Ethiopian PM Abiy Ahmed Arrives in Kenya for Mashujaa Day Celebrations",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has arrived in Eldoret, Kenya, as Guest of Honor at the Mashujaa Day celebrations, a national holiday honoring individuals who have contributed to Kenya’s freedom, sovereignty, and devel",
     "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 14:06:29 +0000"
+    "publishedAt": "Tue, 20 Oct 2026 07:51:12 +0000"
   },
   {
-    "title": "Beyond Inherited Greatness: Ethiopia’s Quest to Shape Its Own Civilization",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s next phase of national development is framed around an ambition that extends beyond economic growth and institutional reform: building a distinct Ethiopian civilization grounded in the country’s own history, ide",
+    "title": "Ethiopia’s Space Capabilities Strengthen Africa’s Drive for Data-Driven Development",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopia is contributing to Africa’s efforts to strengthen geospatial information and satellite-based Earth observation, supporting more accurate development planning, evidence-based policymaking and the monitoring of prog",
     "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 13:26:46 +0000"
+    "publishedAt": "Tue, 20 Oct 2026 06:33:56 +0000"
   },
   {
-    "title": "Russian, Chinese Scientists Develop Ultrasonic Technology to Strengthen Metal Welding",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Scientists from Russia and China have developed an ultrasonic welding technology that doubles the strength of metal joints and extends component service life by 1.9 times, opening new possibilities for manufacturing lighte",
+    "title": "Ethiopian Scientist Wins FAO Achievement Award for Transforming Enset Processing",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian scientist Addisu Fekadu Andeta has received the 2026 Food and Agriculture Organization of the United Nations (FAO) Achievement Award for innovations that are modernizing the processing of enset, an indigenous Eth",
     "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 13:15:04 +0000"
+    "publishedAt": "Tue, 20 Oct 2026 04:00:50 +0000"
   },
   {
-    "title": "Ethiopia’s Growth Ambition Challenges the Economic Hierarchy of Africa",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s projected 9.2% economic growth in 2026 places the country among Africa’s fastest-growing economies, strengthening its ambition to expand its economic weight and influence across the continent. The International ",
+    "title": "The Illegal TPLF Completely Violated the Pretoria Peace Agreement and Prepared for Another Round of War – PM Abiy",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — The Pretoria Peace Agreement was meant to end the war, restore essential services and allow the people of Tigray Region to begin rebuilding their lives. Instead, the illegal TPLF pursued weapons and mobilized young people ",
     "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 11:13:33 +0000"
+    "publishedAt": "Mon, 19 Oct 2026 20:30:52 +0000"
   },
   {
-    "title": "Ethiopia’s Industrial Revival Lays Foundations for a New Era of National Production",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia’s drive to expand domestic manufacturing is reshaping the country’s economic ambitions, seeking to turn its productive potential into industrial capacity, competitive exports and a stronger foundation for long-ter",
+    "title": "PM Abiy: Tigray’s Youth Must Stop Dying for TPLF Leaders and Start Building Their Future",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Young people in Tigray Region must stop sacrificing their lives for political leaders and redirect their energy towards education, business, agriculture and industry, Prime Minister Abiy Ahmed has declared, calling on arme",
     "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 11:03:16 +0000"
+    "publishedAt": "Mon, 19 Oct 2026 19:55:37 +0000"
   },
   {
-    "title": "Ethiopia Puts AI, Digital Skills at Center of Jobs and Private Investment Agenda",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia is advancing an integrated approach to artificial intelligence, digital skills and employment, with Governor Eyob Tekalign outlining how public policy, technology-driven learning and private capital can help equip",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 10:44:15 +0000"
-  },
-  {
-    "title": "Ethiopia Through Nigerian Eyes: From Wheat Fields to a Wider African Lesson",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — For Nigerian journalist Jonathan Nda-Isaiah, a return to Addis Ababa after a decade became more than a journey through a changing city. It became an encounter with a development experience that left him questioning why Nig",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 08:50:37 +0000"
-  },
-  {
-    "title": "Ethiopia’s Citizen-Centered Diplomacy Brings 1,447 More Nationals Home from Saudi Arabia",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia has repatriated 1,447 nationals from Saudi Arabia over the past week, continuing the government’s efforts to bring citizens home from difficult conditions and reunite them with their families. The returnees compri",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 06:58:00 +0000"
-  },
-  {
-    "title": "Ethiopia and U.S. Treasury Explore Expanded Support for Economic Reform Agenda",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Ethiopia and the United States have reaffirmed their commitment to economic cooperation, with discussions in Bangkok focusing on expanded technical and financial support to sustain and accelerate Ethiopia’s ongoing economi",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 06:49:35 +0000"
-  },
-  {
-    "title": "ባሕር በር፤ የኢትዮጵያ የሕልውና ጥያቄ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የባሕር በር ጉዳይ ለኢትዮጵያ እና ለሕዝቦቿ የቅንጦት ወይም የፖለቲካ ምርጫ ሳይሆን የሕልውና፣ የኢኮኖሚ ደኅንነት እና የትውልድ ቀጣይነት መሠረታዊ ጥያቄ ነው። ኢትዮጵያ ከፍተኛ የሕዝብ ቁጥር ይዛ በዓለም ላይ ካሉ ወደብ አልባ ሀገራት መካከል ቀዳሚዋ መሆኗ የባሕር በር ፍላጎቷን የሞትና የሽረት ጉዳይ ያደርገዋል። የባሕር በር ባለመኖሩ በሀገሪቱ የውጭ ምንዛሬ [",
+    "title": "ህገወጡ ህወሓት ከጥፋት ኃይሎች ጋር በመሻረክ የማይበጅ ጦርነት አውጇል – ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 9፣ 2019 (ኤፍ ኤም ሲ) ህገወጡ ህወሓት ከጥፋት ኃይሎች ጋር በመሻረክ የማይበጅ ጦርነት አውጇል አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)፡፡ ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቆይታ የፕሪቶሪያው የሰላም ስምምነት በተፈለገው መንገድ ሳይተገበር የከሸፈው በህገወጡ ህወሓት በኩል በተደረጉ የውል መጣስ ተግባራት ነው ብለዋል፡፡ ጠቅላይ ሚኒስትሩ አክለውም የፕሪቶሪያው የሰላም ስም",
     "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 18:22:16 +0000"
+    "publishedAt": "Mon, 19 Oct 2026 19:40:56 +0000"
   },
   {
-    "title": "መከላከያ ሠራዊት፤ የሕዝብ አለኝታና የማይበገር የሰላም ዘብ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 8፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ሉዓላዊነትና ደኅንነት የሚረጋገጠው በጠንካራ ተቋማት፣ በተደራጀ የመከላከያ አቅም፣ በሕዝብ ድጋፍና በወታደራዊ ዝግጁነት ነው። የኢትዮጵያ ሉዓላዊነት ዘብ የሆነው መከላከያ ሠራዊትም የሕዝብ አለኝታ፣ ዘመናዊ ቴክኖሎጂ የታጠቀ፣ በወታደራዊ ዲሲፕሊን የታነጸና ለማንኛውም ፈተና ዝግጁ መሆን የሚያስችሉ አቅሞችን ፈጥሯል። ይህም የሠራዊቱን የውጊያ አቅም ብ",
+    "title": "PM Abiy Ahmed Reaffirms Federal Government’s Commitment to Rebuild Tigray Region through Peace, Governance and Dev’t",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has reaffirmed the federal government’s commitment to rebuilding Tigray Region, emphasizing that lasting peace, effective governance and economic development are essential to securing a better fut",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 19:22:47 +0000"
+  },
+  {
+    "title": "TPLF’s Record of Violence and Destruction Has Mortgaged Tigray Region’s Future, PM Abiy Ahmed Says",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has condemned the illegal TPLF’s decades-long record of violence, repression and destructive political choices, describing an organization that has repeatedly sacrificed the lives, dignity and fut",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 19:00:29 +0000"
+  },
+  {
+    "title": "PM Abiy Tells Eritrea to Embrace Peaceful Relations and Shared Development with Ethiopia",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has called on Eritrea to embrace peaceful relations and shared development with Ethiopia, contrasting Eritrea’s former industrial strength with what he described as the country’s prolonged economi",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 18:51:38 +0000"
+  },
+  {
+    "title": "ሕገ ወጡ ህወሓት ለሰብዓዊ ክብር እና ህይወት ቅንጣት ታክል ግድ የለውም – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 9፣ 2019 (ኤፍ ኤም ሲ) ሕገ ወጡ ህወሓት ለሰብዓዊ ክብር እና ህይወት ቅንጣት ታክል ግድ የለውም አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቃለ መጠይቅ ላይ እንዳሉት፤ ሰይጣን ለማስመሰል እንደሚጥረው ሁሉ ሕገ ወጡ ህወሓት በአፉ ሰብአዊ ለመምሰል ይለፋል፤ ስለ ሰብአዊ ክብርም ይሰብካል፣ ይጮሀል። በተግባር ግን ሕገ ወጡ ህወሓት […] Th",
     "source": "Fana Media",
-    "publishedAt": "Sun, 18 Oct 2026 18:20:55 +0000"
+    "publishedAt": "Mon, 19 Oct 2026 18:30:43 +0000"
+  },
+  {
+    "title": "PM Abiy: The Defunct TPLF Is Utterly Alien to the Identity of the People of Tigray Region",
+    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has declared that the illegal TPLF has nothing in common with the identity and dignity of the people of Tigray Region, stressing that no political organization can claim ownership of a people whos",
+    "source": "FBC English",
+    "publishedAt": "Mon, 19 Oct 2026 18:15:36 +0000"
   }
 ];
