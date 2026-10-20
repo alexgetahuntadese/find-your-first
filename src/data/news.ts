@@ -3,6 +3,18 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopian PM Abiy Ahmed Draws Ethiopia-Kenya Agricultural Parallels, Emphasizes Shared Mission to Feed Their People",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has drawn parallels between the agricultural potential of Ethiopia’s highlands and Kenya’s fertile farming areas, emphasizing the shared mission of farmers in both countries to feed their people a",
+    "source": "FBC English",
+    "publishedAt": "Tue, 20 Oct 2026 17:00:06 +0000"
+  },
+  {
+    "title": "PM Abiy Casts Ethiopia-Kenya Athletics Rivalry as Proof of Africa’s Global Potential",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has presented the longstanding athletics rivalry between Ethiopia and Kenya as an example of how competition can coexist with partnership, saying the two countries’ sporting achievements demonstra",
+    "source": "FBC English",
+    "publishedAt": "Tue, 20 Oct 2026 16:01:20 +0000"
+  },
+  {
     "title": "PM Abiy Cites Medemer’s Principle of Combining Strengths in Ethiopia-Kenya Energy, Connectivity and Business Cooperation",
     "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has cited Ethiopia’s homegrown Medemer philosophy in describing how Ethiopia and Kenya can bring their respective strengths together for a common purpose, pointing to cross-border electricity, tra",
     "source": "FBC English",
@@ -49,18 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian scientist Addisu Fekadu Andeta has received the 2026 Food and Agriculture Organization of the United Nations (FAO) Achievement Award for innovations that are modernizing the processing of enset, an indigenous Eth",
     "source": "FBC English",
     "publishedAt": "Tue, 20 Oct 2026 04:00:50 +0000"
-  },
-  {
-    "title": "The Illegal TPLF Completely Violated the Pretoria Peace Agreement and Prepared for Another Round of War – PM Abiy",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — The Pretoria Peace Agreement was meant to end the war, restore essential services and allow the people of Tigray Region to begin rebuilding their lives. Instead, the illegal TPLF pursued weapons and mobilized young people ",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 20:30:52 +0000"
-  },
-  {
-    "title": "PM Abiy: Tigray’s Youth Must Stop Dying for TPLF Leaders and Start Building Their Future",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Young people in Tigray Region must stop sacrificing their lives for political leaders and redirect their energy towards education, business, agriculture and industry, Prime Minister Abiy Ahmed has declared, calling on arme",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 19:55:37 +0000"
   },
   {
     "title": "ህገወጡ ህወሓት ከጥፋት ኃይሎች ጋር በመሻረክ የማይበጅ ጦርነት አውጇል – ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)",
