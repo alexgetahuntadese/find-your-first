@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "PM Abiy Cites Medemer’s Principle of Combining Strengths in Ethiopia-Kenya Energy, Connectivity and Business Cooperation",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has cited Ethiopia’s homegrown Medemer philosophy in describing how Ethiopia and Kenya can bring their respective strengths together for a common purpose, pointing to cross-border electricity, tra",
+    "source": "FBC English",
+    "publishedAt": "Tue, 20 Oct 2026 13:53:33 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed Praises Close Ethiopia-Kenya Ties, Underscores Economic Cooperation and Shared Prosperity",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has praised the close ties between Ethiopia and Kenya, emphasizing the importance of translating their longstanding friendship and shared history into stronger economic cooperation, regi",
+    "source": "FBC English",
+    "publishedAt": "Tue, 20 Oct 2026 13:38:26 +0000"
+  },
+  {
+    "title": "Ethiopian PM Invokes Adwa and Kenya’s Freedom Struggle to Advance Medemer-Based Cooperation and Shared Prosperity",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has emphasized the shared history of courage and sacrifice between Ethiopia and Kenya, linking Ethiopia’s historic victory at Adwa with Kenya’s struggle for freedom and calling for stronger cooper",
+    "source": "FBC English",
+    "publishedAt": "Tue, 20 Oct 2026 12:39:40 +0000"
+  },
+  {
+    "title": "Bahir Dar Readies to Host Africa’s Security Forum as Amhara Police Finalizes Security Plan",
+    "summary": "Addis Ababa, October 20, 2026 (FMC) — Bahir Dar is preparing to welcome African and international delegates for the 12th Tana High-Level Forum on Security in Africa, with the Amhara Regional Police saying a coordinated security framework is in place for the co",
+    "source": "FBC English",
+    "publishedAt": "Tue, 20 Oct 2026 11:50:40 +0000"
+  },
+  {
     "title": "Ethiopia’s Renewable Energy Resources Create New Opportunities for Africa’s Agricultural and Transport Transformation",
     "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopia’s vast renewable energy resources offer opportunities to deepen African cooperation in agricultural modernization, regional electricity trade and clean transport, with representatives from Uganda and Nigeria highl",
     "source": "FBC English",
@@ -45,33 +69,9 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Mon, 19 Oct 2026 19:40:56 +0000"
   },
   {
-    "title": "PM Abiy Ahmed Reaffirms Federal Government’s Commitment to Rebuild Tigray Region through Peace, Governance and Dev’t",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has reaffirmed the federal government’s commitment to rebuilding Tigray Region, emphasizing that lasting peace, effective governance and economic development are essential to securing a better fut",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 19:22:47 +0000"
-  },
-  {
-    "title": "TPLF’s Record of Violence and Destruction Has Mortgaged Tigray Region’s Future, PM Abiy Ahmed Says",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has condemned the illegal TPLF’s decades-long record of violence, repression and destructive political choices, describing an organization that has repeatedly sacrificed the lives, dignity and fut",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 19:00:29 +0000"
-  },
-  {
-    "title": "PM Abiy Tells Eritrea to Embrace Peaceful Relations and Shared Development with Ethiopia",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has called on Eritrea to embrace peaceful relations and shared development with Ethiopia, contrasting Eritrea’s former industrial strength with what he described as the country’s prolonged economi",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 18:51:38 +0000"
-  },
-  {
     "title": "ሕገ ወጡ ህወሓት ለሰብዓዊ ክብር እና ህይወት ቅንጣት ታክል ግድ የለውም – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
     "summary": "አዲስ አበባ፣ ጥቅምት 9፣ 2019 (ኤፍ ኤም ሲ) ሕገ ወጡ ህወሓት ለሰብዓዊ ክብር እና ህይወት ቅንጣት ታክል ግድ የለውም አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቃለ መጠይቅ ላይ እንዳሉት፤ ሰይጣን ለማስመሰል እንደሚጥረው ሁሉ ሕገ ወጡ ህወሓት በአፉ ሰብአዊ ለመምሰል ይለፋል፤ ስለ ሰብአዊ ክብርም ይሰብካል፣ ይጮሀል። በተግባር ግን ሕገ ወጡ ህወሓት […] Th",
     "source": "Fana Media",
     "publishedAt": "Mon, 19 Oct 2026 18:30:43 +0000"
-  },
-  {
-    "title": "PM Abiy: The Defunct TPLF Is Utterly Alien to the Identity of the People of Tigray Region",
-    "summary": "Addis Ababa, October 19, 2026 (FMC) — Prime Minister Abiy Ahmed has declared that the illegal TPLF has nothing in common with the identity and dignity of the people of Tigray Region, stressing that no political organization can claim ownership of a people whos",
-    "source": "FBC English",
-    "publishedAt": "Mon, 19 Oct 2026 18:15:36 +0000"
   }
 ];
