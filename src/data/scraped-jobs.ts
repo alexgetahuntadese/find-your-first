@@ -311,204 +311,6 @@ export const scrapedJobs: Job[] = [
     "url": "https://ethiojob.org/author-info/"
   },
   {
-    "id": "scraped-fe990eaa9983",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Logistics Technician- Addis Ababa",
-    "location": "Addis Ababa",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Logistics Technician - Addis Ababa Apply Published on 16.10.2026 Share this offer Job Summary Purchases Transport, logistics Addis Ababa 2 to 5 years HND Permanent contract - Fixed-term contract Apply Company DOW Industries : Industry, production, manufacturing and other Chemistry, petrochemistry, raw materials, mining Electric, electronic, optical and precision equipments Research and development Transport, logistics, postal services Website : https://www.dow.com/ Job ads : See our Job Ads Company description : At Dow, we believe in putting people first, and we&rsquo;re passionate about deliv",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/logistics-technician-addis-ababa-61632"
-  },
-  {
-    "id": "scraped-1c9452728811",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Head of Quality Assurance and Standard- Addis Ababa",
-    "location": "Addis Ababa",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Head of Quality Assurance and Standard - Addis Ababa Apply Published on 16.10.2026 Share this offer Job Summary Management R&D, project management Transport, logistics Addis Ababa - International Yes 5 to 10 years - More than 10 years Bachelor - Master Permanent contract - Fixed-term contract - Freelance - Part-time work Apply Company ARTIZ INTERNATIONAL Industries : Temporary work, recruitment Job ads : See our Job Ads Company description : Artiz International is a global recruitment company dedicated to connecting exceptional talent with forward-thinking organizations across... read more Job",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/head-quality-assurance-standard-addis-ababa-87077"
-  },
-  {
-    "id": "scraped-05ac9b1dd4aa",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Cooperative Liaison Officer (Farmer Sourcing)- Field Based",
-    "location": "Amhara",
-    "mode": "Hybrid",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Cooperative Liaison Officer (Farmer Sourcing) - Field Based Apply Published on 16.10.2026 Share this offer Job Summary Production, maintenance, quality R&D, project management Afar - Amhara - Awasa - Benishangul-Gumuz - Dire Dawa - Gambela - Harari - Oromiya - Somali - Tigray Hybrid 2 to 5 years - 5 to 10 years - More than 10 years High school - Technical school - College - HND - Bachelor - Master - Doctorate Permanent contract Apply Company SIMIEN PURE FOODS Industries : Distribution, selling, wholesale Food-processing industry Industry, production, manufacturing and other Job ads : See our J",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/cooperative-liaison-officer-farmer-sourcing-field-based-87197"
-  },
-  {
-    "id": "scraped-069b86d495bd",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Payroll Officer- Addis Ababa",
-    "location": "Addis Ababa",
-    "mode": "Hybrid",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Payroll Officer - Addis Ababa Apply Published on 16.10.2026 Share this offer Job Summary Accounting, controlling, finance HR, training Addis Ababa Hybrid 5 to 10 years - More than 10 years High school - Technical school - College - HND - Bachelor - Master - Doctorate Permanent contract Apply Company SOLIDRISE BUILDERS Industries : Furnishing, decoration Public buildings and works sector, construction Temporary work, recruitment Job ads : See our Job Ads Company description : SolidRise Builders is an Ethiopia-based construction company specializing in the development of high-quality... read mor",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/payroll-officer-addis-ababa-91040"
-  },
-  {
-    "id": "scraped-37b7477a0299",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Student Advisor- Ethiopia",
-    "location": "Ethiopia",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Student Advisor - Ethiopia Apply Published on 16.10.2026 Share this offer Job Summary Services International No experience Bachelor Fixed-term contract Apply Company UNICAF Industries : Education, training Services other Website : https://www.unicaf.org/ Job ads : See our Job Ads Company description : Unicaf is a leading online higher education platform, with a physical presence in 12 countries, assisting universities to go online. read more Job Ad & Profile Description Position : Student Advisor - Ethiopia Are you passionate about making a difference in the lives of students? Our company is s",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/student-advisor-ethiopia-94856"
-  },
-  {
-    "id": "scraped-99c815241dd8",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Office Administrator- Afar",
-    "location": "Ethiopia",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Office Administrator - Afar Apply Published on 16.10.2026 Share this offer Job Summary IT, new technologies Legal Management Afar No 5 to 10 years - More than 10 years Bachelor - Master - Doctorate Permanent contract Apply Company AGRINOVA CORPORATION Industries : Agriculture, fishing, aquaculture Job ads : See our Job Ads Company description : AgriNova Corporation is a modern agribusiness company specializing in the processing, value addition, and... read more Job Ad & Profile Description Position : Office Administrator - Afar About the Role We are seeking a highly organized, proactive, and d",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/office-administrator-afar-96835"
-  },
-  {
-    "id": "scraped-2dbf804cb5f1",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "HR Manager- Addis Ababa",
-    "location": "Addis Ababa",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register HR Manager - Addis Ababa Apply Published on 16.10.2026 Share this offer Job Summary Accounting, controlling, finance Marketing, communication Addis Ababa Yes 5 to 10 years - More than 10 years High school - Technical school - College - HND - Bachelor - Master - Doctorate Permanent contract - Fixed-term contract - Temporary work - Internship - Freelance - Cooperative Education Program - Part-time work Apply Company VERITAS TRADING GROUP Industries : Airport and shipping services Distribution, selling, wholesale Job ads : See our Job Ads Company description : Veritas Trading Group PLC is an Ethi",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/hr-manager-addis-ababa-97610"
-  },
-  {
-    "id": "scraped-a79ec6d232ec",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "Medicine and Medical Equipment Store Manager- Saris Abo, Akaki Kality, Addis Ababa",
-    "location": "Addis Ababa",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 79,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register Medicine and Medical Equipment Store Manager - Saris Abo, Akaki Kality, Addis Ababa Apply Published on 16.10.2026 Share this offer Job Summary Health and social professions Addis Ababa No No experience - Less than 2 years - 2 to 5 years High school - Technical school - College - HND - Bachelor Permanent contract - Fixed-term contract Apply Company ZEDU PLC Industries : Health, pharmacy, hospitals, medical equipment Import-export business Pharmaceutical industry Job ads : See our Job Ads Company description : ZeDu PLC is an emerging Ethiopian business company engaged in the importation, distrib",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/medicine-medical-equipment-store-manager-saris-abo-akaki-kality-addis-ababa"
-  },
-  {
-    "id": "scraped-4998c1870e42",
-    "company": "Ethiopiawork",
-    "source": "Ethiopiawork",
-    "title": "ANGULAR Developer (M/F)",
-    "location": "Addis Ababa",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 487,
-    "description": "Job Ad Packages CV Database Packages Candidate Sign Up Recruiter Sign Up Post a job Log In Register ANGULAR Developer (M/F) Apply Published on 29.09.2026 Share this offer Job Summary IT, new technologies Addis Ababa - Afar - Amhara - Awasa - Benishangul-Gumuz - Dire Dawa - Gambela - Harari - Oromiya - Somali - Tigray - International 5 to 10 years Bachelor Permanent contract - Fixed-term contract - Freelance Apply Company AFRICASHORE Industries : IT, software engineering, Internet Temporary work, recruitment Website : https://www.africashore.com/ Job ads : See our Job Ads Company description : AFRICASHORE is an IT offshoring&nbsp;platform connecting&nbsp;IT experts&nbsp;and freelancers based ",
-    "deadline": "",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://www.ethiopiawork.com/job-vacancies-ethiopia/angular-developer-mf-62750"
-  },
-  {
     "id": "scraped-56ed0d8cb5b1",
     "company": "EthioJob.org",
     "source": "EthioJob.org",
@@ -521,7 +323,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -543,7 +345,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -565,7 +367,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -587,7 +389,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -609,7 +411,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -631,7 +433,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -653,7 +455,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -675,7 +477,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -697,7 +499,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -719,7 +521,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -741,7 +543,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -763,7 +565,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -785,7 +587,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5542,
+    "hoursAgo": 5568,
     "description": ". . Latest Job Vacancies in Ethiopia Today – EthioJob.org EthioJob.org publishes daily Ethiopian job vacancies from government, NGOs, banks, universities, and private companies. Apply before deadlines. Welcome to EthioJob.org About EthioJob.org EthioJob.org is an independent job information platform connecting Ethiopian job seekers with reliable employment opportunities and career development resources. Legal Pages About Us [&hellip;]",
     "deadline": "",
     "tags": [
@@ -807,7 +609,7 @@ export const scrapedJobs: Job[] = [
     "category": "Design",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5543,
+    "hoursAgo": 5569,
     "description": "We are always here to assist you. Whether you are a job seeker, employer, partner, or advertiser, Ethiojob.org values communication and is ready to provide professional support. Email Support General inquiries and support: fetaabdu123@gmail.com Reporting suspicious or fraudulent job posts: abuse fetaabdu123@gmail.com Business partnerships and advertising: fetaabdu123@gmail.com Call us For speed assistance, you can call [&hellip;]",
     "deadline": "",
     "tags": [
@@ -829,7 +631,7 @@ export const scrapedJobs: Job[] = [
     "category": "Operations",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5716,
+    "hoursAgo": 5743,
     "description": "Application Deadline: March 2, 2026 Yara Trading Ethiopia is inviting qualified, motivated, and career-oriented candidates to apply for multiple job openings. The company is offering excellent opportunities for fresh graduates and entry-level professionals who are eager to start and grow their careers in a dynamic business environment.This vacancy announcement includes five different positions across management, [&hellip;]",
     "deadline": "",
     "tags": [
@@ -851,7 +653,7 @@ export const scrapedJobs: Job[] = [
     "category": "Software Engineering",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5790,
+    "hoursAgo": 5816,
     "description": "Job Overview IRC GIZ and MTI NGO Job Vacancy NGO በ0 አመት ኢንተርናሽናል ሬስኪው ኮሚቴ የስራ ማስታወቂያ Deadline: February 22, 2026 The International Rescue Committee (IRC) qualified applicants this ngo job position. Position 1: MEAL Intern BA/BSC degree required: MEAL: Monitoring & Evaluation, Statistics, Data Management, Social Sciences, or related fields. Position 2: Supply Chain [&hellip;]",
     "deadline": "",
     "tags": [
@@ -873,7 +675,7 @@ export const scrapedJobs: Job[] = [
     "category": "Software Engineering",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5919,
+    "hoursAgo": 5945,
     "description": "Ethiopia Bank Job Guide – CBE, NBE, ZamZam Bank This guide covers all current vacancies, application instructions, and preparation tips for Ethiopia’s top banks:Commercial Bank of Ethiopia (CBE)National Bank of Ethiopia (NBE)ZamZam Bank S.CIt is written to help you understand roles, requirements, and how to succeed in applications, exams, and interviews. Commercial Bank of Ethiopia [&hellip;]",
     "deadline": "",
     "tags": [
@@ -895,7 +697,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 5992,
+    "hoursAgo": 6018,
     "description": "የኛ (Yegna) ማይክሮ ፋይናንስ አዲስ የስራ ማስታወቂያ 2026 Deadline: February 20, 2026 Yegna Microfinance Institution (Yegna MFI) is a licensed financial institution operating in Ethiopia with the mission of improving financial inclusion for low-income communities. The institution provides micro-loans, savings services, and financial literacy programs to individuals, small businesses, and community groups. Yegna MFI focuses [&hellip;]",
     "deadline": "",
     "tags": [
@@ -917,7 +719,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6158,
+    "hoursAgo": 6184,
     "description": "This Week’s Insurance Job Highlights Global, Zemen, Lion, and Nib Insurance companies are hiring. Roles available in finance, legal, underwriting, IT, and management. Apply online through official company links.",
     "deadline": "",
     "tags": [
@@ -939,7 +741,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6546,
+    "hoursAgo": 6572,
     "description": "About the Company Enat Bank S.C. is a private commercial bank in Ethiopia committed to empowering women and supporting inclusive financial services nationwide. Since its establishment, Enat Bank has grown rapidly, offering innovative banking solutions and creating job opportunities for young professionals. The bank emphasizes professionalism, customer care, and ethical service delivery. Which Positions Can [&hellip;]",
     "deadline": "",
     "tags": [
@@ -961,7 +763,7 @@ export const scrapedJobs: Job[] = [
     "category": "Operations",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6595,
+    "hoursAgo": 6621,
     "description": "Explore British Embassy job vacancies in Addis Ababa 2026. Find positions, qualifications, and application details now.",
     "deadline": "",
     "tags": [
@@ -983,7 +785,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6634,
+    "hoursAgo": 6660,
     "description": "Introduction Ahadu Bank warmly invites qualified and enthusiastic applicants to apply for multiple job openings. Our bank emphasizes service inclusiveness, innovation, and delivering appropriate financial services to both the banked and the underserved population. We aim to leave a lasting impact on Ethiopia’s financial landscape by providing accessible, high-quality banking services.We are seeking skilled, motivated, [&hellip;]",
     "deadline": "",
     "tags": [
@@ -1005,7 +807,7 @@ export const scrapedJobs: Job[] = [
     "category": "Operations",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6635,
+    "hoursAgo": 6661,
     "description": "Introduction AMG Steel Factory invites qualified and interested applicants to apply for multiple job openings. Established in 2010 G.C., AMG Steel Factory is one of Ethiopia’s leading steel manufacturers and suppliers. The company produces galvanized ribbed sheets, color-coated profiles, corrugated sheets, nails, and other wire products. Working here provides professionals with an opportunity to grow [&hellip;]",
     "deadline": "",
     "tags": [
@@ -1027,7 +829,7 @@ export const scrapedJobs: Job[] = [
     "category": "Design",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6647,
+    "hoursAgo": 6673,
     "description": "Introduction SNV Netherlands Development Organisation (SNV) is pleased to announce an internship opportunity for young and motivated graduates to join the BRIDGE+ Project as a Project Assistant Intern. This position is designed for individuals who wish to gain practical experience in development project operations, administration, coordination, and institutional support. The internship provides exposure to real [&hellip;]",
     "deadline": "",
     "tags": [
@@ -1049,7 +851,7 @@ export const scrapedJobs: Job[] = [
     "category": "Design",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6667,
+    "hoursAgo": 6693,
     "description": "The Addis Mesob Digital Government Service Office is hiring for 22 positions, including IT, customer service, urban management, administration, and driver roles. Positions range from Bachelor’s, Diploma, to Grade 8/10/12 qualifications, with some requiring skills like AutoCAD, GIS, or Level 3 driving license. A total of 418 vacancies are available, and applications are online only via https://www.aacapsjobs.gov.et before January 20, 2026.",
     "deadline": "",
     "tags": [
@@ -1071,7 +873,7 @@ export const scrapedJobs: Job[] = [
     "category": "Software Engineering",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6690,
+    "hoursAgo": 6717,
     "description": "Introduction SIKET Bank S.C, formerly known as Addis Credit and Finance S.C, has obtained a banking license from the National Bank of Ethiopia and is preparing to commence full banking operations. Until full operations begin, the bank will continue providing its existing microfinance services and will maintain these services even after launching full banking activities. [&hellip;]",
     "deadline": "",
     "tags": [
@@ -1093,7 +895,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6707,
+    "hoursAgo": 6733,
     "description": "Introduction Goh Betoch Bank S.C invites qualified and motivated candidates to apply for the following vacant positions.About Goh Betoch Bank S.CGoh Betoch Bank S.C is Ethiopia’s first private mortgage-focused financial institution, officially commencing operations on October 25 as the country’s 21st private bank. The bank was established by 11 forward-thinking founders, including experienced bankers, investors, [&hellip;]",
     "deadline": "",
     "tags": [
@@ -1115,7 +917,7 @@ export const scrapedJobs: Job[] = [
     "category": "Finance",
     "pay": "See listing",
     "paid": false,
-    "hoursAgo": 6755,
+    "hoursAgo": 6781,
     "description": "Introduction Abay Bank S.C. is one of Ethiopia’s private commercial banks providing customer-focused and innovative banking services. The Bank aims to contribute to the country’s economic development by supporting individuals, businesses, and institutions with a wide range of financial products. Background of Abay BankS.C Abay Bank S.C. is a private commercial bank in Ethiopia, established [&hellip;]",
     "deadline": "",
     "tags": [
