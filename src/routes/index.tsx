@@ -148,17 +148,26 @@ function Index() {
               <button onClick={() => setExploreOpen((open) => !open)} aria-expanded={exploreOpen} className="inline-flex items-center gap-1 rounded-full border px-3 py-1.5 transition-colors hover:bg-secondary"><span className="hidden sm:inline">Explore Ethiopia</span><span className="sm:hidden">Explore</span><ChevronDown className={`h-4 w-4 transition-transform ${exploreOpen ? "rotate-180" : ""}`} /></button>
               {exploreOpen && <>
                 <button aria-label="Close explore menu" className="fixed inset-0 z-40 cursor-default" onClick={() => setExploreOpen(false)} />
-                <nav className="absolute right-0 z-50 mt-2 w-56 rounded-xl border bg-card p-2 text-left shadow-xl">
-                  <p className="px-3 pb-2 pt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">Ethiopia hub</p>
+                <nav className="absolute right-0 z-50 mt-2 max-h-[min(80vh,36rem)] w-64 overflow-y-auto rounded-xl border bg-card p-2 text-left shadow-xl">
+                  <p className="px-3 pb-2 pt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">Jobs & news</p>
                   <a href="/ethiopia#news" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Ethiopian News</a>
                   <a href="/#feed" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Jobs</a>
                   <a href="/fresh-graduate-jobs-ethiopia" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Fresh Graduate Jobs</a>
                   <a href="/internships-ethiopia" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Internships</a>
                   <a href="/entry-level-jobs-addis-ababa" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Addis Entry-Level Jobs</a>
+                  <div className="my-2 border-t" />
+                  <p className="px-3 pb-2 pt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">Ethiopia hub</p>
                   <a href="/ethiopia#real-estate" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Real Estate</a>
                   <a href="/ethiopia#entertainment" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Entertainment</a>
                   <a href="/ethiopia#classifieds" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Classifieds</a>
                   <a href="/ethiopia#business" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Business Directory</a>
+                  <div className="my-2 border-t" />
+                  <p className="px-3 pb-2 pt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">Tools & guides</p>
+                  <a href="/calendar" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Ethiopian Calendar Converter</a>
+                  <a href="/unit-converter" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Unit Converter</a>
+                  <a href="/currency-converter" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Currency Converter</a>
+                  <a href="/ethiopian-tax-calculator" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Ethiopian Tax Calculator</a>
+                  <a href="/blog" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Career Guides</a>
                 </nav>
               </>}
             </div>
