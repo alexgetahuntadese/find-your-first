@@ -34,7 +34,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
     <main className="min-h-screen bg-background text-foreground">
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         <nav className="mb-10 flex items-center justify-between" aria-label="Breadcrumb">
-          <Link to="/" aria-label="SERATEGNA home"><BrandLogo className="h-8 w-auto max-w-[145px]" /></Link>
+          <Link to="/" aria-label="SERATEGNA home" className="flex w-[148px] shrink-0 items-center"><BrandLogo className="h-8 w-[148px]" /></Link>
           <div className="flex gap-2 text-sm">
             <Link to="/" className="rounded-full border px-3 py-1.5 hover:bg-secondary">All jobs</Link>
           </div>
