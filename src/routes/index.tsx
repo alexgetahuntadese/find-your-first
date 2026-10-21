@@ -138,7 +138,7 @@ function Index() {
     <div className="min-h-screen">
       <header className="glass sticky top-0 z-40 border-b">
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-          <a href="/" aria-label="SERATEGNA home" className="flex w-[148px] shrink-0 items-center"><BrandLogo className="h-8 w-[148px]" /></a>
+          <a href="/" aria-label="SERATEGNA home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></a>
           <div className="flex items-center gap-2 text-sm">
             <span className="hidden items-center gap-1 text-muted-foreground sm:flex"><Heart className="h-4 w-4" />{saved.length} saved</span>
             <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">

@@ -50,7 +50,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         <nav className="mb-10 flex items-center justify-between" aria-label="Breadcrumb">
-          <Link to="/" aria-label="SERATEGNA home" className="flex w-[148px] shrink-0 items-center"><BrandLogo className="h-8 w-[148px]" /></Link>
+          <Link to="/" aria-label="SERATEGNA home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></Link>
           <div className="flex gap-2 text-sm">
             <Link to="/" className="rounded-full border px-3 py-1.5 hover:bg-secondary">All jobs</Link>
           </div>
