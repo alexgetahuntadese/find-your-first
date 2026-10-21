@@ -11,6 +11,7 @@ const SOURCES = [
 const freshSignal = /\b(intern(ship)?|trainee|graduate|entry[- ]level|junior|assistant|no experience|fresh|vacanc(y|ies)|job)\b/i;
 const articleSignal = /\b(guide|tips|prepare|preparation|how to|cv|interview|training|course|scholarship|privacy|terms|cookie)\b/i;
 const seniorSignal = /\b(senior|director|chief|vice president|vp)\b/i;
+const closedSignal = /\b(expired|closed|no longer accepting|position has been filled|applications are closed)\b/i;
 const categoryRules = [[/software|developer|engineer|it |data|technical|cyber|qa/i, "Software Engineering"], [/design|creative|graphic|ux|ui/i, "Design"], [/finance|account|audit|bank|econom/i, "Finance"], [/health|medical|nurse|pharmacy|clinic/i, "Healthcare"], [/sales|marketing|brand|customer/i, "Marketing"]];
 const headers = { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" };
 
@@ -46,10 +47,17 @@ function normalizeDate(value) {
   const match = String(value || "").match(/(\d{2})\.(\d{2})\.(\d{4})/);
   return match ? `${match[3]}-${match[2]}-${match[1]}` : value;
 }
+function isExpired(value) {
+  if (!value || !String(value).trim()) return false;
+  const raw = String(value).trim();
+  const dateOnly = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const parsed = dateOnly ? new Date(`${raw}T23:59:59`) : new Date(raw);
+  return Number.isFinite(parsed.getTime()) && parsed.getTime() < Date.now();
+}
 function locationFor(value) { return /addis ababa/i.test(value) ? "Addis Ababa" : /oromia|amhara|tigray|sidama|hawassa|dire dawa|bahir dar|mekelle|adama/i.test(value) ? (value.match(/(Oromia|Amhara|Tigray|Sidama|Hawassa|Dire Dawa|Bahir Dar|Mekelle|Adama)/i)?.[1] || "Ethiopia") : "Ethiopia"; }
 function toJob({ source, company, url, title, description, datePosted, deadline }) {
   const searchable = `${title} ${description}`;
-  if (!title || articleSignal.test(title)) return null;
+  if (!title || articleSignal.test(title) || isExpired(deadline) || closedSignal.test(searchable)) return null;
   const category = categoryFor(searchable);
   const internship = /\bintern(ship)?\b/i.test(title);
   const fresh = freshSignal.test(title);

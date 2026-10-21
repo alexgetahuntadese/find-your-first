@@ -22,8 +22,21 @@ export interface Job {
   deadline?: string;
   source?: string;
   featured?: boolean;
-  hue: number;
+  hue?: number;
   url: string;
+}
+
+/** Returns true when a listing has no known closing date or its closing date is still open. */
+export function isJobActive(job: Pick<Job, "deadline"> & Partial<Pick<Job, "title" | "description">>) {
+  const listingText = `${job.title || ""} ${job.description || ""}`;
+  if (/\b(expired|closed|no longer accepting|position has been filled|applications are closed)\b/i.test(listingText)) return false;
+  if (!job.deadline?.trim()) return true;
+  const raw = job.deadline.trim();
+  const dateOnly = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const deadline = dateOnly
+    ? new Date(Number(dateOnly[1]), Number(dateOnly[2]) - 1, Number(dateOnly[3]), 23, 59, 59, 999)
+    : new Date(raw);
+  return Number.isNaN(deadline.getTime()) || deadline.getTime() >= Date.now();
 }
 
 const seedJobs: Job[] = [
@@ -41,7 +54,7 @@ const seedJobs: Job[] = [
   { id: "12", company: "GKP Construction and Import", title: "Irrigation Foreman / Engineer", location: "Addis Ababa", mode: "Onsite", type: "Full-time Entry Level", experience: "0-2 Years", industry: "Operations", category: "Operations", pay: "Negotiable", paid: true, hoursAgo: 24, tags: ["Engineering", "Irrigation"], hue: 312, url: "https://ethiojobs.net/job/waD2h2JJ98-irrigation-foreman-engineer" },
 ];
 
-export const jobs: Job[] = [...new Map([...scrapedJobs, ...seedJobs].map((job) => [job.url, job])).values()];
+export const jobs: Job[] = [...new Map([...scrapedJobs, ...seedJobs].map((job) => [job.url, job])).values()].filter(isJobActive);
 
 export function postedLabel(h: number) {
   if (h < 24) return `${h}h ago`;

@@ -88,12 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:title", content: "SERATEGNA — Ethiopia Jobs, News, Tools & Opportunities" },
       { property: "og:description", content: "Jobs, Ethiopian news, business listings, and practical tools in one useful platform." },
-      { property: "og:image", content: "https://serategna.com.et/og-image.svg" },
+      { property: "og:image", content: "https://serategna.com.et/logo.svg" },
       { property: "og:image:alt", content: "SERATEGNA — Ethiopia jobs, news, and tools" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "SERATEGNA — Ethiopia Jobs, News, Tools & Opportunities" },
       { name: "twitter:description", content: "Jobs, Ethiopian news, business listings, and practical tools in one useful platform." },
-      { name: "twitter:image", content: "https://serategna.com.et/og-image.svg" },
+      { name: "twitter:image", content: "https://serategna.com.et/logo.svg" },
     ],
     links: [
       { rel: "canonical", href: "https://serategna.com.et/" },
@@ -102,6 +102,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" },
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/logo.svg", type: "image/svg+xml" },
     ],
   }),
   shellComponent: RootShell,
@@ -115,6 +116,11 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9108560356664628"
+          crossOrigin="anonymous"
+        />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
@@ -132,7 +138,7 @@ function RootShell({ children }: { children: ReactNode }) {
           "@id": "https://serategna.com.et/#organization",
           name: "SERATEGNA",
           url: "https://serategna.com.et/",
-          logo: "https://serategna.com.et/favicon.ico",
+          logo: "https://serategna.com.et/logo.svg",
           areaServed: { "@type": "Country", name: "Ethiopia" },
         }) }} />
       </head>

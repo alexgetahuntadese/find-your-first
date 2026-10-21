@@ -26,13 +26,13 @@ const resources = [
   { id: "business", title: "Business Directory", description: "Ethiopian businesses and local company profiles in one feed.", icon: UsersRound, color: "bg-violet-500/10 text-violet-600" },
 ];
 
-const realEstate = [
+const realEstate: Array<[string, string, string]> = [
   ["Luxury Apartment — Bole Dombel", "For sale · Addis Ababa", "ETB 2,500,000"],
   ["Homes for sale in Addis Ababa", "Apartments, houses, condos, and land", "For sale"],
   ["Houses and apartments for rent", "Addis Ababa and other Ethiopian cities", "For rent"],
 ];
 
-const entertainment = [
+const entertainment: Array<[string, string]> = [
   ["Saba Andemariam — Awdeamet Eritrean Tigrigna Music", "https://www.youtube.com/results?search_query=Saba+Andemariam+Awdeamet"],
   ["ወጥመድ — Ethiopian movie 2026", "https://www.youtube.com/results?search_query=Ethiopian+movie+2026+%E1%8B%88%E1%8C%A5%E1%88%98%E1%8B%B5"],
   ["Tesfa Getaneh — Shewayew Ethiopian Amharic Music", "https://www.youtube.com/results?search_query=Tesfa+Getaneh+Shewayew"],
@@ -41,7 +41,7 @@ const entertainment = [
   ["Mekonen Ezra — Zemed Ethiopian Tigrigna Music", "https://www.youtube.com/results?search_query=Mekonen+Ezra+Zemed"],
 ];
 
-const classifieds = [
+const classifieds: Array<[string, string]> = [
   ["Autos and transport", "Cars, motorcycles, parts, and transport services"],
   ["Computers and electronics", "Phones, computers, accessories, and repairs"],
   ["Goods and services", "Items for sale, rent, trade, and local services"],

@@ -12,7 +12,7 @@ export const ETHIOPIAN_EMPLOYMENT_TAX_BANDS: TaxBand[] = [
 
 export function calculateEthiopianEmploymentTax(monthlyIncome: number) {
   const income = Math.max(0, Number.isFinite(monthlyIncome) ? monthlyIncome : 0);
-  const band = [...ETHIOPIAN_EMPLOYMENT_TAX_BANDS].reverse().find((item) => income >= item.from) || ETHIOPIAN_EMPLOYMENT_TAX_BANDS[0];
+  const band = [...ETHIOPIAN_EMPLOYMENT_TAX_BANDS].reverse().find((item) => income >= item.from) || ETHIOPIAN_EMPLOYMENT_TAX_BANDS[0]!;
   return { tax: Math.max(0, income * band.rate - band.deduction), band };
 }
 

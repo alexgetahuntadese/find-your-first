@@ -23,8 +23,8 @@ function UnitConverter() {
   const [fromIndex, setFromIndex] = useState(2);
   const [toIndex, setToIndex] = useState(3);
   const config = UNIT_CATEGORIES[category];
-  const from = config.units[fromIndex] || config.units[0];
-  const to = config.units[toIndex] || config.units[1] || config.units[0];
+  const from = config.units[fromIndex] ?? config.units[0]!;
+  const to = config.units[toIndex] ?? config.units[1] ?? config.units[0]!;
   const result = useMemo(() => {
     const number = Number(value);
     return Number.isFinite(number) ? convertUnit(category, number, from, to) : 0;

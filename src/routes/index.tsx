@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
+import { BrandLogo } from "@/components/BrandLogo";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
@@ -137,10 +138,7 @@ function Index() {
     <div className="min-h-screen">
       <header className="glass sticky top-0 z-40 border-b">
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-          <div className="flex items-center gap-2 font-semibold tracking-tight">
-            <span className="grid h-7 w-7 place-items-center rounded-lg bg-gradient-primary shadow-glow"><Rocket className="h-4 w-4 text-primary-foreground" /></span>
-            SERATEGNA
-          </div>
+          <a href="/" aria-label="SERATEGNA home" className="flex items-center"><BrandLogo className="h-8 w-auto max-w-[145px]" /></a>
           <div className="flex items-center gap-2 text-sm">
             <span className="hidden items-center gap-1 text-muted-foreground sm:flex"><Heart className="h-4 w-4" />{saved.length} saved</span>
             <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">
@@ -154,6 +152,9 @@ function Index() {
                   <p className="px-3 pb-2 pt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">Ethiopia hub</p>
                   <a href="/ethiopia#news" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Ethiopian News</a>
                   <a href="/#feed" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Jobs</a>
+                  <a href="/fresh-graduate-jobs-ethiopia" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Fresh Graduate Jobs</a>
+                  <a href="/internships-ethiopia" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Internships</a>
+                  <a href="/entry-level-jobs-addis-ababa" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Addis Entry-Level Jobs</a>
                   <a href="/ethiopia#real-estate" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Real Estate</a>
                   <a href="/ethiopia#entertainment" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Entertainment</a>
                   <a href="/ethiopia#classifieds" onClick={() => setExploreOpen(false)} className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">Classifieds</a>
@@ -286,11 +287,12 @@ function FilterGroup<T extends string>({ title, items, selected, onToggle }: { t
 
 function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () => void }) {
   const isNew = job.hoursAgo < 24;
+  const hue = job.hue ?? 260;
   return (
     <article className="group relative rounded-xl border bg-card p-4 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-glow sm:p-5 animate-in fade-in slide-in-from-bottom-1">
       <div className="flex gap-4">
         <div className="grid h-11 w-11 shrink-0 place-items-center rounded-lg text-sm font-semibold text-primary-foreground"
-          style={{ background: `linear-gradient(135deg, oklch(0.6 0.18 ${job.hue}), oklch(0.45 0.18 ${job.hue + 40}))` }}>
+          style={{ background: `linear-gradient(135deg, oklch(0.6 0.18 ${hue}), oklch(0.45 0.18 ${hue + 40}))` }}>
           {job.company.split(" ").map((w) => w[0]).join("").slice(0, 2)}
         </div>
         <div className="min-w-0 flex-1">
