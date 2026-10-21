@@ -23,7 +23,7 @@ const resources = [
   { id: "real-estate", title: "Real Estate", description: "Homes, apartments, land, and rental categories in Ethiopia.", icon: Building2, color: "bg-amber-500/10 text-amber-600" },
   { id: "entertainment", title: "Entertainment", description: "New Ethiopian music, films, videos, and community categories.", icon: Clapperboard, color: "bg-pink-500/10 text-pink-600" },
   { id: "classifieds", title: "Classifieds", description: "A simple place to discover Ethiopian goods and services categories.", icon: Store, color: "bg-emerald-500/10 text-emerald-600" },
-  { id: "business", title: "Business Directory", description: "Ethiopian businesses and local company profiles in one feed.", icon: UsersRound, color: "bg-violet-500/10 text-violet-600" },
+  { id: "business", title: "Companies in Ethiopia", description: "Ethiopian companies, employers, and local business profiles.", icon: UsersRound, color: "bg-violet-500/10 text-violet-600" },
 ];
 
 const realEstate: Array<[string, string, string]> = [
@@ -48,16 +48,16 @@ const classifieds: Array<[string, string]> = [
   ["Tenders and opportunities", "Public notices, tenders, and business opportunities"],
 ];
 
-const businesses = [
-  "Self Help Development International",
-  "TEJUDAN YENUR",
-  "YF Textile Fabric Factory",
-  "OUSMAN HASSEN DEFFO",
-  "APL Commodities",
-  "Woven Legacy Handcraft Ethiopia",
-  "Aschalew Dish & Electrical Work",
-  "Nancon Ready Mix Concrete Supplier",
-  "Sodai Foreign Employment Agency",
+const companies = [
+  { title: "Ethiopian Airlines", detail: "Ethiopia’s flag carrier and a major aviation, logistics, and travel employer headquartered in Addis Ababa.", meta: "Aviation · Addis Ababa", href: "https://www.ethiopianairlines.com/" },
+  { title: "Ethio telecom", detail: "Telecommunications and digital-services provider offering mobile, broadband, enterprise, and digital products across Ethiopia.", meta: "Telecommunications · Ethiopia", href: "https://www.ethiotelecom.et/" },
+  { title: "Safaricom Ethiopia", detail: "Technology and communications company providing mobile connectivity, data, enterprise services, and M-PESA.", meta: "Technology · Telecommunications", href: "https://www.safaricom.et/" },
+  { title: "Commercial Bank of Ethiopia", detail: "A major Ethiopian bank serving individuals, businesses, and institutions through banking and digital-finance services.", meta: "Banking · Addis Ababa", href: "https://combanketh.et/" },
+  { title: "Self Help Development International", detail: "Development organization working with communities and partners on sustainable livelihoods and social impact.", meta: "Development · Ethiopia" },
+  { title: "YF Textile Fabric Factory", detail: "Textile and manufacturing business listed in SERATEGNA’s Ethiopian business directory.", meta: "Manufacturing · Ethiopia" },
+  { title: "APL Commodities", detail: "Ethiopian trading and commodities business listed for local business discovery.", meta: "Trading · Ethiopia" },
+  { title: "Woven Legacy Handcraft Ethiopia", detail: "Handcraft and creative-products business supporting local Ethiopian makers and products.", meta: "Handcrafts · Ethiopia" },
+  { title: "Nancon Ready Mix Concrete Supplier", detail: "Construction-material supplier serving building and infrastructure needs in Ethiopia.", meta: "Construction · Ethiopia" },
 ];
 
 function EthiopiaHub() {
@@ -77,7 +77,7 @@ function EthiopiaHub() {
           <HubSection id="real-estate" icon={Building2} title="Real Estate" text="Homes, apartments, and rental categories for Ethiopian cities." source="Ezega Real Estate" items={realEstate.map(([title, detail, meta]) => ({ title, detail, meta }))} />
           <HubSection id="entertainment" icon={Clapperboard} title="Entertainment" text="New Ethiopian music, films, and video topics in one feed." source="Ezega Entertainment" items={entertainment.map(([title, href]) => ({ title, href, detail: "Ethiopian music, film, or video", meta: "Entertainment" }))} />
           <HubSection id="classifieds" icon={Store} title="Classifieds" text="Discover useful categories for buying, selling, renting, and trading." source="Ezega Classifieds" items={classifieds.map(([title, detail]) => ({ title, detail, meta: "Classifieds" }))} />
-          <HubSection id="business" icon={UsersRound} title="Business Directory" text="Ethiopian companies and local business profiles surfaced in one place." source="Ezega Business Guide" items={businesses.map((title) => ({ title, detail: "Ethiopian business profile", meta: "Business directory" }))} />
+          <HubSection id="business" icon={UsersRound} title="Companies in Ethiopia" text="Discover Ethiopian companies, employers, and local business profiles in one directory." source="SERATEGNA company directory" items={companies} />
         </div>
 
         <p className="mt-12 text-center text-xs text-muted-foreground">SERATEGNA aggregates titles, categories, and short summaries for discovery. Source publishers retain ownership of their content and listings.</p>
@@ -95,7 +95,7 @@ function HubSection({ id, icon, title, text, source, items }: { id: string; icon
 }
 
 function HubCard({ item }: { item: { title: string; detail: string; meta: string; href?: string } }) {
-  const content = <><div className="flex items-center justify-between gap-3"><Tag className="h-4 w-4 text-primary" /><span className="text-xs text-muted-foreground">{item.meta}</span></div><h3 className="mt-4 font-semibold leading-6">{item.title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{item.detail}</p>{item.href && <p className="mt-4 text-xs font-medium text-primary">Find on YouTube ↗</p>}</>;
+  const content = <><div className="flex items-center justify-between gap-3"><Tag className="h-4 w-4 text-primary" /><span className="text-xs text-muted-foreground">{item.meta}</span></div><h3 className="mt-4 font-semibold leading-6">{item.title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{item.detail}</p>{item.href && <p className="mt-4 text-xs font-medium text-primary">{item.href.includes("youtube.com") ? "Find on YouTube" : "Visit official website"} ↗</p>}</>;
   return item.href ? <a href={item.href} target="_blank" rel="noreferrer" className="rounded-2xl border bg-card p-5 transition-colors hover:border-primary/40 hover:bg-secondary/30">{content}</a> : <article className="rounded-2xl border bg-card p-5">{content}</article>;
 }
 
