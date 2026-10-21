@@ -118,6 +118,20 @@ function Index() {
 
   const clearAll = () => { setExp([]); setInd([]); setPills([]); setQ(""); setLoc(""); setType(""); };
 
+  const jobListStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Latest entry-level jobs and internships in Ethiopia",
+    url: "https://serategna.com.et/#feed",
+    numberOfItems: jobs.length,
+    itemListElement: jobs.slice(0, 20).map((job, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: `${job.title} — ${job.company}`,
+      url: job.url,
+    })),
+  };
+
   const sidebar = (
     <div className="space-y-6">
       <FilterGroup title="Experience level" items={EXPERIENCE} selected={exp} onToggle={(v) => setExp(toggle(exp, v))} />
@@ -135,7 +149,9 @@ function Index() {
   );
 
   return (
-    <div className="min-h-screen">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jobListStructuredData) }} />
+      <div className="min-h-screen">
       <header className="glass sticky top-0 z-40 border-b">
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
           <a href="/" aria-label="SERATEGNA home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></a>
@@ -194,11 +210,11 @@ function Index() {
             className="mx-auto mt-8 grid gap-2 rounded-2xl border bg-card/80 p-2 text-left shadow-glow backdrop-blur sm:grid-cols-[1.4fr_1fr_1fr_auto]">
             <label className="flex items-center gap-2 rounded-xl px-3 py-2.5 hover:bg-secondary/60">
               <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
-              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Job title or keyword" className="w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground" />
+              <input aria-label="Search jobs by title or keyword" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Job title or keyword" className="w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground" />
             </label>
             <label className="flex items-center gap-2 rounded-xl px-3 py-2.5 hover:bg-secondary/60">
               <MapPin className="h-4 w-4 shrink-0 text-muted-foreground" />
-              <input list="locs" value={loc} onChange={(e) => setLoc(e.target.value)} placeholder="Remote, city, on-site" className="w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground" />
+              <input aria-label="Filter jobs by location" list="locs" value={loc} onChange={(e) => setLoc(e.target.value)} placeholder="Remote, city, on-site" className="w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground" />
               <datalist id="locs"><option value="Remote" /><option value="Onsite" /><option value="Addis Ababa" /><option value="Oromia" /></datalist>
             </label>
             <label className="flex items-center gap-2 rounded-xl px-3 py-2.5 hover:bg-secondary/60">
@@ -273,7 +289,8 @@ function Index() {
           </div>
         </div>
       )}
-    </div>
+      </div>
+    </>
   );
 }
 
