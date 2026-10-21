@@ -37,7 +37,6 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
           <Link to="/" aria-label="SERATEGNA home"><BrandLogo className="h-8 w-auto max-w-[145px]" /></Link>
           <div className="flex gap-2 text-sm">
             <Link to="/" className="rounded-full border px-3 py-1.5 hover:bg-secondary">All jobs</Link>
-            <Link to="/post" className="rounded-full bg-primary px-3 py-1.5 text-primary-foreground hover:bg-primary/90">Post a job</Link>
           </div>
         </nav>
 

@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Rocket, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
+import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
 import { BrandLogo } from "@/components/BrandLogo";
@@ -163,7 +163,6 @@ function Index() {
               </>}
             </div>
             <button onClick={shareSite} aria-label="Share SERATEGNA" title="Share SERATEGNA" className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary"><Share2 className="h-4 w-4" /></button>
-            <button onClick={() => navigate({ to: "/post" })} className="rounded-full bg-gradient-primary px-3 py-1.5 font-medium text-primary-foreground transition-transform hover:scale-[1.02]">Post a job</button>
           </div>
         </div>
       </header>

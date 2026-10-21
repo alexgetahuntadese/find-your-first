@@ -1,8 +1,8 @@
 export type JobType = "Internship" | "Full-time Entry Level" | "Contract";
 export type WorkMode = "Remote" | "Hybrid" | "Onsite";
 export type Experience = "Undergrad" | "New Grad" | "0-2 Years";
-export type Industry = "Tech" | "Design" | "Finance" | "Healthcare" | "Operations";
-export type Category = "Software Engineering" | "Data Analytics" | "Design" | "Marketing" | "Finance" | "Operations";
+export type Industry = "Tech" | "Design" | "Finance" | "Healthcare" | "Marketing" | "Operations";
+export type Category = "Software Engineering" | "Data Analytics" | "Design" | "Marketing" | "Finance" | "Healthcare" | "Operations";
 
 export interface Job {
   id: string;
