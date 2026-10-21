@@ -9,7 +9,18 @@ import {
   gregorianToEthiopian,
 } from "@/lib/calendar";
 
-export const Route = createFileRoute("/calendar")({ component: CalendarConverter });
+export const Route = createFileRoute("/calendar")({
+  head: () => ({
+    meta: [
+      { title: "Ethiopian to Gregorian Date Converter | SERATEGNA" },
+      { name: "description", content: "Convert Ethiopian calendar dates to Gregorian dates and Gregorian dates to Ethiopian dates, including Pagumen." },
+      { property: "og:title", content: "Ethiopian ↔ Gregorian Calendar Converter | SERATEGNA" },
+      { property: "og:description", content: "Free two-way Ethiopian and Gregorian date converter." },
+    ],
+    links: [{ rel: "canonical", href: "https://serategna.com.et/calendar" }],
+  }),
+  component: CalendarConverter,
+});
 
 function CalendarConverter() {
   const today = new Date();

@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowLeft, BriefcaseBusiness, Building2, Clapperboard, Newspaper, Store, UsersRound, MapPin, Tag, ExternalLink } from "lucide-react";
+import { ArrowLeft, BriefcaseBusiness, Building2, Calculator, Clapperboard, Newspaper, Store, UsersRound, MapPin, Tag, ExternalLink } from "lucide-react";
 import { jobs } from "@/data/jobs";
 import { latestNews } from "@/data/news";
 
@@ -24,6 +24,7 @@ const resources = [
   { id: "entertainment", title: "Entertainment", description: "New Ethiopian music, films, videos, and community categories.", icon: Clapperboard, color: "bg-pink-500/10 text-pink-600" },
   { id: "classifieds", title: "Classifieds", description: "A simple place to discover Ethiopian goods and services categories.", icon: Store, color: "bg-emerald-500/10 text-emerald-600" },
   { id: "business", title: "Companies in Ethiopia", description: "Ethiopian companies, employers, and local business profiles.", icon: UsersRound, color: "bg-violet-500/10 text-violet-600" },
+  { id: "tools", title: "Ethiopian Tools", description: "Calendar converters, tax, currency, and unit tools for everyday use.", icon: Calculator, color: "bg-cyan-500/10 text-cyan-600" },
 ];
 
 const realEstate: Array<[string, string, string]> = [
@@ -46,6 +47,14 @@ const classifieds: Array<[string, string]> = [
   ["Computers and electronics", "Phones, computers, accessories, and repairs"],
   ["Goods and services", "Items for sale, rent, trade, and local services"],
   ["Tenders and opportunities", "Public notices, tenders, and business opportunities"],
+];
+
+const tools = [
+  { title: "Ethiopian → Gregorian date converter", detail: "Convert Ethiopian calendar dates to their Gregorian equivalents.", meta: "Calendar tool", href: "/calendar" },
+  { title: "Gregorian → Ethiopian date converter", detail: "Convert Gregorian dates into the Ethiopian calendar, including Pagumen.", meta: "Calendar tool", href: "/calendar" },
+  { title: "Ethiopian salary tax calculator", detail: "Estimate monthly employment tax, pension, and take-home pay in ETB.", meta: "Finance tool", href: "/ethiopian-tax-calculator" },
+  { title: "ETB currency converter", detail: "Compare Ethiopian birr with major currencies using the currency tool.", meta: "Finance tool", href: "/currency-converter" },
+  { title: "All-unit converter", detail: "Convert length, weight, temperature, volume, speed, data, and more.", meta: "Utility tool", href: "/unit-converter" },
 ];
 
 const companies = [
@@ -79,7 +88,7 @@ function EthiopiaHub() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <div className="mx-auto max-w-6xl">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to SERATEGNA</Link>
-        <section className="mt-8 text-center"><span className="inline-flex rounded-full border bg-card px-3 py-1 text-xs text-muted-foreground">Six Ethiopian feeds in one place</span><h1 className="text-gradient mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Your Ethiopia hub</h1><p className="mx-auto mt-4 max-w-2xl text-muted-foreground sm:text-lg">Read, search, and discover Ethiopian news, opportunities, listings, entertainment, and businesses without leaving SERATEGNA.</p></section>
+        <section className="mt-8 text-center"><span className="inline-flex rounded-full border bg-card px-3 py-1 text-xs text-muted-foreground">Ethiopian feeds and useful tools</span><h1 className="text-gradient mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Your Ethiopia hub</h1><p className="mx-auto mt-4 max-w-2xl text-muted-foreground sm:text-lg">Read, search, and discover Ethiopian news, opportunities, listings, entertainment, companies, and practical tools without leaving SERATEGNA.</p></section>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{resources.map(({ id, title, description, icon: Icon, color }) => <a key={id} href={`#${id}`} className="group rounded-2xl border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-glow"><span className={`grid h-11 w-11 place-items-center rounded-xl ${color}`}><Icon className="h-5 w-5" /></span><h2 className="mt-5 font-semibold">{title}</h2><p className="mt-2 text-sm leading-6 text-muted-foreground">{description}</p><p className="mt-4 text-xs font-medium text-primary">View on this page →</p></a>)}</div>
 
@@ -91,6 +100,7 @@ function EthiopiaHub() {
           <HubSection id="real-estate" icon={Building2} title="Real Estate" text="Homes, apartments, and rental categories for Ethiopian cities." source="Ezega Real Estate" items={realEstate.map(([title, detail, meta]) => ({ title, detail, meta }))} />
           <HubSection id="entertainment" icon={Clapperboard} title="Entertainment" text="New Ethiopian music, films, and video topics in one feed." source="Ezega Entertainment" items={entertainment.map(([title, href]) => ({ title, href, detail: "Ethiopian music, film, or video", meta: "Entertainment" }))} />
           <HubSection id="classifieds" icon={Store} title="Classifieds" text="Discover useful categories for buying, selling, renting, and trading." source="Ezega Classifieds" items={classifieds.map(([title, detail]) => ({ title, detail, meta: "Classifieds" }))} />
+          <HubSection id="tools" icon={Calculator} title="Ethiopian Tools" text="Convert dates between Ethiopian and Gregorian calendars and use practical finance and measurement tools." source="SERATEGNA tools" items={tools} />
           <HubSection id="business" icon={UsersRound} title="Companies in Ethiopia" text="Discover Ethiopian companies, employers, and local business profiles in one directory." source="SERATEGNA company directory" items={companies} />
         </div>
 
@@ -109,7 +119,7 @@ function HubSection({ id, icon, title, text, source, items }: { id: string; icon
 }
 
 function HubCard({ item }: { item: { title: string; detail: string; meta: string; href?: string } }) {
-  const content = <><div className="flex items-center justify-between gap-3"><Tag className="h-4 w-4 text-primary" /><span className="text-xs text-muted-foreground">{item.meta}</span></div><h3 className="mt-4 font-semibold leading-6">{item.title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{item.detail}</p>{item.href && <p className="mt-4 text-xs font-medium text-primary">{item.href.includes("youtube.com") ? "Find on YouTube" : "Visit official website"} ↗</p>}</>;
+  const content = <><div className="flex items-center justify-between gap-3"><Tag className="h-4 w-4 text-primary" /><span className="text-xs text-muted-foreground">{item.meta}</span></div><h3 className="mt-4 font-semibold leading-6">{item.title}</h3><p className="mt-2 text-sm leading-6 text-muted-foreground">{item.detail}</p>{item.href && <p className="mt-4 text-xs font-medium text-primary">{item.href.startsWith("/") ? "Open tool" : item.href.includes("youtube.com") ? "Find on YouTube" : "Visit official website"} ↗</p>}</>;
   return item.href ? <a href={item.href} target="_blank" rel="noreferrer" className="rounded-2xl border bg-card p-5 transition-colors hover:border-primary/40 hover:bg-secondary/30">{content}</a> : <article className="rounded-2xl border bg-card p-5">{content}</article>;
 }
 
