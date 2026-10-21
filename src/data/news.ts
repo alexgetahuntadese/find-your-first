@@ -3,6 +3,36 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "A Shared Past, an Unfinished Promise: Ethiopia and Kenya Are Giving Pan-Africanism and African Fraternity Practical Meaning",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Pan-Africanism has long called for Africans to look beyond inherited borders and recognize their shared interests, history, and future. In the relationship between Ethiopia and Kenya, that aspiration is finding expression ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 17:00:38 +0000"
+  },
+  {
+    "title": "From Neighbours to Brothers, From History to Shared Destiny: Ethiopia and Kenya’s Enduring Bond",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Some relationships begin with geography, grow through history and acquire their deepest meaning through the choices people make together. Ethiopia and Kenya share all three, a connection Ethiopian Prime Minister Abiy Ahmed",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 13:59:53 +0000"
+  },
+  {
+    "title": "Russian Foreign Minister Says Sputnik’s New African Offices to Expand Access to Objective Information",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Russian Foreign Minister Sergey Lavrov has said Sputnik’s newly opened editorial centers in Tanzania and South Africa will expand African audiences’ access to objective, verified information, free from distortion and ideol",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 12:57:35 +0000"
+  },
+  {
+    "title": "Africa Must Protect Statistical Independence and Ensure Data Reflects Every Community in Development – President Taye",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Ethiopian President Taye Atske-Selassie has underscored the need for African governments to protect the professional independence of official statistics and ensure that the data guiding development reflects the realities o",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 12:42:19 +0000"
+  },
+  {
+    "title": "PM Abiy Appoints Lt. Gen. Belay Seyoum Belay Seyoum Akele to Senior Federal Police Leadership Post",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Prime Minister Abiy Ahmed has appointed Lt. General Belay Seyoum Akele as Deputy Commissioner General of the Ethiopian Federal Police, assigning him to lead the Crime Prevention Main Department. The appointment places Lt. ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 12:28:16 +0000"
+  },
+  {
     "title": "Egyptian Analyst Exposes Cairo’s Flawed Anti-Ethiopia Narratives, Stresses Ethiopia’s Sovereign Rights on Abbay and Other Rivers",
     "summary": "Addis Ababa, October 21, 2026 (FMC) — Egyptian analyst Magdi Khalil has condemned Egypt’s efforts to obstruct the construction of the Grand Ethiopian Renaissance Dam (GERD) as a mistake, exposed longstanding anti-Ethiopia narratives surrounding the Abbay (Blue",
     "source": "FBC English",
@@ -33,12 +63,6 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Wed, 21 Oct 2026 11:14:43 +0000"
   },
   {
-    "title": "How Has the Illegal TPLF Turned Humanitarian Aid into Weapons and Plundered Tigray’s Resources?",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Prime Minister Abiy Ahmed has exposed the illegal TPLF’s alleged diversion of humanitarian grain to buy weapons and its plunder of Tigray’s resources, accusing the group of putting its military ambitions and own interests ",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 11:00:48 +0000"
-  },
-  {
     "title": "ኢትዮጵያን የመጥለፍ ሴራ ከመጎንጎን የማያርፈው የካይሮ ፖለቲካ",
     "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ከቅርብ ጊዜ ወዲህ ከካይሮ የሚወጡ ድምፆች ቁጥራቸው እየጨመረ፣ ድምፃቸውም እየጎላ መጥቷል። የግብፅ የውጭ ጉዳይ ሚኒስቴር ባድር አብደላቲ በተደጋጋሚ በሚሰጧቸው መግለጫዎች ኢትዮጵያ በቀይ ባሕር አካባቢ ምንም ዓይነት የወታደራዊ እንቅስቃሴ ማድረግ የለባትም ሲሉ ይደመጣሉ። ከዚህ ቀደም የግብጽ ፕሬዚዳንት አብዱልፈታ አልሲሲ በዘ ናሽናል ሚዲያ ቀርበው በኢትዮጵያ ",
     "source": "Fana Media",
@@ -49,29 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ትልቁ ሀብት የሰው ኃይሉ፣ በተለይም አምራቹ ወጣቱ ክፍል ነው። ወጣቱ ያለውን እውቀት፣ ጉልበትና አእምሮአዊ ብቃት ለልማት በማዋል ሀገርን የመለወጥ አቅሙ ከፍተኛ ነው። ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በትግርኛ ቋንቋ ባደረጉት ቃለ መጠይቅ ለትግራይ ወጣቶች ያስተላለፉት መልዕክት የትውልድን ህልውና የማዳን እና ወጣቱን ወደ ልማትና ለውጥ ",
     "source": "Fana Media",
     "publishedAt": "Tue, 20 Oct 2026 20:06:29 +0000"
-  },
-  {
-    "title": "ነገረ ግርምቢጥ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ለትግራይ ህዝብ መብት እታገላለው በሚው ሕገ ወጡ ህወሓት እና የክልሉን ህዝብ ሰላም እና መረጋጋት በሚያውኩ ድርጊቶቹ መካለል ያለውን ተገላቢጦሽ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ሲያብራሩ ቡድኑ ሥራው ሁሉ ግርምቢጥ ነው ብለዋል፡፡ ሕገ ወጡ ህወሓት ራሱን የትግራይ ህዝብ መብት ተሟጋች እና ተቆርቋሪ አድርጎ ቢያቀርብም፣ ድርጊቶቹ የሚናገረው ግን በተቃራኒ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 19:08:04 +0000"
-  },
-  {
-    "title": "የፖለቲካ ቁማር ያላራመዳቸው እግሮች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) በዓለም ታሪክ ውስጥ የትኛውም ሀገር አያሌ ተፈጥሯዊ ሀብት፣ የበለጸገ የንግድ መስመር፣ ወይም ጠንካራ የኢንዱስትሪ መሰረት ቢኖረውም፤ መሪዎች ስልጣንን ለግልና ቡድናዊ ጥቅም ማዋል ሲጀምሩና የተሳሳቱ ፖለቲካዊ ውሳኔዎችን ሲከተሉ ውድቀቱ አስከፊ ይሆናል። አንድ ሀገር የኢኮኖሚና የማህበራዊ እድገት ባለቤት ሆኖ ለመቀጠል ጠንካራ ተቋማትና የህግ የበላይነት ያስፈልጉ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 17:52:54 +0000"
-  },
-  {
-    "title": "Ethiopian PM Abiy Ahmed Draws Ethiopia-Kenya Agricultural Parallels, Emphasizes Shared Mission to Feed Their People",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has drawn parallels between the agricultural potential of Ethiopia’s highlands and Kenya’s fertile farming areas, emphasizing the shared mission of farmers in both countries to feed their people a",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 17:00:06 +0000"
-  },
-  {
-    "title": "በግብርናዉ ዘርፍ ያለዉን አቅም፣ ፀጋና ቴክኖሎጂ ማቀናጀት ይገባል -የትምጌታ አስራት (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) በማዕከላዊ ኢትዮጵያ ክልል በግብርናዉ ዘርፍ ያለዉን አቅም፣ ፀጋና ምቹ ቴክኖሎጂ ማቀናጀት ይገባል አሉ የክልሉ ርዕሰ መስተዳድር የትምጌታ አስራት (ዶ/ር)፡፡ የትምጌታ አስራት (ዶ/ር) ይህንን ያሉት በክልሉ በዘንድሮ የተቀናጀ የግብርና ንቅናቄ ውጤታማ የሆኑ አርሶ አደሮችን ማሳ በጎበኙበት ወቅት ነው። አክለውም የግብርና ሽግግር ስኬት እንዲረጋገጥ የሀገር ስል",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 16:26:23 +0000"
   }
 ];
