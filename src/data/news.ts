@@ -3,10 +3,46 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "ኢትዮጵያን የመጥለፍ ሴራ ከመጎንጎን የማያርፈው የካይሮ ፖለቲካ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ከቅርብ ጊዜ ወዲህ ከካይሮ የሚወጡ ድምፆች ቁጥራቸው እየጨመረ፣ ድምፃቸውም እየጎላ መጥቷል። የግብፅ የውጭ ጉዳይ ሚኒስቴር ባድር አብደላቲ በተደጋጋሚ በሚሰጧቸው መግለጫዎች ኢትዮጵያ በቀይ ባሕር አካባቢ ምንም ዓይነት የወታደራዊ እንቅስቃሴ ማድረግ የለባትም ሲሉ ይደመጣሉ። ከዚህ ቀደም የግብጽ ፕሬዚዳንት አብዱልፈታ አልሲሲ በዘ ናሽናል ሚዲያ ቀርበው በኢትዮጵያ ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 21:00:39 +0000"
+  },
+  {
+    "title": "የትግራይ ወጣቶች የወደፊት ተስፋና አቅጣጫ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ትልቁ ሀብት የሰው ኃይሉ፣ በተለይም አምራቹ ወጣቱ ክፍል ነው። ወጣቱ ያለውን እውቀት፣ ጉልበትና አእምሮአዊ ብቃት ለልማት በማዋል ሀገርን የመለወጥ አቅሙ ከፍተኛ ነው። ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በትግርኛ ቋንቋ ባደረጉት ቃለ መጠይቅ ለትግራይ ወጣቶች ያስተላለፉት መልዕክት የትውልድን ህልውና የማዳን እና ወጣቱን ወደ ልማትና ለውጥ ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 20:06:29 +0000"
+  },
+  {
+    "title": "ነገረ ግርምቢጥ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ለትግራይ ህዝብ መብት እታገላለው በሚው ሕገ ወጡ ህወሓት እና የክልሉን ህዝብ ሰላም እና መረጋጋት በሚያውኩ ድርጊቶቹ መካለል ያለውን ተገላቢጦሽ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ሲያብራሩ ቡድኑ ሥራው ሁሉ ግርምቢጥ ነው ብለዋል፡፡ ሕገ ወጡ ህወሓት ራሱን የትግራይ ህዝብ መብት ተሟጋች እና ተቆርቋሪ አድርጎ ቢያቀርብም፣ ድርጊቶቹ የሚናገረው ግን በተቃራኒ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 19:08:04 +0000"
+  },
+  {
+    "title": "የፖለቲካ ቁማር ያላራመዳቸው እግሮች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) በዓለም ታሪክ ውስጥ የትኛውም ሀገር አያሌ ተፈጥሯዊ ሀብት፣ የበለጸገ የንግድ መስመር፣ ወይም ጠንካራ የኢንዱስትሪ መሰረት ቢኖረውም፤ መሪዎች ስልጣንን ለግልና ቡድናዊ ጥቅም ማዋል ሲጀምሩና የተሳሳቱ ፖለቲካዊ ውሳኔዎችን ሲከተሉ ውድቀቱ አስከፊ ይሆናል። አንድ ሀገር የኢኮኖሚና የማህበራዊ እድገት ባለቤት ሆኖ ለመቀጠል ጠንካራ ተቋማትና የህግ የበላይነት ያስፈልጉ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 17:52:54 +0000"
+  },
+  {
     "title": "Ethiopian PM Abiy Ahmed Draws Ethiopia-Kenya Agricultural Parallels, Emphasizes Shared Mission to Feed Their People",
     "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has drawn parallels between the agricultural potential of Ethiopia’s highlands and Kenya’s fertile farming areas, emphasizing the shared mission of farmers in both countries to feed their people a",
     "source": "FBC English",
     "publishedAt": "Tue, 20 Oct 2026 17:00:06 +0000"
+  },
+  {
+    "title": "በግብርናዉ ዘርፍ ያለዉን አቅም፣ ፀጋና ቴክኖሎጂ ማቀናጀት ይገባል -የትምጌታ አስራት (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) በማዕከላዊ ኢትዮጵያ ክልል በግብርናዉ ዘርፍ ያለዉን አቅም፣ ፀጋና ምቹ ቴክኖሎጂ ማቀናጀት ይገባል አሉ የክልሉ ርዕሰ መስተዳድር የትምጌታ አስራት (ዶ/ር)፡፡ የትምጌታ አስራት (ዶ/ር) ይህንን ያሉት በክልሉ በዘንድሮ የተቀናጀ የግብርና ንቅናቄ ውጤታማ የሆኑ አርሶ አደሮችን ማሳ በጎበኙበት ወቅት ነው። አክለውም የግብርና ሽግግር ስኬት እንዲረጋገጥ የሀገር ስል",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 16:26:23 +0000"
+  },
+  {
+    "title": "የትግራይ ክልል ሕዝብ የሚፈልገው ሰላምና ልማት ነው – ብ/ጄኔራል ገብረእግዝአብሔር በየነ (ወዲ አንጥር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ክልል ሕዝብ የሚፈልገው ሰላምና ልማት ነው አሉ የትግራይ ክልል የፌደራል መንግሥት ባለአደራ አስተዳደር የጸጥታ እና ሰላም ዋና ሥራ አስፈጻሚ ብርጋዴር ጄኔራል ገብረእግዝአብሔር በየነ (ወዲ አንጥር)። ብርጋዴር ጄኔራሉ የፕሪቶሪያው የሰላም ስምምነት ውጊያውን ቢያቆመውም ህገ ወጡ ህወሓት ለዳግም ጦርነት ሲዘጋጅ በመቆየቱ ስምምነቱን ሙሉ በሙሉ ለመተግበር",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 16:10:52 +0000"
   },
   {
     "title": "PM Abiy Casts Ethiopia-Kenya Athletics Rivalry as Proof of Africa’s Global Potential",
@@ -15,63 +51,27 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Tue, 20 Oct 2026 16:01:20 +0000"
   },
   {
+    "title": "አስመራን ያኮሰመነው አምባገነን አገዛዝ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ኤርትራ በ1983 ዓ.ም ከኢትዮጵያ በተለያየችበት ወቅት የሻዕቢያ አገዛዝ ኤርትራን “የአፍሪካ ቀንድ ሲንጋፖር” እናደርጋታለን ብሎ ነበር፡፡ ይሁን እንጂ የኤርትራ ከኢትዮጵያ መነጠል ከልማት ይልቅ ጦርነት፣ ከትምህርት ይልቅ ውትድርናን ያስቀደመው አገዛዝ ኤርትራን ሲንጋፖር ከማድረግ ይልቅ በድህነት እና ኋላቀርነት የምትጠቀስ ሀገር አድርጓታል፡፡ አገዛዙ ከልማት ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 15:26:30 +0000"
+  },
+  {
+    "title": "ለዓለም የተገለጠው የኢትዮጵያ የቱሪዝም መስህብ – የተፅዕኖ ፈጣሪው ካሊድ መደነቅ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በታሪክ፣ በባህልና በተፈጥሮ ውበት የበለፀገች የጎብኚዎች መዳረሻ ናት። የሕዝቧ ብዝሃነት፣ ባህልና የአኗኗር ዘይቤም አገሪቱን የብዙዎችን ቀልብ የምትስብ ታላቅ ምድር ያደርጋታል። ወደ ምድረ ቀደምቷ ሀገር በተለያዩ ጊዜያት ለጉብኝት የሚመጡ የውጭ ሀገር ቱሪስቶች የሚሰጧቸው አስተያየቶችም በኢትዮጵያ አስደማሚ መልክዓ ምድር፤ ተስማሚ የአየር ንብረት፤ አስ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 14:30:11 +0000"
+  },
+  {
+    "title": "የትግራይ ወጣት እጅ በኮምፒውተር እና በልማት ላይ ማረፍ አለበት – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ክላሽ ተሸክሞ የሚንከራተተው የትግራይ ወጣት እጅ የጠመንጃ ቃታ ከመሳብ ይልቅ በኮምፒውተር ላይ ማረፍ አለበት አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቆይታ÷ የትግራይ ወጣት ቦታው በዩኒቨርሲቲ፣ በንግድ፣ በእርሻ ሥራ እና በፋብሪካዎች ውስጥ መሆን እንደሚገባው አጽንኦት ሰጥተዋል። በጦርነት ምክንያት ቀላል የማይ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 20 Oct 2026 14:14:33 +0000"
+  },
+  {
     "title": "PM Abiy Cites Medemer’s Principle of Combining Strengths in Ethiopia-Kenya Energy, Connectivity and Business Cooperation",
     "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has cited Ethiopia’s homegrown Medemer philosophy in describing how Ethiopia and Kenya can bring their respective strengths together for a common purpose, pointing to cross-border electricity, tra",
     "source": "FBC English",
     "publishedAt": "Tue, 20 Oct 2026 13:53:33 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Praises Close Ethiopia-Kenya Ties, Underscores Economic Cooperation and Shared Prosperity",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has praised the close ties between Ethiopia and Kenya, emphasizing the importance of translating their longstanding friendship and shared history into stronger economic cooperation, regi",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 13:38:26 +0000"
-  },
-  {
-    "title": "Ethiopian PM Invokes Adwa and Kenya’s Freedom Struggle to Advance Medemer-Based Cooperation and Shared Prosperity",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has emphasized the shared history of courage and sacrifice between Ethiopia and Kenya, linking Ethiopia’s historic victory at Adwa with Kenya’s struggle for freedom and calling for stronger cooper",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 12:39:40 +0000"
-  },
-  {
-    "title": "Bahir Dar Readies to Host Africa’s Security Forum as Amhara Police Finalizes Security Plan",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Bahir Dar is preparing to welcome African and international delegates for the 12th Tana High-Level Forum on Security in Africa, with the Amhara Regional Police saying a coordinated security framework is in place for the co",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 11:50:40 +0000"
-  },
-  {
-    "title": "Ethiopia’s Renewable Energy Resources Create New Opportunities for Africa’s Agricultural and Transport Transformation",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopia’s vast renewable energy resources offer opportunities to deepen African cooperation in agricultural modernization, regional electricity trade and clean transport, with representatives from Uganda and Nigeria highl",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 08:01:33 +0000"
-  },
-  {
-    "title": "Ethiopian PM Abiy Ahmed Arrives in Kenya for Mashujaa Day Celebrations",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has arrived in Eldoret, Kenya, as Guest of Honor at the Mashujaa Day celebrations, a national holiday honoring individuals who have contributed to Kenya’s freedom, sovereignty, and devel",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 07:51:12 +0000"
-  },
-  {
-    "title": "Ethiopia’s Space Capabilities Strengthen Africa’s Drive for Data-Driven Development",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopia is contributing to Africa’s efforts to strengthen geospatial information and satellite-based Earth observation, supporting more accurate development planning, evidence-based policymaking and the monitoring of prog",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 06:33:56 +0000"
-  },
-  {
-    "title": "Ethiopian Scientist Wins FAO Achievement Award for Transforming Enset Processing",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Ethiopian scientist Addisu Fekadu Andeta has received the 2026 Food and Agriculture Organization of the United Nations (FAO) Achievement Award for innovations that are modernizing the processing of enset, an indigenous Eth",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 04:00:50 +0000"
-  },
-  {
-    "title": "ህገወጡ ህወሓት ከጥፋት ኃይሎች ጋር በመሻረክ የማይበጅ ጦርነት አውጇል – ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 9፣ 2019 (ኤፍ ኤም ሲ) ህገወጡ ህወሓት ከጥፋት ኃይሎች ጋር በመሻረክ የማይበጅ ጦርነት አውጇል አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)፡፡ ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቆይታ የፕሪቶሪያው የሰላም ስምምነት በተፈለገው መንገድ ሳይተገበር የከሸፈው በህገወጡ ህወሓት በኩል በተደረጉ የውል መጣስ ተግባራት ነው ብለዋል፡፡ ጠቅላይ ሚኒስትሩ አክለውም የፕሪቶሪያው የሰላም ስም",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 19 Oct 2026 19:40:56 +0000"
-  },
-  {
-    "title": "ሕገ ወጡ ህወሓት ለሰብዓዊ ክብር እና ህይወት ቅንጣት ታክል ግድ የለውም – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 9፣ 2019 (ኤፍ ኤም ሲ) ሕገ ወጡ ህወሓት ለሰብዓዊ ክብር እና ህይወት ቅንጣት ታክል ግድ የለውም አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቃለ መጠይቅ ላይ እንዳሉት፤ ሰይጣን ለማስመሰል እንደሚጥረው ሁሉ ሕገ ወጡ ህወሓት በአፉ ሰብአዊ ለመምሰል ይለፋል፤ ስለ ሰብአዊ ክብርም ይሰብካል፣ ይጮሀል። በተግባር ግን ሕገ ወጡ ህወሓት […] Th",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 19 Oct 2026 18:30:43 +0000"
   }
 ];
