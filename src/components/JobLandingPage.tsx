@@ -29,9 +29,25 @@ const landingCopy: Record<LandingKind, { title: string; description: string; int
 export function JobLandingPage({ kind }: { kind: LandingKind }) {
   const copy = landingCopy[kind];
   const matchingJobs = jobs.filter(copy.filter).slice(0, 40);
+  const pagePath = kind === "fresh" ? "fresh-graduate-jobs-ethiopia" : kind === "internships" ? "internships-ethiopia" : "entry-level-jobs-addis-ababa";
+  const pageUrl = `https://serategna.com.et/${pagePath}`;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: copy.title,
+    description: copy.description,
+    url: pageUrl,
+    isPartOf: { "@type": "WebSite", name: "SERATEGNA", url: "https://serategna.com.et/" },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: matchingJobs.length,
+      itemListElement: matchingJobs.slice(0, 20).map((job, index) => ({ "@type": "ListItem", position: index + 1, name: `${job.title} — ${job.company}`, url: job.url })),
+    },
+  };
 
   return (
     <main className="min-h-screen bg-background text-foreground">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         <nav className="mb-10 flex items-center justify-between" aria-label="Breadcrumb">
           <Link to="/" aria-label="SERATEGNA home" className="flex w-[148px] shrink-0 items-center"><BrandLogo className="h-8 w-[148px]" /></Link>

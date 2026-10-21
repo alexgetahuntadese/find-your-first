@@ -9,7 +9,7 @@ export const Route = createFileRoute("/ethiopia")({
       { title: "Ethiopia Hub — News, Jobs, Real Estate & More | SERATEGNA" },
       { name: "description", content: "Discover Ethiopian news, jobs, real estate, entertainment, classifieds, and business listings in one on-site hub." },
       { property: "og:title", content: "Ethiopia Hub | SERATEGNA" },
-      { property: "og:description", content: "Six useful Ethiopian feeds aggregated in one place." },
+      { property: "og:description", content: "Ethiopian companies, jobs, news, real estate, entertainment, and classifieds in one useful hub." },
       { name: "robots", content: "index,follow" },
     ],
     links: [{ rel: "canonical", href: "https://serategna.com.et/ethiopia" }],
@@ -61,8 +61,22 @@ const companies = [
 ];
 
 function EthiopiaHub() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Your Ethiopia hub — Companies, Jobs, News and Opportunities",
+    description: "Discover Ethiopian companies, jobs, news, real estate, entertainment, classifieds, and business listings on SERATEGNA.",
+    url: "https://serategna.com.et/ethiopia",
+    mainEntity: {
+      "@type": "ItemList",
+      name: "Companies in Ethiopia",
+      numberOfItems: companies.length,
+      itemListElement: companies.map((company, index) => ({ "@type": "ListItem", position: index + 1, name: company.title, url: company.href || "https://serategna.com.et/ethiopia#business" })),
+    },
+  };
   return (
     <main className="min-h-screen bg-background px-4 py-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <div className="mx-auto max-w-6xl">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to SERATEGNA</Link>
         <section className="mt-8 text-center"><span className="inline-flex rounded-full border bg-card px-3 py-1 text-xs text-muted-foreground">Six Ethiopian feeds in one place</span><h1 className="text-gradient mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Your Ethiopia hub</h1><p className="mx-auto mt-4 max-w-2xl text-muted-foreground sm:text-lg">Read, search, and discover Ethiopian news, opportunities, listings, entertainment, and businesses without leaving SERATEGNA.</p></section>
