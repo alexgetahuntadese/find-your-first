@@ -3,6 +3,42 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Egyptian Analyst Exposes Cairo’s Flawed Anti-Ethiopia Narratives, Stresses Ethiopia’s Sovereign Rights on Abbay and Other Rivers",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Egyptian analyst Magdi Khalil has condemned Egypt’s efforts to obstruct the construction of the Grand Ethiopian Renaissance Dam (GERD) as a mistake, exposed longstanding anti-Ethiopia narratives surrounding the Abbay (Blue",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 12:17:43 +0000"
+  },
+  {
+    "title": "Ethiopia Champions African Data Sovereignty to Shape the Continent’s Development",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Ethiopia is championing an African statistical system capable of independently measuring the continent’s progress, safeguarding the integrity of its data and ensuring that development decisions are grounded in reliable evi",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 12:00:21 +0000"
+  },
+  {
+    "title": "Ethiopia’s Digital Finance Reaches 257 Million Accounts, President Taye Says",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Ethiopian President Taye Atske-Selassie has highlighted the country’s statistical reforms and digital transformation as examples of how measurable development targets and reliable data can advance Africa’s development, rep",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 11:46:38 +0000"
+  },
+  {
+    "title": "10th StatCom-Africa Session Opens in Addis Ababa to Advance Data-Driven Development",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — The 10th Session of the Statistical Commission for Africa (StatCom-Africa) opened in Addis Ababa on Wednesday, bringing together Africa’s statistical community to strengthen official data systems and ensure statistics more",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 11:36:50 +0000"
+  },
+  {
+    "title": "How Did Eritrea Fall from the Promise of “Africa’s Singapore” to a Nation of Empty Ports and Stalled Cities?",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Prime Minister Abiy Ahmed has laid bare the stark contrast between Eritrea’s promise of becoming “Africa’s Singapore” after independence and the economic decline that has engulfed the country over the past three decades, p",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 11:14:43 +0000"
+  },
+  {
+    "title": "How Has the Illegal TPLF Turned Humanitarian Aid into Weapons and Plundered Tigray’s Resources?",
+    "summary": "Addis Ababa, October 21, 2026 (FMC) — Prime Minister Abiy Ahmed has exposed the illegal TPLF’s alleged diversion of humanitarian grain to buy weapons and its plunder of Tigray’s resources, accusing the group of putting its military ambitions and own interests ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 21 Oct 2026 11:00:48 +0000"
+  },
+  {
     "title": "ኢትዮጵያን የመጥለፍ ሴራ ከመጎንጎን የማያርፈው የካይሮ ፖለቲካ",
     "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ከቅርብ ጊዜ ወዲህ ከካይሮ የሚወጡ ድምፆች ቁጥራቸው እየጨመረ፣ ድምፃቸውም እየጎላ መጥቷል። የግብፅ የውጭ ጉዳይ ሚኒስቴር ባድር አብደላቲ በተደጋጋሚ በሚሰጧቸው መግለጫዎች ኢትዮጵያ በቀይ ባሕር አካባቢ ምንም ዓይነት የወታደራዊ እንቅስቃሴ ማድረግ የለባትም ሲሉ ይደመጣሉ። ከዚህ ቀደም የግብጽ ፕሬዚዳንት አብዱልፈታ አልሲሲ በዘ ናሽናል ሚዲያ ቀርበው በኢትዮጵያ ",
     "source": "Fana Media",
@@ -37,41 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) በማዕከላዊ ኢትዮጵያ ክልል በግብርናዉ ዘርፍ ያለዉን አቅም፣ ፀጋና ምቹ ቴክኖሎጂ ማቀናጀት ይገባል አሉ የክልሉ ርዕሰ መስተዳድር የትምጌታ አስራት (ዶ/ር)፡፡ የትምጌታ አስራት (ዶ/ር) ይህንን ያሉት በክልሉ በዘንድሮ የተቀናጀ የግብርና ንቅናቄ ውጤታማ የሆኑ አርሶ አደሮችን ማሳ በጎበኙበት ወቅት ነው። አክለውም የግብርና ሽግግር ስኬት እንዲረጋገጥ የሀገር ስል",
     "source": "Fana Media",
     "publishedAt": "Tue, 20 Oct 2026 16:26:23 +0000"
-  },
-  {
-    "title": "የትግራይ ክልል ሕዝብ የሚፈልገው ሰላምና ልማት ነው – ብ/ጄኔራል ገብረእግዝአብሔር በየነ (ወዲ አንጥር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ክልል ሕዝብ የሚፈልገው ሰላምና ልማት ነው አሉ የትግራይ ክልል የፌደራል መንግሥት ባለአደራ አስተዳደር የጸጥታ እና ሰላም ዋና ሥራ አስፈጻሚ ብርጋዴር ጄኔራል ገብረእግዝአብሔር በየነ (ወዲ አንጥር)። ብርጋዴር ጄኔራሉ የፕሪቶሪያው የሰላም ስምምነት ውጊያውን ቢያቆመውም ህገ ወጡ ህወሓት ለዳግም ጦርነት ሲዘጋጅ በመቆየቱ ስምምነቱን ሙሉ በሙሉ ለመተግበር",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 16:10:52 +0000"
-  },
-  {
-    "title": "PM Abiy Casts Ethiopia-Kenya Athletics Rivalry as Proof of Africa’s Global Potential",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has presented the longstanding athletics rivalry between Ethiopia and Kenya as an example of how competition can coexist with partnership, saying the two countries’ sporting achievements demonstra",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 16:01:20 +0000"
-  },
-  {
-    "title": "አስመራን ያኮሰመነው አምባገነን አገዛዝ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ኤርትራ በ1983 ዓ.ም ከኢትዮጵያ በተለያየችበት ወቅት የሻዕቢያ አገዛዝ ኤርትራን “የአፍሪካ ቀንድ ሲንጋፖር” እናደርጋታለን ብሎ ነበር፡፡ ይሁን እንጂ የኤርትራ ከኢትዮጵያ መነጠል ከልማት ይልቅ ጦርነት፣ ከትምህርት ይልቅ ውትድርናን ያስቀደመው አገዛዝ ኤርትራን ሲንጋፖር ከማድረግ ይልቅ በድህነት እና ኋላቀርነት የምትጠቀስ ሀገር አድርጓታል፡፡ አገዛዙ ከልማት ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 15:26:30 +0000"
-  },
-  {
-    "title": "ለዓለም የተገለጠው የኢትዮጵያ የቱሪዝም መስህብ – የተፅዕኖ ፈጣሪው ካሊድ መደነቅ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በታሪክ፣ በባህልና በተፈጥሮ ውበት የበለፀገች የጎብኚዎች መዳረሻ ናት። የሕዝቧ ብዝሃነት፣ ባህልና የአኗኗር ዘይቤም አገሪቱን የብዙዎችን ቀልብ የምትስብ ታላቅ ምድር ያደርጋታል። ወደ ምድረ ቀደምቷ ሀገር በተለያዩ ጊዜያት ለጉብኝት የሚመጡ የውጭ ሀገር ቱሪስቶች የሚሰጧቸው አስተያየቶችም በኢትዮጵያ አስደማሚ መልክዓ ምድር፤ ተስማሚ የአየር ንብረት፤ አስ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 14:30:11 +0000"
-  },
-  {
-    "title": "የትግራይ ወጣት እጅ በኮምፒውተር እና በልማት ላይ ማረፍ አለበት – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ክላሽ ተሸክሞ የሚንከራተተው የትግራይ ወጣት እጅ የጠመንጃ ቃታ ከመሳብ ይልቅ በኮምፒውተር ላይ ማረፍ አለበት አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በትግርኛ ቋንቋ ባደረጉት ቆይታ÷ የትግራይ ወጣት ቦታው በዩኒቨርሲቲ፣ በንግድ፣ በእርሻ ሥራ እና በፋብሪካዎች ውስጥ መሆን እንደሚገባው አጽንኦት ሰጥተዋል። በጦርነት ምክንያት ቀላል የማይ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 14:14:33 +0000"
-  },
-  {
-    "title": "PM Abiy Cites Medemer’s Principle of Combining Strengths in Ethiopia-Kenya Energy, Connectivity and Business Cooperation",
-    "summary": "Addis Ababa, October 20, 2026 (FMC) — Prime Minister Abiy Ahmed has cited Ethiopia’s homegrown Medemer philosophy in describing how Ethiopia and Kenya can bring their respective strengths together for a common purpose, pointing to cross-border electricity, tra",
-    "source": "FBC English",
-    "publishedAt": "Tue, 20 Oct 2026 13:53:33 +0000"
   }
 ];
