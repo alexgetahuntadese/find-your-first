@@ -274,7 +274,16 @@ function Index() {
         </div>
       </main>
 
-      <footer className="border-t py-8 text-center text-sm text-muted-foreground">© 2026 SERATEGNA · Built for early-career talent · <button onClick={() => navigate({ to: "/blog" })} className="text-primary hover:underline">Career guides</button></footer>
+      <footer className="border-t py-8 text-center text-sm text-muted-foreground">
+        <p>© 2026 SERATEGNA · Built for early-career talent · <button onClick={() => navigate({ to: "/blog" })} className="text-primary hover:underline">Career guides</button></p>
+        <nav aria-label="SERATEGNA tools" className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
+          <a href="/ethiopia#tools" className="hover:text-foreground hover:underline">Ethiopian tools</a>
+          <a href="/unit-converter" className="hover:text-foreground hover:underline">Unit converter</a>
+          <a href="/calendar" className="hover:text-foreground hover:underline">Calendar converter</a>
+          <a href="/currency-converter" className="hover:text-foreground hover:underline">Currency converter</a>
+          <a href="/ethiopian-tax-calculator" className="hover:text-foreground hover:underline">Tax calculator</a>
+        </nav>
+      </footer>
 
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden">
