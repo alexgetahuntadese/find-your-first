@@ -3,6 +3,12 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Tigray Region Has a New Opening for Peace and Development as Banned TPLF Group’s Conflict Agenda Fades Away",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) — The people of Tigray Region want peace and development, not another round of war, Brigadier General Gebre Egziabher Beyene (Wedi Antir), Chief Executive for Security and Peace Affairs of the Federal Government’s Interim Ad",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 14:22:37 +0000"
+  },
+  {
     "title": "PM’s Adviser Calls for Strategic Vigilance as Regional Alliances Reshape Horn of Africa",
     "summary": "Addis Ababa, October 22, 2026 (FMC) — Ministerial Adviser to the Prime Minister of Ethiopia on Eastern African Affairs Getachew Reda has emphasized the need for stronger institutional coordination and sustained strategic responses to protect Ethiopia’s nationa",
     "source": "FBC English",
@@ -67,11 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) በታሪክ ማህደር ውስጥ የታላላቅ ሀገራት እድገት ቀጣይነት ምሥጢር የዛሬውን ብቻ ሳይሆን፤ የነገውን ትውልድ አርቆ ማየት መቻላቸውና በዚያው አግባብ መሰረት መጣላቸው ነው። ኃይል የኢኮኖሚ እድገት የጀርባ አጥንት ነው። በቂና አስተማማኝ የኃይል አማራጭ የሌላቸው ሀገራት ፈጣንና ዘላቂ እድገትን ማረጋገጥ አይችሉም። ዛሬ በዓለማችን የኃይል ፍላጎት በከፍተኛ ሁኔታ እ",
     "source": "Fana Media",
     "publishedAt": "Wed, 21 Oct 2026 15:40:38 +0000"
-  },
-  {
-    "title": "ከህገወጡ የህወሓት ቡድን በመላቀቅ ፊቱን ለልማት ያቀናው የትግራይ ህዝብ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ህዝብ ለብዙ ዘመናት ሲጎሳቆል ይበጁኛል ባላቸው ሲጎዳና ሲካድ የቆየ ህዝብ ነው፡፡ ህዝቡ ለልማት ያለውን ጉጉትና ቁርጠኝነት ያህል ከስሩ በወጡትና ነጻ እናውጣህ ባሉት በኩል ግን የታደለ አልነበረም፡፡ ህገወጡ የህወሓት ቡድን ለዘመናት በትግራይ ህዝብ ስም እየነገደ ክልሉን ወደ አዘቅት ይዞት ሲጓዝ የቆየ ቡድን ነው፡፡ ላለፉት በርካታ ዓመታት ህገወጡ [",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 21 Oct 2026 14:38:41 +0000"
   }
 ];
