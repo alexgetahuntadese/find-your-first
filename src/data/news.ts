@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "PM’s Adviser Calls for Strategic Vigilance as Regional Alliances Reshape Horn of Africa",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) — Ministerial Adviser to the Prime Minister of Ethiopia on Eastern African Affairs Getachew Reda has emphasized the need for stronger institutional coordination and sustained strategic responses to protect Ethiopia’s nationa",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 09:53:19 +0000"
+  },
+  {
+    "title": "War Does Not Build Nations; Peace and Cooperation Do: Lindiwe Sisulu",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) — Peace, investment in human development and mutually beneficial international cooperation are essential to Africa’s long-term prosperity, while war diverts resources from education, healthcare and nation-building, Lindiwe S",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 09:09:42 +0000"
+  },
+  {
+    "title": "Farmer Prosperity Must Anchor Africa’s Institutional and Economic Transformation: AGRA’s Aggie Konde",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) — African institutions must align knowledge, public spending and private investment around farmer prosperity to turn agricultural productivity into reliable incomes, viable enterprises and broader economic transformation, Ag",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 09:03:45 +0000"
+  },
+  {
+    "title": "A Demonstration of Commitment to National Peace and Development",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) – The peace agreement signed in Pretoria, South Africa, in October 2022 marked a historic step toward ending the war in northern Ethiopia. The agreement outlined clear directions for permanently ending the conflict, upholdin",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 07:01:47 +0000"
+  },
+  {
+    "title": "Tigray Region Breaks Free from the Shackles of the Most Treasonous Group in Ethiopia’s History, Embraces Peace and a Ray of Hope",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) — For decades, the defunct TPLF has sought to chain the fate, security, and future of the people of Tigray Region to its own political survival. It has tried to convince them that their identity, dignity, and very existence ",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 06:49:25 +0000"
+  },
+  {
+    "title": "Exposing Cairo’s Destabilization Conspiracy Against Ethiopia and the Entire Horn of Africa",
+    "summary": "Addis Ababa, October 22, 2026 (FMC) — Egypt’s destabilizing policy in the Horn of Africa has not ended. It has grown more aggressive, expanded its reach, and adapted its methods to sustain regional instability and advance Cairo’s strategic ambitions at the exp",
+    "source": "FBC English",
+    "publishedAt": "Thu, 22 Oct 2026 05:59:38 +0000"
+  },
+  {
+    "title": "የትግራይ ህዝብ አዲስ የተስፋ ብርሃን",
+    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) በታሪክ እጣፈንታቸው ተሳስረው፣ በደስታውም ሆነ በችግር ጊዜ በትብብር በማለፍ ጠንካራ የህዝብ ለህዝብ ግንኙነት የገነቡት የኢትዮጵያ ብሔሮች፣ ብሔረሰቦችና ህዝቦች ለዘመናት አብረው ኖረዋል። ሆኖም ይህን የጠበቀ ወንድማማችነት እና ሀገራዊ አንድነት ለመሸርሸር፣ ህገወጡ የህወሓት ቡድን በመንግሥት ስልጣን ላይ በነበረበት ረጅም ጊዜያት ውስጥ የቂምና የቁርሾ ትርክቶ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 21 Oct 2026 19:19:50 +0000"
+  },
+  {
+    "title": "የትግራይ ክልልን ሕዝብ ሰላምና ልማትን የሚያደናቅፍ አስተሳሰብ ከስሩ መነቀል አለበት- ብ/ጄ ገብረእግዚአብሔር በየነ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ክልልን ሕዝብ ሰላምና ልማትን የሚያደናቅፍ አስተሳሰብ ከስሩ መነቀል አለበት አሉ የትግራይ ክልል ባለአደራ አስተዳደር የጸጥታና ሰላም ጉዳዮች ዋና አስፈጻሚ ብርጋዴር ጄነራል ገብረእግዚአብሔር በየነ ። የትግራይ ክልል ባለአደራ አስተዳደር አስፈጻሚዎች ከመቀሌ ከተማ ነዋሪዎች ጋር የውይይት መድረክ አካሂደዋል። ብርጋዴር ጄኔራል ገብረእግዚአብሔር በየነ በ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 21 Oct 2026 17:49:03 +0000"
+  },
+  {
+    "title": "ተመጣጣኝ የመኖሪያ ቤት አቅርቦትን በማሳደግ ዘላቂ መፍትሔ ለማምጣት እየተሰራ ነው – ከንቲባ አዳነች አቤቤ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) ተደራሽና ተመጣጣኝ የመኖሪያ ቤት አቅርቦትን በማሳደግ ዘላቂ መፍትሔ ለማምጣት እየተሰራ ነው አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። ከንቲባ አዳነች በማህበራዊ ትስስር ገጻቸው ባሰፈሩት መልዕክት፤ የአዲስ አበባ ከተማ አስተዳደር በመሠረታዊ የዕለት ተዕለት ፍጆታዎችና በቤት ኪራይ ላይ እየታዩ ያሉ ምክንያታዊ ያልሆኑ የዋጋ ጭማሪዎችን ለመቆጣጠ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 21 Oct 2026 17:22:27 +0000"
+  },
+  {
     "title": "A Shared Past, an Unfinished Promise: Ethiopia and Kenya Are Giving Pan-Africanism and African Fraternity Practical Meaning",
     "summary": "Addis Ababa, October 21, 2026 (FMC) — Pan-Africanism has long called for Africans to look beyond inherited borders and recognize their shared interests, history, and future. In the relationship between Ethiopia and Kenya, that aspiration is finding expression ",
     "source": "FBC English",
     "publishedAt": "Wed, 21 Oct 2026 17:00:38 +0000"
   },
   {
-    "title": "From Neighbours to Brothers, From History to Shared Destiny: Ethiopia and Kenya’s Enduring Bond",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Some relationships begin with geography, grow through history and acquire their deepest meaning through the choices people make together. Ethiopia and Kenya share all three, a connection Ethiopian Prime Minister Abiy Ahmed",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 13:59:53 +0000"
-  },
-  {
-    "title": "Russian Foreign Minister Says Sputnik’s New African Offices to Expand Access to Objective Information",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Russian Foreign Minister Sergey Lavrov has said Sputnik’s newly opened editorial centers in Tanzania and South Africa will expand African audiences’ access to objective, verified information, free from distortion and ideol",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 12:57:35 +0000"
-  },
-  {
-    "title": "Africa Must Protect Statistical Independence and Ensure Data Reflects Every Community in Development – President Taye",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Ethiopian President Taye Atske-Selassie has underscored the need for African governments to protect the professional independence of official statistics and ensure that the data guiding development reflects the realities o",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 12:42:19 +0000"
-  },
-  {
-    "title": "PM Abiy Appoints Lt. Gen. Belay Seyoum Belay Seyoum Akele to Senior Federal Police Leadership Post",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Prime Minister Abiy Ahmed has appointed Lt. General Belay Seyoum Akele as Deputy Commissioner General of the Ethiopian Federal Police, assigning him to lead the Crime Prevention Main Department. The appointment places Lt. ",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 12:28:16 +0000"
-  },
-  {
-    "title": "Egyptian Analyst Exposes Cairo’s Flawed Anti-Ethiopia Narratives, Stresses Ethiopia’s Sovereign Rights on Abbay and Other Rivers",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Egyptian analyst Magdi Khalil has condemned Egypt’s efforts to obstruct the construction of the Grand Ethiopian Renaissance Dam (GERD) as a mistake, exposed longstanding anti-Ethiopia narratives surrounding the Abbay (Blue",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 12:17:43 +0000"
-  },
-  {
-    "title": "Ethiopia Champions African Data Sovereignty to Shape the Continent’s Development",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Ethiopia is championing an African statistical system capable of independently measuring the continent’s progress, safeguarding the integrity of its data and ensuring that development decisions are grounded in reliable evi",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 12:00:21 +0000"
-  },
-  {
-    "title": "Ethiopia’s Digital Finance Reaches 257 Million Accounts, President Taye Says",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Ethiopian President Taye Atske-Selassie has highlighted the country’s statistical reforms and digital transformation as examples of how measurable development targets and reliable data can advance Africa’s development, rep",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 11:46:38 +0000"
-  },
-  {
-    "title": "10th StatCom-Africa Session Opens in Addis Ababa to Advance Data-Driven Development",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — The 10th Session of the Statistical Commission for Africa (StatCom-Africa) opened in Addis Ababa on Wednesday, bringing together Africa’s statistical community to strengthen official data systems and ensure statistics more",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 11:36:50 +0000"
-  },
-  {
-    "title": "How Did Eritrea Fall from the Promise of “Africa’s Singapore” to a Nation of Empty Ports and Stalled Cities?",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Prime Minister Abiy Ahmed has laid bare the stark contrast between Eritrea’s promise of becoming “Africa’s Singapore” after independence and the economic decline that has engulfed the country over the past three decades, p",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 11:14:43 +0000"
-  },
-  {
-    "title": "ኢትዮጵያን የመጥለፍ ሴራ ከመጎንጎን የማያርፈው የካይሮ ፖለቲካ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) ከቅርብ ጊዜ ወዲህ ከካይሮ የሚወጡ ድምፆች ቁጥራቸው እየጨመረ፣ ድምፃቸውም እየጎላ መጥቷል። የግብፅ የውጭ ጉዳይ ሚኒስቴር ባድር አብደላቲ በተደጋጋሚ በሚሰጧቸው መግለጫዎች ኢትዮጵያ በቀይ ባሕር አካባቢ ምንም ዓይነት የወታደራዊ እንቅስቃሴ ማድረግ የለባትም ሲሉ ይደመጣሉ። ከዚህ ቀደም የግብጽ ፕሬዚዳንት አብዱልፈታ አልሲሲ በዘ ናሽናል ሚዲያ ቀርበው በኢትዮጵያ ",
+    "title": "የነገዋ ኢትዮጵያ አዲሱ የብርሃን ምዕራፍ፤ የኒውክሊየር ቴክኖሎጂ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) በታሪክ ማህደር ውስጥ የታላላቅ ሀገራት እድገት ቀጣይነት ምሥጢር የዛሬውን ብቻ ሳይሆን፤ የነገውን ትውልድ አርቆ ማየት መቻላቸውና በዚያው አግባብ መሰረት መጣላቸው ነው። ኃይል የኢኮኖሚ እድገት የጀርባ አጥንት ነው። በቂና አስተማማኝ የኃይል አማራጭ የሌላቸው ሀገራት ፈጣንና ዘላቂ እድገትን ማረጋገጥ አይችሉም። ዛሬ በዓለማችን የኃይል ፍላጎት በከፍተኛ ሁኔታ እ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 21:00:39 +0000"
+    "publishedAt": "Wed, 21 Oct 2026 15:40:38 +0000"
   },
   {
-    "title": "የትግራይ ወጣቶች የወደፊት ተስፋና አቅጣጫ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 10፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ትልቁ ሀብት የሰው ኃይሉ፣ በተለይም አምራቹ ወጣቱ ክፍል ነው። ወጣቱ ያለውን እውቀት፣ ጉልበትና አእምሮአዊ ብቃት ለልማት በማዋል ሀገርን የመለወጥ አቅሙ ከፍተኛ ነው። ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በትግርኛ ቋንቋ ባደረጉት ቃለ መጠይቅ ለትግራይ ወጣቶች ያስተላለፉት መልዕክት የትውልድን ህልውና የማዳን እና ወጣቱን ወደ ልማትና ለውጥ ",
+    "title": "ከህገወጡ የህወሓት ቡድን በመላቀቅ ፊቱን ለልማት ያቀናው የትግራይ ህዝብ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ህዝብ ለብዙ ዘመናት ሲጎሳቆል ይበጁኛል ባላቸው ሲጎዳና ሲካድ የቆየ ህዝብ ነው፡፡ ህዝቡ ለልማት ያለውን ጉጉትና ቁርጠኝነት ያህል ከስሩ በወጡትና ነጻ እናውጣህ ባሉት በኩል ግን የታደለ አልነበረም፡፡ ህገወጡ የህወሓት ቡድን ለዘመናት በትግራይ ህዝብ ስም እየነገደ ክልሉን ወደ አዘቅት ይዞት ሲጓዝ የቆየ ቡድን ነው፡፡ ላለፉት በርካታ ዓመታት ህገወጡ [",
     "source": "Fana Media",
-    "publishedAt": "Tue, 20 Oct 2026 20:06:29 +0000"
+    "publishedAt": "Wed, 21 Oct 2026 14:38:41 +0000"
   }
 ];
