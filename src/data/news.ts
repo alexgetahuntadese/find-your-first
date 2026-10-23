@@ -3,52 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ethiopia’s Defense Force: 119 Years of Indomitable Spirit, Sovereignty and Transformation Across Generations",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Across generations, Ethiopia’s defense legacy has been forged in courage, sacrifice and an unwavering commitment to national sovereignty. As the Ethiopian National Defense Force marks 119 years since its establishment, its",
+    "title": "Ethiopia’s Water and Energy Week to Bridge Science, Policy and Investment for Sustainable Resource Security",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopia will bring policymakers, researchers, development partners and private-sector leaders together next week to strengthen the link between scientific research, policymaking and implementation, positioning evidence-ba",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 11:54:42 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 17:19:48 +0000"
   },
   {
-    "title": "Ethiopia’s Parliament Pledges to Turn National Dialogue Recommendations into Action and Law",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopia’s House of Peoples’ Representatives will work intensively to ensure that recommendations emerging from the country’s National Dialogue are implemented and that proposals requiring legislation are translated into l",
+    "title": "Ethiopia’s Ministry of Justice Prosecutes 13 Suspects in 1.013 Billion Birr ELMIS Corruption Case",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopia’s Ministry of Justice has initiated prosecution proceedings against 13 suspects in a major alleged corruption case involving the Ethiopia Labor Market Information System (ELMIS) project, with investigators tracing",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 11:47:18 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 17:14:38 +0000"
   },
   {
-    "title": "Ethiopia’s Tigray Region to Resume Regular Schooling on October 26 as Caretaker Administration Advances Education Recovery",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Schools across Ethiopia’s Tigray region are set to resume regular teaching and learning on Monday, October 26, as the regional Education Bureau confirms that preparations have been completed to bring students back to class",
+    "title": "Ghanaian President Praises PM Abiy as a Transformational Leader Turning Africa’s Liberation Legacy into Economic Prosperity",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ghanaian President John Dramani Mahama has praised Ethiopian Prime Minister Abiy Ahmed as a transformational leader who is advancing the economic prosperity that Africa’s historic liberation struggle was meant to make poss",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 11:38:26 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 17:00:25 +0000"
   },
   {
-    "title": "Ethiopian Federal Police Hands Over Suspected Cross-Border Crime Ringleader to Justice Ministry After Investigation, 35 Charges Filed",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — The Ethiopian Federal Police has handed over suspected cross-border crime ringleader Adnew Bashaw Wudamo and his alleged accomplice, Tamirat Erdado Moloro, to the Ministry of Justice’s Attorney General’s Office after compl",
+    "title": "Amhara Region Chief Administrator Says Medemer Principles Are Driving Dev’t Projects That Deliver Lasting Benefits in Ethiopia",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Federal development projects in Ethiopia are advancing the Medemer government’s principles by addressing longstanding community needs, completing delayed infrastructure and expanding opportunities for economic and social p",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 11:31:22 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 16:52:24 +0000"
   },
   {
-    "title": "Tigray Region’s Caretaker Administration Accelerating Efforts to Restore Disrupted Services Through Federal and Public Cooperation",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — The caretaker administration in Ethiopia’s Tigray region is working in coordination with the federal government and local communities to restore disrupted public services, reinforce peace and security, and revive essential",
+    "title": "Megech Irrigation Project Poised to Transform Agriculture, Water Security and Tourism in Amhara Region – Chief Administrator",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — The Megech irrigation and drinking water project is poised to reshape agricultural production, improve water security and unlock new economic opportunities in Ethiopia’s Amhara Region, Regional State Chief Administrator Ar",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 11:24:47 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 16:36:33 +0000"
   },
   {
-    "title": "Ethiopian Orthodox Tewahedo Church Holy Synod Opens October Plenary, Patriarch Calls for Renewed Trust and National Peace",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — The October plenary session of the Holy Synod of the Ethiopian Orthodox Tewahedo Church began today, with Patriarch His Holiness Abune Mathias I calling for renewed efforts to strengthen public trust in the Church, correct",
+    "title": "Ethiopia’s National Intelligence Chief: Red Sea Security Requires Collective Action Amid Growing Militarization and Foreign Rivalries",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ambassador Redwan Huseen, Director General of Ethiopia’s National Intelligence and Security Service, has called for urgent collective action by regional states and reliable international partners to safeguard Red Sea secur",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 11:16:23 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 16:19:59 +0000"
   },
   {
-    "title": "12th Edition of Tana High-Level Forum Set to Kick Off in Bahir Dar in a Few Hours",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — African leaders, policymakers, distinguished delegates and security experts are arriving in Bahir Dar, Ethiopia, as the 12th Tana High-Level Forum prepares to officially kick off today, bringing continental peace and secur",
+    "title": "PM Abiy Envisions Gondar as a Premier Tourism Destination, Taps Lakeside Investment and African Heritage",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Gondar should become a city where visitors stay to experience Ethiopia’s history and culture, rather than simply pass through, Ethiopian Prime Minister Abiy Ahmed said, proposing new lakeside tourism investment to help unl",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 10:53:52 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 16:00:22 +0000"
   },
   {
-    "title": "PM Abiy Inaugurates 185-Million-Cubic-Meter Megech Dam to Irrigate Over 17,000 Hectares",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has officially inaugurated the Megech Irrigation Dam Project, marking a major milestone in Ethiopia’s efforts to expand irrigation-based agriculture, strengthen food production and impro",
+    "title": "Tana Forum Special Envoys’ Dialogue Opens in Bahir Dar Amid Growing Horn of Africa and Red Sea Security Challenges",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — The Tana Forum’s Special Envoys’ Dialogue opened in Bahir Dar, Ethiopia, bringing together senior diplomats and regional leaders to examine shifting geopolitical dynamics in the Horn of Africa and mounting security challen",
     "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 10:34:56 +0000"
+    "publishedAt": "Fri, 23 Oct 2026 15:24:49 +0000"
+  },
+  {
+    "title": "Ghanaian President: Africa’s Next Chapter Must Turn Liberation into Economic Transformation and Prosperity",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Africa’s historic struggle against colonial domination must be followed by a new era of economic transformation and prosperity for its people, Ghanaian President John Dramani Mahama said, outlining the responsibility facin",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 14:45:30 +0000"
+  },
+  {
+    "title": "🇪🇹🇬🇭 Ghanaian President Says Ethiopia’s Megech Dam Offers Africa a Blueprint for Transformational Development",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ghanaian President John Dramani Mahama has described Ethiopia’s Megech Irrigation Dam as an inspiration for Africa’s development, saying the project has strengthened his determination to revive Ghana’s abandoned Pwalugu Mu",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 14:38:22 +0000"
   },
   {
     "title": "ስደት በስተርጅና ፡ የታሪክ መራራ መስታወት",
@@ -61,17 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የኢፌዴሪ መከላከያ ሠራዊት የ119ኛ ዓመት የምሥረታ በዓሉን ሲያከብር፣ በረጅም ዘመናት ታሪኩ ደምቀው የተመዘገቡ የጀግንነት፣ የጽናትና የሀገር ፍቅር ስኬቶችን በመዘከር ነው። ከአንድ ክፍለ ዘመን በላይ ባስቆረው የተቋሙ እድሜ በተካሄዱ የሀገርን ዳር ድንበር የማስከበር ተልዕኮዎች፣ ሠራዊቱ የሀገሪቱን ሉዓላዊነትና ነጻነት በደሙና በአጥንቱ አስከብሮ የታፈረችና የ",
     "source": "Fana Media",
     "publishedAt": "Thu, 22 Oct 2026 19:49:51 +0000"
-  },
-  {
-    "title": "ሳትነሳ የወደቀችው ኤርትራ – “የአፍሪካዋ ሲንጋፖር” ምፀት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) ኤርትራ በ1983 ነፃነቷን ስታወጅና በ1985 በይፋ ስትመሰረት፣ በብዙዎች ዘንድ በአፍሪካ ቀንድ የዲሞክራሲና የኢኮኖሚ ዓብነት ትሆናለች የሚል ግምት ነበር። በምዕራባውያን ዘንድ የሀገሪቱ መሪ ኢሳያስ አፈወርቂ ከፖል ካጋሚ እና መለስ ዜናዊ ጋር “አዲሶቹ የአፍሪካ መሪዎች“ ተብለው የተወደሱ እና በአህጉሪቱ ዴሞክራሲንና ልማትን ያመጣሉ ተብለው እምነት የተጣለባቸ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 18:00:50 +0000"
-  },
-  {
-    "title": "የህዝብ ተወካዮች ም/ቤት በምክክር ጉባኤ የቀረቡ ምክረ ሃሳቦች ተፈጻሚ እንዲሆኑ አበክሮ ይሰራል – አፈ ጉባኤ አህመድ ሽዴ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የህዝብ ተወካዮች ምክር ቤት በሀገራዊ ምክክር ጉባኤ የቀረቡ ምክረ ሃሳቦች ተፈጻሚ እንዲሆኑ አበክሮ ይሰራል አሉ አፈ ጉባኤ አህመድ ሽዴ። የህዝብ ተወካዮች ምክር ቤት ለኢትዮጵያ ሀገራዊ ምክክር ኮሚሽን ኮሚሽነሮች ያዘጋጀው የእውቅና እና ምስጋና መርሃ ግብር አካሂዷል። በመርሃ ግብሩ ላይ በህዝብ ተወካዮች ምክር ቤት የመንግሥት ዋና ተጠሪ ሚኒስትር ፍቃዱ […] ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 17:14:09 +0000"
   }
 ];
