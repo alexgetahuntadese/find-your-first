@@ -688,28 +688,6 @@ export const scrapedJobs: Job[] = [
     "url": "https://ethiojobs.net/job/0mvdwcp7lp-event-organizer"
   },
   {
-    "id": "scraped-72db1078a2ca",
-    "company": "Ethiopost",
-    "source": "EthioJobs",
-    "title": "District Manager",
-    "location": "Ethiopia",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Operations",
-    "category": "Operations",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 26,
-    "description": "Position each FinTech product for the Ethiopian market: who buys it, the problem it solves for them, why Pitron over the alternative, and the price point at which it sells. Recommend packaging, pricing and revenue sharing terms based on what customers and competitors are doing, and present the case to management for approval. Build and manage your own pipeline of banks, microfinance institutions, SACCOs, payment companies and merchants. Run the full sales cycle: prospecting, first meeting, product demonstration, proposal, negotiation and signed contract. Sell Mobile Banking and payment products to Pitron's existing core banking and financial operation customers. Follow every deal through to ",
-    "deadline": "2026-10-28T23:59:59.000000Z",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://ethiojobs.net/job/3ozdaezaqa-business-development-manager-fintech"
-  },
-  {
     "id": "scraped-60ac3c65f1d2",
     "company": "Ahadu Bank S.C",
     "source": "EthioJobs",
