@@ -64,8 +64,12 @@ const datedScrapedJobs = scrapedJobs.map((job) => ({
   // snapshot time so SSR and hydration always see the same date.
   datePosted: job.datePosted || new Date(scrapedSnapshotTime - job.hoursAgo * 60 * 60 * 1000).toISOString(),
 }));
+const datedSeedJobs = seedJobs.map((job) => ({
+  ...job,
+  datePosted: job.datePosted || new Date(scrapedSnapshotTime - job.hoursAgo * 60 * 60 * 1000).toISOString(),
+}));
 
-export const jobs: Job[] = [...new Map([...datedScrapedJobs, ...seedJobs].map((job) => [job.url, job])).values()].filter(isJobActive);
+export const jobs: Job[] = [...new Map([...datedScrapedJobs, ...datedSeedJobs].map((job) => [job.url, job])).values()].filter(isJobActive);
 
 export function postedLabel(h: number) {
   if (h < 24) return `${h}h ago`;
