@@ -3,6 +3,12 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "The Illegal TPLF Group Suppressed Freedom of Expression in Tigray Region, Caretaker Administration Official Says",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — The illegal TPLF group has long prevented the people of Tigray Region from freely expressing their views, Reda’i Halefom, Chief Executive for Political and Public Organization Affairs in the Tigray Region Caretaker Adminis",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 19:00:41 +0000"
+  },
+  {
     "title": "Ethiopia’s Water and Energy Week to Bridge Science, Policy and Investment for Sustainable Resource Security",
     "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopia will bring policymakers, researchers, development partners and private-sector leaders together next week to strengthen the link between scientific research, policymaking and implementation, positioning evidence-ba",
     "source": "FBC English",
@@ -55,12 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, October 23, 2026 (FMC) — Africa’s historic struggle against colonial domination must be followed by a new era of economic transformation and prosperity for its people, Ghanaian President John Dramani Mahama said, outlining the responsibility facin",
     "source": "FBC English",
     "publishedAt": "Fri, 23 Oct 2026 14:45:30 +0000"
-  },
-  {
-    "title": "🇪🇹🇬🇭 Ghanaian President Says Ethiopia’s Megech Dam Offers Africa a Blueprint for Transformational Development",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ghanaian President John Dramani Mahama has described Ethiopia’s Megech Irrigation Dam as an inspiration for Africa’s development, saying the project has strengthened his determination to revive Ghana’s abandoned Pwalugu Mu",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 14:38:22 +0000"
   },
   {
     "title": "ስደት በስተርጅና ፡ የታሪክ መራራ መስታወት",
