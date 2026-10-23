@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "ስደት በስተርጅና ፡ የታሪክ መራራ መስታወት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በዕድሜ መገባደጃ ላይ ዕድሜ ልክ የለፉበትን ሀብትና ንብረት ጥሎ ለስደትና ለውርደት መዳረግ ከማንኛውም የፖለቲካ ሽንፈት በላይ የከፋ ሰብዓዊ ውድቀት ነው።ህገወጡ ህወሃትም የሆነው ይህንኑ ነው። ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በትግርኛ ቋንቋ ባደረጉት ቆይታም የገለጹት ይህንኑ የሕዝብን መራራ ዕጣ ፈንታ ቁልጭ አድርጎ የሚያሳይና እያንዳንዱ አስተዋይ ዜ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 20:56:57 +0000"
+  },
+  {
+    "title": "የሀገር መከላከያ ሠራዊት – የ119 ዓመታት የጀግንነት፣ የሉዓላዊነትና የዘመናዊነት ጉዞ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የኢፌዴሪ መከላከያ ሠራዊት የ119ኛ ዓመት የምሥረታ በዓሉን ሲያከብር፣ በረጅም ዘመናት ታሪኩ ደምቀው የተመዘገቡ የጀግንነት፣ የጽናትና የሀገር ፍቅር ስኬቶችን በመዘከር ነው። ከአንድ ክፍለ ዘመን በላይ ባስቆረው የተቋሙ እድሜ በተካሄዱ የሀገርን ዳር ድንበር የማስከበር ተልዕኮዎች፣ ሠራዊቱ የሀገሪቱን ሉዓላዊነትና ነጻነት በደሙና በአጥንቱ አስከብሮ የታፈረችና የ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 19:49:51 +0000"
+  },
+  {
+    "title": "ሳትነሳ የወደቀችው ኤርትራ – “የአፍሪካዋ ሲንጋፖር” ምፀት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) ኤርትራ በ1983 ነፃነቷን ስታወጅና በ1985 በይፋ ስትመሰረት፣ በብዙዎች ዘንድ በአፍሪካ ቀንድ የዲሞክራሲና የኢኮኖሚ ዓብነት ትሆናለች የሚል ግምት ነበር። በምዕራባውያን ዘንድ የሀገሪቱ መሪ ኢሳያስ አፈወርቂ ከፖል ካጋሚ እና መለስ ዜናዊ ጋር “አዲሶቹ የአፍሪካ መሪዎች“ ተብለው የተወደሱ እና በአህጉሪቱ ዴሞክራሲንና ልማትን ያመጣሉ ተብለው እምነት የተጣለባቸ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 18:00:50 +0000"
+  },
+  {
+    "title": "የህዝብ ተወካዮች ም/ቤት በምክክር ጉባኤ የቀረቡ ምክረ ሃሳቦች ተፈጻሚ እንዲሆኑ አበክሮ ይሰራል – አፈ ጉባኤ አህመድ ሽዴ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የህዝብ ተወካዮች ምክር ቤት በሀገራዊ ምክክር ጉባኤ የቀረቡ ምክረ ሃሳቦች ተፈጻሚ እንዲሆኑ አበክሮ ይሰራል አሉ አፈ ጉባኤ አህመድ ሽዴ። የህዝብ ተወካዮች ምክር ቤት ለኢትዮጵያ ሀገራዊ ምክክር ኮሚሽን ኮሚሽነሮች ያዘጋጀው የእውቅና እና ምስጋና መርሃ ግብር አካሂዷል። በመርሃ ግብሩ ላይ በህዝብ ተወካዮች ምክር ቤት የመንግሥት ዋና ተጠሪ ሚኒስትር ፍቃዱ […] ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 17:14:09 +0000"
+  },
+  {
+    "title": "እየተፈተነ የሚጸና ሠራዊት፡ የቀጣናው የሰላም መከታ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ታሪክ የሀገር መከላከያ ሠራዊት የሀገረ መንግሥት ሕልውና፣ የሉዓላዊነት እና የፅናት ዋና አምድ ሆኖ ዘመናትን ተሻግሯል። የአንድን ሀገር ሉዓላዊነት በሚገባ ለማስጠበቅ፣ ሀገራዊ ጥቅሟን ለማስከበርና ዘላቂ ሰላሟን ለማረጋገጥ ዘመኑን የዋጀና የተደራጀ መከላከያ ሠራዊት መገንባት ቅድሚያ የሚሰጠው ተግባር ነው፡፡ የኢትዮጵያ መከላከያ ሠራዊት የሀገሪቱን ሉ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 17:09:31 +0000"
+  },
+  {
+    "title": "ቀጣናውን የሚመራው የኢትዮጵያ የኒውክሊየር ልማት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) እንደሚታወቀው በአሁኑ ወቅት የአፍሪካ አህጉር ፈጣን የህዝብ ቁጥር እድገት እና የኢኮኖሚ ሽግግር እያስተናገደች ትገኛለች። በኢኮኖሚው ሽግግር ውስጥ ዋነኛ አንቀሳቃሽ ኃይል ከሆኑት መካከል ደግሞ አስተማማኝና ዘላቂ የኢነርጂ አቅርቦት እንዲሁም የላቁ ቴክኖሎጂዎች ባለቤት መሆን አንዱ ነው። በዚህ ዐውድ ውስጥ የምስራቅ አፍሪካ ማዕከል የሆነችው ኢትዮጵያ የኒውክሊየ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 16:21:01 +0000"
+  },
+  {
+    "title": "በትግራይ ክልል የተቋረጡ አገልግሎቶችን ለማስጀመር በቅንጅት እየተሰራ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል የተቋረጡ አገልግሎቶችን ለማስጀመር የክልሉ ባለአደራ አስተዳደር ከፌዴራል ምንግሥት እና ከህዝቡ ጋር ተቀናጅቶ እየሰራ ነው። የትግራይ ክልል ባለአደራ አስተዳደር የኢኮኖሚና መልሶ ግንባታ ዋና አስፈጻሚ ቴዎድሮስ አረጋይ (ዶ/ር)፤ በክልሉ የተጓደሉ አገልግሎቶችን ለመመለስ ጥረት እየተደረገ ነው ብለዋል። ባለአደራ አስተዳደሩ ስራ ከጀመረ በኋላ ሰላ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 15:24:50 +0000"
+  },
+  {
+    "title": "ከተቀባይነት ወደ ሰጭነት የኢትዮጵያ ግብርና ትራንስፎርሜሽን",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) ለበርካታ ዓመታት የኢትዮጰያ የኢኮኖሚ ምሰሶ ሆኖ የዘለቀው የኢትዮጰያ ግብርና ለለውጥ ያልተሰራ ይመስል በአዝጋሚ ጉዞ ላይ ቆይቷል፡፡ የዝናብ ወቅት ላይ እና የበሬ ጫንቃ ላይ ተንጠልጥሎ የቆየው የኢትዮጵያ ግብርና ዘርፍ አሁን ላይ የለውጥ ጎዳናን ይዟል፡፡ ባለፉት ስምንት ዓመታት የኢትዮጵያ ግብርና ከቆመበት ተነስቶ ወደ አዲስ ምዕራፍ የተሻገረችበት እና የረጅም",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 14:44:20 +0000"
+  },
+  {
+    "title": "የኢትዮጵያ ፌደራል ፖሊስ ከኢንተርፖል ጋር በመተባበር ተይዞ ወደ ሀገር እንዲመጣ የተደረገው አድነዉ ባሻዉ ለፍትህ ሚኒስቴር ተላለፈ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ፌደራል ፖሊስ ከኢንተርፖል፣ ከROCK እና ከማላዊ ፖሊስ ጋር በመተባበር በሕገወጥ መንገድ ድንበር በማሻገር ወንጀል ተጠርጥሮ ከማላዊ ተይዞ ወደ ሀገር እንዲመጣ ባደረገው አድነዉ ባሻዉ ዉዳሞ እና በግብረ አበሩ ታምራት ኤርዳዶ ሞሎሮ ላይ ምርመራ አጣርቶ በማጠናቀቅ ለፍትህ ሚኒስቴር ጠቅላይ ዓቃቤ ሕግ አስተላልፏል። ‎ ‎በቀረበው የክስ መዝገብ ዝርዝር",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 14:37:08 +0000"
+  },
+  {
     "title": "Tigray Region Has a New Opening for Peace and Development as Banned TPLF Group’s Conflict Agenda Fades Away",
     "summary": "Addis Ababa, October 22, 2026 (FMC) — The people of Tigray Region want peace and development, not another round of war, Brigadier General Gebre Egziabher Beyene (Wedi Antir), Chief Executive for Security and Peace Affairs of the Federal Government’s Interim Ad",
     "source": "FBC English",
     "publishedAt": "Thu, 22 Oct 2026 14:22:37 +0000"
   },
   {
+    "title": "የትግራይ ህዝብ የለውጥ ፍላጎት ከፍተኛ ነው – ረዳኤ ኃለፎም",
+    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ህዝብ የለውጥ ፍላጎት ከፍተኛ ነው አሉ የትግራይ ክልል ባለአደራ አስተዳደር የፖለቲካ ጉዳዮችና የህዝብ አደረጃት ዋና አስፈጻሚ ረዳኤ ኃለፎም፡፡ ዋና አስፈጻሚው እንዳሉት የትግራይ ህዝብ ላለፉት አምስትና ስድስት ዓመታት የተለያዩ ነፃነቶቹን ተነፍጎ ቆይቷል፡፡ ህዝቡ የእኔ በሚላቸው ሰዎች ተጫቁኖ መቆየቱን የጠቆሙት ዋና አስፈፃሚው፣ የሀሳብ ልዩነት እን",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 22 Oct 2026 13:52:34 +0000"
+  },
+  {
     "title": "PM’s Adviser Calls for Strategic Vigilance as Regional Alliances Reshape Horn of Africa",
     "summary": "Addis Ababa, October 22, 2026 (FMC) — Ministerial Adviser to the Prime Minister of Ethiopia on Eastern African Affairs Getachew Reda has emphasized the need for stronger institutional coordination and sustained strategic responses to protect Ethiopia’s nationa",
     "source": "FBC English",
     "publishedAt": "Thu, 22 Oct 2026 09:53:19 +0000"
-  },
-  {
-    "title": "War Does Not Build Nations; Peace and Cooperation Do: Lindiwe Sisulu",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) — Peace, investment in human development and mutually beneficial international cooperation are essential to Africa’s long-term prosperity, while war diverts resources from education, healthcare and nation-building, Lindiwe S",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 09:09:42 +0000"
-  },
-  {
-    "title": "Farmer Prosperity Must Anchor Africa’s Institutional and Economic Transformation: AGRA’s Aggie Konde",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) — African institutions must align knowledge, public spending and private investment around farmer prosperity to turn agricultural productivity into reliable incomes, viable enterprises and broader economic transformation, Ag",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 09:03:45 +0000"
-  },
-  {
-    "title": "A Demonstration of Commitment to National Peace and Development",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) – The peace agreement signed in Pretoria, South Africa, in October 2022 marked a historic step toward ending the war in northern Ethiopia. The agreement outlined clear directions for permanently ending the conflict, upholdin",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 07:01:47 +0000"
-  },
-  {
-    "title": "Tigray Region Breaks Free from the Shackles of the Most Treasonous Group in Ethiopia’s History, Embraces Peace and a Ray of Hope",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) — For decades, the defunct TPLF has sought to chain the fate, security, and future of the people of Tigray Region to its own political survival. It has tried to convince them that their identity, dignity, and very existence ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 06:49:25 +0000"
-  },
-  {
-    "title": "Exposing Cairo’s Destabilization Conspiracy Against Ethiopia and the Entire Horn of Africa",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) — Egypt’s destabilizing policy in the Horn of Africa has not ended. It has grown more aggressive, expanded its reach, and adapted its methods to sustain regional instability and advance Cairo’s strategic ambitions at the exp",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 05:59:38 +0000"
-  },
-  {
-    "title": "የትግራይ ህዝብ አዲስ የተስፋ ብርሃን",
-    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) በታሪክ እጣፈንታቸው ተሳስረው፣ በደስታውም ሆነ በችግር ጊዜ በትብብር በማለፍ ጠንካራ የህዝብ ለህዝብ ግንኙነት የገነቡት የኢትዮጵያ ብሔሮች፣ ብሔረሰቦችና ህዝቦች ለዘመናት አብረው ኖረዋል። ሆኖም ይህን የጠበቀ ወንድማማችነት እና ሀገራዊ አንድነት ለመሸርሸር፣ ህገወጡ የህወሓት ቡድን በመንግሥት ስልጣን ላይ በነበረበት ረጅም ጊዜያት ውስጥ የቂምና የቁርሾ ትርክቶ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 21 Oct 2026 19:19:50 +0000"
-  },
-  {
-    "title": "የትግራይ ክልልን ሕዝብ ሰላምና ልማትን የሚያደናቅፍ አስተሳሰብ ከስሩ መነቀል አለበት- ብ/ጄ ገብረእግዚአብሔር በየነ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ክልልን ሕዝብ ሰላምና ልማትን የሚያደናቅፍ አስተሳሰብ ከስሩ መነቀል አለበት አሉ የትግራይ ክልል ባለአደራ አስተዳደር የጸጥታና ሰላም ጉዳዮች ዋና አስፈጻሚ ብርጋዴር ጄነራል ገብረእግዚአብሔር በየነ ። የትግራይ ክልል ባለአደራ አስተዳደር አስፈጻሚዎች ከመቀሌ ከተማ ነዋሪዎች ጋር የውይይት መድረክ አካሂደዋል። ብርጋዴር ጄኔራል ገብረእግዚአብሔር በየነ በ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 21 Oct 2026 17:49:03 +0000"
-  },
-  {
-    "title": "ተመጣጣኝ የመኖሪያ ቤት አቅርቦትን በማሳደግ ዘላቂ መፍትሔ ለማምጣት እየተሰራ ነው – ከንቲባ አዳነች አቤቤ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) ተደራሽና ተመጣጣኝ የመኖሪያ ቤት አቅርቦትን በማሳደግ ዘላቂ መፍትሔ ለማምጣት እየተሰራ ነው አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። ከንቲባ አዳነች በማህበራዊ ትስስር ገጻቸው ባሰፈሩት መልዕክት፤ የአዲስ አበባ ከተማ አስተዳደር በመሠረታዊ የዕለት ተዕለት ፍጆታዎችና በቤት ኪራይ ላይ እየታዩ ያሉ ምክንያታዊ ያልሆኑ የዋጋ ጭማሪዎችን ለመቆጣጠ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 21 Oct 2026 17:22:27 +0000"
-  },
-  {
-    "title": "A Shared Past, an Unfinished Promise: Ethiopia and Kenya Are Giving Pan-Africanism and African Fraternity Practical Meaning",
-    "summary": "Addis Ababa, October 21, 2026 (FMC) — Pan-Africanism has long called for Africans to look beyond inherited borders and recognize their shared interests, history, and future. In the relationship between Ethiopia and Kenya, that aspiration is finding expression ",
-    "source": "FBC English",
-    "publishedAt": "Wed, 21 Oct 2026 17:00:38 +0000"
-  },
-  {
-    "title": "የነገዋ ኢትዮጵያ አዲሱ የብርሃን ምዕራፍ፤ የኒውክሊየር ቴክኖሎጂ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 11፣ 2019 (ኤፍ ኤም ሲ) በታሪክ ማህደር ውስጥ የታላላቅ ሀገራት እድገት ቀጣይነት ምሥጢር የዛሬውን ብቻ ሳይሆን፤ የነገውን ትውልድ አርቆ ማየት መቻላቸውና በዚያው አግባብ መሰረት መጣላቸው ነው። ኃይል የኢኮኖሚ እድገት የጀርባ አጥንት ነው። በቂና አስተማማኝ የኃይል አማራጭ የሌላቸው ሀገራት ፈጣንና ዘላቂ እድገትን ማረጋገጥ አይችሉም። ዛሬ በዓለማችን የኃይል ፍላጎት በከፍተኛ ሁኔታ እ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 21 Oct 2026 15:40:38 +0000"
   }
 ];
