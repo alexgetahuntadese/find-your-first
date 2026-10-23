@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia’s Defense Force: 119 Years of Indomitable Spirit, Sovereignty and Transformation Across Generations",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Across generations, Ethiopia’s defense legacy has been forged in courage, sacrifice and an unwavering commitment to national sovereignty. As the Ethiopian National Defense Force marks 119 years since its establishment, its",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 11:54:42 +0000"
+  },
+  {
+    "title": "Ethiopia’s Parliament Pledges to Turn National Dialogue Recommendations into Action and Law",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopia’s House of Peoples’ Representatives will work intensively to ensure that recommendations emerging from the country’s National Dialogue are implemented and that proposals requiring legislation are translated into l",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 11:47:18 +0000"
+  },
+  {
+    "title": "Ethiopia’s Tigray Region to Resume Regular Schooling on October 26 as Caretaker Administration Advances Education Recovery",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Schools across Ethiopia’s Tigray region are set to resume regular teaching and learning on Monday, October 26, as the regional Education Bureau confirms that preparations have been completed to bring students back to class",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 11:38:26 +0000"
+  },
+  {
+    "title": "Ethiopian Federal Police Hands Over Suspected Cross-Border Crime Ringleader to Justice Ministry After Investigation, 35 Charges Filed",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — The Ethiopian Federal Police has handed over suspected cross-border crime ringleader Adnew Bashaw Wudamo and his alleged accomplice, Tamirat Erdado Moloro, to the Ministry of Justice’s Attorney General’s Office after compl",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 11:31:22 +0000"
+  },
+  {
+    "title": "Tigray Region’s Caretaker Administration Accelerating Efforts to Restore Disrupted Services Through Federal and Public Cooperation",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — The caretaker administration in Ethiopia’s Tigray region is working in coordination with the federal government and local communities to restore disrupted public services, reinforce peace and security, and revive essential",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 11:24:47 +0000"
+  },
+  {
+    "title": "Ethiopian Orthodox Tewahedo Church Holy Synod Opens October Plenary, Patriarch Calls for Renewed Trust and National Peace",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — The October plenary session of the Holy Synod of the Ethiopian Orthodox Tewahedo Church began today, with Patriarch His Holiness Abune Mathias I calling for renewed efforts to strengthen public trust in the Church, correct",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 11:16:23 +0000"
+  },
+  {
+    "title": "12th Edition of Tana High-Level Forum Set to Kick Off in Bahir Dar in a Few Hours",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — African leaders, policymakers, distinguished delegates and security experts are arriving in Bahir Dar, Ethiopia, as the 12th Tana High-Level Forum prepares to officially kick off today, bringing continental peace and secur",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 10:53:52 +0000"
+  },
+  {
+    "title": "PM Abiy Inaugurates 185-Million-Cubic-Meter Megech Dam to Irrigate Over 17,000 Hectares",
+    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has officially inaugurated the Megech Irrigation Dam Project, marking a major milestone in Ethiopia’s efforts to expand irrigation-based agriculture, strengthen food production and impro",
+    "source": "FBC English",
+    "publishedAt": "Fri, 23 Oct 2026 10:34:56 +0000"
+  },
+  {
     "title": "ስደት በስተርጅና ፡ የታሪክ መራራ መስታወት",
     "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በዕድሜ መገባደጃ ላይ ዕድሜ ልክ የለፉበትን ሀብትና ንብረት ጥሎ ለስደትና ለውርደት መዳረግ ከማንኛውም የፖለቲካ ሽንፈት በላይ የከፋ ሰብዓዊ ውድቀት ነው።ህገወጡ ህወሃትም የሆነው ይህንኑ ነው። ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በትግርኛ ቋንቋ ባደረጉት ቆይታም የገለጹት ይህንኑ የሕዝብን መራራ ዕጣ ፈንታ ቁልጭ አድርጎ የሚያሳይና እያንዳንዱ አስተዋይ ዜ",
     "source": "Fana Media",
@@ -25,53 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የህዝብ ተወካዮች ምክር ቤት በሀገራዊ ምክክር ጉባኤ የቀረቡ ምክረ ሃሳቦች ተፈጻሚ እንዲሆኑ አበክሮ ይሰራል አሉ አፈ ጉባኤ አህመድ ሽዴ። የህዝብ ተወካዮች ምክር ቤት ለኢትዮጵያ ሀገራዊ ምክክር ኮሚሽን ኮሚሽነሮች ያዘጋጀው የእውቅና እና ምስጋና መርሃ ግብር አካሂዷል። በመርሃ ግብሩ ላይ በህዝብ ተወካዮች ምክር ቤት የመንግሥት ዋና ተጠሪ ሚኒስትር ፍቃዱ […] ",
     "source": "Fana Media",
     "publishedAt": "Thu, 22 Oct 2026 17:14:09 +0000"
-  },
-  {
-    "title": "እየተፈተነ የሚጸና ሠራዊት፡ የቀጣናው የሰላም መከታ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ታሪክ የሀገር መከላከያ ሠራዊት የሀገረ መንግሥት ሕልውና፣ የሉዓላዊነት እና የፅናት ዋና አምድ ሆኖ ዘመናትን ተሻግሯል። የአንድን ሀገር ሉዓላዊነት በሚገባ ለማስጠበቅ፣ ሀገራዊ ጥቅሟን ለማስከበርና ዘላቂ ሰላሟን ለማረጋገጥ ዘመኑን የዋጀና የተደራጀ መከላከያ ሠራዊት መገንባት ቅድሚያ የሚሰጠው ተግባር ነው፡፡ የኢትዮጵያ መከላከያ ሠራዊት የሀገሪቱን ሉ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 17:09:31 +0000"
-  },
-  {
-    "title": "ቀጣናውን የሚመራው የኢትዮጵያ የኒውክሊየር ልማት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) እንደሚታወቀው በአሁኑ ወቅት የአፍሪካ አህጉር ፈጣን የህዝብ ቁጥር እድገት እና የኢኮኖሚ ሽግግር እያስተናገደች ትገኛለች። በኢኮኖሚው ሽግግር ውስጥ ዋነኛ አንቀሳቃሽ ኃይል ከሆኑት መካከል ደግሞ አስተማማኝና ዘላቂ የኢነርጂ አቅርቦት እንዲሁም የላቁ ቴክኖሎጂዎች ባለቤት መሆን አንዱ ነው። በዚህ ዐውድ ውስጥ የምስራቅ አፍሪካ ማዕከል የሆነችው ኢትዮጵያ የኒውክሊየ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 16:21:01 +0000"
-  },
-  {
-    "title": "በትግራይ ክልል የተቋረጡ አገልግሎቶችን ለማስጀመር በቅንጅት እየተሰራ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል የተቋረጡ አገልግሎቶችን ለማስጀመር የክልሉ ባለአደራ አስተዳደር ከፌዴራል ምንግሥት እና ከህዝቡ ጋር ተቀናጅቶ እየሰራ ነው። የትግራይ ክልል ባለአደራ አስተዳደር የኢኮኖሚና መልሶ ግንባታ ዋና አስፈጻሚ ቴዎድሮስ አረጋይ (ዶ/ር)፤ በክልሉ የተጓደሉ አገልግሎቶችን ለመመለስ ጥረት እየተደረገ ነው ብለዋል። ባለአደራ አስተዳደሩ ስራ ከጀመረ በኋላ ሰላ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 15:24:50 +0000"
-  },
-  {
-    "title": "ከተቀባይነት ወደ ሰጭነት የኢትዮጵያ ግብርና ትራንስፎርሜሽን",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) ለበርካታ ዓመታት የኢትዮጰያ የኢኮኖሚ ምሰሶ ሆኖ የዘለቀው የኢትዮጰያ ግብርና ለለውጥ ያልተሰራ ይመስል በአዝጋሚ ጉዞ ላይ ቆይቷል፡፡ የዝናብ ወቅት ላይ እና የበሬ ጫንቃ ላይ ተንጠልጥሎ የቆየው የኢትዮጵያ ግብርና ዘርፍ አሁን ላይ የለውጥ ጎዳናን ይዟል፡፡ ባለፉት ስምንት ዓመታት የኢትዮጵያ ግብርና ከቆመበት ተነስቶ ወደ አዲስ ምዕራፍ የተሻገረችበት እና የረጅም",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 14:44:20 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ ፌደራል ፖሊስ ከኢንተርፖል ጋር በመተባበር ተይዞ ወደ ሀገር እንዲመጣ የተደረገው አድነዉ ባሻዉ ለፍትህ ሚኒስቴር ተላለፈ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ፌደራል ፖሊስ ከኢንተርፖል፣ ከROCK እና ከማላዊ ፖሊስ ጋር በመተባበር በሕገወጥ መንገድ ድንበር በማሻገር ወንጀል ተጠርጥሮ ከማላዊ ተይዞ ወደ ሀገር እንዲመጣ ባደረገው አድነዉ ባሻዉ ዉዳሞ እና በግብረ አበሩ ታምራት ኤርዳዶ ሞሎሮ ላይ ምርመራ አጣርቶ በማጠናቀቅ ለፍትህ ሚኒስቴር ጠቅላይ ዓቃቤ ሕግ አስተላልፏል። ‎ ‎በቀረበው የክስ መዝገብ ዝርዝር",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 14:37:08 +0000"
-  },
-  {
-    "title": "Tigray Region Has a New Opening for Peace and Development as Banned TPLF Group’s Conflict Agenda Fades Away",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) — The people of Tigray Region want peace and development, not another round of war, Brigadier General Gebre Egziabher Beyene (Wedi Antir), Chief Executive for Security and Peace Affairs of the Federal Government’s Interim Ad",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 14:22:37 +0000"
-  },
-  {
-    "title": "የትግራይ ህዝብ የለውጥ ፍላጎት ከፍተኛ ነው – ረዳኤ ኃለፎም",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ህዝብ የለውጥ ፍላጎት ከፍተኛ ነው አሉ የትግራይ ክልል ባለአደራ አስተዳደር የፖለቲካ ጉዳዮችና የህዝብ አደረጃት ዋና አስፈጻሚ ረዳኤ ኃለፎም፡፡ ዋና አስፈጻሚው እንዳሉት የትግራይ ህዝብ ላለፉት አምስትና ስድስት ዓመታት የተለያዩ ነፃነቶቹን ተነፍጎ ቆይቷል፡፡ ህዝቡ የእኔ በሚላቸው ሰዎች ተጫቁኖ መቆየቱን የጠቆሙት ዋና አስፈፃሚው፣ የሀሳብ ልዩነት እን",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 13:52:34 +0000"
-  },
-  {
-    "title": "PM’s Adviser Calls for Strategic Vigilance as Regional Alliances Reshape Horn of Africa",
-    "summary": "Addis Ababa, October 22, 2026 (FMC) — Ministerial Adviser to the Prime Minister of Ethiopia on Eastern African Affairs Getachew Reda has emphasized the need for stronger institutional coordination and sustained strategic responses to protect Ethiopia’s nationa",
-    "source": "FBC English",
-    "publishedAt": "Thu, 22 Oct 2026 09:53:19 +0000"
   }
 ];
