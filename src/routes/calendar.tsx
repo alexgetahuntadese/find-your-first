@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, CalendarDays, ArrowRightLeft } from "lucide-react";
-import { useMemo, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import {
   ETHIOPIAN_MONTHS,
   GREGORIAN_MONTHS,
@@ -23,13 +23,24 @@ export const Route = createFileRoute("/calendar")({
 });
 
 function CalendarConverter() {
-  const today = new Date();
-  const initialEthiopian = gregorianToEthiopian({ year: today.getFullYear(), month: today.getMonth() + 1, day: today.getDate() });
+  // Keep the server render and the browser's first render identical. The
+  // visitor's local date is applied after hydration to avoid React #418.
+  const [initialEthiopian, setInitialEthiopian] = useState({ year: 2017, month: 1, day: 1 });
   const [direction, setDirection] = useState<"ethiopian" | "gregorian">("ethiopian");
   const [year, setYear] = useState(String(initialEthiopian.year));
   const [month, setMonth] = useState("1");
   const [day, setDay] = useState("1");
   const [result, setResult] = useState(() => ethiopianToGregorian(initialEthiopian));
+
+  useEffect(() => {
+    const today = new Date();
+    const ethiopianToday = gregorianToEthiopian({ year: today.getFullYear(), month: today.getMonth() + 1, day: today.getDate() });
+    setInitialEthiopian(ethiopianToday);
+    setYear(String(ethiopianToday.year));
+    setMonth(String(ethiopianToday.month));
+    setDay(String(ethiopianToday.day));
+    setResult(ethiopianToGregorian(ethiopianToday));
+  }, []);
 
   const isEthiopian = direction === "ethiopian";
   const monthNames = isEthiopian ? ETHIOPIAN_MONTHS : GREGORIAN_MONTHS;

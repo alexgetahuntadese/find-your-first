@@ -1,4 +1,4 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
 import { toast } from "sonner";
@@ -128,7 +128,7 @@ function Index() {
       "@type": "ListItem",
       position: index + 1,
       name: `${job.title} — ${job.company}`,
-      url: job.url,
+      url: `https://serategna.com.et/jobs/${encodeURIComponent(job.id)}`,
     })),
   };
 
@@ -335,7 +335,7 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
             {job.source && <span className="text-xs">· via {job.source}</span>}
             {job.featured && <span className="rounded-full bg-accent px-2 py-0.5 text-[11px] font-medium text-accent-foreground">Featured</span>}
           </div>
-          <h3 className="mt-0.5 font-medium leading-snug">{job.title}</h3>
+          <h3 className="mt-0.5 font-medium leading-snug"><Link to="/jobs/$id" params={{ id: job.id }} className="hover:text-primary hover:underline">{job.title}</Link></h3>
           <div className="mt-2.5 flex flex-wrap gap-1.5 text-xs">
             <Badge><MapPin className="h-3 w-3" />{job.location}</Badge>
             <Badge>{job.mode}</Badge>

@@ -1,3 +1,5 @@
+import { scrapedJobs, scrapedJobsGeneratedAt } from "./scraped-jobs";
+
 export type JobType = "Internship" | "Full-time Entry Level" | "Contract";
 export type WorkMode = "Remote" | "Hybrid" | "Onsite";
 export type Experience = "Undergrad" | "New Grad" | "0-2 Years";
@@ -19,6 +21,7 @@ export interface Job {
   hoursAgo: number;
   tags: string[];
   description?: string;
+  datePosted?: string;
   deadline?: string;
   source?: string;
   featured?: boolean;
@@ -54,12 +57,19 @@ const seedJobs: Job[] = [
   { id: "12", company: "GKP Construction and Import", title: "Irrigation Foreman / Engineer", location: "Addis Ababa", mode: "Onsite", type: "Full-time Entry Level", experience: "0-2 Years", industry: "Operations", category: "Operations", pay: "Negotiable", paid: true, hoursAgo: 24, tags: ["Engineering", "Irrigation"], hue: 312, url: "https://ethiojobs.net/job/waD2h2JJ98-irrigation-foreman-engineer" },
 ];
 
-export const jobs: Job[] = [...new Map([...scrapedJobs, ...seedJobs].map((job) => [job.url, job])).values()].filter(isJobActive);
+const scrapedSnapshotTime = Date.parse(scrapedJobsGeneratedAt);
+const datedScrapedJobs = scrapedJobs.map((job) => ({
+  ...job,
+  // Older snapshots stored only hoursAgo. Anchor that age to the committed
+  // snapshot time so SSR and hydration always see the same date.
+  datePosted: job.datePosted || new Date(scrapedSnapshotTime - job.hoursAgo * 60 * 60 * 1000).toISOString(),
+}));
+
+export const jobs: Job[] = [...new Map([...datedScrapedJobs, ...seedJobs].map((job) => [job.url, job])).values()].filter(isJobActive);
 
 export function postedLabel(h: number) {
   if (h < 24) return `${h}h ago`;
   const d = Math.floor(h / 24);
   return `${d}d ago`;
 }
-import { scrapedJobs } from "./scraped-jobs";
 

@@ -41,7 +41,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: matchingJobs.length,
-      itemListElement: matchingJobs.slice(0, 20).map((job, index) => ({ "@type": "ListItem", position: index + 1, name: `${job.title} — ${job.company}`, url: job.url })),
+      itemListElement: matchingJobs.slice(0, 20).map((job, index) => ({ "@type": "ListItem", position: index + 1, name: `${job.title} — ${job.company}`, url: `https://serategna.com.et/jobs/${encodeURIComponent(job.id)}` })),
     },
   };
 
@@ -92,7 +92,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
 
 function LandingJobCard({ job }: { job: Job }) {
   return <article className="rounded-2xl border bg-card p-5 transition-shadow hover:shadow-md">
-    <div className="flex items-start justify-between gap-3"><div><p className="text-xs font-medium text-muted-foreground">{job.company}</p><h3 className="mt-1 text-lg font-semibold">{job.title}</h3></div><BriefcaseBusiness className="h-5 w-5 shrink-0 text-primary" /></div>
+    <div className="flex items-start justify-between gap-3"><div><p className="text-xs font-medium text-muted-foreground">{job.company}</p><h3 className="mt-1 text-lg font-semibold"><Link to="/jobs/$id" params={{ id: job.id }} className="hover:text-primary hover:underline">{job.title}</Link></h3></div><BriefcaseBusiness className="h-5 w-5 shrink-0 text-primary" /></div>
     <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted-foreground"><span className="inline-flex items-center gap-1"><MapPin className="h-3.5 w-3.5" />{job.location}</span><span>{job.type}</span><span>{postedLabel(job.hoursAgo)}</span></div>
     <div className="mt-4 flex items-center justify-between gap-3"><span className="text-xs text-muted-foreground">{job.source ? `via ${job.source}` : "SERATEGNA listing"}</span><a href={job.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">View and apply <ArrowUpRight className="h-4 w-4" /></a></div>
   </article>;
