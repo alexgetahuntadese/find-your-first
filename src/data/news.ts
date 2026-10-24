@@ -3,6 +3,36 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ghanaian President Mahama Says Ethiopia Ready to Host Successful AFCON Tournament",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ghanaian President John Dramani Mahama has expressed confidence in Ethiopia’s readiness to host a successful Africa Cup of Nations (AFCON), praising the facilities at Bahir Dar Stadium during a visit following the opening ",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 15:05:34 +0000"
+  },
+  {
+    "title": "PM Abiy, African Leaders Visit Bahir Dar Stadium on Tana Forum Sidelines",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Prime Minister Abiy Ahmed, joined by African leaders and senior officials, visited Bahir Dar Stadium following the 12th Tana High-Level Forum on Security in Africa. In a social media post, Abiy said the visit provided an o",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 13:48:40 +0000"
+  },
+  {
+    "title": "Tana Forum Is Africa’s “Open Marketplace of Ideas” for Continental Peace and Sovereign Solutions — Ghanaian President",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ghanaian President John Dramani Mahama has described the Tana High-Level Forum on Security in Africa as an “open marketplace of ideas,” underscoring its distinctive role in fostering candid debate, strategic foresight and ",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 13:30:20 +0000"
+  },
+  {
+    "title": "Ethiopia’s Sea Access Pursuit Is an Existential Issue, While Reliable Transport Corridors Hold Wider African Significance, PM Abiy Says",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — For a country of more than 130 million people, access to the sea is inseparable from long-term security, sovereignty and the prospects of future generations, Ethiopian Prime Minister Abiy Ahmed said, placing the issue alon",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 13:27:09 +0000"
+  },
+  {
+    "title": "Ghanaian President Mahama Puts Economic Sovereignty at the Heart of Africa’s Peace and Security Agenda",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — African countries must overcome structural economic dependency, strengthen domestic productive capacity and take greater responsibility for financing their own peace and development to secure lasting stability, Ghanaian Pr",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 12:26:59 +0000"
+  },
+  {
     "title": "PM Abiy Ahmed Connects Africa’s Lasting Peace to Accountable Leadership, Credible Institutions and Tangible Results",
     "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has placed accountability, institutional effectiveness and tangible economic and social progress at the center of Africa’s pursuit of lasting peace, emphasizing that political agreements",
     "source": "FBC English",
@@ -33,45 +63,15 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sat, 24 Oct 2026 09:40:33 +0000"
   },
   {
-    "title": "PM Abiy Ahmed and Mozambican President Daniel Chapo Discuss Stronger Cooperation Ahead of Tana Forum",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopia and Mozambique have discussed ways to strengthen bilateral cooperation and advance shared interests as Prime Minister Abiy Ahmed welcomed Mozambican President Daniel Chapo ahead of the 12th Tana High-Level Forum o",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 08:30:19 +0000"
-  },
-  {
-    "title": "Ethiopian PM Abiy Ahmed Holds Bilateral Meeting with Kenyan Deputy President Ahead of 12th Tana Forum",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has received Kenyan Deputy President Kithure Kindiki ahead of the 12th Tana High-Level Forum on Security in Africa, holding bilateral discussions on matters of mutual interest. In a soci",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 07:40:50 +0000"
-  },
-  {
     "title": "በድል የጸና፣ በቴክኖሎጂ የዘመነ ሠራዊት",
     "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ሉዓላዊነትና የደህንነት ሁኔታ ከታሪካዊ ተሞክሮዎች፣ ከተቋማዊ አቅምና ከደህንነት ጋር ይያዛል። ለ119 ዓመታት የኢትዮጵያ ዳር ድንበር በተጠንቀቅ ሲጠብቅ ለህዝቧ ደህንነት ሲዋደቅ ሉዓላዊነቷን ሲያስከብር የኖረው የሀገር መከላከያ ሠራዊት በጀግኖች ደም እና አጥንት የጸና ታላቅ ተቋም ነው። ውትድርና ለሀገር ሉዓላዊነትና ለህዝብ ክብር ህይወትን አሳ",
     "source": "Fana Media",
     "publishedAt": "Fri, 23 Oct 2026 19:40:51 +0000"
   },
   {
-    "title": "The Illegal TPLF Group Suppressed Freedom of Expression in Tigray Region, Caretaker Administration Official Says",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — The illegal TPLF group has long prevented the people of Tigray Region from freely expressing their views, Reda’i Halefom, Chief Executive for Political and Public Organization Affairs in the Tigray Region Caretaker Adminis",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 19:00:41 +0000"
-  },
-  {
     "title": "ሕገ ወጡ ህወሓት በአምቻ እና በጋብቻ የተሳሰረ የጥቅም ቡድን እንጂ የትግራይ ህዝብ ተወካይ አይደለም – አበባው አያሌው (ረ/ፕ)",
     "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ሕገ ወጡ የህወሓት ቡድን በአምቻ እና በጋብቻ የተሳሰረ የጥቅም ቡድን እንጂ የትግራይ ህዝብ ተወካይ አይደለም አሉ የቅርስ ባለስልጣን ዋና ዳይሬክተር አበባው አያሌው (ረ/ፕ)፡፡ ዋና ዳይሬክተሩ ከፋና ሚዲያ ኮርፖሬሽን ጋር ባደረጉት ቆይታ÷ ሕገ ወጡ ህወሓት ራሱን የትግራይ ህዝብ ብቸኛ ነፃ አውጭ አድርጎ ሲመለከት መቆቱን እንዲሁም የህወሓት ሕልውና የትግራይ [",
     "source": "Fana Media",
     "publishedAt": "Fri, 23 Oct 2026 18:39:32 +0000"
-  },
-  {
-    "title": "የውጊያ ማርሽ ቀያሪው፤ የመከላከያ ሠራዊት የልዩ ዘመቻዎች ዕዝ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ዘመናዊው የጦርነት ስልት እና የደህንነት ሥጋት ውስጥ ፈጣን ተለዋዋጭነት፣ ትክክለኛነት እና በሁሉም መስኮች ዝግጁ መሆን የአንድን ሀገር መከላከያ ሠራዊት ጥንካሬ ይወስናሉ። የኢትዮጵያ መከላከያ ሠራዊት የልዩ ዘመቻዎች ዕዝ በየብስ፣ በአየር እና በባህር የሚሰጡትን ውስብስብ ግዳጆች በአስተማማኝ ሁኔታ መወጣት የሚያስችል ሁለንተናዊ ወታደራዊ ብቃት ገንብቷል። የመ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 23 Oct 2026 18:14:51 +0000"
-  },
-  {
-    "title": "የአባት ውርስ ከሃዲዎች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ)ታሪክ ታላቅ ዐሻራውን ጥሎ ያለፈበት፣ የድንጋይ ንብርብሮች የሚናገሩበት፣ የትናንት ታሪካቸውንም የሚዘክሩበት ምድር፣ የሥልጣኔ መነሻና የቤተ እምነቶች መክተሚያ ጭምር ነው የትግራይ ምድር። ኢትዮጵያዊነት ያለ አክሱም ሥልጣኔ ሙሉ አይሆንም። ክርስትና እና እስልምና ወደ ሀገሪቱ የገቡበት፣ አበው ጥበብን ያበለጸጉበት ይህ ምድር፣ የኢትዮጵያዊነት እና ባህላዊ መሠረት ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 23 Oct 2026 17:59:08 +0000"
   }
 ];
