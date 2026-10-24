@@ -3,10 +3,34 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "በድል የጸና፣ በቴክኖሎጂ የዘመነ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ሉዓላዊነትና የደህንነት ሁኔታ ከታሪካዊ ተሞክሮዎች፣ ከተቋማዊ አቅምና ከደህንነት ጋር ይያዛል። ለ119 ዓመታት የኢትዮጵያ ዳር ድንበር በተጠንቀቅ ሲጠብቅ ለህዝቧ ደህንነት ሲዋደቅ ሉዓላዊነቷን ሲያስከብር የኖረው የሀገር መከላከያ ሠራዊት በጀግኖች ደም እና አጥንት የጸና ታላቅ ተቋም ነው። ውትድርና ለሀገር ሉዓላዊነትና ለህዝብ ክብር ህይወትን አሳ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 23 Oct 2026 19:40:51 +0000"
+  },
+  {
     "title": "The Illegal TPLF Group Suppressed Freedom of Expression in Tigray Region, Caretaker Administration Official Says",
     "summary": "Addis Ababa, October 24, 2026 (FMC) — The illegal TPLF group has long prevented the people of Tigray Region from freely expressing their views, Reda’i Halefom, Chief Executive for Political and Public Organization Affairs in the Tigray Region Caretaker Adminis",
     "source": "FBC English",
     "publishedAt": "Fri, 23 Oct 2026 19:00:41 +0000"
+  },
+  {
+    "title": "ሕገ ወጡ ህወሓት በአምቻ እና በጋብቻ የተሳሰረ የጥቅም ቡድን እንጂ የትግራይ ህዝብ ተወካይ አይደለም – አበባው አያሌው (ረ/ፕ)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ሕገ ወጡ የህወሓት ቡድን በአምቻ እና በጋብቻ የተሳሰረ የጥቅም ቡድን እንጂ የትግራይ ህዝብ ተወካይ አይደለም አሉ የቅርስ ባለስልጣን ዋና ዳይሬክተር አበባው አያሌው (ረ/ፕ)፡፡ ዋና ዳይሬክተሩ ከፋና ሚዲያ ኮርፖሬሽን ጋር ባደረጉት ቆይታ÷ ሕገ ወጡ ህወሓት ራሱን የትግራይ ህዝብ ብቸኛ ነፃ አውጭ አድርጎ ሲመለከት መቆቱን እንዲሁም የህወሓት ሕልውና የትግራይ [",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 23 Oct 2026 18:39:32 +0000"
+  },
+  {
+    "title": "የውጊያ ማርሽ ቀያሪው፤ የመከላከያ ሠራዊት የልዩ ዘመቻዎች ዕዝ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ዘመናዊው የጦርነት ስልት እና የደህንነት ሥጋት ውስጥ ፈጣን ተለዋዋጭነት፣ ትክክለኛነት እና በሁሉም መስኮች ዝግጁ መሆን የአንድን ሀገር መከላከያ ሠራዊት ጥንካሬ ይወስናሉ። የኢትዮጵያ መከላከያ ሠራዊት የልዩ ዘመቻዎች ዕዝ በየብስ፣ በአየር እና በባህር የሚሰጡትን ውስብስብ ግዳጆች በአስተማማኝ ሁኔታ መወጣት የሚያስችል ሁለንተናዊ ወታደራዊ ብቃት ገንብቷል። የመ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 23 Oct 2026 18:14:51 +0000"
+  },
+  {
+    "title": "የአባት ውርስ ከሃዲዎች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ)ታሪክ ታላቅ ዐሻራውን ጥሎ ያለፈበት፣ የድንጋይ ንብርብሮች የሚናገሩበት፣ የትናንት ታሪካቸውንም የሚዘክሩበት ምድር፣ የሥልጣኔ መነሻና የቤተ እምነቶች መክተሚያ ጭምር ነው የትግራይ ምድር። ኢትዮጵያዊነት ያለ አክሱም ሥልጣኔ ሙሉ አይሆንም። ክርስትና እና እስልምና ወደ ሀገሪቱ የገቡበት፣ አበው ጥበብን ያበለጸጉበት ይህ ምድር፣ የኢትዮጵያዊነት እና ባህላዊ መሠረት ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 23 Oct 2026 17:59:08 +0000"
   },
   {
     "title": "Ethiopia’s Water and Energy Week to Bridge Science, Policy and Investment for Sustainable Resource Security",
@@ -27,6 +51,12 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 23 Oct 2026 17:00:25 +0000"
   },
   {
+    "title": "ኢትዮጵያ የምሥራቅ አፍሪካ ቀጣና የኃይል፣ የሰላም እና የጋራ ዕድገት ዋስትና ናት – አቶ ጌታቸው ረዳ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የምሥራቅ አፍሪካ ቀጣና የኃይል አቅርቦት፣ የሰላም እና የጋራ ዕድገት ዋስትና ናት አሉ የጠቅላይ ሚኒስትሩ የምሥራቅ አፍሪካ ጉዳዮች አማካሪ አቶ ጌታቸው ረዳ። 12ኛው የጣና ፎረም በውቢቷ ባሕር ዳር በጣና ሐይቅ ዳርቻ “በአፍሪካ የሰላም መንገዶች፤ የኢኮኖሚ ሉዓላዊነትና የጂኦፖለቲካ ለውጥ” በሚል መሪ ሐሳብ ይካሄዳል። በዛሬው ዕለትም በቀይ ባሕርና ም",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 23 Oct 2026 16:54:42 +0000"
+  },
+  {
     "title": "Amhara Region Chief Administrator Says Medemer Principles Are Driving Dev’t Projects That Deliver Lasting Benefits in Ethiopia",
     "summary": "Addis Ababa, October 23, 2026 (FMC) — Federal development projects in Ethiopia are advancing the Medemer government’s principles by addressing longstanding community needs, completing delayed infrastructure and expanding opportunities for economic and social p",
     "source": "FBC English",
@@ -43,35 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, October 23, 2026 (FMC) — Ambassador Redwan Huseen, Director General of Ethiopia’s National Intelligence and Security Service, has called for urgent collective action by regional states and reliable international partners to safeguard Red Sea secur",
     "source": "FBC English",
     "publishedAt": "Fri, 23 Oct 2026 16:19:59 +0000"
-  },
-  {
-    "title": "PM Abiy Envisions Gondar as a Premier Tourism Destination, Taps Lakeside Investment and African Heritage",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Gondar should become a city where visitors stay to experience Ethiopia’s history and culture, rather than simply pass through, Ethiopian Prime Minister Abiy Ahmed said, proposing new lakeside tourism investment to help unl",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 16:00:22 +0000"
-  },
-  {
-    "title": "Tana Forum Special Envoys’ Dialogue Opens in Bahir Dar Amid Growing Horn of Africa and Red Sea Security Challenges",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — The Tana Forum’s Special Envoys’ Dialogue opened in Bahir Dar, Ethiopia, bringing together senior diplomats and regional leaders to examine shifting geopolitical dynamics in the Horn of Africa and mounting security challen",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 15:24:49 +0000"
-  },
-  {
-    "title": "Ghanaian President: Africa’s Next Chapter Must Turn Liberation into Economic Transformation and Prosperity",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Africa’s historic struggle against colonial domination must be followed by a new era of economic transformation and prosperity for its people, Ghanaian President John Dramani Mahama said, outlining the responsibility facin",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 14:45:30 +0000"
-  },
-  {
-    "title": "ስደት በስተርጅና ፡ የታሪክ መራራ መስታወት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) በዕድሜ መገባደጃ ላይ ዕድሜ ልክ የለፉበትን ሀብትና ንብረት ጥሎ ለስደትና ለውርደት መዳረግ ከማንኛውም የፖለቲካ ሽንፈት በላይ የከፋ ሰብዓዊ ውድቀት ነው።ህገወጡ ህወሃትም የሆነው ይህንኑ ነው። ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በትግርኛ ቋንቋ ባደረጉት ቆይታም የገለጹት ይህንኑ የሕዝብን መራራ ዕጣ ፈንታ ቁልጭ አድርጎ የሚያሳይና እያንዳንዱ አስተዋይ ዜ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 20:56:57 +0000"
-  },
-  {
-    "title": "የሀገር መከላከያ ሠራዊት – የ119 ዓመታት የጀግንነት፣ የሉዓላዊነትና የዘመናዊነት ጉዞ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 12፣ 2019 (ኤፍ ኤም ሲ) የኢፌዴሪ መከላከያ ሠራዊት የ119ኛ ዓመት የምሥረታ በዓሉን ሲያከብር፣ በረጅም ዘመናት ታሪኩ ደምቀው የተመዘገቡ የጀግንነት፣ የጽናትና የሀገር ፍቅር ስኬቶችን በመዘከር ነው። ከአንድ ክፍለ ዘመን በላይ ባስቆረው የተቋሙ እድሜ በተካሄዱ የሀገርን ዳር ድንበር የማስከበር ተልዕኮዎች፣ ሠራዊቱ የሀገሪቱን ሉዓላዊነትና ነጻነት በደሙና በአጥንቱ አስከብሮ የታፈረችና የ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 22 Oct 2026 19:49:51 +0000"
   }
 ];
