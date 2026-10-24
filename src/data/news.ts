@@ -3,6 +3,48 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "PM Abiy Ahmed Connects Africa’s Lasting Peace to Accountable Leadership, Credible Institutions and Tangible Results",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has placed accountability, institutional effectiveness and tangible economic and social progress at the center of Africa’s pursuit of lasting peace, emphasizing that political agreements",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 11:45:48 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed Urges Africa to Shape Global Order Through Economic Sovereignty, Homegrown Solutions and Collective Resilience",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has called on African countries to move beyond adapting to a changing global order and take a more active role in shaping it, emphasizing economic sovereignty, homegrown solutions and de",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 11:20:12 +0000"
+  },
+  {
+    "title": "Destruction of Tigray Region Institutions by the Rump TPLF Exposes the True Nature of the Banned Group",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — The destruction inflicted on public institutions across the Tigray Region, particularly the regional administration’s headquarters, has exposed the true nature and actions of the rump TPLF, Asefa Abraha, Chief Executive fo",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 10:47:21 +0000"
+  },
+  {
+    "title": "Ethiopian Deputy PM Welcomes Burundi’s President Évariste Ndayishimiye to Ethiopia, Emphasizes Africa’s Collective Responsibility for Peace",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopia’s Deputy Prime Minister Temesgen Truneh has welcomed Burundi’s President and African Union (AU) Chairperson Évariste Ndayishimiye to Ethiopia for the 12th Tana High-Level Forum on Security in Africa. In his messag",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 10:05:53 +0000"
+  },
+  {
+    "title": "12th Edition of Tana Forum Opens in Bahir Dar",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — The 12th Tana High-Level Forum on Security in Africa has officially opened in Bahir Dar, bringing African leaders and stakeholders together to deliberate on the continent’s peace and security, economic sovereignty and evol",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 09:40:33 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed and Mozambican President Daniel Chapo Discuss Stronger Cooperation Ahead of Tana Forum",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopia and Mozambique have discussed ways to strengthen bilateral cooperation and advance shared interests as Prime Minister Abiy Ahmed welcomed Mozambican President Daniel Chapo ahead of the 12th Tana High-Level Forum o",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 08:30:19 +0000"
+  },
+  {
+    "title": "Ethiopian PM Abiy Ahmed Holds Bilateral Meeting with Kenyan Deputy President Ahead of 12th Tana Forum",
+    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has received Kenyan Deputy President Kithure Kindiki ahead of the 12th Tana High-Level Forum on Security in Africa, holding bilateral discussions on matters of mutual interest. In a soci",
+    "source": "FBC English",
+    "publishedAt": "Sat, 24 Oct 2026 07:40:50 +0000"
+  },
+  {
     "title": "በድል የጸና፣ በቴክኖሎጂ የዘመነ ሠራዊት",
     "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ሉዓላዊነትና የደህንነት ሁኔታ ከታሪካዊ ተሞክሮዎች፣ ከተቋማዊ አቅምና ከደህንነት ጋር ይያዛል። ለ119 ዓመታት የኢትዮጵያ ዳር ድንበር በተጠንቀቅ ሲጠብቅ ለህዝቧ ደህንነት ሲዋደቅ ሉዓላዊነቷን ሲያስከብር የኖረው የሀገር መከላከያ ሠራዊት በጀግኖች ደም እና አጥንት የጸና ታላቅ ተቋም ነው። ውትድርና ለሀገር ሉዓላዊነትና ለህዝብ ክብር ህይወትን አሳ",
     "source": "Fana Media",
@@ -31,47 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ)ታሪክ ታላቅ ዐሻራውን ጥሎ ያለፈበት፣ የድንጋይ ንብርብሮች የሚናገሩበት፣ የትናንት ታሪካቸውንም የሚዘክሩበት ምድር፣ የሥልጣኔ መነሻና የቤተ እምነቶች መክተሚያ ጭምር ነው የትግራይ ምድር። ኢትዮጵያዊነት ያለ አክሱም ሥልጣኔ ሙሉ አይሆንም። ክርስትና እና እስልምና ወደ ሀገሪቱ የገቡበት፣ አበው ጥበብን ያበለጸጉበት ይህ ምድር፣ የኢትዮጵያዊነት እና ባህላዊ መሠረት ",
     "source": "Fana Media",
     "publishedAt": "Fri, 23 Oct 2026 17:59:08 +0000"
-  },
-  {
-    "title": "Ethiopia’s Water and Energy Week to Bridge Science, Policy and Investment for Sustainable Resource Security",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ethiopia will bring policymakers, researchers, development partners and private-sector leaders together next week to strengthen the link between scientific research, policymaking and implementation, positioning evidence-ba",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 17:19:48 +0000"
-  },
-  {
-    "title": "Ethiopia’s Ministry of Justice Prosecutes 13 Suspects in 1.013 Billion Birr ELMIS Corruption Case",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopia’s Ministry of Justice has initiated prosecution proceedings against 13 suspects in a major alleged corruption case involving the Ethiopia Labor Market Information System (ELMIS) project, with investigators tracing",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 17:14:38 +0000"
-  },
-  {
-    "title": "Ghanaian President Praises PM Abiy as a Transformational Leader Turning Africa’s Liberation Legacy into Economic Prosperity",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ghanaian President John Dramani Mahama has praised Ethiopian Prime Minister Abiy Ahmed as a transformational leader who is advancing the economic prosperity that Africa’s historic liberation struggle was meant to make poss",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 17:00:25 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ የምሥራቅ አፍሪካ ቀጣና የኃይል፣ የሰላም እና የጋራ ዕድገት ዋስትና ናት – አቶ ጌታቸው ረዳ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የምሥራቅ አፍሪካ ቀጣና የኃይል አቅርቦት፣ የሰላም እና የጋራ ዕድገት ዋስትና ናት አሉ የጠቅላይ ሚኒስትሩ የምሥራቅ አፍሪካ ጉዳዮች አማካሪ አቶ ጌታቸው ረዳ። 12ኛው የጣና ፎረም በውቢቷ ባሕር ዳር በጣና ሐይቅ ዳርቻ “በአፍሪካ የሰላም መንገዶች፤ የኢኮኖሚ ሉዓላዊነትና የጂኦፖለቲካ ለውጥ” በሚል መሪ ሐሳብ ይካሄዳል። በዛሬው ዕለትም በቀይ ባሕርና ም",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 23 Oct 2026 16:54:42 +0000"
-  },
-  {
-    "title": "Amhara Region Chief Administrator Says Medemer Principles Are Driving Dev’t Projects That Deliver Lasting Benefits in Ethiopia",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Federal development projects in Ethiopia are advancing the Medemer government’s principles by addressing longstanding community needs, completing delayed infrastructure and expanding opportunities for economic and social p",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 16:52:24 +0000"
-  },
-  {
-    "title": "Megech Irrigation Project Poised to Transform Agriculture, Water Security and Tourism in Amhara Region – Chief Administrator",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — The Megech irrigation and drinking water project is poised to reshape agricultural production, improve water security and unlock new economic opportunities in Ethiopia’s Amhara Region, Regional State Chief Administrator Ar",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 16:36:33 +0000"
-  },
-  {
-    "title": "Ethiopia’s National Intelligence Chief: Red Sea Security Requires Collective Action Amid Growing Militarization and Foreign Rivalries",
-    "summary": "Addis Ababa, October 23, 2026 (FMC) — Ambassador Redwan Huseen, Director General of Ethiopia’s National Intelligence and Security Service, has called for urgent collective action by regional states and reliable international partners to safeguard Red Sea secur",
-    "source": "FBC English",
-    "publishedAt": "Fri, 23 Oct 2026 16:19:59 +0000"
   }
 ];
