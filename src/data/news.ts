@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ghanaian President Mahama Says Ethiopia Ready to Host Successful AFCON Tournament",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ghanaian President John Dramani Mahama has expressed confidence in Ethiopia’s readiness to host a successful Africa Cup of Nations (AFCON), praising the facilities at Bahir Dar Stadium during a visit following the opening ",
+    "title": "Ethiopia Commemorates 119th Defense Forces Day Under Theme ‘Army of Victory’",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopia is commemorating the 119th Defense Forces Day under the theme “Army of Victory” at the Armed Forces General Headquarters, honoring the history, traditions, and sacrifices of the Ethiopian National Defense Force (E",
     "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 15:05:34 +0000"
+    "publishedAt": "Sun, 25 Oct 2026 10:02:24 +0000"
   },
   {
-    "title": "PM Abiy, African Leaders Visit Bahir Dar Stadium on Tana Forum Sidelines",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Prime Minister Abiy Ahmed, joined by African leaders and senior officials, visited Bahir Dar Stadium following the 12th Tana High-Level Forum on Security in Africa. In a social media post, Abiy said the visit provided an o",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 13:48:40 +0000"
-  },
-  {
-    "title": "Tana Forum Is Africa’s “Open Marketplace of Ideas” for Continental Peace and Sovereign Solutions — Ghanaian President",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ghanaian President John Dramani Mahama has described the Tana High-Level Forum on Security in Africa as an “open marketplace of ideas,” underscoring its distinctive role in fostering candid debate, strategic foresight and ",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 13:30:20 +0000"
-  },
-  {
-    "title": "Ethiopia’s Sea Access Pursuit Is an Existential Issue, While Reliable Transport Corridors Hold Wider African Significance, PM Abiy Says",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — For a country of more than 130 million people, access to the sea is inseparable from long-term security, sovereignty and the prospects of future generations, Ethiopian Prime Minister Abiy Ahmed said, placing the issue alon",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 13:27:09 +0000"
-  },
-  {
-    "title": "Ghanaian President Mahama Puts Economic Sovereignty at the Heart of Africa’s Peace and Security Agenda",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — African countries must overcome structural economic dependency, strengthen domestic productive capacity and take greater responsibility for financing their own peace and development to secure lasting stability, Ghanaian Pr",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 12:26:59 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Connects Africa’s Lasting Peace to Accountable Leadership, Credible Institutions and Tangible Results",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has placed accountability, institutional effectiveness and tangible economic and social progress at the center of Africa’s pursuit of lasting peace, emphasizing that political agreements",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 11:45:48 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Urges Africa to Shape Global Order Through Economic Sovereignty, Homegrown Solutions and Collective Resilience",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has called on African countries to move beyond adapting to a changing global order and take a more active role in shaping it, emphasizing economic sovereignty, homegrown solutions and de",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 11:20:12 +0000"
-  },
-  {
-    "title": "Destruction of Tigray Region Institutions by the Rump TPLF Exposes the True Nature of the Banned Group",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — The destruction inflicted on public institutions across the Tigray Region, particularly the regional administration’s headquarters, has exposed the true nature and actions of the rump TPLF, Asefa Abraha, Chief Executive fo",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 10:47:21 +0000"
-  },
-  {
-    "title": "Ethiopian Deputy PM Welcomes Burundi’s President Évariste Ndayishimiye to Ethiopia, Emphasizes Africa’s Collective Responsibility for Peace",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — Ethiopia’s Deputy Prime Minister Temesgen Truneh has welcomed Burundi’s President and African Union (AU) Chairperson Évariste Ndayishimiye to Ethiopia for the 12th Tana High-Level Forum on Security in Africa. In his messag",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 10:05:53 +0000"
-  },
-  {
-    "title": "12th Edition of Tana Forum Opens in Bahir Dar",
-    "summary": "Addis Ababa, October 24, 2026 (FMC) — The 12th Tana High-Level Forum on Security in Africa has officially opened in Bahir Dar, bringing African leaders and stakeholders together to deliberate on the continent’s peace and security, economic sovereignty and evol",
-    "source": "FBC English",
-    "publishedAt": "Sat, 24 Oct 2026 09:40:33 +0000"
-  },
-  {
-    "title": "በድል የጸና፣ በቴክኖሎጂ የዘመነ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር ሉዓላዊነትና የደህንነት ሁኔታ ከታሪካዊ ተሞክሮዎች፣ ከተቋማዊ አቅምና ከደህንነት ጋር ይያዛል። ለ119 ዓመታት የኢትዮጵያ ዳር ድንበር በተጠንቀቅ ሲጠብቅ ለህዝቧ ደህንነት ሲዋደቅ ሉዓላዊነቷን ሲያስከብር የኖረው የሀገር መከላከያ ሠራዊት በጀግኖች ደም እና አጥንት የጸና ታላቅ ተቋም ነው። ውትድርና ለሀገር ሉዓላዊነትና ለህዝብ ክብር ህይወትን አሳ",
+    "title": "የኢትዮጵያ የታጠቀ ኃይል ታሪክ ዘመናትን ያስቆጠረ ነው – ጄኔራል ዓለምእሸት ደግፌ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የታጠቀ ኃይል ታሪክ ዘመናትን ያስቆጠረ ነው አሉ የኢፌዴሪ ጦር ኃይሎች ጠቅላይ ኢታማዦር ወታደራዊ አማካሪ እና የመከላከያ የተኩስ አመራር ኃላፊ ጄኔራል ዓለምሸት ደግፌ፡፡ 119ኛው የመከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ቃል በዛሬው ዕለት እየተከበረ ነው። ጄነራል ዓለምእሸት ደግፌ በዚሁ ወቅት እንዳሉት፤ ህዝባችን ህልውናውን ያቆየው አ",
     "source": "Fana Media",
-    "publishedAt": "Fri, 23 Oct 2026 19:40:51 +0000"
+    "publishedAt": "Sun, 25 Oct 2026 09:12:03 +0000"
   },
   {
-    "title": "ሕገ ወጡ ህወሓት በአምቻ እና በጋብቻ የተሳሰረ የጥቅም ቡድን እንጂ የትግራይ ህዝብ ተወካይ አይደለም – አበባው አያሌው (ረ/ፕ)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 13፣ 2019 (ኤፍ ኤም ሲ) ሕገ ወጡ የህወሓት ቡድን በአምቻ እና በጋብቻ የተሳሰረ የጥቅም ቡድን እንጂ የትግራይ ህዝብ ተወካይ አይደለም አሉ የቅርስ ባለስልጣን ዋና ዳይሬክተር አበባው አያሌው (ረ/ፕ)፡፡ ዋና ዳይሬክተሩ ከፋና ሚዲያ ኮርፖሬሽን ጋር ባደረጉት ቆይታ÷ ሕገ ወጡ ህወሓት ራሱን የትግራይ ህዝብ ብቸኛ ነፃ አውጭ አድርጎ ሲመለከት መቆቱን እንዲሁም የህወሓት ሕልውና የትግራይ [",
+    "title": "ለሀገር ክብር የቆመው – የኢትዮጵያ መከላከያ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያን ሉዓላዊነት አደጋ ላይ ሊጥሉ የተሞከሩ ሙከራዎች ነበሩ፡፡ በዚህ ጊዜ ታድያ የክተት አዋጅ ይታወጃል፤ የኢትዮጵያ ህዝብም “ሆ” ብሎ ሀገሩን ለመጠበቅ ወኔን ተላብሶ ይወጣል፡፡ ዛሬ ላይ ዝግጁ ሆኖ፣ ራሱን በቴክኖሎጂና ዘመናዊነት አብቅቶ በተጠንቀቅ የሚጠብቅ የሀገር መከላከያ ሠራዊት ያላት ሀገር ናት ኢትዮጵያ፡፡ የመከላከያ ሠራዊት 1900 ዓ.ም ላይ ",
     "source": "Fana Media",
-    "publishedAt": "Fri, 23 Oct 2026 18:39:32 +0000"
+    "publishedAt": "Sun, 25 Oct 2026 08:47:29 +0000"
+  },
+  {
+    "title": "አዲስ አበባን ለነዋሪዎቿ የተሻለ ኑሮ የምትፈጥር ከተማ እናደርጋታለን – ከንቲባ አዳነች አቤቤ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባን ለነዋሪዎቿ የተሻለ ኑሮ የምትፈጥር ከተማ እናደርጋታለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። የእንጦጦ ፒኮክ የወንዝ ዳርቻ ልማት አካል የሆነው የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማት በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመርቆ ለአገልግሎት ክፍት ሆኗል። ከንቲባዋ በማህበራዊ ትስስር ገጻቸው ባስተ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 08:29:51 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed inaugurates Kechene–Ambassador–Gihon– Irreecha–Bambis Riverside Development project in Addis",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed (PhD) today inaugurated the Kechene–Ambassador–Gihon– Irreecha–Bambis Riverside Development project in Addis Ababa. In a post shared on his social media pages after commissioning the new",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 08:02:59 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማትን መረቁ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማትን መርቀው ለአገልግሎት ክፍት አድርገዋል፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት፤ ይህ የ351 ሄክታር አጠቃላይ ስፋት እና የ10 ኪ.ሜ ርዝማኔ ያለው የኮሪደር ልማት ዘመናዊ፣ አረንጓዴ እና ሁሉንም አካታች የሆነች አዲስ አበባን የ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 07:44:49 +0000"
+  },
+  {
+    "title": "119ኛው የመከላከያ ሠራዊት ቀን እየተከበረ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) 119ኛው የመከላከያ ሠራዊት ቀን በድምቀት እየተከበረ ይገኛል፡፡ 119ኛው የኢትዮጵያ መከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ሀሳብ በጦር ኃይሎች ጠቅላይ መምሪያ እየተከበረ ነው፡፡ በክብረ በዓሉ ላይ የመንግሥት የስራ ኃላፊዎች፣ ከፍተኛ የጦር መኮንኖች፣ የወዳጅ ሀገራት ወታደራዊ አታሼዎች እና ሌሎች ተጋባዥ እንግዶች ተገኝተዋል ። እንኳን ለ119ኛው",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 07:34:28 +0000"
+  },
+  {
+    "title": "የኢትዮጵያ አንድነትና ሉዓላዊነት መሠረት፤ የሀገር መከላከያ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በማንኛውም ጊዜ የላቀ ግዳጅ መፈጸም የሠራዊታችን የሀገር ፍቅር፣ የጽናትና የተልዕኮ ቁርጠኝነት መገለጫ ነው። ይህ የሠራዊታችን ድንቅ አባባል የሀገር ፍቅርን፣ የተልዕኮ ቁርጠኝነትን፣ የወታደራዊ ጽናትንና ለሀገር ሉዓላዊነት የመቆም የማይናወጥ አቋምን የሚያንጸባርቅ የጀግንነት መርህ ነው። ለሠራዊታችን ኢትዮጵያ የተልዕኮው መነሻ፣ የቁርጠኝነቱ መዳረሻና የመስዋዕት",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 06:38:19 +0000"
+  },
+  {
+    "title": "የሀገር መከላከያ ሠራዊት፤ የነጻነትና የሉዓላዊነት መገለጫ አርማ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ታሪክ ውስጥ የሀገር መከላከያ ሠራዊት የሉዓላዊነት ዋስትና እና የሀገራዊ አንድነት ዋና ምሰሶ ነው፡፡ ሰላምና አንድነትን ለማስከበር የሚከፍለው መስዋዕትነት ሁልጊዜም በታሪክ መዝገብ ላይ በደመቀ ቀለም ተጽፎ ይኖራል። በዓለም አቀፍ ተልዕኮ ስርም ሲሰማራ ለሀገራት የሰላም ዘብ መሆን የቻለ ኩሩ ሠራዊት ነው። ከለውጡ ዓመታት ወዲህ በተደረገው መሠረታዊ ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 05:55:20 +0000"
+  },
+  {
+    "title": "የድል ሠራዊት፤ የኢትዮጵያ መከላከያ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የዘመናት ቅብብሎሽ ጋሻ የሆነው የኢትዮጵያ መከላከያ ሠራዊት ለሀገር ክብር እና ለህዝቦች ደህንነት ሲዋደቅ እዚህ ደርሷል፡፡ በዚህም ኢትዮጵያ በልጆቿ ብርቱ ክንድ ታፍራ እና ተከብራ ለዘመናት ዳር ድንበሯ ተጠብቆ ዛሬ ላይ ለመቆም በቅታለች፡፡ 119ኛው የመከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ቃል በዛሬው ዕለት ይከበራል፡፡ በዓሉ ሲከበር ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 05:17:50 +0000"
+  },
+  {
+    "title": "የህዝብ ጋሻና የሉዓላዊነት አምባ – የሀገር መከላከያ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) ከሀገር ጥንካሬ መሠረቶች አንደኛው ለሀገርና ለህዝብ የቆመ፣ ሉዓላዊነትን ለማስከበር የሚሰራ ጥንካሬና ዘመናዊነትን የተላበሰ ተቋም ባለቤት መሆን ይጠቀሳል፤ ይህም ተቋም የሀገር መከላከያ ሠራዊት ነው። የኢትዮጵያ መከላከያ ሠራዊት በዚህ ረገድ ትልቅ ኃላፊነትን እየተወጣ የሚገኝ ተቋም ነው። ኢትዮጵያ የነጻነትና የክብር ረጅም ታሪክ አላት፤ በታሪኳ ውስጥ ትልቅ ስ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 04:39:39 +0000"
+  },
+  {
+    "title": "“የድል ሠራዊት” በሚል መሪ ቃል እየተከበረ ለሚገኘው 119ኛው የመከላከያ ሠራዊት ቀን በዓል እንኳን በሠላም አደረሳችሁ።",
+    "summary": "የኢፌዴሪ መከላከያ ሠራዊት ጥቅምት 15 ቀን 2019 ዓ.ም ጥቅምት 15 ቀን 1900 ዓ.ም ዓጼ ምኒልክ የጦር ሚኒስቴር መሥሪያ ቤት ያቋቋሙበት እና ፊት አውራሪ ሀብተጊዮርጊስ ዲነግዴን የጦር ሚኒስትር አድርገው የሾሙበት ዕለት ነው። የኢትዮጵያ መከላከያ ሠራዊት ቀን በዚህ ታሪካዊ ዕለት በየዓመቱ ጥቅምት 15 መከበሩ ቀደምት ጀግኖችን ሞዴል ያደረገ፣ ከቀደምቶች ታሪክ የሚማር እና የሀገር አለኝታ ሆኖ ሀገርን ለትው",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 04:19:27 +0000"
   }
 ];
