@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Addis Ababa Riverside Development Creates Over 56,000 Jobs, Improves Urban Livability, Mayor Adanech Says",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — The newly commissioned Kechene–Ambassador Park–Gihon–Irreecha–Bambis Riverside Development Project has created more than 56,000 jobs during construction while advancing efforts to improve residents’ safety, livelihoods and",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 13:44:47 +0000"
+  },
+  {
+    "title": "Medemer Government’s Urban Development Drive Turns Addis Ababa into a Model for Other Ethiopian Cities, Parliament Speaker Says",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — House of Peoples’ Representatives Speaker Ahmed Shide has said Addis Ababa’s rapid urban transformation is setting an example for other Ethiopian cities, reflecting the Medemer government’s sustained focus on making urban ",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 13:31:13 +0000"
+  },
+  {
+    "title": "Tana Forum Concludes with Focus on Turning African Peace Commitments into Action",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — The 12th Tana High-Level Forum on Security in Africa concluded in Bahir Dar, Ethiopia, with African leaders and experts emphasizing the need to translate dialogue and continental commitments into concrete action to address",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 13:20:39 +0000"
+  },
+  {
+    "title": "Former African Leaders Identify Faster Integration and Technological Sovereignty as Keys to Africa’s Future",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Former African leaders and senior officials have identified faster continental integration, greater investment in technological capabilities and stronger African institutions as essential to advancing the continent’s econo",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 13:07:08 +0000"
+  },
+  {
+    "title": "Ethiopia Has No Alternative but to Defend Its Interests in the Abay River and Red Sea — ENDF Chief of Staff",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian National Defense Force (ENDF) Chief of Staff Field Marshal Berhanu Jula has declared that Ethiopia has no alternative but to defend its interests in the Abay River and the Red Sea, stressing that the country cann",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 12:10:59 +0000"
+  },
+  {
+    "title": "TPLF and Its External Backers Hide Behind Ethnic Survival Narratives to Fuel Conflict at the Expense of the People of Tigray Region — ENDF Chief of Staff",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian National Defense Force (ENDF) Chief of Staff Field Marshal Berhanu Jula has linked the illegal TPLF group’s armed campaigns to external backing and ethnic-survival narratives that, he said, threaten Ethiopia’s na",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 11:52:51 +0000"
+  },
+  {
+    "title": "ENDF Chief of Staff Vows to Defend Ethiopia’s Sovereignty, Says No Force Can Break Its Defense Army",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian National Defense Force (ENDF) Chief of Staff Field Marshal Berhanu Jula has declared that the defense force will not be dismantled to pave the way for a transitional government imposed through armed struggle, vow",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 11:23:57 +0000"
+  },
+  {
+    "title": "Ethiopia’s Defense Minister Hails ENDF’s Resilience in Defending National Interests Against Mounting Challenges",
+    "summary": "Addis Ababa, October 25, 2026 (FMC) — Defense Minister Mohammed Idris has praised the Ethiopian National Defense Force (ENDF) for its courage, resilience, and commitment to overcoming challenges while safeguarding Ethiopia’s sovereignty and territorial integri",
+    "source": "FBC English",
+    "publishedAt": "Sun, 25 Oct 2026 10:13:32 +0000"
+  },
+  {
     "title": "Ethiopia Commemorates 119th Defense Forces Day Under Theme ‘Army of Victory’",
     "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopia is commemorating the 119th Defense Forces Day under the theme “Army of Victory” at the Armed Forces General Headquarters, honoring the history, traditions, and sacrifices of the Ethiopian National Defense Force (E",
     "source": "FBC English",
@@ -25,53 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባን ለነዋሪዎቿ የተሻለ ኑሮ የምትፈጥር ከተማ እናደርጋታለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። የእንጦጦ ፒኮክ የወንዝ ዳርቻ ልማት አካል የሆነው የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማት በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመርቆ ለአገልግሎት ክፍት ሆኗል። ከንቲባዋ በማህበራዊ ትስስር ገጻቸው ባስተ",
     "source": "Fana Media",
     "publishedAt": "Sun, 25 Oct 2026 08:29:51 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed inaugurates Kechene–Ambassador–Gihon– Irreecha–Bambis Riverside Development project in Addis",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed (PhD) today inaugurated the Kechene–Ambassador–Gihon– Irreecha–Bambis Riverside Development project in Addis Ababa. In a post shared on his social media pages after commissioning the new",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 08:02:59 +0000"
-  },
-  {
-    "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማትን መረቁ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማትን መርቀው ለአገልግሎት ክፍት አድርገዋል፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት፤ ይህ የ351 ሄክታር አጠቃላይ ስፋት እና የ10 ኪ.ሜ ርዝማኔ ያለው የኮሪደር ልማት ዘመናዊ፣ አረንጓዴ እና ሁሉንም አካታች የሆነች አዲስ አበባን የ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 07:44:49 +0000"
-  },
-  {
-    "title": "119ኛው የመከላከያ ሠራዊት ቀን እየተከበረ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) 119ኛው የመከላከያ ሠራዊት ቀን በድምቀት እየተከበረ ይገኛል፡፡ 119ኛው የኢትዮጵያ መከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ሀሳብ በጦር ኃይሎች ጠቅላይ መምሪያ እየተከበረ ነው፡፡ በክብረ በዓሉ ላይ የመንግሥት የስራ ኃላፊዎች፣ ከፍተኛ የጦር መኮንኖች፣ የወዳጅ ሀገራት ወታደራዊ አታሼዎች እና ሌሎች ተጋባዥ እንግዶች ተገኝተዋል ። እንኳን ለ119ኛው",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 07:34:28 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ አንድነትና ሉዓላዊነት መሠረት፤ የሀገር መከላከያ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በማንኛውም ጊዜ የላቀ ግዳጅ መፈጸም የሠራዊታችን የሀገር ፍቅር፣ የጽናትና የተልዕኮ ቁርጠኝነት መገለጫ ነው። ይህ የሠራዊታችን ድንቅ አባባል የሀገር ፍቅርን፣ የተልዕኮ ቁርጠኝነትን፣ የወታደራዊ ጽናትንና ለሀገር ሉዓላዊነት የመቆም የማይናወጥ አቋምን የሚያንጸባርቅ የጀግንነት መርህ ነው። ለሠራዊታችን ኢትዮጵያ የተልዕኮው መነሻ፣ የቁርጠኝነቱ መዳረሻና የመስዋዕት",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 06:38:19 +0000"
-  },
-  {
-    "title": "የሀገር መከላከያ ሠራዊት፤ የነጻነትና የሉዓላዊነት መገለጫ አርማ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ታሪክ ውስጥ የሀገር መከላከያ ሠራዊት የሉዓላዊነት ዋስትና እና የሀገራዊ አንድነት ዋና ምሰሶ ነው፡፡ ሰላምና አንድነትን ለማስከበር የሚከፍለው መስዋዕትነት ሁልጊዜም በታሪክ መዝገብ ላይ በደመቀ ቀለም ተጽፎ ይኖራል። በዓለም አቀፍ ተልዕኮ ስርም ሲሰማራ ለሀገራት የሰላም ዘብ መሆን የቻለ ኩሩ ሠራዊት ነው። ከለውጡ ዓመታት ወዲህ በተደረገው መሠረታዊ ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 05:55:20 +0000"
-  },
-  {
-    "title": "የድል ሠራዊት፤ የኢትዮጵያ መከላከያ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የዘመናት ቅብብሎሽ ጋሻ የሆነው የኢትዮጵያ መከላከያ ሠራዊት ለሀገር ክብር እና ለህዝቦች ደህንነት ሲዋደቅ እዚህ ደርሷል፡፡ በዚህም ኢትዮጵያ በልጆቿ ብርቱ ክንድ ታፍራ እና ተከብራ ለዘመናት ዳር ድንበሯ ተጠብቆ ዛሬ ላይ ለመቆም በቅታለች፡፡ 119ኛው የመከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ቃል በዛሬው ዕለት ይከበራል፡፡ በዓሉ ሲከበር ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 05:17:50 +0000"
-  },
-  {
-    "title": "የህዝብ ጋሻና የሉዓላዊነት አምባ – የሀገር መከላከያ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) ከሀገር ጥንካሬ መሠረቶች አንደኛው ለሀገርና ለህዝብ የቆመ፣ ሉዓላዊነትን ለማስከበር የሚሰራ ጥንካሬና ዘመናዊነትን የተላበሰ ተቋም ባለቤት መሆን ይጠቀሳል፤ ይህም ተቋም የሀገር መከላከያ ሠራዊት ነው። የኢትዮጵያ መከላከያ ሠራዊት በዚህ ረገድ ትልቅ ኃላፊነትን እየተወጣ የሚገኝ ተቋም ነው። ኢትዮጵያ የነጻነትና የክብር ረጅም ታሪክ አላት፤ በታሪኳ ውስጥ ትልቅ ስ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 04:39:39 +0000"
-  },
-  {
-    "title": "“የድል ሠራዊት” በሚል መሪ ቃል እየተከበረ ለሚገኘው 119ኛው የመከላከያ ሠራዊት ቀን በዓል እንኳን በሠላም አደረሳችሁ።",
-    "summary": "የኢፌዴሪ መከላከያ ሠራዊት ጥቅምት 15 ቀን 2019 ዓ.ም ጥቅምት 15 ቀን 1900 ዓ.ም ዓጼ ምኒልክ የጦር ሚኒስቴር መሥሪያ ቤት ያቋቋሙበት እና ፊት አውራሪ ሀብተጊዮርጊስ ዲነግዴን የጦር ሚኒስትር አድርገው የሾሙበት ዕለት ነው። የኢትዮጵያ መከላከያ ሠራዊት ቀን በዚህ ታሪካዊ ዕለት በየዓመቱ ጥቅምት 15 መከበሩ ቀደምት ጀግኖችን ሞዴል ያደረገ፣ ከቀደምቶች ታሪክ የሚማር እና የሀገር አለኝታ ሆኖ ሀገርን ለትው",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 04:19:27 +0000"
   }
 ];
