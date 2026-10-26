@@ -3,6 +3,48 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "በሳዑዲ በአስቸጋሪ ሁኔታ ውስጥ የነበሩ 1ሺህ 561 ኢትዮጵያውያን ወደ ሀገራቸው ተመለሱ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በሳዑዲ ዓረቢያ በአስቸጋሪ ሁኔታ ውስጥ የነበሩ 1ሺህ 561 ኢትዮጵያውያን ወደ ሀገራቸው ተመልሰዋል፡፡ በሳምንቱ ውስጥ በተደረገ 7 ዙር በረራ የተመለሱት 929 ወንዶች፣ 580 ሴቶች እና 52 ህጻናት ሲሆኑ ከተመላሾች መካከል 99 እድሜያቸው ከአስራ ስምንት አመት በታች የሆኑ ታዳጊዎች ይገኙበታል። ለተመላሽ ዜጎች በአየር ማረፊያና በማቆያ ማዕከላት ተገቢውን ድ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 06:45:23 +0000"
+  },
+  {
+    "title": "12ኛው ዓለም አቀፍ የጣና ፎረም በስኬት ተጠናቀቀ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) ከጥቅምት 13 እስከ 15 ቀን በባሕር ዳር ከተማ ሲካሄድ የቆየው 12ኛው ዓለም አቀፍ የጣና ፎረም በስኬት ተጠናቅቋል አለ የአማራ ክልል ፖሊስ ዋና መምሪያ። የክልሉ ፖሊስ ዋና ጠቅላይ መምሪያ ባወጣው መግለጫ እንዳለው÷ መርሐ ግብሩ በስኬት ተጠናቅቆ እንግዶች ወደ መጡበት እስኪመለሱ የተቀናጀ የፀጥታ ማስከበር ሥራ ተከናውኗል። መምሪያው ከተለያዩ የፀጥታ […] ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 06:35:17 +0000"
+  },
+  {
+    "title": "በመቐለ ከተማ በሁሉም ትምህርት ቤቶች የመማር ማስተማር ሥራ ጀመረ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ አስተዳደር ሥር በሚገኙ ሁሉም ትምህርት ቤቶች የመማር ማስተማር ሥራ በድጋሚ ተጀምሯል። በሕገወጡ የሕወሓት ቡድን ምክንያት ተቋርጦ የቆየው የትምህርት ሂደት እንደገና መጀመሩ፤ ተማሪዎች ወደ ትምህርት ገበታቸው እንዲመለሱና የተቋረጠው የትምህርት ሥራ እንዲቀጥል ዕድል ፈጥሯል። በከተማዋ የመማር ማስተማር ሥራ ከዛሬ ጥቅምት 16 ቀን 2019 ዓ.ም ጀ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 06:06:46 +0000"
+  },
+  {
+    "title": "አዲስ ገጽታ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) መንግሥት ሁለንተናዊ ብልጽግናን ለማረጋገጥ እና የሕዝብን የኑሮ ደረጃ ከፍ ለማድረግ በሚታደርገው ሀገራዊ ጥረት የከተሞች ልማትን ከሥነ-ምህዳር ጥበቃ እና ከኢኮኖሚ እድገት ጋር በማቀናጀት በተግባር እያስመሰከረ ይገኛል። የአፍሪካ የዲፕሎማሲ መዲና የሆነችው አዲስ አበባ በዚህ ረገድ ራሷን በዘመናዊነትና በአረንጓዴ ልማት የመቀየር ታላቅ ታሪካዊ ምዕራፍ ላይ ትገኛ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 19:38:09 +0000"
+  },
+  {
+    "title": "ለጎንደር ብስራት – የመገጭ ተስፋና ትንሣኤ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ታሪክ ስሟ በደመቀውና የኪነ-ሕንጻ ጥበብ ማማ በሆነችው ታሪካዊቷ የጎንደር ከተማ ዙሪያ፣ ለዘመናት በሰዎች አንደበት የሚመላለስ አንድ አጉል የሥነ-ቃል ተረትና ምሳሌ ነበረ። በተለይም ላለፉት አሥራ ዘጠኝ ዓመታት የከተማዋንና የአካባቢውን ሕዝብ የውኃ ጥምና የልማት ተስፋ አግቶ የቆየው የመገጭ ፕሮጀክት ሲነሳ ነዋሪው በምሬት “እንደ መገጭ ግድብ ቆመህ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 17:49:38 +0000"
+  },
+  {
+    "title": "የትግራይ ህዝብ በህገ ወጡ ህወሓት የጦርነት አዙሪት የነበረውን አጥቷል – ፊልድ ማርሻል ብርሃኑ ጁላ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ህዝብ በህገ ወጡ ህወሓት የጦርነት አዙሪት የነበረውን ሁሉ አጥቷል አሉ የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ። 119ኛው የመከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ሀሳብ በዛሬው ዕለት እየተከበረ ነው። ፊልድ ማርሻል ብርሃኑ ጁላ በዓሉ ላይ ባስተላለፉት መልዕክት፤ ህገ ወጡ ህወሓት አራት እንቅፋት የመታው […] The",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 16:51:53 +0000"
+  },
+  {
+    "title": "ኢትዮ ኤሌክትሪክ ኢትዮጵያ ቡናን አሸነፈ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በ4ኛ ሳምንት የሲቢኢ ኢትዮዽያ ፕሪሚየር ሊግ መርሐ ግብር ኢትዮ ኤሌክትሪክ ኢትዮጵያ ቡናን 1 ለ 0 በሆነ ውጤት አሸንፏል። ቀን 9 ሰዓት ላይ በአዲስ አበባ ስታዲየም በተደረገው ጨዋታ የኢትዮ ኤሌክትሪክን ብቸኛ የማሸነፊያ ግብ አቤል ሀብታሙ ከመረብ አሳርፏል። The post ኢትዮ ኤሌክትሪክ ኢትዮጵያ ቡናን አሸነፈ appeared first on Welcome t",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 14:03:01 +0000"
+  },
+  {
     "title": "Addis Ababa Riverside Development Creates Over 56,000 Jobs, Improves Urban Livability, Mayor Adanech Says",
     "summary": "Addis Ababa, October 25, 2026 (FMC) — The newly commissioned Kechene–Ambassador Park–Gihon–Irreecha–Bambis Riverside Development Project has created more than 56,000 jobs during construction while advancing efforts to improve residents’ safety, livelihoods and",
     "source": "FBC English",
@@ -21,57 +63,15 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sun, 25 Oct 2026 13:20:39 +0000"
   },
   {
+    "title": "‎መከላከያ ሰራዊት ሰባት የፅምዶ ትብብር ቡድኖችንና ሶስት የጀርባ የውጭ ኃይሎችን አሸንፏል – ፊልድ ማርሻል ብርሃኑ ጁላ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) ህገ ወጡ ህወሓት መከላከያን ሊያፈርስ ቋምጦ ነበር ተመትቷል፤ ሠራዊታችን ሰባት የፅምዶ ትብብር ቡድኖችን እና ሶስት የጀርባ የውጭ ኃይሎችን አሸንፏል፤ የቀጣናው አስተማማኝ ሀይል ሆኗል አሉ የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ። ፊልድ ማርሻል ብርሃኑ ጁላ በ119ኛው የመከላከያ ሰራዊት ቀን አከበበር ላይ ባደረጉት ንግግር ፥ ሀገራዊ [",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 25 Oct 2026 13:10:06 +0000"
+  },
+  {
     "title": "Former African Leaders Identify Faster Integration and Technological Sovereignty as Keys to Africa’s Future",
     "summary": "Addis Ababa, October 25, 2026 (FMC) — Former African leaders and senior officials have identified faster continental integration, greater investment in technological capabilities and stronger African institutions as essential to advancing the continent’s econo",
     "source": "FBC English",
     "publishedAt": "Sun, 25 Oct 2026 13:07:08 +0000"
-  },
-  {
-    "title": "Ethiopia Has No Alternative but to Defend Its Interests in the Abay River and Red Sea — ENDF Chief of Staff",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian National Defense Force (ENDF) Chief of Staff Field Marshal Berhanu Jula has declared that Ethiopia has no alternative but to defend its interests in the Abay River and the Red Sea, stressing that the country cann",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 12:10:59 +0000"
-  },
-  {
-    "title": "TPLF and Its External Backers Hide Behind Ethnic Survival Narratives to Fuel Conflict at the Expense of the People of Tigray Region — ENDF Chief of Staff",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian National Defense Force (ENDF) Chief of Staff Field Marshal Berhanu Jula has linked the illegal TPLF group’s armed campaigns to external backing and ethnic-survival narratives that, he said, threaten Ethiopia’s na",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 11:52:51 +0000"
-  },
-  {
-    "title": "ENDF Chief of Staff Vows to Defend Ethiopia’s Sovereignty, Says No Force Can Break Its Defense Army",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopian National Defense Force (ENDF) Chief of Staff Field Marshal Berhanu Jula has declared that the defense force will not be dismantled to pave the way for a transitional government imposed through armed struggle, vow",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 11:23:57 +0000"
-  },
-  {
-    "title": "Ethiopia’s Defense Minister Hails ENDF’s Resilience in Defending National Interests Against Mounting Challenges",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Defense Minister Mohammed Idris has praised the Ethiopian National Defense Force (ENDF) for its courage, resilience, and commitment to overcoming challenges while safeguarding Ethiopia’s sovereignty and territorial integri",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 10:13:32 +0000"
-  },
-  {
-    "title": "Ethiopia Commemorates 119th Defense Forces Day Under Theme ‘Army of Victory’",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Ethiopia is commemorating the 119th Defense Forces Day under the theme “Army of Victory” at the Armed Forces General Headquarters, honoring the history, traditions, and sacrifices of the Ethiopian National Defense Force (E",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 10:02:24 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ የታጠቀ ኃይል ታሪክ ዘመናትን ያስቆጠረ ነው – ጄኔራል ዓለምእሸት ደግፌ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የታጠቀ ኃይል ታሪክ ዘመናትን ያስቆጠረ ነው አሉ የኢፌዴሪ ጦር ኃይሎች ጠቅላይ ኢታማዦር ወታደራዊ አማካሪ እና የመከላከያ የተኩስ አመራር ኃላፊ ጄኔራል ዓለምሸት ደግፌ፡፡ 119ኛው የመከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ቃል በዛሬው ዕለት እየተከበረ ነው። ጄነራል ዓለምእሸት ደግፌ በዚሁ ወቅት እንዳሉት፤ ህዝባችን ህልውናውን ያቆየው አ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 09:12:03 +0000"
-  },
-  {
-    "title": "ለሀገር ክብር የቆመው – የኢትዮጵያ መከላከያ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያን ሉዓላዊነት አደጋ ላይ ሊጥሉ የተሞከሩ ሙከራዎች ነበሩ፡፡ በዚህ ጊዜ ታድያ የክተት አዋጅ ይታወጃል፤ የኢትዮጵያ ህዝብም “ሆ” ብሎ ሀገሩን ለመጠበቅ ወኔን ተላብሶ ይወጣል፡፡ ዛሬ ላይ ዝግጁ ሆኖ፣ ራሱን በቴክኖሎጂና ዘመናዊነት አብቅቶ በተጠንቀቅ የሚጠብቅ የሀገር መከላከያ ሠራዊት ያላት ሀገር ናት ኢትዮጵያ፡፡ የመከላከያ ሠራዊት 1900 ዓ.ም ላይ ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 08:47:29 +0000"
-  },
-  {
-    "title": "አዲስ አበባን ለነዋሪዎቿ የተሻለ ኑሮ የምትፈጥር ከተማ እናደርጋታለን – ከንቲባ አዳነች አቤቤ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባን ለነዋሪዎቿ የተሻለ ኑሮ የምትፈጥር ከተማ እናደርጋታለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። የእንጦጦ ፒኮክ የወንዝ ዳርቻ ልማት አካል የሆነው የቀጨኔ–አምባሳደር–ጊዮን-ኢሬቻ–ባምቢስ የወንዝ ዳርቻ ልማት በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመርቆ ለአገልግሎት ክፍት ሆኗል። ከንቲባዋ በማህበራዊ ትስስር ገጻቸው ባስተ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 08:29:51 +0000"
   }
 ];
