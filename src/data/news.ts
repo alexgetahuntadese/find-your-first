@@ -3,6 +3,24 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "ልማት የሚለካው በመሠረተ ልማት ግንባታ ብቻ ሳይሆን በሚሰጠው አገልግሎትና በሚፈጥረው ዕድል ጭምር ነው – ሃብታሙ ኢተፋ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) ልማት የሚለካው በሚገነባ መሠረተ ልማት ብቻ ሳይሆን ለሰዎች በሚሰጠው አገልግሎትና በሚፈጥረው ዕድል ጭምር ነው አሉ የውሃና ኢነርጂ ሚኒስትር ሃብታሙ ኢተፋ (ዶ/ር)። 3ኛው የውሃና ኢነርጂ ሳምንት መካሄድ ጀምሯል። በመርሐ ግብሩ መክፈቻ ላይ የውሃና ኢነርጂ ሚኒስትር ሃብታሙ ኢተፋ (ዶ/ር) በተወካያቸው ባስተላለፉት መልዕክት፤ ውሃ እና ኢነርጂ የተለያዩ የልማት",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 08:12:38 +0000"
+  },
+  {
+    "title": "ኢነርጂ፤ ለኢትዮጵያ ህዳሴና ዘላቂ ብልጽግና",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በየትኛውም ሀገር የዕድገትና የብልጽግና ታሪክ ውስጥ፣ ኃይል (ኢነርጂ) የልማት ሁሉ የጀርባ አጥንትና የኢኮኖሚ አንቀሳቃሽ ሞተር ነው። ህይወት ላለው ነገር ሁሉ የጸሐይ ብርሃንና አየር እንደሚያስፈልገው ሁሉ ለልማት ዘርፎች ማበብ፣ ለኢንዱስትሪዎች መንቀሳቀስ፣ ለግብርና ዘመናዊ መሆን፣ ለትምህርትና ጤና አገልግሎቶች ጥራት እንዲሁም ለዜጎች የዕለት ተዕለት ህይወት",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 08:10:25 +0000"
+  },
+  {
+    "title": "ሉላ ዳ ሲልቫ የብራዚል ፕሬዚዳንታዊ ምርጫን አሸነፉ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የ80 ዓመቱ ግራ ዘመም መሪ ሉዊስ ኢናሲዮ ሉላ ዳ ሲልቫ የብራዚል ፕሬዚዳንታዊ ምርጫን አሸንፈዋል፡፡ ፕሬዚዳንቱ ቀኝ ዘመሙን ተቀናቃኛቸው እና የብራዚል የቀድሞ ፕሬዚዳንት ጂየር ቦልሶናሮ ልጅ ሴናተር ላቪዮ ቦልሶናሮን በማሸነፍ ነው በተከታታይ ለሁለተኛ ጊዜ የብራዚል የፕሬዚዳንት የሚሆኑበትን ድምፅ ያገኙት፡፡ በምርጫው ሉላ ዳ ሲልቫ 51 ነጥብ 79 በመቶ ድምፅ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 07:26:54 +0000"
+  },
+  {
     "title": "በሳዑዲ በአስቸጋሪ ሁኔታ ውስጥ የነበሩ 1ሺህ 561 ኢትዮጵያውያን ወደ ሀገራቸው ተመለሱ",
     "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በሳዑዲ ዓረቢያ በአስቸጋሪ ሁኔታ ውስጥ የነበሩ 1ሺህ 561 ኢትዮጵያውያን ወደ ሀገራቸው ተመልሰዋል፡፡ በሳምንቱ ውስጥ በተደረገ 7 ዙር በረራ የተመለሱት 929 ወንዶች፣ 580 ሴቶች እና 52 ህጻናት ሲሆኑ ከተመላሾች መካከል 99 እድሜያቸው ከአስራ ስምንት አመት በታች የሆኑ ታዳጊዎች ይገኙበታል። ለተመላሽ ዜጎች በአየር ማረፊያና በማቆያ ማዕከላት ተገቢውን ድ",
     "source": "Fana Media",
@@ -39,10 +57,10 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sun, 25 Oct 2026 16:51:53 +0000"
   },
   {
-    "title": "ኢትዮ ኤሌክትሪክ ኢትዮጵያ ቡናን አሸነፈ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በ4ኛ ሳምንት የሲቢኢ ኢትዮዽያ ፕሪሚየር ሊግ መርሐ ግብር ኢትዮ ኤሌክትሪክ ኢትዮጵያ ቡናን 1 ለ 0 በሆነ ውጤት አሸንፏል። ቀን 9 ሰዓት ላይ በአዲስ አበባ ስታዲየም በተደረገው ጨዋታ የኢትዮ ኤሌክትሪክን ብቸኛ የማሸነፊያ ግብ አቤል ሀብታሙ ከመረብ አሳርፏል። The post ኢትዮ ኤሌክትሪክ ኢትዮጵያ ቡናን አሸነፈ appeared first on Welcome t",
+    "title": "የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ በ119ኛው የመከላከያ ሰራዊት ቀን ሲከበር ባደረጉት ንግግር ያሷቸው ዋና ዋና ነጥቦች:-",
+    "summary": "👉 የኢትዮጵያ ማንሰራራት የህልውና አደጋ ያመጣብኛል በማለት ከ15ኛው ክፍለ ዘመን ጀምሮ ሲወጋን እና ሲያዋጋን የኖረ ጠላት በትግራይ፣ በአማራ እና ኦሮሞ ህልውና ውስጥ ተደብቆ እየወጋን ይገኛል። ‎ ‎ ‎👉 የዓባይ ውሃ የኢትዮጵያ የተፈጥሮ ፀጋ ነው፤ ቀይ ባሕር እኛ ኢትዮጵያውያን እንድንገለገልበት ፈጣሪ አበጃጅቶ የሰጠን ባሕር ነው። ‎ ‎👉 የመደመር መንግሥት እና መከላከያ በሁለቱ ውሃዎች የሚገኘውን የኢት",
     "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 14:03:01 +0000"
+    "publishedAt": "Sun, 25 Oct 2026 15:12:37 +0000"
   },
   {
     "title": "Addis Ababa Riverside Development Creates Over 56,000 Jobs, Improves Urban Livability, Mayor Adanech Says",
@@ -55,23 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, October 25, 2026 (FMC) — House of Peoples’ Representatives Speaker Ahmed Shide has said Addis Ababa’s rapid urban transformation is setting an example for other Ethiopian cities, reflecting the Medemer government’s sustained focus on making urban ",
     "source": "FBC English",
     "publishedAt": "Sun, 25 Oct 2026 13:31:13 +0000"
-  },
-  {
-    "title": "Tana Forum Concludes with Focus on Turning African Peace Commitments into Action",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — The 12th Tana High-Level Forum on Security in Africa concluded in Bahir Dar, Ethiopia, with African leaders and experts emphasizing the need to translate dialogue and continental commitments into concrete action to address",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 13:20:39 +0000"
-  },
-  {
-    "title": "‎መከላከያ ሰራዊት ሰባት የፅምዶ ትብብር ቡድኖችንና ሶስት የጀርባ የውጭ ኃይሎችን አሸንፏል – ፊልድ ማርሻል ብርሃኑ ጁላ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) ህገ ወጡ ህወሓት መከላከያን ሊያፈርስ ቋምጦ ነበር ተመትቷል፤ ሠራዊታችን ሰባት የፅምዶ ትብብር ቡድኖችን እና ሶስት የጀርባ የውጭ ኃይሎችን አሸንፏል፤ የቀጣናው አስተማማኝ ሀይል ሆኗል አሉ የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ። ፊልድ ማርሻል ብርሃኑ ጁላ በ119ኛው የመከላከያ ሰራዊት ቀን አከበበር ላይ ባደረጉት ንግግር ፥ ሀገራዊ [",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 13:10:06 +0000"
-  },
-  {
-    "title": "Former African Leaders Identify Faster Integration and Technological Sovereignty as Keys to Africa’s Future",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — Former African leaders and senior officials have identified faster continental integration, greater investment in technological capabilities and stronger African institutions as essential to advancing the continent’s econo",
-    "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 13:07:08 +0000"
   }
 ];
