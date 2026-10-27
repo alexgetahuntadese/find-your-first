@@ -3,6 +3,42 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Tigray Region Caretaker Administration Intensifying Efforts to Revitalize Trade and Stabilize Markets",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — The Tigray Region caretaker administration is intensifying efforts to revive commercial activity, stabilize markets and ease supply shortages as it works to restore disrupted public institutions and help residents return t",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 14:28:51 +0000"
+  },
+  {
+    "title": "Ethiopian Defense Forces Turn Solidarity with the People into Action, Harvest Teff for Vulnerable Farmers in Tigray Region",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — Members of the Ethiopian National Defense Forces (ENDF), serving under the Western Command’s Abdisa Aga Battalion, have harvested mature teff crops for vulnerable farmers in Adet Woreda, Central Zone of the Tigray Region, ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 13:43:23 +0000"
+  },
+  {
+    "title": "Ethiopia Unveils NEP 3.0 to Link Electricity Access with Productivity and Economic Growth",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) – Ethiopia has unveiled the third phase of its National Electrification Program (NEP 3.0), shifting the focus of electricity expansion beyond connecting households to the power grid toward using reliable and affordable energ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 12:15:03 +0000"
+  },
+  {
+    "title": "Defunct TPLF Group’s Destruction Leaves Former ENDF Northern Command Headquarters in Ruins in Ethiopia’s Tigray Region",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — Buildings, offices and critical infrastructure at the former Ethiopian National Defense Force (ENDF) Northern Command headquarters in Mekelle remain unusable following extensive destruction by the defunct TPLF group, with ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 12:10:16 +0000"
+  },
+  {
+    "title": "Tana Forum Demonstrates Ethiopia’s Growing Capacity to Host Major International Conferences: Foreign Ministry Spokesperson",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) – The successful hosting of the 12th Tana High-Level Forum on Security in Africa in Bahir Dar demonstrates Ethiopia’s growing capacity to organize major international conferences beyond the capital, Foreign Ministry Spokespe",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 11:40:31 +0000"
+  },
+  {
+    "title": "Russia Offers to Share Technology and Development Experience to Advance Africa’s Economic Sovereignty",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) – Russia has expressed readiness to share its technological and economic development experience with African countries, emphasizing stronger domestic capacities, technology transfer and strategic partnerships as essential to",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 11:25:16 +0000"
+  },
+  {
     "title": "Tens of Thousands Rally in Bahir Dar to Back Ethiopia’s National Defense Force",
     "summary": "Addis Ababa, October 27, 2026 (FMC) — Tens of thousands of residents took to the streets of Bahir Dar, the capital of Ethiopia’s Amhara Region, on Tuesday in a mass demonstration expressing solidarity with the Ethiopian National Defense Force (ENDF) and other ",
     "source": "FBC English",
@@ -27,18 +63,6 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Tue, 27 Oct 2026 07:06:56 +0000"
   },
   {
-    "title": "𝐓𝐇𝐄 𝐂𝐀𝐈𝐑𝐎–𝐀𝐒𝐌𝐀𝐑𝐀-𝐁𝐀𝐂𝐊𝐄𝐃 𝐓𝐒𝐈𝐌𝐃𝐎 𝐇𝐎𝐍𝐄𝐘𝐌𝐎𝐎𝐍 𝐕𝐀𝐍𝐈𝐒𝐇𝐄𝐒 𝐋𝐈𝐊𝐄 𝐒𝐌𝐎𝐊𝐄 𝐈𝐍 𝐃𝐀𝐘𝐒",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — The Cairo–Asmara-backed Tsimdo campaign against Ethiopia has suffered the fate of a reckless scheme built on arrogance, miscalculation and the fantasy of a rapid national collapse. Its architects imagined that a convergenc",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 06:45:34 +0000"
-  },
-  {
-    "title": "𝐄𝐓𝐇𝐈𝐎𝐏𝐈𝐀’𝐒 𝐀𝐁𝐀𝐘 𝐀𝐍𝐃 𝐑𝐄𝐃 𝐒𝐄𝐀 𝐈𝐍𝐓𝐄𝐑𝐄𝐒𝐓𝐒: 𝐍𝐎 𝐌𝐎𝐑𝐄 𝐓𝐀𝐁𝐎𝐎𝐒, 𝐍𝐎 𝐑𝐄𝐓𝐑𝐄𝐀𝐓—𝐎𝐍𝐋𝐘 𝐋𝐀𝐖, 𝐂𝐎𝐎𝐏𝐄𝐑𝐀𝐓𝐈𝐎𝐍 𝐀𝐍𝐃 𝐌𝐔𝐓𝐔𝐀𝐋 𝐁𝐄𝐍𝐄𝐅𝐈𝐓",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — For too long, Ethiopia’s vital interests in the Abay River and the Red Sea have occupied a sensitive place in regional geopolitics, often discussed through the anxieties of neighbouring states rather than through the legit",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 06:31:24 +0000"
-  },
-  {
     "title": "የአሰብ ታሪካዊ ስብራት",
     "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ኢኮኖሚያዊ እና ማህበራዊ ታሪክ ውስጥ ታላቅ ስም የነበራት አሰብ በአንድ ወቅት የቀጣናው ንግድ፣ ትራንስፖርት እና የኢንዱስትሪ ማዕከል ሆና አገልግላለች። የከተማዋ የኢኮኖሚ እንስቃሴ ከፍተኛ የነበረ ሲሆን፣ የነዳጅ ማጣሪያ፣ የወደብ አገልግሎት፣ የባንክ እና የትራንዚት ድርጅቶች መናኸሪያ በመሆኗ ከልዩ ልዩ አካባቢዎች የተሰባሰቡ ዜጎች ሁለተኛ ቤታቸው",
     "source": "Fana Media",
@@ -49,29 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መከላከያ ሚኒስትር መሀመድ እድሪስ በኢትዮጵያ የኳታር አምባሳደር ሰይድ ሙባረክ ሰይድ አሊ ጃፋር አልሚኖ ጋር ተወያተዋል፡፡ አቶ መሀመድ እድሪስ ኳታር በቅርብ ጊዜ በሽብር ኃይሎች ጥምረት የሀገርን እና የኢትዮጵያን ህዝብ ሰላም ለማደፍረስ ዓላማ ያደረገውን ጦርነት አስመልክቶ የሰጠችው ፍትሃዊ እና ጠንካራ መግለጫ ሀገሪቱ ከእውነት ጎን ለመቆም ያላትን",
     "source": "Fana Media",
     "publishedAt": "Mon, 26 Oct 2026 18:27:37 +0000"
-  },
-  {
-    "title": "በኦሮሚያ ክልል ከ2 ነጥብ 8 ሚሊየን በላይ ዜጎችን በሥራ ዕድል ተጠቃሚ ለማድረግ እየተሠራ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በኦሮሚያ ክልል ከ2 ነጥብ 8 ሚሊየን በላይ ዜጎችን በሥራ ዕድል ተጠቃሚ ለማድረግ እየተሠራ ነው አለ የክልሉ ኢንዱስትሪና ኢንተርፕራይዝ ቢሮ፡፡ የቢሮው የሥራ ዕድል ፈጠራ ዳይሬክተር አቶ ተማም ሁሴን ለፋና ሚዲያ ኮርፖሬሽን እንዳሉት፤ በክልሉ የሚገኙ ዜጎች ከሥራ ፍለጋ ወደ ሥራ ፈጠራ በመሸጋገር ለራሳቸውና ለሌሎች የሥራ ዕድል እየፈጠሩ ይገኛሉ፡፡ ባለፈው […",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 17:55:02 +0000"
-  },
-  {
-    "title": "ፊልድ ማርሻል ብርሃኑ ጁላ በኢትዮጵያ የተባበሩት መንግሥታት ዋና ተጠሪ እና የሰብዓዊ ድጋፍ ዋና አስተባባሪ ኦዞንያ ኦጂሎ (ዶ/ር) ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ)የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ በኢትዮጵያ የተባበሩት መንግሥታት ዋና ተጠሪ እና የሰብዓዊ ድጋፍ ዋና አስተባባሪ ኦዞንያ ኦጂሎ (ዶ/ር) ጋር ተወያይተዋል፡፡ ውይይቱ ቀጣናዊ፣ አካባቢያዊና ሃገራዊ ሰላምና መረጋጋት የማጠናከር አስፈላጊነትና ትብብሮች ላይ ያተኮረ ነው፡፡ ኦዞኒያ ኦጅሎ (ዶ/ር) ከፊልድ ማርሻል ብርሃኑ ጁላ ጋር የነበ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 17:52:07 +0000"
-  },
-  {
-    "title": "ከንቲባ አዳነች አቤቤ ከተባበሩት መንግሥታት የሰው ሰፈራ ፕሮግራም ጋር የአዲስ አበባን ዘላቂ ልማት ለማጠናከር የትብብር ስምምነት ተፈራርሙ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የአዲስ አበባ ከተማ አስተዳድር ከንቲባ አዳነች አቤቤ ከተባበሩት መንግሥታት የሰው ሰፈራ ፕሮግራም ጋር የአዲስ አበባን ዘላቂ ልማት ለማጠናከር የትብብር ስምምነት ተፈራርመዋል። ስምምነቱ በከተማ መረጃ አሰባሰብና ትንተና፣ በልማት ውጤቶች ክትትል፣ በ11ኛው የመዋቅራዊ ፕላን ዝግጅት፣ በተመጣጣኝ ዋጋ የቤት አቅርቦት እና ከCOP32 ጋር በተያያዙ የከተማ ዝግጅቶች",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 16:46:29 +0000"
-  },
-  {
-    "title": "አዲስ ውበት ለአዲስ አበባ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) ዘመናዊ ከተሞች የሚለኩት በስፋታቸው፣ በሰማይ ጠቀስ ሕንፃዎቻቸው እና በመብራቶቻቸው ብቻ ሳይሆን ዘመናዊ መሰረተ ልማትን ከተፈጥሮ ጋር በማጣመር ለነዋሪዎች ምቹ አካባቢ በመፍጠራቸው ጭምር ነው፡፡ አዲስ አበባም በተፈጥሮ የተቸሯትን ሃብቶች አልምቶ መጠቀም የዘመናዊ ከተማነቷ መገለጫዎች ካደረገች ዋል አደር ብላለች፡፡ በመደመር መንግሥት ትኩረት ከተደረገባቸው መስ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 15:44:57 +0000"
   }
 ];
