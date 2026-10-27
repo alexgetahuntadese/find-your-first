@@ -12,9 +12,9 @@ import {
 export const Route = createFileRoute("/calendar")({
   head: () => ({
     meta: [
-      { title: "Ethiopian to Gregorian Date Converter | SERATEGNA" },
+      { title: "Ethiopian to Gregorian Date Converter | EthioHub.com.et" },
       { name: "description", content: "Convert Ethiopian calendar dates to Gregorian dates and Gregorian dates to Ethiopian dates, including Pagumen." },
-      { property: "og:title", content: "Ethiopian ↔ Gregorian Calendar Converter | SERATEGNA" },
+      { property: "og:title", content: "Ethiopian ↔ Gregorian Calendar Converter | EthioHub.com.et" },
       { property: "og:description", content: "Free two-way Ethiopian and Gregorian date converter." },
     ],
     links: [{ rel: "canonical", href: "https://serategna.com.et/calendar" }],
@@ -90,7 +90,7 @@ function CalendarConverter() {
             <p className="mt-2 text-2xl font-semibold">{formatDate(result, isEthiopian ? GREGORIAN_MONTHS : ETHIOPIAN_MONTHS)}</p>
             <button type="button" onClick={swap} className="mt-4 inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm hover:bg-secondary"><ArrowRightLeft className="h-4 w-4" /> Use this date in reverse</button>
           </div>
-          <p className="mt-6 text-center text-xs text-muted-foreground">SERATEGNA calendar tools are provided for everyday planning.</p>
+          <p className="mt-6 text-center text-xs text-muted-foreground">EthioHub.com.et calendar tools are provided for everyday planning.</p>
         </section>
       </div>
     </main>

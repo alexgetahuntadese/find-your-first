@@ -6,9 +6,9 @@ import { calculateEthiopianPayroll, ETHIOPIAN_EMPLOYMENT_TAX_BANDS } from "@/lib
 export const Route = createFileRoute("/ethiopian-tax-calculator")({
   head: () => ({
     meta: [
-      { title: "Ethiopian Salary Tax Calculator 2026 — PAYE & Pension | SERATEGNA" },
+      { title: "Ethiopian Salary Tax Calculator 2026 — PAYE & Pension | EthioHub.com.et" },
       { name: "description", content: "Calculate Ethiopian monthly employment income tax, employee pension, net pay, and employer pension using the current amended salary tax bands." },
-      { property: "og:title", content: "Ethiopian Salary Tax Calculator | SERATEGNA" },
+      { property: "og:title", content: "Ethiopian Salary Tax Calculator | EthioHub.com.et" },
       { property: "og:description", content: "Estimate Ethiopian PAYE, pension deductions, and take-home pay." },
       { name: "robots", content: "index,follow" },
     ],
@@ -28,7 +28,7 @@ function EthiopianTaxCalculator() {
   return (
     <main className="min-h-screen bg-background px-4 py-10">
       <div className="mx-auto max-w-5xl">
-        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to SERATEGNA</Link>
+        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to EthioHub.com.et</Link>
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_330px]">
           <section>
             <div className="flex items-start gap-3"><span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-gradient-primary"><Calculator className="h-5 w-5 text-primary-foreground" /></span><div><h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Ethiopian salary tax calculator</h1><p className="mt-1 text-sm text-muted-foreground">Estimate monthly employment income tax, pension, and take-home pay in Ethiopian birr.</p></div></div>

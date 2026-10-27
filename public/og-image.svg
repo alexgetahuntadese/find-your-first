@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">SERATEGNA — Ethiopia jobs, news, and tools</title>
-  <desc id="desc">A purple and blue social preview card for SERATEGNA.</desc>
+  <title id="title">EthioHub.com.et — Ethiopia jobs, news, and tools</title>
+  <desc id="desc">A purple and blue social preview card for EthioHub.com.et.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17142b"/><stop offset="0.55" stop-color="#302266"/><stop offset="1" stop-color="#087e9f"/></linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b98cff"/><stop offset="1" stop-color="#64d8e6"/></linearGradient>
@@ -10,7 +10,7 @@
   <circle cx="150" cy="610" r="250" fill="#33c6dc" opacity=".12"/>
   <rect x="92" y="102" width="76" height="76" rx="22" fill="url(#accent)"/>
   <path d="M115 140h30m-15-15v30" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
-  <text x="198" y="158" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="2">SERATEGNA</text>
+  <text x="198" y="158" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="2">EthioHub.com.et</text>
   <text x="92" y="300" fill="#fff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Ethiopia jobs, news,</text>
   <text x="92" y="372" fill="#fff" font-family="Arial, sans-serif" font-size="58" font-weight="700">tools &amp; opportunities</text>
   <rect x="92" y="438" width="410" height="4" rx="2" fill="url(#accent)"/>

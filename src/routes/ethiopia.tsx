@@ -6,9 +6,9 @@ import { latestNews } from "@/data/news";
 export const Route = createFileRoute("/ethiopia")({
   head: () => ({
     meta: [
-      { title: "Ethiopia Hub — News, Jobs, Real Estate & More | SERATEGNA" },
+      { title: "Ethiopia Hub — News, Jobs, Real Estate & More | EthioHub.com.et" },
       { name: "description", content: "Discover Ethiopian news, jobs, real estate, entertainment, classifieds, and business listings in one on-site hub." },
-      { property: "og:title", content: "Ethiopia Hub | SERATEGNA" },
+      { property: "og:title", content: "Ethiopia Hub | EthioHub.com.et" },
       { property: "og:description", content: "Ethiopian companies, jobs, news, real estate, entertainment, and classifieds in one useful hub." },
       { name: "robots", content: "index,follow" },
     ],
@@ -18,7 +18,7 @@ export const Route = createFileRoute("/ethiopia")({
 });
 
 const resources = [
-  { id: "news", title: "Ethiopian News", description: "Latest Ethiopian and regional headlines summarized on SERATEGNA.", icon: Newspaper, color: "bg-blue-500/10 text-blue-600" },
+  { id: "news", title: "Ethiopian News", description: "Latest Ethiopian and regional headlines summarized on EthioHub.com.et.", icon: Newspaper, color: "bg-blue-500/10 text-blue-600" },
   { id: "jobs", title: "Jobs", description: "Fresh graduate jobs, internships, and entry-level vacancies.", icon: BriefcaseBusiness, color: "bg-primary/10 text-primary" },
   { id: "real-estate", title: "Real Estate", description: "Homes, apartments, land, and rental categories in Ethiopia.", icon: Building2, color: "bg-amber-500/10 text-amber-600" },
   { id: "entertainment", title: "Entertainment", description: "New Ethiopian music, films, videos, and community categories.", icon: Clapperboard, color: "bg-pink-500/10 text-pink-600" },
@@ -63,7 +63,7 @@ const companies = [
   { title: "Safaricom Ethiopia", detail: "Technology and communications company providing mobile connectivity, data, enterprise services, and M-PESA.", meta: "Technology · Telecommunications", href: "https://www.safaricom.et/" },
   { title: "Commercial Bank of Ethiopia", detail: "A major Ethiopian bank serving individuals, businesses, and institutions through banking and digital-finance services.", meta: "Banking · Addis Ababa", href: "https://combanketh.et/" },
   { title: "Self Help Development International", detail: "Development organization working with communities and partners on sustainable livelihoods and social impact.", meta: "Development · Ethiopia" },
-  { title: "YF Textile Fabric Factory", detail: "Textile and manufacturing business listed in SERATEGNA’s Ethiopian business directory.", meta: "Manufacturing · Ethiopia" },
+  { title: "YF Textile Fabric Factory", detail: "Textile and manufacturing business listed in EthioHub.com.et’s Ethiopian business directory.", meta: "Manufacturing · Ethiopia" },
   { title: "APL Commodities", detail: "Ethiopian trading and commodities business listed for local business discovery.", meta: "Trading · Ethiopia" },
   { title: "Woven Legacy Handcraft Ethiopia", detail: "Handcraft and creative-products business supporting local Ethiopian makers and products.", meta: "Handcrafts · Ethiopia" },
   { title: "Nancon Ready Mix Concrete Supplier", detail: "Construction-material supplier serving building and infrastructure needs in Ethiopia.", meta: "Construction · Ethiopia" },
@@ -74,7 +74,7 @@ function EthiopiaHub() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Your Ethiopia hub — Companies, Jobs, News and Opportunities",
-    description: "Discover Ethiopian companies, jobs, news, real estate, entertainment, classifieds, and business listings on SERATEGNA.",
+    description: "Discover Ethiopian companies, jobs, news, real estate, entertainment, classifieds, and business listings on EthioHub.com.et.",
     url: "https://serategna.com.et/ethiopia",
     mainEntity: {
       "@type": "ItemList",
@@ -87,24 +87,24 @@ function EthiopiaHub() {
     <main className="min-h-screen bg-background px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <div className="mx-auto max-w-6xl">
-        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to SERATEGNA</Link>
-        <section className="mt-8 text-center"><span className="inline-flex rounded-full border bg-card px-3 py-1 text-xs text-muted-foreground">Ethiopian feeds and useful tools</span><h1 className="text-gradient mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Your Ethiopia hub</h1><p className="mx-auto mt-4 max-w-2xl text-muted-foreground sm:text-lg">Read, search, and discover Ethiopian news, opportunities, listings, entertainment, companies, and practical tools without leaving SERATEGNA.</p></section>
+        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to EthioHub.com.et</Link>
+        <section className="mt-8 text-center"><span className="inline-flex rounded-full border bg-card px-3 py-1 text-xs text-muted-foreground">Ethiopian feeds and useful tools</span><h1 className="text-gradient mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Your Ethiopia hub</h1><p className="mx-auto mt-4 max-w-2xl text-muted-foreground sm:text-lg">Read, search, and discover Ethiopian news, opportunities, listings, entertainment, companies, and practical tools without leaving EthioHub.com.et.</p></section>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{resources.map(({ id, title, description, icon: Icon, color }) => <a key={id} href={`#${id}`} className="group rounded-2xl border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-glow"><span className={`grid h-11 w-11 place-items-center rounded-xl ${color}`}><Icon className="h-5 w-5" /></span><h2 className="mt-5 font-semibold">{title}</h2><p className="mt-2 text-sm leading-6 text-muted-foreground">{description}</p><p className="mt-4 text-xs font-medium text-primary">View on this page →</p></a>)}</div>
 
         <div className="mt-14 space-y-12">
           <section id="news" className="scroll-mt-6"><SectionHeading icon={Newspaper} title="Ethiopian News" text="Fresh headlines and short summaries from Ethiopian publishers." /><div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">{latestNews.slice(0, 6).map((item) => <article key={`${item.source}-${item.title}`} className="rounded-2xl border bg-card p-5"><p className="text-xs font-medium text-primary">{item.source} · {formatDate(item.publishedAt)}</p><h3 className="mt-3 font-semibold leading-6">{item.title}</h3>{item.summary && <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.summary}</p>}</article>)}</div><SourceNote text="Headlines are summarized and attributed; full articles remain the property of their publishers." /></section>
 
-          <section id="jobs" className="scroll-mt-6"><SectionHeading icon={BriefcaseBusiness} title="Jobs" text="Early-career opportunities already indexed inside SERATEGNA." /><div className="mt-5 grid gap-3 md:grid-cols-2">{jobs.slice(0, 6).map((job) => <article key={job.id} className="rounded-2xl border bg-card p-4"><div className="flex items-start justify-between gap-3"><div><h3 className="font-semibold">{job.title}</h3><p className="mt-1 text-sm text-muted-foreground">{job.company} · {job.location}</p></div><span className="rounded-full bg-secondary px-2.5 py-1 text-xs">{job.type}</span></div><p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground"><MapPin className="h-3.5 w-3.5" /> {job.mode} · {job.experience}</p></article>)}</div><Link to="/" className="mt-4 inline-flex text-sm font-medium text-primary hover:underline">Search all jobs on SERATEGNA →</Link></section>
+          <section id="jobs" className="scroll-mt-6"><SectionHeading icon={BriefcaseBusiness} title="Jobs" text="Early-career opportunities already indexed inside EthioHub.com.et." /><div className="mt-5 grid gap-3 md:grid-cols-2">{jobs.slice(0, 6).map((job) => <article key={job.id} className="rounded-2xl border bg-card p-4"><div className="flex items-start justify-between gap-3"><div><h3 className="font-semibold">{job.title}</h3><p className="mt-1 text-sm text-muted-foreground">{job.company} · {job.location}</p></div><span className="rounded-full bg-secondary px-2.5 py-1 text-xs">{job.type}</span></div><p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground"><MapPin className="h-3.5 w-3.5" /> {job.mode} · {job.experience}</p></article>)}</div><Link to="/" className="mt-4 inline-flex text-sm font-medium text-primary hover:underline">Search all jobs on EthioHub.com.et →</Link></section>
 
           <HubSection id="real-estate" icon={Building2} title="Real Estate" text="Homes, apartments, and rental categories for Ethiopian cities." source="Ezega Real Estate" items={realEstate.map(([title, detail, meta]) => ({ title, detail, meta }))} />
           <HubSection id="entertainment" icon={Clapperboard} title="Entertainment" text="New Ethiopian music, films, and video topics in one feed." source="Ezega Entertainment" items={entertainment.map(([title, href]) => ({ title, href, detail: "Ethiopian music, film, or video", meta: "Entertainment" }))} />
           <HubSection id="classifieds" icon={Store} title="Classifieds" text="Discover useful categories for buying, selling, renting, and trading." source="Ezega Classifieds" items={classifieds.map(([title, detail]) => ({ title, detail, meta: "Classifieds" }))} />
-          <HubSection id="tools" icon={Calculator} title="Ethiopian Tools" text="Convert dates between Ethiopian and Gregorian calendars and use practical finance and measurement tools." source="SERATEGNA tools" items={tools} />
-          <HubSection id="business" icon={UsersRound} title="Companies in Ethiopia" text="Discover Ethiopian companies, employers, and local business profiles in one directory." source="SERATEGNA company directory" items={companies} />
+          <HubSection id="tools" icon={Calculator} title="Ethiopian Tools" text="Convert dates between Ethiopian and Gregorian calendars and use practical finance and measurement tools." source="EthioHub.com.et tools" items={tools} />
+          <HubSection id="business" icon={UsersRound} title="Companies in Ethiopia" text="Discover Ethiopian companies, employers, and local business profiles in one directory." source="EthioHub.com.et company directory" items={companies} />
         </div>
 
-        <p className="mt-12 text-center text-xs text-muted-foreground">SERATEGNA aggregates titles, categories, and short summaries for discovery. Source publishers retain ownership of their content and listings.</p>
+        <p className="mt-12 text-center text-xs text-muted-foreground">EthioHub.com.et aggregates titles, categories, and short summaries for discovery. Source publishers retain ownership of their content and listings.</p>
       </div>
     </main>
   );

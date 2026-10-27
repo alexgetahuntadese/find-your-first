@@ -40,7 +40,7 @@ function AuthPage() {
       <div className="w-full max-w-md">
         <Link to="/" className="mb-8 inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to jobs</Link>
         <div className="rounded-2xl border bg-card p-6 shadow-glow sm:p-8">
-          <div className="mb-6 flex items-center gap-2"><span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-primary"><Rocket className="h-5 w-5 text-primary-foreground" /></span><span className="font-semibold">SERATEGNA</span></div>
+          <div className="mb-6 flex items-center gap-2"><span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-primary"><Rocket className="h-5 w-5 text-primary-foreground" /></span><span className="font-semibold">EthioHub.com.et</span></div>
           <h1 className="text-2xl font-semibold">{mode === "signin" ? "Welcome back" : "Create your account"}</h1>
           <p className="mt-2 text-sm text-muted-foreground">{mode === "signin" ? "Sign in to post and manage opportunities." : "Create an account to share your next opportunity."}</p>
           <form onSubmit={submit} className="mt-6 space-y-4">

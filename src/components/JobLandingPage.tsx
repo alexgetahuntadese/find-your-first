@@ -37,7 +37,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
     name: copy.title,
     description: copy.description,
     url: pageUrl,
-    isPartOf: { "@type": "WebSite", name: "SERATEGNA", url: "https://serategna.com.et/" },
+    isPartOf: { "@type": "WebSite", name: "EthioHub.com.et", url: "https://serategna.com.et/" },
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: matchingJobs.length,
@@ -50,7 +50,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
         <nav className="mb-10 flex items-center justify-between" aria-label="Breadcrumb">
-          <Link to="/" aria-label="SERATEGNA home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></Link>
+          <Link to="/" aria-label="EthioHub.com.et home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></Link>
           <div className="flex gap-2 text-sm">
             <Link to="/" className="rounded-full border px-3 py-1.5 hover:bg-secondary">All jobs</Link>
           </div>
@@ -69,7 +69,7 @@ export function JobLandingPage({ kind }: { kind: LandingKind }) {
 
         <section className="mt-10" aria-labelledby="available-jobs">
           <div className="mb-4 flex items-end justify-between gap-4">
-            <div><h2 id="available-jobs" className="text-2xl font-bold">Latest opportunities</h2><p className="mt-1 text-sm text-muted-foreground">{matchingJobs.length} matching listings from SERATEGNA’s job feed.</p></div>
+            <div><h2 id="available-jobs" className="text-2xl font-bold">Latest opportunities</h2><p className="mt-1 text-sm text-muted-foreground">{matchingJobs.length} matching listings from EthioHub.com.et’s job feed.</p></div>
           </div>
           {matchingJobs.length === 0 ? (
             <div className="rounded-2xl border border-dashed p-8 text-center text-muted-foreground">New matching jobs are being collected. Check the full job board for the latest listings.</div>
@@ -94,6 +94,6 @@ function LandingJobCard({ job }: { job: Job }) {
   return <article className="rounded-2xl border bg-card p-5 transition-shadow hover:shadow-md">
     <div className="flex items-start justify-between gap-3"><div><p className="text-xs font-medium text-muted-foreground">{job.company}</p><h3 className="mt-1 text-lg font-semibold"><Link to="/jobs/$id" params={{ id: job.id }} className="hover:text-primary hover:underline">{job.title}</Link></h3></div><BriefcaseBusiness className="h-5 w-5 shrink-0 text-primary" /></div>
     <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted-foreground"><span className="inline-flex items-center gap-1"><MapPin className="h-3.5 w-3.5" />{job.location}</span><span>{job.type}</span><span>{postedLabel(job.hoursAgo)}</span></div>
-    <div className="mt-4 flex items-center justify-between gap-3"><span className="text-xs text-muted-foreground">{job.source ? `via ${job.source}` : "SERATEGNA listing"}</span><a href={job.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">View and apply <ArrowUpRight className="h-4 w-4" /></a></div>
+    <div className="mt-4 flex items-center justify-between gap-3"><span className="text-xs text-muted-foreground">{job.source ? `via ${job.source}` : "EthioHub.com.et listing"}</span><a href={job.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">View and apply <ArrowUpRight className="h-4 w-4" /></a></div>
   </article>;
 }

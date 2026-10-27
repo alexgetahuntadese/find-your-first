@@ -10,8 +10,8 @@ export const Route = createFileRoute("/jobs/$id")({
   },
   head: ({ loaderData }) => {
     const job = loaderData?.job;
-    if (!job) return { meta: [{ title: "Job not found | SERATEGNA" }] };
-    const title = `${job.title} at ${job.company} | SERATEGNA`;
+    if (!job) return { meta: [{ title: "Job not found | EthioHub.com.et" }] };
+    const title = `${job.title} at ${job.company} | EthioHub.com.et`;
     const description = job.description || `${job.title} opportunity at ${job.company} in ${job.location}.`;
     const canonical = `https://serategna.com.et/jobs/${encodeURIComponent(job.id)}`;
     return {
@@ -92,7 +92,7 @@ function toJobPosting(job: Job) {
     jobLocation: location,
     ...(job.mode === "Remote" ? { jobLocationType: "TELECOMMUTE", applicantLocationRequirements: { "@type": "Country", name: "Ethiopia" } } : {}),
     url: `https://serategna.com.et/jobs/${encodeURIComponent(job.id)}`,
-    identifier: { "@type": "PropertyValue", name: "SERATEGNA", value: job.id },
+    identifier: { "@type": "PropertyValue", name: "EthioHub.com.et", value: job.id },
   };
 }
 

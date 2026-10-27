@@ -43,9 +43,15 @@ export interface Job {
 }
 
 /** Returns true when a listing has no known closing date or its closing date is still open. */
-export function isJobActive(job: Pick<Job, "deadline"> & Partial<Pick<Job, "title" | "description">>) {
+export function isJobActive(job: Pick<Job, "deadline"> & Partial<Pick<Job, "title" | "description" | "datePosted">>) {
   const listingText = `${job.title || ""} ${job.description || ""}`;
+  if (/\b(senior|director|chief|vice president|\bvp\b|manager|head of|supervisor|foreman|executive|rfp|tender|request for proposal)\b/i.test(job.title || "")) return false;
+  if (/\b(position level\s*:\s*executive|executive \/ top management|skip to content|page not found)\b/i.test(job.description || "")) return false;
   if (/\b(expired|closed|no longer accepting|position has been filled|applications are closed)\b/i.test(listingText)) return false;
+  if (job.datePosted) {
+    const posted = Date.parse(job.datePosted);
+    if (Number.isFinite(posted) && (posted > Date.now() + 24 * 60 * 60 * 1000 || Date.now() - posted > 60 * 24 * 60 * 60 * 1000)) return false;
+  }
   if (!job.deadline?.trim()) return true;
   const raw = job.deadline.trim();
   const dateOnly = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);

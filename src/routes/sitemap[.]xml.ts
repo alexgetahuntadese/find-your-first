@@ -13,6 +13,7 @@ const staticPaths = [
   "/ethiopia",
   "/calendar",
   "/blog",
+  "/privacy",
 ];
 
 function escapeXml(value: string) {

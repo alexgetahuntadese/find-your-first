@@ -11,14 +11,16 @@ const SOURCES = [
 const freshSignal = /\b(intern(ship)?|trainee|graduate|entry[- ]level|junior|assistant|no experience|fresh|vacanc(y|ies)|job)\b/i;
 const articleSignal = /\b(guide|tips|prepare|preparation|how to|cv|interview|training|course|scholarship|privacy|terms|cookie)\b/i;
 const seniorSignal = /\b(senior|director|chief|vice president|vp)\b/i;
+const nonJobSignal = /\b(rfp|request for proposals?|tender|procurement notice|skip to content|home page|latest jobs|all jobs|job vacancies|career opportunities)\b/i;
+const nonRoleTitleSignal = /^(skip to content|home|homepage|jobs?|job vacancies|career opportunities|enat jobs|ethiopian jobs|latest jobs)$/i;
 const closedSignal = /\b(expired|closed|no longer accepting|position has been filled|applications are closed)\b/i;
 const categoryRules = [[/software|developer|engineer|it |data|technical|cyber|qa/i, "Software Engineering"], [/design|creative|graphic|ux|ui/i, "Design"], [/finance|account|audit|bank|econom/i, "Finance"], [/health|medical|nurse|pharmacy|clinic/i, "Healthcare"], [/sales|marketing|brand|customer/i, "Marketing"]];
-const headers = { "User-Agent": "SERATEGNA-job-indexer/1.0 (+https://serategna.com.et/)" };
+const headers = { "User-Agent": "EthioHub-job-indexer/1.0 (+https://serategna.com.et/)" };
 
 function text(value) { return String(value || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code))).replace(/\s+/g, " ").trim(); }
 function categoryFor(value) { return categoryRules.find(([rule]) => rule.test(value))?.[1] || "Operations"; }
 function stableId(url) { return `scraped-${createHash("sha1").update(url).digest("hex").slice(0, 12)}`; }
-function hoursAgo(date) { const parsed = Date.parse(date || ""); return Number.isFinite(parsed) ? Math.max(0, Math.floor((Date.now() - parsed) / 3600000)) : 0; }
+function hoursAgo(date) { const parsed = Date.parse(date || ""); return Number.isFinite(parsed) ? Math.max(0, Math.floor((Date.now() - parsed) / 3600000)) : 48; }
 function absoluteUrl(url, base) { try { return new URL(url, base).href; } catch { return ""; } }
 function parseJsonLd(html) {
   const scripts = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
@@ -84,7 +86,7 @@ function structuredAddress(jobPosting) {
 }
 function toJob({ source, company, url, title, description, datePosted, deadline, jobPosting }) {
   const searchable = `${title} ${description}`;
-  if (!title || articleSignal.test(title) || isExpired(deadline) || closedSignal.test(searchable)) return null;
+  if (!title || nonRoleTitleSignal.test(title) || articleSignal.test(title) || seniorSignal.test(title) || nonJobSignal.test(title) || isExpired(deadline) || closedSignal.test(searchable)) return null;
   const category = categoryFor(searchable);
   const internship = /\bintern(ship)?\b/i.test(title);
   const fresh = freshSignal.test(title);

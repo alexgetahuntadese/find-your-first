@@ -5,9 +5,9 @@ import { useEffect, useMemo, useState } from "react";
 export const Route = createFileRoute("/currency-converter")({
   head: () => ({
     meta: [
-      { title: "Currency Converter — ETB, USD, EUR & More | SERATEGNA" },
+      { title: "Currency Converter — ETB, USD, EUR & More | EthioHub.com.et" },
       { name: "description", content: "Convert Ethiopian birr, US dollars, euros, pounds, Kenyan shillings, and other currencies using live daily reference exchange rates." },
-      { property: "og:title", content: "Live Currency Converter | SERATEGNA" },
+      { property: "og:title", content: "Live Currency Converter | EthioHub.com.et" },
       { property: "og:description", content: "Convert ETB and major world currencies with current daily reference rates." },
       { name: "robots", content: "index,follow" },
     ],
@@ -57,7 +57,7 @@ function CurrencyConverter() {
   return (
     <main className="min-h-screen bg-background px-4 py-10">
       <div className="mx-auto max-w-4xl">
-        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to SERATEGNA</Link>
+        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to EthioHub.com.et</Link>
         <section className="mt-8 rounded-2xl border bg-card p-6 shadow-glow sm:p-8">
           <div className="flex items-start gap-3"><span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-gradient-primary"><Coins className="h-5 w-5 text-primary-foreground" /></span><div><h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">Live currency converter</h1><p className="mt-1 text-sm text-muted-foreground">Convert Ethiopian birr and major global currencies using daily reference rates.</p></div></div>
           <div className="mt-8 grid gap-4 sm:grid-cols-[1fr_1fr_auto] sm:items-end"><label className="text-sm font-medium">Amount<input type="number" min="0" step="any" value={amount} onChange={(e) => setAmount(e.target.value)} className="mt-1.5 w-full rounded-lg border bg-background px-3 py-3 text-lg outline-none focus:ring-2 focus:ring-ring" /></label><label className="text-sm font-medium">From<select value={from} onChange={(e) => setFrom(e.target.value)} className="mt-1.5 w-full rounded-lg border bg-background px-3 py-3 outline-none focus:ring-2 focus:ring-ring">{CURRENCIES.map(([code, name]) => <option key={code} value={code}>{code} — {name}</option>)}</select></label><button type="button" onClick={swap} aria-label="Swap currencies" className="grid h-11 w-11 place-items-center rounded-lg border hover:bg-secondary"><ArrowRightLeft className="h-4 w-4" /></button></div>

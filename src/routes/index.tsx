@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jobs in Ethiopia — Internships & Entry-Level Roles | SERATEGNA" },
+      { title: "Jobs in Ethiopia — Internships & Entry-Level Roles | EthioHub.com.et" },
       { name: "description", content: "Find daily internships, fresh graduate jobs, and entry-level opportunities in Ethiopia, Addis Ababa, and remote roles." },
       { property: "og:title", content: "Jobs in Ethiopia — Internships & Entry-Level Roles" },
       { property: "og:description", content: "Daily opportunities for students, fresh graduates, and junior professionals in Ethiopia." },
@@ -84,10 +84,10 @@ function Index() {
   };
 
   const shareSite = async () => {
-    const shareData = { title: "SERATEGNA — Jobs in Ethiopia", text: "Find internships and entry-level jobs in Ethiopia on SERATEGNA.", url: window.location.origin };
+    const shareData = { title: "EthioHub.com.et — Jobs in Ethiopia", text: "Find internships and entry-level jobs in Ethiopia on EthioHub.com.et.", url: window.location.origin };
     try {
       if (navigator.share) await navigator.share(shareData);
-      else { await navigator.clipboard.writeText(shareData.url); toast.success("SERATEGNA link copied"); }
+      else { await navigator.clipboard.writeText(shareData.url); toast.success("EthioHub.com.et link copied"); }
     } catch (error) {
       if (error instanceof DOMException && error.name === "AbortError") return;
       toast.error("Could not share the site");
@@ -138,12 +138,9 @@ function Index() {
       <FilterGroup title="Industry" items={INDUSTRIES} selected={ind} onToggle={(v) => setInd(toggle(ind, v))} />
       <button onClick={clearAll} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Clear all filters</button>
       <div className="rounded-xl border bg-gradient-primary/10 p-4 bg-card">
-        <p className="text-sm font-medium">Get new roles daily</p>
-        <p className="mt-1 text-xs text-muted-foreground">Fresh picks in your inbox every morning.</p>
-        <form onSubmit={(e) => { e.preventDefault(); toast.success("You're on the list!"); (e.target as HTMLFormElement).reset(); }} className="mt-3 flex gap-2">
-          <input required type="email" placeholder="you@aau.edu.et" className="min-w-0 flex-1 rounded-md border bg-background px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-ring" />
-          <button className="rounded-md bg-gradient-primary px-3 text-sm font-medium text-primary-foreground">Join</button>
-        </form>
+        <p className="text-sm font-medium">Hiring in Ethiopia?</p>
+        <p className="mt-1 text-xs text-muted-foreground">Submit an internship or early-career role for review.</p>
+        <a href="/post" className="mt-3 inline-flex rounded-md bg-gradient-primary px-3 py-2 text-sm font-medium text-primary-foreground">Post a job</a>
       </div>
     </div>
   );
@@ -154,7 +151,7 @@ function Index() {
       <div className="min-h-screen">
       <header className="glass sticky top-0 z-40 border-b">
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
-          <a href="/" aria-label="SERATEGNA home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></a>
+          <a href="/" aria-label="EthioHub.com.et home" className="flex w-[125px] shrink-0 items-center sm:w-[148px]"><BrandLogo className="h-7 w-[125px] sm:h-8 sm:w-[148px]" /></a>
           <div className="flex items-center gap-2 text-sm">
             <span className="hidden items-center gap-1 text-muted-foreground sm:flex"><Heart className="h-4 w-4" />{saved.length} saved</span>
             <button onClick={toggleTheme} aria-label={`Switch to ${darkMode ? "light" : "dark"} mode`} title={`Switch to ${darkMode ? "light" : "dark"} mode`} className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary">
@@ -187,7 +184,7 @@ function Index() {
                 </nav>
               </>}
             </div>
-            <button onClick={shareSite} aria-label="Share SERATEGNA" title="Share SERATEGNA" className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary"><Share2 className="h-4 w-4" /></button>
+            <button onClick={shareSite} aria-label="Share EthioHub.com.et" title="Share EthioHub.com.et" className="grid h-9 w-9 place-items-center rounded-full border transition-colors hover:bg-secondary"><Share2 className="h-4 w-4" /></button>
           </div>
         </div>
       </header>
@@ -275,13 +272,15 @@ function Index() {
       </main>
 
       <footer className="border-t py-8 text-center text-sm text-muted-foreground">
-        <p>© 2026 SERATEGNA · Built for early-career talent · <button onClick={() => navigate({ to: "/blog" })} className="text-primary hover:underline">Career guides</button></p>
-        <nav aria-label="SERATEGNA tools" className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
+        <p>© 2026 EthioHub.com.et · Built for early-career talent · <button onClick={() => navigate({ to: "/blog" })} className="text-primary hover:underline">Career guides</button></p>
+        <nav aria-label="EthioHub.com.et tools" className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
           <a href="/ethiopia#tools" className="hover:text-foreground hover:underline">Ethiopian tools</a>
           <a href="/unit-converter" className="hover:text-foreground hover:underline">Unit converter</a>
           <a href="/calendar" className="hover:text-foreground hover:underline">Calendar converter</a>
           <a href="/currency-converter" className="hover:text-foreground hover:underline">Currency converter</a>
           <a href="/ethiopian-tax-calculator" className="hover:text-foreground hover:underline">Tax calculator</a>
+          <a href="/post" className="hover:text-foreground hover:underline">Post a job</a>
+          <a href="/privacy" className="hover:text-foreground hover:underline">Privacy</a>
         </nav>
       </footer>
 

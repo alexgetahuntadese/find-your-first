@@ -4,9 +4,9 @@ import { posts } from "@/data/posts";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Ethiopia Job Search Guides — CVs, Interviews & Internships | SERATEGNA" },
+      { title: "Ethiopia Job Search Guides — CVs, Interviews & Internships | EthioHub.com.et" },
       { name: "description", content: "Practical Ethiopia job search guides for fresh graduates: CVs, interviews, internships, application emails, and scam prevention." },
-      { property: "og:title", content: "Ethiopia Job Search Guides | SERATEGNA" },
+      { property: "og:title", content: "Ethiopia Job Search Guides | EthioHub.com.et" },
       { property: "og:description", content: "Practical career advice for Ethiopian students and fresh graduates." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

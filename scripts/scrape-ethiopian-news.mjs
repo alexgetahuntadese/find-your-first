@@ -33,7 +33,7 @@ function escape(value) {
 const all = [];
 for (const source of SOURCES) {
   try {
-    const response = await fetch(source.url, { headers: { "User-Agent": "SERATEGNA-news-indexer/1.0 (+https://serategna.com.et/)" } });
+    const response = await fetch(source.url, { headers: { "User-Agent": "EthioHub-news-indexer/1.0 (+https://serategna.com.et/)" } });
     if (!response.ok) continue;
     const xml = await response.text();
     const items = [...xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)].map((match) => match[1]);
