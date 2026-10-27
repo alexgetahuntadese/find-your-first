@@ -6,6 +6,14 @@ export type Experience = "Undergrad" | "New Grad" | "0-2 Years";
 export type Industry = "Tech" | "Design" | "Finance" | "Healthcare" | "Marketing" | "Operations";
 export type Category = "Software Engineering" | "Data Analytics" | "Design" | "Marketing" | "Finance" | "Healthcare" | "Operations";
 
+export interface JobSalary {
+  currency: string;
+  value?: number;
+  minValue?: number;
+  maxValue?: number;
+  unitText?: string;
+}
+
 export interface Job {
   id: string;
   company: string;
@@ -23,6 +31,11 @@ export interface Job {
   description?: string;
   datePosted?: string;
   deadline?: string;
+  addressLocality?: string;
+  streetAddress?: string;
+  addressRegion?: string;
+  postalCode?: string;
+  baseSalary?: JobSalary;
   source?: string;
   featured?: boolean;
   hue?: number;

@@ -226,28 +226,6 @@ export const scrapedJobs: Job[] = [
     "url": "https://ethiojobs.net/job/2qdbkevrhp-senior-accountant"
   },
   {
-    "id": "scraped-6fecc9f00d76",
-    "company": "Mercy Corps Ethiopia",
-    "source": "EthioJobs",
-    "title": "Country Communication Manager",
-    "location": "Addis Ababa",
-    "mode": "Onsite",
-    "type": "Full-time Entry Level",
-    "experience": "0-2 Years",
-    "industry": "Tech",
-    "category": "Software Engineering",
-    "pay": "See listing",
-    "paid": false,
-    "hoursAgo": 1,
-    "description": "About Mercy Corps Mercy Corps is a leading global organization powered by the belief that a better world is possible. In disaster, in hardship, in more than 40 countries around the world, we partner to put bold solutions into action helping people triumph over adversity and build stronger communities from within. Now, and for the future. About Mercy Corps Ethiopia Mercy Corps has been present in Ethiopia since 2004 working to drive bold and transformative ideas, working closely with government, the private sector and civil society actors to build a more resilient country, ensuring that programs are responsive to and influenced by participants and stakeholders. Our vision is to enhance the re",
-    "deadline": "2026-10-31T23:59:59.000000Z",
-    "tags": [
-      "Ethiopia",
-      "Job listing"
-    ],
-    "url": "https://ethiojobs.net/job/pk9qty6yjx-country-communication-manager"
-  },
-  {
     "id": "scraped-fee32303e457",
     "company": "Hope for Justice",
     "source": "EthioJobs",

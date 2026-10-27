@@ -55,13 +55,41 @@ function isExpired(value) {
   return Number.isFinite(parsed.getTime()) && parsed.getTime() < Date.now();
 }
 function locationFor(value) { return /addis ababa/i.test(value) ? "Addis Ababa" : /oromia|amhara|tigray|sidama|hawassa|dire dawa|bahir dar|mekelle|adama/i.test(value) ? (value.match(/(Oromia|Amhara|Tigray|Sidama|Hawassa|Dire Dawa|Bahir Dar|Mekelle|Adama)/i)?.[1] || "Ethiopia") : "Ethiopia"; }
-function toJob({ source, company, url, title, description, datePosted, deadline }) {
+function numericSalary(jobPosting) {
+  const salary = jobPosting?.baseSalary;
+  if (!salary || typeof salary !== "object") return undefined;
+  const amount = salary.value && typeof salary.value === "object" ? salary.value : salary;
+  const currency = text(salary.currency);
+  const unitText = text(amount.unitText);
+  const parseAmount = (raw) => typeof raw === "number" && Number.isFinite(raw) ? raw : typeof raw === "string" && raw.trim() && Number.isFinite(Number(raw)) ? Number(raw) : undefined;
+  const value = parseAmount(amount.value);
+  const minValue = parseAmount(amount.minValue);
+  const maxValue = parseAmount(amount.maxValue);
+  const result = { ...(currency ? { currency } : {}), ...(unitText ? { unitText } : {}) };
+  if (value !== undefined) result.value = value;
+  if (minValue !== undefined) result.minValue = minValue;
+  if (maxValue !== undefined) result.maxValue = maxValue;
+  return currency && (result.value !== undefined || result.minValue !== undefined || result.maxValue !== undefined) ? result : undefined;
+}
+function structuredAddress(jobPosting) {
+  const raw = Array.isArray(jobPosting?.jobLocation) ? jobPosting.jobLocation[0] : jobPosting?.jobLocation;
+  const address = Array.isArray(raw?.address) ? raw.address[0] : raw?.address;
+  if (!address || typeof address !== "object") return {};
+  return {
+    ...(text(address.addressLocality) ? { addressLocality: text(address.addressLocality) } : {}),
+    ...(text(address.streetAddress) ? { streetAddress: text(address.streetAddress) } : {}),
+    ...(text(address.addressRegion) ? { addressRegion: text(address.addressRegion) } : {}),
+    ...(text(address.postalCode) ? { postalCode: text(address.postalCode) } : {}),
+  };
+}
+function toJob({ source, company, url, title, description, datePosted, deadline, jobPosting }) {
   const searchable = `${title} ${description}`;
   if (!title || articleSignal.test(title) || isExpired(deadline) || closedSignal.test(searchable)) return null;
   const category = categoryFor(searchable);
   const internship = /\bintern(ship)?\b/i.test(title);
   const fresh = freshSignal.test(title);
-  return { id: stableId(url), company: company || source, source, title, location: locationFor(searchable), mode: /remote/i.test(searchable) ? "Remote" : /hybrid/i.test(searchable) ? "Hybrid" : "Onsite", type: internship ? "Internship" : "Full-time Entry Level", experience: internship || fresh ? "New Grad" : "0-2 Years", industry: category === "Software Engineering" ? "Tech" : category, category, pay: "See listing", paid: false, hoursAgo: datePosted ? hoursAgo(datePosted) : 48, datePosted: datePosted || undefined, description, deadline, tags: ["Ethiopia", internship ? "Internship" : "Job listing"], url };
+  const baseSalary = numericSalary(jobPosting);
+  return { id: stableId(url), company: company || source, source, title, location: locationFor(searchable), mode: /remote/i.test(searchable) ? "Remote" : /hybrid/i.test(searchable) ? "Hybrid" : "Onsite", type: internship ? "Internship" : "Full-time Entry Level", experience: internship || fresh ? "New Grad" : "0-2 Years", industry: category === "Software Engineering" ? "Tech" : category, category, pay: "See listing", paid: false, hoursAgo: datePosted ? hoursAgo(datePosted) : 48, datePosted: datePosted || undefined, description, deadline, ...structuredAddress(jobPosting), ...(baseSalary ? { baseSalary } : {}), tags: ["Ethiopia", internship ? "Internship" : "Job listing"], url };
 }
 
 async function fetchText(url, timeoutMs = 12000) {
@@ -91,7 +119,7 @@ async function collectEthioJobs(source) {
       const html = await fetchText(url);
       const job = parseJsonLd(html);
       if (!job) return null;
-      return toJob({ source: source.name, company: text(job.hiringOrganization?.name), url, title: text(job.title), description: text(job.description), datePosted: job.datePosted, deadline: job.validThrough });
+      return toJob({ source: source.name, company: text(job.hiringOrganization?.name), url, title: text(job.title), description: text(job.description), datePosted: job.datePosted, deadline: job.validThrough, jobPosting: job });
     } catch { return null; }
   });
 }
@@ -110,7 +138,7 @@ async function collectHtmlSource(source) {
       const title = text(job?.title) || label || pageTitle(html);
       const description = text(job?.description) || meta(html, "description") || meta(html, "og:description") || pageDescription(html, title);
       const published = job?.datePosted || meta(html, "article:published_time") || html.match(/<time[^>]+datetime=["']([^"']+)/i)?.[1] || normalizeDate(html.match(/published on\s+(\d{2}\.\d{2}\.\d{4})/i)?.[1]) || "";
-      return toJob({ source: source.name, url, title, description, datePosted: published, deadline: meta(html, "job:deadline") });
+      return toJob({ source: source.name, url, title, description, datePosted: published, deadline: meta(html, "job:deadline"), jobPosting: job });
     } catch { return null; }
   });
 }

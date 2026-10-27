@@ -69,9 +69,15 @@ function JobDetailPage() {
 function toJobPosting(job: Job) {
   if (!job.datePosted) return null;
   const description = job.description || `${job.title} opportunity at ${job.company} in ${job.location}. See the original listing for full details.`;
-  const location = job.location.toLowerCase() === "remote"
-    ? { "@type": "Place", address: { "@type": "PostalAddress", addressCountry: "ET" } }
-    : { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: job.location, addressCountry: "ET" } };
+  const address = {
+    "@type": "PostalAddress",
+    ...(job.streetAddress ? { streetAddress: job.streetAddress } : {}),
+    ...(!job.location.match(/^remote$/i) ? { addressLocality: job.addressLocality || job.location } : {}),
+    ...(job.addressRegion ? { addressRegion: job.addressRegion } : {}),
+    ...(job.postalCode ? { postalCode: job.postalCode } : {}),
+    addressCountry: "ET",
+  };
+  const location = { "@type": "Place", address };
 
   return {
     "@context": "https://schema.org",
@@ -80,6 +86,7 @@ function toJobPosting(job: Job) {
     description,
     datePosted: job.datePosted,
     ...(job.deadline ? { validThrough: job.deadline } : {}),
+    ...(job.baseSalary ? { baseSalary: { "@type": "MonetaryAmount", currency: job.baseSalary.currency, value: { "@type": "QuantitativeValue", ...(job.baseSalary.value !== undefined ? { value: job.baseSalary.value } : {}), ...(job.baseSalary.minValue !== undefined ? { minValue: job.baseSalary.minValue } : {}), ...(job.baseSalary.maxValue !== undefined ? { maxValue: job.baseSalary.maxValue } : {}), ...(job.baseSalary.unitText ? { unitText: job.baseSalary.unitText } : {}) } } } : {}),
     employmentType: job.type === "Internship" ? "INTERN" : job.type === "Contract" ? "CONTRACTOR" : "FULL_TIME",
     hiringOrganization: { "@type": "Organization", name: job.company },
     jobLocation: location,
