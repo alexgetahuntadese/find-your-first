@@ -22,6 +22,12 @@ function Blog() {
       <Link to="/" className="text-sm text-muted-foreground hover:text-foreground">← Back to jobs</Link>
       <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Ethiopia job search guides</h1>
       <p className="mt-2 text-muted-foreground">Practical advice for CVs, interviews, internships, applications, and starting your career in Ethiopia.</p>
+      <article className="mt-8 rounded-xl border border-primary/30 bg-primary/5 p-5">
+        <p className="text-xs font-medium uppercase tracking-wide text-primary">Featured guide</p>
+        <h2 className="mt-2 text-xl font-semibold">How to Write a CV for Your First Job in Ethiopia</h2>
+        <p className="mt-2 text-sm text-muted-foreground">A practical walkthrough, an illustrative sample CV, a downloadable editable template, and application tips for students and new graduates.</p>
+        <Link to="/blog/first-job-cv-ethiopia" className="mt-4 inline-block text-sm font-medium text-primary hover:underline">Read the guide →</Link>
+      </article>
       <div className="mt-8 space-y-6">
         {posts.map((p) => (
           <article key={p.slug} id={p.slug} className="rounded-xl border bg-card p-5">

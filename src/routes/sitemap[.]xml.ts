@@ -13,6 +13,7 @@ const staticPaths = [
   "/ethiopia",
   "/calendar",
   "/blog",
+  "/blog/first-job-cv-ethiopia",
   "/privacy",
 ];
 
