@@ -14,6 +14,8 @@ const staticPaths = [
   "/calendar",
   "/blog",
   "/blog/first-job-cv-ethiopia",
+  "/job-seeker-toolkit-ethiopia",
+  "/ethiopia-first-job-interview-preparation",
   "/privacy",
 ];
 
