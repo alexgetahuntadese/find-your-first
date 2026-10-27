@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "ልማት የሚለካው በመሠረተ ልማት ግንባታ ብቻ ሳይሆን በሚሰጠው አገልግሎትና በሚፈጥረው ዕድል ጭምር ነው – ሃብታሙ ኢተፋ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) ልማት የሚለካው በሚገነባ መሠረተ ልማት ብቻ ሳይሆን ለሰዎች በሚሰጠው አገልግሎትና በሚፈጥረው ዕድል ጭምር ነው አሉ የውሃና ኢነርጂ ሚኒስትር ሃብታሙ ኢተፋ (ዶ/ር)። 3ኛው የውሃና ኢነርጂ ሳምንት መካሄድ ጀምሯል። በመርሐ ግብሩ መክፈቻ ላይ የውሃና ኢነርጂ ሚኒስትር ሃብታሙ ኢተፋ (ዶ/ር) በተወካያቸው ባስተላለፉት መልዕክት፤ ውሃ እና ኢነርጂ የተለያዩ የልማት",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 08:12:38 +0000"
-  },
-  {
-    "title": "ኢነርጂ፤ ለኢትዮጵያ ህዳሴና ዘላቂ ብልጽግና",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በየትኛውም ሀገር የዕድገትና የብልጽግና ታሪክ ውስጥ፣ ኃይል (ኢነርጂ) የልማት ሁሉ የጀርባ አጥንትና የኢኮኖሚ አንቀሳቃሽ ሞተር ነው። ህይወት ላለው ነገር ሁሉ የጸሐይ ብርሃንና አየር እንደሚያስፈልገው ሁሉ ለልማት ዘርፎች ማበብ፣ ለኢንዱስትሪዎች መንቀሳቀስ፣ ለግብርና ዘመናዊ መሆን፣ ለትምህርትና ጤና አገልግሎቶች ጥራት እንዲሁም ለዜጎች የዕለት ተዕለት ህይወት",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 08:10:25 +0000"
-  },
-  {
-    "title": "ሉላ ዳ ሲልቫ የብራዚል ፕሬዚዳንታዊ ምርጫን አሸነፉ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የ80 ዓመቱ ግራ ዘመም መሪ ሉዊስ ኢናሲዮ ሉላ ዳ ሲልቫ የብራዚል ፕሬዚዳንታዊ ምርጫን አሸንፈዋል፡፡ ፕሬዚዳንቱ ቀኝ ዘመሙን ተቀናቃኛቸው እና የብራዚል የቀድሞ ፕሬዚዳንት ጂየር ቦልሶናሮ ልጅ ሴናተር ላቪዮ ቦልሶናሮን በማሸነፍ ነው በተከታታይ ለሁለተኛ ጊዜ የብራዚል የፕሬዚዳንት የሚሆኑበትን ድምፅ ያገኙት፡፡ በምርጫው ሉላ ዳ ሲልቫ 51 ነጥብ 79 በመቶ ድምፅ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 07:26:54 +0000"
-  },
-  {
-    "title": "በሳዑዲ በአስቸጋሪ ሁኔታ ውስጥ የነበሩ 1ሺህ 561 ኢትዮጵያውያን ወደ ሀገራቸው ተመለሱ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በሳዑዲ ዓረቢያ በአስቸጋሪ ሁኔታ ውስጥ የነበሩ 1ሺህ 561 ኢትዮጵያውያን ወደ ሀገራቸው ተመልሰዋል፡፡ በሳምንቱ ውስጥ በተደረገ 7 ዙር በረራ የተመለሱት 929 ወንዶች፣ 580 ሴቶች እና 52 ህጻናት ሲሆኑ ከተመላሾች መካከል 99 እድሜያቸው ከአስራ ስምንት አመት በታች የሆኑ ታዳጊዎች ይገኙበታል። ለተመላሽ ዜጎች በአየር ማረፊያና በማቆያ ማዕከላት ተገቢውን ድ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 06:45:23 +0000"
-  },
-  {
-    "title": "12ኛው ዓለም አቀፍ የጣና ፎረም በስኬት ተጠናቀቀ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) ከጥቅምት 13 እስከ 15 ቀን በባሕር ዳር ከተማ ሲካሄድ የቆየው 12ኛው ዓለም አቀፍ የጣና ፎረም በስኬት ተጠናቅቋል አለ የአማራ ክልል ፖሊስ ዋና መምሪያ። የክልሉ ፖሊስ ዋና ጠቅላይ መምሪያ ባወጣው መግለጫ እንዳለው÷ መርሐ ግብሩ በስኬት ተጠናቅቆ እንግዶች ወደ መጡበት እስኪመለሱ የተቀናጀ የፀጥታ ማስከበር ሥራ ተከናውኗል። መምሪያው ከተለያዩ የፀጥታ […] ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 06:35:17 +0000"
-  },
-  {
-    "title": "በመቐለ ከተማ በሁሉም ትምህርት ቤቶች የመማር ማስተማር ሥራ ጀመረ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ አስተዳደር ሥር በሚገኙ ሁሉም ትምህርት ቤቶች የመማር ማስተማር ሥራ በድጋሚ ተጀምሯል። በሕገወጡ የሕወሓት ቡድን ምክንያት ተቋርጦ የቆየው የትምህርት ሂደት እንደገና መጀመሩ፤ ተማሪዎች ወደ ትምህርት ገበታቸው እንዲመለሱና የተቋረጠው የትምህርት ሥራ እንዲቀጥል ዕድል ፈጥሯል። በከተማዋ የመማር ማስተማር ሥራ ከዛሬ ጥቅምት 16 ቀን 2019 ዓ.ም ጀ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 06:06:46 +0000"
-  },
-  {
-    "title": "አዲስ ገጽታ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) መንግሥት ሁለንተናዊ ብልጽግናን ለማረጋገጥ እና የሕዝብን የኑሮ ደረጃ ከፍ ለማድረግ በሚታደርገው ሀገራዊ ጥረት የከተሞች ልማትን ከሥነ-ምህዳር ጥበቃ እና ከኢኮኖሚ እድገት ጋር በማቀናጀት በተግባር እያስመሰከረ ይገኛል። የአፍሪካ የዲፕሎማሲ መዲና የሆነችው አዲስ አበባ በዚህ ረገድ ራሷን በዘመናዊነትና በአረንጓዴ ልማት የመቀየር ታላቅ ታሪካዊ ምዕራፍ ላይ ትገኛ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 19:38:09 +0000"
-  },
-  {
-    "title": "ለጎንደር ብስራት – የመገጭ ተስፋና ትንሣኤ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ታሪክ ስሟ በደመቀውና የኪነ-ሕንጻ ጥበብ ማማ በሆነችው ታሪካዊቷ የጎንደር ከተማ ዙሪያ፣ ለዘመናት በሰዎች አንደበት የሚመላለስ አንድ አጉል የሥነ-ቃል ተረትና ምሳሌ ነበረ። በተለይም ላለፉት አሥራ ዘጠኝ ዓመታት የከተማዋንና የአካባቢውን ሕዝብ የውኃ ጥምና የልማት ተስፋ አግቶ የቆየው የመገጭ ፕሮጀክት ሲነሳ ነዋሪው በምሬት “እንደ መገጭ ግድብ ቆመህ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 17:49:38 +0000"
-  },
-  {
-    "title": "የትግራይ ህዝብ በህገ ወጡ ህወሓት የጦርነት አዙሪት የነበረውን አጥቷል – ፊልድ ማርሻል ብርሃኑ ጁላ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 15፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ህዝብ በህገ ወጡ ህወሓት የጦርነት አዙሪት የነበረውን ሁሉ አጥቷል አሉ የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ። 119ኛው የመከላከያ ሠራዊት ቀን “የድል ሠራዊት” በሚል መሪ ሀሳብ በዛሬው ዕለት እየተከበረ ነው። ፊልድ ማርሻል ብርሃኑ ጁላ በዓሉ ላይ ባስተላለፉት መልዕክት፤ ህገ ወጡ ህወሓት አራት እንቅፋት የመታው […] The",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 16:51:53 +0000"
-  },
-  {
-    "title": "የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ በ119ኛው የመከላከያ ሰራዊት ቀን ሲከበር ባደረጉት ንግግር ያሷቸው ዋና ዋና ነጥቦች:-",
-    "summary": "👉 የኢትዮጵያ ማንሰራራት የህልውና አደጋ ያመጣብኛል በማለት ከ15ኛው ክፍለ ዘመን ጀምሮ ሲወጋን እና ሲያዋጋን የኖረ ጠላት በትግራይ፣ በአማራ እና ኦሮሞ ህልውና ውስጥ ተደብቆ እየወጋን ይገኛል። ‎ ‎ ‎👉 የዓባይ ውሃ የኢትዮጵያ የተፈጥሮ ፀጋ ነው፤ ቀይ ባሕር እኛ ኢትዮጵያውያን እንድንገለገልበት ፈጣሪ አበጃጅቶ የሰጠን ባሕር ነው። ‎ ‎👉 የመደመር መንግሥት እና መከላከያ በሁለቱ ውሃዎች የሚገኘውን የኢት",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 25 Oct 2026 15:12:37 +0000"
-  },
-  {
-    "title": "Addis Ababa Riverside Development Creates Over 56,000 Jobs, Improves Urban Livability, Mayor Adanech Says",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — The newly commissioned Kechene–Ambassador Park–Gihon–Irreecha–Bambis Riverside Development Project has created more than 56,000 jobs during construction while advancing efforts to improve residents’ safety, livelihoods and",
+    "title": "Tens of Thousands Rally in Bahir Dar to Back Ethiopia’s National Defense Force",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — Tens of thousands of residents took to the streets of Bahir Dar, the capital of Ethiopia’s Amhara Region, on Tuesday in a mass demonstration expressing solidarity with the Ethiopian National Defense Force (ENDF) and other ",
     "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 13:44:47 +0000"
+    "publishedAt": "Tue, 27 Oct 2026 09:29:20 +0000"
   },
   {
-    "title": "Medemer Government’s Urban Development Drive Turns Addis Ababa into a Model for Other Ethiopian Cities, Parliament Speaker Says",
-    "summary": "Addis Ababa, October 25, 2026 (FMC) — House of Peoples’ Representatives Speaker Ahmed Shide has said Addis Ababa’s rapid urban transformation is setting an example for other Ethiopian cities, reflecting the Medemer government’s sustained focus on making urban ",
+    "title": "Assab’s Stagnation, Eritrea’s Broken “Africa’s Singapore” Dream, and the TPLF’s Conspiracy with External Adversaries to Strip Ethiopia of Its Red Sea Coastline",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — Assab Port was once a bustling gateway connecting Ethiopia’s vast hinterland to the Red Sea, a city of port operations, maritime transport, banks, transit businesses and industrial activity. Its oil refinery provided jobs,",
     "source": "FBC English",
-    "publishedAt": "Sun, 25 Oct 2026 13:31:13 +0000"
+    "publishedAt": "Tue, 27 Oct 2026 08:55:43 +0000"
+  },
+  {
+    "title": "Africa’s Largest Airline Continues to Bring the Continent Closer with New Route to Mozambique’s Nacala",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — Ethiopian Airlines, Africa’s largest airline, continues to strengthen connections across the continent with the launch of thrice-weekly flights to Nacala, Mozambique, expanding air links between the two countries and creat",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 08:21:06 +0000"
+  },
+  {
+    "title": "Russia–Africa Summit to Set New Cooperation Priorities as 48 African Countries Confirm Participation",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — The Third Russia–Africa Summit is set to open in Moscow on Wednesday, bringing together representatives of 48 African countries and Russia for high-level discussions on political relations, economic cooperation, security a",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 07:06:56 +0000"
+  },
+  {
+    "title": "𝐓𝐇𝐄 𝐂𝐀𝐈𝐑𝐎–𝐀𝐒𝐌𝐀𝐑𝐀-𝐁𝐀𝐂𝐊𝐄𝐃 𝐓𝐒𝐈𝐌𝐃𝐎 𝐇𝐎𝐍𝐄𝐘𝐌𝐎𝐎𝐍 𝐕𝐀𝐍𝐈𝐒𝐇𝐄𝐒 𝐋𝐈𝐊𝐄 𝐒𝐌𝐎𝐊𝐄 𝐈𝐍 𝐃𝐀𝐘𝐒",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — The Cairo–Asmara-backed Tsimdo campaign against Ethiopia has suffered the fate of a reckless scheme built on arrogance, miscalculation and the fantasy of a rapid national collapse. Its architects imagined that a convergenc",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 06:45:34 +0000"
+  },
+  {
+    "title": "𝐄𝐓𝐇𝐈𝐎𝐏𝐈𝐀’𝐒 𝐀𝐁𝐀𝐘 𝐀𝐍𝐃 𝐑𝐄𝐃 𝐒𝐄𝐀 𝐈𝐍𝐓𝐄𝐑𝐄𝐒𝐓𝐒: 𝐍𝐎 𝐌𝐎𝐑𝐄 𝐓𝐀𝐁𝐎𝐎𝐒, 𝐍𝐎 𝐑𝐄𝐓𝐑𝐄𝐀𝐓—𝐎𝐍𝐋𝐘 𝐋𝐀𝐖, 𝐂𝐎𝐎𝐏𝐄𝐑𝐀𝐓𝐈𝐎𝐍 𝐀𝐍𝐃 𝐌𝐔𝐓𝐔𝐀𝐋 𝐁𝐄𝐍𝐄𝐅𝐈𝐓",
+    "summary": "Addis Ababa, October 27, 2026 (FMC) — For too long, Ethiopia’s vital interests in the Abay River and the Red Sea have occupied a sensitive place in regional geopolitics, often discussed through the anxieties of neighbouring states rather than through the legit",
+    "source": "FBC English",
+    "publishedAt": "Tue, 27 Oct 2026 06:31:24 +0000"
+  },
+  {
+    "title": "የአሰብ ታሪካዊ ስብራት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ኢኮኖሚያዊ እና ማህበራዊ ታሪክ ውስጥ ታላቅ ስም የነበራት አሰብ በአንድ ወቅት የቀጣናው ንግድ፣ ትራንስፖርት እና የኢንዱስትሪ ማዕከል ሆና አገልግላለች። የከተማዋ የኢኮኖሚ እንስቃሴ ከፍተኛ የነበረ ሲሆን፣ የነዳጅ ማጣሪያ፣ የወደብ አገልግሎት፣ የባንክ እና የትራንዚት ድርጅቶች መናኸሪያ በመሆኗ ከልዩ ልዩ አካባቢዎች የተሰባሰቡ ዜጎች ሁለተኛ ቤታቸው",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 19:25:04 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ እና ኳታር በወታደራዊ ጉዳዮች ዙሪያ ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መከላከያ ሚኒስትር መሀመድ እድሪስ በኢትዮጵያ የኳታር አምባሳደር ሰይድ ሙባረክ ሰይድ አሊ ጃፋር አልሚኖ ጋር ተወያተዋል፡፡ አቶ መሀመድ እድሪስ ኳታር በቅርብ ጊዜ በሽብር ኃይሎች ጥምረት የሀገርን እና የኢትዮጵያን ህዝብ ሰላም ለማደፍረስ ዓላማ ያደረገውን ጦርነት አስመልክቶ የሰጠችው ፍትሃዊ እና ጠንካራ መግለጫ ሀገሪቱ ከእውነት ጎን ለመቆም ያላትን",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 18:27:37 +0000"
+  },
+  {
+    "title": "በኦሮሚያ ክልል ከ2 ነጥብ 8 ሚሊየን በላይ ዜጎችን በሥራ ዕድል ተጠቃሚ ለማድረግ እየተሠራ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በኦሮሚያ ክልል ከ2 ነጥብ 8 ሚሊየን በላይ ዜጎችን በሥራ ዕድል ተጠቃሚ ለማድረግ እየተሠራ ነው አለ የክልሉ ኢንዱስትሪና ኢንተርፕራይዝ ቢሮ፡፡ የቢሮው የሥራ ዕድል ፈጠራ ዳይሬክተር አቶ ተማም ሁሴን ለፋና ሚዲያ ኮርፖሬሽን እንዳሉት፤ በክልሉ የሚገኙ ዜጎች ከሥራ ፍለጋ ወደ ሥራ ፈጠራ በመሸጋገር ለራሳቸውና ለሌሎች የሥራ ዕድል እየፈጠሩ ይገኛሉ፡፡ ባለፈው […",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 17:55:02 +0000"
+  },
+  {
+    "title": "ፊልድ ማርሻል ብርሃኑ ጁላ በኢትዮጵያ የተባበሩት መንግሥታት ዋና ተጠሪ እና የሰብዓዊ ድጋፍ ዋና አስተባባሪ ኦዞንያ ኦጂሎ (ዶ/ር) ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ)የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ በኢትዮጵያ የተባበሩት መንግሥታት ዋና ተጠሪ እና የሰብዓዊ ድጋፍ ዋና አስተባባሪ ኦዞንያ ኦጂሎ (ዶ/ር) ጋር ተወያይተዋል፡፡ ውይይቱ ቀጣናዊ፣ አካባቢያዊና ሃገራዊ ሰላምና መረጋጋት የማጠናከር አስፈላጊነትና ትብብሮች ላይ ያተኮረ ነው፡፡ ኦዞኒያ ኦጅሎ (ዶ/ር) ከፊልድ ማርሻል ብርሃኑ ጁላ ጋር የነበ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 17:52:07 +0000"
+  },
+  {
+    "title": "ከንቲባ አዳነች አቤቤ ከተባበሩት መንግሥታት የሰው ሰፈራ ፕሮግራም ጋር የአዲስ አበባን ዘላቂ ልማት ለማጠናከር የትብብር ስምምነት ተፈራርሙ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የአዲስ አበባ ከተማ አስተዳድር ከንቲባ አዳነች አቤቤ ከተባበሩት መንግሥታት የሰው ሰፈራ ፕሮግራም ጋር የአዲስ አበባን ዘላቂ ልማት ለማጠናከር የትብብር ስምምነት ተፈራርመዋል። ስምምነቱ በከተማ መረጃ አሰባሰብና ትንተና፣ በልማት ውጤቶች ክትትል፣ በ11ኛው የመዋቅራዊ ፕላን ዝግጅት፣ በተመጣጣኝ ዋጋ የቤት አቅርቦት እና ከCOP32 ጋር በተያያዙ የከተማ ዝግጅቶች",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 16:46:29 +0000"
+  },
+  {
+    "title": "አዲስ ውበት ለአዲስ አበባ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) ዘመናዊ ከተሞች የሚለኩት በስፋታቸው፣ በሰማይ ጠቀስ ሕንፃዎቻቸው እና በመብራቶቻቸው ብቻ ሳይሆን ዘመናዊ መሰረተ ልማትን ከተፈጥሮ ጋር በማጣመር ለነዋሪዎች ምቹ አካባቢ በመፍጠራቸው ጭምር ነው፡፡ አዲስ አበባም በተፈጥሮ የተቸሯትን ሃብቶች አልምቶ መጠቀም የዘመናዊ ከተማነቷ መገለጫዎች ካደረገች ዋል አደር ብላለች፡፡ በመደመር መንግሥት ትኩረት ከተደረገባቸው መስ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 26 Oct 2026 15:44:57 +0000"
   }
 ];
