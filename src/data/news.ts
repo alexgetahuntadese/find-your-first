@@ -3,6 +3,18 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "PM Abiy Ahmed: Ethiopia’s Defence Preparedness Will Deter Aggression and Safeguard National Sovereignty",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s ability to protect its airspace and safeguard its sovereignty depends on building credible defence capabilities before threats escalate into conflict, Prime Minister Abiy Ahmed said, underscoring military prepar",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 14:19:06 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed’s Medemer Book Launched in Russian, Expanding Ethiopia’s Global Intellectual Reach",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — The Russian-language edition of Ethiopian Prime Minister Abiy Ahmed’s book Medemer was launched in Moscow, extending the international reach of Ethiopia’s indigenous philosophy and strengthening intellectual and cultural t",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 13:39:04 +0000"
+  },
+  {
     "title": "Ethiopia–Russia Nuclear Partnership: The Strategic Stakes of a New Energy Frontier",
     "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s pursuit of nuclear energy is opening a new dimension in its relationship with Russia, extending bilateral cooperation into one of the most technically demanding and strategically consequential fields of modern d",
     "source": "FBC English",
@@ -61,17 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) በሩሲያ እና በአፍሪካ አህጉር መካከል ያለው ሁለንተናዊ ግንኙነት በጋራ ጥቅም፣ በእኩልነት እና ሉዓላዊነት መርሆች ላይ ተመስርቶ ወደ አዲስ ስትራቴጂካዊ አጋርነት እየተሸጋገረ ነው። ዛሬ እና ነገ በሩሲያ ዋና ከተማ ሞስኮ በሚካሄደው ሦስተኛው የሩሲያ-አፍሪካ ጉባዔ፤ ጠቅላይ ሚኒስትር ዐቢይ አሕመድን (ዶ/ር) ጨምሮ የበርካታ የአፍሪካ ሀገራት መሪዎች እንደሚታደሙ",
     "source": "Fana Media",
     "publishedAt": "Wed, 28 Oct 2026 07:13:42 +0000"
-  },
-  {
-    "title": "Third Russia–Africa Summit to Kick Off in Moscow Today, Focusing on Strategic Cooperation",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — The Third Russia–Africa Summit kicks off in Moscow today, bringing together Russian and African leaders for two days of discussions on political relations, economic cooperation and the future of their partnership. The Octo",
-    "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 07:03:12 +0000"
-  },
-  {
-    "title": "Addis Ababa’s Urban Renaissance: Ethiopia Is Reimagining the African City",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — A city’s transformation is measured not only by the buildings that rise above its skyline, but also by the life that unfolds along its streets, the beauty of its public spaces and the opportunities it creates for its peopl",
-    "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 06:54:47 +0000"
   }
 ];
