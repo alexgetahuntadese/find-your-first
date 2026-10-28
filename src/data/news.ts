@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Tigray Region Caretaker Administration Intensifying Efforts to Revitalize Trade and Stabilize Markets",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — The Tigray Region caretaker administration is intensifying efforts to revive commercial activity, stabilize markets and ease supply shortages as it works to restore disrupted public institutions and help residents return t",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 14:28:51 +0000"
-  },
-  {
-    "title": "Ethiopian Defense Forces Turn Solidarity with the People into Action, Harvest Teff for Vulnerable Farmers in Tigray Region",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — Members of the Ethiopian National Defense Forces (ENDF), serving under the Western Command’s Abdisa Aga Battalion, have harvested mature teff crops for vulnerable farmers in Adet Woreda, Central Zone of the Tigray Region, ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 13:43:23 +0000"
-  },
-  {
-    "title": "Ethiopia Unveils NEP 3.0 to Link Electricity Access with Productivity and Economic Growth",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) – Ethiopia has unveiled the third phase of its National Electrification Program (NEP 3.0), shifting the focus of electricity expansion beyond connecting households to the power grid toward using reliable and affordable energ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 12:15:03 +0000"
-  },
-  {
-    "title": "Defunct TPLF Group’s Destruction Leaves Former ENDF Northern Command Headquarters in Ruins in Ethiopia’s Tigray Region",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — Buildings, offices and critical infrastructure at the former Ethiopian National Defense Force (ENDF) Northern Command headquarters in Mekelle remain unusable following extensive destruction by the defunct TPLF group, with ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 12:10:16 +0000"
-  },
-  {
-    "title": "Tana Forum Demonstrates Ethiopia’s Growing Capacity to Host Major International Conferences: Foreign Ministry Spokesperson",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) – The successful hosting of the 12th Tana High-Level Forum on Security in Africa in Bahir Dar demonstrates Ethiopia’s growing capacity to organize major international conferences beyond the capital, Foreign Ministry Spokespe",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 11:40:31 +0000"
-  },
-  {
-    "title": "Russia Offers to Share Technology and Development Experience to Advance Africa’s Economic Sovereignty",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) – Russia has expressed readiness to share its technological and economic development experience with African countries, emphasizing stronger domestic capacities, technology transfer and strategic partnerships as essential to",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 11:25:16 +0000"
-  },
-  {
-    "title": "Tens of Thousands Rally in Bahir Dar to Back Ethiopia’s National Defense Force",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — Tens of thousands of residents took to the streets of Bahir Dar, the capital of Ethiopia’s Amhara Region, on Tuesday in a mass demonstration expressing solidarity with the Ethiopian National Defense Force (ENDF) and other ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 09:29:20 +0000"
-  },
-  {
-    "title": "Assab’s Stagnation, Eritrea’s Broken “Africa’s Singapore” Dream, and the TPLF’s Conspiracy with External Adversaries to Strip Ethiopia of Its Red Sea Coastline",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — Assab Port was once a bustling gateway connecting Ethiopia’s vast hinterland to the Red Sea, a city of port operations, maritime transport, banks, transit businesses and industrial activity. Its oil refinery provided jobs,",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 08:55:43 +0000"
-  },
-  {
-    "title": "Africa’s Largest Airline Continues to Bring the Continent Closer with New Route to Mozambique’s Nacala",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — Ethiopian Airlines, Africa’s largest airline, continues to strengthen connections across the continent with the launch of thrice-weekly flights to Nacala, Mozambique, expanding air links between the two countries and creat",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 08:21:06 +0000"
-  },
-  {
-    "title": "Russia–Africa Summit to Set New Cooperation Priorities as 48 African Countries Confirm Participation",
-    "summary": "Addis Ababa, October 27, 2026 (FMC) — The Third Russia–Africa Summit is set to open in Moscow on Wednesday, bringing together representatives of 48 African countries and Russia for high-level discussions on political relations, economic cooperation, security a",
-    "source": "FBC English",
-    "publishedAt": "Tue, 27 Oct 2026 07:06:56 +0000"
-  },
-  {
-    "title": "የአሰብ ታሪካዊ ስብራት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ ኢኮኖሚያዊ እና ማህበራዊ ታሪክ ውስጥ ታላቅ ስም የነበራት አሰብ በአንድ ወቅት የቀጣናው ንግድ፣ ትራንስፖርት እና የኢንዱስትሪ ማዕከል ሆና አገልግላለች። የከተማዋ የኢኮኖሚ እንስቃሴ ከፍተኛ የነበረ ሲሆን፣ የነዳጅ ማጣሪያ፣ የወደብ አገልግሎት፣ የባንክ እና የትራንዚት ድርጅቶች መናኸሪያ በመሆኗ ከልዩ ልዩ አካባቢዎች የተሰባሰቡ ዜጎች ሁለተኛ ቤታቸው",
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ሩሲያ ገቡ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) 3ኛውን የሩሲያ-አፍሪካ ጉባኤ ለመታደም ሞስኮ፣ ሩሲያ ገብተዋል። #PMOEthiopia The post ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ሩሲያ ገቡ appeared first on Welcome to Fana Media Corporation S.C .",
     "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 19:25:04 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 06:09:35 +0000"
   },
   {
-    "title": "ኢትዮጵያ እና ኳታር በወታደራዊ ጉዳዮች ዙሪያ ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 16፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መከላከያ ሚኒስትር መሀመድ እድሪስ በኢትዮጵያ የኳታር አምባሳደር ሰይድ ሙባረክ ሰይድ አሊ ጃፋር አልሚኖ ጋር ተወያተዋል፡፡ አቶ መሀመድ እድሪስ ኳታር በቅርብ ጊዜ በሽብር ኃይሎች ጥምረት የሀገርን እና የኢትዮጵያን ህዝብ ሰላም ለማደፍረስ ዓላማ ያደረገውን ጦርነት አስመልክቶ የሰጠችው ፍትሃዊ እና ጠንካራ መግለጫ ሀገሪቱ ከእውነት ጎን ለመቆም ያላትን",
+    "title": "PM Abiy Ahmed Arrives in Moscow for Third Russia–Africa Summit",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has arrived in Moscow, Russia, to attend the Third Russia–Africa Summit, which brings African and Russian leaders together to discuss cooperation and the future of their partnership. The",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 06:01:25 +0000"
+  },
+  {
+    "title": "Ethiopia Must Sustain Its Role as Regional Peace and Security Anchor, Former PM Hailemariam Desalegn Says",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Former Ethiopian Prime Minister Hailemariam Desalegn has called on Ethiopia to strengthen and sustain its commitment to peace and security, citing its diplomatic engagement in addressing the Sudan crisis and its continuing",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 05:56:20 +0000"
+  },
+  {
+    "title": "Africa Is an Independent Center of a Multipolar World, Not an Arena of Rivalry, Says Russian Foreign Ministry Spokesperson Maria Zakharova",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Russia views African countries as sovereign and equal partners and supports their emergence as an independent center of global development within a more just, multipolar world, Russian Foreign Ministry Spokesperson Maria Z",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 05:50:14 +0000"
+  },
+  {
+    "title": "Ethiopia Launches Official Nation Brand Website to Present Its Heritage, Development and Global Aspirations",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia has launched its official Nation Brand website, presenting the country’s historical heritage, natural resources, development initiatives and national aspirations to an international audience. In a social media pos",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 05:41:35 +0000"
+  },
+  {
+    "title": "የኢትዮጵያና ሩሲያ ግንኙነት በሁሉም ዘርፍ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና ሩሲያ የረጅም ጊዜ ያስቆጠረ የዲፕሎማሲ፣ የወታደራዊ፣ የባህል እና የፖለቲካ ግንኙነት ያላቸው ሀገራት ናቸው፡፡ በሁለቱ ሀገራት መካከል መደበኛ የዲፕሎማሲ ግንኙነት የተጀመረው በፈረንጆቹ 1898 ሲሆን፣ የመጀመሪያው የሩሲያ ዲፕሎማሲያዊ ተልዕኮ በአዲስ አበባ ተቋቁሟል። ከዚያን ጊዜ እንስቶ እስካሁን የሀገራቱ ግንኙነት በማህበራዊ፣ በኢኮኖሚያዊ እና",
     "source": "Fana Media",
-    "publishedAt": "Mon, 26 Oct 2026 18:27:37 +0000"
+    "publishedAt": "Tue, 27 Oct 2026 20:40:44 +0000"
+  },
+  {
+    "title": "ጠንካራ መከላከያ ሠራዊት – ለሀገራዊ ልማትና ለቀጣናዊ ዘላቂ ሰላም",
+    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) ዘመናዊ የጂኦፖለቲካ እና የጸጥታ ጥናቶች በጋራ ከሚስማሙባቸው ጉዳዮች አንዱ ልማትና ዘላቂ ሰላም ያለ አስተማማኝ የመከላከያ ኃይል ሊታሰብ እንደማይቻል ነው። የአንድ ሀገር መከላከያ ሠራዊት ጥንካሬ ድንበር ከማስከበር ባለፈ ለኢኮኖሚ ዕድገት ዋስትና የሚሰጥ፣ የኢንቨስትመንት ፍሰትን የሚያበረታታ እና ለቀጣናዊ ትስስርም መሠረት እንደሆነ የዘርፉ ምሁራን ያስረዳሉ።",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 27 Oct 2026 19:33:55 +0000"
+  },
+  {
+    "title": "የትግራይ ተስፋ – ከግጭት ወደ ሰላም፤ ከስቃይ ወደ ልማት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) የትግራይን ህዝብ ለዓመታት ሲጨቁንና ሲረግጥ የቆየውን ህገወጡ የህወሓት ቡድን በመከላከያ ሰራዊታችንና በሰላም ኃይሎች አከርካሬውን ተመትቶ ከተበተነ በኋላ፣ ሕዝቡ ወደ ዘላቂ ሰላምና ልማት የተሸጋገረበት አዲስ ምዕራፍ ተከፍቷል። የፌዴራል መንግሥት የክልሉ ህዝብ ከነበረበት ጭቆና እና አፈና እንዲወጣ እንዲሁም በግጭት ምክንያት ተቋርጠው የነበሩ የህዝብ አገልግሎቶ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 27 Oct 2026 18:59:18 +0000"
+  },
+  {
+    "title": "በዲፕሎማሲው መስክ አፍሪካና ሩሲያ እያደገ የመጣ አጋርነት መሥርተዋል – ማርያ ዛካሮቫ",
+    "summary": "በዲፕሎማሲው መስክ አፍሪካና ሩሲያ በጊዜ ሂደት እያደገ የመጣ አጋርነት መሥርተዋል አሉ የሩሲያ ውጭ ጉዳይ ሚኒስቴር ቃል አቀባይ ማርያ ዛካሮቫ። ቃል አቀባይዋ እንዳሉት÷ አጋርነቱ ሁሉን አቀፍ ባሕርይ ያለውና በወንድማማችነት መርህ ላይ የተመሠረተ ነው። አፍሪካውያንም ሉዓላዊነታቸውን በሚያከብርና በራሳቸው ውሳኔ የሚመሩበትን ግንኙነት ለመመሥረት እየተጉ እንደሆነ ጠቁመዋል። በተለይም በምግብ ራስን የመቻል አጀንዳ ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 27 Oct 2026 17:29:16 +0000"
+  },
+  {
+    "title": "የሀገር መከላከያ ሠራዊት የሀገርን ዳር ድንበር ከማስከበር ባሻገር በልማትም በንቃት እየተሳተፈ ይገኛል – ኦርዲን በድሪ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት የሀገርን ዳር ድንበር ከማስከበር ባሻገር በልማትም በንቃት እየተሳተፈ ነው አሉ የሀረሪ ክልል ርዕሰ መስተዳድር ኦርዲን በድሪ። የምስራቅ ዕዝ ከሀረሪ ክልል መንግሥትና ከተለያዩ አካላት ጋር በመተባበር ያስገነባውን ዘመናዊ የእጅ ኳስ ሜዳ በርዕሰ መስተዳድር ኦርዲን በድሪ ተመርቆ ለአገልግሎት ክፍት ተደርጓል። በዚህ ወቅትም ርዕሰ መስተዳ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 27 Oct 2026 17:17:24 +0000"
+  },
+  {
+    "title": "በክልሉ ባለፉት 3 ወራት የህዝቡን ተጠቃሚነት ያረጋገጡ ውጤታማ ተግባራት ተከናውነዋል – ርዕሰ መስተዳድር አሻድሊ ሀሰን",
+    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) በቤኒሻንጉል ጉሙዝ ክልል በመጀመሪያው ሩብ ዓመት የህዝቡን ተጠቃሚነት ያረጋገጡ ውጤታማ ተግባራት ተከናውነዋል አሉ የክልሉ ርዕሰ መስተዳድር አቶ አሻድሊ ሀሰን። ርዕሰ መስተዳድሩ ይህንን ያሉት ክልሉ የመጀመሪያ ሩብ ዓመት የሥራ አፈጻጸሙን በገመገመበት ወቅት ነው፡፡ በክልሉ ባለፉት ሦስት ወራት በግብርና፣ በማዕድንና በሌሎች ዘርፎች የተከናወኑ የልማት ሥራዎች የ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 27 Oct 2026 17:02:31 +0000"
+  },
+  {
+    "title": "የመቐለ ከተማን የትራፊክ እንቅስቃሴ ሕግ ለማስከበር እየተሰራ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) የመቐለ ከተማን የትራፊክ እንቅስቃሴ ሕግ ለማስከበር እየተሰራ ነው አሉ የከተማዋ የትራፊክ ፖሊስ አባላት። ሕገ-ወጡ የህወሓት ቡድን በፈጠረው ሕገ-ወጥ ተግባር ይስተዋል የነበረውን የትራንስፖርት ፍሰት ክፍተት ለማስተካከል ሕግ የማስከበር ስራዎች ተጠናክረው መቀጠላቸውን የከተማዋ የትራፊክ ፖሊስ አባላት ገልጸዋል። የከተማዋ የትራፊክ ፖሊስ አባል ምክትል ኮማንደር",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 27 Oct 2026 17:00:32 +0000"
   }
 ];
