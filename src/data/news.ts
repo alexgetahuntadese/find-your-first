@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ሩሲያ ገቡ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) 3ኛውን የሩሲያ-አፍሪካ ጉባኤ ለመታደም ሞስኮ፣ ሩሲያ ገብተዋል። #PMOEthiopia The post ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ሩሲያ ገቡ appeared first on Welcome to Fana Media Corporation S.C .",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 06:09:35 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Arrives in Moscow for Third Russia–Africa Summit",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has arrived in Moscow, Russia, to attend the Third Russia–Africa Summit, which brings African and Russian leaders together to discuss cooperation and the future of their partnership. The",
+    "title": "Ethiopia–Russia Nuclear Partnership: The Strategic Stakes of a New Energy Frontier",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s pursuit of nuclear energy is opening a new dimension in its relationship with Russia, extending bilateral cooperation into one of the most technically demanding and strategically consequential fields of modern d",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 06:01:25 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 12:27:19 +0000"
   },
   {
-    "title": "Ethiopia Must Sustain Its Role as Regional Peace and Security Anchor, Former PM Hailemariam Desalegn Says",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Former Ethiopian Prime Minister Hailemariam Desalegn has called on Ethiopia to strengthen and sustain its commitment to peace and security, citing its diplomatic engagement in addressing the Sudan crisis and its continuing",
+    "title": "Ethiopia–Russia Partnership Enters a New Strategic Phase Across Defence, Trade and Development",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s latest defence milestone with Russia offers a timely perspective on how the two countries are translating their strategic partnership into practical cooperation, while opening wider opportunities in trade, energ",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 05:56:20 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 11:28:21 +0000"
   },
   {
-    "title": "Africa Is an Independent Center of a Multipolar World, Not an Arena of Rivalry, Says Russian Foreign Ministry Spokesperson Maria Zakharova",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Russia views African countries as sovereign and equal partners and supports their emergence as an independent center of global development within a more just, multipolar world, Russian Foreign Ministry Spokesperson Maria Z",
+    "title": "PM Abiy Ahmed Witnesses Official Handover of 12 Su-35 Fighter Jets to Ethiopia Under Russia Defence Agreement",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia has received the first 12 Su-35 fourth-generation-plus fighter jets from Russia, Prime Minister Abiy Ahmed announced in a social media post, describing the delivery as a major milestone in the country’s efforts to",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 05:50:14 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 10:42:15 +0000"
   },
   {
-    "title": "Ethiopia Launches Official Nation Brand Website to Present Its Heritage, Development and Global Aspirations",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia has launched its official Nation Brand website, presenting the country’s historical heritage, natural resources, development initiatives and national aspirations to an international audience. In a social media pos",
+    "title": "AU Commission Chairperson Calls for Agricultural Transformation to Reduce Africa’s $100 Billion Food Import Bill",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — African Union Commission Chairperson Mahmoud Ali Youssouf has called for structural transformation of Africa’s agricultural sector to unlock the continent’s vast productive potential, strengthen food security and reduce de",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 05:41:35 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 09:33:42 +0000"
   },
   {
-    "title": "የኢትዮጵያና ሩሲያ ግንኙነት በሁሉም ዘርፍ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና ሩሲያ የረጅም ጊዜ ያስቆጠረ የዲፕሎማሲ፣ የወታደራዊ፣ የባህል እና የፖለቲካ ግንኙነት ያላቸው ሀገራት ናቸው፡፡ በሁለቱ ሀገራት መካከል መደበኛ የዲፕሎማሲ ግንኙነት የተጀመረው በፈረንጆቹ 1898 ሲሆን፣ የመጀመሪያው የሩሲያ ዲፕሎማሲያዊ ተልዕኮ በአዲስ አበባ ተቋቁሟል። ከዚያን ጊዜ እንስቶ እስካሁን የሀገራቱ ግንኙነት በማህበራዊ፣ በኢኮኖሚያዊ እና",
+    "title": "በደቡብ ምዕራብ ኢትዮጵያ ክልል በሩብ ዓመቱ ከ25 ሺህ በላይ ለሚሆኑ ወጣቶች የስራ ዕድል ተፈጠረ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) በደቡብ ምዕራብ ኢትዮጵያ ህዝቦች ክልል በበጀት ዓመቱ የመጀመሪያ ሩብ ዓመት ከ25 ሺህ በላይ ለሚሆኑ ወጣቶች የስራ ዕድል መፍጠር ተችሏል አለ የክልሉ ሴቶችና ማህበራዊ ጉዳይ ቢሮ። የቢሮ ኃላፊ አሰለፈች መብራቱ እንደገለጹት ፥ በሩብ ዓመቱ ለ11 ሺህ ወጣቶች የስራ ዕድል ለመፍጠር ታቅዶ ዕቅዱን በእጅጉ በማብለጥ 25 ሺህ 374 ወጣቶችን […] The post በ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 20:40:44 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 09:11:57 +0000"
   },
   {
-    "title": "ጠንካራ መከላከያ ሠራዊት – ለሀገራዊ ልማትና ለቀጣናዊ ዘላቂ ሰላም",
-    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) ዘመናዊ የጂኦፖለቲካ እና የጸጥታ ጥናቶች በጋራ ከሚስማሙባቸው ጉዳዮች አንዱ ልማትና ዘላቂ ሰላም ያለ አስተማማኝ የመከላከያ ኃይል ሊታሰብ እንደማይቻል ነው። የአንድ ሀገር መከላከያ ሠራዊት ጥንካሬ ድንበር ከማስከበር ባለፈ ለኢኮኖሚ ዕድገት ዋስትና የሚሰጥ፣ የኢንቨስትመንት ፍሰትን የሚያበረታታ እና ለቀጣናዊ ትስስርም መሠረት እንደሆነ የዘርፉ ምሁራን ያስረዳሉ።",
+    "title": "አፍሪካዊ መፍትሔ ለአፍሪካዊ ችግሮች – የሩሲያና አፍሪካ የጎለበተ አጋርነት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) አፍሪካ በተፈጥሮ ሀብት የበለጸገች አህጉር ናት፤ ነገር ግን ለዘመናት ሀብቶቿን ሌሎች ቅኝ ገዢዎች ሲጠቀሙበት ተመልካች ሆና ቆይታለች፡፡ አፍሪካውያን ከቅኝ ግዛት ቀንበር ከተላቀቁ በኋላ የራስን ችግር በራስ የመፍታት ፍላጎታቸውን ለማሳካት የጋራ ትብብራቸውንም ለማጠንከር እንደ የአፍሪካ አንድነት ድርጅት (አፍሪካ ህብረት) ያሉ ተቋማትን መስርተዋል፡፡ አፍሪካውያ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 19:33:55 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 08:52:21 +0000"
   },
   {
-    "title": "የትግራይ ተስፋ – ከግጭት ወደ ሰላም፤ ከስቃይ ወደ ልማት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) የትግራይን ህዝብ ለዓመታት ሲጨቁንና ሲረግጥ የቆየውን ህገወጡ የህወሓት ቡድን በመከላከያ ሰራዊታችንና በሰላም ኃይሎች አከርካሬውን ተመትቶ ከተበተነ በኋላ፣ ሕዝቡ ወደ ዘላቂ ሰላምና ልማት የተሸጋገረበት አዲስ ምዕራፍ ተከፍቷል። የፌዴራል መንግሥት የክልሉ ህዝብ ከነበረበት ጭቆና እና አፈና እንዲወጣ እንዲሁም በግጭት ምክንያት ተቋርጠው የነበሩ የህዝብ አገልግሎቶ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 18:59:18 +0000"
+    "title": "How Ethiopia Became Russia’s Longstanding and Reliable Partner in Africa",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — When Russian President Vladimir Putin described Ethiopia as “a long-standing and reliable partner of Russia on the African continent” during his September meeting with Prime Minister Abiy Ahmed in New Delhi, he was acknowl",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 08:22:40 +0000"
   },
   {
-    "title": "በዲፕሎማሲው መስክ አፍሪካና ሩሲያ እያደገ የመጣ አጋርነት መሥርተዋል – ማርያ ዛካሮቫ",
-    "summary": "በዲፕሎማሲው መስክ አፍሪካና ሩሲያ በጊዜ ሂደት እያደገ የመጣ አጋርነት መሥርተዋል አሉ የሩሲያ ውጭ ጉዳይ ሚኒስቴር ቃል አቀባይ ማርያ ዛካሮቫ። ቃል አቀባይዋ እንዳሉት÷ አጋርነቱ ሁሉን አቀፍ ባሕርይ ያለውና በወንድማማችነት መርህ ላይ የተመሠረተ ነው። አፍሪካውያንም ሉዓላዊነታቸውን በሚያከብርና በራሳቸው ውሳኔ የሚመሩበትን ግንኙነት ለመመሥረት እየተጉ እንደሆነ ጠቁመዋል። በተለይም በምግብ ራስን የመቻል አጀንዳ ",
+    "title": "የኅብረ ብሔራዊነት ማሳያ፤ የሀገር መከላከያ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መከላከያ ሠራዊት የሀገርን ሉዓላዊነትና አንድነት ከማስከበር ባለፈ፤ የኅብረ ብሔራዊነት ህያው ምስክር ነው። ይህ ሠራዊት ባለፉት ዘመናት አደረጃጀቱና ዘመናዊነቱ ቢቀያየርም፤ አንድ የማይለወጥ መሠረታዊ መለያ አለው፡፡ እሱም ከተለያዩ ብሔሮች ብሔረሰቦች የተወጣጡ ውድ ልጆችን በአንድ ዓላማ አስተሳስሮ የሀገርን ዳር ድንበር ማስከበሩ ነው። ሠራዊቱ የኢት",
     "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 17:29:16 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 08:22:34 +0000"
   },
   {
-    "title": "የሀገር መከላከያ ሠራዊት የሀገርን ዳር ድንበር ከማስከበር ባሻገር በልማትም በንቃት እየተሳተፈ ይገኛል – ኦርዲን በድሪ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት የሀገርን ዳር ድንበር ከማስከበር ባሻገር በልማትም በንቃት እየተሳተፈ ነው አሉ የሀረሪ ክልል ርዕሰ መስተዳድር ኦርዲን በድሪ። የምስራቅ ዕዝ ከሀረሪ ክልል መንግሥትና ከተለያዩ አካላት ጋር በመተባበር ያስገነባውን ዘመናዊ የእጅ ኳስ ሜዳ በርዕሰ መስተዳድር ኦርዲን በድሪ ተመርቆ ለአገልግሎት ክፍት ተደርጓል። በዚህ ወቅትም ርዕሰ መስተዳ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 17:17:24 +0000"
+    "title": "Ethiopia and Russia in a Multipolar World: Advancing National Interests Through Strategic Partnership",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — As global power relations shift and emerging economies seek a greater voice in international affairs, Ethiopia’s partnership with Russia is gaining renewed significance, offering opportunities to expand diplomatic options,",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 07:28:58 +0000"
   },
   {
-    "title": "በክልሉ ባለፉት 3 ወራት የህዝቡን ተጠቃሚነት ያረጋገጡ ውጤታማ ተግባራት ተከናውነዋል – ርዕሰ መስተዳድር አሻድሊ ሀሰን",
-    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) በቤኒሻንጉል ጉሙዝ ክልል በመጀመሪያው ሩብ ዓመት የህዝቡን ተጠቃሚነት ያረጋገጡ ውጤታማ ተግባራት ተከናውነዋል አሉ የክልሉ ርዕሰ መስተዳድር አቶ አሻድሊ ሀሰን። ርዕሰ መስተዳድሩ ይህንን ያሉት ክልሉ የመጀመሪያ ሩብ ዓመት የሥራ አፈጻጸሙን በገመገመበት ወቅት ነው፡፡ በክልሉ ባለፉት ሦስት ወራት በግብርና፣ በማዕድንና በሌሎች ዘርፎች የተከናወኑ የልማት ሥራዎች የ",
+    "title": "ኢትዮ- ሩሲያ፦ ከትናንት እስከ ዛሬ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) በሩሲያ እና በአፍሪካ አህጉር መካከል ያለው ሁለንተናዊ ግንኙነት በጋራ ጥቅም፣ በእኩልነት እና ሉዓላዊነት መርሆች ላይ ተመስርቶ ወደ አዲስ ስትራቴጂካዊ አጋርነት እየተሸጋገረ ነው። ዛሬ እና ነገ በሩሲያ ዋና ከተማ ሞስኮ በሚካሄደው ሦስተኛው የሩሲያ-አፍሪካ ጉባዔ፤ ጠቅላይ ሚኒስትር ዐቢይ አሕመድን (ዶ/ር) ጨምሮ የበርካታ የአፍሪካ ሀገራት መሪዎች እንደሚታደሙ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 17:02:31 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 07:13:42 +0000"
   },
   {
-    "title": "የመቐለ ከተማን የትራፊክ እንቅስቃሴ ሕግ ለማስከበር እየተሰራ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 17፣ 2019 (ኤፍ ኤም ሲ) የመቐለ ከተማን የትራፊክ እንቅስቃሴ ሕግ ለማስከበር እየተሰራ ነው አሉ የከተማዋ የትራፊክ ፖሊስ አባላት። ሕገ-ወጡ የህወሓት ቡድን በፈጠረው ሕገ-ወጥ ተግባር ይስተዋል የነበረውን የትራንስፖርት ፍሰት ክፍተት ለማስተካከል ሕግ የማስከበር ስራዎች ተጠናክረው መቀጠላቸውን የከተማዋ የትራፊክ ፖሊስ አባላት ገልጸዋል። የከተማዋ የትራፊክ ፖሊስ አባል ምክትል ኮማንደር",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 27 Oct 2026 17:00:32 +0000"
+    "title": "Third Russia–Africa Summit to Kick Off in Moscow Today, Focusing on Strategic Cooperation",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — The Third Russia–Africa Summit kicks off in Moscow today, bringing together Russian and African leaders for two days of discussions on political relations, economic cooperation and the future of their partnership. The Octo",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 07:03:12 +0000"
+  },
+  {
+    "title": "Addis Ababa’s Urban Renaissance: Ethiopia Is Reimagining the African City",
+    "summary": "Addis Ababa, October 28, 2026 (FMC) — A city’s transformation is measured not only by the buildings that rise above its skyline, but also by the life that unfolds along its streets, the beauty of its public spaces and the opportunities it creates for its peopl",
+    "source": "FBC English",
+    "publishedAt": "Wed, 28 Oct 2026 06:54:47 +0000"
   }
 ];
