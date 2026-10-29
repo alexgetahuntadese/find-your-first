@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "PM Abiy Ahmed: Ethiopia’s Defence Preparedness Will Deter Aggression and Safeguard National Sovereignty",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s ability to protect its airspace and safeguard its sovereignty depends on building credible defence capabilities before threats escalate into conflict, Prime Minister Abiy Ahmed said, underscoring military prepar",
+    "title": "From Pushkin’s Legacy to the BRICS Era: The Enduring Ethiopia–Russia Connection",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — The story of Alexander Pushkin, one of Russia’s most celebrated literary figures, offers a compelling cultural entry point into the longstanding connections between Ethiopia and Russia. Through his African ancestry and the",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 14:19:06 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 10:03:14 +0000"
   },
   {
-    "title": "PM Abiy Ahmed’s Medemer Book Launched in Russian, Expanding Ethiopia’s Global Intellectual Reach",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — The Russian-language edition of Ethiopian Prime Minister Abiy Ahmed’s book Medemer was launched in Moscow, extending the international reach of Ethiopia’s indigenous philosophy and strengthening intellectual and cultural t",
+    "title": "RT Africa Head Says Russian Edition of Medemer Will Bring Ethiopia’s Rare National Philosophy to a Wider Audience",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — RT Africa Head Svyatoslav Shchegolev has described Ethiopia as one of the rare countries with its own national philosophy, saying the Russian-language edition of Prime Minister Abiy Ahmed’s book “Medemer” will give Russian",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 13:39:04 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 09:15:07 +0000"
   },
   {
-    "title": "Ethiopia–Russia Nuclear Partnership: The Strategic Stakes of a New Energy Frontier",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s pursuit of nuclear energy is opening a new dimension in its relationship with Russia, extending bilateral cooperation into one of the most technically demanding and strategically consequential fields of modern d",
+    "title": "PM Abiy Says Medemer Offers the World Insights from Ethiopia’s Centuries-Old Indigenous Knowledge",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has said the Russian-language edition of his book Medemer offers an opportunity to introduce Ethiopia’s centuries-old indigenous knowledge, philosophies and beliefs to a wider internatio",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 12:27:19 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 08:56:14 +0000"
   },
   {
-    "title": "Ethiopia–Russia Partnership Enters a New Strategic Phase Across Defence, Trade and Development",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia’s latest defence milestone with Russia offers a timely perspective on how the two countries are translating their strategic partnership into practical cooperation, while opening wider opportunities in trade, energ",
+    "title": "Putin Welcomes Ethiopia’s Growing Partnership with Russia, Highlights Trade Surge and Shared International Priorities",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Russian President Vladimir Putin has welcomed the growing partnership between Russia and Ethiopia, highlighting a sharp rise in bilateral trade and continued cooperation on international and multilateral issues during talk",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 11:28:21 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 07:15:43 +0000"
   },
   {
-    "title": "PM Abiy Ahmed Witnesses Official Handover of 12 Su-35 Fighter Jets to Ethiopia Under Russia Defence Agreement",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — Ethiopia has received the first 12 Su-35 fourth-generation-plus fighter jets from Russia, Prime Minister Abiy Ahmed announced in a social media post, describing the delivery as a major milestone in the country’s efforts to",
+    "title": "Ethiopian Defense Minister Holds Talks with EU Ambassador on Security and Peacebuilding",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) – Ethiopian Defense Minister Mohamed Idris held talks with European Union (EU) Ambassador to Ethiopia Sophie From-Emmesberger on the current security situation, peacebuilding efforts and regional developments. During the dis",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 10:42:15 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 07:01:46 +0000"
   },
   {
-    "title": "AU Commission Chairperson Calls for Agricultural Transformation to Reduce Africa’s $100 Billion Food Import Bill",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — African Union Commission Chairperson Mahmoud Ali Youssouf has called for structural transformation of Africa’s agricultural sector to unlock the continent’s vast productive potential, strengthen food security and reduce de",
+    "title": "PM Abiy Ahmed and President Putin Discuss Nuclear Energy, Health and Trade Cooperation",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed and Russian President Vladimir Putin held bilateral discussions in Moscow on strengthening the longstanding relations between Ethiopia and Russia, focusing on cooperation in nuclear ener",
     "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 09:33:42 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 05:49:47 +0000"
   },
   {
-    "title": "በደቡብ ምዕራብ ኢትዮጵያ ክልል በሩብ ዓመቱ ከ25 ሺህ በላይ ለሚሆኑ ወጣቶች የስራ ዕድል ተፈጠረ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) በደቡብ ምዕራብ ኢትዮጵያ ህዝቦች ክልል በበጀት ዓመቱ የመጀመሪያ ሩብ ዓመት ከ25 ሺህ በላይ ለሚሆኑ ወጣቶች የስራ ዕድል መፍጠር ተችሏል አለ የክልሉ ሴቶችና ማህበራዊ ጉዳይ ቢሮ። የቢሮ ኃላፊ አሰለፈች መብራቱ እንደገለጹት ፥ በሩብ ዓመቱ ለ11 ሺህ ወጣቶች የስራ ዕድል ለመፍጠር ታቅዶ ዕቅዱን በእጅጉ በማብለጥ 25 ሺህ 374 ወጣቶችን […] The post በ",
+    "title": "ክርስቲያኖ ሮናልዶ የምንጊዜም ምርጥ የባሎንዶር አሸናፊ ሆነ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ፖርቹጋላዊው ኮከብ ክርስቲያኖ ሮናልዶ በፈረንጆቹ 2008 ያሳካው የባሎንዶር ሽልማት የምንጊዜም ምርጡ ተብሎ ተመርጧል፡፡ በፍራንስ ፉትቦል የተዘጋጀው የምንጊዜም ምርጡ ባሎንዶር የደጋፊዎች ምርጫ ውጤት ይፋ ሆኗል፡፡ በዚህም መሰረት ክርስቲያኖ ሮናልዶ በፈረንጆቹ 2008 ያሸነፈው ባሎንዶር በእግር ኳስ ተመልካቾች በተሰጠ ድምጽ የምንጊዜም ምርጥ ባሎንዶር ተብሎ መ",
     "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 09:11:57 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 18:56:48 +0000"
   },
   {
-    "title": "አፍሪካዊ መፍትሔ ለአፍሪካዊ ችግሮች – የሩሲያና አፍሪካ የጎለበተ አጋርነት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) አፍሪካ በተፈጥሮ ሀብት የበለጸገች አህጉር ናት፤ ነገር ግን ለዘመናት ሀብቶቿን ሌሎች ቅኝ ገዢዎች ሲጠቀሙበት ተመልካች ሆና ቆይታለች፡፡ አፍሪካውያን ከቅኝ ግዛት ቀንበር ከተላቀቁ በኋላ የራስን ችግር በራስ የመፍታት ፍላጎታቸውን ለማሳካት የጋራ ትብብራቸውንም ለማጠንከር እንደ የአፍሪካ አንድነት ድርጅት (አፍሪካ ህብረት) ያሉ ተቋማትን መስርተዋል፡፡ አፍሪካውያ",
+    "title": "ልዩ የአየር ላይ የማጥቃት ጥበብ የተላበሰው ሱ 35 4++",
+    "summary": "ፑጎቼቪስ ኮብራ የተሰኘውን የማጥቃት ልዩ አቅም አየር ላይ የሚያስመለክተው ሱ 35 4++ በዛሬው ዕለት የዓለምን ቀልብ የሳበ የበርካቶችን ትኩረት የሰረቀ መረጃ ከሞስኮ ሰማይ ስር በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ይፋ ሆኗል፡፡ ኢትዮጵያ 12 የሱ 35 የጦር ጄቶችን በይፋ ወደ አየር ኃይሏ ቀላቅላለች፡፡ በዓለም ላይ በወደር የለሽነቱ የሚነገርለት የሩሲያው ሱ 35 ምን የተለዩ ነገሮችን ይዟል የሚለው […",
     "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 08:52:21 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 16:45:03 +0000"
   },
   {
-    "title": "How Ethiopia Became Russia’s Longstanding and Reliable Partner in Africa",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — When Russian President Vladimir Putin described Ethiopia as “a long-standing and reliable partner of Russia on the African continent” during his September meeting with Prime Minister Abiy Ahmed in New Delhi, he was acknowl",
-    "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 08:22:40 +0000"
-  },
-  {
-    "title": "የኅብረ ብሔራዊነት ማሳያ፤ የሀገር መከላከያ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መከላከያ ሠራዊት የሀገርን ሉዓላዊነትና አንድነት ከማስከበር ባለፈ፤ የኅብረ ብሔራዊነት ህያው ምስክር ነው። ይህ ሠራዊት ባለፉት ዘመናት አደረጃጀቱና ዘመናዊነቱ ቢቀያየርም፤ አንድ የማይለወጥ መሠረታዊ መለያ አለው፡፡ እሱም ከተለያዩ ብሔሮች ብሔረሰቦች የተወጣጡ ውድ ልጆችን በአንድ ዓላማ አስተሳስሮ የሀገርን ዳር ድንበር ማስከበሩ ነው። ሠራዊቱ የኢት",
+    "title": "የመከላከያ ሚኒስትር መሐመድ እድሪስ ከአውሮፓ ኅብረት አምባሳደር ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) የመከላከያ ሚኒስትር መሐመድ እድሪስ ከአውሮፓ ኅብረት አምባሳደር ሶፊ ፍሮም-ኤምስበርገር ጋር ተወያይተዋል፡፡ ውይይቱ በወቅታዊ የደህንነት፣ የሰላም ግንባታ እና ቀጣናዊ ጉዳዮች ዙሪያ ያተኮረ መሆኑም ተመላክቷል፡፡ ጦርነቱ በኢትዮጵያ ፍላጎት የተነሳ ባይሆንም፤ የኢትዮጵያ መከላከያ ሠራዊት ግን የሕዝብ ደህንነትን ባከበረ መልኩ በጥቂት ጊዜያት ውስጥ ጥቃቱን በብቃ",
     "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 08:22:34 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 16:31:53 +0000"
   },
   {
-    "title": "Ethiopia and Russia in a Multipolar World: Advancing National Interests Through Strategic Partnership",
-    "summary": "Addis Ababa, October 28, 2026 (FMC) — As global power relations shift and emerging economies seek a greater voice in international affairs, Ethiopia’s partnership with Russia is gaining renewed significance, offering opportunities to expand diplomatic options,",
-    "source": "FBC English",
-    "publishedAt": "Wed, 28 Oct 2026 07:28:58 +0000"
-  },
-  {
-    "title": "ኢትዮ- ሩሲያ፦ ከትናንት እስከ ዛሬ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) በሩሲያ እና በአፍሪካ አህጉር መካከል ያለው ሁለንተናዊ ግንኙነት በጋራ ጥቅም፣ በእኩልነት እና ሉዓላዊነት መርሆች ላይ ተመስርቶ ወደ አዲስ ስትራቴጂካዊ አጋርነት እየተሸጋገረ ነው። ዛሬ እና ነገ በሩሲያ ዋና ከተማ ሞስኮ በሚካሄደው ሦስተኛው የሩሲያ-አፍሪካ ጉባዔ፤ ጠቅላይ ሚኒስትር ዐቢይ አሕመድን (ዶ/ር) ጨምሮ የበርካታ የአፍሪካ ሀገራት መሪዎች እንደሚታደሙ",
+    "title": "ታላቅ ሃገር ነን፣ ታሪካዊ ሃገር ነን፤ በዚያው ልክ አቅም መገንባትና ዝግጅት ያስፈልጋል – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ታላቅ ሃገር ነን፣ ታሪካዊ ሃገር ነን፤ በዚያው ልክ አቅም መገንባትና ዝግጅት ያስፈልጋል አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)፡፡ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመጀመሪያዎቹን 12 የሱ-35 4ኛ++ ትውልድ የጦር ጄቶች ከሩሲያ በተረከቡበት ወቅት እንዳሉት፤ ኢትዮጵያ በብዙ ጠላት የተከበበች ሀገር ናት፣ ልጆቻችን ሀገር እንዲኖራቸው፣ የአየር ",
     "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 07:13:42 +0000"
+    "publishedAt": "Wed, 28 Oct 2026 16:04:11 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመጀመሪያዎቹን 12 የሱ-35 4ኛ++ ትውልድ የጦር ጄቶች ርክክብን በተመለከተ ያነሷቸው ዋና ዋና ነጥቦች፡-",
+    "summary": "ከጥቂት ዓመታት በፊት አጠቃላይ የኢትዮጵያን ስጋት ለመቀነስ እንዲሁም በዓለም ሀገራት ዘንድ የአየር የበላይነትን ለመውስደ የሚደረገውን ሩጫ በመገንዘብ ከሩሲያ መንግሥት ጋር የሱ-35 4ኛ ትውልድ ኤር ክራፍት ስምምነት ፈጽመን ነበር፡፡ ስምምነቱ ጊዜው ደርሶ የመጀሪያው ዴሊቨሪ ስምምነት በ2027 ቢሆንም ከሬዚዳንት ፑቲን ጋር በህንድ በነበረን ቆይታ ቅድሚያ ሰጥተው እንዲያቀርቡልን ባቀረብነው መሰረት የመጀመሪያውን",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 28 Oct 2026 15:09:20 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ በአፍሪካ ሻል ያለውን ቴክኖሎጂ መታጠቅ ችላለች – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በአፍሪካ ሻል ያለውን ቴክኖሎጂ መታጠቅ ችላለች አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ ኢትዮጵያ የመጀመሪያዎቹን የሱ-35 የጦር ጄቶች ከሩሲያ በተረከበችበት ወቅት ባስተላለፉት መልዕክት፤ በሚቀጥሉት ዓመታት በብዙ መልኩ የኢትዮጵያ ራሷን የመከላከል አቅሟን ትገነባለች ብለዋል። እንደ ከዚህ ቀደሙ በልመናና በችሮታ የምንጎናጸፈው",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 28 Oct 2026 14:19:34 +0000"
   }
 ];
