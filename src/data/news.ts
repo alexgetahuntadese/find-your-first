@@ -3,40 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "From Pushkin’s Legacy to the BRICS Era: The Enduring Ethiopia–Russia Connection",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — The story of Alexander Pushkin, one of Russia’s most celebrated literary figures, offers a compelling cultural entry point into the longstanding connections between Ethiopia and Russia. Through his African ancestry and the",
+    "title": "Illegal TPLF Group’s Destruction and Looting of Mekelle Institutions Disrupt Public Services, Deepen Tigray’s Recovery Burden",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — The illegal TPLF group left a trail of destruction and looting across Mekelle’s key administrative and public service institutions as it withdrew from the city, damaging public property, disrupting government operations an",
     "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 10:03:14 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 16:43:37 +0000"
   },
   {
-    "title": "RT Africa Head Says Russian Edition of Medemer Will Bring Ethiopia’s Rare National Philosophy to a Wider Audience",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — RT Africa Head Svyatoslav Shchegolev has described Ethiopia as one of the rare countries with its own national philosophy, saying the Russian-language edition of Prime Minister Abiy Ahmed’s book “Medemer” will give Russian",
+    "title": "Ethiopia Welcomes UAE Candidate Lana Nusseibeh for UN Secretary-General Post",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopia has welcomed the candidacy of Lana Nusseibeh, nominated by the United Arab Emirates for the position of United Nations Secretary-General, reaffirming the importance it attaches to the leadership of the world body.",
     "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 09:15:07 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 16:30:23 +0000"
   },
   {
-    "title": "PM Abiy Says Medemer Offers the World Insights from Ethiopia’s Centuries-Old Indigenous Knowledge",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has said the Russian-language edition of his book Medemer offers an opportunity to introduce Ethiopia’s centuries-old indigenous knowledge, philosophies and beliefs to a wider internatio",
+    "title": "Ethiopian Navy, Regional Maritime Forces Strengthen Cooperation on Maritime Security and Rescue Operations",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Navy, in cooperation with the European Union, has concluded a regional maritime security forum focused on strengthening cooperation among regional countries in maritime safety, information sharing and search-",
     "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 08:56:14 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 16:20:59 +0000"
   },
   {
-    "title": "Putin Welcomes Ethiopia’s Growing Partnership with Russia, Highlights Trade Surge and Shared International Priorities",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Russian President Vladimir Putin has welcomed the growing partnership between Russia and Ethiopia, highlighting a sharp rise in bilateral trade and continued cooperation on international and multilateral issues during talk",
+    "title": "Addis Ababa Delivers Nearly Half a Million Homes in Five Years, Expands Inclusive Housing Development",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Addis Ababa City Administration says nearly half a million homes have been built and transferred to residents over the past five years, as the city expands housing development and access to homeownership. The administr",
     "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 07:15:43 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 16:10:30 +0000"
   },
   {
-    "title": "Ethiopian Defense Minister Holds Talks with EU Ambassador on Security and Peacebuilding",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) – Ethiopian Defense Minister Mohamed Idris held talks with European Union (EU) Ambassador to Ethiopia Sophie From-Emmesberger on the current security situation, peacebuilding efforts and regional developments. During the dis",
+    "title": "AU Commission Chairperson urges Africa to capture greater value from resources, renews call for global Financial reforms",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — African Union Commission Chairperson Mahmoud Ali Youssouf has called for stronger African economic sovereignty, equitable global financial arrangements and expanded technology cooperation with Russia and other internationa",
     "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 07:01:46 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 16:03:19 +0000"
   },
   {
-    "title": "PM Abiy Ahmed and President Putin Discuss Nuclear Energy, Health and Trade Cooperation",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed and Russian President Vladimir Putin held bilateral discussions in Moscow on strengthening the longstanding relations between Ethiopia and Russia, focusing on cooperation in nuclear ener",
+    "title": "Ethiopian Media Authority Grants New Licence to Suspended Tigray Media Agency, Renamed Tigray Broadcasting Corporation",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Media Authority has granted a new broadcasting licence to the previously suspended Tigray Media Agency under the new name Tigray Broadcasting Corporation, following a request by the Tigray Regional State Inte",
     "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 05:49:47 +0000"
+    "publishedAt": "Thu, 29 Oct 2026 15:21:02 +0000"
+  },
+  {
+    "title": "Former Dimtsi Woyane Tigray Broadcaster Rebranded as Maedot Broadcasting Service Under New Licence",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Media Authority has granted a new broadcasting licence to the former Dimtsi Woyane Tigray Radio and Television Service under the new name Maedot Broadcasting Service, following a request submitted by the Tigr",
+    "source": "FBC English",
+    "publishedAt": "Thu, 29 Oct 2026 15:10:37 +0000"
+  },
+  {
+    "title": "PM Abiy Presents Medemer as a Bridge for Reciprocal Knowledge Exchange Between Ethiopia and Russia",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has highlighted the reciprocal exchange of knowledge between Ethiopia and Russia as a defining feature of their longstanding relationship, drawing a connection between a Russian medical ",
+    "source": "FBC English",
+    "publishedAt": "Thu, 29 Oct 2026 14:43:33 +0000"
+  },
+  {
+    "title": "PM Abiy Says Ethiopia Ready to Host Russia–Africa Summit When It Next Comes to Africa",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has expressed Ethiopia’s readiness to host a future Russia–Africa Summit in Addis Ababa when the gathering next comes to Africa, highlighting the Ethiopian capital’s role as the seat of ",
+    "source": "FBC English",
+    "publishedAt": "Thu, 29 Oct 2026 14:36:59 +0000"
+  },
+  {
+    "title": "Ethiopia Invites Russian Firms to Establish Joint Ventures in Special Economic Zones to Serve African Markets",
+    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopia has invited Russian enterprises to establish joint ventures in its special economic zones, particularly in the pharmaceutical and machinery industries, as it seeks to expand domestic production and use the African",
+    "source": "FBC English",
+    "publishedAt": "Thu, 29 Oct 2026 14:28:40 +0000"
   },
   {
     "title": "ክርስቲያኖ ሮናልዶ የምንጊዜም ምርጥ የባሎንዶር አሸናፊ ሆነ",
@@ -49,29 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "ፑጎቼቪስ ኮብራ የተሰኘውን የማጥቃት ልዩ አቅም አየር ላይ የሚያስመለክተው ሱ 35 4++ በዛሬው ዕለት የዓለምን ቀልብ የሳበ የበርካቶችን ትኩረት የሰረቀ መረጃ ከሞስኮ ሰማይ ስር በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ይፋ ሆኗል፡፡ ኢትዮጵያ 12 የሱ 35 የጦር ጄቶችን በይፋ ወደ አየር ኃይሏ ቀላቅላለች፡፡ በዓለም ላይ በወደር የለሽነቱ የሚነገርለት የሩሲያው ሱ 35 ምን የተለዩ ነገሮችን ይዟል የሚለው […",
     "source": "Fana Media",
     "publishedAt": "Wed, 28 Oct 2026 16:45:03 +0000"
-  },
-  {
-    "title": "የመከላከያ ሚኒስትር መሐመድ እድሪስ ከአውሮፓ ኅብረት አምባሳደር ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) የመከላከያ ሚኒስትር መሐመድ እድሪስ ከአውሮፓ ኅብረት አምባሳደር ሶፊ ፍሮም-ኤምስበርገር ጋር ተወያይተዋል፡፡ ውይይቱ በወቅታዊ የደህንነት፣ የሰላም ግንባታ እና ቀጣናዊ ጉዳዮች ዙሪያ ያተኮረ መሆኑም ተመላክቷል፡፡ ጦርነቱ በኢትዮጵያ ፍላጎት የተነሳ ባይሆንም፤ የኢትዮጵያ መከላከያ ሠራዊት ግን የሕዝብ ደህንነትን ባከበረ መልኩ በጥቂት ጊዜያት ውስጥ ጥቃቱን በብቃ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 16:31:53 +0000"
-  },
-  {
-    "title": "ታላቅ ሃገር ነን፣ ታሪካዊ ሃገር ነን፤ በዚያው ልክ አቅም መገንባትና ዝግጅት ያስፈልጋል – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ታላቅ ሃገር ነን፣ ታሪካዊ ሃገር ነን፤ በዚያው ልክ አቅም መገንባትና ዝግጅት ያስፈልጋል አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)፡፡ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመጀመሪያዎቹን 12 የሱ-35 4ኛ++ ትውልድ የጦር ጄቶች ከሩሲያ በተረከቡበት ወቅት እንዳሉት፤ ኢትዮጵያ በብዙ ጠላት የተከበበች ሀገር ናት፣ ልጆቻችን ሀገር እንዲኖራቸው፣ የአየር ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 16:04:11 +0000"
-  },
-  {
-    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) የመጀመሪያዎቹን 12 የሱ-35 4ኛ++ ትውልድ የጦር ጄቶች ርክክብን በተመለከተ ያነሷቸው ዋና ዋና ነጥቦች፡-",
-    "summary": "ከጥቂት ዓመታት በፊት አጠቃላይ የኢትዮጵያን ስጋት ለመቀነስ እንዲሁም በዓለም ሀገራት ዘንድ የአየር የበላይነትን ለመውስደ የሚደረገውን ሩጫ በመገንዘብ ከሩሲያ መንግሥት ጋር የሱ-35 4ኛ ትውልድ ኤር ክራፍት ስምምነት ፈጽመን ነበር፡፡ ስምምነቱ ጊዜው ደርሶ የመጀሪያው ዴሊቨሪ ስምምነት በ2027 ቢሆንም ከሬዚዳንት ፑቲን ጋር በህንድ በነበረን ቆይታ ቅድሚያ ሰጥተው እንዲያቀርቡልን ባቀረብነው መሰረት የመጀመሪያውን",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 15:09:20 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ በአፍሪካ ሻል ያለውን ቴክኖሎጂ መታጠቅ ችላለች – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በአፍሪካ ሻል ያለውን ቴክኖሎጂ መታጠቅ ችላለች አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ ኢትዮጵያ የመጀመሪያዎቹን የሱ-35 የጦር ጄቶች ከሩሲያ በተረከበችበት ወቅት ባስተላለፉት መልዕክት፤ በሚቀጥሉት ዓመታት በብዙ መልኩ የኢትዮጵያ ራሷን የመከላከል አቅሟን ትገነባለች ብለዋል። እንደ ከዚህ ቀደሙ በልመናና በችሮታ የምንጎናጸፈው",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 14:19:34 +0000"
   }
 ];
