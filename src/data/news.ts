@@ -3,34 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Expands Natural Gas Conversion Initiative to Taxis to Cut Transport Costs – PM Abiy",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia is extending its natural gas transition beyond public transportation to include taxis, as the government seeks to reduce fuel expenses and make urban transport more affordable, Prime Minister Abiy Ahmed has disclo",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 14:37:08 +0000"
+  },
+  {
+    "title": "Ethiopia’s Natural Resource Conservation Efforts Advance Shared Prosperity Across Nile Basin",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia’s investments in natural resource conservation, watershed management, and integrated water development are contributing to sustainable regional growth while creating opportunities for shared benefits among Nile Ba",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 14:30:22 +0000"
+  },
+  {
+    "title": "Ethiopia’s Adwa Victory Legacy to Be Taught in Schools Through New Outreach Program",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — The Adwa Victory Memorial is preparing to launch a school outreach program to help young Ethiopians understand the historical significance of the Victory of Adwa, the country’s cultural heritage, and the shared history tha",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 14:23:10 +0000"
+  },
+  {
+    "title": "PM Abiy Says Debre Berhan, Modjo Ceramic Factories Shift to Natural Gas with Capacity Exceeding National Demand",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia’s transition to domestically produced natural gas is beginning to reshape the operating costs of local manufacturing, with the Debre Berhan and Modjo ceramic factories shifting from imported conventional fuels to ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 12:06:29 +0000"
+  },
+  {
+    "title": "Ethiopia Orders 400 Natural Gas Buses, Nearly 100 Gas-Powered Trucks to Expand Transport Transition – PM Abiy",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia has ordered 400 additional natural gas-powered buses and nearly 100 gas transport trucks as part of efforts to expand the use of locally produced natural gas in public transportation, logistics and other economic ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 11:40:00 +0000"
+  },
+  {
+    "title": "PM Abiy: Ethiopia’s Natural Gas to Power Industrial Growth, Cut Costs and Ease Household Pressures",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has outlined a broader national strategy to turn the country’s natural gas resources into an engine of industrial growth, lower production and transportation costs, and ease the cost-of-",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 11:24:56 +0000"
+  },
+  {
+    "title": "Putin Says Modern Agricultural Technology Can Help Africa Become a Major Food Exporter",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Russian President Vladimir Putin has said modern agricultural technologies and improved production systems could enable African countries not only to meet their own food requirements but also to emerge as major exporters o",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 10:24:46 +0000"
+  },
+  {
+    "title": "Russia and Africa Adopt Action Plan Through 2029 to Advance Trade, Investment and Strategic Cooperation",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Russia and African countries have agreed on a joint action plan through 2029 to advance trade, investment and cooperation across strategic sectors, as leaders at the third Russia–Africa Summit called for stronger economic ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 10:20:45 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed Announces Launch of Ethiopia’s First Natural Gas-Powered City Buses, 50% Fare Cut",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has announced the launch of his country’s first 26 city buses converted from conventional fuel to natural gas, marking a new step in efforts to reduce fuel imports and make public transp",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 09:33:23 +0000"
+  },
+  {
     "title": "Ethiopia Takes Command of Its Aerospace Future Through Homegrown Drone Manufacturing",
     "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia is opening a new chapter in its technological and industrial transformation, moving beyond the role of a consumer of advanced aerospace technology to developing the domestic capacity to manufacture its own unmanne",
     "source": "FBC English",
     "publishedAt": "Fri, 30 Oct 2026 07:17:00 +0000"
-  },
-  {
-    "title": "From Import Dependence to Domestic Production: How the Medemer Government Is Redefining Ethiopia’s Economic Trajectory",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia is pursuing a fundamental shift in its economic direction under the Medemer Government: producing at home what it has long depended on importing, building industrial capacity where supply gaps once constrained gro",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 07:07:44 +0000"
-  },
-  {
-    "title": "OFFICIAL: CAF Restores Africa Cup of Nations to Two-Year Cycle, Confirms Next Four Editions",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — The Confederation of African Football (CAF) has unanimously decided to restore the Africa Cup of Nations (AFCON) to its traditional two-year cycle, reversing its previous decision to stage the continent’s flagship football",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 06:48:29 +0000"
-  },
-  {
-    "title": "INTERPOL Secretary General Arrives in Addis Ababa for Official Visit",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — INTERPOL Secretary General Valdecy Urquiza has arrived in Addis Ababa for an official working visit aimed at strengthening cooperation between Ethiopia’s law enforcement institutions and the international police organizati",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 06:33:53 +0000"
-  },
-  {
-    "title": "PM Abiy Returns to Ethiopia After Successful Participation in Russia–Africa Summit",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has returned to Ethiopia after concluding his participation in the Third Russia–Africa Summit in Moscow, with the visit underscoring the potential of Ethiopia–Russia strategic partnershi",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 22:49:52 +0000"
   },
   {
     "title": "የቀይ ባህር ምስጢር ፤ የኢትዮጵያ መብት",
@@ -43,35 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 19፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና ሩሲያ በ3ኛው የሩሲያ-አፍሪካ ጉባኤ ጎን ለጎን የሁለቱን ሀገራት ታሪካዊ ወዳጅነት ወደ ተጨባጭ ትብብር የሚያሸጋግሩ ሶስት የሁለትዮሽ ስምምነቶችን ተፈራርመዋል። በውጭ ጉዳይ ሚኒስቴር ዴኤታ አምባሳደር ሀደራ አበራ እና በሩሲያ ወገን መካከል የተፈረሙት እነዚህ ስምምነቶች፣ በጤና እና በሚዲያ ዘርፎች ላይ ያተኮሩ ናቸው። ከስምምነቶቹ መካከል የደጃዝ",
     "source": "Fana Media",
     "publishedAt": "Thu, 29 Oct 2026 19:51:04 +0000"
-  },
-  {
-    "title": "አዲሲቷን ሞስኮ አገኘናት ፡ ከፑሽኪን ቅድመ-አያት እስከ ዛሬ",
-    "summary": "በሩሲያ ታሪክ ውስጥ በጣም ታዋቂው አፍሪካዊ ግለሰብ፣ የታላቁ ሩሲያዊ ገጣሚ አሌክሳንደር ፑሽኪን ቅድመ-አያት አብራም ጋኒባል (Abram Gannibal) ነው። አፍሪካዊው አብራም ጋኒባል በ18ኛው ክፍለ ዘመን መጀመሪያ ላይ በታላቁ ጴጥሮስ ቤተ-መንግሥት ገባ፡፡ ንጉሡም የክርስትና አባቱ ሆነ፤ ለትምህርትም ወደ ፈረንሳይ ላከው። ጋኒባል የወታደራዊ ስልጠና ወስዶ ኢንጂነር በመሆን፣ በመጨረሻም እስከ ጄኔራልነት ማዕረ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 29 Oct 2026 17:40:23 +0000"
-  },
-  {
-    "title": "Illegal TPLF Group’s Destruction and Looting of Mekelle Institutions Disrupt Public Services, Deepen Tigray’s Recovery Burden",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — The illegal TPLF group left a trail of destruction and looting across Mekelle’s key administrative and public service institutions as it withdrew from the city, damaging public property, disrupting government operations an",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 16:43:37 +0000"
-  },
-  {
-    "title": "Ethiopia Welcomes UAE Candidate Lana Nusseibeh for UN Secretary-General Post",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopia has welcomed the candidacy of Lana Nusseibeh, nominated by the United Arab Emirates for the position of United Nations Secretary-General, reaffirming the importance it attaches to the leadership of the world body.",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 16:30:23 +0000"
-  },
-  {
-    "title": "የኢፌዴሪ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በሞስኮ በተካሄደው 3ኛው የሩሲያ-አፍሪካ ጉባኤ ላይ ያደረጉት ንግግር ዋና ዋና ነጥቦች",
-    "summary": "👉 የኢትዮጵያና የሩሲያ ወዳጅነት ከአንድ ክፍለ ዘመን በላይ በመከባበርና በአብሮነት አድጓል። 👉 እ.ኤ.አ. በ1896 የታላቁ የዓድዋ ጦርነት ወቅት የሩሲያ ቀይ መስቀል ቡድን ቁስለኞቻችንን ለማከም ወደ ኢትዮጵያ መጥቶ ነበር። 👉 ቡድኑም አንድ የሕክምና መመሪያ መጽሐፍ ወደ አማርኛ ተርጉሟል። ያ ትንሽ የሚመስል ነገር ግን ትልቅ ትርጉም ያለው ተግባር ነበር፤ ዕውቀትን ወደ ፈውስ ለውጧል። 👉 ዓለም እየተለወ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 29 Oct 2026 16:26:58 +0000"
-  },
-  {
-    "title": "Ethiopian Navy, Regional Maritime Forces Strengthen Cooperation on Maritime Security and Rescue Operations",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Navy, in cooperation with the European Union, has concluded a regional maritime security forum focused on strengthening cooperation among regional countries in maritime safety, information sharing and search-",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 16:20:59 +0000"
   }
 ];
