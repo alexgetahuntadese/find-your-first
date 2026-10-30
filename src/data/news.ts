@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Takes Command of Its Aerospace Future Through Homegrown Drone Manufacturing",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia is opening a new chapter in its technological and industrial transformation, moving beyond the role of a consumer of advanced aerospace technology to developing the domestic capacity to manufacture its own unmanne",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 07:17:00 +0000"
+  },
+  {
+    "title": "From Import Dependence to Domestic Production: How the Medemer Government Is Redefining Ethiopia’s Economic Trajectory",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia is pursuing a fundamental shift in its economic direction under the Medemer Government: producing at home what it has long depended on importing, building industrial capacity where supply gaps once constrained gro",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 07:07:44 +0000"
+  },
+  {
+    "title": "OFFICIAL: CAF Restores Africa Cup of Nations to Two-Year Cycle, Confirms Next Four Editions",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — The Confederation of African Football (CAF) has unanimously decided to restore the Africa Cup of Nations (AFCON) to its traditional two-year cycle, reversing its previous decision to stage the continent’s flagship football",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 06:48:29 +0000"
+  },
+  {
+    "title": "INTERPOL Secretary General Arrives in Addis Ababa for Official Visit",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — INTERPOL Secretary General Valdecy Urquiza has arrived in Addis Ababa for an official working visit aimed at strengthening cooperation between Ethiopia’s law enforcement institutions and the international police organizati",
+    "source": "FBC English",
+    "publishedAt": "Fri, 30 Oct 2026 06:33:53 +0000"
+  },
+  {
+    "title": "PM Abiy Returns to Ethiopia After Successful Participation in Russia–Africa Summit",
+    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has returned to Ethiopia after concluding his participation in the Third Russia–Africa Summit in Moscow, with the visit underscoring the potential of Ethiopia–Russia strategic partnershi",
+    "source": "FBC English",
+    "publishedAt": "Thu, 29 Oct 2026 22:49:52 +0000"
+  },
+  {
+    "title": "የቀይ ባህር ምስጢር ፤ የኢትዮጵያ መብት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 19፣ 2019 (ኤፍ ኤም ሲ) ቀይ ባህር በዓለም አቀፍ የውሃ አካላት መካከል ልዩ እና ስልታዊ ስፍራ የሚይዝ ተፈጥሮ ነው። ባህሩ ከተለመደው የባህር ውቅያኖስ ባህሪ ይልቅ በርካታ ተፈጥሯዊ ምስጢራትን በውስጡ ይዟል። ቀይ ባህር በውሃው ንጹህነት እና በሰማያዊነቱ የሚታወቅ ቢሆንም “ቀይ” የሚለውን ስም ያገኘው ግን በየወቅቱ በውሃው ላይ በሚፈነዱ Trichodesmium erythraeum በተባ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 29 Oct 2026 20:37:27 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ እና ሩሲያ ሶስት የሁለትዮሽ ስምምነቶችን ተፈራረሙ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 19፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና ሩሲያ በ3ኛው የሩሲያ-አፍሪካ ጉባኤ ጎን ለጎን የሁለቱን ሀገራት ታሪካዊ ወዳጅነት ወደ ተጨባጭ ትብብር የሚያሸጋግሩ ሶስት የሁለትዮሽ ስምምነቶችን ተፈራርመዋል። በውጭ ጉዳይ ሚኒስቴር ዴኤታ አምባሳደር ሀደራ አበራ እና በሩሲያ ወገን መካከል የተፈረሙት እነዚህ ስምምነቶች፣ በጤና እና በሚዲያ ዘርፎች ላይ ያተኮሩ ናቸው። ከስምምነቶቹ መካከል የደጃዝ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 29 Oct 2026 19:51:04 +0000"
+  },
+  {
+    "title": "አዲሲቷን ሞስኮ አገኘናት ፡ ከፑሽኪን ቅድመ-አያት እስከ ዛሬ",
+    "summary": "በሩሲያ ታሪክ ውስጥ በጣም ታዋቂው አፍሪካዊ ግለሰብ፣ የታላቁ ሩሲያዊ ገጣሚ አሌክሳንደር ፑሽኪን ቅድመ-አያት አብራም ጋኒባል (Abram Gannibal) ነው። አፍሪካዊው አብራም ጋኒባል በ18ኛው ክፍለ ዘመን መጀመሪያ ላይ በታላቁ ጴጥሮስ ቤተ-መንግሥት ገባ፡፡ ንጉሡም የክርስትና አባቱ ሆነ፤ ለትምህርትም ወደ ፈረንሳይ ላከው። ጋኒባል የወታደራዊ ስልጠና ወስዶ ኢንጂነር በመሆን፣ በመጨረሻም እስከ ጄኔራልነት ማዕረ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 29 Oct 2026 17:40:23 +0000"
+  },
+  {
     "title": "Illegal TPLF Group’s Destruction and Looting of Mekelle Institutions Disrupt Public Services, Deepen Tigray’s Recovery Burden",
     "summary": "Addis Ababa, October 29, 2026 (FMC) — The illegal TPLF group left a trail of destruction and looting across Mekelle’s key administrative and public service institutions as it withdrew from the city, damaging public property, disrupting government operations an",
     "source": "FBC English",
@@ -15,63 +63,15 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Thu, 29 Oct 2026 16:30:23 +0000"
   },
   {
+    "title": "የኢፌዴሪ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በሞስኮ በተካሄደው 3ኛው የሩሲያ-አፍሪካ ጉባኤ ላይ ያደረጉት ንግግር ዋና ዋና ነጥቦች",
+    "summary": "👉 የኢትዮጵያና የሩሲያ ወዳጅነት ከአንድ ክፍለ ዘመን በላይ በመከባበርና በአብሮነት አድጓል። 👉 እ.ኤ.አ. በ1896 የታላቁ የዓድዋ ጦርነት ወቅት የሩሲያ ቀይ መስቀል ቡድን ቁስለኞቻችንን ለማከም ወደ ኢትዮጵያ መጥቶ ነበር። 👉 ቡድኑም አንድ የሕክምና መመሪያ መጽሐፍ ወደ አማርኛ ተርጉሟል። ያ ትንሽ የሚመስል ነገር ግን ትልቅ ትርጉም ያለው ተግባር ነበር፤ ዕውቀትን ወደ ፈውስ ለውጧል። 👉 ዓለም እየተለወ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 29 Oct 2026 16:26:58 +0000"
+  },
+  {
     "title": "Ethiopian Navy, Regional Maritime Forces Strengthen Cooperation on Maritime Security and Rescue Operations",
     "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Navy, in cooperation with the European Union, has concluded a regional maritime security forum focused on strengthening cooperation among regional countries in maritime safety, information sharing and search-",
     "source": "FBC English",
     "publishedAt": "Thu, 29 Oct 2026 16:20:59 +0000"
-  },
-  {
-    "title": "Addis Ababa Delivers Nearly Half a Million Homes in Five Years, Expands Inclusive Housing Development",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Addis Ababa City Administration says nearly half a million homes have been built and transferred to residents over the past five years, as the city expands housing development and access to homeownership. The administr",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 16:10:30 +0000"
-  },
-  {
-    "title": "AU Commission Chairperson urges Africa to capture greater value from resources, renews call for global Financial reforms",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — African Union Commission Chairperson Mahmoud Ali Youssouf has called for stronger African economic sovereignty, equitable global financial arrangements and expanded technology cooperation with Russia and other internationa",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 16:03:19 +0000"
-  },
-  {
-    "title": "Ethiopian Media Authority Grants New Licence to Suspended Tigray Media Agency, Renamed Tigray Broadcasting Corporation",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Media Authority has granted a new broadcasting licence to the previously suspended Tigray Media Agency under the new name Tigray Broadcasting Corporation, following a request by the Tigray Regional State Inte",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 15:21:02 +0000"
-  },
-  {
-    "title": "Former Dimtsi Woyane Tigray Broadcaster Rebranded as Maedot Broadcasting Service Under New Licence",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — The Ethiopian Media Authority has granted a new broadcasting licence to the former Dimtsi Woyane Tigray Radio and Television Service under the new name Maedot Broadcasting Service, following a request submitted by the Tigr",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 15:10:37 +0000"
-  },
-  {
-    "title": "PM Abiy Presents Medemer as a Bridge for Reciprocal Knowledge Exchange Between Ethiopia and Russia",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has highlighted the reciprocal exchange of knowledge between Ethiopia and Russia as a defining feature of their longstanding relationship, drawing a connection between a Russian medical ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 14:43:33 +0000"
-  },
-  {
-    "title": "PM Abiy Says Ethiopia Ready to Host Russia–Africa Summit When It Next Comes to Africa",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has expressed Ethiopia’s readiness to host a future Russia–Africa Summit in Addis Ababa when the gathering next comes to Africa, highlighting the Ethiopian capital’s role as the seat of ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 14:36:59 +0000"
-  },
-  {
-    "title": "Ethiopia Invites Russian Firms to Establish Joint Ventures in Special Economic Zones to Serve African Markets",
-    "summary": "Addis Ababa, October 29, 2026 (FMC) — Ethiopia has invited Russian enterprises to establish joint ventures in its special economic zones, particularly in the pharmaceutical and machinery industries, as it seeks to expand domestic production and use the African",
-    "source": "FBC English",
-    "publishedAt": "Thu, 29 Oct 2026 14:28:40 +0000"
-  },
-  {
-    "title": "ክርስቲያኖ ሮናልዶ የምንጊዜም ምርጥ የባሎንዶር አሸናፊ ሆነ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 18፣ 2019 (ኤፍ ኤም ሲ) ፖርቹጋላዊው ኮከብ ክርስቲያኖ ሮናልዶ በፈረንጆቹ 2008 ያሳካው የባሎንዶር ሽልማት የምንጊዜም ምርጡ ተብሎ ተመርጧል፡፡ በፍራንስ ፉትቦል የተዘጋጀው የምንጊዜም ምርጡ ባሎንዶር የደጋፊዎች ምርጫ ውጤት ይፋ ሆኗል፡፡ በዚህም መሰረት ክርስቲያኖ ሮናልዶ በፈረንጆቹ 2008 ያሸነፈው ባሎንዶር በእግር ኳስ ተመልካቾች በተሰጠ ድምጽ የምንጊዜም ምርጥ ባሎንዶር ተብሎ መ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 18:56:48 +0000"
-  },
-  {
-    "title": "ልዩ የአየር ላይ የማጥቃት ጥበብ የተላበሰው ሱ 35 4++",
-    "summary": "ፑጎቼቪስ ኮብራ የተሰኘውን የማጥቃት ልዩ አቅም አየር ላይ የሚያስመለክተው ሱ 35 4++ በዛሬው ዕለት የዓለምን ቀልብ የሳበ የበርካቶችን ትኩረት የሰረቀ መረጃ ከሞስኮ ሰማይ ስር በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ይፋ ሆኗል፡፡ ኢትዮጵያ 12 የሱ 35 የጦር ጄቶችን በይፋ ወደ አየር ኃይሏ ቀላቅላለች፡፡ በዓለም ላይ በወደር የለሽነቱ የሚነገርለት የሩሲያው ሱ 35 ምን የተለዩ ነገሮችን ይዟል የሚለው […",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 28 Oct 2026 16:45:03 +0000"
   }
 ];
