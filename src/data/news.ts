@@ -3,6 +3,18 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "𝗧𝗛𝗘 𝗙𝗥𝗨𝗜𝗧𝗦 𝗢𝗙 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗣𝗘𝗥𝗦𝗜𝗦𝗧𝗘𝗡𝗧 𝗨𝗥𝗕𝗔𝗡 𝗥𝗘𝗡𝗔𝗜𝗦𝗦𝗔𝗡𝗖𝗘: 𝗔𝗗𝗗𝗜𝗦 𝗔𝗕𝗔𝗕𝗔 𝗦𝗛𝗜𝗡𝗘𝗦 𝗢𝗡 𝗧𝗛𝗘 𝗚𝗟𝗢𝗕𝗔𝗟 𝗦𝗧𝗔𝗚𝗘",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – The global recognition of Addis Ababa with the 2026 Shanghai Award for Sustainable Development in Cities marks a significant milestone in Ethiopia’s persistent urban renaissance, bringing international acclaim to a far-rea",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 15:10:45 +0000"
+  },
+  {
+    "title": "Ethiopia to Introduce INTERPOL Traveller Connectivity Technology to Combat Cross-Border Crime",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopia is preparing to implement an international traveller connectivity technology system developed by the International Criminal Police Organization (INTERPOL) to strengthen efforts to combat cross-border crimes and fa",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 14:36:58 +0000"
+  },
+  {
     "title": "PM Office Touts Addis Ababa’s Global Urban Award as Springboard for Ethiopia’s Cities",
     "summary": "Addis Ababa, October 31, 2026 (FMC) – The Office of the Prime Minister of Ethiopia has described Addis Ababa’s recognition with the 2026 Global Award for Sustainable Development in Cities as an opportunity to extend the country’s urban transformation ambitions",
     "source": "FBC English",
@@ -49,18 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia is set to host the 7th World Health Organization (WHO) Emergency Medical Teams (EMT) Global Meeting from November 3 to 5, 2026, bringing together international health professionals and emergency response experts f",
     "source": "FBC English",
     "publishedAt": "Sat, 31 Oct 2026 07:37:56 +0000"
-  },
-  {
-    "title": "PM Abiy Outlines Strategic Imperatives for Ethiopia’s Medemer Civilization: Unified Vision, National Mobilization and Accountable Governance",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) — Realizing Ethiopia’s ambition to build a civilization requires a comprehensive national effort that brings together a shared vision, coordinated action, effective use of national capabilities, and accountable governance, P",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 07:10:57 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Underscores Military Training’s Role in Building Capable, Disciplined National Leadership",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has described military training as an important means of equipping government leaders with the discipline, skills, and sense of responsibility needed to advance Ethiopia’s national devel",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 06:42:34 +0000"
   },
   {
     "title": "የቴክኖሎጂ ልዕልና፤ የህዝባዊነት እና የሥነ-ልቦና ከፍታ ማሳያ ፤ የኢትዮጵያ መከላከያ ሠራዊት",
