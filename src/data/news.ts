@@ -3,6 +3,36 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "PM Abiy Outlines Strategic Imperatives for Ethiopia’s Medemer Civilization: Unified Vision, National Mobilization and Accountable Governance",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) — Realizing Ethiopia’s ambition to build a civilization requires a comprehensive national effort that brings together a shared vision, coordinated action, effective use of national capabilities, and accountable governance, P",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 07:10:57 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed Underscores Military Training’s Role in Building Capable, Disciplined National Leadership",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has described military training as an important means of equipping government leaders with the discipline, skills, and sense of responsibility needed to advance Ethiopia’s national devel",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 06:42:34 +0000"
+  },
+  {
+    "title": "የቴክኖሎጂ ልዕልና፤ የህዝባዊነት እና የሥነ-ልቦና ከፍታ ማሳያ ፤ የኢትዮጵያ መከላከያ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የድንቅ ታሪክ፣ የጥንታዊ ስልጣኔ እና የነጻነት ምድር ናት። የዚህች ታላቅ ሀገር ሉዓላዊነት እና ጸንቶ መኖር ምስጢር ደግሞ አንዱና ዋነኛው የሀገሪቱ መከላከያ ሠራዊት የጀግንነት ተጋድሎ ነው። ሠራዊቱ ከትውልድ ወደ ትውልድ እየተሸጋገረ የመጣውን የአሸናፊነት መንፈስ እና የጀግንነት ወርቃማ ታሪክ ይዞ፣ ዛሬ ላይ በቴክኖሎጂ፣ በሰው ኃይል እና በሥነ-ልቦ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 30 Oct 2026 19:16:53 +0000"
+  },
+  {
+    "title": "የኦሮሚያ ህብረት ሥራ ባንክ “ምቹ-ሚዛን”አዲስ የዲጂታል ፋይናንስ መተግበሪያ ይፋ አደረገ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) የኦሮሚያ ህብረት ሥራ ባንክ ከሸሪዓ መርሆዎች ጋር የሚስማማ “ሚቹ-ሚዛን” የተሰኘ አዲስ የዲጂታል ፋይናንስ መተግበሪያ በዛሬው ዕለት አስመርቋል። በባንኩ የወለድ ነጻ የባንክ አገልግሎት ዘርፍ ኮፕባንክ አልሁዳ አማካኝነት የሚሰጠውና በክፍያ ፋይናንሻል ቴክኖሎጂ የሚደገፈው መተግበሪያው ጥቃቅን፣ አነስተኛና መካከለኛ ንግዶች የፋይናንስ አገልግሎት ተደራሽ ለማድረግ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 30 Oct 2026 17:55:26 +0000"
+  },
+  {
+    "title": "የባህር በር ባለቤትነት ጥያቄ ከታሪካዊ ቁጭት ወደ ብሔራዊ ድል የሚያሸጋግር ነው – የፖለቲካ ፓርቲዎች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የባህር በር ባለቤትነት ጥያቄ ከታሪካዊ ቁጭት ወደ ብሔራዊ ድል የሚያሸጋግር መሠረታዊ ጉዳይ ነው አሉ የተለያዩ የፖለቲካ ፓርቲ ድርጅቶች፡፡ የፖለቲካ ፓርቲ አመራር አባላት እንደገለጹት÷ ኢትዮጵያ ኢ-ፍትሐዊ በሆነ መንገድ ያጣችው የባህር በር የሚያስቆጭ እና ምላሽ የሚገባው ነው፡፡ የሕዳሴ ፓርቲ ምክትል ፕሬዝዳንት ሱራፌል እሸቱ እንደገለጹት÷ ሕገ-ወ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 30 Oct 2026 17:46:19 +0000"
+  },
+  {
     "title": "Ethiopia Expands Natural Gas Conversion Initiative to Taxis to Cut Transport Costs – PM Abiy",
     "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia is extending its natural gas transition beyond public transportation to include taxis, as the government seeks to reduce fuel expenses and make urban transport more affordable, Prime Minister Abiy Ahmed has disclo",
     "source": "FBC English",
@@ -21,57 +51,27 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 30 Oct 2026 14:23:10 +0000"
   },
   {
-    "title": "PM Abiy Says Debre Berhan, Modjo Ceramic Factories Shift to Natural Gas with Capacity Exceeding National Demand",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia’s transition to domestically produced natural gas is beginning to reshape the operating costs of local manufacturing, with the Debre Berhan and Modjo ceramic factories shifting from imported conventional fuels to ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 12:06:29 +0000"
-  },
-  {
-    "title": "Ethiopia Orders 400 Natural Gas Buses, Nearly 100 Gas-Powered Trucks to Expand Transport Transition – PM Abiy",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia has ordered 400 additional natural gas-powered buses and nearly 100 gas transport trucks as part of efforts to expand the use of locally produced natural gas in public transportation, logistics and other economic ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 11:40:00 +0000"
-  },
-  {
-    "title": "PM Abiy: Ethiopia’s Natural Gas to Power Industrial Growth, Cut Costs and Ease Household Pressures",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has outlined a broader national strategy to turn the country’s natural gas resources into an engine of industrial growth, lower production and transportation costs, and ease the cost-of-",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 11:24:56 +0000"
-  },
-  {
-    "title": "Putin Says Modern Agricultural Technology Can Help Africa Become a Major Food Exporter",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Russian President Vladimir Putin has said modern agricultural technologies and improved production systems could enable African countries not only to meet their own food requirements but also to emerge as major exporters o",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 10:24:46 +0000"
-  },
-  {
-    "title": "Russia and Africa Adopt Action Plan Through 2029 to Advance Trade, Investment and Strategic Cooperation",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Russia and African countries have agreed on a joint action plan through 2029 to advance trade, investment and cooperation across strategic sectors, as leaders at the third Russia–Africa Summit called for stronger economic ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 10:20:45 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Announces Launch of Ethiopia’s First Natural Gas-Powered City Buses, 50% Fare Cut",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopian Prime Minister Abiy Ahmed has announced the launch of his country’s first 26 city buses converted from conventional fuel to natural gas, marking a new step in efforts to reduce fuel imports and make public transp",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 09:33:23 +0000"
-  },
-  {
-    "title": "Ethiopia Takes Command of Its Aerospace Future Through Homegrown Drone Manufacturing",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia is opening a new chapter in its technological and industrial transformation, moving beyond the role of a consumer of advanced aerospace technology to developing the domestic capacity to manufacture its own unmanne",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 07:17:00 +0000"
-  },
-  {
-    "title": "የቀይ ባህር ምስጢር ፤ የኢትዮጵያ መብት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 19፣ 2019 (ኤፍ ኤም ሲ) ቀይ ባህር በዓለም አቀፍ የውሃ አካላት መካከል ልዩ እና ስልታዊ ስፍራ የሚይዝ ተፈጥሮ ነው። ባህሩ ከተለመደው የባህር ውቅያኖስ ባህሪ ይልቅ በርካታ ተፈጥሯዊ ምስጢራትን በውስጡ ይዟል። ቀይ ባህር በውሃው ንጹህነት እና በሰማያዊነቱ የሚታወቅ ቢሆንም “ቀይ” የሚለውን ስም ያገኘው ግን በየወቅቱ በውሃው ላይ በሚፈነዱ Trichodesmium erythraeum በተባ",
+    "title": "መቐለ ዩኒቨርሲቲ ተማሪዎችን መቀበል ጀመረ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) መቐለ ዩኒቨርሲቲ ለ2019 ዓ.ም ትምህርት ዘመን ተማሪዎችን እየተቀበለ ይገኛል፡፡ የመቐለ ዩኒቨርሲቲ መስራችና የቀድሞ ፕሬዚዳንት ሎሬት ምትኩ ኃይለ (ፕ/ር) አዳዲስ ተማሪዎችን እንኳን ወደ እውቀት ቤታችሁ፣ ወደ ሁለተኛ መኖሪያቹ በሰላም መጣችሁ በማለት አቀባበል አድርገዋል። የመቐለ ዩኒቨርሲቲ የአካዳሚክ ምክትል ፕሬዚዳንት ዓብደልቃድር ከድር (ዶ/ር) በበኩላ",
     "source": "Fana Media",
-    "publishedAt": "Thu, 29 Oct 2026 20:37:27 +0000"
+    "publishedAt": "Fri, 30 Oct 2026 14:22:37 +0000"
   },
   {
-    "title": "ኢትዮጵያ እና ሩሲያ ሶስት የሁለትዮሽ ስምምነቶችን ተፈራረሙ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 19፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና ሩሲያ በ3ኛው የሩሲያ-አፍሪካ ጉባኤ ጎን ለጎን የሁለቱን ሀገራት ታሪካዊ ወዳጅነት ወደ ተጨባጭ ትብብር የሚያሸጋግሩ ሶስት የሁለትዮሽ ስምምነቶችን ተፈራርመዋል። በውጭ ጉዳይ ሚኒስቴር ዴኤታ አምባሳደር ሀደራ አበራ እና በሩሲያ ወገን መካከል የተፈረሙት እነዚህ ስምምነቶች፣ በጤና እና በሚዲያ ዘርፎች ላይ ያተኮሩ ናቸው። ከስምምነቶቹ መካከል የደጃዝ",
+    "title": "ሙስናና ብልሹ አሠራርን ለመከላከል የተቋማት ጥምረት ውጤት እያስገኘ ነው",
+    "summary": "ሙስናና ብልሹ አሠራርን ለመከላከል የተቋማት ጥምረት ውጤት እያስገኘ ነው አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ከ2017 ጀምሮ ተግባራዊ የተደረገው የሥነ ምግባር ግንባታና የሙስና መከላከል የተቋማት ጥምረት ውጤት እያመጣ ነው አሉ የክልሉ ምክር ቤት ምክትል አፈ ጉባኤ አቶ አማረ ሰጤ። በጥምረቱ መድረክ ላይ አፈ ጉባኤ አቶ አማረ ሰጤ እንዳሉት÷ ጥምረቱ በማኅበረሰቡ ውስጥ […] The",
     "source": "Fana Media",
-    "publishedAt": "Thu, 29 Oct 2026 19:51:04 +0000"
+    "publishedAt": "Fri, 30 Oct 2026 14:18:44 +0000"
+  },
+  {
+    "title": "በሩብ ዓመቱ ከ2 ነጥብ 6 ቢሊየን ብር በላይ አረቦን ተሰበሰበ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) በሩብ ዓመቱ ከ2 ነጥብ 6 ቢሊየን ብር በላይ አረቦን ተሰብስቧል አለ የኢትዮጵያ የተቀማጭ ገንዘብ መድን ፈንድ። ፈንዱ የመጀመሪያ ሩብ ዓመት አፈጻጸሙን አስመልክቶ ለፋና ዲጂታል በላከው መግለጫ÷ አፈጻጸሙ ከዕቅዱ ጋር ሲነጻጸር የ100 በመቶ ስኬት የተመዘገበበት መሆኑን አስታውቋል። ይህ አፈጻጸም ካለፈው ዓመት ተመሳሳይ ወቅት ጋር ሲነጻጸር የ25 ነጥብ 48 [",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 30 Oct 2026 13:45:48 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከነዳጅ ወደ ተፈጥሮ ጋዝ የተለወጡ የመጀመሪያዎቹ 26 የከተማ አውቶቡሶችን ሥራ ባስጀመሩበት ወቅት ያነሷቸው ዋና ዋና ነጥቦች፡-",
+    "summary": "ሀገር በአንድ ጀምበር እና በአንድ ትውልድ አትገነባም፤ ሀገር መገንባት ውስብስብ ሂደት አለው፤ በቀጣዮቹ ሦስት ወራት ውስጥ ወደ 400 የሚጠጉ በተፈጥሮ ጋዝ የሚሠሩ አውቶቡሶች ይገባሉ፤ እነዚህ አውቶቡሶች እስኪገቡ ድረስም ነባር አውቶቡሶችን ወደ ጋዝ የመቀየር ሥራው ይቀጥላል፤ 400ዎቹ አውቶቡሶች ወደ አገልግሎት ሲገቡ፣ በአዲስ አበባ ከሚገኙት የአንበሳ አውቶቡሶች ውስጥ ከ30 እስከ 40 በመቶ የሚሆኑት በተፈጥ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 30 Oct 2026 13:01:46 +0000"
   }
 ];
