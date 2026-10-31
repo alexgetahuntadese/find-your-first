@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "PM Office Touts Addis Ababa’s Global Urban Award as Springboard for Ethiopia’s Cities",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – The Office of the Prime Minister of Ethiopia has described Addis Ababa’s recognition with the 2026 Global Award for Sustainable Development in Cities as an opportunity to extend the country’s urban transformation ambitions",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 13:33:28 +0000"
+  },
+  {
+    "title": "Addis Ababa Wins 2026 Shanghai Award for Sustainable Urban Development",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – Addis Ababa has won the 2026 Shanghai Award, an international recognition presented by UN-Habitat and China in connection with World Cities Day, in recognition of its progress in sustainable, inclusive, people-centred and ",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 12:57:13 +0000"
+  },
+  {
+    "title": "𝗙𝗥𝗢𝗠 𝗥𝗜𝗩𝗘𝗥𝗦 𝗢𝗙 𝗣𝗢𝗪𝗘𝗥 𝗧𝗢 𝗥𝗢𝗔𝗗𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘: 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗘𝗟𝗘𝗖𝗧𝗥𝗜𝗖 𝗩𝗘𝗛𝗜𝗖𝗟𝗘 𝗥𝗘𝗩𝗢𝗟𝗨𝗧𝗜𝗢𝗡 𝗜𝗦 𝗥𝗘𝗪𝗥𝗜𝗧𝗜𝗡𝗚 𝗔𝗙𝗥𝗜𝗖𝗔’𝗦 𝗘𝗡𝗘𝗥𝗚𝗬 𝗦𝗧𝗢𝗥𝗬",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – The transition to electric mobility is often presented as a response to climate change. For Ethiopia, however, it carries a much wider significance: an opportunity to turn renewable energy into economic strength, reduce de",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 11:12:51 +0000"
+  },
+  {
+    "title": "Ethiopia Champions Integrated Approach to Migration, Displacement and Climate Challenges at Geneva Forum",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopia has highlighted the interconnected challenges of migration, displacement and climate change, advocating an integrated, development-oriented approach grounded in international cooperation, sustainable financing and",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 10:15:04 +0000"
+  },
+  {
+    "title": "Deputy PM Temesgen Stresses National Priorities, Security and Sustainability in Ethiopia’s Digital Cooperation with Huawei",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopian Deputy Prime Minister Temesgen Truneh has underscored the importance of national priorities, security, sustainability and local value creation in Ethiopia’s digital cooperation with Huawei during discussions with",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 09:29:15 +0000"
+  },
+  {
+    "title": "Ethiopian Navy Chief Underscores Strategic Imperative of Regional Cooperation for Maritime Security and Unimpeded Sea Routes",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia’s Navy has underscored the strategic importance of regional cooperation in facilitating maritime activities, addressing shared security challenges and safeguarding the smooth movement of maritime traffic across vi",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 07:51:29 +0000"
+  },
+  {
+    "title": "UN Horn of Africa Envoy Acclaims Ethiopia’s Contributions to Regional Peace and Security",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) — United Nations Special Envoy for the Horn of Africa Guang Cong has priased Ethiopia’s contributions to regional peace and security, citing its peacekeeping engagements, diplomatic initiatives and efforts to promote dialogu",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 07:44:10 +0000"
+  },
+  {
+    "title": "Addis Ababa to Host 7th WHO Emergency Medical Teams Global Meeting, First in Africa",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia is set to host the 7th World Health Organization (WHO) Emergency Medical Teams (EMT) Global Meeting from November 3 to 5, 2026, bringing together international health professionals and emergency response experts f",
+    "source": "FBC English",
+    "publishedAt": "Sat, 31 Oct 2026 07:37:56 +0000"
+  },
+  {
     "title": "PM Abiy Outlines Strategic Imperatives for Ethiopia’s Medemer Civilization: Unified Vision, National Mobilization and Accountable Governance",
     "summary": "Addis Ababa, October 31, 2026 (FMC) — Realizing Ethiopia’s ambition to build a civilization requires a comprehensive national effort that brings together a shared vision, coordinated action, effective use of national capabilities, and accountable governance, P",
     "source": "FBC English",
@@ -25,53 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) የኦሮሚያ ህብረት ሥራ ባንክ ከሸሪዓ መርሆዎች ጋር የሚስማማ “ሚቹ-ሚዛን” የተሰኘ አዲስ የዲጂታል ፋይናንስ መተግበሪያ በዛሬው ዕለት አስመርቋል። በባንኩ የወለድ ነጻ የባንክ አገልግሎት ዘርፍ ኮፕባንክ አልሁዳ አማካኝነት የሚሰጠውና በክፍያ ፋይናንሻል ቴክኖሎጂ የሚደገፈው መተግበሪያው ጥቃቅን፣ አነስተኛና መካከለኛ ንግዶች የፋይናንስ አገልግሎት ተደራሽ ለማድረግ",
     "source": "Fana Media",
     "publishedAt": "Fri, 30 Oct 2026 17:55:26 +0000"
-  },
-  {
-    "title": "የባህር በር ባለቤትነት ጥያቄ ከታሪካዊ ቁጭት ወደ ብሔራዊ ድል የሚያሸጋግር ነው – የፖለቲካ ፓርቲዎች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የባህር በር ባለቤትነት ጥያቄ ከታሪካዊ ቁጭት ወደ ብሔራዊ ድል የሚያሸጋግር መሠረታዊ ጉዳይ ነው አሉ የተለያዩ የፖለቲካ ፓርቲ ድርጅቶች፡፡ የፖለቲካ ፓርቲ አመራር አባላት እንደገለጹት÷ ኢትዮጵያ ኢ-ፍትሐዊ በሆነ መንገድ ያጣችው የባህር በር የሚያስቆጭ እና ምላሽ የሚገባው ነው፡፡ የሕዳሴ ፓርቲ ምክትል ፕሬዝዳንት ሱራፌል እሸቱ እንደገለጹት÷ ሕገ-ወ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 17:46:19 +0000"
-  },
-  {
-    "title": "Ethiopia Expands Natural Gas Conversion Initiative to Taxis to Cut Transport Costs – PM Abiy",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) – Ethiopia is extending its natural gas transition beyond public transportation to include taxis, as the government seeks to reduce fuel expenses and make urban transport more affordable, Prime Minister Abiy Ahmed has disclo",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 14:37:08 +0000"
-  },
-  {
-    "title": "Ethiopia’s Natural Resource Conservation Efforts Advance Shared Prosperity Across Nile Basin",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — Ethiopia’s investments in natural resource conservation, watershed management, and integrated water development are contributing to sustainable regional growth while creating opportunities for shared benefits among Nile Ba",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 14:30:22 +0000"
-  },
-  {
-    "title": "Ethiopia’s Adwa Victory Legacy to Be Taught in Schools Through New Outreach Program",
-    "summary": "Addis Ababa, October 30, 2026 (FMC) — The Adwa Victory Memorial is preparing to launch a school outreach program to help young Ethiopians understand the historical significance of the Victory of Adwa, the country’s cultural heritage, and the shared history tha",
-    "source": "FBC English",
-    "publishedAt": "Fri, 30 Oct 2026 14:23:10 +0000"
-  },
-  {
-    "title": "መቐለ ዩኒቨርሲቲ ተማሪዎችን መቀበል ጀመረ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) መቐለ ዩኒቨርሲቲ ለ2019 ዓ.ም ትምህርት ዘመን ተማሪዎችን እየተቀበለ ይገኛል፡፡ የመቐለ ዩኒቨርሲቲ መስራችና የቀድሞ ፕሬዚዳንት ሎሬት ምትኩ ኃይለ (ፕ/ር) አዳዲስ ተማሪዎችን እንኳን ወደ እውቀት ቤታችሁ፣ ወደ ሁለተኛ መኖሪያቹ በሰላም መጣችሁ በማለት አቀባበል አድርገዋል። የመቐለ ዩኒቨርሲቲ የአካዳሚክ ምክትል ፕሬዚዳንት ዓብደልቃድር ከድር (ዶ/ር) በበኩላ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 14:22:37 +0000"
-  },
-  {
-    "title": "ሙስናና ብልሹ አሠራርን ለመከላከል የተቋማት ጥምረት ውጤት እያስገኘ ነው",
-    "summary": "ሙስናና ብልሹ አሠራርን ለመከላከል የተቋማት ጥምረት ውጤት እያስገኘ ነው አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ከ2017 ጀምሮ ተግባራዊ የተደረገው የሥነ ምግባር ግንባታና የሙስና መከላከል የተቋማት ጥምረት ውጤት እያመጣ ነው አሉ የክልሉ ምክር ቤት ምክትል አፈ ጉባኤ አቶ አማረ ሰጤ። በጥምረቱ መድረክ ላይ አፈ ጉባኤ አቶ አማረ ሰጤ እንዳሉት÷ ጥምረቱ በማኅበረሰቡ ውስጥ […] The",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 14:18:44 +0000"
-  },
-  {
-    "title": "በሩብ ዓመቱ ከ2 ነጥብ 6 ቢሊየን ብር በላይ አረቦን ተሰበሰበ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) በሩብ ዓመቱ ከ2 ነጥብ 6 ቢሊየን ብር በላይ አረቦን ተሰብስቧል አለ የኢትዮጵያ የተቀማጭ ገንዘብ መድን ፈንድ። ፈንዱ የመጀመሪያ ሩብ ዓመት አፈጻጸሙን አስመልክቶ ለፋና ዲጂታል በላከው መግለጫ÷ አፈጻጸሙ ከዕቅዱ ጋር ሲነጻጸር የ100 በመቶ ስኬት የተመዘገበበት መሆኑን አስታውቋል። ይህ አፈጻጸም ካለፈው ዓመት ተመሳሳይ ወቅት ጋር ሲነጻጸር የ25 ነጥብ 48 [",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 13:45:48 +0000"
-  },
-  {
-    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከነዳጅ ወደ ተፈጥሮ ጋዝ የተለወጡ የመጀመሪያዎቹ 26 የከተማ አውቶቡሶችን ሥራ ባስጀመሩበት ወቅት ያነሷቸው ዋና ዋና ነጥቦች፡-",
-    "summary": "ሀገር በአንድ ጀምበር እና በአንድ ትውልድ አትገነባም፤ ሀገር መገንባት ውስብስብ ሂደት አለው፤ በቀጣዮቹ ሦስት ወራት ውስጥ ወደ 400 የሚጠጉ በተፈጥሮ ጋዝ የሚሠሩ አውቶቡሶች ይገባሉ፤ እነዚህ አውቶቡሶች እስኪገቡ ድረስም ነባር አውቶቡሶችን ወደ ጋዝ የመቀየር ሥራው ይቀጥላል፤ 400ዎቹ አውቶቡሶች ወደ አገልግሎት ሲገቡ፣ በአዲስ አበባ ከሚገኙት የአንበሳ አውቶቡሶች ውስጥ ከ30 እስከ 40 በመቶ የሚሆኑት በተፈጥ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 13:01:46 +0000"
   }
 ];
