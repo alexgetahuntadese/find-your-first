@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "ጂኦፖለቲካዊ ተጽዕኖው ከፍ እያለ የመጣው የኢትዮጵያ ባህር ኃይል",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ባህር ኃይል በፈረንጆቹ 2018 ከተቋቋመ በኋላ አሁን ወቅት ተቋማዊ አቅሙን በከፍተኛ ደረጃ እያሳደገ ይገኛል። የኢትዮጵያ ባህር ኃይል በታሪክ በምሥራቅ አፍሪካ እና በቀይ ባህር ቀጣና ላይ ከፍተኛ ዝና፣ ግርማ ሞገስ እና ጠንካራ ወታደራዊ አቅም የነበረው የጦር ኃይል ክፍል ነበር። በ948 ዓ.ም የተገነባው የኢትዮጵያ ሮያል ባህር ኃይል ወይም […] ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 31 Oct 2026 20:27:48 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ ከፍተኛ የአዕዋፍ ቱሪዝም አቅም አላት ─ የቱሪዝም ባለሙያዎች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በአፍሪካ ውስጥ ካሉ ከፍተኛ የአዕዋፍ ቱሪዝም አቅም ካላቸው ሀገራት አንዷ ናት አሉ በአእዋፍ ጥናትና ቱሪዝም ዘርፍ የተሰማሩ ባለሙያዎች፡፡ የአዕዋፍ ሳይንቲስትና የብዝሃ ሕይወት ጥበቃ ባለሙያው ይልማ ደለለኝ÷ ኢትዮጵያ ከአፍሪካ ከፍተኛ የአዕዋፍ ዝርያ ካላቸው ሀገራት በ4ተኛ ደረጃ ላይ እንደምትገኝ ይናገራሉ፡፡ በአጠቃላይ በሀገራችን ከ872 በላይ የ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 31 Oct 2026 18:14:21 +0000"
+  },
+  {
+    "title": "የተሟላ ዝግጁነት ያለው አመራር",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የሀገር ሥልጣኔና ዘላቂ ብልጽግና የሚመጣው የኢኮኖሚ ዕድገትና ቁሳዊ ሀብቶችን በማዳበር ብቻ ሳይሆን እሴቶችን፣ የባህል ማንነትን እና የሞራል ጥንካሬን በመገንባት እንዲሁም ዕውቀትን ከማኅበራዊ ኃላፊነት ጋር በማቀናጀት ጭምር ነው። ለዚህ የሥልጣኔ ግንባታ ሂደት በሁሉም ዘርፎች የተዘጋጀ፣ በእውቀትና በሥነ ምግባር የታነጸ እና የሀገርን ራዕይ ወደ ተግባር የሚቀይ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 31 Oct 2026 17:33:36 +0000"
+  },
+  {
+    "title": "ማንቼስተር ሲቲ ሁለተኛ ተከታታይ ሽንፈቱን አስተናገደ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) በ9ኛ ሳምንት የእንግሊዝ ፕሪሚየርሊግ ማንቼስተር ሲቲ በብራይተን 1 ለ 0 ተሸንፏል፡፡ ምሽት 12 ሰዓት ላይ በተደረገው ጨዋታ ያሲን አያሪ የብራይተንን ብቸኛ ግብ አስቆጥሯል፡፡ ውጤቱን ተከትሎም ብራይተን ነጥቡን ወደ 19 ከፍ ሲያደርግ ማንቼስተር ሲቲ የሊጉ መሪነቱን የሚያጠናክርበትን እድል አባክኗል፡፡ በተመሳሳይ ሰዓት በተደረጉ ጨዋታዎች ቦርንማውዝ ሊድስን ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 31 Oct 2026 17:10:06 +0000"
+  },
+  {
     "title": "𝗧𝗛𝗘 𝗙𝗥𝗨𝗜𝗧𝗦 𝗢𝗙 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗣𝗘𝗥𝗦𝗜𝗦𝗧𝗘𝗡𝗧 𝗨𝗥𝗕𝗔𝗡 𝗥𝗘𝗡𝗔𝗜𝗦𝗦𝗔𝗡𝗖𝗘: 𝗔𝗗𝗗𝗜𝗦 𝗔𝗕𝗔𝗕𝗔 𝗦𝗛𝗜𝗡𝗘𝗦 𝗢𝗡 𝗧𝗛𝗘 𝗚𝗟𝗢𝗕𝗔𝗟 𝗦𝗧𝗔𝗚𝗘",
     "summary": "Addis Ababa, October 31, 2026 (FMC) – The global recognition of Addis Ababa with the 2026 Shanghai Award for Sustainable Development in Cities marks a significant milestone in Ethiopia’s persistent urban renaissance, bringing international acclaim to a far-rea",
     "source": "FBC English",
@@ -13,6 +37,18 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopia is preparing to implement an international traveller connectivity technology system developed by the International Criminal Police Organization (INTERPOL) to strengthen efforts to combat cross-border crimes and fa",
     "source": "FBC English",
     "publishedAt": "Sat, 31 Oct 2026 14:36:58 +0000"
+  },
+  {
+    "title": "ቼልሲ ማንቼሰተር ዩናይትድን 2 ለ 0 አሸነፈ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) በ9ኛ ሳምንት የእንግሊዝ ፕሪሚየር ሊግ ቼልሲ ማንቼሰተር ዩናይትድን 2 ለ 0 አሸንፏል፡፡ ቀን 9 ሰዓት ከ30 ጀምሮ በተደረገው ጨዋታ ሞርጋን ሮጄርስ በጨዋታ እና ኮል ፓልመር በፍፁም ቅጣት ምት የቼልሲን ግቦች አስቆጥረዋል፡፡ በጨዋታው አርጀንቲናዊው የማንቼሰተር ዩናይትድ ተከላካይ ሊሳንድሮ ማርቲኔዝ በቀይ ካርድ ተሰናብቷል። ውጤቱን ተከትሎም ቼልሲ ነጥቡን 1",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 31 Oct 2026 14:34:25 +0000"
+  },
+  {
+    "title": "ድንበር ተሻጋሪ ወንጀሎችን ለመከላከል የዓለም አቀፍ የተጓዦች ትስስር ቴክኖሎጂ ተግባራዊ ሊደረግ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ድንበር ተሻጋሪ ወንጀሎችን ለመከላከልና ወንጀለኞች ተላልፈው እንዲሰጡ ለማድረግ ዓለም አቀፍ የተጓዦች ትስስር ቴክኖሎጂን ልትተገብር ነው አሉ የኢትዮጵያ ፌዴራል ፖሊስ ጠቅላይ አዛዥ ኮሚሽነር ጄኔራል ደመላሽ ገብረሚካኤል። ኮሚሽነር ጄኔራል ደመላሽ ገብረሚካኤል እንዳሉት÷ ዓለም አቀፍ ወንጀሎች በቴክኖሎጂ የታገዙና ውስብስብ በሆኑበት ዘመን ዓለም አቀፋዊ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 31 Oct 2026 14:01:16 +0000"
   },
   {
     "title": "PM Office Touts Addis Ababa’s Global Urban Award as Springboard for Ethiopia’s Cities",
@@ -27,51 +63,15 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sat, 31 Oct 2026 12:57:13 +0000"
   },
   {
-    "title": "𝗙𝗥𝗢𝗠 𝗥𝗜𝗩𝗘𝗥𝗦 𝗢𝗙 𝗣𝗢𝗪𝗘𝗥 𝗧𝗢 𝗥𝗢𝗔𝗗𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘: 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗘𝗟𝗘𝗖𝗧𝗥𝗜𝗖 𝗩𝗘𝗛𝗜𝗖𝗟𝗘 𝗥𝗘𝗩𝗢𝗟𝗨𝗧𝗜𝗢𝗡 𝗜𝗦 𝗥𝗘𝗪𝗥𝗜𝗧𝗜𝗡𝗚 𝗔𝗙𝗥𝗜𝗖𝗔’𝗦 𝗘𝗡𝗘𝗥𝗚𝗬 𝗦𝗧𝗢𝗥𝗬",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – The transition to electric mobility is often presented as a response to climate change. For Ethiopia, however, it carries a much wider significance: an opportunity to turn renewable energy into economic strength, reduce de",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 11:12:51 +0000"
-  },
-  {
-    "title": "Ethiopia Champions Integrated Approach to Migration, Displacement and Climate Challenges at Geneva Forum",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopia has highlighted the interconnected challenges of migration, displacement and climate change, advocating an integrated, development-oriented approach grounded in international cooperation, sustainable financing and",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 10:15:04 +0000"
-  },
-  {
-    "title": "Deputy PM Temesgen Stresses National Priorities, Security and Sustainability in Ethiopia’s Digital Cooperation with Huawei",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopian Deputy Prime Minister Temesgen Truneh has underscored the importance of national priorities, security, sustainability and local value creation in Ethiopia’s digital cooperation with Huawei during discussions with",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 09:29:15 +0000"
-  },
-  {
-    "title": "Ethiopian Navy Chief Underscores Strategic Imperative of Regional Cooperation for Maritime Security and Unimpeded Sea Routes",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia’s Navy has underscored the strategic importance of regional cooperation in facilitating maritime activities, addressing shared security challenges and safeguarding the smooth movement of maritime traffic across vi",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 07:51:29 +0000"
-  },
-  {
-    "title": "UN Horn of Africa Envoy Acclaims Ethiopia’s Contributions to Regional Peace and Security",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) — United Nations Special Envoy for the Horn of Africa Guang Cong has priased Ethiopia’s contributions to regional peace and security, citing its peacekeeping engagements, diplomatic initiatives and efforts to promote dialogu",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 07:44:10 +0000"
-  },
-  {
-    "title": "Addis Ababa to Host 7th WHO Emergency Medical Teams Global Meeting, First in Africa",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia is set to host the 7th World Health Organization (WHO) Emergency Medical Teams (EMT) Global Meeting from November 3 to 5, 2026, bringing together international health professionals and emergency response experts f",
-    "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 07:37:56 +0000"
-  },
-  {
-    "title": "የቴክኖሎጂ ልዕልና፤ የህዝባዊነት እና የሥነ-ልቦና ከፍታ ማሳያ ፤ የኢትዮጵያ መከላከያ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የድንቅ ታሪክ፣ የጥንታዊ ስልጣኔ እና የነጻነት ምድር ናት። የዚህች ታላቅ ሀገር ሉዓላዊነት እና ጸንቶ መኖር ምስጢር ደግሞ አንዱና ዋነኛው የሀገሪቱ መከላከያ ሠራዊት የጀግንነት ተጋድሎ ነው። ሠራዊቱ ከትውልድ ወደ ትውልድ እየተሸጋገረ የመጣውን የአሸናፊነት መንፈስ እና የጀግንነት ወርቃማ ታሪክ ይዞ፣ ዛሬ ላይ በቴክኖሎጂ፣ በሰው ኃይል እና በሥነ-ልቦ",
+    "title": "በዘላቂ የከተማ ልማት ጉዞዋ ዓለም አቀፍ ዕውቅና ያገኘችው አዲስ አበባ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የከተማ ልማት ስኬት የሚለካው ከዘመናዊ ሕንፃዎችና መንገዶች ባሻገር ለነዋሪዎች በሚፈጥረው ምቹ የመኖሪያ ከባቢ፣ በሚያስገኘው የኢኮኖሚ ዕድልና በሚያስመዘግበው ዘላቂ ልማት ጭምር ነው። ከዚህ አንጻር የአዲስ አበባ የከተማ ልማት ለውጥ የመንገድና የኮሪደር እንዲሁም የወንዝ ዳርቻዎች ልማት፣ የአረንጓዴ ስፍራዎች መስፋፋት፣ የመኖሪያ ቤት አቅርቦት፣ የሥራ ዕድል ፈ",
     "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 19:16:53 +0000"
+    "publishedAt": "Sat, 31 Oct 2026 12:48:50 +0000"
   },
   {
-    "title": "የኦሮሚያ ህብረት ሥራ ባንክ “ምቹ-ሚዛን”አዲስ የዲጂታል ፋይናንስ መተግበሪያ ይፋ አደረገ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 20፣ 2019 (ኤፍ ኤም ሲ) የኦሮሚያ ህብረት ሥራ ባንክ ከሸሪዓ መርሆዎች ጋር የሚስማማ “ሚቹ-ሚዛን” የተሰኘ አዲስ የዲጂታል ፋይናንስ መተግበሪያ በዛሬው ዕለት አስመርቋል። በባንኩ የወለድ ነጻ የባንክ አገልግሎት ዘርፍ ኮፕባንክ አልሁዳ አማካኝነት የሚሰጠውና በክፍያ ፋይናንሻል ቴክኖሎጂ የሚደገፈው መተግበሪያው ጥቃቅን፣ አነስተኛና መካከለኛ ንግዶች የፋይናንስ አገልግሎት ተደራሽ ለማድረግ",
+    "title": "“የጥቅምት እሸት አወደ…”",
+    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የኦሮሞ ሕዝብ የገዳ ሥርዓት ማኅበራዊ ሕግና የሕይወት ፍልስፍና ብቻ ሳይሆን፣ ባህልን፣ ተፈጥሮንና የሴቶችን ሚና የሚያገናኝ የማንነት ምሰሶ ነው። በዚህ የባህል ዓለም ውስጥ አቴቴ የእምነትና የጸሎት ሥርዓት ብቻ ሳይሆን የሴቶች ድምፅ፣ የማኅበረሰብ አንድነትና የተፈጥሮ ምስጢር መገለጫ ሆና ትታያለች። የክረምቱ ጨለማ አልፎ በጸደይ ብርሃን መተካቱን ተከትሎ በአብ",
     "source": "Fana Media",
-    "publishedAt": "Fri, 30 Oct 2026 17:55:26 +0000"
+    "publishedAt": "Sat, 31 Oct 2026 11:53:15 +0000"
   }
 ];
