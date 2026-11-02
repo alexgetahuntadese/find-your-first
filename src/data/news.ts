@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "ጂኦፖለቲካዊ ተጽዕኖው ከፍ እያለ የመጣው የኢትዮጵያ ባህር ኃይል",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ባህር ኃይል በፈረንጆቹ 2018 ከተቋቋመ በኋላ አሁን ወቅት ተቋማዊ አቅሙን በከፍተኛ ደረጃ እያሳደገ ይገኛል። የኢትዮጵያ ባህር ኃይል በታሪክ በምሥራቅ አፍሪካ እና በቀይ ባህር ቀጣና ላይ ከፍተኛ ዝና፣ ግርማ ሞገስ እና ጠንካራ ወታደራዊ አቅም የነበረው የጦር ኃይል ክፍል ነበር። በ948 ዓ.ም የተገነባው የኢትዮጵያ ሮያል ባህር ኃይል ወይም […] ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 20:27:48 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ ከፍተኛ የአዕዋፍ ቱሪዝም አቅም አላት ─ የቱሪዝም ባለሙያዎች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በአፍሪካ ውስጥ ካሉ ከፍተኛ የአዕዋፍ ቱሪዝም አቅም ካላቸው ሀገራት አንዷ ናት አሉ በአእዋፍ ጥናትና ቱሪዝም ዘርፍ የተሰማሩ ባለሙያዎች፡፡ የአዕዋፍ ሳይንቲስትና የብዝሃ ሕይወት ጥበቃ ባለሙያው ይልማ ደለለኝ÷ ኢትዮጵያ ከአፍሪካ ከፍተኛ የአዕዋፍ ዝርያ ካላቸው ሀገራት በ4ተኛ ደረጃ ላይ እንደምትገኝ ይናገራሉ፡፡ በአጠቃላይ በሀገራችን ከ872 በላይ የ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 18:14:21 +0000"
-  },
-  {
-    "title": "የተሟላ ዝግጁነት ያለው አመራር",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የሀገር ሥልጣኔና ዘላቂ ብልጽግና የሚመጣው የኢኮኖሚ ዕድገትና ቁሳዊ ሀብቶችን በማዳበር ብቻ ሳይሆን እሴቶችን፣ የባህል ማንነትን እና የሞራል ጥንካሬን በመገንባት እንዲሁም ዕውቀትን ከማኅበራዊ ኃላፊነት ጋር በማቀናጀት ጭምር ነው። ለዚህ የሥልጣኔ ግንባታ ሂደት በሁሉም ዘርፎች የተዘጋጀ፣ በእውቀትና በሥነ ምግባር የታነጸ እና የሀገርን ራዕይ ወደ ተግባር የሚቀይ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 17:33:36 +0000"
-  },
-  {
-    "title": "ማንቼስተር ሲቲ ሁለተኛ ተከታታይ ሽንፈቱን አስተናገደ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) በ9ኛ ሳምንት የእንግሊዝ ፕሪሚየርሊግ ማንቼስተር ሲቲ በብራይተን 1 ለ 0 ተሸንፏል፡፡ ምሽት 12 ሰዓት ላይ በተደረገው ጨዋታ ያሲን አያሪ የብራይተንን ብቸኛ ግብ አስቆጥሯል፡፡ ውጤቱን ተከትሎም ብራይተን ነጥቡን ወደ 19 ከፍ ሲያደርግ ማንቼስተር ሲቲ የሊጉ መሪነቱን የሚያጠናክርበትን እድል አባክኗል፡፡ በተመሳሳይ ሰዓት በተደረጉ ጨዋታዎች ቦርንማውዝ ሊድስን ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 17:10:06 +0000"
-  },
-  {
-    "title": "𝗧𝗛𝗘 𝗙𝗥𝗨𝗜𝗧𝗦 𝗢𝗙 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗣𝗘𝗥𝗦𝗜𝗦𝗧𝗘𝗡𝗧 𝗨𝗥𝗕𝗔𝗡 𝗥𝗘𝗡𝗔𝗜𝗦𝗦𝗔𝗡𝗖𝗘: 𝗔𝗗𝗗𝗜𝗦 𝗔𝗕𝗔𝗕𝗔 𝗦𝗛𝗜𝗡𝗘𝗦 𝗢𝗡 𝗧𝗛𝗘 𝗚𝗟𝗢𝗕𝗔𝗟 𝗦𝗧𝗔𝗚𝗘",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – The global recognition of Addis Ababa with the 2026 Shanghai Award for Sustainable Development in Cities marks a significant milestone in Ethiopia’s persistent urban renaissance, bringing international acclaim to a far-rea",
+    "title": "𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗗𝗘𝗙𝗘𝗡𝗦𝗘 𝗙𝗢𝗥𝗖𝗘: 𝗔 𝗠𝗢𝗗𝗘𝗥𝗡 𝗔𝗥𝗠𝗬 𝗥𝗢𝗢𝗧𝗘𝗗 𝗜𝗡 𝗛𝗜𝗦𝗧𝗢𝗥𝗬, 𝗗𝗜𝗦𝗖𝗜𝗣𝗟𝗜𝗡𝗘𝗗 𝗕𝗬 𝗘𝗧𝗛𝗜𝗖𝗦, 𝗔𝗡𝗗 𝗘𝗤𝗨𝗜𝗣𝗣𝗘𝗗 𝗙𝗢𝗥 𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia’s defense history is inseparable from its history of independence. Across generations, the country’s sovereignty has been defended through extraordinary sacrifice, determination, and courage. From repelling foreig",
     "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 15:10:45 +0000"
+    "publishedAt": "Mon, 02 Nov 2026 06:44:32 +0000"
   },
   {
-    "title": "Ethiopia to Introduce INTERPOL Traveller Connectivity Technology to Combat Cross-Border Crime",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – Ethiopia is preparing to implement an international traveller connectivity technology system developed by the International Criminal Police Organization (INTERPOL) to strengthen efforts to combat cross-border crimes and fa",
+    "title": "𝗙𝗥𝗢𝗠 𝗕𝗨𝗥𝗘𝗔𝗨𝗥𝗔𝗖𝗬 𝗧𝗢 𝗕𝗥𝗘𝗔𝗞𝗧𝗛𝗥𝗢𝗨𝗚𝗛: 𝗛𝗢𝗪 𝗧𝗛𝗘 𝗠𝗘𝗗𝗘𝗠𝗘𝗥 𝗚𝗢𝗩𝗘𝗥𝗡𝗠𝗘𝗡𝗧 𝗜𝗦 𝗥𝗘𝗗𝗘𝗙𝗜𝗡𝗜𝗡𝗚 𝗣𝗨𝗕𝗟𝗜𝗖 𝗦𝗘𝗥𝗩𝗜𝗖𝗘 𝗧𝗛𝗥𝗢𝗨𝗚𝗛 𝗠𝗘𝗦𝗢𝗕",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — A government’s commitment to its people is tested not only by the development projects it delivers, but also by the quality of service citizens receive when they walk through its doors. Every unnecessary journey between of",
     "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 14:36:58 +0000"
+    "publishedAt": "Mon, 02 Nov 2026 06:01:28 +0000"
   },
   {
-    "title": "ቼልሲ ማንቼሰተር ዩናይትድን 2 ለ 0 አሸነፈ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) በ9ኛ ሳምንት የእንግሊዝ ፕሪሚየር ሊግ ቼልሲ ማንቼሰተር ዩናይትድን 2 ለ 0 አሸንፏል፡፡ ቀን 9 ሰዓት ከ30 ጀምሮ በተደረገው ጨዋታ ሞርጋን ሮጄርስ በጨዋታ እና ኮል ፓልመር በፍፁም ቅጣት ምት የቼልሲን ግቦች አስቆጥረዋል፡፡ በጨዋታው አርጀንቲናዊው የማንቼሰተር ዩናይትድ ተከላካይ ሊሳንድሮ ማርቲኔዝ በቀይ ካርድ ተሰናብቷል። ውጤቱን ተከትሎም ቼልሲ ነጥቡን 1",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 14:34:25 +0000"
-  },
-  {
-    "title": "ድንበር ተሻጋሪ ወንጀሎችን ለመከላከል የዓለም አቀፍ የተጓዦች ትስስር ቴክኖሎጂ ተግባራዊ ሊደረግ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ድንበር ተሻጋሪ ወንጀሎችን ለመከላከልና ወንጀለኞች ተላልፈው እንዲሰጡ ለማድረግ ዓለም አቀፍ የተጓዦች ትስስር ቴክኖሎጂን ልትተገብር ነው አሉ የኢትዮጵያ ፌዴራል ፖሊስ ጠቅላይ አዛዥ ኮሚሽነር ጄኔራል ደመላሽ ገብረሚካኤል። ኮሚሽነር ጄኔራል ደመላሽ ገብረሚካኤል እንዳሉት÷ ዓለም አቀፍ ወንጀሎች በቴክኖሎጂ የታገዙና ውስብስብ በሆኑበት ዘመን ዓለም አቀፋዊ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 14:01:16 +0000"
-  },
-  {
-    "title": "PM Office Touts Addis Ababa’s Global Urban Award as Springboard for Ethiopia’s Cities",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – The Office of the Prime Minister of Ethiopia has described Addis Ababa’s recognition with the 2026 Global Award for Sustainable Development in Cities as an opportunity to extend the country’s urban transformation ambitions",
+    "title": "𝗙𝗥𝗢𝗠 𝗗𝗜𝗣𝗟𝗢𝗠𝗔𝗧𝗜𝗖 𝗣𝗥𝗘𝗦𝗘𝗡𝗖𝗘 𝗧𝗢 𝗦𝗧𝗥𝗔𝗧𝗘𝗚𝗜𝗖 𝗜𝗡𝗙𝗟𝗨𝗘𝗡𝗖𝗘: 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝟰𝗔 𝗗𝗜𝗣𝗟𝗢𝗠𝗔𝗖𝗬 𝗥𝗘𝗦𝗛𝗔𝗣𝗘𝗦 𝗜𝗧𝗦 𝗚𝗟𝗢𝗕𝗔𝗟 𝗘𝗡𝗚𝗔𝗚𝗘𝗠𝗘𝗡𝗧",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — In a world increasingly shaped by shifting alliances, geopolitical competition and competing economic interests, diplomatic influence is measured not simply by a country’s presence at international gatherings, but by its a",
     "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 13:33:28 +0000"
+    "publishedAt": "Mon, 02 Nov 2026 05:57:38 +0000"
   },
   {
-    "title": "Addis Ababa Wins 2026 Shanghai Award for Sustainable Urban Development",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) – Addis Ababa has won the 2026 Shanghai Award, an international recognition presented by UN-Habitat and China in connection with World Cities Day, in recognition of its progress in sustainable, inclusive, people-centred and ",
+    "title": "HOW ETHIOPIA’S URBAN RENAISSANCE PROPELLED ADDIS ABABA TO THE SUMMIT OF GLOBAL URBAN CENTRES: THE AFRICAN CAPITAL’S ASCENT TO INTERNATIONAL PROMINENCE",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) – Addis Ababa’s emergence among the world’s recognized centres of sustainable urban development is the payoff of an ambitious urban renaissance that has been reshaping the Ethiopian capital, turning its development vision in",
     "source": "FBC English",
-    "publishedAt": "Sat, 31 Oct 2026 12:57:13 +0000"
+    "publishedAt": "Mon, 02 Nov 2026 05:54:19 +0000"
   },
   {
-    "title": "በዘላቂ የከተማ ልማት ጉዞዋ ዓለም አቀፍ ዕውቅና ያገኘችው አዲስ አበባ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የከተማ ልማት ስኬት የሚለካው ከዘመናዊ ሕንፃዎችና መንገዶች ባሻገር ለነዋሪዎች በሚፈጥረው ምቹ የመኖሪያ ከባቢ፣ በሚያስገኘው የኢኮኖሚ ዕድልና በሚያስመዘግበው ዘላቂ ልማት ጭምር ነው። ከዚህ አንጻር የአዲስ አበባ የከተማ ልማት ለውጥ የመንገድና የኮሪደር እንዲሁም የወንዝ ዳርቻዎች ልማት፣ የአረንጓዴ ስፍራዎች መስፋፋት፣ የመኖሪያ ቤት አቅርቦት፣ የሥራ ዕድል ፈ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 12:48:50 +0000"
+    "title": "FROM NATURAL RESOURCES TO ECONOMIC RESILIENCE: ETHIOPIA’S DEVELOPMENT DRIVE SETS A BROADER BENCHMARK FOR AFRICA",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) – The real value of a country’s natural resources is measured not simply by what lies beneath its soil, but by what they make possible for its people and economy. Ethiopia’s expanding natural gas initiative illustrates this ",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 05:49:16 +0000"
   },
   {
-    "title": "“የጥቅምት እሸት አወደ…”",
-    "summary": "አዲስ አበባ፣ ጥቅምት 21፣ 2019 (ኤፍ ኤም ሲ) የኦሮሞ ሕዝብ የገዳ ሥርዓት ማኅበራዊ ሕግና የሕይወት ፍልስፍና ብቻ ሳይሆን፣ ባህልን፣ ተፈጥሮንና የሴቶችን ሚና የሚያገናኝ የማንነት ምሰሶ ነው። በዚህ የባህል ዓለም ውስጥ አቴቴ የእምነትና የጸሎት ሥርዓት ብቻ ሳይሆን የሴቶች ድምፅ፣ የማኅበረሰብ አንድነትና የተፈጥሮ ምስጢር መገለጫ ሆና ትታያለች። የክረምቱ ጨለማ አልፎ በጸደይ ብርሃን መተካቱን ተከትሎ በአብ",
+    "title": "አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) በእንግሊዝ ፕሪሚየር ሊግ የ9ኛ ሳምንት ጨዋታ አርሰናል ሊቨርፑልን 1 ለ 0 አሸንፏል። በአንፊልድ ስታዲየም ከ14 ዓመታት በኋላ ሊቨርፑልን ማሸነፍ የቻለው አርሰናል የሊጉን መሪነት ተረክቧል። The post አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ appeared first on Welcome to Fana Media Corporation S.C .",
     "source": "Fana Media",
-    "publishedAt": "Sat, 31 Oct 2026 11:53:15 +0000"
+    "publishedAt": "Sun, 01 Nov 2026 18:30:28 +0000"
+  },
+  {
+    "title": "በዘመናዊ ትጥቅ፣ በሕዝባዊነትና በሥነ-ምግባር የተገነባ ሠራዊት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት ታሪክ ከኢትዮጵያ የነፃነት ታሪክ ጋር በጥልቅ የተሳሰረ ነው። በተለያዩ ዘመናት ሀገርን ከውጭ ወረራ ለመጠበቅ፣ የሕዝብን ክብርና የሀገርን ሉዓላዊነት ለማስከበር የተከፈሉ መስዋዕትነቶች በታሪክ ማህደር ውስጥ የማይረሱ ምዕራፎች ሆነው ተመዝግበዋል። ጊዜዎች ሲቀያየሩ፣ የታሪክ ውጣ ውረዶች ሲፈራረቁ፣ ኢትዮጵያ ግን ሁልጊዜም በጽናት ቆማለች",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 01 Nov 2026 18:20:29 +0000"
+  },
+  {
+    "title": "የሰው ልጅ የአኗኗር ክብርን የጠበቀ የኑሮ ዘይቤ የመፍጠሩ ሥራ ተጠናክሮ ይቀጥላል — ከንቲባ አዳነች አቤቤ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባ የዲፕሎማሲ ማዕከል በመሆኗ ያረጁ አካባቢዎችን በማልማት የሰው ልጅ የአኗኗር ክብርን የጠበቀ እና ከዓለም ጋር የሚወዳደር የኑሮ ዘይቤ የመፍጠር ሥራ ተጠናክሮ ይቀጥላል አሉ ከንቲባ አዳነች አቤቤ፡፡ በዛሬው ዕለት በቦሌ ክፍለ ከተማ የተገነባው የቦሌ ሹቡ ኤጀርሳ የተቀናጀ የነዋሪዎች መንደር ለልማት ተነሺዎች የማስተላለፍ ሥነ ሥርዓት ተካሂዷል፡፡ ከን",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 01 Nov 2026 17:57:18 +0000"
+  },
+  {
+    "title": "የመደመር እይታ የወለደው አገልግሎት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የመደመር ፍልስፍና ዋና ዋና ግቦች ከሆኑት መካከል የመንግሥት የአገልግሎት አሰጣጥን ዘመናዊ፣ ቀልጣፋ እና ግልጽ ማድረግ ይጠቀሳል። የመደመር መንግሥት ለዜጎች ምቹ፣ ፈጣን እና ከእንግልት የጸዳ አገልግሎት እንዲሰጥ ለማስቻል በርካታ መዋቅራዊ እና ቴክኖሎጂ ተኮር ማሻሻያዎች አድርጓል። በማሻሻዎቹ የመጣው ውጤት የመንግሥትን የአገልግሎት አሰጣጥ ወደ አዲስ የዕድገ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 01 Nov 2026 16:34:55 +0000"
+  },
+  {
+    "title": "በሀረሪ ክልል ከ5 ሺህ ሔክታር በላይ መሬት በመስኖ ለማልማት ወደ ሥራ ተገብቷል – ወ/ሮ ሮዛ ኡመር",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የመስኖ ልማትን ውጤታማ በማድረግ በክልሉ በዝናብ እጥረት የተከሰተውን የምርት መቀነስ ለማካካስ እንሰራለን አሉ የሀረሪ ክልል ምክትል ርዕሰ መስተዳድር እና የግብርና ልማት ቢሮ ኃላፊ ወይዘሮ ሮዛ ኡመር፡፡ ምክትል ርዕሰ መስተዳድሯ የክልሉን የበጋ የመስኖ ልማት ሥራ አስመልክተው በሰጡት መግለጫ እንዳሉት÷በክልሉ የውኃ አማራጮችን በመጠቀም ከ5 ሺህ 500 ሔክታር",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 01 Nov 2026 13:31:47 +0000"
+  },
+  {
+    "title": "የተገልጋይ እርካታን የሚያረጋግጡ አሰራሮችን በጥራት ለመተግበር እየተሰራ ነው – አቶ አረጋ ከበደ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የተገልጋይ እርካታን የሚያረጋግጡ አሰራሮችን በጥራት ለመተግበር በትኩረት እየተሰራ ነው አሉ የአማራ ክልል ርዕሰ መስተዳድር አረጋ ከበደ። በደብረ ብርሃን ከተማ ከ1 ነጥብ 8 ቢሊየን ብር በላይ ወጪ የተደረገባቸው መሶብ የአንድ ማዕከል አገልግሎት፣ የኮሪደር ልማት እንዲሁም የደረቅ እና የፈሳሽ ቆሻሻ ማጣሪያ ፕሮጀክቶች ተመርቀው ለአገልግሎት በቅተዋል። ርዕሰ መ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 01 Nov 2026 12:07:48 +0000"
+  },
+  {
+    "title": "በደብረ ብርሃን መሶብ የአንድ ማዕከል አገልገሎት ሥራ ጀመረ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የአማራ ክልል ርዕሰ መስተዳድር አረጋ ከበደ የደብረ ብርሃን መሶብ የአንድ ማዕከል አገልገሎትን መርቀው ሥራ አስጀምረዋል። የደብረ ብርሃን መሶብ የአንድ ማዕከል አገልግሎት በከተማዋ ፈጣን እና ዘመናዊ አገልግሎት ለመስጠት የተገነባ ነው፡፡ የመሶብ የአንድ ማዕከል አገልግሎቱ በርካታ ተቋማትን እና በርካታ አገልግሎቶችን በአንድ ጊዜ መስጠት የሚያስችል መሆኑም ተመ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 01 Nov 2026 10:20:35 +0000"
   }
 ];
