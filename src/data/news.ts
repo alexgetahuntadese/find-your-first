@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Tigray Region Accelerates Institutional Recovery as Government Employee Salary Payments Set to Resume This Month",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) – The Tigray Region Caretaker Administration is advancing efforts to restore government institutions and strengthen public service delivery, with salary payments to government employees set to resume this month as part of br",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 14:27:08 +0000"
+  },
+  {
+    "title": "Egypt’s Colonial-Era Nile Claims Cannot Override #Ethiopia’s Right to Equitable Water Use: Ministry Advisor",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Egypt cannot use colonial-era agreements or claims of historical entitlement to deny Ethiopia and other upstream countries their right to equitable utilization of the Nile, Kebede Gerba, a consultant to Ethiopia’s Ministry",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 11:30:47 +0000"
+  },
+  {
+    "title": "Adigrat University Welcomes Returning and Newly Admitted Students as Academic Activities Resume Across Tigray Region",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Adigrat University has begun receiving returning and newly admitted students, marking a further step in the resumption of regular academic activities across Ethiopia’s Tigray Region. Students arrived at the university toda",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 10:17:19 +0000"
+  },
+  {
+    "title": "Ethiopia Prioritizes Human Capital Development, Gender Equality in Long-Term Development Agenda: House Speaker",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia is placing human capital development and the realization of gender equality at the centre of its long-term development agenda, Speaker of the House of Peoples’ Representatives Ahmed Shide said. He made the remarks",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 09:54:30 +0000"
+  },
+  {
+    "title": "Mekelle City Set to Join Ethiopia’s MESOB One-Stop Service Network as Preparations Advance",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Mekelle city is moving closer to joining Ethiopia’s nationwide transformation of public service delivery, with preparations underway to launch the MESOB One-Stop Service Centre in the Tigray regional capital. MESOB Service",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 09:25:15 +0000"
+  },
+  {
+    "title": "ETHIOPIA’S SWEEPING URBAN TRANSFORMATION WEAVES WALKING AND CYCLING INTO THE FABRIC OF THE URBAN RENAISSANCE",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — The measure of a city’s greatness is not found in the height of its buildings alone, but in the freedom of a child to walk safely, the ease with which a commuter can cycle to work, the pleasure of a family strolling beside",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 08:49:55 +0000"
+  },
+  {
+    "title": "BEYOND THE PLUG: ETHIOPIA’S DRIVE TO BUILD A COMPLETE GREEN MOBILITY ECOSYSTEM",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia’s electric mobility transition is gathering momentum, moving beyond the growing presence of electric vehicles on its roads towards building the infrastructure, partnerships and technological foundations needed to ",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 07:14:50 +0000"
+  },
+  {
+    "title": "Ethiopia’s Citizen-Centered Diplomacy Brings 1,364 More Nationals Home from Saudi Arabia",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia has repatriated 1,364 nationals who had been living in difficult circumstances in Saudi Arabia over the past week, bringing the total number of citizens returned under the ongoing operation to more than 112,500. T",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 06:59:22 +0000"
+  },
+  {
     "title": "𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗗𝗘𝗙𝗘𝗡𝗦𝗘 𝗙𝗢𝗥𝗖𝗘: 𝗔 𝗠𝗢𝗗𝗘𝗥𝗡 𝗔𝗥𝗠𝗬 𝗥𝗢𝗢𝗧𝗘𝗗 𝗜𝗡 𝗛𝗜𝗦𝗧𝗢𝗥𝗬, 𝗗𝗜𝗦𝗖𝗜𝗣𝗟𝗜𝗡𝗘𝗗 𝗕𝗬 𝗘𝗧𝗛𝗜𝗖𝗦, 𝗔𝗡𝗗 𝗘𝗤𝗨𝗜𝗣𝗣𝗘𝗗 𝗙𝗢𝗥 𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘",
     "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia’s defense history is inseparable from its history of independence. Across generations, the country’s sovereignty has been defended through extraordinary sacrifice, determination, and courage. From repelling foreig",
     "source": "FBC English",
@@ -15,24 +63,6 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Mon, 02 Nov 2026 06:01:28 +0000"
   },
   {
-    "title": "𝗙𝗥𝗢𝗠 𝗗𝗜𝗣𝗟𝗢𝗠𝗔𝗧𝗜𝗖 𝗣𝗥𝗘𝗦𝗘𝗡𝗖𝗘 𝗧𝗢 𝗦𝗧𝗥𝗔𝗧𝗘𝗚𝗜𝗖 𝗜𝗡𝗙𝗟𝗨𝗘𝗡𝗖𝗘: 𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝟰𝗔 𝗗𝗜𝗣𝗟𝗢𝗠𝗔𝗖𝗬 𝗥𝗘𝗦𝗛𝗔𝗣𝗘𝗦 𝗜𝗧𝗦 𝗚𝗟𝗢𝗕𝗔𝗟 𝗘𝗡𝗚𝗔𝗚𝗘𝗠𝗘𝗡𝗧",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — In a world increasingly shaped by shifting alliances, geopolitical competition and competing economic interests, diplomatic influence is measured not simply by a country’s presence at international gatherings, but by its a",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 05:57:38 +0000"
-  },
-  {
-    "title": "HOW ETHIOPIA’S URBAN RENAISSANCE PROPELLED ADDIS ABABA TO THE SUMMIT OF GLOBAL URBAN CENTRES: THE AFRICAN CAPITAL’S ASCENT TO INTERNATIONAL PROMINENCE",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) – Addis Ababa’s emergence among the world’s recognized centres of sustainable urban development is the payoff of an ambitious urban renaissance that has been reshaping the Ethiopian capital, turning its development vision in",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 05:54:19 +0000"
-  },
-  {
-    "title": "FROM NATURAL RESOURCES TO ECONOMIC RESILIENCE: ETHIOPIA’S DEVELOPMENT DRIVE SETS A BROADER BENCHMARK FOR AFRICA",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) – The real value of a country’s natural resources is measured not simply by what lies beneath its soil, but by what they make possible for its people and economy. Ethiopia’s expanding natural gas initiative illustrates this ",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 05:49:16 +0000"
-  },
-  {
     "title": "አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ",
     "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) በእንግሊዝ ፕሪሚየር ሊግ የ9ኛ ሳምንት ጨዋታ አርሰናል ሊቨርፑልን 1 ለ 0 አሸንፏል። በአንፊልድ ስታዲየም ከ14 ዓመታት በኋላ ሊቨርፑልን ማሸነፍ የቻለው አርሰናል የሊጉን መሪነት ተረክቧል። The post አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ appeared first on Welcome to Fana Media Corporation S.C .",
     "source": "Fana Media",
@@ -43,35 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት ታሪክ ከኢትዮጵያ የነፃነት ታሪክ ጋር በጥልቅ የተሳሰረ ነው። በተለያዩ ዘመናት ሀገርን ከውጭ ወረራ ለመጠበቅ፣ የሕዝብን ክብርና የሀገርን ሉዓላዊነት ለማስከበር የተከፈሉ መስዋዕትነቶች በታሪክ ማህደር ውስጥ የማይረሱ ምዕራፎች ሆነው ተመዝግበዋል። ጊዜዎች ሲቀያየሩ፣ የታሪክ ውጣ ውረዶች ሲፈራረቁ፣ ኢትዮጵያ ግን ሁልጊዜም በጽናት ቆማለች",
     "source": "Fana Media",
     "publishedAt": "Sun, 01 Nov 2026 18:20:29 +0000"
-  },
-  {
-    "title": "የሰው ልጅ የአኗኗር ክብርን የጠበቀ የኑሮ ዘይቤ የመፍጠሩ ሥራ ተጠናክሮ ይቀጥላል — ከንቲባ አዳነች አቤቤ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባ የዲፕሎማሲ ማዕከል በመሆኗ ያረጁ አካባቢዎችን በማልማት የሰው ልጅ የአኗኗር ክብርን የጠበቀ እና ከዓለም ጋር የሚወዳደር የኑሮ ዘይቤ የመፍጠር ሥራ ተጠናክሮ ይቀጥላል አሉ ከንቲባ አዳነች አቤቤ፡፡ በዛሬው ዕለት በቦሌ ክፍለ ከተማ የተገነባው የቦሌ ሹቡ ኤጀርሳ የተቀናጀ የነዋሪዎች መንደር ለልማት ተነሺዎች የማስተላለፍ ሥነ ሥርዓት ተካሂዷል፡፡ ከን",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 17:57:18 +0000"
-  },
-  {
-    "title": "የመደመር እይታ የወለደው አገልግሎት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የመደመር ፍልስፍና ዋና ዋና ግቦች ከሆኑት መካከል የመንግሥት የአገልግሎት አሰጣጥን ዘመናዊ፣ ቀልጣፋ እና ግልጽ ማድረግ ይጠቀሳል። የመደመር መንግሥት ለዜጎች ምቹ፣ ፈጣን እና ከእንግልት የጸዳ አገልግሎት እንዲሰጥ ለማስቻል በርካታ መዋቅራዊ እና ቴክኖሎጂ ተኮር ማሻሻያዎች አድርጓል። በማሻሻዎቹ የመጣው ውጤት የመንግሥትን የአገልግሎት አሰጣጥ ወደ አዲስ የዕድገ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 16:34:55 +0000"
-  },
-  {
-    "title": "በሀረሪ ክልል ከ5 ሺህ ሔክታር በላይ መሬት በመስኖ ለማልማት ወደ ሥራ ተገብቷል – ወ/ሮ ሮዛ ኡመር",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የመስኖ ልማትን ውጤታማ በማድረግ በክልሉ በዝናብ እጥረት የተከሰተውን የምርት መቀነስ ለማካካስ እንሰራለን አሉ የሀረሪ ክልል ምክትል ርዕሰ መስተዳድር እና የግብርና ልማት ቢሮ ኃላፊ ወይዘሮ ሮዛ ኡመር፡፡ ምክትል ርዕሰ መስተዳድሯ የክልሉን የበጋ የመስኖ ልማት ሥራ አስመልክተው በሰጡት መግለጫ እንዳሉት÷በክልሉ የውኃ አማራጮችን በመጠቀም ከ5 ሺህ 500 ሔክታር",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 13:31:47 +0000"
-  },
-  {
-    "title": "የተገልጋይ እርካታን የሚያረጋግጡ አሰራሮችን በጥራት ለመተግበር እየተሰራ ነው – አቶ አረጋ ከበደ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የተገልጋይ እርካታን የሚያረጋግጡ አሰራሮችን በጥራት ለመተግበር በትኩረት እየተሰራ ነው አሉ የአማራ ክልል ርዕሰ መስተዳድር አረጋ ከበደ። በደብረ ብርሃን ከተማ ከ1 ነጥብ 8 ቢሊየን ብር በላይ ወጪ የተደረገባቸው መሶብ የአንድ ማዕከል አገልግሎት፣ የኮሪደር ልማት እንዲሁም የደረቅ እና የፈሳሽ ቆሻሻ ማጣሪያ ፕሮጀክቶች ተመርቀው ለአገልግሎት በቅተዋል። ርዕሰ መ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 12:07:48 +0000"
-  },
-  {
-    "title": "በደብረ ብርሃን መሶብ የአንድ ማዕከል አገልገሎት ሥራ ጀመረ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የአማራ ክልል ርዕሰ መስተዳድር አረጋ ከበደ የደብረ ብርሃን መሶብ የአንድ ማዕከል አገልገሎትን መርቀው ሥራ አስጀምረዋል። የደብረ ብርሃን መሶብ የአንድ ማዕከል አገልግሎት በከተማዋ ፈጣን እና ዘመናዊ አገልግሎት ለመስጠት የተገነባ ነው፡፡ የመሶብ የአንድ ማዕከል አገልግሎቱ በርካታ ተቋማትን እና በርካታ አገልግሎቶችን በአንድ ጊዜ መስጠት የሚያስችል መሆኑም ተመ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 10:20:35 +0000"
   }
 ];
