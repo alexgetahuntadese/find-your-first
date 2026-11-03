@@ -56,12 +56,12 @@ function ethiopiaDate(value) {
   return part("year") + "-" + part("month") + "-" + part("day");
 }
 
-const yesterday = ethiopiaDate(Date.now() - 24 * 60 * 60 * 1000);
+const today = ethiopiaDate(new Date().toISOString());
 const jobs = await readUpdatedFeed();
-const todaysJobs = jobs.filter((job) => ethiopiaDate(job.datePosted) === yesterday);
+const todaysJobs = jobs.filter((job) => ethiopiaDate(job.datePosted) === today);
 
 if (todaysJobs.length === 0) {
-  console.log("No job listings dated " + yesterday + " (Africa/Addis_Ababa) are available to post.");
+  console.log("No job listings dated " + today + " (Africa/Addis_Ababa) are available to post.");
   process.exit(0);
 }
 
@@ -121,7 +121,7 @@ async function sendMessage(text, replyMarkup) {
 
 for (let index = 0; index < parts.length; index += 1) {
   const chunk = parts[index];
-  const heading = "Serategna jobs posted yesterday · " + yesterday + "\n" +
+  const heading = "Serategna jobs posted today · " + today + "\n" +
     todaysJobs.length + " new openings · " + (index + 1) + "/" + parts.length + "\n\n";
   const message = heading + chunk.text;
   if (message.length > 4096) throw new Error("Telegram message exceeds the 4096-character limit");
@@ -133,4 +133,4 @@ for (let index = 0; index < parts.length; index += 1) {
   if (index + 1 < parts.length) await new Promise((resolve) => setTimeout(resolve, 400));
 }
 
-console.log("Posted " + todaysJobs.length + " job listings dated " + yesterday + " in " + parts.length + " Telegram message(s), with apply buttons.");
+console.log("Posted " + todaysJobs.length + " job listings dated " + today + " in " + parts.length + " Telegram message(s), with apply buttons.");
