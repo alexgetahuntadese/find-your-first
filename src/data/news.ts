@@ -3,6 +3,12 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "30,000 Participants, 114 Countries, One African Health Aspiration: Addis Ababa Ready to Welcome the World",
+    "summary": "Addis Ababa, November 2, 2026 (FMC) — There are moments when a city becomes more than a destination. It becomes a meeting point for aspirations, a crossroads of ideas, and a place where the future of nations and continents is discussed, shaped, and reimagined.",
+    "source": "FBC English",
+    "publishedAt": "Mon, 02 Nov 2026 18:35:24 +0000"
+  },
+  {
     "title": "Tigray Region Accelerates Institutional Recovery as Government Employee Salary Payments Set to Resume This Month",
     "summary": "Addis Ababa, November 2, 2026 (FMC) – The Tigray Region Caretaker Administration is advancing efforts to restore government institutions and strengthen public service delivery, with salary payments to government employees set to resume this month as part of br",
     "source": "FBC English",
@@ -55,12 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia’s defense history is inseparable from its history of independence. Across generations, the country’s sovereignty has been defended through extraordinary sacrifice, determination, and courage. From repelling foreig",
     "source": "FBC English",
     "publishedAt": "Mon, 02 Nov 2026 06:44:32 +0000"
-  },
-  {
-    "title": "𝗙𝗥𝗢𝗠 𝗕𝗨𝗥𝗘𝗔𝗨𝗥𝗔𝗖𝗬 𝗧𝗢 𝗕𝗥𝗘𝗔𝗞𝗧𝗛𝗥𝗢𝗨𝗚𝗛: 𝗛𝗢𝗪 𝗧𝗛𝗘 𝗠𝗘𝗗𝗘𝗠𝗘𝗥 𝗚𝗢𝗩𝗘𝗥𝗡𝗠𝗘𝗡𝗧 𝗜𝗦 𝗥𝗘𝗗𝗘𝗙𝗜𝗡𝗜𝗡𝗚 𝗣𝗨𝗕𝗟𝗜𝗖 𝗦𝗘𝗥𝗩𝗜𝗖𝗘 𝗧𝗛𝗥𝗢𝗨𝗚𝗛 𝗠𝗘𝗦𝗢𝗕",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — A government’s commitment to its people is tested not only by the development projects it delivers, but also by the quality of service citizens receive when they walk through its doors. Every unnecessary journey between of",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 06:01:28 +0000"
   },
   {
     "title": "አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ",
