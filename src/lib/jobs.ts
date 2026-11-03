@@ -38,12 +38,18 @@ function toJob(row: PublishedJobRow): Job {
 }
 
 /** Published original listings are readable without an account for SSR and search engines. */
-export async function listPublishedJobs(): Promise<Job[]> {
-  if (!SUPABASE_URL || !SUPABASE_KEY) return [];
+export async function listPublishedJobs(options: { strict?: boolean } = {}): Promise<Job[]> {
+  if (!SUPABASE_URL || !SUPABASE_KEY) {
+    if (options.strict) throw new Error("Supabase is not configured");
+    return [];
+  }
   const response = await fetch(`${SUPABASE_URL}/rest/v1/original_jobs?select=*&status=eq.published&order=date_posted.desc`, { headers: publicHeaders() });
   // Keep the existing public job board available until the new Supabase schema
   // is applied; admin writes still surface configuration errors explicitly.
-  if (!response.ok) return [];
+  if (!response.ok) {
+    if (options.strict) throw new Error("Could not load published jobs from Supabase");
+    return [];
+  }
   return (await response.json() as PublishedJobRow[]).map(toJob);
 }
 

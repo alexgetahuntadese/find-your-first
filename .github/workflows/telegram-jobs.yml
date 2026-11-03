@@ -1,0 +1,37 @@
+name: Post site jobs to Telegram
+
+on:
+  workflow_run:
+    workflows:
+      - Refresh Ethiopian jobs from multiple sources
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-jobs-${{ github.run_id }}
+  cancel-in-progress: false
+
+jobs:
+  post-jobs:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out the latest published job snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wait for the updated site and post its current jobs
+        run: node scripts/post-jobs-to-telegram.mjs
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_JOBS_URL: ${{ vars.SITE_JOBS_URL }}

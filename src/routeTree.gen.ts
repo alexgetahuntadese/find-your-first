@@ -26,6 +26,7 @@ import { Route as PostRouteImport } from './routes/post'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as UnitConverterRouteImport } from './routes/unit-converter'
+import { Route as ApiJobsDotjsonRouteImport } from './routes/api.jobs[.]json'
 import { Route as BlogFirstJobCvEthiopiaRouteImport } from './routes/blog.first-job-cv-ethiopia'
 import { Route as JobsIdRouteImport } from './routes/jobs.$id'
 
@@ -118,6 +119,11 @@ const UnitConverterRoute = UnitConverterRouteImport.update({
   path: '/unit-converter',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiJobsDotjsonRoute = ApiJobsDotjsonRouteImport.update({
+  id: '/api/jobs.json',
+  path: '/api/jobs.json',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogFirstJobCvEthiopiaRoute = BlogFirstJobCvEthiopiaRouteImport.update({
   id: '/first-job-cv-ethiopia',
   path: '/first-job-cv-ethiopia',
@@ -147,6 +153,7 @@ export interface FileRoutesByFullPath {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/api/jobs.json': typeof ApiJobsDotjsonRoute
   '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
   '/jobs/$id': typeof JobsIdRoute
 }
@@ -168,6 +175,7 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/api/jobs.json': typeof ApiJobsDotjsonRoute
   '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
   '/jobs/$id': typeof JobsIdRoute
 }
@@ -190,6 +198,7 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/api/jobs.json': typeof ApiJobsDotjsonRoute
   '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
   '/jobs/$id': typeof JobsIdRoute
 }
@@ -213,6 +222,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/unit-converter'
+    | '/api/jobs.json'
     | '/blog/first-job-cv-ethiopia'
     | '/jobs/$id'
   fileRoutesByTo: FileRoutesByTo
@@ -234,6 +244,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/unit-converter'
+    | '/api/jobs.json'
     | '/blog/first-job-cv-ethiopia'
     | '/jobs/$id'
   id:
@@ -255,6 +266,7 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/unit-converter'
+    | '/api/jobs.json'
     | '/blog/first-job-cv-ethiopia'
     | '/jobs/$id'
   fileRoutesById: FileRoutesById
@@ -277,6 +289,7 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   UnitConverterRoute: typeof UnitConverterRoute
+  ApiJobsDotjsonRoute: typeof ApiJobsDotjsonRoute
   JobsIdRoute: typeof JobsIdRoute
 }
 
@@ -401,6 +414,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof UnitConverterRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/jobs.json': {
+      id: '/api/jobs.json'
+      path: '/api/jobs.json'
+      fullPath: '/api/jobs.json'
+      preLoaderRoute: typeof ApiJobsDotjsonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/first-job-cv-ethiopia': {
       id: '/blog/first-job-cv-ethiopia'
       path: '/first-job-cv-ethiopia'
@@ -447,6 +467,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   UnitConverterRoute: UnitConverterRoute,
+  ApiJobsDotjsonRoute: ApiJobsDotjsonRoute,
   JobsIdRoute: JobsIdRoute,
 }
 export const routeTree = rootRouteImport

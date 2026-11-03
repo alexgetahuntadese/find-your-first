@@ -11,9 +11,10 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest run",
-    "test:watch": "vitest"
-    ,"scrape:jobs": "node scripts/scrape-ethiopian-jobs.mjs"
-    ,"scrape:news": "node scripts/scrape-ethiopian-news.mjs"
+    "test:watch": "vitest",
+    "scrape:jobs": "node scripts/scrape-ethiopian-jobs.mjs",
+    "scrape:news": "node scripts/scrape-ethiopian-news.mjs",
+    "post:telegram-jobs": "node scripts/post-jobs-to-telegram.mjs"
   },
   "overrides": {
     "rolldown": "1.2.1"

@@ -116,3 +116,14 @@ Supabase authentication is configured through `.env.local` using `VITE_SUPABASE_
 Sign in with an account whose `profiles.role` is `admin`, then open `/admin`. Use **Publish an original job** to add an accurate, verified vacancy. It is published immediately, appears in the public job feed and relevant landing pages, gets an on-site application form and JobPosting structured data, and is added to `/sitemap.xml`. Close filled or expired vacancies from the admin list so they are removed from public pages and the sitemap. Search engines decide when to recrawl the sitemap; publishing does not guarantee immediate indexing.
 
 Applicants can submit their name, email, phone, education or experience, an optional note, and a PDF or DOCX CV (up to 5 MB) without creating an account. CV files are kept in a private Supabase Storage bucket; administrators view them through links that expire after 10 minutes. The Supabase SQL policies must be applied before accepting applications.
+
+### Daily Telegram job roundup
+
+The `Post site jobs to Telegram` GitHub Actions workflow runs after the daily job refresh succeeds. It waits until Vercel serves the matching refreshed snapshot, then posts every active listing from the public feed in messages below Telegram's size limit. It can also be started manually from the Actions tab.
+
+Add these repository Actions secrets before enabling delivery:
+
+- `TELEGRAM_BOT_TOKEN`: token for a Telegram bot that has permission to post in the channel.
+- `TELEGRAM_CHAT_ID`: the channel username (for example, `@yourchannel`) or numeric chat ID.
+
+The bot must be added as a channel administrator with permission to post. Optionally set the repository variable `SITE_JOBS_URL` if the public feed endpoint uses a different URL; otherwise it uses `https://serategna.com.et/api/jobs.json`. The workflow skips posting when either required secret is absent.
