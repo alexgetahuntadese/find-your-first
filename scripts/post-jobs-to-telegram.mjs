@@ -9,7 +9,7 @@ if (!token || !chatId) {
 
 const siteUrl = (process.env.SITE_JOBS_URL || "https://serategna.com.et/api/jobs.json").trim();
 const source = await readFile(new URL("../src/data/scraped-jobs.ts", import.meta.url), "utf8");
-const expectedSnapshot = source.match(/scrapedJobsGeneratedAt\s*=\s*"([^"]+)"/)?.[1];
+const expectedSnapshot = source.match(/scrapedJobsGeneratedAt\\s*=\\s*"([^"]+)"/)?.[1];
 if (!expectedSnapshot) throw new Error("Could not read the expected jobs snapshot timestamp");
 
 async function readUpdatedFeed() {
@@ -38,44 +38,75 @@ async function readUpdatedFeed() {
 }
 
 function clean(value, fallback = "Not specified") {
-  const normalized = String(value || "").replace(/[\r\n\t]+/g, " ").replace(/\s+/g, " ").trim();
+  const normalized = String(value || "").replace(/[\\r\\n\\t]+/g, " ").replace(/\\s+/g, " ").trim();
   return normalized || fallback;
 }
 
-function formatDate() {
-  return new Intl.DateTimeFormat("en-ET", { dateStyle: "full", timeZone: "Africa/Addis_Ababa" }).format(new Date());
+function ethiopiaDate(value) {
+  if (!value) return null;
+  const date = new Date(value);
+  if (!Number.isFinite(date.getTime())) return null;
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Africa/Addis_Ababa",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const part = (type) => parts.find((item) => item.type === type)?.value;
+  return `${part("year")}-${part("month")}-${part("day")}`;
+}
+
+function todayInEthiopia() {
+  return ethiopiaDate(new Date().toISOString());
 }
 
 const jobs = await readUpdatedFeed();
-if (jobs.length === 0) {
-  console.log("Telegram posting skipped: the public job feed has no active listings.");
+const today = todayInEthiopia();
+const todaysJobs = jobs.filter((job) => ethiopiaDate(job.datePosted) === today);
+
+if (todaysJobs.length === 0) {
+  console.log(`No job listings dated ${today} (Africa/Addis_Ababa) are available to post.`);
   process.exit(0);
 }
 
-const entries = jobs.map((job, index) => {
-  const deadline = job.deadline ? ` · Deadline: ${clean(job.deadline)}` : "";
-  return `${index + 1}. ${clean(job.title)} — ${clean(job.company)}\n${clean(job.location)} · ${clean(job.type)} · ${clean(job.mode)} · ${clean(job.pay)}${deadline}\n${clean(job.url, siteUrl)}`;
-});
-
-const contentLimit = 3600;
-const parts = [];
-let part = "";
-for (const entry of entries) {
-  if (entry.length > contentLimit) throw new Error("A job entry is too long to send safely");
-  if (part && part.length + entry.length + 2 > contentLimit) {
-    parts.push(part);
-    part = "";
-  }
-  part += `${part ? "\n\n" : ""}${entry}`;
+function applyUrl(job) {
+  try {
+    const url = new URL(job.url || siteUrl);
+    if (url.protocol === "https:" || url.protocol === "http:") return url.toString();
+  } catch {}
+  throw new Error(`Job “${clean(job.title)}” has no valid apply URL`);
 }
-if (part) parts.push(part);
 
-async function sendMessage(text) {
+const contentLimit = 3000;
+const parts = [];
+let partJobs = [];
+let partText = "";
+
+for (const job of todaysJobs) {
+  const entry = `${partJobs.length + 1}. ${clean(job.title)} — ${clean(job.company)}\\n${clean(job.location)} · ${clean(job.type)} · ${clean(job.mode)} · ${clean(job.pay)}`;
+  if (entry.length > contentLimit) throw new Error(`Job entry is too long to send safely: ${clean(job.title)}`);
+  if (partText && partText.length + entry.length + 2 > contentLimit) {
+    parts.push({ jobs: partJobs, text: partText });
+    partJobs = [];
+    partText = "";
+  }
+  const renumberedEntry = `${partJobs.length + 1}. ${clean(job.title)} — ${clean(job.company)}\\n${clean(job.location)} · ${clean(job.type)} · ${clean(job.mode)} · ${clean(job.pay)}`;
+  partText += `${partText ? "\\n\\n" : ""}${renumberedEntry}`;
+  partJobs.push(job);
+}
+if (partJobs.length) parts.push({ jobs: partJobs, text: partText });
+
+async function sendMessage(text, replyMarkup) {
   for (let attempt = 1; attempt <= 5; attempt += 1) {
     const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ chat_id: chatId, text, link_preview_options: { is_disabled: true } }),
+      body: JSON.stringify({
+        chat_id: chatId,
+        text,
+        reply_markup: replyMarkup,
+        link_preview_options: { is_disabled: true },
+      }),
       signal: AbortSignal.timeout(20_000),
     });
     const result = await response.json().catch(() => ({}));
@@ -91,12 +122,16 @@ async function sendMessage(text) {
 }
 
 for (let index = 0; index < parts.length; index += 1) {
-  const heading = `EthioHub daily jobs · ${formatDate()}\n${jobs.length} current openings · ${index + 1}/${parts.length}\n\n`;
-  const message = `${heading}${parts[index]}`;
+  const chunk = parts[index];
+  const heading = `Serategna jobs posted today · ${today}\\n${todaysJobs.length} new openings · ${index + 1}/${parts.length}\\n\\n`;
+  const message = `${heading}${chunk.text}`;
   if (message.length > 4096) throw new Error("Telegram message exceeds the 4096-character limit");
-  await sendMessage(message);
-  console.log(`Posted Telegram part ${index + 1}/${parts.length}`);
+  const replyMarkup = {
+    inline_keyboard: chunk.jobs.map((job) => [{ text: "Apply", url: applyUrl(job) }]),
+  };
+  await sendMessage(message, replyMarkup);
+  console.log(`Posted Telegram part ${index + 1}/${parts.length} with ${chunk.jobs.length} apply button(s)`);
   if (index + 1 < parts.length) await new Promise((resolve) => setTimeout(resolve, 400));
 }
 
-console.log(`Posted ${jobs.length} job listings in ${parts.length} Telegram message(s).`);
+console.log(`Posted ${todaysJobs.length} job listings dated ${today} in ${parts.length} Telegram message(s), with apply buttons.`);
