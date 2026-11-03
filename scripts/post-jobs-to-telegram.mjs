@@ -56,12 +56,12 @@ function ethiopiaDate(value) {
   return part("year") + "-" + part("month") + "-" + part("day");
 }
 
-const today = ethiopiaDate(new Date().toISOString());
+const yesterday = ethiopiaDate(Date.now() - 24 * 60 * 60 * 1000);
 const jobs = await readUpdatedFeed();
-const todaysJobs = jobs.filter((job) => ethiopiaDate(job.datePosted) === today);
+const todaysJobs = jobs.filter((job) => ethiopiaDate(job.datePosted) === yesterday);
 
 if (todaysJobs.length === 0) {
-  console.log("No job listings dated " + today + " (Africa/Addis_Ababa) are available to post.");
+  console.log("No job listings dated " + yesterday + " (Africa/Addis_Ababa) are available to post.");
   process.exit(0);
 }
 
@@ -73,26 +73,6 @@ function applyUrl(job) {
   throw new Error("Job “" + clean(job.title) + "” has no valid apply URL");
 }
 
-const contentLimit = 3000;
-const parts = [];
-let partJobs = [];
-let partText = "";
-
-for (const job of todaysJobs) {
-  const entry = (partJobs.length + 1) + ". " + clean(job.title) + " — " + clean(job.company) +
-    "\n" + clean(job.location) + " · " + clean(job.type) + " · " + clean(job.mode) + " · " + clean(job.pay);
-  if (entry.length > contentLimit) throw new Error("Job entry is too long to send safely: " + clean(job.title));
-  if (partText && partText.length + entry.length + 2 > contentLimit) {
-    parts.push({ jobs: partJobs, text: partText });
-    partJobs = [];
-    partText = "";
-  }
-  const renumberedEntry = (partJobs.length + 1) + ". " + clean(job.title) + " — " + clean(job.company) +
-    "\n" + clean(job.location) + " · " + clean(job.type) + " · " + clean(job.mode) + " · " + clean(job.pay);
-  partText += (partText ? "\n\n" : "") + renumberedEntry;
-  partJobs.push(job);
-}
-if (partJobs.length) parts.push({ jobs: partJobs, text: partText });
 
 async function sendMessage(text, replyMarkup) {
   for (let attempt = 1; attempt <= 5; attempt += 1) {
@@ -119,18 +99,18 @@ async function sendMessage(text, replyMarkup) {
   }
 }
 
-for (let index = 0; index < parts.length; index += 1) {
-  const chunk = parts[index];
-  const heading = "Serategna jobs posted today · " + today + "\n" +
-    todaysJobs.length + " new openings · " + (index + 1) + "/" + parts.length + "\n\n";
-  const message = heading + chunk.text;
-  if (message.length > 4096) throw new Error("Telegram message exceeds the 4096-character limit");
+for (let index = 0; index < todaysJobs.length; index += 1) {
+  const job = todaysJobs[index];
+  const message = "Serategna job posted yesterday · " + yesterday + "\n\n" +
+    clean(job.title) + " — " + clean(job.company) + "\n" +
+    clean(job.location) + " · " + clean(job.type) + " · " + clean(job.mode) + " · " + clean(job.pay);
+  if (message.length > 4096) throw new Error("Telegram message exceeds the 4096-character limit for " + clean(job.title));
   const replyMarkup = {
-    inline_keyboard: chunk.jobs.map((job) => [{ text: "Apply", url: applyUrl(job) }]),
+    inline_keyboard: [[{ text: "Apply", url: applyUrl(job) }]],
   };
   await sendMessage(message, replyMarkup);
-  console.log("Posted Telegram part " + (index + 1) + "/" + parts.length + " with " + chunk.jobs.length + " apply button(s)");
-  if (index + 1 < parts.length) await new Promise((resolve) => setTimeout(resolve, 400));
+  console.log("Posted individual job " + (index + 1) + "/" + todaysJobs.length + " with its own apply button");
+  if (index + 1 < todaysJobs.length) await new Promise((resolve) => setTimeout(resolve, 1100));
 }
 
-console.log("Posted " + todaysJobs.length + " job listings dated " + today + " in " + parts.length + " Telegram message(s), with apply buttons.");
+console.log("Posted " + todaysJobs.length + " individual jobs dated " + yesterday + ", each with its own apply button.");
