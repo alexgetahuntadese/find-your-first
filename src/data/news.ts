@@ -3,16 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "African Union Commission Chairperson Says Africa Has Potential to Become Global Food Basket",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – African Union Commission (AUC) Chairperson Mahmoud Ali Youssouf has underscored Africa’s potential to become a global food basket, stressing the importance of transforming the continent’s agrifood systems to overcome hunge",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 14:06:48 +0000"
+  },
+  {
+    "title": "Ethiopia Federal Police and UPEACE Explore Strategic Cooperation to Build Advanced Policing and Peacekeeping Expertise",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia Federal Police Commissioner General Demelash Gebremichael held discussions with Professor Samuel Kale Ewusi, Director of the Africa Regional Programme at the United Nations-mandated University for Peace (UPEACE), ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 12:50:04 +0000"
+  },
+  {
+    "title": "Ethiopia’s Emergency Medical Teams Have Made Historic Strides in National Preparedness and Global Health Response: Minister Mekdes",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia has made historic strides in building its emergency medical response capacity, with its national teams undertaking more than 15 emergency missions, developing a workforce of over 600 trained professionals and exte",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 12:40:34 +0000"
+  },
+  {
+    "title": "Ethiopia and EU Explore Strategic Partnership in Critical Raw Minerals Development",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) — Ethiopia and the European Union (EU) are exploring opportunities to strengthen strategic cooperation in critical raw minerals, focusing on investment, technology transfer, sustainable resource development and domestic valu",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 11:50:10 +0000"
+  },
+  {
+    "title": "Ethiopia Hosts First WHO Emergency Medical Teams Global Meeting in African Region",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia is hosting the 7th World Health Organization (WHO) Emergency Medical Teams (EMT) Global Meeting, marking the first time the international gathering has been held in the WHO African Region. Opening the meeting in A",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 11:35:58 +0000"
+  },
+  {
+    "title": "Ethiopia to Install 107 Modern Automated Weather Stations Nationwide",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – The Ethiopian Meteorology Institute has finalized preparations to install 107 modern automated weather observation stations across the country, a move expected to strengthen weather forecasting and early warning services. ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 11:20:04 +0000"
+  },
+  {
+    "title": "Central Bank Governor Says Ethiopia’s Banking Sector Remains Safe and Sound as Economy Projects Strong Growth in 2026/27",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia’s banking sector remains safe and sound, with low non-performing loans and adequate capital, while the country’s economy is projected to sustain strong growth momentum in the 2026/27 fiscal year, National Bank of ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 11:04:10 +0000"
+  },
+  {
+    "title": "One of the Gravest Acts of Betrayal in Ethiopia’s Recent History",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia’s commemoration of November 3 is a solemn reminder of one of the gravest acts of betrayal in the country’s recent history: the attack by the illegal TPLF group on the Ethiopian National Defense Force (ENDF) Northe",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 10:27:13 +0000"
+  },
+  {
+    "title": "Ethiopia’s Economic Momentum Strengthens as Gold Exports and Foreign Assets Drive External Gains, NBE Reports",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia continues to register strong economic growth, supported by expanding activity across key productive and service sectors, while increased gold exports and foreign asset accumulation contribute to improved external-",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 09:52:39 +0000"
+  },
+  {
     "title": "Ethiopia Commemorating Rump TPLF’s Treacherous Attack on ENDF Northern Command, Honors Fallen Soldiers",
     "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia is commemorating the November 3, 2020 treacherous attack launched by the rump TPLF group on the Ethiopian National Defense Force (ENDF) Northern Command, honoring the soldiers who lost their lives and reaffirming ",
     "source": "FBC English",
     "publishedAt": "Tue, 03 Nov 2026 06:34:30 +0000"
-  },
-  {
-    "title": "King Letsie III of Lesotho Arrives in Ethiopia for Working Visit",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia has welcomed King Letsie III of the Kingdom of Lesotho to Addis Ababa for a working visit aimed at further advancing the longstanding ties and bilateral cooperation between the two countries. Upon his arrival at A",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 05:50:36 +0000"
   },
   {
     "title": "ከሉዓላዊነት ዘብ እስከ ማሳ ሰብል መሰብሰብ፤ የመከላከያ ሠራዊት የህዝብ ወገንተኝነት",
@@ -25,53 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ)ከተሞቻችን ለቀጣዩ ትውልድም ዘላቂ የብልጽግና ውርስ እንዲሆኑ በጋራ እንሠራለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ፡፡ በቅርቡ በቻይና ሻንሃይ ከተማ በተካሄደው የ2026 የሻንሃይ ዓለም አቀፍ የዘላቂ ከተማ ልማት ሽልማት ውድድር አዲስ አበባን ጨምሮ አምስት ከተሞች ተሸላሚ ሆነዋል። ከንቲባ አዳነች አቤቤ በማህበራዊ ትስስር ገጻቸው ባሰፈሩት",
     "source": "Fana Media",
     "publishedAt": "Mon, 02 Nov 2026 18:41:38 +0000"
-  },
-  {
-    "title": "30,000 Participants, 114 Countries, One African Health Aspiration: Addis Ababa Ready to Welcome the World",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — There are moments when a city becomes more than a destination. It becomes a meeting point for aspirations, a crossroads of ideas, and a place where the future of nations and continents is discussed, shaped, and reimagined.",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 18:35:24 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ በቀይ ባህር አካባቢ ህልውና እንዲኖራት መፈለጓ ተገቢ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ለቀጣናው ሰላምና ደኅንነት መልህቅ እንደመሆኗ በቀይ ባህር አካባቢ ህልውና እንዲኖራት መፈለጓ ተገቢ ነው አሉ በአፍሪካ የደኅንነት ጥናት ኢንስቲትዩት የምሥራቅ አፍሪካ ቀጣናዊ ዳይሬክተር ፖል ሲሞን ሃንዲ (ዶ/ር)፡፡ ዳይሬክተሩ እንዳሉት፤ ኢትዮጵያ የጣና ፎረምን ጨምሮ በርካታ ዓለም አቀፍ ሁነቶችን በማስተናገድ የቀጣናው መልህቅ መሆኗን በተግባር አሳይ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 18:02:53 +0000"
-  },
-  {
-    "title": "“አሰብ የማን ናት?”",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የባህር በር ጥያቄ ታሪካዊ በደል እና የህልውና አጀንዳን አብሮ የያዘ የሀገራችን ፖለቲካ ምህዳር ውስጥ የቁጭት ምንጭ የሆነ ምዕራፍ ነው። በዚህ ወሳኝ ርዕሰ ጉዳይ ላይ ጥልቅ የሆነ ሕጋዊ እና ታሪካዊ ዳሰሳ ከሚያደርጉ ሥራዎች መካከል በታዋቂው ሕግ ባለሙያ በያዕቆብ ኃይለማርያም (ዶ/ር) «አሰብ የማን ናት?» በሚል ርዕስ የተዘጋጀው መጽሐፍ […] T",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 17:14:12 +0000"
-  },
-  {
-    "title": "የአቪዬሽን ዘርፍ ከብሔራዊ ደኅንነታችን ጋር የተያያዘ ስትራቴጂያዊ ጉዳይ ነው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የአቪዬሽን ዘርፍ ከብሔራዊ ደኅንነታችን ጋር የተያያዘ ስትራቴጂያዊ ጉዳይ ነው አሉ የብሔራዊ መረጃና ደኅንነት አገልግሎት ምክትል ዳይሬክተር ጀነራል ሲሳይ ቶላ (ዶ/ር)። በአቪዬሽን ደኅንነት ዘርፍ ለተገኘው ስኬት የዕውቅናና የምስጋና መርሐ ግብር ተካሂዷል። ጀነራል ሲሳይ ቶላ (ዶ/ር) በዚሁ ወቅት እንዳሉት፤ የአቪዬሽን ዘርፍ ከሀገራችን የኢኮኖሚ እድገት ቀጣይ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 16:36:09 +0000"
-  },
-  {
-    "title": "የተቋማት ሪፎርምና ብቁ አመራር ለኢትዮጵያ የከፍታ ጉዞ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ሀገራዊ ለውጡን ወደ ላቀ ምዕራፍ እንዲያደርሱ ትኩረት ካደረገባቸው ጉዳዮች ውስጥ የተቋማት ሪፎርም ዋነኛው ነው። በዚህ ረገድ በተቋማት ዘመናዊ አሠራርን መገንባት፣ ቢሮክራሲን ማስወገድ፣ ግልጸኝነት እና ተጠያቂነትን ማስፈን ወሳኝ ጉዳዮች ናቸው። ተቋማዊ ለውጥ ብቻውን በቂ አይደለም፤ ተቋማቱን የሚመሩና የውሳኔ ሰጪነት ሚና ያላቸውን ኃላፊዎችን",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 16:09:02 +0000"
-  },
-  {
-    "title": "ለ5ኛው ዓለም አቀፍ የአፍሪካ የማህብረሰብ ጤና ጉባኤ በቂ ዝግጅት ተደርጓል -ዶ/ር መቅደስ ዳባ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) በአዲስ አበባ ለሚካሄደው 5ኛው ዓለም አቀፍ የአፍሪካ የማህበረሰብ ጤና ጉባኤ በቂ ዝግጅት ተደርጓል አሉ የጤና ሚኒስትር ዶ/ር መቅደስ ዳባ፡፡ ዶ/ር መቅደስ ዳባ ዝግጅቱን አስመልክቶ በሰጡት መግለጫ ጉባኤው የጤና ሥርዓታችንን ለሌሎች ለማሳየት እና ከሌሎች ሃገራት ልምድ ለመውሰድ ያግዛል ብለዋል፡፡ ጉባኤው ቀጣናዊ የጤና ትብብርን እንደሚያጠናክር ገልጸው፤ የሃገ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 15:36:08 +0000"
-  },
-  {
-    "title": "የሠራዊቱ የሕዝብ ደጀንነት በትግራይ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት ሀገርን ከውጭ ባዳዎች እንዲሁም ከውስጥ ባንዳዎች ሴራ የመከላከልና የኢትዮጵያን ሉዓላዊነቱን የማስጠበቅ ታሪካዊ ኃላፊነቱን በጀግንነት እየተወጣ ይገኛል። ሠራዊቱ ከዚህ ባሻገር ከሕዝቡ ጎን በመሰለፍ የልማት፣ የሰላም እና የመረዳዳት ምዕራፍ በማስመዝገብ የሕዝብ ልጅነቱን እያረጋገጠ ይገኛል። በተለይም ሠራዊቱ በትግራይ ክልል ሕዝቡን ከማረ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 14:58:19 +0000"
-  },
-  {
-    "title": "ደቡብ ኮሪያ ለሰው ሰራሽ አስተውሎት ልማት ከ15 ቢሊየን ዶላር በላይ መደበች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) ደቡብ ኮሪያ ለሰው ሰራሽ አስተውሎት ልማት 15 ነጥብ 6 ቢሊየን ዶላር በጀት መደበች፡፡ የሰው ሰራሽ አስተውሎት ለዓለም የወደፊት ኢኮኖሚያዊ የበላይነት ዋና መሰረት እየሆነ በመምጣቱን ተከትሎ በርካታ ሀገራት ለቀጣዩ ትውልድ ዲጂታል መሠረተ ልማት ከፍተኛ በጀት እየመደቡ ይገኛሉ። ደቡብ ኮሪያም የመደበችው ይህ ከፍተኛ በጀት በሶስት ዋና ዋና የቴክኖሎጂ ሜጋ […",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 14:39:47 +0000"
   }
 ];
