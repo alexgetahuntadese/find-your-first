@@ -1,6 +1,8 @@
-name: Post site jobs to Telegram
+name: Post new site jobs to Telegram
 
 on:
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_run:
     workflows:
       - Refresh Ethiopian jobs from multiple sources
@@ -12,7 +14,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: telegram-jobs-${{ github.run_id }}
+  group: telegram-new-jobs
   cancel-in-progress: false
 
 jobs:
@@ -21,17 +23,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - name: Check out the latest published job snapshot
+      - name: Check out the latest site job snapshot
         uses: actions/checkout@v4
         with:
           ref: main
+      - name: Restore posted job IDs
+        id: restore-state
+        uses: actions/cache/restore@v4
+        with:
+          path: .telegram-cache/posted-job-ids.json
+          key: telegram-job-ids-${{ github.run_id }}
+          restore-keys: |
+            telegram-job-ids-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Post today's jobs individually with apply buttons
+      - name: Post newly listed jobs individually
         run: node scripts/post-jobs-to-telegram.mjs
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SITE_JOBS_URL: ${{ vars.SITE_JOBS_URL }}
+          POSTED_JOB_IDS_FILE: .telegram-cache/posted-job-ids.json
+      - name: Save posted job IDs
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .telegram-cache/posted-job-ids.json
+          key: telegram-job-ids-${{ github.run_id }}
