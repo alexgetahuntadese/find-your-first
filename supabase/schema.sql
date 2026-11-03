@@ -86,6 +86,8 @@ drop policy if exists "Public can read published original jobs" on public.origin
 drop policy if exists "Admins manage original jobs" on public.original_jobs;
 create policy "Public can read published original jobs" on public.original_jobs for select to anon, authenticated using (status = 'published' or public.is_admin());
 create policy "Admins manage original jobs" on public.original_jobs for all to authenticated using (public.is_admin()) with check (public.is_admin());
+grant select on public.original_jobs to anon, authenticated;
+grant insert, update on public.original_jobs to authenticated;
 create index if not exists original_jobs_published_date_idx on public.original_jobs (date_posted desc) where status = 'published';
 
 -- Applications are private. Applicants can submit but cannot read records;
@@ -111,6 +113,8 @@ create policy "Anyone can submit an application" on public.job_applications for 
   and resume_path like job_id::text || '/%'
 );
 create policy "Admins can review applications" on public.job_applications for all to authenticated using (public.is_admin()) with check (public.is_admin());
+grant insert on public.job_applications to anon, authenticated;
+grant select, update on public.job_applications to authenticated;
 create index if not exists job_applications_job_date_idx on public.job_applications (job_id, created_at desc);
 
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)

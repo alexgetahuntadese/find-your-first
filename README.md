@@ -107,7 +107,7 @@ npm run dev
 - Signed-in users can submit opportunities from `/post`; submissions are stored locally and wait for review.
 - Use `admin@launchboard.dev` with any password of 6+ characters to open `/admin` and approve or reject submissions.
 
-Employer job submissions, original EthioHub listings, and applications use Supabase with Row Level Security. Run or rerun `supabase/schema.sql` in the Supabase SQL Editor before deploying these features. This creates the original-jobs and applications tables, plus the private CV bucket and its access policies. Existing projects are upgraded with `if not exists` statements and named policy resets.
+Employer job submissions, original EthioHub listings, and applications use Supabase with Row Level Security. For an existing project, run `supabase/migrations/20261103000000_original_jobs_applications.sql` in the Supabase SQL Editor after the base `profiles` table and `public.is_admin()` function exist. For a fresh project, run `supabase/schema.sql`. The migration creates the original-jobs and applications tables, grants only the operations needed by the app, and configures a private CV bucket with row-level policies.
 
 Supabase authentication is configured through `.env.local` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. The publishable key is safe for browser use; never expose a service-role key.
 
