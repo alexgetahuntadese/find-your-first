@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "What Does It Take to Transform a Nation? Ethiopia’s Upward Trajectory and Africa’s Search for a New Direction",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – At a time when Africa is searching for a new direction, Ethiopia’s experience offers a compelling question for the continent: what does it take to transform a nation, and how can that transformation inspire a wider African",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 17:00:49 +0000"
+  },
+  {
+    "title": "AU Commission Chair, IFRC Chief Spotlight Climate-Resilient Agriculture, Intra-African Trade to Tackle Hunger",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has held discussions with Secretary-General of the International Federation of Red Cross and Red Crescent Societies (IFRC) Jagan Chapagain on strengthening A",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 16:28:51 +0000"
+  },
+  {
+    "title": "Ethiopia’s Su-35 Fighters Spark Anxiety in Egyptian Circles, Israeli Researcher Edy Cohen Says",
+    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia’s acquisition of Russian-made Su-35 fighter jets has strengthened its military capabilities and enhanced its growing regional influence, Israeli researcher and journalist Edy Cohen of Israel’s Channel 14 has said.",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 15:39:47 +0000"
+  },
+  {
+    "title": "Ethiopia’s Inflation Eases to 14.9% in September, NBE Reports",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) — Ethiopia’s annual inflation declined to 14.9 percent in September 2026, down from 15.1 percent in June, although inflationary pressures remain elevated, the National Bank of Ethiopia (NBE) has announced. In a press release",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 15:30:41 +0000"
+  },
+  {
     "title": "African Union Commission Chairperson Says Africa Has Potential to Become Global Food Basket",
     "summary": "Addis Ababa, November 3, 2026 (FMC) – African Union Commission (AUC) Chairperson Mahmoud Ali Youssouf has underscored Africa’s potential to become a global food basket, stressing the importance of transforming the continent’s agrifood systems to overcome hunge",
     "source": "FBC English",
@@ -37,30 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 3, 2026 (FMC) – The Ethiopian Meteorology Institute has finalized preparations to install 107 modern automated weather observation stations across the country, a move expected to strengthen weather forecasting and early warning services. ",
     "source": "FBC English",
     "publishedAt": "Tue, 03 Nov 2026 11:20:04 +0000"
-  },
-  {
-    "title": "Central Bank Governor Says Ethiopia’s Banking Sector Remains Safe and Sound as Economy Projects Strong Growth in 2026/27",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia’s banking sector remains safe and sound, with low non-performing loans and adequate capital, while the country’s economy is projected to sustain strong growth momentum in the 2026/27 fiscal year, National Bank of ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 11:04:10 +0000"
-  },
-  {
-    "title": "One of the Gravest Acts of Betrayal in Ethiopia’s Recent History",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia’s commemoration of November 3 is a solemn reminder of one of the gravest acts of betrayal in the country’s recent history: the attack by the illegal TPLF group on the Ethiopian National Defense Force (ENDF) Northe",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 10:27:13 +0000"
-  },
-  {
-    "title": "Ethiopia’s Economic Momentum Strengthens as Gold Exports and Foreign Assets Drive External Gains, NBE Reports",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia continues to register strong economic growth, supported by expanding activity across key productive and service sectors, while increased gold exports and foreign asset accumulation contribute to improved external-",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 09:52:39 +0000"
-  },
-  {
-    "title": "Ethiopia Commemorating Rump TPLF’s Treacherous Attack on ENDF Northern Command, Honors Fallen Soldiers",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia is commemorating the November 3, 2020 treacherous attack launched by the rump TPLF group on the Ethiopian National Defense Force (ENDF) Northern Command, honoring the soldiers who lost their lives and reaffirming ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 06:34:30 +0000"
   },
   {
     "title": "ከሉዓላዊነት ዘብ እስከ ማሳ ሰብል መሰብሰብ፤ የመከላከያ ሠራዊት የህዝብ ወገንተኝነት",
