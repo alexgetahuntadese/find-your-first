@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Commemorating Rump TPLF’s Treacherous Attack on ENDF Northern Command, Honors Fallen Soldiers",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia is commemorating the November 3, 2020 treacherous attack launched by the rump TPLF group on the Ethiopian National Defense Force (ENDF) Northern Command, honoring the soldiers who lost their lives and reaffirming ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 06:34:30 +0000"
+  },
+  {
+    "title": "King Letsie III of Lesotho Arrives in Ethiopia for Working Visit",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia has welcomed King Letsie III of the Kingdom of Lesotho to Addis Ababa for a working visit aimed at further advancing the longstanding ties and bilateral cooperation between the two countries. Upon his arrival at A",
+    "source": "FBC English",
+    "publishedAt": "Tue, 03 Nov 2026 05:50:36 +0000"
+  },
+  {
+    "title": "ከሉዓላዊነት ዘብ እስከ ማሳ ሰብል መሰብሰብ፤ የመከላከያ ሠራዊት የህዝብ ወገንተኝነት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር መከላከያ ሠራዊት ከሙያዊ ብቃቱና ከሚሰጠው ወታደራዊ ግዴታ ባሻገር፤ ከሕዝብ ጎን በመቆም የሚያከናውናቸው ሰብዓዊ ተግባራት ተቋማዊ የሕዝብ ወገንተኝነቱን የሚመዝኑ ቀዳሚ መለኪያዎች ናቸው። የዕውቀትና የጉልበት ድጋፍ የሚሹ ዜጎችን መርዳት እንዲሁም ሌሎች በጎ ተግባራትን ማበርከት የሠራዊቱን የሰብዓዊነት ከፍታ በተግባር ያሳያሉ። የኢትዮጵያ ሀገር መ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 19:00:04 +0000"
+  },
+  {
+    "title": "ከተሞቻችን ለቀጣዩ ትውልድም ዘላቂ የብልጽግና ውርስ እንዲሆኑ በጋራ እንሠራለን – ከንቲባ አዳነች አቤቤ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ)ከተሞቻችን ለቀጣዩ ትውልድም ዘላቂ የብልጽግና ውርስ እንዲሆኑ በጋራ እንሠራለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ፡፡ በቅርቡ በቻይና ሻንሃይ ከተማ በተካሄደው የ2026 የሻንሃይ ዓለም አቀፍ የዘላቂ ከተማ ልማት ሽልማት ውድድር አዲስ አበባን ጨምሮ አምስት ከተሞች ተሸላሚ ሆነዋል። ከንቲባ አዳነች አቤቤ በማህበራዊ ትስስር ገጻቸው ባሰፈሩት",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 18:41:38 +0000"
+  },
+  {
     "title": "30,000 Participants, 114 Countries, One African Health Aspiration: Addis Ababa Ready to Welcome the World",
     "summary": "Addis Ababa, November 2, 2026 (FMC) — There are moments when a city becomes more than a destination. It becomes a meeting point for aspirations, a crossroads of ideas, and a place where the future of nations and continents is discussed, shaped, and reimagined.",
     "source": "FBC English",
     "publishedAt": "Mon, 02 Nov 2026 18:35:24 +0000"
   },
   {
-    "title": "Tigray Region Accelerates Institutional Recovery as Government Employee Salary Payments Set to Resume This Month",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) – The Tigray Region Caretaker Administration is advancing efforts to restore government institutions and strengthen public service delivery, with salary payments to government employees set to resume this month as part of br",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 14:27:08 +0000"
-  },
-  {
-    "title": "Egypt’s Colonial-Era Nile Claims Cannot Override #Ethiopia’s Right to Equitable Water Use: Ministry Advisor",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Egypt cannot use colonial-era agreements or claims of historical entitlement to deny Ethiopia and other upstream countries their right to equitable utilization of the Nile, Kebede Gerba, a consultant to Ethiopia’s Ministry",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 11:30:47 +0000"
-  },
-  {
-    "title": "Adigrat University Welcomes Returning and Newly Admitted Students as Academic Activities Resume Across Tigray Region",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Adigrat University has begun receiving returning and newly admitted students, marking a further step in the resumption of regular academic activities across Ethiopia’s Tigray Region. Students arrived at the university toda",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 10:17:19 +0000"
-  },
-  {
-    "title": "Ethiopia Prioritizes Human Capital Development, Gender Equality in Long-Term Development Agenda: House Speaker",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia is placing human capital development and the realization of gender equality at the centre of its long-term development agenda, Speaker of the House of Peoples’ Representatives Ahmed Shide said. He made the remarks",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 09:54:30 +0000"
-  },
-  {
-    "title": "Mekelle City Set to Join Ethiopia’s MESOB One-Stop Service Network as Preparations Advance",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Mekelle city is moving closer to joining Ethiopia’s nationwide transformation of public service delivery, with preparations underway to launch the MESOB One-Stop Service Centre in the Tigray regional capital. MESOB Service",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 09:25:15 +0000"
-  },
-  {
-    "title": "ETHIOPIA’S SWEEPING URBAN TRANSFORMATION WEAVES WALKING AND CYCLING INTO THE FABRIC OF THE URBAN RENAISSANCE",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — The measure of a city’s greatness is not found in the height of its buildings alone, but in the freedom of a child to walk safely, the ease with which a commuter can cycle to work, the pleasure of a family strolling beside",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 08:49:55 +0000"
-  },
-  {
-    "title": "BEYOND THE PLUG: ETHIOPIA’S DRIVE TO BUILD A COMPLETE GREEN MOBILITY ECOSYSTEM",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia’s electric mobility transition is gathering momentum, moving beyond the growing presence of electric vehicles on its roads towards building the infrastructure, partnerships and technological foundations needed to ",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 07:14:50 +0000"
-  },
-  {
-    "title": "Ethiopia’s Citizen-Centered Diplomacy Brings 1,364 More Nationals Home from Saudi Arabia",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia has repatriated 1,364 nationals who had been living in difficult circumstances in Saudi Arabia over the past week, bringing the total number of citizens returned under the ongoing operation to more than 112,500. T",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 06:59:22 +0000"
-  },
-  {
-    "title": "𝗘𝗧𝗛𝗜𝗢𝗣𝗜𝗔’𝗦 𝗗𝗘𝗙𝗘𝗡𝗦𝗘 𝗙𝗢𝗥𝗖𝗘: 𝗔 𝗠𝗢𝗗𝗘𝗥𝗡 𝗔𝗥𝗠𝗬 𝗥𝗢𝗢𝗧𝗘𝗗 𝗜𝗡 𝗛𝗜𝗦𝗧𝗢𝗥𝗬, 𝗗𝗜𝗦𝗖𝗜𝗣𝗟𝗜𝗡𝗘𝗗 𝗕𝗬 𝗘𝗧𝗛𝗜𝗖𝗦, 𝗔𝗡𝗗 𝗘𝗤𝗨𝗜𝗣𝗣𝗘𝗗 𝗙𝗢𝗥 𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘",
-    "summary": "Addis Ababa, November 2, 2026 (FMC) — Ethiopia’s defense history is inseparable from its history of independence. Across generations, the country’s sovereignty has been defended through extraordinary sacrifice, determination, and courage. From repelling foreig",
-    "source": "FBC English",
-    "publishedAt": "Mon, 02 Nov 2026 06:44:32 +0000"
-  },
-  {
-    "title": "አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) በእንግሊዝ ፕሪሚየር ሊግ የ9ኛ ሳምንት ጨዋታ አርሰናል ሊቨርፑልን 1 ለ 0 አሸንፏል። በአንፊልድ ስታዲየም ከ14 ዓመታት በኋላ ሊቨርፑልን ማሸነፍ የቻለው አርሰናል የሊጉን መሪነት ተረክቧል። The post አርሰናል ሊቨርፑልን በማሸነፍ የሊጉ መሪነትን ተረከበ appeared first on Welcome to Fana Media Corporation S.C .",
+    "title": "ኢትዮጵያ በቀይ ባህር አካባቢ ህልውና እንዲኖራት መፈለጓ ተገቢ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ለቀጣናው ሰላምና ደኅንነት መልህቅ እንደመሆኗ በቀይ ባህር አካባቢ ህልውና እንዲኖራት መፈለጓ ተገቢ ነው አሉ በአፍሪካ የደኅንነት ጥናት ኢንስቲትዩት የምሥራቅ አፍሪካ ቀጣናዊ ዳይሬክተር ፖል ሲሞን ሃንዲ (ዶ/ር)፡፡ ዳይሬክተሩ እንዳሉት፤ ኢትዮጵያ የጣና ፎረምን ጨምሮ በርካታ ዓለም አቀፍ ሁነቶችን በማስተናገድ የቀጣናው መልህቅ መሆኗን በተግባር አሳይ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 18:30:28 +0000"
+    "publishedAt": "Mon, 02 Nov 2026 18:02:53 +0000"
   },
   {
-    "title": "በዘመናዊ ትጥቅ፣ በሕዝባዊነትና በሥነ-ምግባር የተገነባ ሠራዊት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 22፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት ታሪክ ከኢትዮጵያ የነፃነት ታሪክ ጋር በጥልቅ የተሳሰረ ነው። በተለያዩ ዘመናት ሀገርን ከውጭ ወረራ ለመጠበቅ፣ የሕዝብን ክብርና የሀገርን ሉዓላዊነት ለማስከበር የተከፈሉ መስዋዕትነቶች በታሪክ ማህደር ውስጥ የማይረሱ ምዕራፎች ሆነው ተመዝግበዋል። ጊዜዎች ሲቀያየሩ፣ የታሪክ ውጣ ውረዶች ሲፈራረቁ፣ ኢትዮጵያ ግን ሁልጊዜም በጽናት ቆማለች",
+    "title": "“አሰብ የማን ናት?”",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ የባህር በር ጥያቄ ታሪካዊ በደል እና የህልውና አጀንዳን አብሮ የያዘ የሀገራችን ፖለቲካ ምህዳር ውስጥ የቁጭት ምንጭ የሆነ ምዕራፍ ነው። በዚህ ወሳኝ ርዕሰ ጉዳይ ላይ ጥልቅ የሆነ ሕጋዊ እና ታሪካዊ ዳሰሳ ከሚያደርጉ ሥራዎች መካከል በታዋቂው ሕግ ባለሙያ በያዕቆብ ኃይለማርያም (ዶ/ር) «አሰብ የማን ናት?» በሚል ርዕስ የተዘጋጀው መጽሐፍ […] T",
     "source": "Fana Media",
-    "publishedAt": "Sun, 01 Nov 2026 18:20:29 +0000"
+    "publishedAt": "Mon, 02 Nov 2026 17:14:12 +0000"
+  },
+  {
+    "title": "የአቪዬሽን ዘርፍ ከብሔራዊ ደኅንነታችን ጋር የተያያዘ ስትራቴጂያዊ ጉዳይ ነው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የአቪዬሽን ዘርፍ ከብሔራዊ ደኅንነታችን ጋር የተያያዘ ስትራቴጂያዊ ጉዳይ ነው አሉ የብሔራዊ መረጃና ደኅንነት አገልግሎት ምክትል ዳይሬክተር ጀነራል ሲሳይ ቶላ (ዶ/ር)። በአቪዬሽን ደኅንነት ዘርፍ ለተገኘው ስኬት የዕውቅናና የምስጋና መርሐ ግብር ተካሂዷል። ጀነራል ሲሳይ ቶላ (ዶ/ር) በዚሁ ወቅት እንዳሉት፤ የአቪዬሽን ዘርፍ ከሀገራችን የኢኮኖሚ እድገት ቀጣይ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 16:36:09 +0000"
+  },
+  {
+    "title": "የተቋማት ሪፎርምና ብቁ አመራር ለኢትዮጵያ የከፍታ ጉዞ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ሀገራዊ ለውጡን ወደ ላቀ ምዕራፍ እንዲያደርሱ ትኩረት ካደረገባቸው ጉዳዮች ውስጥ የተቋማት ሪፎርም ዋነኛው ነው። በዚህ ረገድ በተቋማት ዘመናዊ አሠራርን መገንባት፣ ቢሮክራሲን ማስወገድ፣ ግልጸኝነት እና ተጠያቂነትን ማስፈን ወሳኝ ጉዳዮች ናቸው። ተቋማዊ ለውጥ ብቻውን በቂ አይደለም፤ ተቋማቱን የሚመሩና የውሳኔ ሰጪነት ሚና ያላቸውን ኃላፊዎችን",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 16:09:02 +0000"
+  },
+  {
+    "title": "ለ5ኛው ዓለም አቀፍ የአፍሪካ የማህብረሰብ ጤና ጉባኤ በቂ ዝግጅት ተደርጓል -ዶ/ር መቅደስ ዳባ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) በአዲስ አበባ ለሚካሄደው 5ኛው ዓለም አቀፍ የአፍሪካ የማህበረሰብ ጤና ጉባኤ በቂ ዝግጅት ተደርጓል አሉ የጤና ሚኒስትር ዶ/ር መቅደስ ዳባ፡፡ ዶ/ር መቅደስ ዳባ ዝግጅቱን አስመልክቶ በሰጡት መግለጫ ጉባኤው የጤና ሥርዓታችንን ለሌሎች ለማሳየት እና ከሌሎች ሃገራት ልምድ ለመውሰድ ያግዛል ብለዋል፡፡ ጉባኤው ቀጣናዊ የጤና ትብብርን እንደሚያጠናክር ገልጸው፤ የሃገ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 15:36:08 +0000"
+  },
+  {
+    "title": "የሠራዊቱ የሕዝብ ደጀንነት በትግራይ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የሀገር መከላከያ ሠራዊት ሀገርን ከውጭ ባዳዎች እንዲሁም ከውስጥ ባንዳዎች ሴራ የመከላከልና የኢትዮጵያን ሉዓላዊነቱን የማስጠበቅ ታሪካዊ ኃላፊነቱን በጀግንነት እየተወጣ ይገኛል። ሠራዊቱ ከዚህ ባሻገር ከሕዝቡ ጎን በመሰለፍ የልማት፣ የሰላም እና የመረዳዳት ምዕራፍ በማስመዝገብ የሕዝብ ልጅነቱን እያረጋገጠ ይገኛል። በተለይም ሠራዊቱ በትግራይ ክልል ሕዝቡን ከማረ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 14:58:19 +0000"
+  },
+  {
+    "title": "ደቡብ ኮሪያ ለሰው ሰራሽ አስተውሎት ልማት ከ15 ቢሊየን ዶላር በላይ መደበች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) ደቡብ ኮሪያ ለሰው ሰራሽ አስተውሎት ልማት 15 ነጥብ 6 ቢሊየን ዶላር በጀት መደበች፡፡ የሰው ሰራሽ አስተውሎት ለዓለም የወደፊት ኢኮኖሚያዊ የበላይነት ዋና መሰረት እየሆነ በመምጣቱን ተከትሎ በርካታ ሀገራት ለቀጣዩ ትውልድ ዲጂታል መሠረተ ልማት ከፍተኛ በጀት እየመደቡ ይገኛሉ። ደቡብ ኮሪያም የመደበችው ይህ ከፍተኛ በጀት በሶስት ዋና ዋና የቴክኖሎጂ ሜጋ […",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 02 Nov 2026 14:39:47 +0000"
   }
 ];
