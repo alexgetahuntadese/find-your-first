@@ -7,10 +7,6 @@ on:
     types: [completed]
     branches: [main]
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/post-jobs-to-telegram.mjs
 
 permissions:
   contents: read
@@ -33,7 +29,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Post selected-day jobs one by one
+      - name: Post today's jobs individually with apply buttons
         run: node scripts/post-jobs-to-telegram.mjs
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
