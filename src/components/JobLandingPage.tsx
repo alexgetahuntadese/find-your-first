@@ -26,9 +26,9 @@ const landingCopy: Record<LandingKind, { title: string; description: string; int
   },
 };
 
-export function JobLandingPage({ kind }: { kind: LandingKind }) {
+export function JobLandingPage({ kind, publishedJobs = [] }: { kind: LandingKind; publishedJobs?: Job[] }) {
   const copy = landingCopy[kind];
-  const matchingJobs = jobs.filter(copy.filter).slice(0, 40);
+  const matchingJobs = [...publishedJobs, ...jobs].filter(copy.filter).slice(0, 40);
   const pagePath = kind === "fresh" ? "fresh-graduate-jobs-ethiopia" : kind === "internships" ? "internships-ethiopia" : "entry-level-jobs-addis-ababa";
   const pageUrl = `https://serategna.com.et/${pagePath}`;
   const structuredData = {
@@ -94,6 +94,6 @@ function LandingJobCard({ job }: { job: Job }) {
   return <article className="rounded-2xl border bg-card p-5 transition-shadow hover:shadow-md">
     <div className="flex items-start justify-between gap-3"><div><p className="text-xs font-medium text-muted-foreground">{job.company}</p><h3 className="mt-1 text-lg font-semibold"><Link to="/jobs/$id" params={{ id: job.id }} className="hover:text-primary hover:underline">{job.title}</Link></h3></div><BriefcaseBusiness className="h-5 w-5 shrink-0 text-primary" /></div>
     <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted-foreground"><span className="inline-flex items-center gap-1"><MapPin className="h-3.5 w-3.5" />{job.location}</span><span>{job.type}</span><span>{postedLabel(job.hoursAgo)}</span></div>
-    <div className="mt-4 flex items-center justify-between gap-3"><span className="text-xs text-muted-foreground">{job.source ? `via ${job.source}` : "EthioHub.com.et listing"}</span><a href={job.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">View and apply <ArrowUpRight className="h-4 w-4" /></a></div>
+    <div className="mt-4 flex items-center justify-between gap-3"><span className="text-xs text-muted-foreground">{job.applyOnSite ? "Original EthioHub opportunity" : job.source ? `via ${job.source}` : "EthioHub.com.et listing"}</span>{job.applyOnSite ? <Link to="/jobs/$id" params={{ id: job.id }} className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">View and apply <ArrowUpRight className="h-4 w-4" /></Link> : <a href={job.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">View and apply <ArrowUpRight className="h-4 w-4" /></a>}</div>
   </article>;
 }

@@ -2,11 +2,13 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
 import { toast } from "sonner";
-import { jobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
+import { jobs as seededJobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
+import { listPublishedJobs } from "@/lib/jobs";
 import { BrandLogo } from "@/components/BrandLogo";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
+  loader: async () => ({ publishedJobs: await listPublishedJobs() }),
   head: () => ({
     meta: [
       { title: "Jobs in Ethiopia — Internships & Entry-Level Roles | EthioHub.com.et" },
@@ -39,6 +41,8 @@ function toggle<T>(arr: T[], v: T) {
 }
 
 function Index() {
+  const { publishedJobs } = Route.useLoaderData();
+  const allJobs = useMemo(() => [...publishedJobs, ...seededJobs], [publishedJobs]);
   const navigate = useNavigate();
   const [darkMode, setDarkMode] = useState(false);
   const [q, setQ] = useState("");
@@ -58,7 +62,7 @@ function Index() {
     const nextTheme = storedTheme ? storedTheme === "dark" : false;
     setDarkMode(nextTheme);
     document.documentElement.classList.toggle("dark", nextTheme);
-    try { setSaved(JSON.parse(localStorage.getItem("saved-jobs") || "[]")); } catch {}
+    try { setSaved(JSON.parse(localStorage.getItem("saved-jobs") || "[]")); } catch { /* Ignore invalid saved-job data. */ }
     const t = setTimeout(() => setLoading(false), 700);
     return () => clearTimeout(t);
   }, []);
@@ -96,7 +100,7 @@ function Index() {
 
   const filtered = useMemo(() => {
     const term = q.trim().toLowerCase();
-    return jobs.filter((j) => {
+    return allJobs.filter((j) => {
       if (term && !`${j.title} ${j.company} ${j.tags.join(" ")}`.toLowerCase().includes(term)) return false;
       if (loc === "Remote" && j.mode !== "Remote") return false;
       if (loc === "Onsite" && j.mode === "Remote") return false;
@@ -114,7 +118,7 @@ function Index() {
       if (ind.length && !ind.includes(j.industry)) return false;
       return true;
     });
-  }, [q, loc, type, tab, pills, exp, ind]);
+  }, [allJobs, q, loc, type, tab, pills, exp, ind]);
 
   const clearAll = () => { setExp([]); setInd([]); setPills([]); setQ(""); setLoc(""); setType(""); };
 
@@ -123,8 +127,8 @@ function Index() {
     "@type": "ItemList",
     name: "Latest entry-level jobs and internships in Ethiopia",
     url: "https://serategna.com.et/#feed",
-    numberOfItems: jobs.length,
-    itemListElement: jobs.slice(0, 20).map((job, index) => ({
+    numberOfItems: allJobs.length,
+    itemListElement: allJobs.slice(0, 20).map((job, index) => ({
       "@type": "ListItem",
       position: index + 1,
       name: `${job.title} — ${job.company}`,
@@ -194,7 +198,7 @@ function Index() {
         <div className="bg-grid absolute inset-0" />
         <div className="relative mx-auto max-w-4xl px-4 pb-14 pt-16 text-center sm:pt-24">
           <span className="inline-flex items-center gap-1.5 rounded-full border bg-card/60 px-3 py-1 text-xs text-muted-foreground">
-            <Sparkles className="h-3.5 w-3.5 text-primary-glow" /> {jobs.filter((j) => j.hoursAgo < 24).length} new roles added today
+            <Sparkles className="h-3.5 w-3.5 text-primary-glow" /> {allJobs.filter((j) => j.hoursAgo < 24).length} new roles added today
           </span>
           <h1 className="text-gradient mt-5 text-4xl font-semibold tracking-tight sm:text-6xl">
             Jobs in Ethiopia for your first opportunity.
@@ -332,6 +336,7 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
           <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
             {job.company}
             {job.source && <span className="text-xs">· via {job.source}</span>}
+            {job.applyOnSite && <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[11px] font-medium text-primary">EthioHub original</span>}
             {job.featured && <span className="rounded-full bg-accent px-2 py-0.5 text-[11px] font-medium text-accent-foreground">Featured</span>}
           </div>
           <h3 className="mt-0.5 font-medium leading-snug"><Link to="/jobs/$id" params={{ id: job.id }} className="hover:text-primary hover:underline">{job.title}</Link></h3>
@@ -353,10 +358,10 @@ function JobCard({ job, saved, onSave }: { job: Job; saved: boolean; onSave: () 
           className={cn("grid h-9 w-9 place-items-center rounded-lg border transition-all active:scale-90", saved ? "border-destructive/40 text-destructive" : "hover:bg-secondary")}>
           <Heart className={cn("h-4 w-4", saved && "fill-current")} />
         </button>
-        <a href={job.url} target="_blank" rel="noopener noreferrer"
+        {job.applyOnSite ? <Link to="/jobs/$id" params={{ id: job.id }} className="flex flex-1 items-center justify-center gap-1 rounded-lg bg-gradient-primary px-4 text-sm font-medium text-primary-foreground sm:flex-none">Apply on site <ArrowUpRight className="h-4 w-4" /></Link> : <a href={job.url} target="_blank" rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-1 rounded-lg bg-gradient-primary px-4 text-sm font-medium text-primary-foreground sm:flex-none">
           Apply{job.source ? ` on ${job.source}` : " now"} <ExternalLink className="h-4 w-4" />
-        </a>
+        </a>}
       </div>
       {saved && <Heart className="absolute right-4 top-4 hidden h-4 w-4 fill-current text-destructive sm:block sm:group-hover:hidden" />}
     </article>

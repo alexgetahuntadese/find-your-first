@@ -17,11 +17,17 @@ import { Route as CalendarRouteImport } from './routes/calendar'
 import { Route as CurrencyConverterRouteImport } from './routes/currency-converter'
 import { Route as EntryLevelJobsAddisAbabaRouteImport } from './routes/entry-level-jobs-addis-ababa'
 import { Route as EthiopiaRouteImport } from './routes/ethiopia'
+import { Route as EthiopiaFirstJobInterviewPreparationRouteImport } from './routes/ethiopia-first-job-interview-preparation'
 import { Route as EthiopianTaxCalculatorRouteImport } from './routes/ethiopian-tax-calculator'
 import { Route as FreshGraduateJobsEthiopiaRouteImport } from './routes/fresh-graduate-jobs-ethiopia'
 import { Route as InternshipsEthiopiaRouteImport } from './routes/internships-ethiopia'
+import { Route as JobSeekerToolkitEthiopiaRouteImport } from './routes/job-seeker-toolkit-ethiopia'
 import { Route as PostRouteImport } from './routes/post'
+import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as UnitConverterRouteImport } from './routes/unit-converter'
+import { Route as BlogFirstJobCvEthiopiaRouteImport } from './routes/blog.first-job-cv-ethiopia'
+import { Route as JobsIdRouteImport } from './routes/jobs.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -64,6 +70,12 @@ const EthiopiaRoute = EthiopiaRouteImport.update({
   path: '/ethiopia',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EthiopiaFirstJobInterviewPreparationRoute =
+  EthiopiaFirstJobInterviewPreparationRouteImport.update({
+    id: '/ethiopia-first-job-interview-preparation',
+    path: '/ethiopia-first-job-interview-preparation',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const EthiopianTaxCalculatorRoute = EthiopianTaxCalculatorRouteImport.update({
   id: '/ethiopian-tax-calculator',
   path: '/ethiopian-tax-calculator',
@@ -80,9 +92,25 @@ const InternshipsEthiopiaRoute = InternshipsEthiopiaRouteImport.update({
   path: '/internships-ethiopia',
   getParentRoute: () => rootRouteImport,
 } as any)
+const JobSeekerToolkitEthiopiaRoute =
+  JobSeekerToolkitEthiopiaRouteImport.update({
+    id: '/job-seeker-toolkit-ethiopia',
+    path: '/job-seeker-toolkit-ethiopia',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const PostRoute = PostRouteImport.update({
   id: '/post',
   path: '/post',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const UnitConverterRoute = UnitConverterRouteImport.update({
@@ -90,52 +118,80 @@ const UnitConverterRoute = UnitConverterRouteImport.update({
   path: '/unit-converter',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogFirstJobCvEthiopiaRoute = BlogFirstJobCvEthiopiaRouteImport.update({
+  id: '/first-job-cv-ethiopia',
+  path: '/first-job-cv-ethiopia',
+  getParentRoute: () => BlogRoute,
+} as any)
+const JobsIdRoute = JobsIdRouteImport.update({
+  id: '/jobs/$id',
+  path: '/jobs/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/admin': typeof AdminRoute
   '/auth': typeof AuthRoute
-  '/blog': typeof BlogRoute
+  '/blog': typeof BlogRouteWithChildren
   '/calendar': typeof CalendarRoute
   '/currency-converter': typeof CurrencyConverterRoute
   '/entry-level-jobs-addis-ababa': typeof EntryLevelJobsAddisAbabaRoute
   '/ethiopia': typeof EthiopiaRoute
+  '/ethiopia-first-job-interview-preparation': typeof EthiopiaFirstJobInterviewPreparationRoute
   '/ethiopian-tax-calculator': typeof EthiopianTaxCalculatorRoute
   '/fresh-graduate-jobs-ethiopia': typeof FreshGraduateJobsEthiopiaRoute
   '/internships-ethiopia': typeof InternshipsEthiopiaRoute
+  '/job-seeker-toolkit-ethiopia': typeof JobSeekerToolkitEthiopiaRoute
   '/post': typeof PostRoute
+  '/privacy': typeof PrivacyRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
+  '/jobs/$id': typeof JobsIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/admin': typeof AdminRoute
   '/auth': typeof AuthRoute
-  '/blog': typeof BlogRoute
+  '/blog': typeof BlogRouteWithChildren
   '/calendar': typeof CalendarRoute
   '/currency-converter': typeof CurrencyConverterRoute
   '/entry-level-jobs-addis-ababa': typeof EntryLevelJobsAddisAbabaRoute
   '/ethiopia': typeof EthiopiaRoute
+  '/ethiopia-first-job-interview-preparation': typeof EthiopiaFirstJobInterviewPreparationRoute
   '/ethiopian-tax-calculator': typeof EthiopianTaxCalculatorRoute
   '/fresh-graduate-jobs-ethiopia': typeof FreshGraduateJobsEthiopiaRoute
   '/internships-ethiopia': typeof InternshipsEthiopiaRoute
+  '/job-seeker-toolkit-ethiopia': typeof JobSeekerToolkitEthiopiaRoute
   '/post': typeof PostRoute
+  '/privacy': typeof PrivacyRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
+  '/jobs/$id': typeof JobsIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/admin': typeof AdminRoute
   '/auth': typeof AuthRoute
-  '/blog': typeof BlogRoute
+  '/blog': typeof BlogRouteWithChildren
   '/calendar': typeof CalendarRoute
   '/currency-converter': typeof CurrencyConverterRoute
   '/entry-level-jobs-addis-ababa': typeof EntryLevelJobsAddisAbabaRoute
   '/ethiopia': typeof EthiopiaRoute
+  '/ethiopia-first-job-interview-preparation': typeof EthiopiaFirstJobInterviewPreparationRoute
   '/ethiopian-tax-calculator': typeof EthiopianTaxCalculatorRoute
   '/fresh-graduate-jobs-ethiopia': typeof FreshGraduateJobsEthiopiaRoute
   '/internships-ethiopia': typeof InternshipsEthiopiaRoute
+  '/job-seeker-toolkit-ethiopia': typeof JobSeekerToolkitEthiopiaRoute
   '/post': typeof PostRoute
+  '/privacy': typeof PrivacyRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
+  '/jobs/$id': typeof JobsIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -148,11 +204,17 @@ export interface FileRouteTypes {
     | '/currency-converter'
     | '/entry-level-jobs-addis-ababa'
     | '/ethiopia'
+    | '/ethiopia-first-job-interview-preparation'
     | '/ethiopian-tax-calculator'
     | '/fresh-graduate-jobs-ethiopia'
     | '/internships-ethiopia'
+    | '/job-seeker-toolkit-ethiopia'
     | '/post'
+    | '/privacy'
+    | '/sitemap.xml'
     | '/unit-converter'
+    | '/blog/first-job-cv-ethiopia'
+    | '/jobs/$id'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -163,11 +225,17 @@ export interface FileRouteTypes {
     | '/currency-converter'
     | '/entry-level-jobs-addis-ababa'
     | '/ethiopia'
+    | '/ethiopia-first-job-interview-preparation'
     | '/ethiopian-tax-calculator'
     | '/fresh-graduate-jobs-ethiopia'
     | '/internships-ethiopia'
+    | '/job-seeker-toolkit-ethiopia'
     | '/post'
+    | '/privacy'
+    | '/sitemap.xml'
     | '/unit-converter'
+    | '/blog/first-job-cv-ethiopia'
+    | '/jobs/$id'
   id:
     | '__root__'
     | '/'
@@ -178,27 +246,38 @@ export interface FileRouteTypes {
     | '/currency-converter'
     | '/entry-level-jobs-addis-ababa'
     | '/ethiopia'
+    | '/ethiopia-first-job-interview-preparation'
     | '/ethiopian-tax-calculator'
     | '/fresh-graduate-jobs-ethiopia'
     | '/internships-ethiopia'
+    | '/job-seeker-toolkit-ethiopia'
     | '/post'
+    | '/privacy'
+    | '/sitemap.xml'
     | '/unit-converter'
+    | '/blog/first-job-cv-ethiopia'
+    | '/jobs/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AdminRoute: typeof AdminRoute
   AuthRoute: typeof AuthRoute
-  BlogRoute: typeof BlogRoute
+  BlogRoute: typeof BlogRouteWithChildren
   CalendarRoute: typeof CalendarRoute
   CurrencyConverterRoute: typeof CurrencyConverterRoute
   EntryLevelJobsAddisAbabaRoute: typeof EntryLevelJobsAddisAbabaRoute
   EthiopiaRoute: typeof EthiopiaRoute
+  EthiopiaFirstJobInterviewPreparationRoute: typeof EthiopiaFirstJobInterviewPreparationRoute
   EthiopianTaxCalculatorRoute: typeof EthiopianTaxCalculatorRoute
   FreshGraduateJobsEthiopiaRoute: typeof FreshGraduateJobsEthiopiaRoute
   InternshipsEthiopiaRoute: typeof InternshipsEthiopiaRoute
+  JobSeekerToolkitEthiopiaRoute: typeof JobSeekerToolkitEthiopiaRoute
   PostRoute: typeof PostRoute
+  PrivacyRoute: typeof PrivacyRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   UnitConverterRoute: typeof UnitConverterRoute
+  JobsIdRoute: typeof JobsIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -259,6 +338,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EthiopiaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ethiopia-first-job-interview-preparation': {
+      id: '/ethiopia-first-job-interview-preparation'
+      path: '/ethiopia-first-job-interview-preparation'
+      fullPath: '/ethiopia-first-job-interview-preparation'
+      preLoaderRoute: typeof EthiopiaFirstJobInterviewPreparationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/ethiopian-tax-calculator': {
       id: '/ethiopian-tax-calculator'
       path: '/ethiopian-tax-calculator'
@@ -280,11 +366,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof InternshipsEthiopiaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/job-seeker-toolkit-ethiopia': {
+      id: '/job-seeker-toolkit-ethiopia'
+      path: '/job-seeker-toolkit-ethiopia'
+      fullPath: '/job-seeker-toolkit-ethiopia'
+      preLoaderRoute: typeof JobSeekerToolkitEthiopiaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/post': {
       id: '/post'
       path: '/post'
       fullPath: '/post'
       preLoaderRoute: typeof PostRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/unit-converter': {
@@ -294,23 +401,53 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof UnitConverterRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/first-job-cv-ethiopia': {
+      id: '/blog/first-job-cv-ethiopia'
+      path: '/first-job-cv-ethiopia'
+      fullPath: '/blog/first-job-cv-ethiopia'
+      preLoaderRoute: typeof BlogFirstJobCvEthiopiaRouteImport
+      parentRoute: typeof BlogRoute
+    }
+    '/jobs/$id': {
+      id: '/jobs/$id'
+      path: '/jobs/$id'
+      fullPath: '/jobs/$id'
+      preLoaderRoute: typeof JobsIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
+
+interface BlogRouteChildren {
+  BlogFirstJobCvEthiopiaRoute: typeof BlogFirstJobCvEthiopiaRoute
+}
+
+const BlogRouteChildren: BlogRouteChildren = {
+  BlogFirstJobCvEthiopiaRoute: BlogFirstJobCvEthiopiaRoute,
+}
+
+const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AdminRoute: AdminRoute,
   AuthRoute: AuthRoute,
-  BlogRoute: BlogRoute,
+  BlogRoute: BlogRouteWithChildren,
   CalendarRoute: CalendarRoute,
   CurrencyConverterRoute: CurrencyConverterRoute,
   EntryLevelJobsAddisAbabaRoute: EntryLevelJobsAddisAbabaRoute,
   EthiopiaRoute: EthiopiaRoute,
+  EthiopiaFirstJobInterviewPreparationRoute:
+    EthiopiaFirstJobInterviewPreparationRoute,
   EthiopianTaxCalculatorRoute: EthiopianTaxCalculatorRoute,
   FreshGraduateJobsEthiopiaRoute: FreshGraduateJobsEthiopiaRoute,
   InternshipsEthiopiaRoute: InternshipsEthiopiaRoute,
+  JobSeekerToolkitEthiopiaRoute: JobSeekerToolkitEthiopiaRoute,
   PostRoute: PostRoute,
+  PrivacyRoute: PrivacyRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
   UnitConverterRoute: UnitConverterRoute,
+  JobsIdRoute: JobsIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

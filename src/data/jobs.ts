@@ -38,6 +38,8 @@ export interface Job {
   baseSalary?: JobSalary;
   source?: string;
   featured?: boolean;
+  /** Curated listings accept applications on EthioHub rather than on a source site. */
+  applyOnSite?: boolean;
   hue?: number;
   url: string;
 }

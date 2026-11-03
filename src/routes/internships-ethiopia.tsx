@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { JobLandingPage } from "@/components/JobLandingPage";
+import { listPublishedJobs } from "@/lib/jobs";
 
 export const Route = createFileRoute("/internships-ethiopia")({
+  loader: async () => ({ publishedJobs: await listPublishedJobs() }),
   head: () => ({
     meta: [
       { title: "Internships in Ethiopia | EthioHub.com.et" },
@@ -11,5 +13,7 @@ export const Route = createFileRoute("/internships-ethiopia")({
     ],
     links: [{ rel: "canonical", href: "https://serategna.com.et/internships-ethiopia" }],
   }),
-  component: () => <JobLandingPage kind="internships" />,
+  component: InternshipsPage,
 });
+
+function InternshipsPage() { const { publishedJobs } = Route.useLoaderData(); return <JobLandingPage kind="internships" publishedJobs={publishedJobs} />; }

@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { JobLandingPage } from "@/components/JobLandingPage";
+import { listPublishedJobs } from "@/lib/jobs";
 
 export const Route = createFileRoute("/fresh-graduate-jobs-ethiopia")({
+  loader: async () => ({ publishedJobs: await listPublishedJobs() }),
   head: () => ({
     meta: [
       { title: "Fresh Graduate Jobs in Ethiopia | EthioHub.com.et" },
@@ -11,5 +13,7 @@ export const Route = createFileRoute("/fresh-graduate-jobs-ethiopia")({
     ],
     links: [{ rel: "canonical", href: "https://serategna.com.et/fresh-graduate-jobs-ethiopia" }],
   }),
-  component: () => <JobLandingPage kind="fresh" />,
+  component: FreshJobsPage,
 });
+
+function FreshJobsPage() { const { publishedJobs } = Route.useLoaderData(); return <JobLandingPage kind="fresh" publishedJobs={publishedJobs} />; }

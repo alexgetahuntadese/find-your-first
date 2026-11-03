@@ -107,6 +107,12 @@ npm run dev
 - Signed-in users can submit opportunities from `/post`; submissions are stored locally and wait for review.
 - Use `admin@launchboard.dev` with any password of 6+ characters to open `/admin` and approve or reject submissions.
 
-Job submissions and moderation use Supabase with Row Level Security. Run `supabase/schema.sql` in the Supabase SQL Editor before launch.
+Employer job submissions, original EthioHub listings, and applications use Supabase with Row Level Security. Run or rerun `supabase/schema.sql` in the Supabase SQL Editor before deploying these features. This creates the original-jobs and applications tables, plus the private CV bucket and its access policies. Existing projects are upgraded with `if not exists` statements and named policy resets.
 
 Supabase authentication is configured through `.env.local` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. The publishable key is safe for browser use; never expose a service-role key.
+
+### Daily original job publishing
+
+Sign in with an account whose `profiles.role` is `admin`, then open `/admin`. Use **Publish an original job** to add an accurate, verified vacancy. It is published immediately, appears in the public job feed and relevant landing pages, gets an on-site application form and JobPosting structured data, and is added to `/sitemap.xml`. Close filled or expired vacancies from the admin list so they are removed from public pages and the sitemap. Search engines decide when to recrawl the sitemap; publishing does not guarantee immediate indexing.
+
+Applicants can submit their name, email, phone, education or experience, an optional note, and a PDF or DOCX CV (up to 5 MB) without creating an account. CV files are kept in a private Supabase Storage bucket; administrators view them through links that expire after 10 minutes. The Supabase SQL policies must be applied before accepting applications.
