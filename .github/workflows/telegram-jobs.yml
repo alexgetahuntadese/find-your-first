@@ -1,37 +1,22 @@
-name: Post site jobs to Telegram
+
+name: Telegram Channel Posting
 
 on:
-  workflow_run:
-    workflows:
-      - Refresh Ethiopian jobs from multiple sources
-    types: [completed]
-    branches: [main]
   workflow_dispatch:
-
-permissions:
-  contents: read
-
-concurrency:
-  group: telegram-jobs-${{ github.run_id }}
-  cancel-in-progress: false
+  push:
+    branches:
+      - main
 
 jobs:
-  post-jobs:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+  telegram:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+
     steps:
-      - name: Check out the latest published job snapshot
-        uses: actions/checkout@v4
-        with:
-          ref: main
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      - name: Wait for the updated site and post its current jobs
-        run: node scripts/post-jobs-to-telegram.mjs
+      - name: Send Telegram Message
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          SITE_JOBS_URL: ${{ vars.SITE_JOBS_URL }}
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -sS -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${CHAT_ID}" \
+            --data-urlencode "text=🚀 GitHub automation is connected to @ethioserategna successfully!"
