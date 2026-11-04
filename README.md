@@ -117,13 +117,13 @@ Sign in with an account whose `profiles.role` is `admin`, then open `/admin`. Us
 
 Applicants can submit their name, email, phone, education or experience, an optional note, and a PDF or DOCX CV (up to 5 MB) without creating an account. CV files are kept in a private Supabase Storage bucket; administrators view them through links that expire after 10 minutes. The Supabase SQL policies must be applied before accepting applications.
 
-### Daily Telegram job roundup
+### Daily Telegram job posts
 
-The `Post site jobs to Telegram` GitHub Actions workflow runs after the daily job refresh succeeds. It waits until Vercel serves the matching refreshed snapshot, then posts every active listing from the public feed in messages below Telegram's size limit. It can also be started manually from the Actions tab.
+The `Post new site jobs to Telegram` GitHub Actions workflow checks the public jobs feed daily at 9:45 AM Addis Ababa time. It posts each newly listed job as a separate message with a formatted summary and an **Apply now** button. Previously posted jobs are tracked so daily checks do not repost them.
 
-Add these repository Actions secrets before enabling delivery:
+Add these repository Actions secrets:
 
-- `TELEGRAM_BOT_TOKEN`: token for a Telegram bot that has permission to post in the channel.
+- `TELEGRAM_BOT_TOKEN`: token for a Telegram bot that can post in the channel.
 - `TELEGRAM_CHAT_ID`: the channel username (for example, `@yourchannel`) or numeric chat ID.
 
-The bot must be added as a channel administrator with permission to post. Optionally set the repository variable `SITE_JOBS_URL` if the public feed endpoint uses a different URL; otherwise it uses `https://serategna.com.et/api/jobs.json`. The workflow skips posting when either required secret is absent.
+The bot must be added as a channel administrator with permission to post. Optionally set the repository variable `SITE_JOBS_URL` if the public feed endpoint uses a different URL; otherwise the workflow uses `https://serategna.com.et/api/jobs.json`.
