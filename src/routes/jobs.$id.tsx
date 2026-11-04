@@ -80,16 +80,16 @@ function JobDetailPage() {
           <section className="mt-8 border-t pt-6">
             <h2 className="text-lg font-semibold">About this role</h2>
             {(() => {
-              const fullDescription = job.description || `${job.title} is an opportunity with ${job.company} in ${job.location}. Review the original listing for full requirements and application details.`;
+              const fullDescription = job.description || (job.title + " is an opportunity with " + job.company + " in " + job.location + ". Review the original listing for full requirements and application details.");
               const preview = descriptionPreview(fullDescription);
               const hasMore = preview !== fullDescription.replace(/\s+/g, " ").trim();
               return (
                 <>
-                  <p className="mt-3 text-sm leading-7 text-muted-foreground">{preview}</p>
+                  <div className="mt-3"><DescriptionText text={preview} /></div>
                   {hasMore && (
                     <details className="mt-4 rounded-xl border bg-background/50 px-4 py-3">
                       <summary className="cursor-pointer text-sm font-medium text-primary">Read full job description</summary>
-                      <p className="mt-3 whitespace-pre-line text-sm leading-7 text-muted-foreground">{fullDescription}</p>
+                      <div className="mt-3"><DescriptionText text={fullDescription} /></div>
                     </details>
                   )}
                 </>
@@ -115,6 +115,64 @@ function JobDetailPage() {
         </section>
       </article>
     </main>
+  );
+}
+
+type DescriptionBlock = { type: "heading" | "bullet" | "paragraph"; text: string };
+
+function formatDescriptionText(value: string): DescriptionBlock[] {
+  let text = value
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(?:p|div|li|h[1-6])>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/\r/g, "\n")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+  text = text
+    .replace(/([.!?])\s+([A-Z][A-Za-z0-9&'’/() -]{1,48}):\s*/g, "$1\n• $2: ")
+    .replace(/\s+(Job Title|Vacancies|Location|Job Type|Work Location|Employment Type|Salary|Experience Level|Education|Application Deadline|Deadline|Required Documents):\s*/gi, "\n• $1: ")
+    .replace(/(?:^|\n)(?:• )?(Job Description|Job Summary|About the Role|About the Job|Key Responsibilities|Responsibilities|Duties and Responsibilities|Requirements|Job Requirements|Qualifications|Required Qualifications|Skills|What You'll Do|What You Will Do|What We're Looking For|What We Offer|Benefits|How to Apply|Application Process|Application Instructions|Required Documents):\s*/gim, "\n\n$1:\n")
+    .replace(/\s+(\d{1,2})[.)]\s+(?=[A-Z])/g, "\n• $1. ");
+
+  const blocks: DescriptionBlock[] = [];
+  for (const line of text.split(/\n+/).map((part) => part.trim()).filter(Boolean)) {
+    if (/^(Job Description|Job Summary|About the Role|About the Job|Key Responsibilities|Responsibilities|Duties and Responsibilities|Requirements|Job Requirements|Qualifications|Required Qualifications|Skills|What You'll Do|What You Will Do|What We're Looking For|What We Offer|Benefits|How to Apply|Application Process|Application Instructions|Required Documents):$/i.test(line)) {
+      blocks.push({ type: "heading", text: line.replace(/:$/, "") });
+    } else if (/^(?:•|-|\*)\s*/.test(line)) {
+      blocks.push({ type: "bullet", text: line.replace(/^(?:•|-|\*)\s*/, "") });
+    } else {
+      blocks.push({ type: "paragraph", text: line });
+    }
+  }
+  return blocks.length ? blocks : [{ type: "paragraph", text: value }];
+}
+
+function DescriptionText({ text }: { text: string }) {
+  return (
+    <div className="space-y-3 text-sm leading-7 text-muted-foreground">
+      {formatDescriptionText(text).map((block, index) => {
+        if (block.type === "heading") {
+          return <h3 key={index} className="pt-2 font-semibold text-foreground">{block.text}</h3>;
+        }
+        if (block.type === "bullet") {
+          const colon = block.text.indexOf(":");
+          return (
+            <div key={index} className="flex gap-2 pl-1">
+              <span aria-hidden="true" className="shrink-0 text-primary">•</span>
+              <p>
+                {colon > 0 ? (
+                  <><strong className="font-medium text-foreground">{block.text.slice(0, colon + 1)}</strong>{block.text.slice(colon + 1)}</>
+                ) : block.text}
+              </p>
+            </div>
+          );
+        }
+        return <p key={index} className="whitespace-pre-line">{block.text}</p>;
+      })}
+    </div>
   );
 }
 
