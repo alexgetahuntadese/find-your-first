@@ -21,6 +21,7 @@ export const Route = createFileRoute("/api/jobs.json")({
             pay: job.pay,
             datePosted: job.datePosted,
             deadline: job.deadline,
+            applyUrl: job.applyOnSite ? `${siteUrl}/jobs/${encodeURIComponent(job.id)}` : job.url,
             url: `${siteUrl}/jobs/${encodeURIComponent(job.id)}`,
           }));
 
