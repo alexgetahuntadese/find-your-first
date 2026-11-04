@@ -4,13 +4,14 @@ import { ArrowLeft, ArrowUpRight, BriefcaseBusiness, CalendarDays, MapPin, Uploa
 import { toast } from "sonner";
 import { jobs, type Job } from "@/data/jobs";
 import { archivedScrapedJobs } from "@/data/archived-scraped-jobs";
-import { getPublishedJob, submitApplication } from "@/lib/jobs";
+import { submitApplication } from "@/lib/jobs";
+import { getPublishedJobFromSqlite } from "@/lib/sqlite-job-functions";
 
 export const Route = createFileRoute("/jobs/$id")({
   loader: async ({ params }) => {
     const job = jobs.find((entry) => entry.id === params.id)
       || archivedScrapedJobs.find((entry) => entry.id === params.id)
-      || await getPublishedJob(params.id);
+      || await getPublishedJobFromSqlite({ data: { id: params.id } });
     if (!job) throw notFound();
     return { job };
   },
@@ -49,7 +50,7 @@ function JobDetailPage() {
     if (!job.applyOnSite || !resume) return;
     try {
       setSubmitting(true);
-      await submitApplication({ jobId: job.id, name, email, phone, education, note, resume });
+      await submitApplication({ jobId: job.id, name, email, phone, education, note, privacyConsent: true, resume });
       setSubmitted(true);
       toast.success("Your application has been submitted");
     } catch (error) {

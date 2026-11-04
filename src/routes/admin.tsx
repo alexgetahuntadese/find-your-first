@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { ArrowLeft, Check, Clock3, LogOut, ShieldCheck, X, Plus, FileText, ExternalLink } from "lucide-react";
 import { toast } from "sonner";
@@ -16,11 +16,15 @@ const industries: Job["industry"][] = ["Tech", "Design", "Finance", "Healthcare"
 const categories: Job["category"][] = ["Software Engineering", "Data Analytics", "Design", "Marketing", "Finance", "Healthcare", "Operations"];
 
 function AdminPage() {
-  const navigate = useNavigate();
   const [items, setItems] = useState<PendingJob[]>([]);
   const [originals, setOriginals] = useState<AdminOriginalJob[]>([]);
   const [applications, setApplications] = useState<Array<JobApplication & { original_jobs: { title: string; company: string } }>>([]);
   const [loading, setLoading] = useState(true);
+  const [authenticated, setAuthenticated] = useState(false);
+  const [checkingAuth, setCheckingAuth] = useState(true);
+  const [adminConfigured, setAdminConfigured] = useState(true);
+  const [adminPassword, setAdminPassword] = useState("");
+  const [loginError, setLoginError] = useState("");
   const [saving, setSaving] = useState(false);
   const [title, setTitle] = useState("");
   const [company, setCompany] = useState("");
@@ -37,15 +41,45 @@ function AdminPage() {
   const [deadline, setDeadline] = useState("");
 
   const load = useCallback(async () => {
-    const user = await refreshSession();
-    if (!user || user.role !== "admin" || !user.accessToken) { navigate({ to: "/auth" }); return; }
-    const [community, own, applicants] = await Promise.all([listJobs(user.accessToken), listOriginalJobs(user.accessToken), listApplications(user.accessToken)]);
+    const user = await refreshSession().catch(() => null);
+    const communityPromise = user?.role === "admin" && user.accessToken
+      ? listJobs(user.accessToken).catch(() => [])
+      : Promise.resolve([]);
+    const [community, own, applicants] = await Promise.all([communityPromise, listOriginalJobs(), listApplications()]);
     setItems(community);
     setOriginals(own);
     setApplications(applicants);
-  }, [navigate]);
+  }, []);
 
-  useEffect(() => { load().catch((error) => toast.error(error instanceof Error ? error.message : "Could not load admin dashboard")).finally(() => setLoading(false)); }, [load]);
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/admin-session", { credentials: "same-origin" })
+      .then(async (response) => ({ response, body: await response.json() as { authenticated?: boolean; configured?: boolean } }))
+      .then(async ({ body }) => {
+        if (cancelled) return;
+        setAdminConfigured(body.configured !== false);
+        setAuthenticated(body.authenticated === true);
+        if (body.authenticated) await load();
+      })
+      .catch((error) => { if (!cancelled) toast.error(error instanceof Error ? error.message : "Could not check admin access"); })
+      .finally(() => { if (!cancelled) { setCheckingAuth(false); setLoading(false); } });
+    return () => { cancelled = true; };
+  }, [load]);
+
+  const signInAdmin = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setLoginError("");
+    try {
+      const response = await fetch("/api/admin-session", { method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: adminPassword }) });
+      const result = await response.json() as { error?: string };
+      if (!response.ok) throw new Error(result.error || "Could not sign in");
+      setAuthenticated(true);
+      setAdminPassword("");
+      setLoading(true);
+      await load();
+    } catch (error) { setLoginError(error instanceof Error ? error.message : "Could not sign in"); }
+    finally { setLoading(false); }
+  };
 
   const updateCommunityJob = async (id: string, status: PendingJob["status"]) => {
     const user = getSession();
@@ -56,12 +90,10 @@ function AdminPage() {
 
   const publish = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const user = getSession();
-    if (!user?.accessToken || !user.id) { toast.error("Please sign in again"); return; }
     if (description.trim().length < 80) { toast.error("Add at least 80 characters of accurate job details"); return; }
     try {
       setSaving(true);
-      await createOriginalJob(user.accessToken, user.id, {
+      await createOriginalJob({
         title: title.trim(), company: company.trim(), location: location.trim(), type, mode, experience, industry, category,
         pay: pay.trim() || "Not specified", paid: type === "Internship" && paid,
         tags: [...new Set(tags.split(",").map((tag) => tag.trim()).filter(Boolean))].slice(0, 10),
@@ -75,25 +107,29 @@ function AdminPage() {
   };
 
   const closeJob = async (item: AdminOriginalJob) => {
-    const user = getSession();
-    if (!user?.accessToken) return;
     const status = item.status === "published" ? "closed" : "published";
     try {
-      await updateOriginalJobStatus(user.accessToken, item.id, status);
+      await updateOriginalJobStatus(item.id, status);
       setOriginals((current) => current.map((job) => job.id === item.id ? { ...job, status } : job));
       toast.success(status === "closed" ? "Job closed and removed from public pages" : "Job republished");
     } catch (error) { toast.error(error instanceof Error ? error.message : "Could not update this job"); }
   };
 
   const openResume = async (application: JobApplication) => {
-    const user = getSession();
-    if (!user?.accessToken) return;
-    try { const url = await getResumeLink(user.accessToken, application.resume_path); window.open(url, "_blank", "noopener,noreferrer"); }
+    try { const url = await getResumeLink(application.id); window.open(url, "_blank", "noopener,noreferrer"); }
     catch (error) { toast.error(error instanceof Error ? error.message : "Could not open CV"); }
   };
 
-  const signOut = () => { clearSession(); navigate({ to: "/" }); };
+  const signOut = async () => {
+    await fetch("/api/admin-session", { method: "DELETE", credentials: "same-origin" }).catch(() => undefined);
+    clearSession();
+    setAuthenticated(false);
+    setItems([]); setOriginals([]); setApplications([]);
+  };
   const pending = items.filter((item) => item.status === "pending");
+
+  if (checkingAuth) return <main className="grid min-h-screen place-items-center bg-background p-4 text-sm text-muted-foreground">Checking administrator access…</main>;
+  if (!authenticated) return <main className="grid min-h-screen place-items-center bg-background px-4 py-10"><section className="w-full max-w-md rounded-2xl border bg-card p-6 shadow-sm sm:p-8"><Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to jobs</Link><div className="mt-7 flex items-center gap-3"><span className="grid h-10 w-10 place-items-center rounded-xl bg-primary/10 text-primary"><ShieldCheck className="h-5 w-5" /></span><div><h1 className="text-xl font-semibold">Administrator sign in</h1><p className="text-sm text-muted-foreground">Manage original jobs and applications.</p></div></div>{adminConfigured ? <form onSubmit={signInAdmin} className="mt-6 space-y-4"><label className="block text-sm">Admin password<input required type="password" autoComplete="current-password" value={adminPassword} onChange={(event) => setAdminPassword(event.target.value)} className={inputClass} /></label>{loginError && <p role="alert" className="text-sm text-destructive">{loginError}</p>}<button className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground">Sign in</button></form> : <p role="alert" className="mt-5 rounded-lg border border-destructive/30 bg-destructive/5 p-3 text-sm">Admin access is not configured. Set <code>ADMIN_PASSWORD</code> in the site host environment and redeploy.</p>}</section></main>;
 
   return <main className="min-h-screen bg-background px-4 py-8"><div className="mx-auto max-w-5xl">
     <header className="flex flex-wrap items-center justify-between gap-4"><div><Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"><ArrowLeft className="h-4 w-4" /> Back to jobs</Link><h1 className="mt-5 flex items-center gap-2 text-3xl font-semibold"><ShieldCheck className="h-7 w-7 text-primary" /> Admin dashboard</h1><p className="mt-1 text-sm text-muted-foreground">Publish verified original opportunities and review applications.</p></div><button onClick={signOut} className="inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm hover:bg-secondary"><LogOut className="h-4 w-4" /> Sign out</button></header>

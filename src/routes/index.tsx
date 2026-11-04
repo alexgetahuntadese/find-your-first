@@ -3,12 +3,12 @@ import { useEffect, useMemo, useState } from "react";
 import { Search, MapPin, Briefcase, Heart, ArrowUpRight, SlidersHorizontal, X, Sparkles, Moon, Sun, ChevronDown, CalendarDays, ExternalLink, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import { jobs as seededJobs, postedLabel, type Job, type Experience, type Industry } from "@/data/jobs";
-import { listPublishedJobs } from "@/lib/jobs";
+import { getPublishedJobsFromSqlite } from "@/lib/sqlite-job-functions";
 import { BrandLogo } from "@/components/BrandLogo";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
-  loader: async () => ({ publishedJobs: await listPublishedJobs() }),
+  loader: async () => ({ publishedJobs: await getPublishedJobsFromSqlite() }),
   head: () => ({
     meta: [
       { title: "Jobs in Ethiopia — Internships & Entry-Level Roles | EthioHub.com.et" },

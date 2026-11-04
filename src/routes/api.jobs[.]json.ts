@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { isJobActive, jobs as boardJobs } from "@/data/jobs";
 import { scrapedJobsGeneratedAt } from "@/data/scraped-jobs";
-import { listPublishedJobs } from "@/lib/jobs";
+import { listPublishedJobs } from "@/lib/sqlite-jobs.server";
 
 const siteUrl = "https://serategna.com.et";
 

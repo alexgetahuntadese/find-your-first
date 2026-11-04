@@ -101,21 +101,21 @@ npm i
 npm run dev
 ```
 
-## Demo workflow
+## Administrator workflow
 
-- Visit `/auth` to create a local demo account or sign in.
-- Signed-in users can submit opportunities from `/post`; submissions are stored locally and wait for review.
-- Use `admin@launchboard.dev` with any password of 6+ characters to open `/admin` and approve or reject submissions.
+- Set a strong `ADMIN_PASSWORD` server environment variable.
+- Open `/admin`, sign in with that password, and publish or close original jobs.
+- Community accounts and employer job submissions continue to use the configured Supabase project.
 
-Employer job submissions, original EthioHub listings, and applications use Supabase with Row Level Security. For an existing project, run `supabase/migrations/20261103000000_original_jobs_applications.sql` in the Supabase SQL Editor after the base `profiles` table and `public.is_admin()` function exist. For a fresh project, run `supabase/schema.sql`. The migration creates the original-jobs and applications tables, grants only the operations needed by the app, and configures a private CV bucket with row-level policies.
+The site administrator publishes original jobs with the admin password configured as `ADMIN_PASSWORD`. Original job records and applicant details are stored in SQLite; CVs are stored in a private `cvs/` directory beside the database. Set `APP_DATA_DIR` to a persistent disk path in production. Local development defaults to `./data`.
 
-Supabase authentication is configured through `.env.local` using `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. The publishable key is safe for browser use; never expose a service-role key.
+`render.yaml` deploys the Node server with a persistent disk mounted at `/var/data`. Render prompts for the `ADMIN_PASSWORD` secret when the Blueprint is connected. The disk plan is required for job and CV data to survive deploys. Community accounts and employer-submitted jobs still use Supabase and require `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
 
-### Daily original job publishing
+### Original job publishing
 
-Sign in with an account whose `profiles.role` is `admin`, then open `/admin`. Use **Publish an original job** to add an accurate, verified vacancy. It is published immediately, appears in the public job feed and relevant landing pages, gets an on-site application form and JobPosting structured data, and is added to `/sitemap.xml`. Close filled or expired vacancies from the admin list so they are removed from public pages and the sitemap. Search engines decide when to recrawl the sitemap; publishing does not guarantee immediate indexing.
+Open `/admin` with the server's `ADMIN_PASSWORD`. Use **Publish an original job** to add an accurate, verified vacancy. It is published immediately, appears in the public job feed and relevant landing pages, gets an on-site application form and JobPosting structured data, and is added to `/sitemap.xml`. Close filled or expired vacancies from the admin list so they are removed from public pages and the sitemap. Search engines decide when to recrawl the sitemap; publishing does not guarantee immediate indexing.
 
-Applicants can submit their name, email, phone, education or experience, an optional note, and a PDF or DOCX CV (up to 5 MB) without creating an account. CV files are kept in a private Supabase Storage bucket; administrators view them through links that expire after 10 minutes. The Supabase SQL policies must be applied before accepting applications.
+Applicants can submit their name, email, phone, education or experience, an optional note, and a PDF or DOCX CV (up to 5 MB) without creating an account. CV files are not served from a public directory; the admin-only resume endpoint reads them from the private persistent disk.
 
 ### Daily Telegram job posts
 

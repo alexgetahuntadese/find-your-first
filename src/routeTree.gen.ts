@@ -26,6 +26,11 @@ import { Route as PostRouteImport } from './routes/post'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as UnitConverterRouteImport } from './routes/unit-converter'
+import { Route as ApiAdminApplicationsRouteImport } from './routes/api.admin-applications'
+import { Route as ApiAdminJobsRouteImport } from './routes/api.admin-jobs'
+import { Route as ApiAdminResumeRouteImport } from './routes/api.admin-resume'
+import { Route as ApiAdminSessionRouteImport } from './routes/api.admin-session'
+import { Route as ApiApplicationsRouteImport } from './routes/api.applications'
 import { Route as ApiJobsDotjsonRouteImport } from './routes/api.jobs[.]json'
 import { Route as BlogFirstJobCvEthiopiaRouteImport } from './routes/blog.first-job-cv-ethiopia'
 import { Route as JobsIdRouteImport } from './routes/jobs.$id'
@@ -119,6 +124,31 @@ const UnitConverterRoute = UnitConverterRouteImport.update({
   path: '/unit-converter',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiAdminApplicationsRoute = ApiAdminApplicationsRouteImport.update({
+  id: '/api/admin-applications',
+  path: '/api/admin-applications',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAdminJobsRoute = ApiAdminJobsRouteImport.update({
+  id: '/api/admin-jobs',
+  path: '/api/admin-jobs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAdminResumeRoute = ApiAdminResumeRouteImport.update({
+  id: '/api/admin-resume',
+  path: '/api/admin-resume',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAdminSessionRoute = ApiAdminSessionRouteImport.update({
+  id: '/api/admin-session',
+  path: '/api/admin-session',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiApplicationsRoute = ApiApplicationsRouteImport.update({
+  id: '/api/applications',
+  path: '/api/applications',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiJobsDotjsonRoute = ApiJobsDotjsonRouteImport.update({
   id: '/api/jobs.json',
   path: '/api/jobs.json',
@@ -153,6 +183,11 @@ export interface FileRoutesByFullPath {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/api/admin-applications': typeof ApiAdminApplicationsRoute
+  '/api/admin-jobs': typeof ApiAdminJobsRoute
+  '/api/admin-resume': typeof ApiAdminResumeRoute
+  '/api/admin-session': typeof ApiAdminSessionRoute
+  '/api/applications': typeof ApiApplicationsRoute
   '/api/jobs.json': typeof ApiJobsDotjsonRoute
   '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
   '/jobs/$id': typeof JobsIdRoute
@@ -175,6 +210,11 @@ export interface FileRoutesByTo {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/api/admin-applications': typeof ApiAdminApplicationsRoute
+  '/api/admin-jobs': typeof ApiAdminJobsRoute
+  '/api/admin-resume': typeof ApiAdminResumeRoute
+  '/api/admin-session': typeof ApiAdminSessionRoute
+  '/api/applications': typeof ApiApplicationsRoute
   '/api/jobs.json': typeof ApiJobsDotjsonRoute
   '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
   '/jobs/$id': typeof JobsIdRoute
@@ -198,6 +238,11 @@ export interface FileRoutesById {
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/unit-converter': typeof UnitConverterRoute
+  '/api/admin-applications': typeof ApiAdminApplicationsRoute
+  '/api/admin-jobs': typeof ApiAdminJobsRoute
+  '/api/admin-resume': typeof ApiAdminResumeRoute
+  '/api/admin-session': typeof ApiAdminSessionRoute
+  '/api/applications': typeof ApiApplicationsRoute
   '/api/jobs.json': typeof ApiJobsDotjsonRoute
   '/blog/first-job-cv-ethiopia': typeof BlogFirstJobCvEthiopiaRoute
   '/jobs/$id': typeof JobsIdRoute
@@ -222,6 +267,11 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/unit-converter'
+    | '/api/admin-applications'
+    | '/api/admin-jobs'
+    | '/api/admin-resume'
+    | '/api/admin-session'
+    | '/api/applications'
     | '/api/jobs.json'
     | '/blog/first-job-cv-ethiopia'
     | '/jobs/$id'
@@ -244,6 +294,11 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/unit-converter'
+    | '/api/admin-applications'
+    | '/api/admin-jobs'
+    | '/api/admin-resume'
+    | '/api/admin-session'
+    | '/api/applications'
     | '/api/jobs.json'
     | '/blog/first-job-cv-ethiopia'
     | '/jobs/$id'
@@ -266,6 +321,11 @@ export interface FileRouteTypes {
     | '/privacy'
     | '/sitemap.xml'
     | '/unit-converter'
+    | '/api/admin-applications'
+    | '/api/admin-jobs'
+    | '/api/admin-resume'
+    | '/api/admin-session'
+    | '/api/applications'
     | '/api/jobs.json'
     | '/blog/first-job-cv-ethiopia'
     | '/jobs/$id'
@@ -289,6 +349,11 @@ export interface RootRouteChildren {
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   UnitConverterRoute: typeof UnitConverterRoute
+  ApiAdminApplicationsRoute: typeof ApiAdminApplicationsRoute
+  ApiAdminJobsRoute: typeof ApiAdminJobsRoute
+  ApiAdminResumeRoute: typeof ApiAdminResumeRoute
+  ApiAdminSessionRoute: typeof ApiAdminSessionRoute
+  ApiApplicationsRoute: typeof ApiApplicationsRoute
   ApiJobsDotjsonRoute: typeof ApiJobsDotjsonRoute
   JobsIdRoute: typeof JobsIdRoute
 }
@@ -414,6 +479,41 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof UnitConverterRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/admin-applications': {
+      id: '/api/admin-applications'
+      path: '/api/admin-applications'
+      fullPath: '/api/admin-applications'
+      preLoaderRoute: typeof ApiAdminApplicationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/admin-jobs': {
+      id: '/api/admin-jobs'
+      path: '/api/admin-jobs'
+      fullPath: '/api/admin-jobs'
+      preLoaderRoute: typeof ApiAdminJobsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/admin-resume': {
+      id: '/api/admin-resume'
+      path: '/api/admin-resume'
+      fullPath: '/api/admin-resume'
+      preLoaderRoute: typeof ApiAdminResumeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/admin-session': {
+      id: '/api/admin-session'
+      path: '/api/admin-session'
+      fullPath: '/api/admin-session'
+      preLoaderRoute: typeof ApiAdminSessionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/applications': {
+      id: '/api/applications'
+      path: '/api/applications'
+      fullPath: '/api/applications'
+      preLoaderRoute: typeof ApiApplicationsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/jobs.json': {
       id: '/api/jobs.json'
       path: '/api/jobs.json'
@@ -467,6 +567,11 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   UnitConverterRoute: UnitConverterRoute,
+  ApiAdminApplicationsRoute: ApiAdminApplicationsRoute,
+  ApiAdminJobsRoute: ApiAdminJobsRoute,
+  ApiAdminResumeRoute: ApiAdminResumeRoute,
+  ApiAdminSessionRoute: ApiAdminSessionRoute,
+  ApiApplicationsRoute: ApiApplicationsRoute,
   ApiJobsDotjsonRoute: ApiJobsDotjsonRoute,
   JobsIdRoute: JobsIdRoute,
 }

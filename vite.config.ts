@@ -12,7 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // The Lovable wrapper skips Nitro outside its preview environment unless it
-  // is explicitly enabled. Vercel needs Nitro's Vercel output for SSR routes.
-  nitro: process.env.VERCEL ? { preset: "vercel" } : true,
+  // Use Node's server output for persistent-disk deployments; keep the Vercel
+  // adapter for preview deployments that still set VERCEL.
+  nitro: process.env.VERCEL ? { preset: "vercel" } : { preset: "node-server" },
 });

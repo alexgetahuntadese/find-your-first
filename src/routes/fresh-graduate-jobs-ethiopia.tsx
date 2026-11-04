@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { JobLandingPage } from "@/components/JobLandingPage";
-import { listPublishedJobs } from "@/lib/jobs";
+import { getPublishedJobsFromSqlite } from "@/lib/sqlite-job-functions";
 
 export const Route = createFileRoute("/fresh-graduate-jobs-ethiopia")({
-  loader: async () => ({ publishedJobs: await listPublishedJobs() }),
+  loader: async () => ({ publishedJobs: await getPublishedJobsFromSqlite() }),
   head: () => ({
     meta: [
       { title: "Fresh Graduate Jobs in Ethiopia | EthioHub.com.et" },

@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { isJobActive, jobs } from "@/data/jobs";
-import { listPublishedJobs } from "@/lib/jobs";
+import { listPublishedJobs } from "@/lib/sqlite-jobs.server";
 
 const siteUrl = "https://serategna.com.et";
 const staticPaths = [
