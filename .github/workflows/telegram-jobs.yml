@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: "45 6 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/telegram-jobs.yml
 
 permissions:
   contents: read
@@ -37,14 +33,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Repair historical Telegram apply buttons
+      - name: Post newly listed jobs individually
         run: node scripts/post-jobs-to-telegram.mjs
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SITE_JOBS_URL: ${{ vars.SITE_JOBS_URL }}
           POSTED_JOB_IDS_FILE: .telegram-cache/posted-job-ids.json
-          REPAIR_TELEGRAM_LINKS: "true"
       - name: Save posted job IDs
         if: always()
         uses: actions/cache/save@v4
