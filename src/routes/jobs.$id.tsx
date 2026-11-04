@@ -82,7 +82,7 @@ function JobDetailPage() {
             {(() => {
               const fullDescription = job.description || `${job.title} is an opportunity with ${job.company} in ${job.location}. Review the original listing for full requirements and application details.`;
               const preview = descriptionPreview(fullDescription);
-              const hasMore = preview !== fullDescription.replace(/\\s+/g, " ").trim();
+              const hasMore = preview !== fullDescription.replace(/\s+/g, " ").trim();
               return (
                 <>
                   <p className="mt-3 text-sm leading-7 text-muted-foreground">{preview}</p>
@@ -119,7 +119,7 @@ function JobDetailPage() {
 }
 
 function descriptionPreview(description: string, limit = 420) {
-  const normalized = description.replace(/\\s+/g, " ").trim();
+  const normalized = description.replace(/\s+/g, " ").trim();
   if (normalized.length <= limit) return normalized;
 
   const sample = normalized.slice(0, limit + 1);
