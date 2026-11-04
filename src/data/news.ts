@@ -3,6 +3,48 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "World Bank Pledges to Strengthen Support for Ethiopia’s Water and Energy Development Projects",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – The World Bank has reaffirmed its commitment to strengthening support for Ethiopia’s water and energy development projects, highlighting progress in joint initiatives and the need to accelerate ongoing programmes. Minister",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 15:35:38 +0000"
+  },
+  {
+    "title": "Ethiopian Advisor Calls Out Egypt’s Politicization of Nile, Says Shared Waters Must Be Governed by Technical Expertise, Not Political and Military Pressure",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) — Ethiopia’s Ministry of Water and Energy Advisor Kebede Gerba has challenged Egypt’s approach to the Nile, arguing that the development and use of the shared river must be guided by technical expertise and practical solutio",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 15:12:35 +0000"
+  },
+  {
+    "title": "Ethiopia Presses for Stronger Africa-EU Cooperation on Trade, Energy and Digital Development",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia has called for stronger Africa-EU cooperation in trade, energy development, and manufacturing while advancing the African Union’s common priorities on artificial intelligence (AI) governance and digital developmen",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 15:07:17 +0000"
+  },
+  {
+    "title": "Ethiopia Reaffirms Renewable Energy Ambitions at 9th International Solar Alliance Assembly",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia has reaffirmed its commitment to accelerating renewable energy development and advancing an inclusive energy transition through stronger international cooperation, increased investment, and access to affordable cl",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 12:04:38 +0000"
+  },
+  {
+    "title": "Ethiopia’s GDP Rebasing Establishes New Benchmark for Long-Term Development Planning – Minister",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia has unveiled updated Gross Domestic Product (GDP) figures following a comprehensive rebasing exercise, establishing a more accurate economic benchmark to guide national planning, strengthen policy decisions and ad",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 11:52:17 +0000"
+  },
+  {
+    "title": "Second African Political Parties Summit to Open Tomorrow in Addis Ababa, Bringing 1,000 Delegates",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia is set to welcome around 1,000 delegates from across Africa tomorrow as the Second African Political Parties Summit opens in Addis Ababa, bringing political leaders and stakeholders together to advance a continent",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 11:02:26 +0000"
+  },
+  {
+    "title": "PM Abiy Reviews Bale Winter Farming Performance, Commends Results Despite Rainfall Shortage",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has reviewed winter farming performance in Bale area of the Oromia Regional State, commending the results recorded despite significant concerns over rainfall shortages. In a social media",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 10:42:32 +0000"
+  },
+  {
     "title": "From Adwa to Medemer: Ethiopia’s Pan-African Legacy Meets Africa’s Quest for a New Development Era",
     "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia, whose historic victory at Adwa inspired Africa’s struggle for freedom and self-determination, is preparing to bring political parties from across the continent to Addis Ababa for a consequential dialogue on Afric",
     "source": "FBC English",
@@ -31,47 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 3, 2026 (FMC) – At a time when Africa is searching for a new direction, Ethiopia’s experience offers a compelling question for the continent: what does it take to transform a nation, and how can that transformation inspire a wider African",
     "source": "FBC English",
     "publishedAt": "Tue, 03 Nov 2026 17:00:49 +0000"
-  },
-  {
-    "title": "AU Commission Chair, IFRC Chief Spotlight Climate-Resilient Agriculture, Intra-African Trade to Tackle Hunger",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has held discussions with Secretary-General of the International Federation of Red Cross and Red Crescent Societies (IFRC) Jagan Chapagain on strengthening A",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 16:28:51 +0000"
-  },
-  {
-    "title": "የስፖርት ማዘውተሪያዎች ግንባታ የኢትዮጵያን ስፖርት ወደ ላቀ ደረጃ እያሸጋገረ ይገኛል- የስፖርት ዘርፍ አመራሮች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) በመዲናዋ የተቀናጀ የስፖርት ማዘውተሪያ ሥፍራዎች ግንባታ የኢትዮጵያን የስፖርት ገጽታ ወደ ላቀ ደረጃ እያሸጋገረ ይገኛል አሉ ስፖርት ዘርፍ አመራሮች። የኢትዮጵያ አትሌቲክስ ፌዴሬሽን ፕሬዚዳንት ኮማንደር አትሌት ስለሺ ስህን በአዲስ አበባ ዘመናዊ የስፖርት ማዘውተሪያ ስፍራዎችና ስታዲየሞች መገንባታቸው ለአትሌቶች ውጤታማነት እና ታላላቅ ውድድሮችን ለማ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 16:20:16 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ እና ቻይና ሁለገብ ወታደራዊ ትብብራቸውን የበለጠ ለማጠናከር ይሰራሉ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) ኢትዮጵያ እና ቻይና የቆየውን ወታደራዊና ስትራቴጂካዊ ትብብራቸውን የበለጠ ለማጠናከር በትኩረት እንደሚሠሩ አረጋግጠዋል። የመከላከያ ሚኒስትር መሐመድ እድሪስ በዛሬው ዕለት በኢትዮጵያ የቻይና አምባሳደር ቼን ሃይን በጽሕፈት ቤታቸው ተቀብለው አነጋግረዋል። በውይይቱም ሁለቱ ሀገራት የቆየውን ወታደራዊና ስትራቴጂካዊ ትብብራቸውን ወደ ላቀ ደረጃ ለማሸጋገር",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 16:17:44 +0000"
-  },
-  {
-    "title": "Ethiopia’s Su-35 Fighters Spark Anxiety in Egyptian Circles, Israeli Researcher Edy Cohen Says",
-    "summary": "Addis Ababa, October 31, 2026 (FMC) — Ethiopia’s acquisition of Russian-made Su-35 fighter jets has strengthened its military capabilities and enhanced its growing regional influence, Israeli researcher and journalist Edy Cohen of Israel’s Channel 14 has said.",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 15:39:47 +0000"
-  },
-  {
-    "title": "Ethiopia’s Inflation Eases to 14.9% in September, NBE Reports",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) — Ethiopia’s annual inflation declined to 14.9 percent in September 2026, down from 15.1 percent in June, although inflationary pressures remain elevated, the National Bank of Ethiopia (NBE) has announced. In a press release",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 15:30:41 +0000"
-  },
-  {
-    "title": "የሐረር ከተማ የዓለም አቀፉ የሐር መንገድ የቱሪዝም ጥምረት አባል ሆነች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) የሐረር ከተማ የዓለም አቀፉ የሐር መንገድ የቱሪዝም ጥምረት አባል ሆናለች። በቻይና ሉዣን ከተማ በተካሄደው የ2026 የሐር መንገድ የቱሪዝም ጥምረት አባል ከተሞች ዓመታዊ የጉዞ ኤጀንቶች ኮንፈረንስ ላይ የሐረር ከተማ የዚሁ ጥምረት አባል ሆና ተቀላቅላለች። ይህ አባልነት ሐረር በዓለም አቀፍ የቱሪዝም መስክ የጎላ ትኩረት እንድታገኝ፣ ከተለያዩ የዓለም",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 15:25:55 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ቅዱስ ሲኖዶስ ምልዓተ ጉባኤ ተጠናቀቀ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ)ከጥቅምት 12 ቀን 2019 ዓ.ም ጀምሮ ሲካሄድ የቆየው የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ቅዱስ ሲኖዶስ ምልዓተ ጉባኤ ተጠናቅቋል። የጉባኤውን መጠናቀቅ አስመልክቶ በተሰጠው መግለጫ፤ ጉባኤው በቤተ ክርስቲያን ሁለንተናዊ ዕድገት፣ በወቅታዊ ችግሮች፣ በሀገር ሰላምና አንድነት፣ በሐዋርያዊ ተልእኮ መስፋፋት እንዲሁም የሰው ልጅ ሁሉ ደኅንነት ላይ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 14:49:25 +0000"
   }
 ];
