@@ -130,6 +130,63 @@ async function sendMessage(text, replyMarkup) {
   }
 }
 
+const historicalApplyUrls = Object.freeze({
+  "scraped-3d04202dcfbc": "https://ethiojobs.net/job/rvaoatlqsa-hr-and-admin-assistant",
+  "scraped-cb9986ea0aa9": "https://ethiojobs.net/job/ubpyrlsl1e-invitation-for-bids-production-of-brand-visibility-materials",
+  "scraped-da2969b9bcf4": "https://ethiojobs.net/job/rs3rke1ztp-invitation-for-bids-printing-of-project-communication-and-visibility-material",
+  "scraped-29a63feb19ab": "https://ethiojobs.net/job/tgqcjcdfir-gender-equality-social-inclusion-gesi-officer",
+  "scraped-8f0cc0192b5c": "https://ethiojobs.net/job/kqgswwza1j-middle-level-human-resources-officer",
+  "scraped-5210478ab689": "https://ethiojobs.net/job/ttqbtigwwf-dental-nurse",
+  "scraped-7dcdd5efd0e0": "https://ethiojobs.net/job/ndsxj86xxg-supply-chain-management-team-leader",
+  "scraped-a81616ae64b6": "https://ethiojobs.net/job/cbtivdz7mz-principal-esg-analyst-i",
+  "scraped-7ccf0f4f749a": "https://ethiojobs.net/job/b2fzj548am-finance-officer",
+  "scraped-94ac37d2029e": "https://ethiojobs.net/job/divm36zj5m-protection-srh-officer",
+  "scraped-026aab3e40d0": "https://ethiojobs.net/job/r0v18pbzpm-chef",
+  "scraped-73e9deabf0a7": "https://ethiojobs.net/job/wvwyrc4uwl-fb-control",
+  "scraped-6413f6dc7983": "https://ethiojobs.net/job/w3mrsojthi-associate-business-advisor",
+  "scraped-5e2786f6cb28": "https://ethiojobs.net/job/khytuhhfai-general-services-officer",
+  "scraped-10306ba5f9a6": "https://ethiojobs.net/job/bgjdkonzx3-",
+  "scraped-954abd88a0a6": "https://ethiojobs.net/job/j46fu6mlum-production-quality-control-officer-wooden-furniture-manufacturing",
+  "scraped-1513314cdf28": "https://ethiojobs.net/job/qsc8xv0qtg-anesthetist",
+  "scraped-1f8f4b1bacf7": "https://ethiojobs.net/job/ryiy2wdjqf-property-admin-head",
+  "scraped-10f9ca294902": "https://ethiojobs.net/job/m0knmlopnz-monitoring-and-evaluation-officer-hrh-program",
+  "scraped-1850c1a2a58d": "https://ethiojobs.net/job/sfy46qjiul-human-resources-for-health-hrh-program-coordinator",
+  "scraped-df058f35f235": "https://ethiojobs.net/job/mei954wypg-public-health-operation-center-technical-assistant-secondment-for-zonal-health-department",
+  "scraped-7ea9b304eaad": "https://ethiojobs.net/job/movpbkrg8q-woreda-human-resources-for-health-hrh-health-system-strengthening-officer",
+  "scraped-271ed33ad5f6": "https://ethiojobs.net/job/bliqikgukr-research-and-business-development-specialist-i-for-addis-ababa",
+  "scraped-f2e7d491409f": "https://ethiojobs.net/job/kvz2v4shex-project-officer",
+  "scraped-cd9793f89cd7": "https://ethiojobs.net/job/fdylhpkw5f-junior-software-developer",
+  "scraped-b36a46bec91d": "https://ethiojobs.net/job/zqmycvthy5-property-administration-head",
+  "scraped-d55a24e49dc2": "https://ethiojobs.net/job/wr3sagux5f-monitoring-evaluation-learning-mel-officer",
+  "scraped-d8a57c0d82a6": "https://ethiojobs.net/job/cyx9qca9rz-forklift-driver",
+  "scraped-22584b487b5e": "https://ethiojobs.net/job/kpiqfdrdwx-spare-parts-raw-materials-purchasing-officer",
+  "scraped-3abbef9ba084": "https://ethiojobs.net/job/74xyk0erlm-communication-intern",
+  "scraped-8ba9116a41ae": "https://ethiojobs.net/job/78rubwsghu-finance-department-head",
+  "scraped-6977ba799d46": "https://ethiojobs.net/job/qve9baedmx-junior-accountant",
+  "scraped-e976cf9261ab": "https://ethiojobs.net/job/m8yv0kbzlh-motorist",
+  "scraped-a58b54ca2657": "https://ethiojobs.net/job/voita7ylmr-physiotherapy-professional",
+  "scraped-65ca583dc0db": "https://ethiojobs.net/job/7qhcn9trkc-hospital-receptionist",
+  "scraped-dc104883cdce": "https://ethiojobs.net/job/91pndzjbnm-field-project-officer",
+  "scraped-ff0931532ba7": "https://ethiojobs.net/job/p6kunswrzd-call-for-consultancy-services-shared-space-shared-futures-3sf-advancing-social-cohesion-and-civic-participation-in-post-conflict-ethiopia",
+  "scraped-14e65775f8ae": "https://ethiojobs.net/job/wq703na0r7-finance-and-administration-officer-fao-oromia",
+  "scraped-187200ff15c4": "https://ethiojobs.net/job/txakpijqen-cooperative-advisor-lobby-and-advocacy-expert",
+  "scraped-a2ee4bcbf8c0": "https://ethiojobs.net/job/t51myr4yf1-junior-accountant",
+  "scraped-119cd8917c42": "https://ethiojobs.net/job/ajwhxwtnmw-project-officer",
+  "scraped-5ead615cdde1": "https://ethiojobs.net/job/ccq8ghfr6q-clinical-service-specialist",
+  "scraped-a289fd16c5bc": "https://ethiojobs.net/job/lhesuduycl-gbv-case-management-expert-officer",
+  "scraped-0846b4f9ce33": "https://ethiojobs.net/job/ftrpjdwte5-case-management-specialist",
+  "scraped-b53ec54c20f3": "https://ethiojobs.net/job/jwn5nclysu-assistant-project-coordinator",
+  "scraped-c009128df72d": "https://ethiojobs.net/job/1705exv8jz-auditor-ii",
+  "scraped-01d7456d7702": "https://ethiojobs.net/job/fjfkc0vmxj-sales-officer-batching-plant",
+  "scraped-4ff51d64b91a": "https://ethiojobs.net/job/p53fxlxdgo-physiotherapist",
+  "scraped-618a982a95ea": "https://ethiojobs.net/job/6wldaaicpc-ophthalmic-nurse",
+  "scraped-45af83650eb6": "https://ethiojobs.net/job/qysjumvrpu-emergency-and-critical-care-nurse",
+  "scraped-7fc73c243918": "https://ethiojobs.net/job/t2dzihnite-study-physician-assistant-researcher-ii",
+  "scraped-714b4f1fbe95": "https://ethiojobs.net/job/e5px4qcmca-project-officer-gender-and-safeguarding-kombolcha",
+  "scraped-29697fec3ded": "https://ethiojobs.net/job/nmbeb9ulkm-mhnt-nurse",
+  "scraped-5b448f5cb5f8": "https://ethiojobs.net/job/0w8ooajdct-mhnt-midwife",
+});
+
 function normalizeMatch(value) {
   return clean(value).toLocaleLowerCase("en").normalize("NFKC").replace(/[^a-z0-9]+/g, " ").trim();
 }
@@ -175,9 +232,14 @@ async function editMessageKeyboard(messageId, applyLink) {
 
 async function repairExistingTelegramLinks(jobs) {
   const linksByJob = new Map();
+  const linksById = new Map();
   for (const job of jobs) {
     const key = normalizeMatch(job.title) + "|" + normalizeMatch(job.company);
     if (!linksByJob.has(key) && job.applyUrl) linksByJob.set(key, applyUrl(job));
+    try {
+      const detailId = new URL(job.url).pathname.split("/").filter(Boolean).at(-1);
+      if (detailId && job.applyUrl) linksById.set(detailId, applyUrl(job));
+    } catch {}
   }
 
   let beforeId = null;
@@ -223,12 +285,16 @@ async function repairExistingTelegramLinks(jobs) {
       }
       if (!title || !company) continue;
 
-      const target = linksByJob.get(normalizeMatch(title) + "|" + normalizeMatch(company));
+      const currentButton = decodeTelegramHtml(buttonMatch[1]);
+      let currentId = "";
+      try {
+        currentId = new URL(currentButton).pathname.split("/").filter(Boolean).at(-1) || "";
+      } catch {}
+      const target = historicalApplyUrls[currentId] || linksById.get(currentId) || linksByJob.get(normalizeMatch(title) + "|" + normalizeMatch(company));
       if (!target) {
         unmatched += 1;
         continue;
       }
-      const currentButton = decodeTelegramHtml(buttonMatch[1]);
       if (currentButton === target) {
         unchanged += 1;
         continue;
