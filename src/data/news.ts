@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "From Adwa to Medemer: Ethiopia’s Pan-African Legacy Meets Africa’s Quest for a New Development Era",
+    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia, whose historic victory at Adwa inspired Africa’s struggle for freedom and self-determination, is preparing to bring political parties from across the continent to Addis Ababa for a consequential dialogue on Afric",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 04:04:16 +0000"
+  },
+  {
+    "title": "እንዳይደገም ሁሌም እንዘክራለን!",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24፣ 2019 (ኤፍ ኤም ሲ) ታሪክ የሚያስተምረን ከድልና ከስኬት ብቻ አይደለም፤ ከውድቀት፣ ከክህደትና ከታላላቅ ፈተናዎችም ጭምር ነው። አንዳንድ ክስተቶች በታሪክ ውስጥ እንደ ድል ቀን ይመዘገባሉ፤ ሌሎች ግን በሕዝብ ልብ ውስጥ የማይጠፋ ጠባሳ በማሳረፍ ከትውልድ ወደ ትውልድ ይሸጋገራሉ፡፡ ጥቅምት 24ም ከእነዚህ የማይረሱ ታሪካዊ ክስተቶች አንዱ ነው። ይህ ዕለት በኢትዮጵያ ሀገር መከላከ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 03 Nov 2026 19:36:37 +0000"
+  },
+  {
+    "title": "የሻዕቢያ የቀውስ መንገድ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24፣ 2019 (ኤፍ ኤም ሲ) በኢሳያስ አፈወርቂ የሚመራው የኤርትራ አገዛዝ ላለፉት ሶስት አስርት ዓመታት እየተከተለ ያለው ፖሊሲ ሀገሪቱን ለከፍተኛ የውስጥ ውጥረት እና ለቀጣናዊ መገለል ዳርጓታል። ገደብ የሌለው ወታደራዊ አገልግሎት፣ የሕገ-መንግሥታዊ አስተዳደር እጦት፣ ኢኮኖሚያዊ ድቀት እና የዜጎች መሠረታዊ መብቶች መገደብ በሺዎች የሚቆጠሩ የኤርትራ ወጣቶች ከሀገራቸው እንዲሰደዱ ምክንያ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 03 Nov 2026 18:45:49 +0000"
+  },
+  {
+    "title": "ጥቅምት 24፤ ዝክረ ሰሜን ዕዝ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) የሀገር ነፃነት፣ ሉዓላዊነትና ብሔራዊ ክብር የሚጠበቀው ለሀገራቸው ደኅንነት የሚታገሉና ለሕልውናዋ ዋጋ የሚከፍሉ ዜጎች ባላቸው ጽናት ነው። ኢትዮጵያ በረጅም የታሪክ ሂደቷ ነፃነቷንና ሉዓላዊነቷን ጠብቃ የዘለቀችውም ብሔራዊ ጥቅምን ከግል ፍግላጎት ባስቀደሙ የሀገር ጀግኖች መሥዋዕትነት ነው። ይሁንና ጥቅምት 24 ቀን 2013 ዓ.ም. በሰሜን ዕዝ ላይ በ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 03 Nov 2026 17:56:16 +0000"
+  },
+  {
     "title": "What Does It Take to Transform a Nation? Ethiopia’s Upward Trajectory and Africa’s Search for a New Direction",
     "summary": "Addis Ababa, November 3, 2026 (FMC) – At a time when Africa is searching for a new direction, Ethiopia’s experience offers a compelling question for the continent: what does it take to transform a nation, and how can that transformation inspire a wider African",
     "source": "FBC English",
@@ -13,6 +37,18 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 3, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has held discussions with Secretary-General of the International Federation of Red Cross and Red Crescent Societies (IFRC) Jagan Chapagain on strengthening A",
     "source": "FBC English",
     "publishedAt": "Tue, 03 Nov 2026 16:28:51 +0000"
+  },
+  {
+    "title": "የስፖርት ማዘውተሪያዎች ግንባታ የኢትዮጵያን ስፖርት ወደ ላቀ ደረጃ እያሸጋገረ ይገኛል- የስፖርት ዘርፍ አመራሮች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) በመዲናዋ የተቀናጀ የስፖርት ማዘውተሪያ ሥፍራዎች ግንባታ የኢትዮጵያን የስፖርት ገጽታ ወደ ላቀ ደረጃ እያሸጋገረ ይገኛል አሉ ስፖርት ዘርፍ አመራሮች። የኢትዮጵያ አትሌቲክስ ፌዴሬሽን ፕሬዚዳንት ኮማንደር አትሌት ስለሺ ስህን በአዲስ አበባ ዘመናዊ የስፖርት ማዘውተሪያ ስፍራዎችና ስታዲየሞች መገንባታቸው ለአትሌቶች ውጤታማነት እና ታላላቅ ውድድሮችን ለማ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 03 Nov 2026 16:20:16 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ እና ቻይና ሁለገብ ወታደራዊ ትብብራቸውን የበለጠ ለማጠናከር ይሰራሉ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) ኢትዮጵያ እና ቻይና የቆየውን ወታደራዊና ስትራቴጂካዊ ትብብራቸውን የበለጠ ለማጠናከር በትኩረት እንደሚሠሩ አረጋግጠዋል። የመከላከያ ሚኒስትር መሐመድ እድሪስ በዛሬው ዕለት በኢትዮጵያ የቻይና አምባሳደር ቼን ሃይን በጽሕፈት ቤታቸው ተቀብለው አነጋግረዋል። በውይይቱም ሁለቱ ሀገራት የቆየውን ወታደራዊና ስትራቴጂካዊ ትብብራቸውን ወደ ላቀ ደረጃ ለማሸጋገር",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 03 Nov 2026 16:17:44 +0000"
   },
   {
     "title": "Ethiopia’s Su-35 Fighters Spark Anxiety in Egyptian Circles, Israeli Researcher Edy Cohen Says",
@@ -27,51 +63,15 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Tue, 03 Nov 2026 15:30:41 +0000"
   },
   {
-    "title": "African Union Commission Chairperson Says Africa Has Potential to Become Global Food Basket",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – African Union Commission (AUC) Chairperson Mahmoud Ali Youssouf has underscored Africa’s potential to become a global food basket, stressing the importance of transforming the continent’s agrifood systems to overcome hunge",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 14:06:48 +0000"
-  },
-  {
-    "title": "Ethiopia Federal Police and UPEACE Explore Strategic Cooperation to Build Advanced Policing and Peacekeeping Expertise",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia Federal Police Commissioner General Demelash Gebremichael held discussions with Professor Samuel Kale Ewusi, Director of the Africa Regional Programme at the United Nations-mandated University for Peace (UPEACE), ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 12:50:04 +0000"
-  },
-  {
-    "title": "Ethiopia’s Emergency Medical Teams Have Made Historic Strides in National Preparedness and Global Health Response: Minister Mekdes",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia has made historic strides in building its emergency medical response capacity, with its national teams undertaking more than 15 emergency missions, developing a workforce of over 600 trained professionals and exte",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 12:40:34 +0000"
-  },
-  {
-    "title": "Ethiopia and EU Explore Strategic Partnership in Critical Raw Minerals Development",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) — Ethiopia and the European Union (EU) are exploring opportunities to strengthen strategic cooperation in critical raw minerals, focusing on investment, technology transfer, sustainable resource development and domestic valu",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 11:50:10 +0000"
-  },
-  {
-    "title": "Ethiopia Hosts First WHO Emergency Medical Teams Global Meeting in African Region",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia is hosting the 7th World Health Organization (WHO) Emergency Medical Teams (EMT) Global Meeting, marking the first time the international gathering has been held in the WHO African Region. Opening the meeting in A",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 11:35:58 +0000"
-  },
-  {
-    "title": "Ethiopia to Install 107 Modern Automated Weather Stations Nationwide",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – The Ethiopian Meteorology Institute has finalized preparations to install 107 modern automated weather observation stations across the country, a move expected to strengthen weather forecasting and early warning services. ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 11:20:04 +0000"
-  },
-  {
-    "title": "ከሉዓላዊነት ዘብ እስከ ማሳ ሰብል መሰብሰብ፤ የመከላከያ ሠራዊት የህዝብ ወገንተኝነት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ) የአንድ ሀገር መከላከያ ሠራዊት ከሙያዊ ብቃቱና ከሚሰጠው ወታደራዊ ግዴታ ባሻገር፤ ከሕዝብ ጎን በመቆም የሚያከናውናቸው ሰብዓዊ ተግባራት ተቋማዊ የሕዝብ ወገንተኝነቱን የሚመዝኑ ቀዳሚ መለኪያዎች ናቸው። የዕውቀትና የጉልበት ድጋፍ የሚሹ ዜጎችን መርዳት እንዲሁም ሌሎች በጎ ተግባራትን ማበርከት የሠራዊቱን የሰብዓዊነት ከፍታ በተግባር ያሳያሉ። የኢትዮጵያ ሀገር መ",
+    "title": "የሐረር ከተማ የዓለም አቀፉ የሐር መንገድ የቱሪዝም ጥምረት አባል ሆነች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) የሐረር ከተማ የዓለም አቀፉ የሐር መንገድ የቱሪዝም ጥምረት አባል ሆናለች። በቻይና ሉዣን ከተማ በተካሄደው የ2026 የሐር መንገድ የቱሪዝም ጥምረት አባል ከተሞች ዓመታዊ የጉዞ ኤጀንቶች ኮንፈረንስ ላይ የሐረር ከተማ የዚሁ ጥምረት አባል ሆና ተቀላቅላለች። ይህ አባልነት ሐረር በዓለም አቀፍ የቱሪዝም መስክ የጎላ ትኩረት እንድታገኝ፣ ከተለያዩ የዓለም",
     "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 19:00:04 +0000"
+    "publishedAt": "Tue, 03 Nov 2026 15:25:55 +0000"
   },
   {
-    "title": "ከተሞቻችን ለቀጣዩ ትውልድም ዘላቂ የብልጽግና ውርስ እንዲሆኑ በጋራ እንሠራለን – ከንቲባ አዳነች አቤቤ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 23፣ 2019 (ኤፍ ኤም ሲ)ከተሞቻችን ለቀጣዩ ትውልድም ዘላቂ የብልጽግና ውርስ እንዲሆኑ በጋራ እንሠራለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ፡፡ በቅርቡ በቻይና ሻንሃይ ከተማ በተካሄደው የ2026 የሻንሃይ ዓለም አቀፍ የዘላቂ ከተማ ልማት ሽልማት ውድድር አዲስ አበባን ጨምሮ አምስት ከተሞች ተሸላሚ ሆነዋል። ከንቲባ አዳነች አቤቤ በማህበራዊ ትስስር ገጻቸው ባሰፈሩት",
+    "title": "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ቅዱስ ሲኖዶስ ምልዓተ ጉባኤ ተጠናቀቀ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ)ከጥቅምት 12 ቀን 2019 ዓ.ም ጀምሮ ሲካሄድ የቆየው የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ቅዱስ ሲኖዶስ ምልዓተ ጉባኤ ተጠናቅቋል። የጉባኤውን መጠናቀቅ አስመልክቶ በተሰጠው መግለጫ፤ ጉባኤው በቤተ ክርስቲያን ሁለንተናዊ ዕድገት፣ በወቅታዊ ችግሮች፣ በሀገር ሰላምና አንድነት፣ በሐዋርያዊ ተልእኮ መስፋፋት እንዲሁም የሰው ልጅ ሁሉ ደኅንነት ላይ",
     "source": "Fana Media",
-    "publishedAt": "Mon, 02 Nov 2026 18:41:38 +0000"
+    "publishedAt": "Tue, 03 Nov 2026 14:49:25 +0000"
   }
 ];
