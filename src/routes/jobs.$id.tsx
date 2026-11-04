@@ -123,6 +123,7 @@ type DescriptionBlock = { type: "heading" | "bullet" | "paragraph"; text: string
 function formatDescriptionText(value: string): DescriptionBlock[] {
   let text = value
     .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<li\b[^>]*>/gi, "\n• ")
     .replace(/<\/(?:p|div|li|h[1-6])>/gi, "\n")
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/gi, " ")
@@ -133,6 +134,7 @@ function formatDescriptionText(value: string): DescriptionBlock[] {
 
   text = text
     .replace(/([.!?])\s+([A-Z][A-Za-z0-9&'’/() -]{1,48}):\s*/g, "$1\n• $2: ")
+    .replace(/:\s+([A-Z][A-Za-z0-9&'’/() -]{1,48}):\s*/g, ":\n• $1: ")
     .replace(/\s+(Job Title|Vacancies|Location|Job Type|Work Location|Employment Type|Salary|Experience Level|Education|Application Deadline|Deadline|Required Documents):\s*/gi, "\n• $1: ")
     .replace(/(?:^|\n)(?:• )?(Job Description|Job Summary|About the Role|About the Job|Key Responsibilities|Responsibilities|Duties and Responsibilities|Requirements|Job Requirements|Qualifications|Required Qualifications|Skills|What You'll Do|What You Will Do|What We're Looking For|What We Offer|Benefits|How to Apply|Application Process|Application Instructions|Required Documents):\s*/gim, "\n\n$1:\n")
     .replace(/\s+(\d{1,2})[.)]\s+(?=[A-Z])/g, "\n• $1. ");
