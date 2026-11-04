@@ -79,7 +79,22 @@ function JobDetailPage() {
           <div className="mt-7 flex flex-wrap gap-2">{job.tags.map((tag) => <span key={tag} className="rounded-md bg-secondary px-2.5 py-1 text-xs text-secondary-foreground">{tag}</span>)}</div>
           <section className="mt-8 border-t pt-6">
             <h2 className="text-lg font-semibold">About this role</h2>
-            <p className="mt-3 whitespace-pre-line text-sm leading-7 text-muted-foreground">{job.description || `${job.title} is an opportunity with ${job.company} in ${job.location}. Review the original listing for full requirements and application details.`}</p>
+            {(() => {
+              const fullDescription = job.description || `${job.title} is an opportunity with ${job.company} in ${job.location}. Review the original listing for full requirements and application details.`;
+              const preview = descriptionPreview(fullDescription);
+              const hasMore = preview !== fullDescription.replace(/\\s+/g, " ").trim();
+              return (
+                <>
+                  <p className="mt-3 text-sm leading-7 text-muted-foreground">{preview}</p>
+                  {hasMore && (
+                    <details className="mt-4 rounded-xl border bg-background/50 px-4 py-3">
+                      <summary className="cursor-pointer text-sm font-medium text-primary">Read full job description</summary>
+                      <p className="mt-3 whitespace-pre-line text-sm leading-7 text-muted-foreground">{fullDescription}</p>
+                    </details>
+                  )}
+                </>
+              );
+            })()}
           </section>
           {job.applyOnSite ? (
             <section id="apply" className="mt-8 rounded-xl border bg-background/70 p-5 sm:p-6">
@@ -101,6 +116,16 @@ function JobDetailPage() {
       </article>
     </main>
   );
+}
+
+function descriptionPreview(description: string, limit = 420) {
+  const normalized = description.replace(/\\s+/g, " ").trim();
+  if (normalized.length <= limit) return normalized;
+
+  const sample = normalized.slice(0, limit + 1);
+  const sentenceEnd = Math.max(sample.lastIndexOf(". "), sample.lastIndexOf("? "), sample.lastIndexOf("! "));
+  const cutAt = sentenceEnd >= limit * 0.55 ? sentenceEnd + 1 : sample.lastIndexOf(" ");
+  return normalized.slice(0, cutAt > 0 ? cutAt : limit).trimEnd() + "…";
 }
 
 function toJobPosting(job: Job) {
