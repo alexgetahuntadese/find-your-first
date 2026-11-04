@@ -91,6 +91,19 @@ function ethiopiaDate(value) {
   }).format(date);
 }
 
+function ethiopiaDateKey(value) {
+  const date = new Date(value);
+  if (!Number.isFinite(date.getTime())) return null;
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Africa/Addis_Ababa",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const part = (type) => parts.find((item) => item.type === type)?.value;
+  return part("year") + "-" + part("month") + "-" + part("day");
+}
+
 async function sendMessage(text, replyMarkup) {
   for (let attempt = 1; attempt <= 5; attempt += 1) {
     const response = await fetch("https://api.telegram.org/bot" + token + "/sendMessage", {
@@ -118,23 +131,28 @@ async function sendMessage(text, replyMarkup) {
 }
 
 const jobs = await readFeed();
-const sentKeys = await readSentKeys();
+let sentKeys = await readSentKeys();
+const backfillDate = process.env.BACKFILL_DATE?.trim();
+const backfillSkipUrls = new Set((process.env.BACKFILL_SKIP_URLS || "").split(",").map((url) => url.trim()).filter(Boolean));
 
-if (sentKeys === null) {
+if (sentKeys === null && !backfillDate) {
   const baseline = new Set(jobs.map(jobKey));
   await writeSentKeys(baseline);
   console.log("Initialized the Telegram baseline with " + baseline.size + " existing jobs; future additions will be posted.");
   process.exit(0);
 }
+if (sentKeys === null) sentKeys = new Set();
 
-const newJobs = jobs.filter((job) => !sentKeys.has(jobKey(job)));
+const newJobs = backfillDate
+  ? jobs.filter((job) => ethiopiaDateKey(job.datePosted) === backfillDate && !backfillSkipUrls.has(job.url))
+  : jobs.filter((job) => !sentKeys.has(jobKey(job)));
 if (newJobs.length === 0) {
   console.log("No new jobs found in the site feed.");
   await writeSentKeys(sentKeys);
   process.exit(0);
 }
 
-console.log("Found " + newJobs.length + " new job(s) to post.");
+console.log("Found " + newJobs.length + (backfillDate ? " backfill job(s) to post for " + backfillDate + "." : " new job(s) to post."));
 for (let index = 0; index < newJobs.length; index += 1) {
   const job = newJobs[index];
   const deadline = job.deadline ? "\n⏳ <b>Apply by:</b> " + escapeHtml(ethiopiaDate(job.deadline)) : "";
