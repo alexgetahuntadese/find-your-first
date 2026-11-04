@@ -25,7 +25,7 @@ function escapeHtml(value) {
 
 function applyUrl(job) {
   try {
-    const url = new URL(job.url || siteUrl);
+    const url = new URL(job.applyUrl || job.url || siteUrl);
     if (url.protocol === "https:" || url.protocol === "http:") return url.toString();
   } catch {}
   throw new Error("Job “" + clean(job.title) + "” has no valid apply URL");
@@ -130,7 +130,128 @@ async function sendMessage(text, replyMarkup) {
   }
 }
 
+function normalizeMatch(value) {
+  return clean(value).toLocaleLowerCase("en").normalize("NFKC").replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function decodeTelegramHtml(value) {
+  return value
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#39;|&#x27;/gi, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ");
+}
+
+async function editMessageKeyboard(messageId, applyLink) {
+  for (let attempt = 1; attempt <= 5; attempt += 1) {
+    const response = await fetch("https://api.telegram.org/bot" + token + "/editMessageReplyMarkup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: chatId,
+        message_id: Number(messageId),
+        reply_markup: { inline_keyboard: [[{ text: "Apply now", url: applyLink }]] },
+      }),
+      signal: AbortSignal.timeout(20_000),
+    });
+    const result = await response.json().catch(() => ({}));
+    if (response.ok && result.ok) return "edited";
+    if (String(result.description || "").includes("message is not modified")) return "unchanged";
+    const retryAfter = Number(result.parameters?.retry_after);
+    if ((response.status === 429 || response.status >= 500) && attempt < 5) {
+      await new Promise((resolve) => setTimeout(resolve, retryAfter > 0 ? retryAfter * 1000 : attempt * 2000));
+      continue;
+    }
+    if (/message can't be edited|message to edit not found/i.test(result.description || "")) return "uneditable";
+    throw new Error("Telegram could not repair message " + messageId + ": " + clean(result.description, "unknown API error"));
+  }
+  return "uneditable";
+}
+
+async function repairExistingTelegramLinks(jobs) {
+  const linksByJob = new Map();
+  for (const job of jobs) {
+    const key = normalizeMatch(job.title) + "|" + normalizeMatch(job.company);
+    if (!linksByJob.has(key) && job.applyUrl) linksByJob.set(key, applyUrl(job));
+  }
+
+  let beforeId = null;
+  let previousOldest = Infinity;
+  let edited = 0;
+  let unchanged = 0;
+  let unmatched = 0;
+
+  for (let pageNumber = 0; pageNumber < 10; pageNumber += 1) {
+    const pageUrl = "https://t.me/s/ethioserategna" + (beforeId ? "?before=" + beforeId : "");
+    const response = await fetch(pageUrl, { signal: AbortSignal.timeout(20_000) });
+    if (!response.ok) throw new Error("Could not read the public Telegram history (HTTP " + response.status + ")");
+    const html = await response.text();
+    const posts = [...html.matchAll(/data-post="ethioserategna\/(\d+)"/g)];
+    if (posts.length === 0) break;
+
+    const ids = posts.map((post) => Number(post[1]));
+    const oldestId = Math.min(...ids);
+    if (oldestId >= previousOldest) break;
+    previousOldest = oldestId;
+
+    for (let index = 0; index < posts.length; index += 1) {
+      const start = posts[index].index ?? 0;
+      const end = index + 1 < posts.length ? (posts[index + 1].index ?? html.length) : html.length;
+      const block = html.slice(start, end);
+      const textMatch = block.match(/<div class="tgme_widget_message_text js-message_text"[^>]*>([\s\S]*?)<\/div>/i);
+      const buttonMatch = block.match(/tgme_widget_message_inline_button url_button" href="([^"]+)"/i);
+      if (!textMatch || !buttonMatch) continue;
+
+      const messageText = decodeTelegramHtml(textMatch[1]).split(/\n+/).map((line) => line.trim()).filter(Boolean);
+      const titleLine = messageText.find((line) => line.includes("💼"));
+      const companyLine = messageText.find((line) => line.includes("🏢"));
+      let title = titleLine?.replace(/^.*?💼\s*/u, "").trim();
+      let company = companyLine?.replace(/^.*?🏢\s*/u, "").trim();
+
+      if (!title || !company) {
+        const classicLine = messageText.find((line) => line.includes(" — "));
+        if (classicLine) {
+          const splitAt = classicLine.indexOf(" — ");
+          title = classicLine.slice(0, splitAt).trim();
+          company = classicLine.slice(splitAt + 3).trim();
+        }
+      }
+      if (!title || !company) continue;
+
+      const target = linksByJob.get(normalizeMatch(title) + "|" + normalizeMatch(company));
+      if (!target) {
+        unmatched += 1;
+        continue;
+      }
+      const currentButton = decodeTelegramHtml(buttonMatch[1]);
+      if (currentButton === target) {
+        unchanged += 1;
+        continue;
+      }
+      const messageId = posts[index][1];
+      const result = await editMessageKeyboard(messageId, target);
+      if (result === "edited") edited += 1;
+      else unchanged += 1;
+      await new Promise((resolve) => setTimeout(resolve, 150));
+    }
+
+    if (oldestId <= 1) break;
+    beforeId = String(oldestId);
+  }
+
+  console.log("Telegram link repair finished: updated " + edited + " button(s), left " + unchanged + " correct/unchanged, unmatched " + unmatched + ".");
+}
+
 const jobs = await readFeed();
+if (process.env.REPAIR_TELEGRAM_LINKS === "true") {
+  await repairExistingTelegramLinks(jobs);
+  process.exit(0);
+}
 let sentKeys = await readSentKeys();
 const backfillDate = process.env.BACKFILL_DATE?.trim();
 const backfillSkipUrls = new Set((process.env.BACKFILL_SKIP_URLS || "").split(",").map((url) => url.trim()).filter(Boolean));
