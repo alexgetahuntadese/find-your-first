@@ -3,8 +3,14 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "World Bank Pledges to Strengthen Support for Ethiopia’s Water and Energy Development Projects",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – The World Bank has reaffirmed its commitment to strengthening support for Ethiopia’s water and energy development projects, highlighting progress in joint initiatives and the need to accelerate ongoing programmes. Minister",
+    "title": "Ethiopia and China Exchange Views on Regional Stability and Cooperation for Peace and Security in Africa",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia’s Minister of Foreign Affairs Gedion Timothewos held talks with China’s Special Envoy for African Affairs, Liu Xianfa, on peace and security in Africa, with particular focus on the Horn of Africa. During the meeti",
+    "source": "FBC English",
+    "publishedAt": "Wed, 04 Nov 2026 16:46:23 +0000"
+  },
+  {
+    "title": "Ethiopia, World Bank Move to Accelerate Water Projects and Unlock Development Financing",
+    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia and the World Bank have agreed to accelerate the implementation of major water and sanitation projects, extend the implementation period of the One WASH National Programme until June 30, and expedite the disbursem",
     "source": "FBC English",
     "publishedAt": "Wed, 04 Nov 2026 15:35:38 +0000"
   },
@@ -67,11 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) የሀገር ነፃነት፣ ሉዓላዊነትና ብሔራዊ ክብር የሚጠበቀው ለሀገራቸው ደኅንነት የሚታገሉና ለሕልውናዋ ዋጋ የሚከፍሉ ዜጎች ባላቸው ጽናት ነው። ኢትዮጵያ በረጅም የታሪክ ሂደቷ ነፃነቷንና ሉዓላዊነቷን ጠብቃ የዘለቀችውም ብሔራዊ ጥቅምን ከግል ፍግላጎት ባስቀደሙ የሀገር ጀግኖች መሥዋዕትነት ነው። ይሁንና ጥቅምት 24 ቀን 2013 ዓ.ም. በሰሜን ዕዝ ላይ በ",
     "source": "Fana Media",
     "publishedAt": "Tue, 03 Nov 2026 17:56:16 +0000"
-  },
-  {
-    "title": "What Does It Take to Transform a Nation? Ethiopia’s Upward Trajectory and Africa’s Search for a New Direction",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – At a time when Africa is searching for a new direction, Ethiopia’s experience offers a compelling question for the continent: what does it take to transform a nation, and how can that transformation inspire a wider African",
-    "source": "FBC English",
-    "publishedAt": "Tue, 03 Nov 2026 17:00:49 +0000"
   }
 ];
