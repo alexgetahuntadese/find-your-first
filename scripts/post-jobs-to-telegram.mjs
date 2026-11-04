@@ -9,6 +9,7 @@ if (!token || !chatId) {
 }
 
 const siteUrl = (process.env.SITE_JOBS_URL || "https://serategna.com.et/api/jobs.json").trim();
+const siteOrigin = new URL(siteUrl).origin;
 const statePath = resolve(process.env.POSTED_JOB_IDS_FILE || ".telegram-cache/posted-job-ids.json");
 const expectedSource = await readFile(new URL("../src/data/scraped-jobs.ts", import.meta.url), "utf8");
 const expectedSnapshot = expectedSource.match(/scrapedJobsGeneratedAt\s*=\s*"([^"]+)"/)?.[1];
@@ -233,6 +234,7 @@ async function editMessageKeyboard(messageId, applyLink) {
 async function repairExistingTelegramLinks(jobs) {
   const linksByJob = new Map();
   const linksById = new Map();
+  const linksBySource = new Map();
   for (const job of jobs) {
     const key = normalizeMatch(job.title) + "|" + normalizeMatch(job.company);
     if (!linksByJob.has(key) && job.applyUrl) linksByJob.set(key, applyUrl(job));
@@ -240,7 +242,9 @@ async function repairExistingTelegramLinks(jobs) {
       const detailId = new URL(job.url).pathname.split("/").filter(Boolean).at(-1);
       if (detailId && job.applyUrl) linksById.set(detailId, applyUrl(job));
     } catch {}
+    if (job.sourceUrl && job.applyUrl) linksBySource.set(normalizeUrl(job.sourceUrl), applyUrl(job));
   }
+  const historicalIdsBySource = new Map(Object.entries(historicalApplyUrls).map(([id, url]) => [normalizeUrl(url), id]));
 
   let beforeId = null;
   let previousOldest = Infinity;
@@ -290,7 +294,10 @@ async function repairExistingTelegramLinks(jobs) {
       try {
         currentId = new URL(currentButton).pathname.split("/").filter(Boolean).at(-1) || "";
       } catch {}
-      const target = historicalApplyUrls[currentId] || linksById.get(currentId) || linksByJob.get(normalizeMatch(title) + "|" + normalizeMatch(company));
+      const target = linksBySource.get(normalizeUrl(currentButton))
+        || linksById.get(currentId)
+        || (historicalIdsBySource.has(normalizeUrl(currentButton)) ? siteJobUrl(historicalIdsBySource.get(normalizeUrl(currentButton))) : null)
+        || linksByJob.get(normalizeMatch(title) + "|" + normalizeMatch(company));
       if (!target) {
         unmatched += 1;
         continue;
@@ -311,6 +318,20 @@ async function repairExistingTelegramLinks(jobs) {
   }
 
   console.log("Telegram link repair finished: updated " + edited + " button(s), left " + unchanged + " correct/unchanged, unmatched " + unmatched + ".");
+}
+
+function normalizeUrl(value) {
+  try {
+    const url = new URL(value);
+    url.hash = "";
+    return url.toString().replace(/\/$/, "");
+  } catch {
+    return String(value || "").trim();
+  }
+}
+
+function siteJobUrl(id) {
+  return siteOrigin + "/jobs/" + encodeURIComponent(id);
 }
 
 const jobs = await readFeed();
@@ -355,7 +376,7 @@ for (let index = 0; index < newJobs.length; index += 1) {
     "<i>Tap below to view details and apply.</i>";
   if (message.length > 4096) throw new Error("Telegram message exceeds the 4096-character limit for " + clean(job.title));
   const replyMarkup = {
-    inline_keyboard: [[{ text: "Apply now", url: applyUrl(job) }]],
+    inline_keyboard: [[{ text: "View job on Serategna", url: job.url || siteJobUrl(job.id) }]],
   };
 
   await sendMessage(message, replyMarkup);

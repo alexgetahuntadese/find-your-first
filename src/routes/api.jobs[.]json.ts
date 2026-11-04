@@ -21,8 +21,9 @@ export const Route = createFileRoute("/api/jobs.json")({
             pay: job.pay,
             datePosted: job.datePosted,
             deadline: job.deadline,
-            applyUrl: job.applyOnSite ? `${siteUrl}/jobs/${encodeURIComponent(job.id)}` : job.url,
+            applyUrl: `${siteUrl}/jobs/${encodeURIComponent(job.id)}`,
             url: `${siteUrl}/jobs/${encodeURIComponent(job.id)}`,
+            sourceUrl: job.applyOnSite ? undefined : job.url,
           }));
 
         return Response.json({ scrapedJobsGeneratedAt, jobs }, {

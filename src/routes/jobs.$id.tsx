@@ -3,11 +3,14 @@ import { useState, type FormEvent } from "react";
 import { ArrowLeft, ArrowUpRight, BriefcaseBusiness, CalendarDays, MapPin, Upload, CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
 import { jobs, type Job } from "@/data/jobs";
+import { archivedScrapedJobs } from "@/data/archived-scraped-jobs";
 import { getPublishedJob, submitApplication } from "@/lib/jobs";
 
 export const Route = createFileRoute("/jobs/$id")({
   loader: async ({ params }) => {
-    const job = jobs.find((entry) => entry.id === params.id) || await getPublishedJob(params.id);
+    const job = jobs.find((entry) => entry.id === params.id)
+      || archivedScrapedJobs.find((entry) => entry.id === params.id)
+      || await getPublishedJob(params.id);
     if (!job) throw notFound();
     return { job };
   },
