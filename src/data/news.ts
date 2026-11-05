@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ethiopia and China Exchange Views on Regional Stability and Cooperation for Peace and Security in Africa",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia’s Minister of Foreign Affairs Gedion Timothewos held talks with China’s Special Envoy for African Affairs, Liu Xianfa, on peace and security in Africa, with particular focus on the Horn of Africa. During the meeti",
+    "title": "Diplomats, UN Representatives Visit Rehabilitation Center for Former Combatants in Tigray Region",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Representatives of the United Nations, ambassadors and representatives of various international organizations based in Ethiopia have visited a rehabilitation and reintegration center for former combatants in Mekelle, Tigra",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 16:46:23 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 11:28:31 +0000"
   },
   {
-    "title": "Ethiopia, World Bank Move to Accelerate Water Projects and Unlock Development Financing",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia and the World Bank have agreed to accelerate the implementation of major water and sanitation projects, extend the implementation period of the One WASH National Programme until June 30, and expedite the disbursem",
+    "title": "From Victory of Adwa to 2050: Can Ethiopia’s Medemer Grand Strategy Advance Africa’s Quest for Economic Sovereignty?",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – More than a century after Ethiopia’s victory at Adwa inspired generations of Africans in their struggle against colonial domination, the country is bringing Africa’s political leadership together in Addis Ababa at a defini",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 15:35:38 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 11:10:20 +0000"
   },
   {
-    "title": "Ethiopian Advisor Calls Out Egypt’s Politicization of Nile, Says Shared Waters Must Be Governed by Technical Expertise, Not Political and Military Pressure",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) — Ethiopia’s Ministry of Water and Energy Advisor Kebede Gerba has challenged Egypt’s approach to the Nile, arguing that the development and use of the shared river must be guided by technical expertise and practical solutio",
+    "title": "Ethiopia Presents Medemer Experience as a Pathway to Women’s Political Power, Inclusive Governance and Economic Transformation",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia has presented its experience in advancing women’s political representation and leadership through inclusive governance, highlighting progress in women’s participation in national decision-making as part of its bro",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 15:12:35 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 10:44:22 +0000"
   },
   {
-    "title": "Ethiopia Presses for Stronger Africa-EU Cooperation on Trade, Energy and Digital Development",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia has called for stronger Africa-EU cooperation in trade, energy development, and manufacturing while advancing the African Union’s common priorities on artificial intelligence (AI) governance and digital developmen",
+    "title": "Ethiopia Says Africa Cannot Realize Its Full Potential While Marginalizing Women",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Africa cannot realize its full potential while women remain marginalized and excluded from leadership and decision-making, Ethiopia’s Minister of Women and Social Affairs, Shewit Shanka, has stated. Addressing the African ",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 15:07:17 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 10:29:12 +0000"
   },
   {
-    "title": "Ethiopia Reaffirms Renewable Energy Ambitions at 9th International Solar Alliance Assembly",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia has reaffirmed its commitment to accelerating renewable energy development and advancing an inclusive energy transition through stronger international cooperation, increased investment, and access to affordable cl",
+    "title": "Africa’s Political Parties Must Turn the Continent’s Youth Majority into a Driving Force for Development – Ethiopian Minister",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Minister of Youth and Sports, Aklilu Tadese, has underscored the responsibility of African political parties to transform the continent’s youthful population into an active force in governance, leadership and ec",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 12:04:38 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 10:19:12 +0000"
   },
   {
-    "title": "Ethiopia’s GDP Rebasing Establishes New Benchmark for Long-Term Development Planning – Minister",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia has unveiled updated Gross Domestic Product (GDP) figures following a comprehensive rebasing exercise, establishing a more accurate economic benchmark to guide national planning, strengthen policy decisions and ad",
+    "title": "Second African Political Parties Summit Opens in Addis Ababa",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – The Second African Political Parties Summit officially opened today in Addis Ababa, bringing together political leaders, parliamentarians, ministers, youth and women representatives, development partners and diplomats from",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 11:52:17 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 09:54:57 +0000"
   },
   {
-    "title": "Second African Political Parties Summit to Open Tomorrow in Addis Ababa, Bringing 1,000 Delegates",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopia is set to welcome around 1,000 delegates from across Africa tomorrow as the Second African Political Parties Summit opens in Addis Ababa, bringing political leaders and stakeholders together to advance a continent",
+    "title": "Addis Ababa: Africa’s Shared Vision, Cooperation and Development Find a Common Home",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Africa grows stronger when it stands together, advances when it works together, and shapes its destiny when it makes decisions collectively. At a time when the continent is increasingly looking inward for solutions to its ",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 11:02:26 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 06:05:18 +0000"
   },
   {
-    "title": "PM Abiy Reviews Bale Winter Farming Performance, Commends Results Despite Rainfall Shortage",
-    "summary": "Addis Ababa, November 4, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has reviewed winter farming performance in Bale area of the Oromia Regional State, commending the results recorded despite significant concerns over rainfall shortages. In a social media",
+    "title": "Second African Political Parties Summit Opens Today in Addis Ababa",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – The Second African Political Parties Summit, bringing together heads of state, senior parliamentarians, ministers and political party representatives from across Africa, opens today in Addis Ababa. The three-day continenta",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 10:42:32 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 05:59:34 +0000"
   },
   {
-    "title": "From Adwa to Medemer: Ethiopia’s Pan-African Legacy Meets Africa’s Quest for a New Development Era",
-    "summary": "Addis Ababa, November 3, 2026 (FMC) – Ethiopia, whose historic victory at Adwa inspired Africa’s struggle for freedom and self-determination, is preparing to bring political parties from across the continent to Addis Ababa for a consequential dialogue on Afric",
+    "title": "Ethiopia Will Not Seek Egypt’s Permission to Develop Its Water Resources: Minister",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia has never sought another country’s permission or blessing to develop its water resources and will never do so, Minister of Water and Energy Engineer Habtamu Itefa has declared, reaffirming the country’s sovereign ",
     "source": "FBC English",
-    "publishedAt": "Wed, 04 Nov 2026 04:04:16 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 05:44:19 +0000"
   },
   {
-    "title": "እንዳይደገም ሁሌም እንዘክራለን!",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24፣ 2019 (ኤፍ ኤም ሲ) ታሪክ የሚያስተምረን ከድልና ከስኬት ብቻ አይደለም፤ ከውድቀት፣ ከክህደትና ከታላላቅ ፈተናዎችም ጭምር ነው። አንዳንድ ክስተቶች በታሪክ ውስጥ እንደ ድል ቀን ይመዘገባሉ፤ ሌሎች ግን በሕዝብ ልብ ውስጥ የማይጠፋ ጠባሳ በማሳረፍ ከትውልድ ወደ ትውልድ ይሸጋገራሉ፡፡ ጥቅምት 24ም ከእነዚህ የማይረሱ ታሪካዊ ክስተቶች አንዱ ነው። ይህ ዕለት በኢትዮጵያ ሀገር መከላከ",
+    "title": "Egypt Should Apologize to Ethiopia and Reward It for Its Contribution to Sustaining Nile Waters: Minister Habtamu Itefa",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Egypt should apologize to Ethiopia and reward it for its contribution to sustaining the availability of Nile waters, rather than accusing the country of threatening downstream water security, Minister of Water and Energy E",
+    "source": "FBC English",
+    "publishedAt": "Thu, 05 Nov 2026 05:40:26 +0000"
+  },
+  {
+    "title": "አብዛኛው የውኃ ድርሻ ለግብጽ ብቻ እንዲሄድ መደረጉ ህሊና ያለው ሰው የሚቀበለው አይደለም – ሀብታሙ ኢተፋ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 25፣ 2019 (ኤፍ ኤም ሲ) አብዛኛው የውኃ ድርሻ ለግብጽ እንዲሄድ መደረጉ ህሊና ያለው ሰው የሚቀበለው አይደለም አሉ የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር):: የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር) ከፋና ሚዲያ ኮርፖሬሽን ጋር በነበራቸው ቆይታ እንዳነሱት፤ የሱዳን ወገኖችና ምሁራን ሊገነዘቡት የሚገባው ነባሩ የቅኝ ግዛት ውል ሱዳኖችንም ጭምር አስሮ ያስቀመጠ ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 19:36:37 +0000"
+    "publishedAt": "Wed, 04 Nov 2026 19:36:15 +0000"
   },
   {
-    "title": "የሻዕቢያ የቀውስ መንገድ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24፣ 2019 (ኤፍ ኤም ሲ) በኢሳያስ አፈወርቂ የሚመራው የኤርትራ አገዛዝ ላለፉት ሶስት አስርት ዓመታት እየተከተለ ያለው ፖሊሲ ሀገሪቱን ለከፍተኛ የውስጥ ውጥረት እና ለቀጣናዊ መገለል ዳርጓታል። ገደብ የሌለው ወታደራዊ አገልግሎት፣ የሕገ-መንግሥታዊ አስተዳደር እጦት፣ ኢኮኖሚያዊ ድቀት እና የዜጎች መሠረታዊ መብቶች መገደብ በሺዎች የሚቆጠሩ የኤርትራ ወጣቶች ከሀገራቸው እንዲሰደዱ ምክንያ",
+    "title": "ከራስ አልፎ ለዓለም ገበያ፤ የኢትዮጵያ የስንዴ ምርት ስኬትና የምግብ ሉዓላዊነት ጉዞ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 25፣ 2019 (ኤፍ ኤም ሲ) የምግብ ሉዓላዊነትን በተግባር እያረጋገጠች የምትገኘው ኢትዮጵያ በግብርናው ዘርፍ እያሳየች የምትገኘው ስኬት የሀገሪቱን የልማት ጉዞ አዲስ ምዕራፍ እየከፈተ ይገኛል። ለረጅም ዘመናት ኢትዮጵያ በስንዴ ፍላጎቷና በሀገር ውስጥ ምርቷ መካከል የነበረውን ክፍተት ለመሙላት ከውጭ ሀገራት ስንዴ ለማስገባት ከፍተኛ የውጭ ምንዛሪ ለማውጣት ትገደድ ነበር። ይህም በሀገሪቱ ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 18:45:49 +0000"
-  },
-  {
-    "title": "ጥቅምት 24፤ ዝክረ ሰሜን ዕዝ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 24 ቀን 2019 ዓ.ም (ኤፍ ኤም ሲ) የሀገር ነፃነት፣ ሉዓላዊነትና ብሔራዊ ክብር የሚጠበቀው ለሀገራቸው ደኅንነት የሚታገሉና ለሕልውናዋ ዋጋ የሚከፍሉ ዜጎች ባላቸው ጽናት ነው። ኢትዮጵያ በረጅም የታሪክ ሂደቷ ነፃነቷንና ሉዓላዊነቷን ጠብቃ የዘለቀችውም ብሔራዊ ጥቅምን ከግል ፍግላጎት ባስቀደሙ የሀገር ጀግኖች መሥዋዕትነት ነው። ይሁንና ጥቅምት 24 ቀን 2013 ዓ.ም. በሰሜን ዕዝ ላይ በ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 03 Nov 2026 17:56:16 +0000"
+    "publishedAt": "Wed, 04 Nov 2026 19:14:46 +0000"
   }
 ];
