@@ -3,64 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Diplomats, UN Representatives Visit Rehabilitation Center for Former Combatants in Tigray Region",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Representatives of the United Nations, ambassadors and representatives of various international organizations based in Ethiopia have visited a rehabilitation and reintegration center for former combatants in Mekelle, Tigra",
+    "title": "Ethiopia’s Dams and Water Projects Bring Shared Benefits to Downstream Countries, Not Threats to Their Water Security: Minister",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s dams and water-development projects are designed to promote shared prosperity and benefit downstream countries, rather than threaten their water security, Minister of Water and Energy Engineer Habtamu Itefa said",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 11:28:31 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 17:50:36 +0000"
   },
   {
-    "title": "From Victory of Adwa to 2050: Can Ethiopia’s Medemer Grand Strategy Advance Africa’s Quest for Economic Sovereignty?",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – More than a century after Ethiopia’s victory at Adwa inspired generations of Africans in their struggle against colonial domination, the country is bringing Africa’s political leadership together in Addis Ababa at a defini",
+    "title": "Egypt Benefits from Sudanese People’s Suffering amid Ongoing Conflict: Minister",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Egypt is benefiting from the suffering of the Sudanese people amid the ongoing conflict, while Sudan is being deprived of opportunities to harness water resources flowing from Ethiopia for agricultural and economic develop",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 11:10:20 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 17:47:33 +0000"
   },
   {
-    "title": "Ethiopia Presents Medemer Experience as a Pathway to Women’s Political Power, Inclusive Governance and Economic Transformation",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia has presented its experience in advancing women’s political representation and leadership through inclusive governance, highlighting progress in women’s participation in national decision-making as part of its bro",
+    "title": "Minister Slams Egypt for Abusing Nile Waters and Blaming Others for Its Shortages",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Minister of Water and Energy, Engineer Habtamu Itefa, has strongly rebuked Egypt for what he described as its abuse of available Nile waters through excessive consumption, while blaming Ethiopia for its water sh",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 10:44:22 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 17:36:43 +0000"
   },
   {
-    "title": "Ethiopia Says Africa Cannot Realize Its Full Potential While Marginalizing Women",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Africa cannot realize its full potential while women remain marginalized and excluded from leadership and decision-making, Ethiopia’s Minister of Women and Social Affairs, Shewit Shanka, has stated. Addressing the African ",
+    "title": "Egyptian Officials ‘Shout,’ ‘Disturb’ and ‘Make Noise’ Over Ethiopia’s Water Development, Minister Says",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Minister of Water and Energy, Engineer Habtamu Itefa, has strongly criticized Egyptian officials for repeatedly creating controversy around Ethiopia’s water development, saying they “shout,” “disturb” and “make ",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 10:29:12 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 17:15:53 +0000"
   },
   {
-    "title": "Africa’s Political Parties Must Turn the Continent’s Youth Majority into a Driving Force for Development – Ethiopian Minister",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Minister of Youth and Sports, Aklilu Tadese, has underscored the responsibility of African political parties to transform the continent’s youthful population into an active force in governance, leadership and ec",
+    "title": "Ethiopian Intelligence Chief Calls for Balancing Media Freedom with Professional Accountability",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopian Intelligence Chief Redwan Hussien has called on media institutions and journalists to balance freedom of expression with professional responsibility amid rapid technological advancements. Speaking at the inaugura",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 10:19:12 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 16:31:30 +0000"
   },
   {
-    "title": "Second African Political Parties Summit Opens in Addis Ababa",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – The Second African Political Parties Summit officially opened today in Addis Ababa, bringing together political leaders, parliamentarians, ministers, youth and women representatives, development partners and diplomats from",
+    "title": "Medemer Advances Women’s Role in Ethiopia’s National Transformation: Minister",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Medemer philosophy is strengthening women’s participation in political leadership and national development by promoting their involvement in decision-making and economic activities, Minister of Culture and Touri",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 09:54:57 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 16:24:29 +0000"
   },
   {
-    "title": "Addis Ababa: Africa’s Shared Vision, Cooperation and Development Find a Common Home",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Africa grows stronger when it stands together, advances when it works together, and shapes its destiny when it makes decisions collectively. At a time when the continent is increasingly looking inward for solutions to its ",
+    "title": "Ethiopian Navy Says It Is Fully Prepared to Carry Out Maritime, Air and Land Missions",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – The Ethiopian Navy is in a position to effectively carry out its assigned missions across maritime, air and land domains, Navy commanders and members have said. Units deployed around the Grand Ethiopian Renaissance Dam (GE",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 06:05:18 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 16:18:28 +0000"
   },
   {
-    "title": "Second African Political Parties Summit Opens Today in Addis Ababa",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – The Second African Political Parties Summit, bringing together heads of state, senior parliamentarians, ministers and political party representatives from across Africa, opens today in Addis Ababa. The three-day continenta",
+    "title": "African Political Parties Summit Participants Visit Prosperity Party Headquarters, MESOB Service Center",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – Participants of the Second African Political Parties Summit have visited the headquarters of Ethiopia’s Prosperity Party and the MESOB One-Stop Service Center in Addis Ababa to gain insights into the country’s political ph",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 05:59:34 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 16:12:46 +0000"
   },
   {
-    "title": "Ethiopia Will Not Seek Egypt’s Permission to Develop Its Water Resources: Minister",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia has never sought another country’s permission or blessing to develop its water resources and will never do so, Minister of Water and Energy Engineer Habtamu Itefa has declared, reaffirming the country’s sovereign ",
+    "title": "Ethiopia and China Sign Grant Agreement for Supplementary Work on Ethio-Djibouti Railway",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – The governments of Ethiopia and China have signed a grant agreement for supplementary work on the Ethio-Djibouti Railway, aimed at strengthening the railway’s operational reliability, maintenance capacity and sustainable p",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 05:44:19 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 13:24:49 +0000"
   },
   {
-    "title": "Egypt Should Apologize to Ethiopia and Reward It for Its Contribution to Sustaining Nile Waters: Minister Habtamu Itefa",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Egypt should apologize to Ethiopia and reward it for its contribution to sustaining the availability of Nile waters, rather than accusing the country of threatening downstream water security, Minister of Water and Energy E",
+    "title": "Africa’s Future Must Be Shaped by Africans Through Collective Decisions",
+    "summary": "Addis Ababa, November 5, 2026 (FMC) – The African Political Parties Summit is more than a platform for dialogue, it represents a historic opportunity to translate political cooperation into action, turn a shared continental vision into tangible outcomes, and t",
     "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 05:40:26 +0000"
+    "publishedAt": "Thu, 05 Nov 2026 11:41:07 +0000"
   },
   {
     "title": "አብዛኛው የውኃ ድርሻ ለግብጽ ብቻ እንዲሄድ መደረጉ ህሊና ያለው ሰው የሚቀበለው አይደለም – ሀብታሙ ኢተፋ (ዶ/ር)",
