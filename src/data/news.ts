@@ -3,6 +3,18 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "ጂኦፓርኩ በዩኔስኮ መመዝገቡ ለማህበረሰቡ ተጠቃሚነት ወሳኝ ነው – ባለሙያዎች",
+    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የመጀመሪያውን ጂኦፓርክ በተባበሩት መንግሥታት የሳይንስ፣ ትምህርትና ባህል ድርጅት (ዩኔስኮ) ማስመዝገቧ የአካባቢውን ማህበረሰብ ተጠቃሚ ያደርጋል አሉ በምዝገባ ሂደቱ የተሳተፉ ባለሙያዎች፡፡ የማዕከላዊ ኢትዮጵያ ስምጥ ሸለቆ ጂኦፓርክ በፓሪስ በተካሄደው 11ኛው የዩኔስኮ ዓለም አቀፍ ጂኦፓርኮች ካውንስል ስብሰባ ላይ እውቅና አግኝቷል። ይህን አስመልክቶ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 05 Nov 2026 19:06:32 +0000"
+  },
+  {
+    "title": "ግብፅ ለጥቅሟ ስትል በኢትዮጵያ ግድቦችን መገንባት አለባት -ሀብታሙ ኢተፋ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ግብፅ ለራሷ ጥቅም ስትል ኢትዮጵያ ውስጥ የሚገነቡ ግድቦችን ጭምር አብራ መገንባት መቻል አለባት አሉ -የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር)። ሀብታሙ ኢተፋ (ዶ/ር) ከፋና ሚዲያ ኮርፖሬሽን ጋር በነበራቸው ቆይታ እንደገጹት ፥ የናይል ተፋሰስ ሀገራትን ትብብር ለማፍረስ ግብጾች እየሄዱበት ያለው መንገድ ኢትዮጵያን ይጎዳል ብለው በማሰብ የሚያደርጉ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 05 Nov 2026 18:46:35 +0000"
+  },
+  {
     "title": "Ethiopia’s Dams and Water Projects Bring Shared Benefits to Downstream Countries, Not Threats to Their Water Security: Minister",
     "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s dams and water-development projects are designed to promote shared prosperity and benefit downstream countries, rather than threaten their water security, Minister of Water and Energy Engineer Habtamu Itefa said",
     "source": "FBC English",
@@ -13,6 +25,12 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 5, 2026 (FMC) – Egypt is benefiting from the suffering of the Sudanese people amid the ongoing conflict, while Sudan is being deprived of opportunities to harness water resources flowing from Ethiopia for agricultural and economic develop",
     "source": "FBC English",
     "publishedAt": "Thu, 05 Nov 2026 17:47:33 +0000"
+  },
+  {
+    "title": "አዳዲስ ኢኮኖሚያዊ እንቅስቃሴዎችን ያካተተው ጠቅላላ የሀገር ውስጥ ምርት ግመታ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ስታቲስቲክስ አገልግሎት ከብሔራዊ ስትራቴጂ ሚኒስቴር ጋር በመተባበር ጥቅምት 25 ቀን 2019 ዓ.ም የሀገሪቱን ጠቅላላ የሀገር ውስጥ ምርት (GDP) ግመታን ወቅታዊ (GDP Rebasing) መደረጉን ይፋ አድርገዋል፡፡ ይህ ጠቅላላ የሀገር ውስጥ ምርት ግመታን መሠረተ-ዓመት የማሻሻል እና የመለካት ሥራ፣ በኢኮኖሚው የመለኪያ ሥርዓት ላይ የተደረገ ታሪ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 05 Nov 2026 17:44:41 +0000"
   },
   {
     "title": "Minister Slams Egypt for Abusing Nile Waters and Blaming Others for Its Shortages",
@@ -33,45 +51,27 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Thu, 05 Nov 2026 16:31:30 +0000"
   },
   {
+    "title": "ጉባኤው የፖለቲካ ፓርቲዎች ለአፍሪካ ዘላቂ ልማት የበኩላቸውን እንዲወጡ ትልቅ ፋይዳ አለው – ቢቂላ ሁሪሳ (ዶ/ር)",
+    "summary": "አዲስ አበባ፤ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ሁለተኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባዔ የፖለቲካ ፓርቲዎች ለአህጉሪቱ ዘላቂ ልማትና የህዝቦች ሁለንተናዊ ተጠቃሚነት የበኩላቸውን እንዲወጡ ትልቅ ፋይዳ አለው አሉ የብልጽግና ፓርቲ የሕዝብና ዓለም አቀፍ ግንኙነት ዘርፍ ኃላፊ ቢቂላ ሁሪሳ (ዶ/ር)፡፡ “ዕድገትን መምራት፤ ፖለቲካ ፓርቲዎች እንደ የአፍሪካ መጻኢ ኢኮኖሚ መሐንዲሶች” በሚል መሪ ሃሳብ 2ኛው የአ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 05 Nov 2026 16:31:24 +0000"
+  },
+  {
     "title": "Medemer Advances Women’s Role in Ethiopia’s National Transformation: Minister",
     "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Medemer philosophy is strengthening women’s participation in political leadership and national development by promoting their involvement in decision-making and economic activities, Minister of Culture and Touri",
     "source": "FBC English",
     "publishedAt": "Thu, 05 Nov 2026 16:24:29 +0000"
   },
   {
+    "title": "ኮሚሽነር ጀነራል ደመላሽ ገ/ሚካኤል ከምስራቅ አፍሪካ አነስተኛ መሣሪያዎች ማዕከል ዋና ጸሐፊ ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ፌደራል ፖሊስ ጠቅላይ አዛዥ ኮሚሽነር ጀነራል ደመላሽ ገ/ሚካኤል የምስራቅ አፍሪካ አነስተኛ መሣሪያዎች ማዕከል (RECSA) ዋና ጸሐፊ ሚስተር ዣን ፒየር ጋር ተወያይተዋል። ውይይቱ ሕገ-ወጥ የጦር መሣሪያ ዝውውርን ለመከላከል፣ የናይሮቢ ፕሮቶኮል አፈፃፀምን ለማጠናከር እና የRECSA ኃላፊነቶችን ለማጎልበት ያለመ ነው። ኮሚሽነር ጀነራል ደመላሽ በዚ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 05 Nov 2026 16:22:08 +0000"
+  },
+  {
     "title": "Ethiopian Navy Says It Is Fully Prepared to Carry Out Maritime, Air and Land Missions",
     "summary": "Addis Ababa, November 5, 2026 (FMC) – The Ethiopian Navy is in a position to effectively carry out its assigned missions across maritime, air and land domains, Navy commanders and members have said. Units deployed around the Grand Ethiopian Renaissance Dam (GE",
     "source": "FBC English",
     "publishedAt": "Thu, 05 Nov 2026 16:18:28 +0000"
-  },
-  {
-    "title": "African Political Parties Summit Participants Visit Prosperity Party Headquarters, MESOB Service Center",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Participants of the Second African Political Parties Summit have visited the headquarters of Ethiopia’s Prosperity Party and the MESOB One-Stop Service Center in Addis Ababa to gain insights into the country’s political ph",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 16:12:46 +0000"
-  },
-  {
-    "title": "Ethiopia and China Sign Grant Agreement for Supplementary Work on Ethio-Djibouti Railway",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – The governments of Ethiopia and China have signed a grant agreement for supplementary work on the Ethio-Djibouti Railway, aimed at strengthening the railway’s operational reliability, maintenance capacity and sustainable p",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 13:24:49 +0000"
-  },
-  {
-    "title": "Africa’s Future Must Be Shaped by Africans Through Collective Decisions",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – The African Political Parties Summit is more than a platform for dialogue, it represents a historic opportunity to translate political cooperation into action, turn a shared continental vision into tangible outcomes, and t",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 11:41:07 +0000"
-  },
-  {
-    "title": "አብዛኛው የውኃ ድርሻ ለግብጽ ብቻ እንዲሄድ መደረጉ ህሊና ያለው ሰው የሚቀበለው አይደለም – ሀብታሙ ኢተፋ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 25፣ 2019 (ኤፍ ኤም ሲ) አብዛኛው የውኃ ድርሻ ለግብጽ እንዲሄድ መደረጉ ህሊና ያለው ሰው የሚቀበለው አይደለም አሉ የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር):: የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር) ከፋና ሚዲያ ኮርፖሬሽን ጋር በነበራቸው ቆይታ እንዳነሱት፤ የሱዳን ወገኖችና ምሁራን ሊገነዘቡት የሚገባው ነባሩ የቅኝ ግዛት ውል ሱዳኖችንም ጭምር አስሮ ያስቀመጠ ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 04 Nov 2026 19:36:15 +0000"
-  },
-  {
-    "title": "ከራስ አልፎ ለዓለም ገበያ፤ የኢትዮጵያ የስንዴ ምርት ስኬትና የምግብ ሉዓላዊነት ጉዞ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 25፣ 2019 (ኤፍ ኤም ሲ) የምግብ ሉዓላዊነትን በተግባር እያረጋገጠች የምትገኘው ኢትዮጵያ በግብርናው ዘርፍ እያሳየች የምትገኘው ስኬት የሀገሪቱን የልማት ጉዞ አዲስ ምዕራፍ እየከፈተ ይገኛል። ለረጅም ዘመናት ኢትዮጵያ በስንዴ ፍላጎቷና በሀገር ውስጥ ምርቷ መካከል የነበረውን ክፍተት ለመሙላት ከውጭ ሀገራት ስንዴ ለማስገባት ከፍተኛ የውጭ ምንዛሪ ለማውጣት ትገደድ ነበር። ይህም በሀገሪቱ ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 04 Nov 2026 19:14:46 +0000"
   }
 ];
