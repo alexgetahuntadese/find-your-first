@@ -3,6 +3,66 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Africa Governance Centre Chair Calls on Political Parties to Prepare for Government Before Winning Power",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) — Political parties must build the policy expertise, institutional capacity and leadership skills required to govern before assuming office, rather than begin preparing only after winning elections, Chair of the Africa Gover",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 14:35:14 +0000"
+  },
+  {
+    "title": "African Political Parties Must Turn Continent’s Potential into Productive Capacity – PP Vice President",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) — Vice President of Ethiopia’s Prosperity Party Adem Farah has called on African political parties to move beyond electoral competition and take a leading role in building the ideas, institutions and productive capabilities ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 14:31:59 +0000"
+  },
+  {
+    "title": "AUC Chief Praises PM Abiy’s Political Leadership and Vision for Driving Ethiopia’s Transformation",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has praised Prime Minister Abiy Ahmed’s political leadership and vision for driving Ethiopia’s transformation, commending the country as it hosts the Second ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 14:20:34 +0000"
+  },
+  {
+    "title": "AU Commission Chairperson Warns Unregulated Political Funding Risks Exposing Africa’s Politics to Corruption and External Interference",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has warned that unregulated political party financing risks exposing Africa’s political processes to corruption and external interference, calling for strict",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 13:54:39 +0000"
+  },
+  {
+    "title": "PM Abiy Proposes Two Commitments to Anchor Addis Ababa Declaration on Africa’s Political Governance",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has identified effective leadership succession and continuity of national development priorities beyond electoral cycles as key to overcoming political challenges and sustaining Africa’s",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 12:10:04 +0000"
+  },
+  {
+    "title": "Ethiopia to Open African Leadership Excellence Academy Training to Political Parties Across Africa",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopia will make the African Leadership Excellence Academy’s training programmes available to political parties across the continent, Prime Minister Abiy Ahmed announced, positioning the country’s leadership-development ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 12:02:02 +0000"
+  },
+  {
+    "title": "Ethiopia’s Medemer Experience Offers African Parties a Model for Political Inclusion – PM Abiy Ahmed",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopia’s experience of bringing together political forces with different backgrounds under the Medemer philosophy offers an approach to strengthening political inclusion and shared responsibility in Africa, Prime Ministe",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 11:56:16 +0000"
+  },
+  {
+    "title": "PM Abiy Calls for Cross-Party Consensus on National Priorities That Outlast Elections Across Africa",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) – Prime Minister Abiy Ahmed has called on governing and opposition parties across Africa to establish common ground on key national development priorities that can be sustained beyond electoral cycles and changes of governme",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 11:50:46 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed and AU Commission Chairperson Discuss Continental Governance, Africa’s Development Priorities",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed held talks with Chairperson of the African Union Commission Mahmoud Ali Youssouf on continental governance, inclusive political processes, long-term development priorities and strengthen",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 11:01:39 +0000"
+  },
+  {
+    "title": "PM Abiy: African Parties Must Look Beyond Elections to Advance Long-Term National Priorities",
+    "summary": "Addis Ababa, November 6, 2026 (FMC) – Prime Minister of Ethiopia and President of the ruling Prosperity Party Abiy Ahmed has underscored the need for African political parties to move beyond electoral competition and build consensus around long-term national p",
+    "source": "FBC English",
+    "publishedAt": "Fri, 06 Nov 2026 10:11:48 +0000"
+  },
+  {
     "title": "ጂኦፓርኩ በዩኔስኮ መመዝገቡ ለማህበረሰቡ ተጠቃሚነት ወሳኝ ነው – ባለሙያዎች",
     "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የመጀመሪያውን ጂኦፓርክ በተባበሩት መንግሥታት የሳይንስ፣ ትምህርትና ባህል ድርጅት (ዩኔስኮ) ማስመዝገቧ የአካባቢውን ማህበረሰብ ተጠቃሚ ያደርጋል አሉ በምዝገባ ሂደቱ የተሳተፉ ባለሙያዎች፡፡ የማዕከላዊ ኢትዮጵያ ስምጥ ሸለቆ ጂኦፓርክ በፓሪስ በተካሄደው 11ኛው የዩኔስኮ ዓለም አቀፍ ጂኦፓርኮች ካውንስል ስብሰባ ላይ እውቅና አግኝቷል። ይህን አስመልክቶ",
     "source": "Fana Media",
@@ -13,65 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ግብፅ ለራሷ ጥቅም ስትል ኢትዮጵያ ውስጥ የሚገነቡ ግድቦችን ጭምር አብራ መገንባት መቻል አለባት አሉ -የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር)። ሀብታሙ ኢተፋ (ዶ/ር) ከፋና ሚዲያ ኮርፖሬሽን ጋር በነበራቸው ቆይታ እንደገጹት ፥ የናይል ተፋሰስ ሀገራትን ትብብር ለማፍረስ ግብጾች እየሄዱበት ያለው መንገድ ኢትዮጵያን ይጎዳል ብለው በማሰብ የሚያደርጉ",
     "source": "Fana Media",
     "publishedAt": "Thu, 05 Nov 2026 18:46:35 +0000"
-  },
-  {
-    "title": "Ethiopia’s Dams and Water Projects Bring Shared Benefits to Downstream Countries, Not Threats to Their Water Security: Minister",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s dams and water-development projects are designed to promote shared prosperity and benefit downstream countries, rather than threaten their water security, Minister of Water and Energy Engineer Habtamu Itefa said",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 17:50:36 +0000"
-  },
-  {
-    "title": "Egypt Benefits from Sudanese People’s Suffering amid Ongoing Conflict: Minister",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Egypt is benefiting from the suffering of the Sudanese people amid the ongoing conflict, while Sudan is being deprived of opportunities to harness water resources flowing from Ethiopia for agricultural and economic develop",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 17:47:33 +0000"
-  },
-  {
-    "title": "አዳዲስ ኢኮኖሚያዊ እንቅስቃሴዎችን ያካተተው ጠቅላላ የሀገር ውስጥ ምርት ግመታ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ስታቲስቲክስ አገልግሎት ከብሔራዊ ስትራቴጂ ሚኒስቴር ጋር በመተባበር ጥቅምት 25 ቀን 2019 ዓ.ም የሀገሪቱን ጠቅላላ የሀገር ውስጥ ምርት (GDP) ግመታን ወቅታዊ (GDP Rebasing) መደረጉን ይፋ አድርገዋል፡፡ ይህ ጠቅላላ የሀገር ውስጥ ምርት ግመታን መሠረተ-ዓመት የማሻሻል እና የመለካት ሥራ፣ በኢኮኖሚው የመለኪያ ሥርዓት ላይ የተደረገ ታሪ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 05 Nov 2026 17:44:41 +0000"
-  },
-  {
-    "title": "Minister Slams Egypt for Abusing Nile Waters and Blaming Others for Its Shortages",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Minister of Water and Energy, Engineer Habtamu Itefa, has strongly rebuked Egypt for what he described as its abuse of available Nile waters through excessive consumption, while blaming Ethiopia for its water sh",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 17:36:43 +0000"
-  },
-  {
-    "title": "Egyptian Officials ‘Shout,’ ‘Disturb’ and ‘Make Noise’ Over Ethiopia’s Water Development, Minister Says",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Minister of Water and Energy, Engineer Habtamu Itefa, has strongly criticized Egyptian officials for repeatedly creating controversy around Ethiopia’s water development, saying they “shout,” “disturb” and “make ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 17:15:53 +0000"
-  },
-  {
-    "title": "Ethiopian Intelligence Chief Calls for Balancing Media Freedom with Professional Accountability",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopian Intelligence Chief Redwan Hussien has called on media institutions and journalists to balance freedom of expression with professional responsibility amid rapid technological advancements. Speaking at the inaugura",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 16:31:30 +0000"
-  },
-  {
-    "title": "ጉባኤው የፖለቲካ ፓርቲዎች ለአፍሪካ ዘላቂ ልማት የበኩላቸውን እንዲወጡ ትልቅ ፋይዳ አለው – ቢቂላ ሁሪሳ (ዶ/ር)",
-    "summary": "አዲስ አበባ፤ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ሁለተኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባዔ የፖለቲካ ፓርቲዎች ለአህጉሪቱ ዘላቂ ልማትና የህዝቦች ሁለንተናዊ ተጠቃሚነት የበኩላቸውን እንዲወጡ ትልቅ ፋይዳ አለው አሉ የብልጽግና ፓርቲ የሕዝብና ዓለም አቀፍ ግንኙነት ዘርፍ ኃላፊ ቢቂላ ሁሪሳ (ዶ/ር)፡፡ “ዕድገትን መምራት፤ ፖለቲካ ፓርቲዎች እንደ የአፍሪካ መጻኢ ኢኮኖሚ መሐንዲሶች” በሚል መሪ ሃሳብ 2ኛው የአ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 05 Nov 2026 16:31:24 +0000"
-  },
-  {
-    "title": "Medemer Advances Women’s Role in Ethiopia’s National Transformation: Minister",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – Ethiopia’s Medemer philosophy is strengthening women’s participation in political leadership and national development by promoting their involvement in decision-making and economic activities, Minister of Culture and Touri",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 16:24:29 +0000"
-  },
-  {
-    "title": "ኮሚሽነር ጀነራል ደመላሽ ገ/ሚካኤል ከምስራቅ አፍሪካ አነስተኛ መሣሪያዎች ማዕከል ዋና ጸሐፊ ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ፌደራል ፖሊስ ጠቅላይ አዛዥ ኮሚሽነር ጀነራል ደመላሽ ገ/ሚካኤል የምስራቅ አፍሪካ አነስተኛ መሣሪያዎች ማዕከል (RECSA) ዋና ጸሐፊ ሚስተር ዣን ፒየር ጋር ተወያይተዋል። ውይይቱ ሕገ-ወጥ የጦር መሣሪያ ዝውውርን ለመከላከል፣ የናይሮቢ ፕሮቶኮል አፈፃፀምን ለማጠናከር እና የRECSA ኃላፊነቶችን ለማጎልበት ያለመ ነው። ኮሚሽነር ጀነራል ደመላሽ በዚ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 05 Nov 2026 16:22:08 +0000"
-  },
-  {
-    "title": "Ethiopian Navy Says It Is Fully Prepared to Carry Out Maritime, Air and Land Missions",
-    "summary": "Addis Ababa, November 5, 2026 (FMC) – The Ethiopian Navy is in a position to effectively carry out its assigned missions across maritime, air and land domains, Navy commanders and members have said. Units deployed around the Grand Ethiopian Renaissance Dam (GE",
-    "source": "FBC English",
-    "publishedAt": "Thu, 05 Nov 2026 16:18:28 +0000"
   }
 ];
