@@ -3,6 +3,12 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "🇪🇹🇿🇼 Ethiopia’s Prosperity Party and Zimbabwe’s ZANU-PF Sign MoU to Strengthen Bilateral Cooperation",
+    "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party and Zimbabwe’s ruling ZANU-PF have signed a Memorandum of Understanding (MoU) to deepen party-to-party relations and institutional cooperation, opening a framework for sustained collabora",
+    "source": "FBC English",
+    "publishedAt": "Sat, 07 Nov 2026 10:03:37 +0000"
+  },
+  {
     "title": "Ethiopia’s Ruling Prosperity Party Unanimously Elected to Lead African Political Parties Initiative",
     "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party has been unanimously elected to lead the African Political Parties Initiative (APPI), while Minister Bikila Hurissa, the Party’s Head of Political Affairs and Public Relations Sector, has",
     "source": "FBC English",
@@ -67,11 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) በአባያ-ጫሞ ተፋሰስ ወንዞች ላይ የጎርፍ ትንበያ ማከናወን የሚያስችል አስተማማኝ የመረጃ ፍሰት ስርዓት ተዘርግቷል አለ የውሃና ኢነርጂ ሚኒስቴር፡፡ በሚኒስቴሩ ተግባራዊ እየተደረገ የሚገኘው የኢትዮጵያ የጎርፍ መከላከልና አስተዳደር ፕሮጀክት በአባያ-ጫሞ ንዑስ ተፋሰስ የተከናወኑ ሦስት መሠረታዊ የጥናት ሪፖርቶችን እየገመገመ ነው ። የፕሮጀክቱ አስተባባሪ ተወካይ",
     "source": "Fana Media",
     "publishedAt": "Fri, 06 Nov 2026 12:17:55 +0000"
-  },
-  {
-    "title": "PM Abiy Proposes Two Commitments to Anchor Addis Ababa Declaration on Africa’s Political Governance",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has identified effective leadership succession and continuity of national development priorities beyond electoral cycles as key to overcoming political challenges and sustaining Africa’s",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 12:10:04 +0000"
   }
 ];
