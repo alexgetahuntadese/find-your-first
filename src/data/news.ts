@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia’s Ruling Prosperity Party Unanimously Elected to Lead African Political Parties Initiative",
+    "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party has been unanimously elected to lead the African Political Parties Initiative (APPI), while Minister Bikila Hurissa, the Party’s Head of Political Affairs and Public Relations Sector, has",
+    "source": "FBC English",
+    "publishedAt": "Sat, 07 Nov 2026 07:34:53 +0000"
+  },
+  {
+    "title": "Medemer Can Turn Africa’s Fragmented Potential into Collective Prosperity, Says Minister Bikila Hurisa",
+    "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s Medemer philosophy can help African countries combine their individual strengths, overcome fragmentation and transform their collective potential into shared prosperity, Minister Bikila Hurisa has said. Speaking",
+    "source": "FBC English",
+    "publishedAt": "Sat, 07 Nov 2026 07:26:40 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ የዓባይን ጉዳይ ዘግታ ወደ ቀይ ባህር ተሸጋግራለች – ሀብታሙ ኢተፋ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የዓባይን ጉዳይ ዘግታ ወደ ቀይ ባህር ተሸጋግራለች አሉ የውሃ እና ኢነርጂ ሚኒስትሩ ሀብታሙ ኢተፋ (ዶ/ር)፡፡ ሚኒስትሩ ከፋና ሚዲያ ኮርፖሬሽን ጋር ባደረጉት ቆይታ፥ ኢትዮጵያ ታላቁን የኢትዮጵያ ሕዳሴ ግድብ ገንብታ አጠናቃ ትኩረቷን ወደ ቀይ ባህር አዙራለች፤ አሁንም በዓባይ ጉዳይ ላይ ተጠምደው ያሉት ግብጾች ናቸው ብለዋል፡፡ ኢትዮጵያ በዓባይ ላይ ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 06 Nov 2026 19:34:12 +0000"
+  },
+  {
+    "title": "ለትግራይ ብሮድካስቲንግ ኮርፖሬሽን የህጋዊ እውቅና የምስክር ወረቀት ተሰጠ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መገናኛ ብዙኃን ባለሥልጣን በአዲስ ስያሜ ህጋዊ እውቅና ለተሰጠው የትግራይ ብሮድካስቲንግ ኮርፖሬሽን የብሮድካስት አገልግሎት ፈቃድ የምስክር ወረቀት ሰጥቷል። ባለሰልጣኑ የምስክር ወረቀቱን ለትግራይ ክልል ባለአደራ አስተዳደር ያስረከበ ሲሆን፤ በክልሉ የህዝብ መረጃ ተደራሽነትን ለማረጋገጥ ለሚሰሩ የሚዲያ ባለሙያዎችና አመራሮች የአቅም ግንባታና ሌሎች ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 06 Nov 2026 14:38:17 +0000"
+  },
+  {
     "title": "Africa Governance Centre Chair Calls on Political Parties to Prepare for Government Before Winning Power",
     "summary": "Addis Ababa, November 6, 2026 (FMC) — Political parties must build the policy expertise, institutional capacity and leadership skills required to govern before assuming office, rather than begin preparing only after winning elections, Chair of the Africa Gover",
     "source": "FBC English",
@@ -27,51 +51,27 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 06 Nov 2026 13:54:39 +0000"
   },
   {
+    "title": "ወታደራዊ ስልጠና ለላቀ የአመራር ብቃት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ የመንግስት አመራሮች ወታደራዊ ስልጠናዎችን እንዲወስዱ እና የደህንነት ፖሊሲዎችን በአግባቡ እንዲረዱ እያደረገ ነዉ፡፡ አሁን ላይ በፌደራል ደረጃ የሚገኙ የፖለቲካ አመራሮች ይወስዱ የነበረውን ስልጠና በማጠናቀቅ ወደ ስራ ገበታቸው ተመልሰዋል፡፡ ይህ የአጭር ጊዜ የወታደራዊ ስልጠና ትምህርት በብዙ ሀገራት የፖለቲካ አመራሮች የወታደራዊ ስትራቴጂን ጨምሮ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 06 Nov 2026 13:43:44 +0000"
+  },
+  {
+    "title": "የፖለቲካ ፓርቲዎች ለሀገራቸው የሚጠቅሙ ፖሊሲዎችን አዘጋጅተው ሕዝብን በብቃት ማገልገል አለባቸው – ቤኔዲክታ ላሲ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) የፖለቲካ ፓርቲዎች ለሀገራቸው የሚጠቅሙ ፖሊሲዎችን አዘጋጅተው ሕዝብን በብቃት ማገልገል አለባቸው አሉ የአፍሪካ የአስተዳደር ማዕከል ሊቀመንበር ቤኔዲክታ ላሲ፡፡ 2ኛው የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ “እድገትን ማስተዳደር፤ የፖለቲካ ፓርቲዎች የአፍሪካ ኢኮኖሚ የወደፊት ዕጣ ፈንታ ንድፍ አውጪዎች ናቸው” በሚል መሪ ሀሳብ በአዲስ አበባ እየተካሄደ ይገኛል፡፡ ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 06 Nov 2026 12:30:12 +0000"
+  },
+  {
+    "title": "በአባያ-ጫሞ ተፋሰስ ወንዞች ላይ የጎርፍ ትንበያ ማከናወን የሚያስችል የመረጃ ስርዓት ተዘርግቷል",
+    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) በአባያ-ጫሞ ተፋሰስ ወንዞች ላይ የጎርፍ ትንበያ ማከናወን የሚያስችል አስተማማኝ የመረጃ ፍሰት ስርዓት ተዘርግቷል አለ የውሃና ኢነርጂ ሚኒስቴር፡፡ በሚኒስቴሩ ተግባራዊ እየተደረገ የሚገኘው የኢትዮጵያ የጎርፍ መከላከልና አስተዳደር ፕሮጀክት በአባያ-ጫሞ ንዑስ ተፋሰስ የተከናወኑ ሦስት መሠረታዊ የጥናት ሪፖርቶችን እየገመገመ ነው ። የፕሮጀክቱ አስተባባሪ ተወካይ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 06 Nov 2026 12:17:55 +0000"
+  },
+  {
     "title": "PM Abiy Proposes Two Commitments to Anchor Addis Ababa Declaration on Africa’s Political Governance",
     "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has identified effective leadership succession and continuity of national development priorities beyond electoral cycles as key to overcoming political challenges and sustaining Africa’s",
     "source": "FBC English",
     "publishedAt": "Fri, 06 Nov 2026 12:10:04 +0000"
-  },
-  {
-    "title": "Ethiopia to Open African Leadership Excellence Academy Training to Political Parties Across Africa",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopia will make the African Leadership Excellence Academy’s training programmes available to political parties across the continent, Prime Minister Abiy Ahmed announced, positioning the country’s leadership-development ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 12:02:02 +0000"
-  },
-  {
-    "title": "Ethiopia’s Medemer Experience Offers African Parties a Model for Political Inclusion – PM Abiy Ahmed",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopia’s experience of bringing together political forces with different backgrounds under the Medemer philosophy offers an approach to strengthening political inclusion and shared responsibility in Africa, Prime Ministe",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 11:56:16 +0000"
-  },
-  {
-    "title": "PM Abiy Calls for Cross-Party Consensus on National Priorities That Outlast Elections Across Africa",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) – Prime Minister Abiy Ahmed has called on governing and opposition parties across Africa to establish common ground on key national development priorities that can be sustained beyond electoral cycles and changes of governme",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 11:50:46 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed and AU Commission Chairperson Discuss Continental Governance, Africa’s Development Priorities",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed held talks with Chairperson of the African Union Commission Mahmoud Ali Youssouf on continental governance, inclusive political processes, long-term development priorities and strengthen",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 11:01:39 +0000"
-  },
-  {
-    "title": "PM Abiy: African Parties Must Look Beyond Elections to Advance Long-Term National Priorities",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) – Prime Minister of Ethiopia and President of the ruling Prosperity Party Abiy Ahmed has underscored the need for African political parties to move beyond electoral competition and build consensus around long-term national p",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 10:11:48 +0000"
-  },
-  {
-    "title": "ጂኦፓርኩ በዩኔስኮ መመዝገቡ ለማህበረሰቡ ተጠቃሚነት ወሳኝ ነው – ባለሙያዎች",
-    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የመጀመሪያውን ጂኦፓርክ በተባበሩት መንግሥታት የሳይንስ፣ ትምህርትና ባህል ድርጅት (ዩኔስኮ) ማስመዝገቧ የአካባቢውን ማህበረሰብ ተጠቃሚ ያደርጋል አሉ በምዝገባ ሂደቱ የተሳተፉ ባለሙያዎች፡፡ የማዕከላዊ ኢትዮጵያ ስምጥ ሸለቆ ጂኦፓርክ በፓሪስ በተካሄደው 11ኛው የዩኔስኮ ዓለም አቀፍ ጂኦፓርኮች ካውንስል ስብሰባ ላይ እውቅና አግኝቷል። ይህን አስመልክቶ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 05 Nov 2026 19:06:32 +0000"
-  },
-  {
-    "title": "ግብፅ ለጥቅሟ ስትል በኢትዮጵያ ግድቦችን መገንባት አለባት -ሀብታሙ ኢተፋ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 26፣ 2019 (ኤፍ ኤም ሲ) ግብፅ ለራሷ ጥቅም ስትል ኢትዮጵያ ውስጥ የሚገነቡ ግድቦችን ጭምር አብራ መገንባት መቻል አለባት አሉ -የውኃ እና ኢነርጂ ሚኒስትር ሀብታሙ ኢተፋ (ዶ/ር)። ሀብታሙ ኢተፋ (ዶ/ር) ከፋና ሚዲያ ኮርፖሬሽን ጋር በነበራቸው ቆይታ እንደገጹት ፥ የናይል ተፋሰስ ሀገራትን ትብብር ለማፍረስ ግብጾች እየሄዱበት ያለው መንገድ ኢትዮጵያን ይጎዳል ብለው በማሰብ የሚያደርጉ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 05 Nov 2026 18:46:35 +0000"
   }
 ];
