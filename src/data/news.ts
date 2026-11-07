@@ -3,6 +3,24 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Deputy PM Temesgen Underscores Ethiopia’s Islamic Heritage as Foundation for National Unity and Progress",
+    "summary": "Addis Ababa, November 7, 2026 (FMC) – Deputy Prime Minister Temesgen Truneh has underscored Ethiopia’s profound Islamic heritage as an enduring source of national strength, calling for its preservation and strategic contribution to nation-building, cultural re",
+    "source": "FBC English",
+    "publishedAt": "Sat, 07 Nov 2026 16:30:38 +0000"
+  },
+  {
+    "title": "African Political Parties Adopt Addis Ababa Declaration, Commit to Advancing Economic Transformation",
+    "summary": "Addis Ababa, November 7, 2026 (FMC) — African political parties have adopted the Addis Ababa Declaration, committing to strengthen their role in driving the continent’s economic transformation through capable public institutions, industrial development, sustai",
+    "source": "FBC English",
+    "publishedAt": "Sat, 07 Nov 2026 15:43:27 +0000"
+  },
+  {
+    "title": "Prosperity Party Vice President Calls on African Political Parties to Translate Addis Ababa Declaration into Action",
+    "summary": "Addis Ababa, November 7, 2026 (FMC) — Vice President of Ethiopia’s ruling Prosperity Party, Adem Farah, has called on African political parties to translate the commitments adopted at the Second African Political Parties Summit into practical action, emphasizi",
+    "source": "FBC English",
+    "publishedAt": "Sat, 07 Nov 2026 15:24:22 +0000"
+  },
+  {
     "title": "🇪🇹🇿🇼 Ethiopia’s Prosperity Party and Zimbabwe’s ZANU-PF Sign MoU to Strengthen Bilateral Cooperation",
     "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party and Zimbabwe’s ruling ZANU-PF have signed a Memorandum of Understanding (MoU) to deepen party-to-party relations and institutional cooperation, opening a framework for sustained collabora",
     "source": "FBC English",
@@ -55,23 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 6, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has warned that unregulated political party financing risks exposing Africa’s political processes to corruption and external interference, calling for strict",
     "source": "FBC English",
     "publishedAt": "Fri, 06 Nov 2026 13:54:39 +0000"
-  },
-  {
-    "title": "ወታደራዊ ስልጠና ለላቀ የአመራር ብቃት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) በኢትዮጵያ የመንግስት አመራሮች ወታደራዊ ስልጠናዎችን እንዲወስዱ እና የደህንነት ፖሊሲዎችን በአግባቡ እንዲረዱ እያደረገ ነዉ፡፡ አሁን ላይ በፌደራል ደረጃ የሚገኙ የፖለቲካ አመራሮች ይወስዱ የነበረውን ስልጠና በማጠናቀቅ ወደ ስራ ገበታቸው ተመልሰዋል፡፡ ይህ የአጭር ጊዜ የወታደራዊ ስልጠና ትምህርት በብዙ ሀገራት የፖለቲካ አመራሮች የወታደራዊ ስትራቴጂን ጨምሮ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 06 Nov 2026 13:43:44 +0000"
-  },
-  {
-    "title": "የፖለቲካ ፓርቲዎች ለሀገራቸው የሚጠቅሙ ፖሊሲዎችን አዘጋጅተው ሕዝብን በብቃት ማገልገል አለባቸው – ቤኔዲክታ ላሲ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) የፖለቲካ ፓርቲዎች ለሀገራቸው የሚጠቅሙ ፖሊሲዎችን አዘጋጅተው ሕዝብን በብቃት ማገልገል አለባቸው አሉ የአፍሪካ የአስተዳደር ማዕከል ሊቀመንበር ቤኔዲክታ ላሲ፡፡ 2ኛው የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ “እድገትን ማስተዳደር፤ የፖለቲካ ፓርቲዎች የአፍሪካ ኢኮኖሚ የወደፊት ዕጣ ፈንታ ንድፍ አውጪዎች ናቸው” በሚል መሪ ሀሳብ በአዲስ አበባ እየተካሄደ ይገኛል፡፡ ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 06 Nov 2026 12:30:12 +0000"
-  },
-  {
-    "title": "በአባያ-ጫሞ ተፋሰስ ወንዞች ላይ የጎርፍ ትንበያ ማከናወን የሚያስችል የመረጃ ስርዓት ተዘርግቷል",
-    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) በአባያ-ጫሞ ተፋሰስ ወንዞች ላይ የጎርፍ ትንበያ ማከናወን የሚያስችል አስተማማኝ የመረጃ ፍሰት ስርዓት ተዘርግቷል አለ የውሃና ኢነርጂ ሚኒስቴር፡፡ በሚኒስቴሩ ተግባራዊ እየተደረገ የሚገኘው የኢትዮጵያ የጎርፍ መከላከልና አስተዳደር ፕሮጀክት በአባያ-ጫሞ ንዑስ ተፋሰስ የተከናወኑ ሦስት መሠረታዊ የጥናት ሪፖርቶችን እየገመገመ ነው ። የፕሮጀክቱ አስተባባሪ ተወካይ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 06 Nov 2026 12:17:55 +0000"
   }
 ];
