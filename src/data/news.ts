@@ -3,10 +3,28 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "ጉባኤው አፍሪካ የጋራ ዕጣ ፈንታዋን በራሷ ለመወሰን ያላትን ቁርጠኝነት ያረጋገጠ ነው – ብልፅግና ፓርቲ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) 2ኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባኤ አፍሪካ የጋራ ዕጣ ፈንታዋን በራሷ አቅም ለመወሰን ያላትን ቁርጠኝነት ያረጋገጠ ነው አሉ ብልፅግና ፓርቲ ዓለም አቀፍ ግንኙነት ዋና ዳይሬክተር አቶ ነብዩ ስሁል። ላለፉት ሶስት ቀናት በአዲስ አበባ በአድዋ ድል መታሰቢያ ሲካሄድ የቆየው ሁለተኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባኤ በታላቅ ስኬት ተጠናቅቋል። ጉባኤውን አስመል",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 17:30:22 +0000"
+  },
+  {
     "title": "Deputy PM Temesgen Underscores Ethiopia’s Islamic Heritage as Foundation for National Unity and Progress",
     "summary": "Addis Ababa, November 7, 2026 (FMC) – Deputy Prime Minister Temesgen Truneh has underscored Ethiopia’s profound Islamic heritage as an enduring source of national strength, calling for its preservation and strategic contribution to nation-building, cultural re",
     "source": "FBC English",
     "publishedAt": "Sat, 07 Nov 2026 16:30:38 +0000"
+  },
+  {
+    "title": "የኢትዮጵያን የእስልምና ታሪክና መንፈሳዊ እሴቶች ለሀገረ መንግሥትና ለሥልጣኔ ግንባታ ማዋል ያስፈልጋል – ምክትል ጠቅላይ ሚኒስትር ተስመገን ጥሩነህ",
+    "summary": "የኢትዮጵያን የእስልምና ታሪክና መንፈሳዊ እሴቶች ለሀገረ መንግሥትና ለሥልጣኔ ግንባታ ማዋል ያስፈልጋል አሉ ምክትል ጠቅላይ ሚኒስትር ተስመገን ጥሩነህ። የእስልምና ጉዳዮች ጠቅላይ ምክር ቤት 2ኛ ዓመት 1ኛ መደበኛ ጉባኤ ማጠቃለያ መርሐ ግብር ምክትል ጠቅላይ ሚኒስትር ተመስገን ጥሩነህ በተገኙበት ተካሂዷል። ምክትል ጠቅላይ ሚኒስትሩ በማህበራዊ የትስስር ገጻቸው ባስተላለፉት መልዕክት እንዳሉት፤ የኢትዮጵያን የእስ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 16:10:27 +0000"
+  },
+  {
+    "title": "ሚኒስቴሩ ቅሬታ እና ጥቆማ ማቅረብ የሚያስችል ሥርዓት ይፋ አደረገ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) የገቢዎች ሚኒስቴር ቅሬታን እና ጥቆማን ማቅረብ የሚያስችል ሥርዓት ይፋ አድርጓል። የጥቆማ እና ቅሬታ ማቅረቢያ ሥርዓቶቹን ይፋ ያደረጉት የገቢዎች ሚኒስትር ዓይናለም ንጉሴ እና የሚኒስቴሩ የኢ-ዳታ ዘርፍ ሚኒስትር ዴኤታ ዳዊት ውብሸት ናቸው፡፡ በዚህም 6844 ነፃ የጥሪ መስመር እና ጥቆማ ማቅረቢያ ሥርዓት በመጠቀም ማንኛውንም የገቢውን ዘርፍ አሠራሮችን በተመለ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 15:55:58 +0000"
   },
   {
     "title": "African Political Parties Adopt Addis Ababa Declaration, Commit to Advancing Economic Transformation",
@@ -21,57 +39,39 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sat, 07 Nov 2026 15:24:22 +0000"
   },
   {
+    "title": "አፍሪካውያን ፓርቲዎች የጉባኤውን ቃልኪዳን ተግባራዊ ለማድረግ ቁርጠኛ መሆን አለባቸው – አደም ፋራህ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) የአፍሪካ የፖለቲካ ፓርቲዎች በአዲስ አበባ በተካሄደው 2ኛው የአህጉሪቱ የፖለቲካ ፓርቲዎች ጉባኤ የፀደቀውን ቃልኪዳንና የጉባኤውን የአቋም መግለጫ ተግባራዊ ለማድረግ ቁርጠኛ መሆን አለባቸው አሉ የብልፅግና ፓርቲ ምክትል ፕሬዝዳንት አደም ፋራህ። አቶ አደም ፋራህ በ2ኛው የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ መዝጊያ ላይ ባደረጉት ንግግር እንዳሉት፤ ጉባኤው የአፍሪ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 14:47:22 +0000"
+  },
+  {
+    "title": "የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ የአዲስ አበባ ቃልኪዳንን በማፅደቅ ተጠናቀቀ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) በአዲስ አበባ ሲካሄድ የቆየው 2ኛው የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ የአዲስ አበባ ቃልኪዳንን (Addis Ababa Declaration) በማፅደቅ እና የጋራ መግለጫ በማውጣት በዛሬው ዕለት በስኬት ተጠናቅቋል። ጉባኤውን ያጠናቀቁት የአፍሪካ የፖለቲካ ፓርቲዎች መሪዎች አህጉሪቱን ወደ ላቀ የኢኮኖሚ ከፍታ ለማሻገር የገቡትን ቃል የሚያረጋግጥ ባለ 22 ነጥብ የአ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 13:23:17 +0000"
+  },
+  {
+    "title": "በሴራና በተንኮል የባህር በር እንድናጣና የባህር ኃይላችን እንዲፈርስ መደረጉ ሀገራችንን ለተለያዩ ተግዳሮቶች ዳርጓታል – ቫይስ አድሚራል ክንዱ ገዙ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) በሴራና በተንኮል የባህር ኃይላችን እንዲፈርስ ብሎም የባህር በር እንድናጣ መደረጉም ሀገራችንን ለተለያዩ ተግዳሮቶች ዳርጓታል አሉ የኢትዮጵያ ባህር ኃይል አዛዥ ቫይስ አድሚራል ክንዱ ገዙ፡፡ የቀድሞው የኢትዮጵያ የጦር ኃይሎችና የፖሊስ ሠራዊት ማህበራት ህብረት አራተኛ ዓመት ጠቅላላ ጉባኤውን እያካሄደ ነው። በጉባኤው ላይ ንግግር ያደረጉት የኢትዮጵያ ባህር ኃይ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 12:25:40 +0000"
+  },
+  {
+    "title": "የመደመር እሳቤ የአፍሪካውያንን ወንድማማችነት ለማጎልበት ከፍተኛ አስተዋጽኦ አለው",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) የመደመር እሳቤ ከኢትዮጵያ አልፎ የአፍሪካ ሀገራትን አንድነትና ትብብር በማጠናከር የህዝቦችን ወንድማማችነት ለማጎልበት ከፍተኛ አስተዋጽኦ አለው አሉ የብልጽግና ፓርቲ የፖለቲካና የህዝብ ግንኙነት ዘርፍ ኃላፊ ቢቂላ ሁሪሳ (ዶ/ር)፡፡ 2ኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባዔ “ዕድገትን መምራት ፖለቲካ ፓርቲዎች እንደ የአፍሪካ መጻኢ ኢኮኖሚ መሃንዲሶች” በሚል መ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 07 Nov 2026 10:27:17 +0000"
+  },
+  {
     "title": "🇪🇹🇿🇼 Ethiopia’s Prosperity Party and Zimbabwe’s ZANU-PF Sign MoU to Strengthen Bilateral Cooperation",
     "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party and Zimbabwe’s ruling ZANU-PF have signed a Memorandum of Understanding (MoU) to deepen party-to-party relations and institutional cooperation, opening a framework for sustained collabora",
     "source": "FBC English",
     "publishedAt": "Sat, 07 Nov 2026 10:03:37 +0000"
   },
   {
-    "title": "Ethiopia’s Ruling Prosperity Party Unanimously Elected to Lead African Political Parties Initiative",
-    "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party has been unanimously elected to lead the African Political Parties Initiative (APPI), while Minister Bikila Hurissa, the Party’s Head of Political Affairs and Public Relations Sector, has",
-    "source": "FBC English",
-    "publishedAt": "Sat, 07 Nov 2026 07:34:53 +0000"
-  },
-  {
-    "title": "Medemer Can Turn Africa’s Fragmented Potential into Collective Prosperity, Says Minister Bikila Hurisa",
-    "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s Medemer philosophy can help African countries combine their individual strengths, overcome fragmentation and transform their collective potential into shared prosperity, Minister Bikila Hurisa has said. Speaking",
-    "source": "FBC English",
-    "publishedAt": "Sat, 07 Nov 2026 07:26:40 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ የዓባይን ጉዳይ ዘግታ ወደ ቀይ ባህር ተሸጋግራለች – ሀብታሙ ኢተፋ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የዓባይን ጉዳይ ዘግታ ወደ ቀይ ባህር ተሸጋግራለች አሉ የውሃ እና ኢነርጂ ሚኒስትሩ ሀብታሙ ኢተፋ (ዶ/ር)፡፡ ሚኒስትሩ ከፋና ሚዲያ ኮርፖሬሽን ጋር ባደረጉት ቆይታ፥ ኢትዮጵያ ታላቁን የኢትዮጵያ ሕዳሴ ግድብ ገንብታ አጠናቃ ትኩረቷን ወደ ቀይ ባህር አዙራለች፤ አሁንም በዓባይ ጉዳይ ላይ ተጠምደው ያሉት ግብጾች ናቸው ብለዋል፡፡ ኢትዮጵያ በዓባይ ላይ ",
+    "title": "የተፈጥሮ ፈተናዎችን የመሻገር ጥበብ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤፍ ሲ) ኢትዮጵያ ለበርካታ ጊዜያት በተፈጥሮ አደጋዎች ተፈትና ታውቃለች፤ ይህም ለኢኮኖሚዋ ከባድ ተግዳሮት ሲሆንባት ቆይቷል፡፡ ዛሬ ላይ ኢትዮጵያ በዝናብ እጥረት ምክንያት የሚከሰቱ አደጋዎችን ለመቀነስ በርካታ ስራዎች እየተሰሩ ይገኛሉ፡፡ ይህ የተለያዩ የተፈጥሮና ሰው ሰራሽ አደጋዎችን ለመቋቋም እንዲሁም የማይበገር ኢኮኖሚ ለመገንባት በማለም የተደረገ ነው፡፡ ዋነኛ መ",
     "source": "Fana Media",
-    "publishedAt": "Fri, 06 Nov 2026 19:34:12 +0000"
-  },
-  {
-    "title": "ለትግራይ ብሮድካስቲንግ ኮርፖሬሽን የህጋዊ እውቅና የምስክር ወረቀት ተሰጠ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 27፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ መገናኛ ብዙኃን ባለሥልጣን በአዲስ ስያሜ ህጋዊ እውቅና ለተሰጠው የትግራይ ብሮድካስቲንግ ኮርፖሬሽን የብሮድካስት አገልግሎት ፈቃድ የምስክር ወረቀት ሰጥቷል። ባለሰልጣኑ የምስክር ወረቀቱን ለትግራይ ክልል ባለአደራ አስተዳደር ያስረከበ ሲሆን፤ በክልሉ የህዝብ መረጃ ተደራሽነትን ለማረጋገጥ ለሚሰሩ የሚዲያ ባለሙያዎችና አመራሮች የአቅም ግንባታና ሌሎች ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 06 Nov 2026 14:38:17 +0000"
-  },
-  {
-    "title": "Africa Governance Centre Chair Calls on Political Parties to Prepare for Government Before Winning Power",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) — Political parties must build the policy expertise, institutional capacity and leadership skills required to govern before assuming office, rather than begin preparing only after winning elections, Chair of the Africa Gover",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 14:35:14 +0000"
-  },
-  {
-    "title": "African Political Parties Must Turn Continent’s Potential into Productive Capacity – PP Vice President",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) — Vice President of Ethiopia’s Prosperity Party Adem Farah has called on African political parties to move beyond electoral competition and take a leading role in building the ideas, institutions and productive capabilities ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 14:31:59 +0000"
-  },
-  {
-    "title": "AUC Chief Praises PM Abiy’s Political Leadership and Vision for Driving Ethiopia’s Transformation",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has praised Prime Minister Abiy Ahmed’s political leadership and vision for driving Ethiopia’s transformation, commending the country as it hosts the Second ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 14:20:34 +0000"
-  },
-  {
-    "title": "AU Commission Chairperson Warns Unregulated Political Funding Risks Exposing Africa’s Politics to Corruption and External Interference",
-    "summary": "Addis Ababa, November 6, 2026 (FMC) — Chairperson of the African Union Commission Mahmoud Ali Youssouf has warned that unregulated political party financing risks exposing Africa’s political processes to corruption and external interference, calling for strict",
-    "source": "FBC English",
-    "publishedAt": "Fri, 06 Nov 2026 13:54:39 +0000"
+    "publishedAt": "Sat, 07 Nov 2026 09:58:26 +0000"
   }
 ];
