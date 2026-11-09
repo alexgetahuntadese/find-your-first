@@ -3,6 +3,48 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Building Global Confidence, Mobilizing Climate Investment Ahead of COP32: Finance Minister",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia is using its participation in the ongoing 31st United Nations Climate Change Conference (COP31) in Antalya, Türkiye, to strengthen international confidence in its climate commitments, expand global partnerships an",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 14:31:38 +0000"
+  },
+  {
+    "title": "Ethiopia Mobilizing Global Partners, Building Momentum for COP32 at COP31: Foreign Minister Gedion Timothewos",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia is mobilizing international partners and building momentum for COP32 through its engagement at the ongoing 31st United Nations Climate Change Conference (COP31) in Antalya, Türkiye, Foreign Minister and COP32 Pres",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 14:21:39 +0000"
+  },
+  {
+    "title": "56 Billion Green Veins Beneath a Feverish Sky: Ethiopia’s Attempt to Keep the Earth’s Lifeblood Flowing",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – The Earth is running a fever, and its warning signs are written across the skin of the planet. Forests recede like vanishing memories, once-fertile soils lose their strength, rivers face mounting pressure, and the seasons ",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 12:02:33 +0000"
+  },
+  {
+    "title": "Green Legacy: Ethiopia’s Homegrown Answer to a Planet in Peril",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – The planet is sending distress signals. Forests are disappearing, landscapes are drying, rivers are under pressure and extreme weather is unsettling the delicate balance that sustains life. Climate change is no longer a di",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 10:51:54 +0000"
+  },
+  {
+    "title": "Ethiopia Pavilion Opens at COP31 in Antalya",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia’s Pavilion at the 31st United Nations Climate Change Conference (COP31) was officially inaugurated today in Antalya, Türkiye, marking the country’s presence at the global climate summit as it prepares to host COP3",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 09:24:25 +0000"
+  },
+  {
+    "title": "COP31 Opens in Antalya, Bringing Global Climate Negotiations to Türkiye",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – The 31st United Nations Climate Change Conference (COP31) opened today in Antalya, Türkiye, bringing together representatives of nearly 200 countries for two weeks of high-level discussions and negotiations on the global c",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 09:17:30 +0000"
+  },
+  {
+    "title": "EXCLUSIVE: Ethiopia-Morocco Cooperation Can Turn Shared Development Experiences into Wider African Opportunities: Moroccan Youth Leader",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – Strengthening cooperation between Ethiopia and Morocco through shared development experiences, investment in human capital, regional stability and South-South collaboration offers opportunities to advance their respective ",
+    "source": "FBC English",
+    "publishedAt": "Mon, 09 Nov 2026 08:09:19 +0000"
+  },
+  {
     "title": "Ethiopia Repatriates 1,584 Citizens from Saudi Arabia in Latest Citizens-First Diplomatic Effort",
     "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia has repatriated 1,584 nationals who had been facing difficult circumstances in Saudi Arabia over the past week, reaffirming the protection and welfare of citizens abroad as a key pillar of the country’s diplomatic",
     "source": "FBC English",
@@ -31,47 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የአየር ንብረት ለውጥ በዓለም ላይ እያስከተለ ያለው ተፅዕኖ እየጨመረ በመጣበት ወቅት ኢኮኖሚያዊ እድገትን ከአካባቢ ጥበቃ ጋር ማስማማት የግድ ሆኗል። ይህንን ተጽእኖ ለመቋቋም ኢትዮጵያ የአረንጓዴ ኢኮኖሚ ግንባታን ከሀገራዊ የልማት አቅጣጫዋ ጋር በማቀናጀት ወደ በተግበር ላይ ትገኛለች። የኢትዮጵያ አረንጓዴ ኢኮኖሚ ግንባታ ጉዞ የዛሬ ውሳኔ ብቻ ሳይሆን ለቀጣይ",
     "source": "Fana Media",
     "publishedAt": "Sun, 08 Nov 2026 16:32:58 +0000"
-  },
-  {
-    "title": "የውጭ ጉዳይ ሚኒስትር ጌዲዮን ጢሞቴዎስ (ዶ/ር) ቱርክዬ አንታሊያ ገቡ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ-32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) በኮፕ-31 ጉባኤ ላይ ለመሳተፍ ቱርክዬ አንታሊያ ገብተዋል። ሚኒስትሩ በቆይታቸው ከኮፕ-31 ፕሬዚዳንት፣ ከተለያዩ ሀገራት የአየር ንብረት ለውጥ ተደራዳሪ ቡድኖችና ከአጋር አካላት ጋር ይወያያሉ፡፡ ውይይቶቹ ከኮፕ-31 ወደ ኮፕ-32 የሚደረገውን ሽግግር በተሳለጠ ሁኔታ ለማስቀጠ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 13:19:14 +0000"
-  },
-  {
-    "title": "የሀረሪ ክልል መስተዳድር ምክር ቤት በተለያዩ ጉዳዮች ላይ ተወያይቶ ውሳኔ አሳለፈ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የሀረሪ ክልል መስተዳድር ምክር ቤት (ካቢኔ) ባካሄደው መደበኛ ስብሰባ በተለያዩ ጉዳዮች ላይ ተወያይቶ ውሳኔ አሳልፏል። መስተዳድር ምክር ቤቱ በዋናነትም ኢኮኖሚያዊ ፋይዳ ያላቸው ከ2 ነጥብ 65 ቢሊየን ብር በላይ ካፒታል ላስመዘገቡ 16 አልሚዎች የመስሪያ ቦታ በምደባ እንዲሰጥ ውሳኔ አስተላልፏል። የመስሪያ ቦታ እንዲሰጥ ውሳኔ የተላለፈውም በልዩ ሀገራዊና ክ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 11:45:23 +0000"
-  },
-  {
-    "title": "የብልፅግና ፓርቲ የሩብ ዓመት የሥራ አፈጻጸም ግምገማ ተካሄደ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የብልፅግና ፓርቲ የ2019 ዓ.ም የመጀመሪያ ሩብ ዓመት የሥራ አፈጻጸም የግምገማ መድረክ ተካሂዷል፡፡ በመድረኩ ላይ የብልፅግና ፓርቲ ምክትል ፕሬዚዳንትና የዋና ጽ/ቤት ኃላፊ አቶ አደም ፋራህን ጨምሮ የፓርቲው ዋና ጽ/ቤትና የቅርንጫፍ ጽ/ቤቶች ከፍተኛ አመራሮች ተገኝተዋል። በግምገማው ላይ የሩብ ዓመቱ የሥራ አፈጻጸም ሪፖርት የቀረበ ሲሆን፤ የተመዘገቡ ውጤቶች",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 11:12:19 +0000"
-  },
-  {
-    "title": "አህጉራዊ የአየር ንብረት ድርድር አቅምን ያጠናከረው አረንጓዴ ዐሻራ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ባለፉት ስምንት ዓመታት ያከናወነችው የአረንጓዴ ዐሻራ መርሐ ግብር በርካታ ውጤት አምጥቷል። መርሐ ግብሩ ከጀመረበት 2011 ዓ.ም ጀምሮ በበልግ፣ በክረምት እና በአንድ ጀምበር የችግኝ ተከላ ንቅናቄዎች አማካኝነት ከ56 ቢሊየን በላይ ችግኞች ተተክለዋል። ይህም የግብርና ምርታማነትን ከማሳደግ ጀምሮ ዘርፈ ብዙ ጥቅም ማስገኘት ጀምሯል። በተለይም በአሁኑ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 10:21:38 +0000"
-  },
-  {
-    "title": "በአማራ ክልል ሰብል የመሰብሰብ ሥራ እየተከናወነ ነው",
-    "summary": "አዲስ አበባ፣ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ቀድመው የደረሱ ሰብሎችን በቴክኖሎጂ ታግዞ የመሰብሰብ ሥራ እየተከናወነ ይገኛል አሉ በምክትል ርዕሰ መስተዳድር ማዕረግ የክልሉ የገጠር ክላስተር አስተባባሪ ድረስ ሳህሉ (ዶ/ር)። ድረስ ሳህሉ(ዶ/ር) ፥ በክልሉ የደረሰ ሰብል ወቅቱን ባልጠበቀ ዝናብ ጉዳት እንዳይደርስበትና የድህረ ምርት ብክነትን ለመቀነስ ከላይ እስከ ታች ባለው አመራርና ሙያተኛ ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 09:33:22 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ አረንጓዴ የልማት ጉዞ፡ ከአረንጓዴ ዐሻራ እስከ ኮፕ ጉባዔ",
-    "summary": "አዲስ አበባ፣ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የአየር ንብረት ለውጥ ተግዳሮቶችን ወደ መልካም አጋጣሚ በመቀየር ረገድ በቁርጠኝነት እየተንቀሳቀሰች ትገኛለች። በዚህ ረገድ የአረንጓዴ ዐሻራ መርሃግብር እና በአረንጓዴ ኢኮኖሚ ስትራቴጂ ኢትዮጵያ ለቀጣዩ ትውልድ ጽዱ እና ለኑሮ ምቹ የሆነ ከባቢን ለማስረከብ የምታደርገውን ጥረት በግልጽ ያሳያል። በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) አነሳሽነት የተ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 08:24:40 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ የአፍሪካን የአየር ንብረት ለውጥ አጀንዳዎች የምታንፀባርቅበት የኮፕ 31 ጉባኤ",
-    "summary": "አዲስ አበባ፣ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የአፍሪካን የአየር ንብረት ለውጥ አጀንዳዎች የምታንፀባርቅበት እና የቀጣይ አዘጋጅ ኃላፊነቷን የምትረከብበት 31ኛው የተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ 31) በነገው ዕለት በቱርክ መካሄድ ይጀምራል፡፡ በቱርክ አንታሊያ ከተማ የሚደረገው ጉባኤ ከቃላት ባለፈ ወደ ተግባርና አፈጻጸም መሸጋገር(“Where dialogue turns into",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 07:42:43 +0000"
   }
 ];
