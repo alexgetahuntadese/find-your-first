@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "ጉባኤው አፍሪካ የጋራ ዕጣ ፈንታዋን በራሷ ለመወሰን ያላትን ቁርጠኝነት ያረጋገጠ ነው – ብልፅግና ፓርቲ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) 2ኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባኤ አፍሪካ የጋራ ዕጣ ፈንታዋን በራሷ አቅም ለመወሰን ያላትን ቁርጠኝነት ያረጋገጠ ነው አሉ ብልፅግና ፓርቲ ዓለም አቀፍ ግንኙነት ዋና ዳይሬክተር አቶ ነብዩ ስሁል። ላለፉት ሶስት ቀናት በአዲስ አበባ በአድዋ ድል መታሰቢያ ሲካሄድ የቆየው ሁለተኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባኤ በታላቅ ስኬት ተጠናቅቋል። ጉባኤውን አስመል",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 17:30:22 +0000"
-  },
-  {
-    "title": "Deputy PM Temesgen Underscores Ethiopia’s Islamic Heritage as Foundation for National Unity and Progress",
-    "summary": "Addis Ababa, November 7, 2026 (FMC) – Deputy Prime Minister Temesgen Truneh has underscored Ethiopia’s profound Islamic heritage as an enduring source of national strength, calling for its preservation and strategic contribution to nation-building, cultural re",
+    "title": "Ethiopia Repatriates 1,584 Citizens from Saudi Arabia in Latest Citizens-First Diplomatic Effort",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia has repatriated 1,584 nationals who had been facing difficult circumstances in Saudi Arabia over the past week, reaffirming the protection and welfare of citizens abroad as a key pillar of the country’s diplomatic",
     "source": "FBC English",
-    "publishedAt": "Sat, 07 Nov 2026 16:30:38 +0000"
+    "publishedAt": "Mon, 09 Nov 2026 06:52:00 +0000"
   },
   {
-    "title": "የኢትዮጵያን የእስልምና ታሪክና መንፈሳዊ እሴቶች ለሀገረ መንግሥትና ለሥልጣኔ ግንባታ ማዋል ያስፈልጋል – ምክትል ጠቅላይ ሚኒስትር ተስመገን ጥሩነህ",
-    "summary": "የኢትዮጵያን የእስልምና ታሪክና መንፈሳዊ እሴቶች ለሀገረ መንግሥትና ለሥልጣኔ ግንባታ ማዋል ያስፈልጋል አሉ ምክትል ጠቅላይ ሚኒስትር ተስመገን ጥሩነህ። የእስልምና ጉዳዮች ጠቅላይ ምክር ቤት 2ኛ ዓመት 1ኛ መደበኛ ጉባኤ ማጠቃለያ መርሐ ግብር ምክትል ጠቅላይ ሚኒስትር ተመስገን ጥሩነህ በተገኙበት ተካሂዷል። ምክትል ጠቅላይ ሚኒስትሩ በማህበራዊ የትስስር ገጻቸው ባስተላለፉት መልዕክት እንዳሉት፤ የኢትዮጵያን የእስ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 16:10:27 +0000"
-  },
-  {
-    "title": "ሚኒስቴሩ ቅሬታ እና ጥቆማ ማቅረብ የሚያስችል ሥርዓት ይፋ አደረገ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) የገቢዎች ሚኒስቴር ቅሬታን እና ጥቆማን ማቅረብ የሚያስችል ሥርዓት ይፋ አድርጓል። የጥቆማ እና ቅሬታ ማቅረቢያ ሥርዓቶቹን ይፋ ያደረጉት የገቢዎች ሚኒስትር ዓይናለም ንጉሴ እና የሚኒስቴሩ የኢ-ዳታ ዘርፍ ሚኒስትር ዴኤታ ዳዊት ውብሸት ናቸው፡፡ በዚህም 6844 ነፃ የጥሪ መስመር እና ጥቆማ ማቅረቢያ ሥርዓት በመጠቀም ማንኛውንም የገቢውን ዘርፍ አሠራሮችን በተመለ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 15:55:58 +0000"
-  },
-  {
-    "title": "African Political Parties Adopt Addis Ababa Declaration, Commit to Advancing Economic Transformation",
-    "summary": "Addis Ababa, November 7, 2026 (FMC) — African political parties have adopted the Addis Ababa Declaration, committing to strengthen their role in driving the continent’s economic transformation through capable public institutions, industrial development, sustai",
+    "title": "From Seedlings to Global Influence: Ethiopia’s Green Legacy Is Giving Green Diplomacy New Roots",
+    "summary": "Addis Ababa, November 9, 2026 (FMC) – A seedling may appear small against the vastness of a changing planet. Yet, when millions of hands come together to plant billions of trees, the meaning of that simple act grows far beyond the soil. In Ethiopia, the Green ",
     "source": "FBC English",
-    "publishedAt": "Sat, 07 Nov 2026 15:43:27 +0000"
+    "publishedAt": "Mon, 09 Nov 2026 05:45:19 +0000"
   },
   {
-    "title": "Prosperity Party Vice President Calls on African Political Parties to Translate Addis Ababa Declaration into Action",
-    "summary": "Addis Ababa, November 7, 2026 (FMC) — Vice President of Ethiopia’s ruling Prosperity Party, Adem Farah, has called on African political parties to translate the commitments adopted at the Second African Political Parties Summit into practical action, emphasizi",
-    "source": "FBC English",
-    "publishedAt": "Sat, 07 Nov 2026 15:24:22 +0000"
-  },
-  {
-    "title": "አፍሪካውያን ፓርቲዎች የጉባኤውን ቃልኪዳን ተግባራዊ ለማድረግ ቁርጠኛ መሆን አለባቸው – አደም ፋራህ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) የአፍሪካ የፖለቲካ ፓርቲዎች በአዲስ አበባ በተካሄደው 2ኛው የአህጉሪቱ የፖለቲካ ፓርቲዎች ጉባኤ የፀደቀውን ቃልኪዳንና የጉባኤውን የአቋም መግለጫ ተግባራዊ ለማድረግ ቁርጠኛ መሆን አለባቸው አሉ የብልፅግና ፓርቲ ምክትል ፕሬዝዳንት አደም ፋራህ። አቶ አደም ፋራህ በ2ኛው የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ መዝጊያ ላይ ባደረጉት ንግግር እንዳሉት፤ ጉባኤው የአፍሪ",
+    "title": "ማንቼስተር ዩናይትድ እና አስቶን ቪላ አቻ ተለያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) በ10ኛ ሳምንት የእንግሊዝ ፕሪሚየር ሊግ መርሐ ግብር ማንቼስተር ዩናይትድ ከአስቶን ቪላ 4 ለ 4 አቻ ተለያይተዋል፡፡ ምሽት 1 ሰዓት ከ30 በኦልድትራፎርድ በተደረገው ጨዋታ የማንቼስተር ዩናይትድን ግቦች ብሩኖ ፈርናንዴሽ (በፍጹም ቅጣት ምት) ዩሪ ቴሊማንስ፣ ዮሹዋ ዚርክዚ እና ፓትሪክ ዶርጉ ከመረብ አሳርፈዋል፡፡ የአስቶን ቪላን ግቦች አሊሰን፣ ኒኮላስ ጃክሰ",
     "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 14:47:22 +0000"
+    "publishedAt": "Sun, 08 Nov 2026 18:34:37 +0000"
   },
   {
-    "title": "የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ የአዲስ አበባ ቃልኪዳንን በማፅደቅ ተጠናቀቀ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) በአዲስ አበባ ሲካሄድ የቆየው 2ኛው የአፍሪካ የፖለቲካ ፓርቲዎች ጉባኤ የአዲስ አበባ ቃልኪዳንን (Addis Ababa Declaration) በማፅደቅ እና የጋራ መግለጫ በማውጣት በዛሬው ዕለት በስኬት ተጠናቅቋል። ጉባኤውን ያጠናቀቁት የአፍሪካ የፖለቲካ ፓርቲዎች መሪዎች አህጉሪቱን ወደ ላቀ የኢኮኖሚ ከፍታ ለማሻገር የገቡትን ቃል የሚያረጋግጥ ባለ 22 ነጥብ የአ",
+    "title": "ከአንታሊያ እስከ አዲስ አበባ – ስለ ምድራችን የሚመከርበት ታላቅ ሁነት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ‎ዓለም በየዓመቱ በአንድ ጣራ ስር ተሰብስባ ትልቅ ትኩረት ሰጥታ ከምትመክርባቸው ጉዳዮች መካከል የተባበሩት መንግስታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ) ቀዳሚው ነው፡፡ ይህ ታላቅ ሁነት የአንዲት ሀገር ብቻ ሳይሆን የመላው የዓለም ሕዝብና የምድራችን እጣ ፈንታ ነው። ‎በነገው ዕለት የ31ኛው ምዕራፍ መጋረጃ በቱርክዬ የባህር ዳርቻ ከተማ አንታሊያ ይከፈታል፤",
     "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 13:23:17 +0000"
+    "publishedAt": "Sun, 08 Nov 2026 18:00:33 +0000"
   },
   {
-    "title": "በሴራና በተንኮል የባህር በር እንድናጣና የባህር ኃይላችን እንዲፈርስ መደረጉ ሀገራችንን ለተለያዩ ተግዳሮቶች ዳርጓታል – ቫይስ አድሚራል ክንዱ ገዙ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) በሴራና በተንኮል የባህር ኃይላችን እንዲፈርስ ብሎም የባህር በር እንድናጣ መደረጉም ሀገራችንን ለተለያዩ ተግዳሮቶች ዳርጓታል አሉ የኢትዮጵያ ባህር ኃይል አዛዥ ቫይስ አድሚራል ክንዱ ገዙ፡፡ የቀድሞው የኢትዮጵያ የጦር ኃይሎችና የፖሊስ ሠራዊት ማህበራት ህብረት አራተኛ ዓመት ጠቅላላ ጉባኤውን እያካሄደ ነው። በጉባኤው ላይ ንግግር ያደረጉት የኢትዮጵያ ባህር ኃይ",
+    "title": "በአረንጓዴ ኢኮኖሚ ግንባታ ለአፍሪካ አርዓያ እየሆነች ያለችው ኢትዮጵያ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የአየር ንብረት ለውጥ በዓለም ላይ እያስከተለ ያለው ተፅዕኖ እየጨመረ በመጣበት ወቅት ኢኮኖሚያዊ እድገትን ከአካባቢ ጥበቃ ጋር ማስማማት የግድ ሆኗል። ይህንን ተጽእኖ ለመቋቋም ኢትዮጵያ የአረንጓዴ ኢኮኖሚ ግንባታን ከሀገራዊ የልማት አቅጣጫዋ ጋር በማቀናጀት ወደ በተግበር ላይ ትገኛለች። የኢትዮጵያ አረንጓዴ ኢኮኖሚ ግንባታ ጉዞ የዛሬ ውሳኔ ብቻ ሳይሆን ለቀጣይ",
     "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 12:25:40 +0000"
+    "publishedAt": "Sun, 08 Nov 2026 16:32:58 +0000"
   },
   {
-    "title": "የመደመር እሳቤ የአፍሪካውያንን ወንድማማችነት ለማጎልበት ከፍተኛ አስተዋጽኦ አለው",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤም ሲ) የመደመር እሳቤ ከኢትዮጵያ አልፎ የአፍሪካ ሀገራትን አንድነትና ትብብር በማጠናከር የህዝቦችን ወንድማማችነት ለማጎልበት ከፍተኛ አስተዋጽኦ አለው አሉ የብልጽግና ፓርቲ የፖለቲካና የህዝብ ግንኙነት ዘርፍ ኃላፊ ቢቂላ ሁሪሳ (ዶ/ር)፡፡ 2ኛው የአፍሪካ ፖለቲካ ፓርቲዎች ጉባዔ “ዕድገትን መምራት ፖለቲካ ፓርቲዎች እንደ የአፍሪካ መጻኢ ኢኮኖሚ መሃንዲሶች” በሚል መ",
+    "title": "የውጭ ጉዳይ ሚኒስትር ጌዲዮን ጢሞቴዎስ (ዶ/ር) ቱርክዬ አንታሊያ ገቡ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ-32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) በኮፕ-31 ጉባኤ ላይ ለመሳተፍ ቱርክዬ አንታሊያ ገብተዋል። ሚኒስትሩ በቆይታቸው ከኮፕ-31 ፕሬዚዳንት፣ ከተለያዩ ሀገራት የአየር ንብረት ለውጥ ተደራዳሪ ቡድኖችና ከአጋር አካላት ጋር ይወያያሉ፡፡ ውይይቶቹ ከኮፕ-31 ወደ ኮፕ-32 የሚደረገውን ሽግግር በተሳለጠ ሁኔታ ለማስቀጠ",
     "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 10:27:17 +0000"
+    "publishedAt": "Sun, 08 Nov 2026 13:19:14 +0000"
   },
   {
-    "title": "🇪🇹🇿🇼 Ethiopia’s Prosperity Party and Zimbabwe’s ZANU-PF Sign MoU to Strengthen Bilateral Cooperation",
-    "summary": "Addis Ababa, November 7, 2026 (FMC) — Ethiopia’s ruling Prosperity Party and Zimbabwe’s ruling ZANU-PF have signed a Memorandum of Understanding (MoU) to deepen party-to-party relations and institutional cooperation, opening a framework for sustained collabora",
-    "source": "FBC English",
-    "publishedAt": "Sat, 07 Nov 2026 10:03:37 +0000"
-  },
-  {
-    "title": "የተፈጥሮ ፈተናዎችን የመሻገር ጥበብ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 28፣ 2019 (ኤፍ ኤፍ ሲ) ኢትዮጵያ ለበርካታ ጊዜያት በተፈጥሮ አደጋዎች ተፈትና ታውቃለች፤ ይህም ለኢኮኖሚዋ ከባድ ተግዳሮት ሲሆንባት ቆይቷል፡፡ ዛሬ ላይ ኢትዮጵያ በዝናብ እጥረት ምክንያት የሚከሰቱ አደጋዎችን ለመቀነስ በርካታ ስራዎች እየተሰሩ ይገኛሉ፡፡ ይህ የተለያዩ የተፈጥሮና ሰው ሰራሽ አደጋዎችን ለመቋቋም እንዲሁም የማይበገር ኢኮኖሚ ለመገንባት በማለም የተደረገ ነው፡፡ ዋነኛ መ",
+    "title": "የሀረሪ ክልል መስተዳድር ምክር ቤት በተለያዩ ጉዳዮች ላይ ተወያይቶ ውሳኔ አሳለፈ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የሀረሪ ክልል መስተዳድር ምክር ቤት (ካቢኔ) ባካሄደው መደበኛ ስብሰባ በተለያዩ ጉዳዮች ላይ ተወያይቶ ውሳኔ አሳልፏል። መስተዳድር ምክር ቤቱ በዋናነትም ኢኮኖሚያዊ ፋይዳ ያላቸው ከ2 ነጥብ 65 ቢሊየን ብር በላይ ካፒታል ላስመዘገቡ 16 አልሚዎች የመስሪያ ቦታ በምደባ እንዲሰጥ ውሳኔ አስተላልፏል። የመስሪያ ቦታ እንዲሰጥ ውሳኔ የተላለፈውም በልዩ ሀገራዊና ክ",
     "source": "Fana Media",
-    "publishedAt": "Sat, 07 Nov 2026 09:58:26 +0000"
+    "publishedAt": "Sun, 08 Nov 2026 11:45:23 +0000"
+  },
+  {
+    "title": "የብልፅግና ፓርቲ የሩብ ዓመት የሥራ አፈጻጸም ግምገማ ተካሄደ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የብልፅግና ፓርቲ የ2019 ዓ.ም የመጀመሪያ ሩብ ዓመት የሥራ አፈጻጸም የግምገማ መድረክ ተካሂዷል፡፡ በመድረኩ ላይ የብልፅግና ፓርቲ ምክትል ፕሬዚዳንትና የዋና ጽ/ቤት ኃላፊ አቶ አደም ፋራህን ጨምሮ የፓርቲው ዋና ጽ/ቤትና የቅርንጫፍ ጽ/ቤቶች ከፍተኛ አመራሮች ተገኝተዋል። በግምገማው ላይ የሩብ ዓመቱ የሥራ አፈጻጸም ሪፖርት የቀረበ ሲሆን፤ የተመዘገቡ ውጤቶች",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 08 Nov 2026 11:12:19 +0000"
+  },
+  {
+    "title": "አህጉራዊ የአየር ንብረት ድርድር አቅምን ያጠናከረው አረንጓዴ ዐሻራ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ባለፉት ስምንት ዓመታት ያከናወነችው የአረንጓዴ ዐሻራ መርሐ ግብር በርካታ ውጤት አምጥቷል። መርሐ ግብሩ ከጀመረበት 2011 ዓ.ም ጀምሮ በበልግ፣ በክረምት እና በአንድ ጀምበር የችግኝ ተከላ ንቅናቄዎች አማካኝነት ከ56 ቢሊየን በላይ ችግኞች ተተክለዋል። ይህም የግብርና ምርታማነትን ከማሳደግ ጀምሮ ዘርፈ ብዙ ጥቅም ማስገኘት ጀምሯል። በተለይም በአሁኑ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 08 Nov 2026 10:21:38 +0000"
+  },
+  {
+    "title": "በአማራ ክልል ሰብል የመሰብሰብ ሥራ እየተከናወነ ነው",
+    "summary": "አዲስ አበባ፣ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ቀድመው የደረሱ ሰብሎችን በቴክኖሎጂ ታግዞ የመሰብሰብ ሥራ እየተከናወነ ይገኛል አሉ በምክትል ርዕሰ መስተዳድር ማዕረግ የክልሉ የገጠር ክላስተር አስተባባሪ ድረስ ሳህሉ (ዶ/ር)። ድረስ ሳህሉ(ዶ/ር) ፥ በክልሉ የደረሰ ሰብል ወቅቱን ባልጠበቀ ዝናብ ጉዳት እንዳይደርስበትና የድህረ ምርት ብክነትን ለመቀነስ ከላይ እስከ ታች ባለው አመራርና ሙያተኛ ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 08 Nov 2026 09:33:22 +0000"
+  },
+  {
+    "title": "የኢትዮጵያ አረንጓዴ የልማት ጉዞ፡ ከአረንጓዴ ዐሻራ እስከ ኮፕ ጉባዔ",
+    "summary": "አዲስ አበባ፣ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የአየር ንብረት ለውጥ ተግዳሮቶችን ወደ መልካም አጋጣሚ በመቀየር ረገድ በቁርጠኝነት እየተንቀሳቀሰች ትገኛለች። በዚህ ረገድ የአረንጓዴ ዐሻራ መርሃግብር እና በአረንጓዴ ኢኮኖሚ ስትራቴጂ ኢትዮጵያ ለቀጣዩ ትውልድ ጽዱ እና ለኑሮ ምቹ የሆነ ከባቢን ለማስረከብ የምታደርገውን ጥረት በግልጽ ያሳያል። በጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) አነሳሽነት የተ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 08 Nov 2026 08:24:40 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ የአፍሪካን የአየር ንብረት ለውጥ አጀንዳዎች የምታንፀባርቅበት የኮፕ 31 ጉባኤ",
+    "summary": "አዲስ አበባ፣ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ የአፍሪካን የአየር ንብረት ለውጥ አጀንዳዎች የምታንፀባርቅበት እና የቀጣይ አዘጋጅ ኃላፊነቷን የምትረከብበት 31ኛው የተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ 31) በነገው ዕለት በቱርክ መካሄድ ይጀምራል፡፡ በቱርክ አንታሊያ ከተማ የሚደረገው ጉባኤ ከቃላት ባለፈ ወደ ተግባርና አፈጻጸም መሸጋገር(“Where dialogue turns into",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 08 Nov 2026 07:42:43 +0000"
   }
 ];
