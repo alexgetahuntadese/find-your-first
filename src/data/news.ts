@@ -3,22 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ethiopian Airlines and Nigeria’s Air Peace Forge Partnership to Expand Air Connectivity Across Africa and Global Markets",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopian Airlines and Nigeria’s Air Peace have signed a bilateral interline agreement to expand air connectivity across Africa and provide passengers with more convenient access to destinations across the continent and b",
+    "title": "🇪🇹🇹🇷 PM Abiy Arrives in Antalya, Holds Talks with Turkish President Erdoğan Ahead of COP31",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed arrived in Antalya, Türkiye, ahead of the COP31 Leaders’ Summit and held a bilateral meeting with Turkish President Recep Tayyip Erdoğan, focusing on strengthening relations between the",
     "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 07:39:10 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 17:12:41 +0000"
   },
   {
-    "title": "Ethiopia Presses for OACPS–EU Partnership That Delivers Debt Solutions, Development Finance and Investment",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopia has pressed for a stronger, more balanced and results-oriented partnership between the Organization of African, Caribbean and Pacific States (OACPS) and the European Union (EU), placing debt challenges, developme",
+    "title": "Addis Ababa and UN-Habitat Agree to Turn Urban Development Partnership, Identify Priority Projects into Action",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Addis Ababa Mayor Adanech Abiebie and UN-Habitat Executive Director Anacláudia Rossbach have discussed strengthening cooperation on urban transformation and sustainable development, with particular attention to translatin",
     "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 07:01:31 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 14:17:11 +0000"
   },
   {
-    "title": "COP31 Must Translate Global Climate Commitments into Concrete Progress on Mitigation, Adaptation and Finance: Foreign Minister",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Rebuilding confidence in multilateral climate cooperation through tangible delivery, inclusive processes and outcomes that connect global ambition with national implementation is a central priority for Ethiopia as it prep",
+    "title": "AU Commission and Pan-African Parliament Move to Strengthen Continental Legislative Institution and Advance Institutional Reforms",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – The African Union Commission and the Pan-African Parliament have discussed a series of institutional reforms and initiatives aimed at strengthening the Parliament’s effectiveness, operational capacity and contribution to ",
     "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 06:39:03 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 13:57:59 +0000"
+  },
+  {
+    "title": "Ethiopia and LDC Group Discuss Priorities and Preparations for COP32",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopia’s Foreign Minister and COP32 President-Designate, Gedion Timothewos, held discussions with Chair of the Least Developed Countries (LDC) Group, Ambassador Adão Soares Barbosa of Timor-Leste, on the group’s priorit",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 13:47:46 +0000"
+  },
+  {
+    "title": "ECA Chief Looks to Ethiopia to Advance Africa’s Climate Implementation Agenda Ahead of COP32",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – United Nations Under-Secretary-General and Executive Secretary of the Economic Commission for Africa (ECA), Claver Gatete, has called for stronger institutional ownership, sustainable financing and measurable results to t",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 13:39:04 +0000"
+  },
+  {
+    "title": "Addis Ababa to Unite African Cities in Advancing Shared Climate Priorities, Financing Needs and Development Agendas at COP32: Mayor",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Addis Ababa Mayor Adanech Abiebie has underscored the the Ethiopian capital’s opportunity, as host of COP32, to bring African cities together and provide a common platform for advancing their shared climate priorities, fi",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 12:52:52 +0000"
+  },
+  {
+    "title": "Ethiopia and UN Weather Agency Explore Climate Observation, Data Equity Cooperation Ahead of COP32",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopia’s Minister of National Strategy, Bereket Fesehatsion, held discussions with World Meteorological Organization (WMO) Secretary-General Prof. Celeste Saulo on strengthening cooperation in climate observations, earl",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 10:55:18 +0000"
+  },
+  {
+    "title": "From the Land of the Abbay to Africa’s Electric Highways: Ethiopia Is Driving a New Mobility Era",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – The energy transition is often imagined through towering power stations, sweeping wind turbines and vast solar fields. Yet one of its most consequential transformations is taking place much closer to everyday life: on the",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 10:41:43 +0000"
+  },
+  {
+    "title": "From the Power of Nature to the Power of a Nation: Ethiopia’s Renewable Energy Transformation",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – A river descending from the Ethiopian highlands carries more than water. It carries the possibility of lighting homes, powering industries, connecting economies and changing the development trajectory of a nation. The win",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 10:10:06 +0000"
+  },
+  {
+    "title": "China Reaffirms Commitment to Deepening Cooperation with Belt and Road Partner Countries",
+    "summary": "Beijing, November 10, 2026 (FMC) – China has reaffirmed its commitment to strengthening comprehensive cooperation and support for countries participating in the Belt and Road Initiative (BRI), as media representatives from 16 partner countries, including Ethio",
+    "source": "FBC English",
+    "publishedAt": "Tue, 10 Nov 2026 09:00:04 +0000"
   },
   {
     "title": "ለትውልድ ምንዳ የምናወርስበት የአሰላ የንፋስ ኃይል ማመንጫ",
@@ -31,47 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ – 32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከኔፓል የውጭ ጉዳይ ሚኒስትር ሺሲር ካናል ጋር ተወያይተዋል፡፡ ጌዲዮን ጢሞቴዎስ (ዶ/ር) በቱርኪዬ አንታሊያ እየተካሄደ ከሚገኘው የኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ በውይይታቸውም በአየር ንብረት ለውጥ ቅድሚያ በሚሰጣቸው ጉዳዮችና በአዲስ አ",
     "source": "Fana Media",
     "publishedAt": "Mon, 09 Nov 2026 19:52:38 +0000"
-  },
-  {
-    "title": "ፍጹም አሰፋ (ዶ/ር) ከP4G ዋና ዳይሬክተር ሮቢን ማክጉኪን ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የገንዘብ ሚኒስትር እና የኮፕ – 32 ዋና ተደራዳሪ ፍጹም አሰፋ (ዶ/ር) ከP4G (Partnering for Green Growth and the Global Goals) ዋና ዳይሬክተር ሮቢን ማክጉኪን ጋር ተወያይተዋል፡፡ ፍጹም አሰፋ (ዶ/ር) ከኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ ውይይታቸውም የአየር ንብረት ፈጠራ ሥርዓቶችን ማጠናከር",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 19:27:20 +0000"
-  },
-  {
-    "title": "ፍጹም አሰፋ (ዶ/ር) ከየኪሳራና ጉዳት ምላሽ ፈንድ ዋና ዳይሬክተር ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የገንዘብ ሚኒስትር እና የኮፕ – 32 ዋና ተደራዳሪ ፍጹም አሰፋ (ዶ/ር) ከየኪሳራና ጉዳት ምላሽ ፈንድ ዋና ዳይሬክተር ኢብራሂማ ቼይክ ዲዮንግ ጋር ተወያይተዋል፡፡ ፍጹም አሰፋ (ዶ/ር) ከኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ ውይይታቸው በጋራ የአየር ንብረትና የዘላቂ ልማት ቅድሚያ የሚሰጣቸው ጉዳዮች ዙሪያ ትብብርን በማጠናከርና ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 19:14:40 +0000"
-  },
-  {
-    "title": "ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከዓለም አቀፉ የኢነርጂ ኤጀንሲ ዋና ዳይሬክተር ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ – 32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከዓለም አቀፉ የኢነርጂ ኤጀንሲ ዋና ዳይሬክተር ፋቲህ ቢሮል (ዶ/ር) ጋር ተወያይተዋል፡፡ ጌዲዮን ጢሞቴዎስ (ዶ/ር) በቱርክዬ አንታሊያ እየተካሄደ በሚገኘው ከኮፕ – 31 ጉባኤ ጎን ለጎን ነው ከዓለም አቀፉ የኢነርጂ ኤጀንሲ ዋና ዳይሬክተር ፋቲህ ቢሮል (ዶ/ር) ጋር […]",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 19:00:43 +0000"
-  },
-  {
-    "title": "ለኮፕ – 32 ጠንካራ ዝግጅት ላይ የምትገኘው የኢትዮጵያ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) በቀጣዩ ዓመት የሚካሄደውን የኮፕ – 32 ለማዘጋጀት የተለያዩ ዝግጅችን እያደረገች የምትገኘው ኢትዮጵያ ለጉባኤው ዝግጁ መሆኗን በኮፕ – 31 መድረክ ላይ እያስመሰከረች ትገኛለች፡፡ ከ60 በላይ ዝግጅቶችን የምታቀርበበትን ፓቪሊዮን በቱርኪዬ አንታሊያ በተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ ላይ የከፈተችው ኢትዮጵያ ለኮፕ – 32 ጉባኤ ያለችበትን የዝ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 18:08:16 +0000"
-  },
-  {
-    "title": "ኢትዮጵያን የባህር በር ያሳጣትን ውሳኔ ማን ወሰነው?",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ)ኢትዮጵያ የባህር በር ባለቤትነቷን ያጣችው በማን ውሳኔ ነው? ውሳኔውን ያሳለፈው የሚኒስትሮች ምክር ቤት ይሆን? የምክር ቤቱን የውሳኔ ሰነዶች ስንመረምር ግን ይህንን የሚያረጋግጥ ማስረጃ አናገኝም። የሕዝብ ተወካዮች ምክር ቤትም በዚህ ረገድ ውሳኔ አላሳለፈም። ታዲያ የአንድን ሀገር ታሪክ፣ የኢኮኖሚ አቅምና የስትራቴጂክ ጥቅም የሚነካ እንዲሁም የሕዝብን ሕይወት ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 17:05:25 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ በኮፕ – 31",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በቱርኪዬ አንታሊያ እየተካሄደ ባለው ኮፕ – 31 የራሷን ፓቪሊዮን በመክፈት የአየር ንብረት ለውጥን ለመቋቋም የምታከናውናቸውን ተግባራትና የአረንጓዴ ልማት ልምዶቿን ለዓለም እያስተዋወቀች ትገኛለች። ይህ ተሳትፎ ኢትዮጵያ በአዲስ አበባ ለምታስተናግደው ኮፕ – 32 የምታደርገው ዝግጅት አካል ነው። ፓቪሊዮኑ ኢትዮጵያ በአየር ንብረት ጥበቃ፣ በተፈጥሮ ሀ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 15:52:13 +0000"
-  },
-  {
-    "title": "አዲስ አበባ፤ ከአህጉራዊ ማዕከልነት እስከ ዓለም አቀፍ ስበት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) ባለፉት ጥቂት ዓመታት ውስጥ የብዙዎች መነጋገሪያ የሆነችው ከተማ አዲስ አበባ የሚደነቅና ፈጣን ለውጥ እያሳየች ትገኛለች። የአዲስ አበባ ውበት በኮሪደር ልማቷና የወንዝ ዳርቻ ፕሮጀክቶቿ፣ በዘመናዊነት በተገነቡ ሕንፃዎቿና በመናፈሻ ቦታዎቿ፣ ብቻ ሳይሆን በእንግዳ ተቀባይነቷም ጭምር ይለካል፡፡ በመዲናዋ ያለው ሰላምና ጸጥታ ጋር ከኢትዮጵያውያን የእንግዳ ተቀባይነ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 14:44:06 +0000"
   }
 ];
