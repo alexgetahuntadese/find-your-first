@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ethiopia Building Global Confidence, Mobilizing Climate Investment Ahead of COP32: Finance Minister",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia is using its participation in the ongoing 31st United Nations Climate Change Conference (COP31) in Antalya, Türkiye, to strengthen international confidence in its climate commitments, expand global partnerships an",
+    "title": "Ethiopian Airlines and Nigeria’s Air Peace Forge Partnership to Expand Air Connectivity Across Africa and Global Markets",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopian Airlines and Nigeria’s Air Peace have signed a bilateral interline agreement to expand air connectivity across Africa and provide passengers with more convenient access to destinations across the continent and b",
     "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 14:31:38 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 07:39:10 +0000"
   },
   {
-    "title": "Ethiopia Mobilizing Global Partners, Building Momentum for COP32 at COP31: Foreign Minister Gedion Timothewos",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia is mobilizing international partners and building momentum for COP32 through its engagement at the ongoing 31st United Nations Climate Change Conference (COP31) in Antalya, Türkiye, Foreign Minister and COP32 Pres",
+    "title": "Ethiopia Presses for OACPS–EU Partnership That Delivers Debt Solutions, Development Finance and Investment",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopia has pressed for a stronger, more balanced and results-oriented partnership between the Organization of African, Caribbean and Pacific States (OACPS) and the European Union (EU), placing debt challenges, developme",
     "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 14:21:39 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 07:01:31 +0000"
   },
   {
-    "title": "56 Billion Green Veins Beneath a Feverish Sky: Ethiopia’s Attempt to Keep the Earth’s Lifeblood Flowing",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – The Earth is running a fever, and its warning signs are written across the skin of the planet. Forests recede like vanishing memories, once-fertile soils lose their strength, rivers face mounting pressure, and the seasons ",
+    "title": "COP31 Must Translate Global Climate Commitments into Concrete Progress on Mitigation, Adaptation and Finance: Foreign Minister",
+    "summary": "Addis Ababa, November 10, 2026 (FMC) – Rebuilding confidence in multilateral climate cooperation through tangible delivery, inclusive processes and outcomes that connect global ambition with national implementation is a central priority for Ethiopia as it prep",
     "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 12:02:33 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 06:39:03 +0000"
   },
   {
-    "title": "Green Legacy: Ethiopia’s Homegrown Answer to a Planet in Peril",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – The planet is sending distress signals. Forests are disappearing, landscapes are drying, rivers are under pressure and extreme weather is unsettling the delicate balance that sustains life. Climate change is no longer a di",
-    "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 10:51:54 +0000"
-  },
-  {
-    "title": "Ethiopia Pavilion Opens at COP31 in Antalya",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia’s Pavilion at the 31st United Nations Climate Change Conference (COP31) was officially inaugurated today in Antalya, Türkiye, marking the country’s presence at the global climate summit as it prepares to host COP3",
-    "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 09:24:25 +0000"
-  },
-  {
-    "title": "COP31 Opens in Antalya, Bringing Global Climate Negotiations to Türkiye",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – The 31st United Nations Climate Change Conference (COP31) opened today in Antalya, Türkiye, bringing together representatives of nearly 200 countries for two weeks of high-level discussions and negotiations on the global c",
-    "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 09:17:30 +0000"
-  },
-  {
-    "title": "EXCLUSIVE: Ethiopia-Morocco Cooperation Can Turn Shared Development Experiences into Wider African Opportunities: Moroccan Youth Leader",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – Strengthening cooperation between Ethiopia and Morocco through shared development experiences, investment in human capital, regional stability and South-South collaboration offers opportunities to advance their respective ",
-    "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 08:09:19 +0000"
-  },
-  {
-    "title": "Ethiopia Repatriates 1,584 Citizens from Saudi Arabia in Latest Citizens-First Diplomatic Effort",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – Ethiopia has repatriated 1,584 nationals who had been facing difficult circumstances in Saudi Arabia over the past week, reaffirming the protection and welfare of citizens abroad as a key pillar of the country’s diplomatic",
-    "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 06:52:00 +0000"
-  },
-  {
-    "title": "From Seedlings to Global Influence: Ethiopia’s Green Legacy Is Giving Green Diplomacy New Roots",
-    "summary": "Addis Ababa, November 9, 2026 (FMC) – A seedling may appear small against the vastness of a changing planet. Yet, when millions of hands come together to plant billions of trees, the meaning of that simple act grows far beyond the soil. In Ethiopia, the Green ",
-    "source": "FBC English",
-    "publishedAt": "Mon, 09 Nov 2026 05:45:19 +0000"
-  },
-  {
-    "title": "ማንቼስተር ዩናይትድ እና አስቶን ቪላ አቻ ተለያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) በ10ኛ ሳምንት የእንግሊዝ ፕሪሚየር ሊግ መርሐ ግብር ማንቼስተር ዩናይትድ ከአስቶን ቪላ 4 ለ 4 አቻ ተለያይተዋል፡፡ ምሽት 1 ሰዓት ከ30 በኦልድትራፎርድ በተደረገው ጨዋታ የማንቼስተር ዩናይትድን ግቦች ብሩኖ ፈርናንዴሽ (በፍጹም ቅጣት ምት) ዩሪ ቴሊማንስ፣ ዮሹዋ ዚርክዚ እና ፓትሪክ ዶርጉ ከመረብ አሳርፈዋል፡፡ የአስቶን ቪላን ግቦች አሊሰን፣ ኒኮላስ ጃክሰ",
+    "title": "ለትውልድ ምንዳ የምናወርስበት የአሰላ የንፋስ ኃይል ማመንጫ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የታዳሽ ኃይል አጠቃቀም እንደ ኢትዮጵያ ላሉ በተፈጥሮ ሀብት ለታደሉ ሀገራት ዘርፈ ብዙ ፋይዳ አለው። በዚህም ኢትዮጵያ በታዳሽ ኃይል አቅርቦት ዘርፍ በርካታ ሥራዎችን በመሥራት የአፍሪካ የኃይል ማማ ለመሆን በቅታለች፡፡ ኢትዮጵያ ከ130 ሚሊየን በላይ ሕዝብ ያላት ሀገር ናት፤ ከእነዚህም መካከል አብዛኛው በገጠሪቱ አካባቢዎች የሚኖረው የኅብረተሰብ ክፍል የአኗኗ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 18:34:37 +0000"
+    "publishedAt": "Mon, 09 Nov 2026 20:55:45 +0000"
   },
   {
-    "title": "ከአንታሊያ እስከ አዲስ አበባ – ስለ ምድራችን የሚመከርበት ታላቅ ሁነት",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) ‎ዓለም በየዓመቱ በአንድ ጣራ ስር ተሰብስባ ትልቅ ትኩረት ሰጥታ ከምትመክርባቸው ጉዳዮች መካከል የተባበሩት መንግስታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ) ቀዳሚው ነው፡፡ ይህ ታላቅ ሁነት የአንዲት ሀገር ብቻ ሳይሆን የመላው የዓለም ሕዝብና የምድራችን እጣ ፈንታ ነው። ‎በነገው ዕለት የ31ኛው ምዕራፍ መጋረጃ በቱርክዬ የባህር ዳርቻ ከተማ አንታሊያ ይከፈታል፤",
+    "title": "ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከኔፓል የውጭ ጉዳይ ሚኒስትር ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ – 32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከኔፓል የውጭ ጉዳይ ሚኒስትር ሺሲር ካናል ጋር ተወያይተዋል፡፡ ጌዲዮን ጢሞቴዎስ (ዶ/ር) በቱርኪዬ አንታሊያ እየተካሄደ ከሚገኘው የኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ በውይይታቸውም በአየር ንብረት ለውጥ ቅድሚያ በሚሰጣቸው ጉዳዮችና በአዲስ አ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 18:00:33 +0000"
+    "publishedAt": "Mon, 09 Nov 2026 19:52:38 +0000"
   },
   {
-    "title": "በአረንጓዴ ኢኮኖሚ ግንባታ ለአፍሪካ አርዓያ እየሆነች ያለችው ኢትዮጵያ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 29፣ 2019 (ኤፍ ኤም ሲ) የአየር ንብረት ለውጥ በዓለም ላይ እያስከተለ ያለው ተፅዕኖ እየጨመረ በመጣበት ወቅት ኢኮኖሚያዊ እድገትን ከአካባቢ ጥበቃ ጋር ማስማማት የግድ ሆኗል። ይህንን ተጽእኖ ለመቋቋም ኢትዮጵያ የአረንጓዴ ኢኮኖሚ ግንባታን ከሀገራዊ የልማት አቅጣጫዋ ጋር በማቀናጀት ወደ በተግበር ላይ ትገኛለች። የኢትዮጵያ አረንጓዴ ኢኮኖሚ ግንባታ ጉዞ የዛሬ ውሳኔ ብቻ ሳይሆን ለቀጣይ",
+    "title": "ፍጹም አሰፋ (ዶ/ር) ከP4G ዋና ዳይሬክተር ሮቢን ማክጉኪን ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የገንዘብ ሚኒስትር እና የኮፕ – 32 ዋና ተደራዳሪ ፍጹም አሰፋ (ዶ/ር) ከP4G (Partnering for Green Growth and the Global Goals) ዋና ዳይሬክተር ሮቢን ማክጉኪን ጋር ተወያይተዋል፡፡ ፍጹም አሰፋ (ዶ/ር) ከኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ ውይይታቸውም የአየር ንብረት ፈጠራ ሥርዓቶችን ማጠናከር",
     "source": "Fana Media",
-    "publishedAt": "Sun, 08 Nov 2026 16:32:58 +0000"
+    "publishedAt": "Mon, 09 Nov 2026 19:27:20 +0000"
+  },
+  {
+    "title": "ፍጹም አሰፋ (ዶ/ር) ከየኪሳራና ጉዳት ምላሽ ፈንድ ዋና ዳይሬክተር ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የገንዘብ ሚኒስትር እና የኮፕ – 32 ዋና ተደራዳሪ ፍጹም አሰፋ (ዶ/ር) ከየኪሳራና ጉዳት ምላሽ ፈንድ ዋና ዳይሬክተር ኢብራሂማ ቼይክ ዲዮንግ ጋር ተወያይተዋል፡፡ ፍጹም አሰፋ (ዶ/ር) ከኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ ውይይታቸው በጋራ የአየር ንብረትና የዘላቂ ልማት ቅድሚያ የሚሰጣቸው ጉዳዮች ዙሪያ ትብብርን በማጠናከርና ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 09 Nov 2026 19:14:40 +0000"
+  },
+  {
+    "title": "ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከዓለም አቀፉ የኢነርጂ ኤጀንሲ ዋና ዳይሬክተር ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ – 32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከዓለም አቀፉ የኢነርጂ ኤጀንሲ ዋና ዳይሬክተር ፋቲህ ቢሮል (ዶ/ር) ጋር ተወያይተዋል፡፡ ጌዲዮን ጢሞቴዎስ (ዶ/ር) በቱርክዬ አንታሊያ እየተካሄደ በሚገኘው ከኮፕ – 31 ጉባኤ ጎን ለጎን ነው ከዓለም አቀፉ የኢነርጂ ኤጀንሲ ዋና ዳይሬክተር ፋቲህ ቢሮል (ዶ/ር) ጋር […]",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 09 Nov 2026 19:00:43 +0000"
+  },
+  {
+    "title": "ለኮፕ – 32 ጠንካራ ዝግጅት ላይ የምትገኘው የኢትዮጵያ",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) በቀጣዩ ዓመት የሚካሄደውን የኮፕ – 32 ለማዘጋጀት የተለያዩ ዝግጅችን እያደረገች የምትገኘው ኢትዮጵያ ለጉባኤው ዝግጁ መሆኗን በኮፕ – 31 መድረክ ላይ እያስመሰከረች ትገኛለች፡፡ ከ60 በላይ ዝግጅቶችን የምታቀርበበትን ፓቪሊዮን በቱርኪዬ አንታሊያ በተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ ላይ የከፈተችው ኢትዮጵያ ለኮፕ – 32 ጉባኤ ያለችበትን የዝ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 09 Nov 2026 18:08:16 +0000"
+  },
+  {
+    "title": "ኢትዮጵያን የባህር በር ያሳጣትን ውሳኔ ማን ወሰነው?",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ)ኢትዮጵያ የባህር በር ባለቤትነቷን ያጣችው በማን ውሳኔ ነው? ውሳኔውን ያሳለፈው የሚኒስትሮች ምክር ቤት ይሆን? የምክር ቤቱን የውሳኔ ሰነዶች ስንመረምር ግን ይህንን የሚያረጋግጥ ማስረጃ አናገኝም። የሕዝብ ተወካዮች ምክር ቤትም በዚህ ረገድ ውሳኔ አላሳለፈም። ታዲያ የአንድን ሀገር ታሪክ፣ የኢኮኖሚ አቅምና የስትራቴጂክ ጥቅም የሚነካ እንዲሁም የሕዝብን ሕይወት ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 09 Nov 2026 17:05:25 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ በኮፕ – 31",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በቱርኪዬ አንታሊያ እየተካሄደ ባለው ኮፕ – 31 የራሷን ፓቪሊዮን በመክፈት የአየር ንብረት ለውጥን ለመቋቋም የምታከናውናቸውን ተግባራትና የአረንጓዴ ልማት ልምዶቿን ለዓለም እያስተዋወቀች ትገኛለች። ይህ ተሳትፎ ኢትዮጵያ በአዲስ አበባ ለምታስተናግደው ኮፕ – 32 የምታደርገው ዝግጅት አካል ነው። ፓቪሊዮኑ ኢትዮጵያ በአየር ንብረት ጥበቃ፣ በተፈጥሮ ሀ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 09 Nov 2026 15:52:13 +0000"
+  },
+  {
+    "title": "አዲስ አበባ፤ ከአህጉራዊ ማዕከልነት እስከ ዓለም አቀፍ ስበት",
+    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) ባለፉት ጥቂት ዓመታት ውስጥ የብዙዎች መነጋገሪያ የሆነችው ከተማ አዲስ አበባ የሚደነቅና ፈጣን ለውጥ እያሳየች ትገኛለች። የአዲስ አበባ ውበት በኮሪደር ልማቷና የወንዝ ዳርቻ ፕሮጀክቶቿ፣ በዘመናዊነት በተገነቡ ሕንፃዎቿና በመናፈሻ ቦታዎቿ፣ ብቻ ሳይሆን በእንግዳ ተቀባይነቷም ጭምር ይለካል፡፡ በመዲናዋ ያለው ሰላምና ጸጥታ ጋር ከኢትዮጵያውያን የእንግዳ ተቀባይነ",
+    "source": "Fana Media",
+    "publishedAt": "Mon, 09 Nov 2026 14:44:06 +0000"
   }
 ];
