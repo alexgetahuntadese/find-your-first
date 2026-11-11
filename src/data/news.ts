@@ -3,10 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Leaders of Ethiopia and Somalia Review Security Developments and Regional Stability",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Regional security developments and the importance of sustained dialogue in advancing peace and stability were at the centre of discussions between Ethiopian Prime Minister Abiy Ahmed and Somali President Hassan Sheikh Moh",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 09:45:39 +0000"
+  },
+  {
+    "title": "Ethiopia and Iraq Explore New Avenues for Bilateral Relations and Development Cooperation",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia and Iraq have explored opportunities to establish and expand bilateral relations, with a focus on identifying shared development interests and building stronger cooperation through practical engagement. The discu",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 09:00:19 +0000"
+  },
+  {
+    "title": "Ethiopia Presses for Fairer Access to Climate Finance and Greater Impact from Multilateral Funds",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Expanding access to climate finance and ensuring that multilateral funding mechanisms deliver greater impact for developing countries were at the centre of Ethiopia’s engagement at a COP31 side event in Antalya, Türkiye. ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 08:47:02 +0000"
+  },
+  {
+    "title": "Ethiopia Advances Green Skills and Youth Employment Agenda at COP31 Side Event",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia has underscored the role of green skills development and youth employment in accelerating the transition to a low-carbon economy, with Minister of National Strategy Bereket Fesehatsion presenting the country’s ap",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 08:38:21 +0000"
+  },
+  {
+    "title": "Ethiopian and Norwegian Prime Ministers Discuss Green Legacy, Clean Energy Investment and COP32 Preparations",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia’s Green Legacy Initiative, investment opportunities in the renewable energy sector and Norway’s support for Ethiopia’s forthcoming COP32 Presidency featured prominently in discussions between Ethiopian Prime Mini",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 08:30:27 +0000"
+  },
+  {
+    "title": "Ethiopia’s Abiy Ahmed and Finland’s Alexander Stubb Confer on Global Security and COP32 Cooperation",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed and Finnish President Alexander Stubb held high-level discussions ahead of the COP31 Leaders’ Summit in Antalya, Türkiye, addressing global peace and security developments, regional dyn",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 08:17:54 +0000"
+  },
+  {
+    "title": "Ethiopian Prime Minister Abiy Ahmed Meets Barbados Prime Minister Mia Mottley on COP31 Sidelines",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed held a meeting with Barbados Prime Minister Mia Mottley on the sidelines of the COP31 Leaders’ Summit in Antalya, Türkiye, for discussions on issues of shared interest between the two c",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 07:26:41 +0000"
+  },
+  {
+    "title": "Ethiopia’s Green Legacy and GERD Draw Praise as Homegrown Development Models: COP31 Participants",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia’s Green Legacy Initiative and the Grand Ethiopian Renaissance Dam (GERD) have emerged as notable examples of homegrown solutions for environmental protection, renewable energy development and climate action, draw",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 07:08:33 +0000"
+  },
+  {
     "title": "🇪🇹🇹🇷 PM Abiy Arrives in Antalya, Holds Talks with Turkish President Erdoğan Ahead of COP31",
     "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed arrived in Antalya, Türkiye, ahead of the COP31 Leaders’ Summit and held a bilateral meeting with Turkish President Recep Tayyip Erdoğan, focusing on strengthening relations between the",
     "source": "FBC English",
     "publishedAt": "Tue, 10 Nov 2026 17:12:41 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ሕዳር 1፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ተወያይተዋል፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባሰፈሩት መልዕክት፥ በኮፕ31 የመሪዎች ጉባኤ ዋዜማ በአንታሊያ ቱርክ በመገኘት ከፕሬዚዳንት ኤርዶጋን ጋር ፍሬያማ ውይይት አድርገናል ብለዋል። ‎በሁለቱ ሀገራት መካከል ያለውን ጠንካራ አጋርነት መሠረት በማድረግ የሁለ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 10 Nov 2026 16:52:06 +0000"
   },
   {
     "title": "Addis Ababa and UN-Habitat Agree to Turn Urban Development Partnership, Identify Priority Projects into Action",
@@ -15,63 +69,9 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Tue, 10 Nov 2026 14:17:11 +0000"
   },
   {
-    "title": "AU Commission and Pan-African Parliament Move to Strengthen Continental Legislative Institution and Advance Institutional Reforms",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – The African Union Commission and the Pan-African Parliament have discussed a series of institutional reforms and initiatives aimed at strengthening the Parliament’s effectiveness, operational capacity and contribution to ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 13:57:59 +0000"
-  },
-  {
-    "title": "Ethiopia and LDC Group Discuss Priorities and Preparations for COP32",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopia’s Foreign Minister and COP32 President-Designate, Gedion Timothewos, held discussions with Chair of the Least Developed Countries (LDC) Group, Ambassador Adão Soares Barbosa of Timor-Leste, on the group’s priorit",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 13:47:46 +0000"
-  },
-  {
-    "title": "ECA Chief Looks to Ethiopia to Advance Africa’s Climate Implementation Agenda Ahead of COP32",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – United Nations Under-Secretary-General and Executive Secretary of the Economic Commission for Africa (ECA), Claver Gatete, has called for stronger institutional ownership, sustainable financing and measurable results to t",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 13:39:04 +0000"
-  },
-  {
-    "title": "Addis Ababa to Unite African Cities in Advancing Shared Climate Priorities, Financing Needs and Development Agendas at COP32: Mayor",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Addis Ababa Mayor Adanech Abiebie has underscored the the Ethiopian capital’s opportunity, as host of COP32, to bring African cities together and provide a common platform for advancing their shared climate priorities, fi",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 12:52:52 +0000"
-  },
-  {
-    "title": "Ethiopia and UN Weather Agency Explore Climate Observation, Data Equity Cooperation Ahead of COP32",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopia’s Minister of National Strategy, Bereket Fesehatsion, held discussions with World Meteorological Organization (WMO) Secretary-General Prof. Celeste Saulo on strengthening cooperation in climate observations, earl",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 10:55:18 +0000"
-  },
-  {
-    "title": "From the Land of the Abbay to Africa’s Electric Highways: Ethiopia Is Driving a New Mobility Era",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – The energy transition is often imagined through towering power stations, sweeping wind turbines and vast solar fields. Yet one of its most consequential transformations is taking place much closer to everyday life: on the",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 10:41:43 +0000"
-  },
-  {
-    "title": "From the Power of Nature to the Power of a Nation: Ethiopia’s Renewable Energy Transformation",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – A river descending from the Ethiopian highlands carries more than water. It carries the possibility of lighting homes, powering industries, connecting economies and changing the development trajectory of a nation. The win",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 10:10:06 +0000"
-  },
-  {
-    "title": "China Reaffirms Commitment to Deepening Cooperation with Belt and Road Partner Countries",
-    "summary": "Beijing, November 10, 2026 (FMC) – China has reaffirmed its commitment to strengthening comprehensive cooperation and support for countries participating in the Belt and Road Initiative (BRI), as media representatives from 16 partner countries, including Ethio",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 09:00:04 +0000"
-  },
-  {
-    "title": "ለትውልድ ምንዳ የምናወርስበት የአሰላ የንፋስ ኃይል ማመንጫ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የታዳሽ ኃይል አጠቃቀም እንደ ኢትዮጵያ ላሉ በተፈጥሮ ሀብት ለታደሉ ሀገራት ዘርፈ ብዙ ፋይዳ አለው። በዚህም ኢትዮጵያ በታዳሽ ኃይል አቅርቦት ዘርፍ በርካታ ሥራዎችን በመሥራት የአፍሪካ የኃይል ማማ ለመሆን በቅታለች፡፡ ኢትዮጵያ ከ130 ሚሊየን በላይ ሕዝብ ያላት ሀገር ናት፤ ከእነዚህም መካከል አብዛኛው በገጠሪቱ አካባቢዎች የሚኖረው የኅብረተሰብ ክፍል የአኗኗ",
+    "title": "የትግራይ ንግድና ገበያ ልማት ቢሮ ከመቐለ የነዳጅ ማደያ ባለቤቶች ጋር ተወያየ",
+    "summary": "አዲስ አበባ፣ ሕዳር 1፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ክልል ንግድና ገበያ ልማት ቢሮ ከመቐለ ከተማ የነዳጅ ማደያ ባለቤቶች ማህበር ጋር በነዳጅ ማስገባትና ማከፋፈል ሂደት በሚያጋጥሙ ማነቆዎች ላይ ያተኮረ ሰፊ ውይይት አካሄደ። በውይይቱ ላይ ከ21 በላይ የቀድሞ እና አዲስ የመቐለ ከተማ የነዳጅ ማደያ ባለቤቶች የተሳተፉ ሲሆን፣ ነዳጅ ወደ ክልሉ በማስገባትና ለተጠቃሚዎች በማከፋፈል ሂደት የሚያጋጥሟቸውን ተደ",
     "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 20:55:45 +0000"
-  },
-  {
-    "title": "ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከኔፓል የውጭ ጉዳይ ሚኒስትር ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ጥቅምት 30፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ – 32 ተመራጭ ፕሬዚዳንት ጌዲዮን ጢሞቴዎስ (ዶ/ር) ከኔፓል የውጭ ጉዳይ ሚኒስትር ሺሲር ካናል ጋር ተወያይተዋል፡፡ ጌዲዮን ጢሞቴዎስ (ዶ/ር) በቱርኪዬ አንታሊያ እየተካሄደ ከሚገኘው የኮፕ – 31 ጉባኤ ጎን ለጎን ነው የሁለትዮሽ ውይይት ያደረጉት፡፡ በውይይታቸውም በአየር ንብረት ለውጥ ቅድሚያ በሚሰጣቸው ጉዳዮችና በአዲስ አ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 09 Nov 2026 19:52:38 +0000"
+    "publishedAt": "Tue, 10 Nov 2026 10:08:24 +0000"
   }
 ];
