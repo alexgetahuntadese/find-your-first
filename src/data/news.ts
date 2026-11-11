@@ -3,70 +3,70 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Leaders of Ethiopia and Somalia Review Security Developments and Regional Stability",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Regional security developments and the importance of sustained dialogue in advancing peace and stability were at the centre of discussions between Ethiopian Prime Minister Abiy Ahmed and Somali President Hassan Sheikh Moh",
+    "title": "UN Chief Warns 1.5°C Overshoot Is Now Inevitable, Demands Climate Justice, $1.3 Trillion Finance and Fossil-Fuel Accountability",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – United Nations Secretary-General António Guterres has warned that a temporary breach of the 1.5°C global warming threshold set under the Paris Agreement is now inevitable, urging world leaders to accelerate emissions redu",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 09:45:39 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 14:24:17 +0000"
   },
   {
-    "title": "Ethiopia and Iraq Explore New Avenues for Bilateral Relations and Development Cooperation",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia and Iraq have explored opportunities to establish and expand bilateral relations, with a focus on identifying shared development interests and building stronger cooperation through practical engagement. The discu",
+    "title": "President of Turkiye Backs Ethiopia’s Forthcoming Leadership of Global Climate Process, Wishes Success as COP32 Host",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Turkish President Recep Tayyip Erdoğan has wished Ethiopia success in assuming the Presidency of the 32nd United Nations Climate Change Conference (COP32), recognizing the country’s forthcoming role in leading the next ph",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 09:00:19 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 14:16:27 +0000"
   },
   {
-    "title": "Ethiopia Presses for Fairer Access to Climate Finance and Greater Impact from Multilateral Funds",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Expanding access to climate finance and ensuring that multilateral funding mechanisms deliver greater impact for developing countries were at the centre of Ethiopia’s engagement at a COP31 side event in Antalya, Türkiye. ",
+    "title": "Turkish President Calls Out Global Climate Inaction, Presses Wealthy Nations to Deliver on Finance and Emissions Cuts",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Turkish President Recep Tayyip Erdoğan has called for a decisive shift from climate commitments to practical implementation, urging developed countries to shoulder greater responsibility for emissions reductions and clima",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 08:47:02 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 14:05:33 +0000"
   },
   {
-    "title": "Ethiopia Advances Green Skills and Youth Employment Agenda at COP31 Side Event",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia has underscored the role of green skills development and youth employment in accelerating the transition to a low-carbon economy, with Minister of National Strategy Bereket Fesehatsion presenting the country’s ap",
+    "title": "Ethiopia and Botswana Leaders Place Shared Climate Challenges and African Priorities at Centre of COP31 Talks",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Shared climate challenges and the need to strengthen Africa’s collective engagement in global climate negotiations featured prominently in discussions between Ethiopian Prime Minister Abiy Ahmed and Botswana President Dum",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 08:38:21 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 13:00:35 +0000"
   },
   {
-    "title": "Ethiopian and Norwegian Prime Ministers Discuss Green Legacy, Clean Energy Investment and COP32 Preparations",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia’s Green Legacy Initiative, investment opportunities in the renewable energy sector and Norway’s support for Ethiopia’s forthcoming COP32 Presidency featured prominently in discussions between Ethiopian Prime Mini",
+    "title": "PM Abiy and Qatar’s Amir Review Ways to Advance Longstanding Bilateral Ties and Cooperation",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed and the Amir of the State of Qatar, Sheikh Tamim bin Hamad Al-Thani, have discussed strengthening the longstanding relations between their countries and advancing cooperation across are",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 08:30:27 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 12:52:56 +0000"
   },
   {
-    "title": "Ethiopia’s Abiy Ahmed and Finland’s Alexander Stubb Confer on Global Security and COP32 Cooperation",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed and Finnish President Alexander Stubb held high-level discussions ahead of the COP31 Leaders’ Summit in Antalya, Türkiye, addressing global peace and security developments, regional dyn",
+    "title": "African Union and the UN Intensify Coordination on Ceasefire and Political Resolution of Sudan Crisis",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – The African Union (AU) and the United Nations have discussed strengthening diplomatic and mediation efforts to secure a ceasefire and advance a peaceful resolution to the crisis in Sudan, during talks between senior offic",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 08:17:54 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 12:46:37 +0000"
   },
   {
-    "title": "Ethiopian Prime Minister Abiy Ahmed Meets Barbados Prime Minister Mia Mottley on COP31 Sidelines",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed held a meeting with Barbados Prime Minister Mia Mottley on the sidelines of the COP31 Leaders’ Summit in Antalya, Türkiye, for discussions on issues of shared interest between the two c",
+    "title": "Ethiopia, African Group of Negotiators Discuss Key Climate Priorities Ahead of COP32",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia’s Foreign Minister and COP32 President-Designate, Gedion Timothewos, has held talks with Chair of the African Group of Negotiators (AGN), Dr. Antwi-Boasiako Amoah, on advancing Africa’s shared climate priorities ",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 07:26:41 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 12:39:10 +0000"
   },
   {
-    "title": "Ethiopia’s Green Legacy and GERD Draw Praise as Homegrown Development Models: COP31 Participants",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia’s Green Legacy Initiative and the Grand Ethiopian Renaissance Dam (GERD) have emerged as notable examples of homegrown solutions for environmental protection, renewable energy development and climate action, draw",
+    "title": "Ethiopia’s 56 Billion Seedlings Reflect the Power of Collective Action in Restoring Nature: Prime Minister",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Having planted approximately 56.8 billion tree seedlings by the conclusion of its 2026 planting campaign, Ethiopia continues to demonstrate how collective commitment can turn environmental restoration into a nationwide mo",
     "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 07:08:33 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 12:32:34 +0000"
   },
   {
-    "title": "🇪🇹🇹🇷 PM Abiy Arrives in Antalya, Holds Talks with Turkish President Erdoğan Ahead of COP31",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed arrived in Antalya, Türkiye, ahead of the COP31 Leaders’ Summit and held a bilateral meeting with Turkish President Recep Tayyip Erdoğan, focusing on strengthening relations between the",
+    "title": "PM Abiy Extends Official Invitation to Global Community for COP32",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has extended an official invitation to the international community to participate in COP32 in Addis Ababa in 2027, while pledging Ethiopia’s close cooperation with the COP31 Presidency ",
     "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 17:12:41 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 11:55:04 +0000"
+  },
+  {
+    "title": "Satellite Monitoring and Artificial Intelligence Strengthen Ethiopia’s Climate Forecasting – PM Abiy Ahmed",
+    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia is harnessing satellite data and artificial intelligence to strengthen its capacity to anticipate climate risks and provide farmers with earlier warnings, Prime Minister Abiy Ahmed has disclosed. Addressing the o",
+    "source": "FBC English",
+    "publishedAt": "Wed, 11 Nov 2026 11:44:43 +0000"
   },
   {
     "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ተወያዩ",
     "summary": "አዲስ አበባ፣ ሕዳር 1፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ተወያይተዋል፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባሰፈሩት መልዕክት፥ በኮፕ31 የመሪዎች ጉባኤ ዋዜማ በአንታሊያ ቱርክ በመገኘት ከፕሬዚዳንት ኤርዶጋን ጋር ፍሬያማ ውይይት አድርገናል ብለዋል። ‎በሁለቱ ሀገራት መካከል ያለውን ጠንካራ አጋርነት መሠረት በማድረግ የሁለ",
     "source": "Fana Media",
     "publishedAt": "Tue, 10 Nov 2026 16:52:06 +0000"
-  },
-  {
-    "title": "Addis Ababa and UN-Habitat Agree to Turn Urban Development Partnership, Identify Priority Projects into Action",
-    "summary": "Addis Ababa, November 10, 2026 (FMC) – Addis Ababa Mayor Adanech Abiebie and UN-Habitat Executive Director Anacláudia Rossbach have discussed strengthening cooperation on urban transformation and sustainable development, with particular attention to translatin",
-    "source": "FBC English",
-    "publishedAt": "Tue, 10 Nov 2026 14:17:11 +0000"
   },
   {
     "title": "የትግራይ ንግድና ገበያ ልማት ቢሮ ከመቐለ የነዳጅ ማደያ ባለቤቶች ጋር ተወያየ",
