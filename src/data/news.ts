@@ -3,6 +3,36 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Addis Ababa Is a “Beaming Signal” of Africa’s Development Potential: Malawian Political Leader",
+    "summary": "Addis Ababa, November 12, 2026 (FMC) – Addis Ababa’s rapid transformation offers an encouraging example of what African cities and countries can achieve through sustained development efforts, Malawian political participant Edine Mzmuma has observed, describing",
+    "source": "FBC English",
+    "publishedAt": "Thu, 12 Nov 2026 07:08:34 +0000"
+  },
+  {
+    "title": "FMC Africa Focus | Africa Must Turn Its Natural Wealth into Jobs and Industrial Opportunities at Home: Lesotho Youth Leader",
+    "summary": "Addis Ababa, November 12, 2026 (FMC) – African countries must move beyond exporting raw materials and importing finished products by investing in domestic processing and production, a youth political leader from Lesotho has emphasized, arguing that turning nat",
+    "source": "FBC English",
+    "publishedAt": "Thu, 12 Nov 2026 06:48:02 +0000"
+  },
+  {
+    "title": "የዳካር ኦሊምፒክ በፓሪስ ያስከፋነውን ህዝብ የካስንበት ውጤት ነው – አሸብር (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) የዳካር የወጣቶች ኦሊምፒክ በፓሪስ ያስከፋነውን ህዝብ የካስንበት ውጤት ነው አሉ የኢትዮጵያ ኦሊምፒክ ኮሚቴ ፕሬዚዳንት አሸብር ወ/ጊዮርጊስ (ዶ/ር)። በ2026ቱ የዳካር ኦሊምፒክ ኢትዮጵያ በአትሌቲክስ አምስት የወርቅ እና ሶስት የብር ሜዳሊያ በማግኘት ከዓለም በቀዳሚነት አጠናቃለች። ይህንንም ተከትሎ አሸብር ወ/ጊዮርጊስ (ዶ/ር)፤ በፓሪስ የተመዘገበው ውጤት ደካ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 11 Nov 2026 18:01:42 +0000"
+  },
+  {
+    "title": "የኢትዮጵያ ተጽዕኖ ፈጣሪነትና የአየር ንብረት ተሟጋችነት፤ በCOP ጉባኤዎች ላይ",
+    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ቀደም ባሉት የCOP ጉባኤዎች ላይ፣ በተለይም የ2015ቱ የፓሪስ የአየር ንብረት ስምምነት እንዲሳካ በማደግ ላይ ያሉ ሀገራትን ቡድን በመምራት ታሪካዊና ቁልፍ ሚና ተጫውታለች። ኢትዮጵያ በታሪክ ለአየር ንብረት መዛባት ከፍተኛ አስተዋጽኦ ያደረጉ የበለጸጉ ሀገራት ለታዳጊ ሀገራት የገንዘብና የቴክኖሎጂ ድጋፍ እንዲያደርጉ በተከታታይ ትሟገታለች። ሀገሪቱ ከተ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 11 Nov 2026 16:41:40 +0000"
+  },
+  {
+    "title": "የበካይ ጋዝ ልቀትን በመቀነስ ረገድ ኢትዮጵያ የበኩሏን እየተወጣች ነው – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) የበካይ ጋዝ ልቀት መጠንን በፍጥነት በመቀነስ ረገድ ኢትዮጵያ የበኩሏን ኃላፊነት እየተወጣች ትገኛለች አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። በቱርክዬ አንታሊያ ከተማ ‘ከቃላት ባለፈ ወደ ተግባርና አፈጻጸም መሸጋገር’ በሚል መሪ ሃሳብ 31ኛው የተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ31) እየተካሄደ ነው። ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 11 Nov 2026 14:40:44 +0000"
+  },
+  {
     "title": "UN Chief Warns 1.5°C Overshoot Is Now Inevitable, Demands Climate Justice, $1.3 Trillion Finance and Fossil-Fuel Accountability",
     "summary": "Addis Ababa, November 11, 2026 (FMC) – United Nations Secretary-General António Guterres has warned that a temporary breach of the 1.5°C global warming threshold set under the Paris Agreement is now inevitable, urging world leaders to accelerate emissions redu",
     "source": "FBC English",
@@ -21,57 +51,27 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Wed, 11 Nov 2026 14:05:33 +0000"
   },
   {
+    "title": "ለአየር ንብረት ለውጥ የተባበረ ፈጣን ምላሽ መስጠት ያስፈልጋል – አንቶኒዮ ጉቴሬዝ",
+    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) ለአየር ንብረት ለውጥ የተባበረ ፈጣን ምላሽ መስጠት ያስፈልጋል አሉ የተባበሩት መንግሥታት ድርጅት ዋና ጸሃፊ አንቶኒዮ ጉቴሬዝ፡፡ ዋና ጸሃፊው በቱርክ አንታሊያ እየተካሄደ በሚገኘው የኮፕ 31 የመሪዎች ጉባኤ ላይ ባደረጉት ንግግር÷ የካርበን ልቀት እና የሙቀት መጠን መጨመር እንዲሁም በአየር ንብረት ለውጥ ምክንያት እየተባባሱ የመጡ አደጋዎች ዓለምን እየፈተኗት መ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 11 Nov 2026 13:20:07 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከቦትስዋና ፕሬዚዳንት ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከቦትስዋና ፕሬዚዳንት ዱማ ጌዲዮን ቦኮ ጋር ከኮፕ31 የመሪዎች ጉባኤ ጎን ለጎን ተወያይተዋል፡፡ ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) በማህበራዊ ትስስር ገጻቸው ባሰፈሩት ጽሁፍ፤ በውይይታችንም ሁለቱ ሀገሮች የተጋረጡባቸውን የጋራ የአየር ንብረት ለውጥ ተግዳሮቶችና እየወሰድናቸው ያሉትን ምላሾች ጨምሮ በCOP32 ላይ ትብብራችን",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 11 Nov 2026 13:10:51 +0000"
+  },
+  {
     "title": "Ethiopia and Botswana Leaders Place Shared Climate Challenges and African Priorities at Centre of COP31 Talks",
     "summary": "Addis Ababa, November 11, 2026 (FMC) – Shared climate challenges and the need to strengthen Africa’s collective engagement in global climate negotiations featured prominently in discussions between Ethiopian Prime Minister Abiy Ahmed and Botswana President Dum",
     "source": "FBC English",
     "publishedAt": "Wed, 11 Nov 2026 13:00:35 +0000"
   },
   {
-    "title": "PM Abiy and Qatar’s Amir Review Ways to Advance Longstanding Bilateral Ties and Cooperation",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed and the Amir of the State of Qatar, Sheikh Tamim bin Hamad Al-Thani, have discussed strengthening the longstanding relations between their countries and advancing cooperation across are",
-    "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 12:52:56 +0000"
-  },
-  {
-    "title": "African Union and the UN Intensify Coordination on Ceasefire and Political Resolution of Sudan Crisis",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – The African Union (AU) and the United Nations have discussed strengthening diplomatic and mediation efforts to secure a ceasefire and advance a peaceful resolution to the crisis in Sudan, during talks between senior offic",
-    "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 12:46:37 +0000"
-  },
-  {
-    "title": "Ethiopia, African Group of Negotiators Discuss Key Climate Priorities Ahead of COP32",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia’s Foreign Minister and COP32 President-Designate, Gedion Timothewos, has held talks with Chair of the African Group of Negotiators (AGN), Dr. Antwi-Boasiako Amoah, on advancing Africa’s shared climate priorities ",
-    "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 12:39:10 +0000"
-  },
-  {
-    "title": "Ethiopia’s 56 Billion Seedlings Reflect the Power of Collective Action in Restoring Nature: Prime Minister",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Having planted approximately 56.8 billion tree seedlings by the conclusion of its 2026 planting campaign, Ethiopia continues to demonstrate how collective commitment can turn environmental restoration into a nationwide mo",
-    "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 12:32:34 +0000"
-  },
-  {
-    "title": "PM Abiy Extends Official Invitation to Global Community for COP32",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has extended an official invitation to the international community to participate in COP32 in Addis Ababa in 2027, while pledging Ethiopia’s close cooperation with the COP31 Presidency ",
-    "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 11:55:04 +0000"
-  },
-  {
-    "title": "Satellite Monitoring and Artificial Intelligence Strengthen Ethiopia’s Climate Forecasting – PM Abiy Ahmed",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Ethiopia is harnessing satellite data and artificial intelligence to strengthen its capacity to anticipate climate risks and provide farmers with earlier warnings, Prime Minister Abiy Ahmed has disclosed. Addressing the o",
-    "source": "FBC English",
-    "publishedAt": "Wed, 11 Nov 2026 11:44:43 +0000"
-  },
-  {
-    "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ሕዳር 1፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ተወያይተዋል፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባሰፈሩት መልዕክት፥ በኮፕ31 የመሪዎች ጉባኤ ዋዜማ በአንታሊያ ቱርክ በመገኘት ከፕሬዚዳንት ኤርዶጋን ጋር ፍሬያማ ውይይት አድርገናል ብለዋል። ‎በሁለቱ ሀገራት መካከል ያለውን ጠንካራ አጋርነት መሠረት በማድረግ የሁለ",
+    "title": "ለዛሬውና ለመጪው ትውልድ የተሻለችና ዘላቂ ከተማ ለመገንባት በቁርጠኝነት እንሠራለን – ከንቲባ አዳነች አቤቤ",
+    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) ለዛሬውና ለመጪው ትውልድ የተሻለችና ዘላቂ ከተማ ለመገንባት በቁርጠኝነት እንሠራለን አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ፡፡ ከንቲባ አዳነች በማህበራዊ ትስስር ገጻቸው ባሰፈሩት ጽሁፍ፤ ከኮፕ31 ጉባኤ ጎን ለጎን፣ ከህፃናት ኢንቨስትመንት ፈንድ ፋውንዴሽን ዋና ሥራ አስፈጻሚ ኬት ሃምፕተን ጋር መወያየታቸውን ገልጸዋል፡፡ ውይይቱ ኢትዮጵያ የCO",
     "source": "Fana Media",
-    "publishedAt": "Tue, 10 Nov 2026 16:52:06 +0000"
-  },
-  {
-    "title": "የትግራይ ንግድና ገበያ ልማት ቢሮ ከመቐለ የነዳጅ ማደያ ባለቤቶች ጋር ተወያየ",
-    "summary": "አዲስ አበባ፣ ሕዳር 1፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ክልል ንግድና ገበያ ልማት ቢሮ ከመቐለ ከተማ የነዳጅ ማደያ ባለቤቶች ማህበር ጋር በነዳጅ ማስገባትና ማከፋፈል ሂደት በሚያጋጥሙ ማነቆዎች ላይ ያተኮረ ሰፊ ውይይት አካሄደ። በውይይቱ ላይ ከ21 በላይ የቀድሞ እና አዲስ የመቐለ ከተማ የነዳጅ ማደያ ባለቤቶች የተሳተፉ ሲሆን፣ ነዳጅ ወደ ክልሉ በማስገባትና ለተጠቃሚዎች በማከፋፈል ሂደት የሚያጋጥሟቸውን ተደ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 10 Nov 2026 10:08:24 +0000"
+    "publishedAt": "Wed, 11 Nov 2026 12:54:31 +0000"
   }
 ];
