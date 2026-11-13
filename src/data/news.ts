@@ -3,6 +3,42 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Addis Ababa Ramping Up Public, Private and Cooperative Efforts to Advance Ethiopia’s Guba-Launched 1.5 Million-Home Mega Project: Mayor",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Addis Ababa is mobilizing government resources, private investment, housing cooperatives and individual initiatives to advance Ethiopia’s five-year national undertaking to build 1.5 million homes, Mayor Adanech Abiebie di",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 14:56:00 +0000"
+  },
+  {
+    "title": "ENDF Chief of Staff Engages Mekelle Residents in Dialogue on Peace and Stability in Tigray Region",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Chief of Staff of the Ethiopian National Defense Force (ENDF), Field Marshal Birhanu Jula, has held a consultative meeting with residents of Mekelle to discuss efforts to consolidate peace and stability in the Tigray Regi",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 14:32:57 +0000"
+  },
+  {
+    "title": "Ethiopia’s Second-Largest Hydropower Giant Nears Completion as Koysha Reaches 78.36%",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Ethiopia’s Koysha Hydropower Project, the country’s second-largest hydropower development after the Grand Ethiopian Renaissance Dam (GERD), has reached 78.36% completion, marking significant progress in one of the nation’",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 14:19:42 +0000"
+  },
+  {
+    "title": "PM Abiy Expresses Confidence in Ethiopia’s Potential to Match International Development Achievements",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has expressed strong confidence in Ethiopia’s capacity to attain development achievements comparable to those witnessed in other countries, citing the progress underway across the nation and the ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 13:14:37 +0000"
+  },
+  {
+    "title": "PM Abiy Says Ethiopia Needs Millions More Homes Beyond Its 1.5 Million-House Plan",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has disclosed the enormous scale of Ethiopia’s housing needs, stating that the country requires millions of additional homes as it confronts extensive housing deficits in both rural and urban com",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 12:52:03 +0000"
+  },
+  {
+    "title": "PM Abiy Outlines Industrial, Financial and Partnership Foundations of Ethiopia’s 1.5 Million-Homes Programme",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has outlined the broader economic and development foundations of Ethiopia’s five-year commitment to build 1.5 million houses, emphasizing that meeting the country’s enormous housing demand requir",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 12:30:28 +0000"
+  },
+  {
     "title": "Addis Ababa Advances Construction of 100,000 Homes Across 21 Sites, Mayor Discloses",
     "summary": "Addis Ababa, November 13, 2026 (FMC) – Addis Ababa is building 100,000 houses across 21 sites as part of Ethiopia’s five-year national commitment to deliver 1.5 million homes to citizens, Mayor Adanech Abiebie disclosed today. In a social media post following ",
     "source": "FBC English",
@@ -27,24 +63,6 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 13 Nov 2026 08:13:01 +0000"
   },
   {
-    "title": "Africa Must Turn Climate Forecasts into Timely Action to Protect Vulnerable Communities: Ethiopia’s Strategy Minister",
-    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia’s Minister of National Strategy, Bereket Fesehatsion, has emphasized the need to accelerate early warning systems across Africa and ensure that climate forecasts translate into timely action to protect vulnerable com",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 07:18:30 +0000"
-  },
-  {
-    "title": "Ethiopia and Germany Discuss Deepening Climate Cooperation and Advancing Global Climate Action at COP31",
-    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia and Germany have discussed strengthening bilateral cooperation and advancing global climate action during a meeting between Ethiopia’s Minister of Foreign Affairs and COP32 President-Designate, Gedion Timothewos (PhD",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 07:09:35 +0000"
-  },
-  {
-    "title": "Ethiopia’s COP31 Engagements Connect Global Climate Diplomacy, National Achievements and a Shared COP32 Responsibility: PM Office Press Secretary",
-    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia is using the 31st UN Climate Change Conference (COP31) in Antalya to strengthen international partnerships, present its climate action achievements and build on preparations to host COP32 in Addis Ababa next year, Of",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 06:55:20 +0000"
-  },
-  {
     "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ጋር ያደረጉት ውይይት ለኮፕ32 ልምድ የተቀሰመበት ነው – ቢልለኔ ሥዩም",
     "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ያደረጉት ውይይት ለኮፕ32 ልምድ የተቀሰመበት ነው አሉ በጠቅላይ ሚኒስትር ጽ/ቤት የፕሬስ ሴክሬታሪያት ኃላፊ ቢልለኔ ሥዩም፡፡ ኃላፊዋ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በቱርክዬ አንታሊያ በተካሄደው የኮፕ31 የመሪዎች ጉባኤ ላይ ያደረጉትን ቆይታ በተመለከተ ማብራሪያ ",
     "source": "Fana Media",
@@ -55,23 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ32 ፕሬዚዳንት ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከሩዋንዳ የአካባቢ ጥበቃ ሚኒስትር በርናዴት አራክዊዬ (ዶ/ር) ጋር ተወያይተዋል፡፡ ሚኒስትሮቹ በአንታሊያ ቱርክዬ እየተካሄደ ከሚገኘው የኮፕ31 ጉባኤ ጎን ለጎን ባደረጉት ውይይት፤ ለኮፕ32 ዝግጅት ትብብርን ማጠናከር በሚቻልባቸው ጉዳዮች ዙሪያ መክረዋል፡፡ ሁለቱ ወገኖች በጋራ ቅድሚያ በተ",
     "source": "Fana Media",
     "publishedAt": "Thu, 12 Nov 2026 15:49:03 +0000"
-  },
-  {
-    "title": "ፍጹም አሰፋ (ዶ/ር) ከዓለም ባንክ ማኔጂንግ ዳይሬክተር ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) የገንዘብ ሚኒስትር እና የኮፕ32 ዋና ተደራዳሪ ፍጹም አሰፋ (ዶ/ር) ከዓለም ባንክ ዋና ዳይሬክተርና ቺፍ ኖውሌጅ ኦፊሰር ጋር ተወያይተዋል፡፡ በአንታሊያ ቱርክዬ እየተካሄደ ከሚገኘው የኮፕ31 ጉባኤ ጎን ለጎን በተካሄደው ውይይት ላይ በኮፕ32 ዝግጅት ዙሪያ የሁለቱን ወገኖች ትብብር ስለማጠናከር መክረዋል፡፡ በተጨማሪም በኤሌክትሪክ ተሽከርካሪዎች (ኢ-ሞቢሊቲ)፣ በ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 12 Nov 2026 15:36:09 +0000"
-  },
-  {
-    "title": "Countries Back COP31 Pledge to Raise Electricity’s Share of Global Energy Use to 35% by 2035",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – A group of countries has endorsed a COP31 Presidency pledge to increase electricity’s share of global final energy consumption from around 23% currently to 35% by 2035, signalling growing international support for acceler",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 14:37:41 +0000"
-  },
-  {
-    "title": "U.S. Banking Leader Sees Ethiopia’s Financial Liberalization Opening New Frontiers for Investment",
-    "summary": "Addis Ababa, November 11, 2026 (FMC) – Chairman of the American Bankers Association (ABA) and Chairman and CEO of Detroit-based First Independence Bank, Kenneth Kelly, has recognized Ethiopia’s growing potential to attract foreign investment and transform its ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 14:00:57 +0000"
   }
 ];
