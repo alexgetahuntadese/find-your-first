@@ -3,6 +3,66 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Addis Ababa Advances Construction of 100,000 Homes Across 21 Sites, Mayor Discloses",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Addis Ababa is building 100,000 houses across 21 sites as part of Ethiopia’s five-year national commitment to deliver 1.5 million homes to citizens, Mayor Adanech Abiebie disclosed today. In a social media post following ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 09:27:44 +0000"
+  },
+  {
+    "title": "PM Abiy Says Relentless Efforts Underway to Fulfil Five-Year Promise of Building Decent, Affordable Homes for Ethiopians",
+    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has reaffirmed his commitment to fulfilling the five-year promise to build houses for the Ethiopian people, stating that relentless efforts are underway, day and night, to turn the pledge into re",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 09:09:42 +0000"
+  },
+  {
+    "title": "Ethiopia’s Green Legacy Initiative Advances the Global Fight Against the Planet’s Chronic Climate Crisis: Press Secretary",
+    "summary": "Antalya, November 13, 2026 (FMC) – With more than 56 billion seedlings planted over eight years, Ethiopia’s Green Legacy Initiative is contributing to the global response to climate change through an integrated approach to environmental restoration, natural-re",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 08:34:43 +0000"
+  },
+  {
+    "title": "Ethiopia Looks to Türkiye’s Experience Hosting COP31 to Strengthen Preparations for Addis Ababa Summit: PMO Press Secretary",
+    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia is drawing on Türkiye’s experience in hosting the UN Climate Change Conference as it advances preparations for COP32, with Prime Minister Abiy Ahmed’s meeting with Turkish President Recep Tayyip Erdoğan in Antalya pr",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 08:13:01 +0000"
+  },
+  {
+    "title": "Africa Must Turn Climate Forecasts into Timely Action to Protect Vulnerable Communities: Ethiopia’s Strategy Minister",
+    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia’s Minister of National Strategy, Bereket Fesehatsion, has emphasized the need to accelerate early warning systems across Africa and ensure that climate forecasts translate into timely action to protect vulnerable com",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 07:18:30 +0000"
+  },
+  {
+    "title": "Ethiopia and Germany Discuss Deepening Climate Cooperation and Advancing Global Climate Action at COP31",
+    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia and Germany have discussed strengthening bilateral cooperation and advancing global climate action during a meeting between Ethiopia’s Minister of Foreign Affairs and COP32 President-Designate, Gedion Timothewos (PhD",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 07:09:35 +0000"
+  },
+  {
+    "title": "Ethiopia’s COP31 Engagements Connect Global Climate Diplomacy, National Achievements and a Shared COP32 Responsibility: PM Office Press Secretary",
+    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia is using the 31st UN Climate Change Conference (COP31) in Antalya to strengthen international partnerships, present its climate action achievements and build on preparations to host COP32 in Addis Ababa next year, Of",
+    "source": "FBC English",
+    "publishedAt": "Fri, 13 Nov 2026 06:55:20 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ጋር ያደረጉት ውይይት ለኮፕ32 ልምድ የተቀሰመበት ነው – ቢልለኔ ሥዩም",
+    "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ያደረጉት ውይይት ለኮፕ32 ልምድ የተቀሰመበት ነው አሉ በጠቅላይ ሚኒስትር ጽ/ቤት የፕሬስ ሴክሬታሪያት ኃላፊ ቢልለኔ ሥዩም፡፡ ኃላፊዋ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በቱርክዬ አንታሊያ በተካሄደው የኮፕ31 የመሪዎች ጉባኤ ላይ ያደረጉትን ቆይታ በተመለከተ ማብራሪያ ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 12 Nov 2026 17:47:59 +0000"
+  },
+  {
+    "title": "ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከሩዋንዳ የአካባቢ ጥበቃ ሚኒስትር ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ32 ፕሬዚዳንት ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከሩዋንዳ የአካባቢ ጥበቃ ሚኒስትር በርናዴት አራክዊዬ (ዶ/ር) ጋር ተወያይተዋል፡፡ ሚኒስትሮቹ በአንታሊያ ቱርክዬ እየተካሄደ ከሚገኘው የኮፕ31 ጉባኤ ጎን ለጎን ባደረጉት ውይይት፤ ለኮፕ32 ዝግጅት ትብብርን ማጠናከር በሚቻልባቸው ጉዳዮች ዙሪያ መክረዋል፡፡ ሁለቱ ወገኖች በጋራ ቅድሚያ በተ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 12 Nov 2026 15:49:03 +0000"
+  },
+  {
+    "title": "ፍጹም አሰፋ (ዶ/ር) ከዓለም ባንክ ማኔጂንግ ዳይሬክተር ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) የገንዘብ ሚኒስትር እና የኮፕ32 ዋና ተደራዳሪ ፍጹም አሰፋ (ዶ/ር) ከዓለም ባንክ ዋና ዳይሬክተርና ቺፍ ኖውሌጅ ኦፊሰር ጋር ተወያይተዋል፡፡ በአንታሊያ ቱርክዬ እየተካሄደ ከሚገኘው የኮፕ31 ጉባኤ ጎን ለጎን በተካሄደው ውይይት ላይ በኮፕ32 ዝግጅት ዙሪያ የሁለቱን ወገኖች ትብብር ስለማጠናከር መክረዋል፡፡ በተጨማሪም በኤሌክትሪክ ተሽከርካሪዎች (ኢ-ሞቢሊቲ)፣ በ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 12 Nov 2026 15:36:09 +0000"
+  },
+  {
     "title": "Countries Back COP31 Pledge to Raise Electricity’s Share of Global Energy Use to 35% by 2035",
     "summary": "Addis Ababa, November 12, 2026 (FMC) – A group of countries has endorsed a COP31 Presidency pledge to increase electricity’s share of global final energy consumption from around 23% currently to 35% by 2035, signalling growing international support for acceler",
     "source": "FBC English",
@@ -13,65 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 11, 2026 (FMC) – Chairman of the American Bankers Association (ABA) and Chairman and CEO of Detroit-based First Independence Bank, Kenneth Kelly, has recognized Ethiopia’s growing potential to attract foreign investment and transform its ",
     "source": "FBC English",
     "publishedAt": "Thu, 12 Nov 2026 14:00:57 +0000"
-  },
-  {
-    "title": "Former Ivorian PM Backs #Ethiopia’s Red Sea Access Bid, Advocates Mutually Acceptable Regional Solutions",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – Former Prime Minister of Côte d’Ivoire and President of the Ivorian Popular Front (FPI), Pascal Affi N’Guessan, has described Ethiopia’s aspiration to secure sovereign access to the sea as legitimate, expressing hope that",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 13:52:01 +0000"
-  },
-  {
-    "title": "Ethiopia and China Seek to Deepen Strategic Partnership Through Stronger Party-to-Party Cooperation",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – Ethiopia and China have discussed ways to deepen their longstanding strategic partnership by strengthening cooperation between their ruling parties, alongside expanding collaboration across political, economic and develop",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 12:25:38 +0000"
-  },
-  {
-    "title": "Deputy PM Salutes Young Champions for Placing Ethiopia at the Summit of Dakar 2026 Athletics",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – Deputy Prime Minister Temesgen Truneh has applauded Ethiopia’s young athletes for finishing first in the athletics medal table at the Dakar 2026 Youth Olympic Games, describing their achievement as a source of immense nat",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 12:09:40 +0000"
-  },
-  {
-    "title": "Ethiopia Reaffirms Global Climate Commitment, Showcases Record 56 Billion Seedlings and Global Drive to Reverse Deforestation by 2030",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – Ethiopia has reaffirmed its commitment to advancing global forest and climate action, presenting the achievements of its Green Legacy Initiative, which has seen more than 56 billion seedlings planted since 2019, while emp",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 10:42:49 +0000"
-  },
-  {
-    "title": "As Antalya Looks to the Cities of Tomorrow, Ethiopia Brings a Story of Urban Renaissance",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – The cities of tomorrow are being shaped by decisions made today: where homes are built, how people move, how rivers are protected, where energy comes from and whether urban growth leaves nature behind or makes it part of ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 10:20:32 +0000"
-  },
-  {
-    "title": "Wearing Its Name Like a Promise: Addis Ababa Carries Its Invitation to the World to Antalya Ahead of COP32",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – A name can be a city’s first introduction to the world. Addis Ababa—literally, the New Flower—carries within its name an image of renewal, growth and possibility. In Antalya, Türkiye, that meaning is taking on a new dimen",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 10:04:41 +0000"
-  },
-  {
-    "title": "Ethiopia and UK Chart Path for Stronger Climate Partnership Towards COP32",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – Ethiopia and the United Kingdom have discussed strengthening climate cooperation and advancing preparations for COP32, scheduled to take place in Addis Ababa in 2027. The discussions were held today in Antalya, Türkiye, o",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 09:39:47 +0000"
-  },
-  {
-    "title": "From the Land of Origins to Antalya’s Global Climate Stage: Ethiopia’s Urban Renaissance and the Quest for Resilient Cities",
-    "summary": "Addis Ababa, November 12, 2026 (FMC) – A city is more than the sum of its buildings. It is the rhythm of its streets, the memory carried by its rivers, the shade offered by its trees and the spaces in which strangers become neighbours. Its true character is re",
-    "source": "FBC English",
-    "publishedAt": "Thu, 12 Nov 2026 08:59:45 +0000"
-  },
-  {
-    "title": "የዳካር ኦሊምፒክ በፓሪስ ያስከፋነውን ህዝብ የካስንበት ውጤት ነው – አሸብር (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) የዳካር የወጣቶች ኦሊምፒክ በፓሪስ ያስከፋነውን ህዝብ የካስንበት ውጤት ነው አሉ የኢትዮጵያ ኦሊምፒክ ኮሚቴ ፕሬዚዳንት አሸብር ወ/ጊዮርጊስ (ዶ/ር)። በ2026ቱ የዳካር ኦሊምፒክ ኢትዮጵያ በአትሌቲክስ አምስት የወርቅ እና ሶስት የብር ሜዳሊያ በማግኘት ከዓለም በቀዳሚነት አጠናቃለች። ይህንንም ተከትሎ አሸብር ወ/ጊዮርጊስ (ዶ/ር)፤ በፓሪስ የተመዘገበው ውጤት ደካ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 11 Nov 2026 18:01:42 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ ተጽዕኖ ፈጣሪነትና የአየር ንብረት ተሟጋችነት፤ በCOP ጉባኤዎች ላይ",
-    "summary": "አዲስ አበባ፣ ሕዳር 2፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ቀደም ባሉት የCOP ጉባኤዎች ላይ፣ በተለይም የ2015ቱ የፓሪስ የአየር ንብረት ስምምነት እንዲሳካ በማደግ ላይ ያሉ ሀገራትን ቡድን በመምራት ታሪካዊና ቁልፍ ሚና ተጫውታለች። ኢትዮጵያ በታሪክ ለአየር ንብረት መዛባት ከፍተኛ አስተዋጽኦ ያደረጉ የበለጸጉ ሀገራት ለታዳጊ ሀገራት የገንዘብና የቴክኖሎጂ ድጋፍ እንዲያደርጉ በተከታታይ ትሟገታለች። ሀገሪቱ ከተ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 11 Nov 2026 16:41:40 +0000"
   }
 ];
