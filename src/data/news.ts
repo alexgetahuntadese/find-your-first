@@ -3,6 +3,18 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "🇪🇹🇨🇦 Ethiopia and Canada Deepen Climate Dialogue Ahead of COP32, with Focus on Resilience and Sustainable Development",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia and Canada have discussed strengthening bilateral cooperation on climate action, with particular attention to climate resilience and sustainable development, as Ethiopia prepares to assume the COP32 Presidency. T",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 16:11:12 +0000"
+  },
+  {
+    "title": "Abbay and Red Sea at the Heart of Ethiopia’s National Interests: Strategic Forum Mobilizes Knowledge and Diplomacy",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s national interests are inextricably linked to the Abbay River and the Red Sea, two strategic waterways central to the country’s economic development, national security, foreign trade, regional integration and g",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 14:31:49 +0000"
+  },
+  {
     "title": "Nile and Red Sea Forum Pledges to Advance Ethiopia’s National Interests Through Research and Diplomacy",
     "summary": "Addis Ababa, November 14, 2026 (FMC) – The Nile and Red Sea Forum has pledged to work through research and diplomacy to safeguard Ethiopia’s national interests concerning the Nile River and the Red Sea, placing the country’s strategic priorities at the centre ",
     "source": "FBC English",
@@ -49,18 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 14, 2026 (FMC) – Gender equality and women’s inclusion in climate financing featured in discussions between Ethiopia’s Minister of Finance and COP32 Chief Negotiator, Fitsum Assefa (PhD), and Sarah Hendriks of UN Women on the sidelines of",
     "source": "FBC English",
     "publishedAt": "Sat, 14 Nov 2026 12:09:48 +0000"
-  },
-  {
-    "title": "Ethiopia Positions Global Philanthropy as a Partner in Turning COP32 Climate Outcomes into Investment and Action",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia is placing global philanthropic partnerships within its broader strategy to translate climate commitments into practical implementation, with particular emphasis on mobilizing investment and sustaining action bey",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 11:54:05 +0000"
-  },
-  {
-    "title": "Ethiopia Backs Country-Led Climate Investment Drive at Launch of COP31’s BRIDGE Initiative",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Turning national climate plans into investable projects and concrete results took centre stage as Ethiopia’s Minister of Finance and COP32 Chief Negotiator, Fitsum Assefa (PhD), joined the high-level launch of the Climate",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 11:46:46 +0000"
   },
   {
     "title": "ኢትዮጵያ በኮፕ 32 የአፍሪካውያንን ጥቅሞች የሚያስከብሩ የአየር ንብረት ለውጥ ድርድሮችን ታደርጋለች – ጌዲዮን ጢሞቲዎስ (ዶ/ር)",
