@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Presidents of US, Russia and China to Discuss Nuclear Arms Control in First-Ever Trilateral Meeting at APEC Summit",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – The presidents of the United States, Russia and China are expected to hold their first-ever trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) Summit in Shenzhen, China, with nuclear arms ",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 05:38:46 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ በኮፕ 32 የአፍሪካውያንን ጥቅሞች የሚያስከብሩ የአየር ንብረት ለውጥ ድርድሮችን ታደርጋለች – ጌዲዮን ጢሞቲዎስ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በኮፕ 32 ጉባኤ የአፍሪካውያንን ጥቅሞች የሚያስከብሩ የአየር ንብረት ለውጥ ድርድሮችን ታደርጋለች አሉ የኮፕ 32 ፕሬዚዳንት እና የውጭ ጉዳይ ሚኒስትር ጌዲዮን ጢሞቲዎስ (ዶ/ር)። ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከቱርኩ የቴሌቪዥን ጣቢያ ቲ አር ቲ ጋር ባደረጉት ቆይታ፤ የአየር ንብረት ለውጥን ለመከላከል የአየር ንብረት ፋይናንስ መሰረታዊ ጉዳይ መሆኑን አን",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 13 Nov 2026 17:41:34 +0000"
+  },
+  {
+    "title": "ለብሔራዊ ጥቅም የቆመው የዓባይና ቀይ ባሕር ፎረም",
+    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ህልውና ከዓባይ ወንዝና ከቀይ ባሕር ጋር በጥብቅ የተቆራኘ ነው። እነዚህ ሁለት የውሃ አካላት በርካታ ሀገራትን የሚያገናኙ እንዲሁም የተለያዩ ፍላጎቶች የሚንጸባረቁባቸው የትብብር ብሎም የግጭት መነሻዎች ናቸው። የዓባይ ወንዝን ጉዳይ በተመለከተ የናይል ተፋሰስ ኢኒሼቲቭ የተፋሰሱን ሀገራት የልማት ፍላጎትና የጋራ ጥቅም ባገናዘበ መልኩ የጋራ የውሃ ሀብትን",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 13 Nov 2026 17:21:08 +0000"
+  },
+  {
+    "title": "የመዲናዋ የመኖሪያ ቤት ፍላጎትን የሚመልሰው አዲስ ምዕራፍ",
+    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) በአዲስ አበባ ከተማ እያደገ የመጣውን የነዋሪዎች የመኖሪያ ቤት ፍላጎት ለማመጣጠን መንግሥት፣ የህብረት ሥራ ማህበራት እንዲሁም የግል ባለሀብቶች በተቀናጀ መልኩ የቤት ልማት ሥራዎችን እያከናወኑ ይገኛሉ። ወቅታዊ መረጃዎች እንደሚያመለክቱት፤ ባለፉት አምስት ዓመታት በተለያዩ የቤት ልማት አማራጮች 496 ሺህ 971 መኖሪያ ቤቶች ተገንብተው ለነዋሪዎች ተላልፈዋል። ይ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 13 Nov 2026 16:46:54 +0000"
+  },
+  {
     "title": "Addis Ababa Ramping Up Public, Private and Cooperative Efforts to Advance Ethiopia’s Guba-Launched 1.5 Million-Home Mega Project: Mayor",
     "summary": "Addis Ababa, November 13, 2026 (FMC) – Addis Ababa is mobilizing government resources, private investment, housing cooperatives and individual initiatives to advance Ethiopia’s five-year national undertaking to build 1.5 million homes, Mayor Adanech Abiebie di",
     "source": "FBC English",
@@ -39,39 +63,15 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 13 Nov 2026 12:30:28 +0000"
   },
   {
-    "title": "Addis Ababa Advances Construction of 100,000 Homes Across 21 Sites, Mayor Discloses",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Addis Ababa is building 100,000 houses across 21 sites as part of Ethiopia’s five-year national commitment to deliver 1.5 million homes to citizens, Mayor Adanech Abiebie disclosed today. In a social media post following ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 09:27:44 +0000"
-  },
-  {
-    "title": "PM Abiy Says Relentless Efforts Underway to Fulfil Five-Year Promise of Building Decent, Affordable Homes for Ethiopians",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has reaffirmed his commitment to fulfilling the five-year promise to build houses for the Ethiopian people, stating that relentless efforts are underway, day and night, to turn the pledge into re",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 09:09:42 +0000"
-  },
-  {
-    "title": "Ethiopia’s Green Legacy Initiative Advances the Global Fight Against the Planet’s Chronic Climate Crisis: Press Secretary",
-    "summary": "Antalya, November 13, 2026 (FMC) – With more than 56 billion seedlings planted over eight years, Ethiopia’s Green Legacy Initiative is contributing to the global response to climate change through an integrated approach to environmental restoration, natural-re",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 08:34:43 +0000"
-  },
-  {
-    "title": "Ethiopia Looks to Türkiye’s Experience Hosting COP31 to Strengthen Preparations for Addis Ababa Summit: PMO Press Secretary",
-    "summary": "Antalya, November 13, 2026 (FMC) – Ethiopia is drawing on Türkiye’s experience in hosting the UN Climate Change Conference as it advances preparations for COP32, with Prime Minister Abiy Ahmed’s meeting with Turkish President Recep Tayyip Erdoğan in Antalya pr",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 08:13:01 +0000"
-  },
-  {
-    "title": "ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ጋር ያደረጉት ውይይት ለኮፕ32 ልምድ የተቀሰመበት ነው – ቢልለኔ ሥዩም",
-    "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ከቱርክዬ ፕሬዚዳንት ረጅብ ጣይብ ኤርዶጋን ጋር ያደረጉት ውይይት ለኮፕ32 ልምድ የተቀሰመበት ነው አሉ በጠቅላይ ሚኒስትር ጽ/ቤት የፕሬስ ሴክሬታሪያት ኃላፊ ቢልለኔ ሥዩም፡፡ ኃላፊዋ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በቱርክዬ አንታሊያ በተካሄደው የኮፕ31 የመሪዎች ጉባኤ ላይ ያደረጉትን ቆይታ በተመለከተ ማብራሪያ ",
+    "title": "የኮይሻ ኃይል ማመንጫ ፕሮጀክት የግንባታ አፈጻጸም 78 ነጥብ 3 በመቶ ደርሷል",
+    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የኮይሻ ኃይል ማመንጫ ግድብ ግንባታ አፈጻጸም 78 ነጥብ 36 በመቶ ደርሷል አለ የኢትዮጵያ ኤሌክትሪክ ኃይል፡፡ ተቋሙ የ2019 በጀት ዓመት የመጀመሪያ ሩብ ዓመት እቅድ አፈጻጸም ግምገማ አካሂዷል፡፡ በሦስት ወራት ለመሙላት ከታቀደው 255 ሺህ ሜትር ኪዩብ የአርሲሲ ኮንክሪት ሙሌት ውስጥ 250 ሺህ ሜትር ኪዩብ መከናወኑ በግምገማ መድረኩ ላይ ተመላክቷል፡፡ […]",
     "source": "Fana Media",
-    "publishedAt": "Thu, 12 Nov 2026 17:47:59 +0000"
+    "publishedAt": "Fri, 13 Nov 2026 11:59:12 +0000"
   },
   {
-    "title": "ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከሩዋንዳ የአካባቢ ጥበቃ ሚኒስትር ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ሕዳር 3፣ 2019 (ኤፍ ኤም ሲ) የውጭ ጉዳይ ሚኒስትር እና የኮፕ32 ፕሬዚዳንት ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከሩዋንዳ የአካባቢ ጥበቃ ሚኒስትር በርናዴት አራክዊዬ (ዶ/ር) ጋር ተወያይተዋል፡፡ ሚኒስትሮቹ በአንታሊያ ቱርክዬ እየተካሄደ ከሚገኘው የኮፕ31 ጉባኤ ጎን ለጎን ባደረጉት ውይይት፤ ለኮፕ32 ዝግጅት ትብብርን ማጠናከር በሚቻልባቸው ጉዳዮች ዙሪያ መክረዋል፡፡ ሁለቱ ወገኖች በጋራ ቅድሚያ በተ",
+    "title": "ፊልድ ማርሻል ብርሃኑ ጁላ ከመቐለ ከተማ ነዋሪዎች ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ ከመቐለ ከተማ ነዋሪዎች ጋር ተወያይተዋል። በውይይቱ ላይ የሃይማኖት አባቶች፣ የሀገር ሽማግሌዎችና ወጣቶችን ጨምሮ የከተማዋ የማኅበረሰብ ክፍሎች ተገኝተዋል፡፡ ውይይቱ በትግራይ ክልል ሰላምና መረጋጋትን ማጠናከር፣ የማኅበረሰቡን ስጋቶችና ጥያቄዎች ማዳመጥ እንዲሁም በጋራ መግባባትና ትብብር የሰላም ግን",
     "source": "Fana Media",
-    "publishedAt": "Thu, 12 Nov 2026 15:49:03 +0000"
+    "publishedAt": "Fri, 13 Nov 2026 11:33:32 +0000"
   }
 ];
