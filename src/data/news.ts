@@ -3,10 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Presidents of US, Russia and China to Discuss Nuclear Arms Control in First-Ever Trilateral Meeting at APEC Summit",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – The presidents of the United States, Russia and China are expected to hold their first-ever trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) Summit in Shenzhen, China, with nuclear arms ",
+    "title": "Nile and Red Sea Forum Pledges to Advance Ethiopia’s National Interests Through Research and Diplomacy",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – The Nile and Red Sea Forum has pledged to work through research and diplomacy to safeguard Ethiopia’s national interests concerning the Nile River and the Red Sea, placing the country’s strategic priorities at the centre ",
     "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 05:38:46 +0000"
+    "publishedAt": "Sat, 14 Nov 2026 14:13:13 +0000"
+  },
+  {
+    "title": "National Bank of Ethiopia Joins Global Islamic Climate Finance Alliance as Founding Affiliate",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – The National Bank of Ethiopia (NBE) has become a Founding Affiliate of the Global Islamic Climate Finance Alliance (GICFA), joining the initiative at its official launch held on the sidelines of the 31st UN Climate Change",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 14:03:12 +0000"
+  },
+  {
+    "title": "Preparations Completed for 21st Nations, Nationalities and Peoples’ Day Celebrations in Jimma: HoPR Speaker",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Preparations have been completed to celebrate the 21st Nations, Nationalities and Peoples’ Day in a manner that contributes to the realization of the government’s development objectives, Speaker of Ethiopia’s House of Fed",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 13:54:03 +0000"
+  },
+  {
+    "title": "Ethiopia Welcomes Home Dakar 2026 Young Champions with Heroic Reception Following Historic First-Place Finish in Athletics",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s triumphant young athletes have received a hero’s welcome at Addis Ababa Bole International Airport following their outstanding performance at the Dakar 2026 Youth Olympic Games in Senegal, where they placed fir",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 13:43:01 +0000"
+  },
+  {
+    "title": "Ethiopia’s Green Development Is a National Strategy for Economic Transformation and Generational Prosperity: Deputy PM",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s approach to climate change is anchored in a national development strategy that connects environmental stewardship with economic transformation, resilience and prosperity for generations to come, Deputy Prime Mi",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 13:23:37 +0000"
+  },
+  {
+    "title": "PM Abiy Salutes Ethiopia’s Young Champions for Dominating Dakar 2026 Youth Olympic Games",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Prime Minister Abiy Ahmed has saluted Ethiopia’s young athletes for their outstanding and historic performance at the Dakar 2026 Youth Olympic Games in Senegal, where they secured first place in the athletics medal standi",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 13:11:21 +0000"
+  },
+  {
+    "title": "ENDF Chief Tasks Military Commanders with Mastering AI and Emerging Technologies for Future Warfare",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Chief of Staff of the Ethiopian National Defense Forces (ENDF) Field Marshal Birhanu Jula has tasked military commanders with mastering artificial intelligence and emerging technologies to keep pace with the changing natu",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 12:51:57 +0000"
+  },
+  {
+    "title": "Ethiopia and UN Women Reinforce Cooperation on Gender-Responsive Climate Finance and Inclusive Climate Action",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Gender equality and women’s inclusion in climate financing featured in discussions between Ethiopia’s Minister of Finance and COP32 Chief Negotiator, Fitsum Assefa (PhD), and Sarah Hendriks of UN Women on the sidelines of",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 12:09:48 +0000"
+  },
+  {
+    "title": "Ethiopia Positions Global Philanthropy as a Partner in Turning COP32 Climate Outcomes into Investment and Action",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia is placing global philanthropic partnerships within its broader strategy to translate climate commitments into practical implementation, with particular emphasis on mobilizing investment and sustaining action bey",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 11:54:05 +0000"
+  },
+  {
+    "title": "Ethiopia Backs Country-Led Climate Investment Drive at Launch of COP31’s BRIDGE Initiative",
+    "summary": "Addis Ababa, November 14, 2026 (FMC) – Turning national climate plans into investable projects and concrete results took centre stage as Ethiopia’s Minister of Finance and COP32 Chief Negotiator, Fitsum Assefa (PhD), joined the high-level launch of the Climate",
+    "source": "FBC English",
+    "publishedAt": "Sat, 14 Nov 2026 11:46:46 +0000"
   },
   {
     "title": "ኢትዮጵያ በኮፕ 32 የአፍሪካውያንን ጥቅሞች የሚያስከብሩ የአየር ንብረት ለውጥ ድርድሮችን ታደርጋለች – ጌዲዮን ጢሞቲዎስ (ዶ/ር)",
@@ -19,59 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ህልውና ከዓባይ ወንዝና ከቀይ ባሕር ጋር በጥብቅ የተቆራኘ ነው። እነዚህ ሁለት የውሃ አካላት በርካታ ሀገራትን የሚያገናኙ እንዲሁም የተለያዩ ፍላጎቶች የሚንጸባረቁባቸው የትብብር ብሎም የግጭት መነሻዎች ናቸው። የዓባይ ወንዝን ጉዳይ በተመለከተ የናይል ተፋሰስ ኢኒሼቲቭ የተፋሰሱን ሀገራት የልማት ፍላጎትና የጋራ ጥቅም ባገናዘበ መልኩ የጋራ የውሃ ሀብትን",
     "source": "Fana Media",
     "publishedAt": "Fri, 13 Nov 2026 17:21:08 +0000"
-  },
-  {
-    "title": "የመዲናዋ የመኖሪያ ቤት ፍላጎትን የሚመልሰው አዲስ ምዕራፍ",
-    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) በአዲስ አበባ ከተማ እያደገ የመጣውን የነዋሪዎች የመኖሪያ ቤት ፍላጎት ለማመጣጠን መንግሥት፣ የህብረት ሥራ ማህበራት እንዲሁም የግል ባለሀብቶች በተቀናጀ መልኩ የቤት ልማት ሥራዎችን እያከናወኑ ይገኛሉ። ወቅታዊ መረጃዎች እንደሚያመለክቱት፤ ባለፉት አምስት ዓመታት በተለያዩ የቤት ልማት አማራጮች 496 ሺህ 971 መኖሪያ ቤቶች ተገንብተው ለነዋሪዎች ተላልፈዋል። ይ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 13 Nov 2026 16:46:54 +0000"
-  },
-  {
-    "title": "Addis Ababa Ramping Up Public, Private and Cooperative Efforts to Advance Ethiopia’s Guba-Launched 1.5 Million-Home Mega Project: Mayor",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Addis Ababa is mobilizing government resources, private investment, housing cooperatives and individual initiatives to advance Ethiopia’s five-year national undertaking to build 1.5 million homes, Mayor Adanech Abiebie di",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 14:56:00 +0000"
-  },
-  {
-    "title": "ENDF Chief of Staff Engages Mekelle Residents in Dialogue on Peace and Stability in Tigray Region",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Chief of Staff of the Ethiopian National Defense Force (ENDF), Field Marshal Birhanu Jula, has held a consultative meeting with residents of Mekelle to discuss efforts to consolidate peace and stability in the Tigray Regi",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 14:32:57 +0000"
-  },
-  {
-    "title": "Ethiopia’s Second-Largest Hydropower Giant Nears Completion as Koysha Reaches 78.36%",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Ethiopia’s Koysha Hydropower Project, the country’s second-largest hydropower development after the Grand Ethiopian Renaissance Dam (GERD), has reached 78.36% completion, marking significant progress in one of the nation’",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 14:19:42 +0000"
-  },
-  {
-    "title": "PM Abiy Expresses Confidence in Ethiopia’s Potential to Match International Development Achievements",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has expressed strong confidence in Ethiopia’s capacity to attain development achievements comparable to those witnessed in other countries, citing the progress underway across the nation and the ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 13:14:37 +0000"
-  },
-  {
-    "title": "PM Abiy Says Ethiopia Needs Millions More Homes Beyond Its 1.5 Million-House Plan",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has disclosed the enormous scale of Ethiopia’s housing needs, stating that the country requires millions of additional homes as it confronts extensive housing deficits in both rural and urban com",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 12:52:03 +0000"
-  },
-  {
-    "title": "PM Abiy Outlines Industrial, Financial and Partnership Foundations of Ethiopia’s 1.5 Million-Homes Programme",
-    "summary": "Addis Ababa, November 13, 2026 (FMC) – Prime Minister Abiy Ahmed has outlined the broader economic and development foundations of Ethiopia’s five-year commitment to build 1.5 million houses, emphasizing that meeting the country’s enormous housing demand requir",
-    "source": "FBC English",
-    "publishedAt": "Fri, 13 Nov 2026 12:30:28 +0000"
-  },
-  {
-    "title": "የኮይሻ ኃይል ማመንጫ ፕሮጀክት የግንባታ አፈጻጸም 78 ነጥብ 3 በመቶ ደርሷል",
-    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የኮይሻ ኃይል ማመንጫ ግድብ ግንባታ አፈጻጸም 78 ነጥብ 36 በመቶ ደርሷል አለ የኢትዮጵያ ኤሌክትሪክ ኃይል፡፡ ተቋሙ የ2019 በጀት ዓመት የመጀመሪያ ሩብ ዓመት እቅድ አፈጻጸም ግምገማ አካሂዷል፡፡ በሦስት ወራት ለመሙላት ከታቀደው 255 ሺህ ሜትር ኪዩብ የአርሲሲ ኮንክሪት ሙሌት ውስጥ 250 ሺህ ሜትር ኪዩብ መከናወኑ በግምገማ መድረኩ ላይ ተመላክቷል፡፡ […]",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 13 Nov 2026 11:59:12 +0000"
-  },
-  {
-    "title": "ፊልድ ማርሻል ብርሃኑ ጁላ ከመቐለ ከተማ ነዋሪዎች ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የጦር ኃይሎች ጠቅላይ ኤታማዦር ሹም ፊልድ ማርሻል ብርሃኑ ጁላ ከመቐለ ከተማ ነዋሪዎች ጋር ተወያይተዋል። በውይይቱ ላይ የሃይማኖት አባቶች፣ የሀገር ሽማግሌዎችና ወጣቶችን ጨምሮ የከተማዋ የማኅበረሰብ ክፍሎች ተገኝተዋል፡፡ ውይይቱ በትግራይ ክልል ሰላምና መረጋጋትን ማጠናከር፣ የማኅበረሰቡን ስጋቶችና ጥያቄዎች ማዳመጥ እንዲሁም በጋራ መግባባትና ትብብር የሰላም ግን",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 13 Nov 2026 11:33:32 +0000"
   }
 ];
