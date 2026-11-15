@@ -9,6 +9,12 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sat, 14 Nov 2026 16:11:12 +0000"
   },
   {
+    "title": "የበጋ መስኖ ስንዴ ልማት ለምግብ ሉዓላዊነት",
+    "summary": "አዲስ አበባ፣ ሕዳር 5፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ባለፉት ጥቂት ዓመታት ውስጥ በግብርናው ዘርፍ ያስመዘገበችው ድል ከውጭ የምግብ ጥገኝነት በማላቀቅ ራስን የመቻል ማሳያ እያደረጋት ይገኛል። በተለይም በበጋ መስኖ ስንዴ ልማት የተከናወኑት ሰፊ ስራዎችና የተገኙት አስደናቂ ውጤቶች የሀገሪቱን ከፍታ የሚያሳዩ፣ በታሪክ የሚዘከሩ ትላልቅ ምዕራፎች ናቸው። ይህ ታላቅ ስኬት በሙከራ ደረጃ በ20 ሺህ ሄክታር መሬ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 14 Nov 2026 15:45:52 +0000"
+  },
+  {
     "title": "Abbay and Red Sea at the Heart of Ethiopia’s National Interests: Strategic Forum Mobilizes Knowledge and Diplomacy",
     "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s national interests are inextricably linked to the Abbay River and the Red Sea, two strategic waterways central to the country’s economic development, national security, foreign trade, regional integration and g",
     "source": "FBC English",
@@ -33,10 +39,22 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sat, 14 Nov 2026 13:54:03 +0000"
   },
   {
+    "title": "አህጉራዊ የንግድ ትስስር ጉባኤ በአዲስ አበባ ይካሄዳል",
+    "summary": "አዲስ አበባ፣ ሕዳር 5፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በ2027 የሚካሄደውን የአፍሪካ ንግድ ትስስር ጉባኤ (ACCS) እንድታስተናግድ የሚያስችል የትብብር ስምምነት ተፈርሟል። ስምምነቱን የጉባኤው መሥራች ናይጄል ኮሊን ታተርሳል፣ የኢትዮጵያ ማርኬቲንግ ባለሙያዎች ማኅበር ፕሬዝዳንት ፋና አባይ እና የኢትዮጵያ ኢንፎርሜሽን ኮሙኒኬሽን ቴክኖሎጂ ማኅበር ፕሬዚዳንት ይልቃል አባተ ተፈራርመዋል። ከ1 ሺህ በላይ የን",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 14 Nov 2026 13:45:59 +0000"
+  },
+  {
     "title": "Ethiopia Welcomes Home Dakar 2026 Young Champions with Heroic Reception Following Historic First-Place Finish in Athletics",
     "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s triumphant young athletes have received a hero’s welcome at Addis Ababa Bole International Airport following their outstanding performance at the Dakar 2026 Youth Olympic Games in Senegal, where they placed fir",
     "source": "FBC English",
     "publishedAt": "Sat, 14 Nov 2026 13:43:01 +0000"
+  },
+  {
+    "title": "አዲሱን ትውልድ ለላቀ ድል እንዲተጋ ማነሳሳታችሁን ቀጥሉ – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 5፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያን ሠንደቅ ዓላማ በክብር ከፍ አድርጋችሁ ማውለብለባችሁን እንዲሁም አዲሱን ትውልድ ለላቀ ድል እንዲተጋ ማነሳሳታችሁን ቀጥሉ አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት፤ ለወጣት ኢትዮጵያውያን አትሌቶቻችን በሴኔጋል ዳካር በተካሄደው የ2026 የወጣቶች ኦሊምፒክ ጨዋታዎች ላይ ላስመዘገ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 14 Nov 2026 13:28:32 +0000"
   },
   {
     "title": "Ethiopia’s Green Development Is a National Strategy for Economic Transformation and Generational Prosperity: Deputy PM",
@@ -55,23 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 14, 2026 (FMC) – Chief of Staff of the Ethiopian National Defense Forces (ENDF) Field Marshal Birhanu Jula has tasked military commanders with mastering artificial intelligence and emerging technologies to keep pace with the changing natu",
     "source": "FBC English",
     "publishedAt": "Sat, 14 Nov 2026 12:51:57 +0000"
-  },
-  {
-    "title": "Ethiopia and UN Women Reinforce Cooperation on Gender-Responsive Climate Finance and Inclusive Climate Action",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Gender equality and women’s inclusion in climate financing featured in discussions between Ethiopia’s Minister of Finance and COP32 Chief Negotiator, Fitsum Assefa (PhD), and Sarah Hendriks of UN Women on the sidelines of",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 12:09:48 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ በኮፕ 32 የአፍሪካውያንን ጥቅሞች የሚያስከብሩ የአየር ንብረት ለውጥ ድርድሮችን ታደርጋለች – ጌዲዮን ጢሞቲዎስ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በኮፕ 32 ጉባኤ የአፍሪካውያንን ጥቅሞች የሚያስከብሩ የአየር ንብረት ለውጥ ድርድሮችን ታደርጋለች አሉ የኮፕ 32 ፕሬዚዳንት እና የውጭ ጉዳይ ሚኒስትር ጌዲዮን ጢሞቲዎስ (ዶ/ር)። ጌዲዮን ጢሞቲዎስ (ዶ/ር) ከቱርኩ የቴሌቪዥን ጣቢያ ቲ አር ቲ ጋር ባደረጉት ቆይታ፤ የአየር ንብረት ለውጥን ለመከላከል የአየር ንብረት ፋይናንስ መሰረታዊ ጉዳይ መሆኑን አን",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 13 Nov 2026 17:41:34 +0000"
-  },
-  {
-    "title": "ለብሔራዊ ጥቅም የቆመው የዓባይና ቀይ ባሕር ፎረም",
-    "summary": "አዲስ አበባ፣ ሕዳር 4፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ህልውና ከዓባይ ወንዝና ከቀይ ባሕር ጋር በጥብቅ የተቆራኘ ነው። እነዚህ ሁለት የውሃ አካላት በርካታ ሀገራትን የሚያገናኙ እንዲሁም የተለያዩ ፍላጎቶች የሚንጸባረቁባቸው የትብብር ብሎም የግጭት መነሻዎች ናቸው። የዓባይ ወንዝን ጉዳይ በተመለከተ የናይል ተፋሰስ ኢኒሼቲቭ የተፋሰሱን ሀገራት የልማት ፍላጎትና የጋራ ጥቅም ባገናዘበ መልኩ የጋራ የውሃ ሀብትን",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 13 Nov 2026 17:21:08 +0000"
   }
 ];
