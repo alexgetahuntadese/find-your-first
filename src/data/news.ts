@@ -3,34 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ethiopia Repatriates 2,086 Nationals from Saudi Arabia Over the Past Week",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) – Ethiopia has repatriated 2,086 nationals who had been living under difficult conditions in Saudi Arabia over the past week, as the country sustains its efforts to safeguard its citizens abroad and facilitate their safe re",
+    "title": "Prosperity Party, United Russia Formalize Strategic Partnership to Deepen Ethiopia–Russia Political Cooperation",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia’s ruling Prosperity Party and Russia’s United Russia Party have signed a strategic partnership agreement to deepen institutional cooperation and advance political engagement, building on the longstanding relation",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 11:30:22 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 16:26:21 +0000"
   },
   {
-    "title": "Inter-Religious Council of Ethiopia Participates in Muscat Global Forum on Interfaith Dialogue",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) – A delegation of the Inter-Religious Council of Ethiopia (IRCE), led by its senior religious leaders, is participating in an international forum of religious and cultural leaders underway in Muscat, Oman, focusing on count",
+    "title": "PM Adviser Calls on Tigray Youth Ensnared by Illegal TPLF’s Destructive Agenda to Break Away and Embrace Peace",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ministerial Advisor to the Prime Minister of Ethiopia on East African Affairs Getachew Reda has called on Tigray youth ensnared by the destructive agenda of the illegal TPLF group to break away from armed struggle and emb",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 11:21:54 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 15:28:08 +0000"
   },
   {
-    "title": "Solidarity Party Pledges to Advance Tigray’s Development Priorities, Getachew Reda Says",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) – Tigray Democratic Solidarity Party has reaffirmed its commitment to addressing the development priorities of the people of Tigray, with party President Getachew Reda pledging to strengthen its efforts to respond to public",
+    "title": "Tigray Region’s Caretaker Administration Delivers Humanitarian Assistance Amid Ongoing Recovery Efforts",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — As recovery efforts continue across Tigray Region, the caretaker administration of Adi Gudom town has extended humanitarian assistance to people in need, drawing on its own resources to provide immediate relief to vulnera",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 11:17:51 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 14:56:47 +0000"
   },
   {
-    "title": "Ethiopia and China Move to Double Chinese Investment in Industrial Parks and Special Economic Zones",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) – Ethiopia and China are moving to expand Chinese investment in Ethiopia’s industrial parks and Special Economic Zones (SEZs), with the two sides discussing efforts to double the investment within the next two years. The co",
+    "title": "Ethiopia to Expand Employment Pathways for Former Combatants at Home and Abroad: Minister",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia is working with relevant institutions to connect former combatants with employment opportunities both at home and abroad, as part of efforts to support their economic reintegration and enable them to build sustai",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 11:15:18 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 14:02:21 +0000"
   },
   {
-    "title": "PM Abiy Convenes COP32 National Steering Committee to Assess Preparations and Set Strategic Direction",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) – Prime Minister Abiy Ahmed convened the COP32 National Steering Committee today to review the progress of preparations, assess ongoing activities and provide strategic direction for Ethiopia’s hosting of the 32nd United Na",
+    "title": "PM’s East African Affairs Adviser and Labor and Skills Minister Assess DDR and Reintegration Efforts in Tigray Region",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia’s efforts to support disarmament, demobilization and reintegration (DDR) in Tigray Regional State are advancing through rehabilitation and skills training programmes aimed at helping former combatants return to c",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 09:39:07 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 13:23:18 +0000"
+  },
+  {
+    "title": "Mekelle University Scholars Pledge Academic Expertise and Research to Advance the City’s Urban Transformation",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Scholars at Mekelle University in Ethiopia’s Tigray Regional State have pledged to contribute their academic expertise, scientific research and professional knowledge to Mekelle’s ongoing urban transformation, reinforcing",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 13:08:33 +0000"
+  },
+  {
+    "title": "Adigrat University Has Resumed Regular Academic Activities, Reuniting Students on Campus",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Adigrat University in northern Ethiopia’s Tigray Regional State has resumed its regular teaching and learning activities, marking a significant step towards restoring academic continuity after disruptions caused by the re",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 12:52:15 +0000"
+  },
+  {
+    "title": "Ethiopia Is Turning Green Economy Vision into a New Development Reality: Scholars",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia is translating its national green economy vision into tangible development outcomes, linking environmental protection with food sovereignty, economic opportunities and improved livelihoods, scholars have said. Ta",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 12:43:51 +0000"
+  },
+  {
+    "title": "The Roots of Tomorrow: Ethiopia’s Green Ambition and the Making of Lasting Prosperity",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — A nation’s prosperity is measured not only by what it builds, but also by what it preserves for those who come after it. Forests restored, rivers protected, clean energy harnessed and fertile land sustained are investment",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 12:24:13 +0000"
+  },
+  {
+    "title": "AU Commission Chairperson Positions 200 Million Young Africans at the Heart of Africa’s Transformation Agenda",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) — African Union (AU) Commission Chairperson Mahmoud Ali Youssouf has placed the opportunities and aspirations of 200 million young Africans at the centre of the continent’s transformation agenda, underscoring the need to co",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 12:15:30 +0000"
   },
   {
     "title": "የመቐለ ከተማ ከንቲባ ሺሻይ አማረ (ዶ/ር) ከከተማዋ የንግድ ማህበረሰብ ጋር ተወያዩ",
@@ -43,35 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በዚህ ዘመን ለኢኮኖሚ ዕድገት ወሳኝ በሆኑት የንጹሕ ኃይልና ዲጂታል ቴክኖሎጂ ዘርፎች ላይ በልዩ ትኩረት እየሰራች ትገኛለች። ኢትዮጵያ እነዚህን በጥብቅ የተሳሰሩ ቁልፍ መስኮች ለማልማት በቂ የተፈጥሮ ሀብትና አስቻይ ሁኔታዎችን የታደለች መሆኗ ስትራቴጂያዊ ዕድል ነው። አካታች የኢኮኖሚ ልማትን እውን ለማድረግ ታዳሽ ኃይል የልማት መሠረት ሲሆን፤ የዲጂታል",
     "source": "Fana Media",
     "publishedAt": "Sun, 15 Nov 2026 08:56:14 +0000"
-  },
-  {
-    "title": "የፋይዳ ዲጂታል መታወቂያ ለግብርና እና ገጠር ትራንስፎርሜሽን",
-    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ወደ ዲጂታል ኢኮኖሚ የምታደርገውን ጉዞ ለማፋጠን በርካታ መዋቅራዊ ለውጦችን እያደረገች ሲሆን፤ ከእነዚህም መካከል ግንባር ቀደሙን ስፍራ የሚይዘው ፋይዳ (የብሔራዊ ዲጂታል መታወቂያ) ነው፡፡ የፋይዳ ዲጂታል መታወቂያ ለዲጂታል ሽግግር ቁልፍ ጉዳይ በመሆኑ ባለፉት ዓመታት ዜጎች የፋይዳ ዲጂታል መታወቂያ እንዲይዙ ሰፊ ስራ ተሰርቷል። በዚህም እስካሁን ድረስ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 15 Nov 2026 08:21:08 +0000"
-  },
-  {
-    "title": "ቻይና በኢትዮጵያ ኢንዱስትሪ ፓርኮች ያላትን ኢንቨስትመንት በእጥፍ ለማሳደግ እየተሰራ ነው",
-    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ቻይና በኢትዮጵያ ኢንዱስትሪ ፓርኮች ያላትን ኢንቨስትመንት በሚቀጥሉት ሁለት ዓመታት በእጥፍ ለማሳደግ እየተሰራ ነው አለ የኢንዱስትሪ ፓርኮች ልማት ኮርፖሬሽን፡፡ የኮርፖሬሽኑ ዋና ሥራ አስፈጻሚ ፍጹም ከተማ በፓርኮቹ የቻይናን ኢንቨስትመንት ማሳደግ በሚቻልባቸው ጥረቶች ዙሪያ ከሀገሪቱ አምባሳደር ቼን ሃይ ጋር ተወያይተዋል፡፡ በውይይታቸውም የሁለቱን ተቋማት ትብብር",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 15 Nov 2026 07:42:37 +0000"
-  },
-  {
-    "title": "🇪🇹🇨🇦 Ethiopia and Canada Deepen Climate Dialogue Ahead of COP32, with Focus on Resilience and Sustainable Development",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia and Canada have discussed strengthening bilateral cooperation on climate action, with particular attention to climate resilience and sustainable development, as Ethiopia prepares to assume the COP32 Presidency. T",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 16:11:12 +0000"
-  },
-  {
-    "title": "የበጋ መስኖ ስንዴ ልማት ለምግብ ሉዓላዊነት",
-    "summary": "አዲስ አበባ፣ ሕዳር 5፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ባለፉት ጥቂት ዓመታት ውስጥ በግብርናው ዘርፍ ያስመዘገበችው ድል ከውጭ የምግብ ጥገኝነት በማላቀቅ ራስን የመቻል ማሳያ እያደረጋት ይገኛል። በተለይም በበጋ መስኖ ስንዴ ልማት የተከናወኑት ሰፊ ስራዎችና የተገኙት አስደናቂ ውጤቶች የሀገሪቱን ከፍታ የሚያሳዩ፣ በታሪክ የሚዘከሩ ትላልቅ ምዕራፎች ናቸው። ይህ ታላቅ ስኬት በሙከራ ደረጃ በ20 ሺህ ሄክታር መሬ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 14 Nov 2026 15:45:52 +0000"
-  },
-  {
-    "title": "Abbay and Red Sea at the Heart of Ethiopia’s National Interests: Strategic Forum Mobilizes Knowledge and Diplomacy",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s national interests are inextricably linked to the Abbay River and the Red Sea, two strategic waterways central to the country’s economic development, national security, foreign trade, regional integration and g",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 14:31:49 +0000"
   }
 ];
