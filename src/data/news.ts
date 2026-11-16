@@ -3,6 +3,60 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Repatriates 2,086 Nationals from Saudi Arabia Over the Past Week",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) – Ethiopia has repatriated 2,086 nationals who had been living under difficult conditions in Saudi Arabia over the past week, as the country sustains its efforts to safeguard its citizens abroad and facilitate their safe re",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 11:30:22 +0000"
+  },
+  {
+    "title": "Inter-Religious Council of Ethiopia Participates in Muscat Global Forum on Interfaith Dialogue",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) – A delegation of the Inter-Religious Council of Ethiopia (IRCE), led by its senior religious leaders, is participating in an international forum of religious and cultural leaders underway in Muscat, Oman, focusing on count",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 11:21:54 +0000"
+  },
+  {
+    "title": "Solidarity Party Pledges to Advance Tigray’s Development Priorities, Getachew Reda Says",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) – Tigray Democratic Solidarity Party has reaffirmed its commitment to addressing the development priorities of the people of Tigray, with party President Getachew Reda pledging to strengthen its efforts to respond to public",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 11:17:51 +0000"
+  },
+  {
+    "title": "Ethiopia and China Move to Double Chinese Investment in Industrial Parks and Special Economic Zones",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) – Ethiopia and China are moving to expand Chinese investment in Ethiopia’s industrial parks and Special Economic Zones (SEZs), with the two sides discussing efforts to double the investment within the next two years. The co",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 11:15:18 +0000"
+  },
+  {
+    "title": "PM Abiy Convenes COP32 National Steering Committee to Assess Preparations and Set Strategic Direction",
+    "summary": "Addis Ababa, November 16, 2026 (FMC) – Prime Minister Abiy Ahmed convened the COP32 National Steering Committee today to review the progress of preparations, assess ongoing activities and provide strategic direction for Ethiopia’s hosting of the 32nd United Na",
+    "source": "FBC English",
+    "publishedAt": "Mon, 16 Nov 2026 09:39:07 +0000"
+  },
+  {
+    "title": "የመቐለ ከተማ ከንቲባ ሺሻይ አማረ (ዶ/ር) ከከተማዋ የንግድ ማህበረሰብ ጋር ተወያዩ",
+    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል ባለአደራ አስተዳደር የመቐለ ከተማ ከንቲባ ሺሻይ አማረ (ዶ/ር) ከከተማዋ የንግድ ማህረሰብ ጋር ተወያይተዋል፡፡ በውይይት መድረኩ በከተማዋ ተግባራዊ ለማድረግ የታቀደው የኮሪደር ልማት ፕሮጀክት ለኢኮኖሚ ዕድገት የሚኖረውን አስተዋጽኦ፣ የሚፈጥራቸውን የንግድና ኢንቨስትመንት ዕድሎች እንዲሁም የንግድ ማህበረሰቡን ተሳትፎ ለማጠናከር ያለመ ምክክር ተደ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 15 Nov 2026 11:17:21 +0000"
+  },
+  {
+    "title": "በታዳሽ ኃይል ላይ የተመሠረተው የኢትዮጵያ ዲጂታላይዜሽን",
+    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በዚህ ዘመን ለኢኮኖሚ ዕድገት ወሳኝ በሆኑት የንጹሕ ኃይልና ዲጂታል ቴክኖሎጂ ዘርፎች ላይ በልዩ ትኩረት እየሰራች ትገኛለች። ኢትዮጵያ እነዚህን በጥብቅ የተሳሰሩ ቁልፍ መስኮች ለማልማት በቂ የተፈጥሮ ሀብትና አስቻይ ሁኔታዎችን የታደለች መሆኗ ስትራቴጂያዊ ዕድል ነው። አካታች የኢኮኖሚ ልማትን እውን ለማድረግ ታዳሽ ኃይል የልማት መሠረት ሲሆን፤ የዲጂታል",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 15 Nov 2026 08:56:14 +0000"
+  },
+  {
+    "title": "የፋይዳ ዲጂታል መታወቂያ ለግብርና እና ገጠር ትራንስፎርሜሽን",
+    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ ወደ ዲጂታል ኢኮኖሚ የምታደርገውን ጉዞ ለማፋጠን በርካታ መዋቅራዊ ለውጦችን እያደረገች ሲሆን፤ ከእነዚህም መካከል ግንባር ቀደሙን ስፍራ የሚይዘው ፋይዳ (የብሔራዊ ዲጂታል መታወቂያ) ነው፡፡ የፋይዳ ዲጂታል መታወቂያ ለዲጂታል ሽግግር ቁልፍ ጉዳይ በመሆኑ ባለፉት ዓመታት ዜጎች የፋይዳ ዲጂታል መታወቂያ እንዲይዙ ሰፊ ስራ ተሰርቷል። በዚህም እስካሁን ድረስ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 15 Nov 2026 08:21:08 +0000"
+  },
+  {
+    "title": "ቻይና በኢትዮጵያ ኢንዱስትሪ ፓርኮች ያላትን ኢንቨስትመንት በእጥፍ ለማሳደግ እየተሰራ ነው",
+    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ቻይና በኢትዮጵያ ኢንዱስትሪ ፓርኮች ያላትን ኢንቨስትመንት በሚቀጥሉት ሁለት ዓመታት በእጥፍ ለማሳደግ እየተሰራ ነው አለ የኢንዱስትሪ ፓርኮች ልማት ኮርፖሬሽን፡፡ የኮርፖሬሽኑ ዋና ሥራ አስፈጻሚ ፍጹም ከተማ በፓርኮቹ የቻይናን ኢንቨስትመንት ማሳደግ በሚቻልባቸው ጥረቶች ዙሪያ ከሀገሪቱ አምባሳደር ቼን ሃይ ጋር ተወያይተዋል፡፡ በውይይታቸውም የሁለቱን ተቋማት ትብብር",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 15 Nov 2026 07:42:37 +0000"
+  },
+  {
     "title": "🇪🇹🇨🇦 Ethiopia and Canada Deepen Climate Dialogue Ahead of COP32, with Focus on Resilience and Sustainable Development",
     "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia and Canada have discussed strengthening bilateral cooperation on climate action, with particular attention to climate resilience and sustainable development, as Ethiopia prepares to assume the COP32 Presidency. T",
     "source": "FBC English",
@@ -19,59 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s national interests are inextricably linked to the Abbay River and the Red Sea, two strategic waterways central to the country’s economic development, national security, foreign trade, regional integration and g",
     "source": "FBC English",
     "publishedAt": "Sat, 14 Nov 2026 14:31:49 +0000"
-  },
-  {
-    "title": "Nile and Red Sea Forum Pledges to Advance Ethiopia’s National Interests Through Research and Diplomacy",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – The Nile and Red Sea Forum has pledged to work through research and diplomacy to safeguard Ethiopia’s national interests concerning the Nile River and the Red Sea, placing the country’s strategic priorities at the centre ",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 14:13:13 +0000"
-  },
-  {
-    "title": "National Bank of Ethiopia Joins Global Islamic Climate Finance Alliance as Founding Affiliate",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – The National Bank of Ethiopia (NBE) has become a Founding Affiliate of the Global Islamic Climate Finance Alliance (GICFA), joining the initiative at its official launch held on the sidelines of the 31st UN Climate Change",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 14:03:12 +0000"
-  },
-  {
-    "title": "Preparations Completed for 21st Nations, Nationalities and Peoples’ Day Celebrations in Jimma: HoPR Speaker",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Preparations have been completed to celebrate the 21st Nations, Nationalities and Peoples’ Day in a manner that contributes to the realization of the government’s development objectives, Speaker of Ethiopia’s House of Fed",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 13:54:03 +0000"
-  },
-  {
-    "title": "አህጉራዊ የንግድ ትስስር ጉባኤ በአዲስ አበባ ይካሄዳል",
-    "summary": "አዲስ አበባ፣ ሕዳር 5፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በ2027 የሚካሄደውን የአፍሪካ ንግድ ትስስር ጉባኤ (ACCS) እንድታስተናግድ የሚያስችል የትብብር ስምምነት ተፈርሟል። ስምምነቱን የጉባኤው መሥራች ናይጄል ኮሊን ታተርሳል፣ የኢትዮጵያ ማርኬቲንግ ባለሙያዎች ማኅበር ፕሬዝዳንት ፋና አባይ እና የኢትዮጵያ ኢንፎርሜሽን ኮሙኒኬሽን ቴክኖሎጂ ማኅበር ፕሬዚዳንት ይልቃል አባተ ተፈራርመዋል። ከ1 ሺህ በላይ የን",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 14 Nov 2026 13:45:59 +0000"
-  },
-  {
-    "title": "Ethiopia Welcomes Home Dakar 2026 Young Champions with Heroic Reception Following Historic First-Place Finish in Athletics",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s triumphant young athletes have received a hero’s welcome at Addis Ababa Bole International Airport following their outstanding performance at the Dakar 2026 Youth Olympic Games in Senegal, where they placed fir",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 13:43:01 +0000"
-  },
-  {
-    "title": "አዲሱን ትውልድ ለላቀ ድል እንዲተጋ ማነሳሳታችሁን ቀጥሉ – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 5፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያን ሠንደቅ ዓላማ በክብር ከፍ አድርጋችሁ ማውለብለባችሁን እንዲሁም አዲሱን ትውልድ ለላቀ ድል እንዲተጋ ማነሳሳታችሁን ቀጥሉ አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)፡፡ ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት፤ ለወጣት ኢትዮጵያውያን አትሌቶቻችን በሴኔጋል ዳካር በተካሄደው የ2026 የወጣቶች ኦሊምፒክ ጨዋታዎች ላይ ላስመዘገ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 14 Nov 2026 13:28:32 +0000"
-  },
-  {
-    "title": "Ethiopia’s Green Development Is a National Strategy for Economic Transformation and Generational Prosperity: Deputy PM",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Ethiopia’s approach to climate change is anchored in a national development strategy that connects environmental stewardship with economic transformation, resilience and prosperity for generations to come, Deputy Prime Mi",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 13:23:37 +0000"
-  },
-  {
-    "title": "PM Abiy Salutes Ethiopia’s Young Champions for Dominating Dakar 2026 Youth Olympic Games",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Prime Minister Abiy Ahmed has saluted Ethiopia’s young athletes for their outstanding and historic performance at the Dakar 2026 Youth Olympic Games in Senegal, where they secured first place in the athletics medal standi",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 13:11:21 +0000"
-  },
-  {
-    "title": "ENDF Chief Tasks Military Commanders with Mastering AI and Emerging Technologies for Future Warfare",
-    "summary": "Addis Ababa, November 14, 2026 (FMC) – Chief of Staff of the Ethiopian National Defense Forces (ENDF) Field Marshal Birhanu Jula has tasked military commanders with mastering artificial intelligence and emerging technologies to keep pace with the changing natu",
-    "source": "FBC English",
-    "publishedAt": "Sat, 14 Nov 2026 12:51:57 +0000"
   }
 ];
