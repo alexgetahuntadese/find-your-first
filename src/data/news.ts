@@ -3,6 +3,48 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia to Strengthen Its Role in International Peacekeeping Through Institutional Capacity and Strategic Partnerships: Navy Chief",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia will further strengthen its role in international peacekeeping by enhancing institutional capacity, modernizing its systems and deepening strategic partnerships, Chief of the Ethiopian Navy Vice Admiral Kindeu Ge",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 19:38:54 +0000"
+  },
+  {
+    "title": "President Taye Receives Credentials of 16 Ambassadors, Reaffirms Ethiopia’s Commitment to Expanding Bilateral Ties",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) —The President of EthiopiaTaye Atske-Selassie has received the letters of credence of 16 newly appointed ambassadors to Ethiopia, reaffirming the country’s commitment to strengthening bilateral relations and expanding coope",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 19:21:24 +0000"
+  },
+  {
+    "title": "Africa CDC Rejects Politically Motivated Allegations, Asserts African Member States’ Authority over Continental Institution",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — The Africa Centres for Disease Control and Prevention (Africa CDC) has strongly rejected allegations published by Health Policy Watch, describing the article as a politically motivated attack on the continental institutio",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 19:00:18 +0000"
+  },
+  {
+    "title": "Ethiopia’s Ruling Prosperity Party Asserts National Sovereignty and Strategic Independence at Global Assembly in Moscow",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia’s ruling Prosperity Party has brought the country’s positions on national sovereignty, strategic independence and self-reliant development to a major international political assembly in Moscow, Russia, asserting ",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 18:45:50 +0000"
+  },
+  {
+    "title": "Mr. Adem Farah Appointed Chairman of Ethiopian Airlines Group Board of Directors",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Mr. Adem Farah has been appointed Chairman of the Board of Directors of Ethiopian Airlines Group, according to an announcement by the national flag carrier. In its statement, Ethiopian Airlines Group congratulated and wel",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 18:25:11 +0000"
+  },
+  {
+    "title": "Ethiopia and Azerbaijan Establish Cooperation on COP32 Preparations, Drawing on COP29 Experience",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) – Ethiopia and Azerbaijan have discussed cooperation on preparations for COP32, with Azerbaijan offering to share practical experience from its presidency of COP29 in areas including climate champion appointments, youth eng",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 16:52:21 +0000"
+  },
+  {
+    "title": "Ethiopia and WWF International Agree to Cooperate on COP31 and COP32 Outcomes",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) – Ethiopia and WWF International have agreed to work together towards a successful outcome at COP31 and carry its gains forward into the preparations for COP32 in Addis Ababa. The agreement was reached during a bilateral me",
+    "source": "FBC English",
+    "publishedAt": "Tue, 17 Nov 2026 16:43:12 +0000"
+  },
+  {
     "title": "Ethiopia Stresses Need for Adequate and Accessible Climate Finance at COP31",
     "summary": "Addis Ababa, November 17, 2026 (FMC) – Climate finance must be provided at the scale required, through accessible channels and in line with the priorities of developing countries to turn national climate ambitions into concrete action, Ethiopia’s Foreign Minis",
     "source": "FBC English",
@@ -19,48 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 17, 2026 (FMC) — Addis Ababa Mayor Adanech Abiebie has held discussions with the World Bank Group on strengthening their longstanding partnership and expanding cooperation across key urban development sectors. In a social media post, the ",
     "source": "FBC English",
     "publishedAt": "Tue, 17 Nov 2026 11:17:15 +0000"
-  },
-  {
-    "title": "PREVIEW: Ethiopia Targeting Back-to-Back Victories Over Mozambique in Crucial AFCON Qualifier in Bahir Dar",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia’s national football team, the Walias, will seek to extend their winning run against Mozambique when they host the Mambas at Bahir Dar Stadium today in a crucial Group J encounter of the 2027 Africa Cup of Nations",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 10:18:20 +0000"
-  },
-  {
-    "title": "TPLF Leaders Flee to Eritrea with More Than 830 Looted Public Vehicles, Tigray Caretaker Administration Says",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Leaders of the defunct TPLF group fled to Eritrea, carting off more than 830 vehicles from Ethiopia’s northern Tigray Region, Asefa Abraha, Chief Executive for Administration and Public Services of the Tigray Regional Car",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 09:41:10 +0000"
-  },
-  {
-    "title": "Illegal TPLF Group’s War Agenda, Forced Recruitment & Economic Coercion Have Driven Tigray into Severe Poverty: Caretaker Administration",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — The illegal TPLF group’s war agenda, forced recruitment and economic pressure imposed on the people of Ethiopia’s northern Tigray Region to serve its military objectives have plunged the region’s population into severe po",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 09:17:35 +0000"
-  },
-  {
-    "title": "Tigray Caretaker Administration Hosts Addis Ababa-Based Diplomatic Community for Talks on Regional Peace and Humanitarian Priorities",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — The Tigray Regional Caretaker Administration is hosting a delegation of the Addis Ababa-based diplomatic community, United Nations representatives and other international stakeholders in Mekelle for a two-day official wor",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 09:04:35 +0000"
-  },
-  {
-    "title": "International Diplomatic Community, UN Representatives Travel to Ethiopia’s Tigray Region for Official Engagements",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Representatives of the United Nations, ambassadors from various countries and other international stakeholders have travelled to Mekelle, the capital of Ethiopia’s Tigray Region, for a two-day official working visit begin",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 07:12:58 +0000"
-  },
-  {
-    "title": "Ethiopia Takes 144,429 Electric Vehicles and 56 Billion Green Legacy Seedlings to Global Climate Stage Ahead of COP32",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia has brought its progress in forest restoration and clean transport, alongside broader efforts to build a climate-resilient economy, to the global spotlight at the 31st United Nations Climate Change Conference (CO",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 06:49:29 +0000"
-  },
-  {
-    "title": "China to Showcase High-Tech Trade Strength and Technological Advances at APEC Summit in Shenzhen",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — China is preparing to use the 33rd Asia-Pacific Economic Cooperation (APEC) Economic Leaders’ Meeting in Shenzhen to showcase its advances in high-tech trade, digital development and artificial intelligence, while advanci",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 05:54:31 +0000"
   },
   {
     "title": "የኢትዮጵያ አየር መንገድ ወደ ሽረ ከተማ የሚያደርገውን መደበኛ በረራ እንደገና ሊጀምር ነው",
