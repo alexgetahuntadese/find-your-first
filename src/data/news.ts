@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Prosperity Party, United Russia Formalize Strategic Partnership to Deepen Ethiopia–Russia Political Cooperation",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia’s ruling Prosperity Party and Russia’s United Russia Party have signed a strategic partnership agreement to deepen institutional cooperation and advance political engagement, building on the longstanding relation",
+    "title": "Ethiopia Stresses Need for Adequate and Accessible Climate Finance at COP31",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) – Climate finance must be provided at the scale required, through accessible channels and in line with the priorities of developing countries to turn national climate ambitions into concrete action, Ethiopia’s Foreign Minis",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 16:26:21 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 14:10:31 +0000"
   },
   {
-    "title": "PM Adviser Calls on Tigray Youth Ensnared by Illegal TPLF’s Destructive Agenda to Break Away and Embrace Peace",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ministerial Advisor to the Prime Minister of Ethiopia on East African Affairs Getachew Reda has called on Tigray youth ensnared by the destructive agenda of the illegal TPLF group to break away from armed struggle and emb",
+    "title": "Ethiopia Puts Private Sector Investment at the Center of Africa’s Refugee Economic Inclusion Agenda",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia is positioning private sector investment and productive economic partnerships as central to addressing forced displacement in Africa, advancing an approach that places refugees and displaced people within the con",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 15:28:08 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 12:03:11 +0000"
   },
   {
-    "title": "Tigray Region’s Caretaker Administration Delivers Humanitarian Assistance Amid Ongoing Recovery Efforts",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — As recovery efforts continue across Tigray Region, the caretaker administration of Adi Gudom town has extended humanitarian assistance to people in need, drawing on its own resources to provide immediate relief to vulnera",
+    "title": "Addis Ababa and World Bank Group Discuss Expanding Cooperation on Key Urban Development Priorities",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Addis Ababa Mayor Adanech Abiebie has held discussions with the World Bank Group on strengthening their longstanding partnership and expanding cooperation across key urban development sectors. In a social media post, the ",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 14:56:47 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 11:17:15 +0000"
   },
   {
-    "title": "Ethiopia to Expand Employment Pathways for Former Combatants at Home and Abroad: Minister",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia is working with relevant institutions to connect former combatants with employment opportunities both at home and abroad, as part of efforts to support their economic reintegration and enable them to build sustai",
+    "title": "PREVIEW: Ethiopia Targeting Back-to-Back Victories Over Mozambique in Crucial AFCON Qualifier in Bahir Dar",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia’s national football team, the Walias, will seek to extend their winning run against Mozambique when they host the Mambas at Bahir Dar Stadium today in a crucial Group J encounter of the 2027 Africa Cup of Nations",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 14:02:21 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 10:18:20 +0000"
   },
   {
-    "title": "PM’s East African Affairs Adviser and Labor and Skills Minister Assess DDR and Reintegration Efforts in Tigray Region",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia’s efforts to support disarmament, demobilization and reintegration (DDR) in Tigray Regional State are advancing through rehabilitation and skills training programmes aimed at helping former combatants return to c",
+    "title": "TPLF Leaders Flee to Eritrea with More Than 830 Looted Public Vehicles, Tigray Caretaker Administration Says",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Leaders of the defunct TPLF group fled to Eritrea, carting off more than 830 vehicles from Ethiopia’s northern Tigray Region, Asefa Abraha, Chief Executive for Administration and Public Services of the Tigray Regional Car",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 13:23:18 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 09:41:10 +0000"
   },
   {
-    "title": "Mekelle University Scholars Pledge Academic Expertise and Research to Advance the City’s Urban Transformation",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Scholars at Mekelle University in Ethiopia’s Tigray Regional State have pledged to contribute their academic expertise, scientific research and professional knowledge to Mekelle’s ongoing urban transformation, reinforcing",
+    "title": "Illegal TPLF Group’s War Agenda, Forced Recruitment & Economic Coercion Have Driven Tigray into Severe Poverty: Caretaker Administration",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — The illegal TPLF group’s war agenda, forced recruitment and economic pressure imposed on the people of Ethiopia’s northern Tigray Region to serve its military objectives have plunged the region’s population into severe po",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 13:08:33 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 09:17:35 +0000"
   },
   {
-    "title": "Adigrat University Has Resumed Regular Academic Activities, Reuniting Students on Campus",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Adigrat University in northern Ethiopia’s Tigray Regional State has resumed its regular teaching and learning activities, marking a significant step towards restoring academic continuity after disruptions caused by the re",
+    "title": "Tigray Caretaker Administration Hosts Addis Ababa-Based Diplomatic Community for Talks on Regional Peace and Humanitarian Priorities",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — The Tigray Regional Caretaker Administration is hosting a delegation of the Addis Ababa-based diplomatic community, United Nations representatives and other international stakeholders in Mekelle for a two-day official wor",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 12:52:15 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 09:04:35 +0000"
   },
   {
-    "title": "Ethiopia Is Turning Green Economy Vision into a New Development Reality: Scholars",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — Ethiopia is translating its national green economy vision into tangible development outcomes, linking environmental protection with food sovereignty, economic opportunities and improved livelihoods, scholars have said. Ta",
+    "title": "International Diplomatic Community, UN Representatives Travel to Ethiopia’s Tigray Region for Official Engagements",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Representatives of the United Nations, ambassadors from various countries and other international stakeholders have travelled to Mekelle, the capital of Ethiopia’s Tigray Region, for a two-day official working visit begin",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 12:43:51 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 07:12:58 +0000"
   },
   {
-    "title": "The Roots of Tomorrow: Ethiopia’s Green Ambition and the Making of Lasting Prosperity",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — A nation’s prosperity is measured not only by what it builds, but also by what it preserves for those who come after it. Forests restored, rivers protected, clean energy harnessed and fertile land sustained are investment",
+    "title": "Ethiopia Takes 144,429 Electric Vehicles and 56 Billion Green Legacy Seedlings to Global Climate Stage Ahead of COP32",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia has brought its progress in forest restoration and clean transport, alongside broader efforts to build a climate-resilient economy, to the global spotlight at the 31st United Nations Climate Change Conference (CO",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 12:24:13 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 06:49:29 +0000"
   },
   {
-    "title": "AU Commission Chairperson Positions 200 Million Young Africans at the Heart of Africa’s Transformation Agenda",
-    "summary": "Addis Ababa, November 16, 2026 (FMC) — African Union (AU) Commission Chairperson Mahmoud Ali Youssouf has placed the opportunities and aspirations of 200 million young Africans at the centre of the continent’s transformation agenda, underscoring the need to co",
+    "title": "China to Showcase High-Tech Trade Strength and Technological Advances at APEC Summit in Shenzhen",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — China is preparing to use the 33rd Asia-Pacific Economic Cooperation (APEC) Economic Leaders’ Meeting in Shenzhen to showcase its advances in high-tech trade, digital development and artificial intelligence, while advanci",
     "source": "FBC English",
-    "publishedAt": "Mon, 16 Nov 2026 12:15:30 +0000"
+    "publishedAt": "Tue, 17 Nov 2026 05:54:31 +0000"
   },
   {
-    "title": "የመቐለ ከተማ ከንቲባ ሺሻይ አማረ (ዶ/ር) ከከተማዋ የንግድ ማህበረሰብ ጋር ተወያዩ",
-    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል ባለአደራ አስተዳደር የመቐለ ከተማ ከንቲባ ሺሻይ አማረ (ዶ/ር) ከከተማዋ የንግድ ማህረሰብ ጋር ተወያይተዋል፡፡ በውይይት መድረኩ በከተማዋ ተግባራዊ ለማድረግ የታቀደው የኮሪደር ልማት ፕሮጀክት ለኢኮኖሚ ዕድገት የሚኖረውን አስተዋጽኦ፣ የሚፈጥራቸውን የንግድና ኢንቨስትመንት ዕድሎች እንዲሁም የንግድ ማህበረሰቡን ተሳትፎ ለማጠናከር ያለመ ምክክር ተደ",
+    "title": "የኢትዮጵያ አየር መንገድ ወደ ሽረ ከተማ የሚያደርገውን መደበኛ በረራ እንደገና ሊጀምር ነው",
+    "summary": "አዲስ አበባ፣ ሕዳር 7፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ አየር መንገድ በጊዜያዊነት አቋርጦት የነበረውን ወደ ሽረ ከተማ የሚያደርገውን መደበኛ በረራ ከነገ ጀምሮ እንደገና እንደሚያስጀምር አስታውቋል። የአየር መንገዱ ደንበኞች የጉዞ ትኬት ለማስያዝ በአቅራቢያቸው ወደሚገኘው የአየር መንገዱ ቢሮ በመሄድ ወይም በ6787 የጥሪ ማዕከል በመደወል አገልግሎቱን መጠቀም እንደሚችሉ አሳውቋል። The post የኢትዮጵያ ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 15 Nov 2026 11:17:21 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 17:38:12 +0000"
   },
   {
-    "title": "በታዳሽ ኃይል ላይ የተመሠረተው የኢትዮጵያ ዲጂታላይዜሽን",
-    "summary": "አዲስ አበባ፣ ሕዳር 6፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በዚህ ዘመን ለኢኮኖሚ ዕድገት ወሳኝ በሆኑት የንጹሕ ኃይልና ዲጂታል ቴክኖሎጂ ዘርፎች ላይ በልዩ ትኩረት እየሰራች ትገኛለች። ኢትዮጵያ እነዚህን በጥብቅ የተሳሰሩ ቁልፍ መስኮች ለማልማት በቂ የተፈጥሮ ሀብትና አስቻይ ሁኔታዎችን የታደለች መሆኗ ስትራቴጂያዊ ዕድል ነው። አካታች የኢኮኖሚ ልማትን እውን ለማድረግ ታዳሽ ኃይል የልማት መሠረት ሲሆን፤ የዲጂታል",
+    "title": "የአዲስ አበባ ተሞክሮ በትብብር ለመሥራት የሚያግዝ ነው – የላይፕዚሽ ከተማ ተወካይ",
+    "summary": "አዲስ አበባ፣ ሕዳር 7፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባ በኮሪደር ልማትና በወንዞች ዳርቻ የልማት ሥራዎች ያሳየችው ተሞክሮ በትብብር ለመሥራት የሚያግዝ ነው አሉ የጀርመኗ ላይፕዚሽ ከተማ የአካቶ ባህልና ትምህርት ዳይሬክተር ጃና ዘህለ። አዲስ አበባ በአካታች የከተማ ልማት ዘርፍ ያካበተችውን ተሞክሮ ለጀርመኗ እህት ከተማ ላይፕዚሽ እያጋራች ሲሆን፣ በዚሁ ዙሪያ የልምድ ልውውጥ መድረክ እየተካሄደ ነው። በመድ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 15 Nov 2026 08:56:14 +0000"
+    "publishedAt": "Mon, 16 Nov 2026 17:05:24 +0000"
   }
 ];
