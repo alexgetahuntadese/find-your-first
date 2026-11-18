@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "What Did International Envoys Witness in Tigray Region After the Defunct TPLF Group’s Latest Attempt to Disrupt Peace Was Swiftly Contained?",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — The international diplomatic community’s recent visit to Ethiopia’s Tigray Region came at a consequential moment: following renewed violence attributed to the defunct TPLF group and the swift response that contained the l",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 12:08:51 +0000"
+  },
+  {
+    "title": "Ethiopia and UNEP Put Adaptation Finance, Renewable Energy and Urban Climate Resilience on COP32 Agenda",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) – Adaptation finance, Africa’s renewable energy expansion and urban resilience to extreme climate conditions featured in discussions between Ethiopia’s Foreign Minister and COP32 President-Designate, Gedion Timothewos (PhD)",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 09:38:04 +0000"
+  },
+  {
+    "title": "Tigray Region Sees Stable Social and Economic Activity as Caretaker Administration Restores Public Services",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — The Tigray Region is experiencing more stable social and economic activity following efforts by the Tigray Region Caretaker Administration to restore governance structures and resume public services, the administration’s ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 08:59:21 +0000"
+  },
+  {
+    "title": "International Diplomatic Community Visits Former Combatants’ Rehabilitation Center in Ethiopia’s Tigray Region",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — A United Nations delegation and ambassadors representing various countries have visited a rehabilitation and reintegration training center for former combatants in Mekelle, the capital of Ethiopia’s Tigray Region, as the ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 08:49:52 +0000"
+  },
+  {
+    "title": "China and Russia Deepen Strategic Coordination on Global Security and Economic Cooperation",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — Chinese President Xi Jinping and Russian President Vladimir Putin held high-level talks in Shenzhen, China, on Wednesday, focusing on strengthening bilateral strategic coordination, expanding economic cooperation and addr",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 08:35:13 +0000"
+  },
+  {
+    "title": "Newly Appointed Ambassadors Pledge to Deepen Cooperation with Ethiopia Across Key Sectors",
+    "summary": "Addis Ababa, November 17, 2026 (FMC) — Newly appointed ambassadors to Ethiopia have expressed their commitment to strengthening and expanding bilateral relations, identifying opportunities for cooperation in trade, investment, peace and security, healthcare, d",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 07:08:37 +0000"
+  },
+  {
+    "title": "Ethiopia Steps Up Aviation Diplomacy with UK and Indonesia, Advancing Strategic International Partnerships",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — Ethiopia is stepping up aviation diplomacy to deepen strategic partnerships, expand international market opportunities and strengthen technical cooperation, as it pursues closer engagement with the United Kingdom and Indo",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 06:47:28 +0000"
+  },
+  {
+    "title": "Ethiopia Reaffirms Commitment to Advancing Aviation Connectivity for Landlocked Developing Countries at ICAO Dialogue",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — Ethiopia has reaffirmed its commitment to strengthening international cooperation and improving aviation connectivity for landlocked developing countries (LLDCs) during the International Civil Aviation Organization (ICAO)",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 06:39:54 +0000"
+  },
+  {
+    "title": "Ethiopia Amplifies Africa’s Collective Call for a Global Air Transport Development Plan at ICAO Conference",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — Ethiopia has amplified Africa’s collective call for a Global Air Transport Development Plan at the 7th Worldwide Air Transport Conference of the International Civil Aviation Organization (ICAO), presenting a proposal on b",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 05:57:22 +0000"
+  },
+  {
+    "title": "ኮፕ 32 – ኢንቨስትመንትን ለመሳብና ለዘላቂ ሀገራዊ ልማት",
+    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ 32ኛውን የተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ 32) ታስተናግዳለች፡፡ በጉባኤው ከዓለም አቀፍ የአየር ንብረት ዲፕሎማሲ መድረክነት ባለፈ ለኢትዮጵያ ዘርፈ ብዙ የኢኮኖሚ ዕድልን ይዞ ይመጣል። ኢትዮጵያ ጉባኤውን በጥራት ከማስተናገድ ባሻገር፣ ዓለም አቀፍ ትኩረትን ወደ ቀጥተኛ የውጭ ኢንቨስትመንት (FDI) እና ወደ ዘላቂ ልማት ለመቀየ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 18 Nov 2026 05:51:59 +0000"
+  },
+  {
+    "title": "ታዳጊ አትሌቶች የኢትዮጵያን የድል ጉዞ የሚያድሱ ሀገራዊ ኩራቶች ናቸው – ምክትል ጠቅላይ ሚኒስትር ተመስገን",
+    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) ታዳጊ አትሌቶች የኢትዮጵያን የድል ጉዞ የሚያድሱ ሀገራዊ ኩራቶች ናቸው አሉ ምክትል ጠቅላይ ሚኒስትር ተመስገን ጥሩነህ ። ምክትል ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት÷ ታዳጊ አትሌቶቹን በአካል አግኝተው ማበረታታቸውን ገልጸዋል። ታዳጊዎቹ በአፍላ ዕድሜያቸው በዓለም መድረክ ባሳዩት ብቃትና ባስመዘገቡት ድል የሀገራቸውን ሰንደቅ ዓላማ ",
+    "source": "Fana Media",
+    "publishedAt": "Wed, 18 Nov 2026 05:32:11 +0000"
+  },
+  {
     "title": "Ethiopia to Strengthen Its Role in International Peacekeeping Through Institutional Capacity and Strategic Partnerships: Navy Chief",
     "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia will further strengthen its role in international peacekeeping by enhancing institutional capacity, modernizing its systems and deepening strategic partnerships, Chief of the Ethiopian Navy Vice Admiral Kindeu Ge",
     "source": "FBC English",
     "publishedAt": "Tue, 17 Nov 2026 19:38:54 +0000"
-  },
-  {
-    "title": "President Taye Receives Credentials of 16 Ambassadors, Reaffirms Ethiopia’s Commitment to Expanding Bilateral Ties",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) —The President of EthiopiaTaye Atske-Selassie has received the letters of credence of 16 newly appointed ambassadors to Ethiopia, reaffirming the country’s commitment to strengthening bilateral relations and expanding coope",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 19:21:24 +0000"
-  },
-  {
-    "title": "Africa CDC Rejects Politically Motivated Allegations, Asserts African Member States’ Authority over Continental Institution",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — The Africa Centres for Disease Control and Prevention (Africa CDC) has strongly rejected allegations published by Health Policy Watch, describing the article as a politically motivated attack on the continental institutio",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 19:00:18 +0000"
-  },
-  {
-    "title": "Ethiopia’s Ruling Prosperity Party Asserts National Sovereignty and Strategic Independence at Global Assembly in Moscow",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia’s ruling Prosperity Party has brought the country’s positions on national sovereignty, strategic independence and self-reliant development to a major international political assembly in Moscow, Russia, asserting ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 18:45:50 +0000"
-  },
-  {
-    "title": "Mr. Adem Farah Appointed Chairman of Ethiopian Airlines Group Board of Directors",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Mr. Adem Farah has been appointed Chairman of the Board of Directors of Ethiopian Airlines Group, according to an announcement by the national flag carrier. In its statement, Ethiopian Airlines Group congratulated and wel",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 18:25:11 +0000"
-  },
-  {
-    "title": "Ethiopia and Azerbaijan Establish Cooperation on COP32 Preparations, Drawing on COP29 Experience",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) – Ethiopia and Azerbaijan have discussed cooperation on preparations for COP32, with Azerbaijan offering to share practical experience from its presidency of COP29 in areas including climate champion appointments, youth eng",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 16:52:21 +0000"
-  },
-  {
-    "title": "Ethiopia and WWF International Agree to Cooperate on COP31 and COP32 Outcomes",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) – Ethiopia and WWF International have agreed to work together towards a successful outcome at COP31 and carry its gains forward into the preparations for COP32 in Addis Ababa. The agreement was reached during a bilateral me",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 16:43:12 +0000"
-  },
-  {
-    "title": "Ethiopia Stresses Need for Adequate and Accessible Climate Finance at COP31",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) – Climate finance must be provided at the scale required, through accessible channels and in line with the priorities of developing countries to turn national climate ambitions into concrete action, Ethiopia’s Foreign Minis",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 14:10:31 +0000"
-  },
-  {
-    "title": "Ethiopia Puts Private Sector Investment at the Center of Africa’s Refugee Economic Inclusion Agenda",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia is positioning private sector investment and productive economic partnerships as central to addressing forced displacement in Africa, advancing an approach that places refugees and displaced people within the con",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 12:03:11 +0000"
-  },
-  {
-    "title": "Addis Ababa and World Bank Group Discuss Expanding Cooperation on Key Urban Development Priorities",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Addis Ababa Mayor Adanech Abiebie has held discussions with the World Bank Group on strengthening their longstanding partnership and expanding cooperation across key urban development sectors. In a social media post, the ",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 11:17:15 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ አየር መንገድ ወደ ሽረ ከተማ የሚያደርገውን መደበኛ በረራ እንደገና ሊጀምር ነው",
-    "summary": "አዲስ አበባ፣ ሕዳር 7፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ አየር መንገድ በጊዜያዊነት አቋርጦት የነበረውን ወደ ሽረ ከተማ የሚያደርገውን መደበኛ በረራ ከነገ ጀምሮ እንደገና እንደሚያስጀምር አስታውቋል። የአየር መንገዱ ደንበኞች የጉዞ ትኬት ለማስያዝ በአቅራቢያቸው ወደሚገኘው የአየር መንገዱ ቢሮ በመሄድ ወይም በ6787 የጥሪ ማዕከል በመደወል አገልግሎቱን መጠቀም እንደሚችሉ አሳውቋል። The post የኢትዮጵያ ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 16 Nov 2026 17:38:12 +0000"
-  },
-  {
-    "title": "የአዲስ አበባ ተሞክሮ በትብብር ለመሥራት የሚያግዝ ነው – የላይፕዚሽ ከተማ ተወካይ",
-    "summary": "አዲስ አበባ፣ ሕዳር 7፣ 2019 (ኤፍ ኤም ሲ) አዲስ አበባ በኮሪደር ልማትና በወንዞች ዳርቻ የልማት ሥራዎች ያሳየችው ተሞክሮ በትብብር ለመሥራት የሚያግዝ ነው አሉ የጀርመኗ ላይፕዚሽ ከተማ የአካቶ ባህልና ትምህርት ዳይሬክተር ጃና ዘህለ። አዲስ አበባ በአካታች የከተማ ልማት ዘርፍ ያካበተችውን ተሞክሮ ለጀርመኗ እህት ከተማ ላይፕዚሽ እያጋራች ሲሆን፣ በዚሁ ዙሪያ የልምድ ልውውጥ መድረክ እየተካሄደ ነው። በመድ",
-    "source": "Fana Media",
-    "publishedAt": "Mon, 16 Nov 2026 17:05:24 +0000"
   }
 ];
