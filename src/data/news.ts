@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Brings Developing Countries’ Climate Finance and Adaptation Priorities into COP32 Engagement with GEF",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) – Strengthening climate finance and expanding adaptation support for developing countries, particularly those most exposed to climate risks, featured in discussions between Ethiopia’s Foreign Minister and COP32 President-De",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 18:10:48 +0000"
+  },
+  {
+    "title": "PM Abiy Commissions 57-Hectare Corridor Development in Addis Ababa, Setting New Benchmark for Africa’s Green Urban Development",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has officially commissioned a 57-hectare corridor development project spanning seven routes and connecting internal roads in the capital, advancing the city’s green, modern and inclusiv",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 17:14:18 +0000"
+  },
+  {
+    "title": "UK Ambassador Reaffirms Support for Peacebuilding and Recovery Efforts in Tigray Region",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — British Ambassador to Ethiopia Darren Welch has reaffirmed the United Kingdom’s support for peacebuilding, rehabilitation and recovery efforts in the Tigray Region, emphasizing the importance of dialogue and opportunities",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 15:22:39 +0000"
+  },
+  {
+    "title": "More Than 830 Public Vehicles Taken to Eritrea: The TPLF’s Record of Plunder and Its Wider Security Implications",
+    "summary": "Addis Ababa, November 18, 2026 (FMC) — After months of coercion, violence and attempts to reignite conflict in the Tigray Region, the TPLF faction at the centre of the latest confrontation has been driven out of the region following resistance from Ethiopia’s ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 18 Nov 2026 14:47:39 +0000"
+  },
+  {
     "title": "What Did International Envoys Witness in Tigray Region After the Defunct TPLF Group’s Latest Attempt to Disrupt Peace Was Swiftly Contained?",
     "summary": "Addis Ababa, November 18, 2026 (FMC) — The international diplomatic community’s recent visit to Ethiopia’s Tigray Region came at a consequential moment: following renewed violence attributed to the defunct TPLF group and the swift response that contained the l",
     "source": "FBC English",
@@ -39,24 +63,6 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Wed, 18 Nov 2026 07:08:37 +0000"
   },
   {
-    "title": "Ethiopia Steps Up Aviation Diplomacy with UK and Indonesia, Advancing Strategic International Partnerships",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — Ethiopia is stepping up aviation diplomacy to deepen strategic partnerships, expand international market opportunities and strengthen technical cooperation, as it pursues closer engagement with the United Kingdom and Indo",
-    "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 06:47:28 +0000"
-  },
-  {
-    "title": "Ethiopia Reaffirms Commitment to Advancing Aviation Connectivity for Landlocked Developing Countries at ICAO Dialogue",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — Ethiopia has reaffirmed its commitment to strengthening international cooperation and improving aviation connectivity for landlocked developing countries (LLDCs) during the International Civil Aviation Organization (ICAO)",
-    "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 06:39:54 +0000"
-  },
-  {
-    "title": "Ethiopia Amplifies Africa’s Collective Call for a Global Air Transport Development Plan at ICAO Conference",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — Ethiopia has amplified Africa’s collective call for a Global Air Transport Development Plan at the 7th Worldwide Air Transport Conference of the International Civil Aviation Organization (ICAO), presenting a proposal on b",
-    "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 05:57:22 +0000"
-  },
-  {
     "title": "ኮፕ 32 – ኢንቨስትመንትን ለመሳብና ለዘላቂ ሀገራዊ ልማት",
     "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ 32ኛውን የተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ 32) ታስተናግዳለች፡፡ በጉባኤው ከዓለም አቀፍ የአየር ንብረት ዲፕሎማሲ መድረክነት ባለፈ ለኢትዮጵያ ዘርፈ ብዙ የኢኮኖሚ ዕድልን ይዞ ይመጣል። ኢትዮጵያ ጉባኤውን በጥራት ከማስተናገድ ባሻገር፣ ዓለም አቀፍ ትኩረትን ወደ ቀጥተኛ የውጭ ኢንቨስትመንት (FDI) እና ወደ ዘላቂ ልማት ለመቀየ",
     "source": "Fana Media",
@@ -67,11 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) ታዳጊ አትሌቶች የኢትዮጵያን የድል ጉዞ የሚያድሱ ሀገራዊ ኩራቶች ናቸው አሉ ምክትል ጠቅላይ ሚኒስትር ተመስገን ጥሩነህ ። ምክትል ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት÷ ታዳጊ አትሌቶቹን በአካል አግኝተው ማበረታታቸውን ገልጸዋል። ታዳጊዎቹ በአፍላ ዕድሜያቸው በዓለም መድረክ ባሳዩት ብቃትና ባስመዘገቡት ድል የሀገራቸውን ሰንደቅ ዓላማ ",
     "source": "Fana Media",
     "publishedAt": "Wed, 18 Nov 2026 05:32:11 +0000"
-  },
-  {
-    "title": "Ethiopia to Strengthen Its Role in International Peacekeeping Through Institutional Capacity and Strategic Partnerships: Navy Chief",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Ethiopia will further strengthen its role in international peacekeeping by enhancing institutional capacity, modernizing its systems and deepening strategic partnerships, Chief of the Ethiopian Navy Vice Admiral Kindeu Ge",
-    "source": "FBC English",
-    "publishedAt": "Tue, 17 Nov 2026 19:38:54 +0000"
   }
 ];
