@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Ethiopia Brings Developing Countries’ Climate Finance and Adaptation Priorities into COP32 Engagement with GEF",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) – Strengthening climate finance and expanding adaptation support for developing countries, particularly those most exposed to climate risks, featured in discussions between Ethiopia’s Foreign Minister and COP32 President-De",
+    "title": "Ethiopia and Sweden Focus on Closing the Gap Between Global Climate Ambition and Implementation Ahead of COP32",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Translating global climate commitments into tangible action, particularly through stronger climate finance, adaptation and resilience, was central to discussions between Ethiopia’s Foreign Minister and COP32 President-Des",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 18:10:48 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 12:08:40 +0000"
   },
   {
-    "title": "PM Abiy Commissions 57-Hectare Corridor Development in Addis Ababa, Setting New Benchmark for Africa’s Green Urban Development",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed has officially commissioned a 57-hectare corridor development project spanning seven routes and connecting internal roads in the capital, advancing the city’s green, modern and inclusiv",
+    "title": "Ethiopia Expands Aviation Diplomacy, Pursues Stronger Air Links Across Europe, Asia and North America",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia advanced efforts to expand its international aviation partnerships and strengthen air connectivity across Europe, Asia and North America through a series of high-level engagements with aviation officials on the s",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 17:14:18 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 11:57:52 +0000"
   },
   {
-    "title": "UK Ambassador Reaffirms Support for Peacebuilding and Recovery Efforts in Tigray Region",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — British Ambassador to Ethiopia Darren Welch has reaffirmed the United Kingdom’s support for peacebuilding, rehabilitation and recovery efforts in the Tigray Region, emphasizing the importance of dialogue and opportunities",
+    "title": "Ethiopia Sets Out Vision for a Global Climate Stocktake That Delivers Action, Support and Equity",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has called for the Second Global Stocktake (GST2) to deliver a clear assessment of collective climate progress, expose barriers to implementation and identify practical ways to accelerate climate action and suppo",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 15:22:39 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 11:43:40 +0000"
   },
   {
-    "title": "More Than 830 Public Vehicles Taken to Eritrea: The TPLF’s Record of Plunder and Its Wider Security Implications",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — After months of coercion, violence and attempts to reignite conflict in the Tigray Region, the TPLF faction at the centre of the latest confrontation has been driven out of the region following resistance from Ethiopia’s ",
+    "title": "Ethiopia, Slovakia Pledge to Deepen Diplomatic and Economic Ties",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia and the Slovak Republic have reaffirmed their commitment to expanding bilateral relations across investment, trade, technology, climate and culture following the formal accreditation of Ethiopia’s Ambassador to S",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 14:47:39 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 11:39:45 +0000"
   },
   {
-    "title": "What Did International Envoys Witness in Tigray Region After the Defunct TPLF Group’s Latest Attempt to Disrupt Peace Was Swiftly Contained?",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — The international diplomatic community’s recent visit to Ethiopia’s Tigray Region came at a consequential moment: following renewed violence attributed to the defunct TPLF group and the swift response that contained the l",
+    "title": "Addis Ababa Is Advancing an Integrated Model of Urban Development, Reimagining What a Modern African City Can Be: Mayor",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa is advancing an integrated approach to urban development that brings together economic opportunity, social interventions, public services, recreational facilities and essential infrastructure, reflecting a vis",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 12:08:51 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 11:26:14 +0000"
   },
   {
-    "title": "Ethiopia and UNEP Put Adaptation Finance, Renewable Energy and Urban Climate Resilience on COP32 Agenda",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) – Adaptation finance, Africa’s renewable energy expansion and urban resilience to extreme climate conditions featured in discussions between Ethiopia’s Foreign Minister and COP32 President-Designate, Gedion Timothewos (PhD)",
+    "title": "Ethiopia Reclaims Five Historic Cultural Treasures Through Landmark International Partnership",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has reclaimed five historic cultural objects from the United States through a long-term international partnership involving the Ethiopian Heritage Authority (EHA), the Toledo Museum of Art (TMA) and private colle",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 09:38:04 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 09:58:26 +0000"
   },
   {
-    "title": "Tigray Region Sees Stable Social and Economic Activity as Caretaker Administration Restores Public Services",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — The Tigray Region is experiencing more stable social and economic activity following efforts by the Tigray Region Caretaker Administration to restore governance structures and resume public services, the administration’s ",
+    "title": "Addis Ababa’s Urban Renewal Is Replacing Exploitation with Dignity, Skills and Economic Opportunity for Women – Mayor",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa is linking its urban transformation with a social intervention aimed at helping women move away from exploitative circumstances and build dignified, productive livelihoods through skills training and economic ",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 08:59:21 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 09:44:16 +0000"
   },
   {
-    "title": "International Diplomatic Community Visits Former Combatants’ Rehabilitation Center in Ethiopia’s Tigray Region",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — A United Nations delegation and ambassadors representing various countries have visited a rehabilitation and reintegration training center for former combatants in Mekelle, the capital of Ethiopia’s Tigray Region, as the ",
+    "title": "PM Abiy Says Urban Development Is Becoming a Defining Factor in National Competitiveness and Global Standing",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Prime Minister Abiy Ahmed has underscored the growing importance of urban development in shaping Ethiopia’s national competitiveness and international standing, describing the transformation of cities as a collective nati",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 08:49:52 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 05:52:06 +0000"
   },
   {
-    "title": "China and Russia Deepen Strategic Coordination on Global Security and Economic Cooperation",
-    "summary": "Addis Ababa, November 18, 2026 (FMC) — Chinese President Xi Jinping and Russian President Vladimir Putin held high-level talks in Shenzhen, China, on Wednesday, focusing on strengthening bilateral strategic coordination, expanding economic cooperation and addr",
+    "title": "Ethiopia’s Urban Development Is Being Planned Around Future Population Growth, Climate Change and Infrastructure Needs – PM Abiy Ahmed",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia’s urban development strategy is being guided by long-term planning that anticipates future population growth, climate change and infrastructure demands, Prime Minister Abiy Ahmed said following the unveiling of t",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 08:35:13 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 05:34:12 +0000"
   },
   {
-    "title": "Newly Appointed Ambassadors Pledge to Deepen Cooperation with Ethiopia Across Key Sectors",
-    "summary": "Addis Ababa, November 17, 2026 (FMC) — Newly appointed ambassadors to Ethiopia have expressed their commitment to strengthening and expanding bilateral relations, identifying opportunities for cooperation in trade, investment, peace and security, healthcare, d",
+    "title": "PM Abiy Positions Urban Renewal as Driver of Jobs, Business and Public Wellbeing",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Prime Minister Abiy Ahmed has framed Ethiopia’s urban transformation as a broader economic and social undertaking, emphasizing that the redevelopment of cities is creating opportunities for businesses, generating employme",
     "source": "FBC English",
-    "publishedAt": "Wed, 18 Nov 2026 07:08:37 +0000"
+    "publishedAt": "Thu, 19 Nov 2026 05:21:21 +0000"
   },
   {
-    "title": "ኮፕ 32 – ኢንቨስትመንትን ለመሳብና ለዘላቂ ሀገራዊ ልማት",
-    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ 32ኛውን የተባበሩት መንግሥታት የአየር ንብረት ለውጥ ጉባኤ (ኮፕ 32) ታስተናግዳለች፡፡ በጉባኤው ከዓለም አቀፍ የአየር ንብረት ዲፕሎማሲ መድረክነት ባለፈ ለኢትዮጵያ ዘርፈ ብዙ የኢኮኖሚ ዕድልን ይዞ ይመጣል። ኢትዮጵያ ጉባኤውን በጥራት ከማስተናገድ ባሻገር፣ ዓለም አቀፍ ትኩረትን ወደ ቀጥተኛ የውጭ ኢንቨስትመንት (FDI) እና ወደ ዘላቂ ልማት ለመቀየ",
+    "title": "የመደመር መንግሥት የከተሜነት ዕሳቤ፣ ከተሞችን የሥራ ዕድል ምርታማነት ማዕከላት እንዲሆኑ ያደርጋል – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት የከተሜነት ዕሳቤ፣ ከተሞችን የሥራ ዕድል ምርታማነት ማዕከላት እንዲሆኑ ያደርጋል አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት፤ የከተማ ልማት ጥራት የአንድን ሀገር ምርታማነት፣ የሰው ልጅ ክብር፣ ማኅበራዊ ሥርዓት እና የአካባቢን ችግር የመቋቋም ዐቅም መገለጫ እየሆነ መጥቷል ",
     "source": "Fana Media",
-    "publishedAt": "Wed, 18 Nov 2026 05:51:59 +0000"
+    "publishedAt": "Wed, 18 Nov 2026 17:16:28 +0000"
   },
   {
-    "title": "ታዳጊ አትሌቶች የኢትዮጵያን የድል ጉዞ የሚያድሱ ሀገራዊ ኩራቶች ናቸው – ምክትል ጠቅላይ ሚኒስትር ተመስገን",
-    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) ታዳጊ አትሌቶች የኢትዮጵያን የድል ጉዞ የሚያድሱ ሀገራዊ ኩራቶች ናቸው አሉ ምክትል ጠቅላይ ሚኒስትር ተመስገን ጥሩነህ ። ምክትል ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት÷ ታዳጊ አትሌቶቹን በአካል አግኝተው ማበረታታቸውን ገልጸዋል። ታዳጊዎቹ በአፍላ ዕድሜያቸው በዓለም መድረክ ባሳዩት ብቃትና ባስመዘገቡት ድል የሀገራቸውን ሰንደቅ ዓላማ ",
+    "title": "የመደመር መንግሥት ለቡና ልማት በሰጠው ትኩረት ዜጎች ተጠቃሚ እየሆኑ ነው",
+    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ለቡና ልማት በሰጠው ትኩረትና ባመቻቸው ምቹ ሁኔታ ተጠቅመው ጥራት ያለው ቡና በማምረት ለውጭና ለሀገር ውስጥ ገበያ በማቅረብ ውጤታማ ሆነናል አሉ የደቡብ ምዕራብ ኦሮሚያ ዞን የቡና አልሚ ባለሀብቶች። በዞኑ በቡና ልማት ዘርፍ የተሰማሩት አቶ ፈይሰል አባመጫ፤ መንግሥት ለዘርፉ በሰጠው ትኩረትና ባመቻቸው ምቹ ሁኔታ በመጠቀም በዞኑ በሚገኙ […] ",
     "source": "Fana Media",
-    "publishedAt": "Wed, 18 Nov 2026 05:32:11 +0000"
+    "publishedAt": "Wed, 18 Nov 2026 15:46:07 +0000"
   }
 ];
