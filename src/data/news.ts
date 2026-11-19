@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Addis Ababa’s Corridor Renewal Is Reshaping the Urban Landscape and the Everyday Lives of Its Residents",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa’s corridor development is reshaping not only the physical appearance and connectivity of the capital but also the economic and social conditions of its residents, with thousands of businesses and homes already",
+    "source": "FBC English",
+    "publishedAt": "Thu, 19 Nov 2026 14:54:07 +0000"
+  },
+  {
+    "title": "Swedish, Danish Ambassadors Commend Ethiopia’s DDR Efforts for Peace and Recovery in Tigray Region",
+    "summary": "Addis Ababa, November 19, 2026 (Fana English) — The ambassadors of Sweden and Denmark to Ethiopia have commended the country’s Disarmament, Demobilization and Reintegration (DDR) efforts, recognizing their contribution to reintegrating former combatants into c",
+    "source": "FBC English",
+    "publishedAt": "Thu, 19 Nov 2026 14:35:46 +0000"
+  },
+  {
+    "title": "Ethiopia and Italy Draw on Longstanding Ties to Strengthen Climate Partnership Ahead of COP32",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – The longstanding relationship between Ethiopia and Italy is providing a basis for stronger cooperation on climate action as Ethiopia prepares to host COP32 in Addis Ababa. The shared commitment featured in talks between C",
+    "source": "FBC English",
+    "publishedAt": "Thu, 19 Nov 2026 12:38:53 +0000"
+  },
+  {
+    "title": "Ethiopia Backs COP31 Negotiation Process, Looks to Build on Its Outcomes at COP32",
+    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has reaffirmed its support for a successful conclusion of COP31, with its incoming COP32 Presidency emphasizing the importance of a clear and strong outcome that can provide a foundation for the next UN climate c",
+    "source": "FBC English",
+    "publishedAt": "Thu, 19 Nov 2026 12:14:16 +0000"
+  },
+  {
     "title": "Ethiopia and Sweden Focus on Closing the Gap Between Global Climate Ambition and Implementation Ahead of COP32",
     "summary": "Addis Ababa, November 19, 2026 (FMC) – Translating global climate commitments into tangible action, particularly through stronger climate finance, adaptation and resilience, was central to discussions between Ethiopia’s Foreign Minister and COP32 President-Des",
     "source": "FBC English",
@@ -37,30 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has reclaimed five historic cultural objects from the United States through a long-term international partnership involving the Ethiopian Heritage Authority (EHA), the Toledo Museum of Art (TMA) and private colle",
     "source": "FBC English",
     "publishedAt": "Thu, 19 Nov 2026 09:58:26 +0000"
-  },
-  {
-    "title": "Addis Ababa’s Urban Renewal Is Replacing Exploitation with Dignity, Skills and Economic Opportunity for Women – Mayor",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa is linking its urban transformation with a social intervention aimed at helping women move away from exploitative circumstances and build dignified, productive livelihoods through skills training and economic ",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 09:44:16 +0000"
-  },
-  {
-    "title": "PM Abiy Says Urban Development Is Becoming a Defining Factor in National Competitiveness and Global Standing",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Prime Minister Abiy Ahmed has underscored the growing importance of urban development in shaping Ethiopia’s national competitiveness and international standing, describing the transformation of cities as a collective nati",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 05:52:06 +0000"
-  },
-  {
-    "title": "Ethiopia’s Urban Development Is Being Planned Around Future Population Growth, Climate Change and Infrastructure Needs – PM Abiy Ahmed",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia’s urban development strategy is being guided by long-term planning that anticipates future population growth, climate change and infrastructure demands, Prime Minister Abiy Ahmed said following the unveiling of t",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 05:34:12 +0000"
-  },
-  {
-    "title": "PM Abiy Positions Urban Renewal as Driver of Jobs, Business and Public Wellbeing",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Prime Minister Abiy Ahmed has framed Ethiopia’s urban transformation as a broader economic and social undertaking, emphasizing that the redevelopment of cities is creating opportunities for businesses, generating employme",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 05:21:21 +0000"
   },
   {
     "title": "የመደመር መንግሥት የከተሜነት ዕሳቤ፣ ከተሞችን የሥራ ዕድል ምርታማነት ማዕከላት እንዲሆኑ ያደርጋል – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
