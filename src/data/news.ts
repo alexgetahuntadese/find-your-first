@@ -3,6 +3,48 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "The Illegal TPLF Group’s War Obsession That Slammed Every Door to Peace Shut",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – The rogue TPLF group has a long record of placing the wealth and political survival of its leaders above the rights, aspirations and well-being of the Ethiopian people. Rather than ensuring equitable opportunities, streng",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 10:26:26 +0000"
+  },
+  {
+    "title": "Ethiopia Deepens Aviation Cooperation with Qatar, Somalia and Mauritius",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia is advancing efforts to strengthen aviation partnerships with Qatar, Somalia and Mauritius following a series of bilateral engagements held by Ambassador Tewodros Girma on the sidelines of the 7th Worldwide Air T",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 09:32:16 +0000"
+  },
+  {
+    "title": "Ethiopian Wildlife Researcher Wins Prestigious 2026 L’Oréal–UNESCO Young Talents Award",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopian wildlife researcher Admas Messele Tsegaye has been selected as one of the recipients of the prestigious 2026 L’Oréal–UNESCO For Women in Science Sub-Saharan Africa Young Talents Award, in recognition of her doct",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 09:25:50 +0000"
+  },
+  {
+    "title": "Over 200 Former TPLF Combatants Lay Down Arms and Surrender to ENDF in Tigray Region",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – More than 200 former combatants of the defunct TPLF armed group in Asgede Tsimbla District, North Western Zone of Tigray Region, have surrendered to the Ethiopian National Defense Force (ENDF), accepting the peaceful alte",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 09:14:11 +0000"
+  },
+  {
+    "title": "Ethiopia Is Advancing a Far-Reaching Military Transformation, Putting Troops’ Welfare at the Heart of Modernization: ENDF Chief of Staff",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia is advancing a far-reaching military transformation, putting troops’ welfare at the heart of its efforts to build a modern, capable and effective armed force, Chief of Staff of the Ethiopian National Defense Forc",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 09:01:04 +0000"
+  },
+  {
+    "title": "Ethiopia’s Bid to Bring AFCON Home Gains Fresh Impetus as Long-Delayed Adey Abeba Stadium Nears Completion",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia’s ambition to bring the Africa Cup of Nations (AFCON) back home is gaining fresh momentum as the long-delayed Adey Abeba Stadium in Addis Ababa advances towards completion, with the 62,000-seat facility expected ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 06:52:58 +0000"
+  },
+  {
+    "title": "PM Abiy Extends Ethiopia’s Welcome to African Leaders, Global Health Delegates Ahead of CPHIA 2026",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopian Prime Minister and African Union Champion for Artificial Intelligence and Digital Health Abiy Ahmed (PhD) has extended a warm welcome to African leaders, ministers, public health experts, development partners an",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 05:41:17 +0000"
+  },
+  {
     "title": "Addis Ababa’s Corridor Renewal Is Reshaping the Urban Landscape and the Everyday Lives of Its Residents",
     "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa’s corridor development is reshaping not only the physical appearance and connectivity of the capital but also the economic and social conditions of its residents, with thousands of businesses and homes already",
     "source": "FBC English",
@@ -15,63 +57,21 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Thu, 19 Nov 2026 14:35:46 +0000"
   },
   {
+    "title": "በትግራይ ክልል አስገደ ፅምብላ ወረዳ ከ200 በላይ የሕገወጡ ህወሓት ታጣቂዎች የሰላም አማራጭን ተቀበሉ",
+    "summary": "አዲስ አበባ፣ ሕዳር 10፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል ሰሜን ምዕራብ ዞን አስገደ ፅምብላ ወረዳ ከሕገወጡ የህወሓት ቡድን ጋር ሸፍተው የነበሩ ከ200 በላይ ታጣቂዎች የሰላም አማራጭን በመቀበል እጃቸውን ሰጡ። ‎ታጣቂዎቹ በወረዳው በረሃማ አካባቢዎች ተሰማርተው የቆዩ ሲሆን፤ የተፈጠረላቸውን የሰላም አጋጣሚ በመጠቀም፤ ለሀገር መከላከያ ሠራዊት እጃቸውን ሰጥተዋል። ወደ መደበኛ ሰላማዊ ሕይወታቸው ለመመለ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 19 Nov 2026 14:24:15 +0000"
+  },
+  {
+    "title": "የልማት ትልቁ ትርጉም በዜጎች ኑሮ ላይ ተጨባጭ ለውጥ ማምጣት ነው – ከንቲባ አዳነች አቤቤ",
+    "summary": "አዲስ አበባ፣ ሕዳር 10፣ 2019 (ኤፍ ኤም ሲ) የልማት ትልቁ ትርጉም በዜጎች ዕለታዊ ኑሮ ላይ ተጨባጭ ለውጥ ማምጣት ነው አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። ከንቲባዋ በማህበራዊ የትስስር ገጻቸው ባስተላለፉት መልዕክት እንዳሉት፤ ትናንት ያስመረቅነው የኮሪደር ልማት የከተማችንን መሠረተ ልማቶች በማገናኘትና የመንገድ ኔትወርካችንን በማስፋት ከተማችንን የበለጠ ምቹና ለኑሮ ተስማሚ ከማድ",
+    "source": "Fana Media",
+    "publishedAt": "Thu, 19 Nov 2026 12:53:29 +0000"
+  },
+  {
     "title": "Ethiopia and Italy Draw on Longstanding Ties to Strengthen Climate Partnership Ahead of COP32",
     "summary": "Addis Ababa, November 19, 2026 (FMC) – The longstanding relationship between Ethiopia and Italy is providing a basis for stronger cooperation on climate action as Ethiopia prepares to host COP32 in Addis Ababa. The shared commitment featured in talks between C",
     "source": "FBC English",
     "publishedAt": "Thu, 19 Nov 2026 12:38:53 +0000"
-  },
-  {
-    "title": "Ethiopia Backs COP31 Negotiation Process, Looks to Build on Its Outcomes at COP32",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has reaffirmed its support for a successful conclusion of COP31, with its incoming COP32 Presidency emphasizing the importance of a clear and strong outcome that can provide a foundation for the next UN climate c",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 12:14:16 +0000"
-  },
-  {
-    "title": "Ethiopia and Sweden Focus on Closing the Gap Between Global Climate Ambition and Implementation Ahead of COP32",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Translating global climate commitments into tangible action, particularly through stronger climate finance, adaptation and resilience, was central to discussions between Ethiopia’s Foreign Minister and COP32 President-Des",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 12:08:40 +0000"
-  },
-  {
-    "title": "Ethiopia Expands Aviation Diplomacy, Pursues Stronger Air Links Across Europe, Asia and North America",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia advanced efforts to expand its international aviation partnerships and strengthen air connectivity across Europe, Asia and North America through a series of high-level engagements with aviation officials on the s",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 11:57:52 +0000"
-  },
-  {
-    "title": "Ethiopia Sets Out Vision for a Global Climate Stocktake That Delivers Action, Support and Equity",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has called for the Second Global Stocktake (GST2) to deliver a clear assessment of collective climate progress, expose barriers to implementation and identify practical ways to accelerate climate action and suppo",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 11:43:40 +0000"
-  },
-  {
-    "title": "Ethiopia, Slovakia Pledge to Deepen Diplomatic and Economic Ties",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia and the Slovak Republic have reaffirmed their commitment to expanding bilateral relations across investment, trade, technology, climate and culture following the formal accreditation of Ethiopia’s Ambassador to S",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 11:39:45 +0000"
-  },
-  {
-    "title": "Addis Ababa Is Advancing an Integrated Model of Urban Development, Reimagining What a Modern African City Can Be: Mayor",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa is advancing an integrated approach to urban development that brings together economic opportunity, social interventions, public services, recreational facilities and essential infrastructure, reflecting a vis",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 11:26:14 +0000"
-  },
-  {
-    "title": "Ethiopia Reclaims Five Historic Cultural Treasures Through Landmark International Partnership",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Ethiopia has reclaimed five historic cultural objects from the United States through a long-term international partnership involving the Ethiopian Heritage Authority (EHA), the Toledo Museum of Art (TMA) and private colle",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 09:58:26 +0000"
-  },
-  {
-    "title": "የመደመር መንግሥት የከተሜነት ዕሳቤ፣ ከተሞችን የሥራ ዕድል ምርታማነት ማዕከላት እንዲሆኑ ያደርጋል – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት የከተሜነት ዕሳቤ፣ ከተሞችን የሥራ ዕድል ምርታማነት ማዕከላት እንዲሆኑ ያደርጋል አሉ ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር)። ጠቅላይ ሚኒስትሩ በማህበራዊ ትስስር ገጻቸው ባስተላለፉት መልዕክት፤ የከተማ ልማት ጥራት የአንድን ሀገር ምርታማነት፣ የሰው ልጅ ክብር፣ ማኅበራዊ ሥርዓት እና የአካባቢን ችግር የመቋቋም ዐቅም መገለጫ እየሆነ መጥቷል ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 18 Nov 2026 17:16:28 +0000"
-  },
-  {
-    "title": "የመደመር መንግሥት ለቡና ልማት በሰጠው ትኩረት ዜጎች ተጠቃሚ እየሆኑ ነው",
-    "summary": "አዲስ አበባ፣ ሕዳር 9፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ለቡና ልማት በሰጠው ትኩረትና ባመቻቸው ምቹ ሁኔታ ተጠቅመው ጥራት ያለው ቡና በማምረት ለውጭና ለሀገር ውስጥ ገበያ በማቅረብ ውጤታማ ሆነናል አሉ የደቡብ ምዕራብ ኦሮሚያ ዞን የቡና አልሚ ባለሀብቶች። በዞኑ በቡና ልማት ዘርፍ የተሰማሩት አቶ ፈይሰል አባመጫ፤ መንግሥት ለዘርፉ በሰጠው ትኩረትና ባመቻቸው ምቹ ሁኔታ በመጠቀም በዞኑ በሚገኙ […] ",
-    "source": "Fana Media",
-    "publishedAt": "Wed, 18 Nov 2026 15:46:07 +0000"
   }
 ];
