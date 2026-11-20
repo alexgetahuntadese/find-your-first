@@ -3,6 +3,54 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia and UK Put Climate Implementation at Centre of COP32–G20 Cooperation",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – The upcoming UK G20 Presidency is set to provide an additional avenue for aligning international climate efforts with the implementation agenda of Ethiopia’s COP32 Presidency, following talks between the two countries’ cl",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 17:46:22 +0000"
+  },
+  {
+    "title": "Ethiopia and Small Island States Rally Around an Inclusive COP32 Process and Stronger Multilateral Climate Cooperation",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia’s incoming COP32 Presidency and the Alliance of Small Island States (AOSIS) have reaffirmed their shared commitment to an inclusive climate negotiation process and stronger multilateral cooperation, as preparatio",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 17:38:29 +0000"
+  },
+  {
+    "title": "AFCAC Calls on ICAO Member States to Support Ethiopia’s Bid for Council Seat",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – The President of the African Civil Aviation Commission (AFCAC), Florent Serge, has called on member states of the International Civil Aviation Organization (ICAO) to support Ethiopia’s candidacy for a seat on the ICAO Cou",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 17:16:40 +0000"
+  },
+  {
+    "title": "Mekelle City Registering Youth and Former Combatants for Jobs in Planned Corridor Development Projects",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Digital registration is underway in Mekelle to identify and engage young people in job creation initiatives, including the city’s corridor development projects, Mekelle Mayor Shishay Amare said. Speaking during a review o",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 14:47:09 +0000"
+  },
+  {
+    "title": "ICAO Member States Reach Broad Agreement on Reforms to Reshape Global Aviation’s Economic and Regulatory Framework",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Member States of the International Civil Aviation Organization (ICAO) have reached broad agreement on reforms to modernize global aviation’s economic, regulatory and digital frameworks, with a focus on emerging technologi",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 13:44:21 +0000"
+  },
+  {
+    "title": "The TPLF’s Double Game: Setting Ethiopia Ablaze, Hiding Behind Tigray’s Suffering",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Few political organizations have left such a long trail of conflict, destruction and unresolved wounds in Ethiopia as the TPLF. Its history is not simply one of a movement that fought its way to power and later lost it. I",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 11:46:53 +0000"
+  },
+  {
+    "title": "The Rogue TPLF: A Record of Provocation, Destruction and a Calculated Cry of Victimhood",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – The history of the rogue TPLF is marked by a recurring pattern: provoke confrontation, deepen divisions, inflict destruction and then present itself as the victim. Whenever its actions bring consequences, the group turns ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 11:16:45 +0000"
+  },
+  {
+    "title": "The Defunct TPLF’s Propaganda Machine: A Desperate Campaign to Bury the Truth and Escape Accountability",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – The defunct TPLF group has turned propaganda into an instrument of political survival, seeking to bury the truth beneath a relentless barrage of false narratives, fabricated accusations and calculated distortions. Having ",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 10:54:41 +0000"
+  },
+  {
     "title": "The Illegal TPLF Group’s War Obsession That Slammed Every Door to Peace Shut",
     "summary": "Addis Ababa, November 20, 2026 (FMC) – The rogue TPLF group has a long record of placing the wealth and political survival of its leaders above the rights, aspirations and well-being of the Ethiopian people. Rather than ensuring equitable opportunities, streng",
     "source": "FBC English",
@@ -15,48 +63,6 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 20 Nov 2026 09:32:16 +0000"
   },
   {
-    "title": "Ethiopian Wildlife Researcher Wins Prestigious 2026 L’Oréal–UNESCO Young Talents Award",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopian wildlife researcher Admas Messele Tsegaye has been selected as one of the recipients of the prestigious 2026 L’Oréal–UNESCO For Women in Science Sub-Saharan Africa Young Talents Award, in recognition of her doct",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 09:25:50 +0000"
-  },
-  {
-    "title": "Over 200 Former TPLF Combatants Lay Down Arms and Surrender to ENDF in Tigray Region",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – More than 200 former combatants of the defunct TPLF armed group in Asgede Tsimbla District, North Western Zone of Tigray Region, have surrendered to the Ethiopian National Defense Force (ENDF), accepting the peaceful alte",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 09:14:11 +0000"
-  },
-  {
-    "title": "Ethiopia Is Advancing a Far-Reaching Military Transformation, Putting Troops’ Welfare at the Heart of Modernization: ENDF Chief of Staff",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia is advancing a far-reaching military transformation, putting troops’ welfare at the heart of its efforts to build a modern, capable and effective armed force, Chief of Staff of the Ethiopian National Defense Forc",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 09:01:04 +0000"
-  },
-  {
-    "title": "Ethiopia’s Bid to Bring AFCON Home Gains Fresh Impetus as Long-Delayed Adey Abeba Stadium Nears Completion",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia’s ambition to bring the Africa Cup of Nations (AFCON) back home is gaining fresh momentum as the long-delayed Adey Abeba Stadium in Addis Ababa advances towards completion, with the 62,000-seat facility expected ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 06:52:58 +0000"
-  },
-  {
-    "title": "PM Abiy Extends Ethiopia’s Welcome to African Leaders, Global Health Delegates Ahead of CPHIA 2026",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopian Prime Minister and African Union Champion for Artificial Intelligence and Digital Health Abiy Ahmed (PhD) has extended a warm welcome to African leaders, ministers, public health experts, development partners an",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 05:41:17 +0000"
-  },
-  {
-    "title": "Addis Ababa’s Corridor Renewal Is Reshaping the Urban Landscape and the Everyday Lives of Its Residents",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – Addis Ababa’s corridor development is reshaping not only the physical appearance and connectivity of the capital but also the economic and social conditions of its residents, with thousands of businesses and homes already",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 14:54:07 +0000"
-  },
-  {
-    "title": "Swedish, Danish Ambassadors Commend Ethiopia’s DDR Efforts for Peace and Recovery in Tigray Region",
-    "summary": "Addis Ababa, November 19, 2026 (Fana English) — The ambassadors of Sweden and Denmark to Ethiopia have commended the country’s Disarmament, Demobilization and Reintegration (DDR) efforts, recognizing their contribution to reintegrating former combatants into c",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 14:35:46 +0000"
-  },
-  {
     "title": "በትግራይ ክልል አስገደ ፅምብላ ወረዳ ከ200 በላይ የሕገወጡ ህወሓት ታጣቂዎች የሰላም አማራጭን ተቀበሉ",
     "summary": "አዲስ አበባ፣ ሕዳር 10፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል ሰሜን ምዕራብ ዞን አስገደ ፅምብላ ወረዳ ከሕገወጡ የህወሓት ቡድን ጋር ሸፍተው የነበሩ ከ200 በላይ ታጣቂዎች የሰላም አማራጭን በመቀበል እጃቸውን ሰጡ። ‎ታጣቂዎቹ በወረዳው በረሃማ አካባቢዎች ተሰማርተው የቆዩ ሲሆን፤ የተፈጠረላቸውን የሰላም አጋጣሚ በመጠቀም፤ ለሀገር መከላከያ ሠራዊት እጃቸውን ሰጥተዋል። ወደ መደበኛ ሰላማዊ ሕይወታቸው ለመመለ",
     "source": "Fana Media",
@@ -67,11 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 10፣ 2019 (ኤፍ ኤም ሲ) የልማት ትልቁ ትርጉም በዜጎች ዕለታዊ ኑሮ ላይ ተጨባጭ ለውጥ ማምጣት ነው አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። ከንቲባዋ በማህበራዊ የትስስር ገጻቸው ባስተላለፉት መልዕክት እንዳሉት፤ ትናንት ያስመረቅነው የኮሪደር ልማት የከተማችንን መሠረተ ልማቶች በማገናኘትና የመንገድ ኔትወርካችንን በማስፋት ከተማችንን የበለጠ ምቹና ለኑሮ ተስማሚ ከማድ",
     "source": "Fana Media",
     "publishedAt": "Thu, 19 Nov 2026 12:53:29 +0000"
-  },
-  {
-    "title": "Ethiopia and Italy Draw on Longstanding Ties to Strengthen Climate Partnership Ahead of COP32",
-    "summary": "Addis Ababa, November 19, 2026 (FMC) – The longstanding relationship between Ethiopia and Italy is providing a basis for stronger cooperation on climate action as Ethiopia prepares to host COP32 in Addis Ababa. The shared commitment featured in talks between C",
-    "source": "FBC English",
-    "publishedAt": "Thu, 19 Nov 2026 12:38:53 +0000"
   }
 ];
