@@ -3,6 +3,36 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Minister of Culture and Tourism Says Ethiopia Aims to Make COP32 a Platform for Tourism-Driven Climate Action",
+    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia is seeking to position tourism as a major driver of climate action, environmental conservation and sustainable development as it prepares to host the 32nd UN Climate Change Conference (COP32) in 2027. Minister of",
+    "source": "FBC English",
+    "publishedAt": "Sat, 21 Nov 2026 14:40:30 +0000"
+  },
+  {
+    "title": "UN Secretary-General Appoints Former Ethiopian Deputy PM to Global Nutrition Leadership Group",
+    "summary": "Addis Ababa, November 21, 2026 (FMC) – United Nations Secretary-General António Guterres has appointed former Ethiopian Deputy Prime Minister Demeke Mekonnen to the Lead Group of the Scaling Up Nutrition (SUN) Movement, recognizing his commitment to advancing ",
+    "source": "FBC English",
+    "publishedAt": "Sat, 21 Nov 2026 14:09:45 +0000"
+  },
+  {
+    "title": "Ethiopia Will Advance Global Cohesion and Cooperation for Humanity Through Medemer Philosophy: Foreign Minister",
+    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia will advance global cohesion and cooperation for the benefit of its people and humanity through the philosophy of Medemer, Foreign Minister and COP32 President-Designate Gedion Timothewos (PhD) has affirmed. Addr",
+    "source": "FBC English",
+    "publishedAt": "Sat, 21 Nov 2026 13:44:31 +0000"
+  },
+  {
+    "title": "Ethiopian Foreign Minister Outlines High-Impact COP32 Initiatives to Turn Climate Commitments into an Integrated Programme of Action",
+    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia’s incoming COP32 Presidency will pursue a focused set of high-impact initiatives designed to bring different stakeholders together and accelerate the implementation of climate commitments, Foreign Minister and CO",
+    "source": "FBC English",
+    "publishedAt": "Sat, 21 Nov 2026 13:40:02 +0000"
+  },
+  {
+    "title": "Ethiopia Sets Three Priorities for COP32: Restoring Hope, Rebuilding Trust and Mobilizing Collective Climate Action",
+    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia has outlined an ambitious direction for its incoming COP32 Presidency, placing renewed trust in multilateral climate cooperation, effective implementation of global commitments and the integration of climate acti",
+    "source": "FBC English",
+    "publishedAt": "Sat, 21 Nov 2026 13:17:24 +0000"
+  },
+  {
     "title": "Ethiopia Elected to ICAO Council as Africa’s Sole Representative",
     "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia has been elected to the Council of the International Civil Aviation Organization (ICAO), securing one of four additional seats in the global aviation governing body following its endorsement as Africa’s sole cand",
     "source": "FBC English",
@@ -43,35 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በሲቪል አቪዬሽን ዘርፍ ያስመዘገበችው ዕድገት የሚደነቅ ነው አሉ የዓለም አቀፉ ሲቪል አቪዬሽን ድርጅት ፕሬዚዳንት ቶሺዩኪ ኦኑማ። በካናዳ ሞንትሪያል እየተካሄደ ከሚገኘው 7ኛው ዓለም አቀፍ የአየር ትራንስፖርት ጉባዔ ጎን ለጎን ኢትዮጵያና የአፍሪካ ሲቪል አቪዬሽን ኮሚሽን በጋራ ያዘጋጁት መርሐ ግብር ተካሂዷል፡፡ የዓለም አቀፉ ሲቪል አቪዬሽን ድርጅት ፕ",
     "source": "Fana Media",
     "publishedAt": "Fri, 20 Nov 2026 15:46:05 +0000"
-  },
-  {
-    "title": "Mekelle City Registering Youth and Former Combatants for Jobs in Planned Corridor Development Projects",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Digital registration is underway in Mekelle to identify and engage young people in job creation initiatives, including the city’s corridor development projects, Mekelle Mayor Shishay Amare said. Speaking during a review o",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 14:47:09 +0000"
-  },
-  {
-    "title": "በመቐለ ከተማ ለሥራ እድል ፈጠራ የሚሆን የዲጂታል ምዝገባ እየተከናወነ ነው – ከንቲባ ሺሻይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ ለሥራ እድል ፈጠራ የሚሆን የዲጂታል ምዝገባ እየተከናወነ ነው አሉ በትግራይ ክልል ባለአደራ አስተዳደር የመቐለ ከተማ ከንቲባ ሺሻይ አማረ(ዶ/ር)። የመቐለ ከተማ ባለአደራ አስተዳደር ያለፉትን 30 ቀናት አፈጻጸም ገምግሟል። ከንቲባ ሺሻይ (ዶ/ር) በሰጡት መግለጫ እንዳሉት፤ የተሃድሶ ስልጠና የወሰዱ የቀድሞ ታጣቂዎች በመቐለ የኮሪደር ልማት የሥራ ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 20 Nov 2026 14:17:12 +0000"
-  },
-  {
-    "title": "የትግራይ ሕዝብ ለሕገወጡ ቡድን መወገድ ያሳየው ቁርጠኝነት ከፍተኛ ፅናት የታየበት ነው – ከንቲባ ሺሻይ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ሕዝብ ለሕገወጡ ቡድን መወገድ ያሳየው ቁርጠኝነት ከፍተኛ ፅናትና ጥንካሬ የታየበት ነው አሉ በትግራይ ክልል ባለአደራ አስተዳደር የመቐለ ከተማ ከንቲባ ሺሻይ አማረ(ዶ/ር)። የመቐለ ከተማ ባለአደራ አስተዳደር ያለፉትን 30 ቀናት አፈጻጸም ገምግሟል። ከንቲባ ሺሻይ (ዶ/ር) በሰጡት መግለጫ በከተማዋ የአገልግሎት ዘርፉን በፍጥነት ወደ ሥራ ለማስገባት የተ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 20 Nov 2026 14:01:09 +0000"
-  },
-  {
-    "title": "ICAO Member States Reach Broad Agreement on Reforms to Reshape Global Aviation’s Economic and Regulatory Framework",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Member States of the International Civil Aviation Organization (ICAO) have reached broad agreement on reforms to modernize global aviation’s economic, regulatory and digital frameworks, with a focus on emerging technologi",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 13:44:21 +0000"
-  },
-  {
-    "title": "በመቐለ ከተማ ባለፉት 30 ቀናት ሰላምን በማስፈን እና ተቋማትን ወደ መደበኛ ሥራ በመመለስ ረገድ ውጤታማ ተግባራት ተከናውነዋል – ሺሻይ አማረ (ዶ/ር)",
-    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ ባለፉት 30 ቀናት ሰላምን በማስፈን፣ መንግሥታዊ ተቋማትን እና የንግድ እንቅስቃሴዎችን ወደ መደበኛ ሥራ በመመለስ ረገድ ውጤታማ ተግባራት ተከናውነዋል አሉ በትግራይ ክልል ባለአደራ አስተዳደር የመቀሌ ከተማ ከንቲባ ሽሻይ አማረ(ዶ/ር)። የከተማ አስተዳደሩ ያለፉት 30 ቀናት የሥራ አፈጻጸምን ከተለያዩ ቢሮዎች ጋር በገመገመበት ወቅት እንደተመላከተው",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 20 Nov 2026 13:31:19 +0000"
   }
 ];
