@@ -3,6 +3,12 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Ethiopia Elected to ICAO Council as Africa’s Sole Representative",
+    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia has been elected to the Council of the International Civil Aviation Organization (ICAO), securing one of four additional seats in the global aviation governing body following its endorsement as Africa’s sole cand",
+    "source": "FBC English",
+    "publishedAt": "Fri, 20 Nov 2026 21:19:35 +0000"
+  },
+  {
     "title": "Ethiopia and UK Put Climate Implementation at Centre of COP32–G20 Cooperation",
     "summary": "Addis Ababa, November 20, 2026 (FMC) – The upcoming UK G20 Presidency is set to provide an additional avenue for aligning international climate efforts with the implementation agenda of Ethiopia’s COP32 Presidency, following talks between the two countries’ cl",
     "source": "FBC English",
@@ -55,12 +61,6 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 20, 2026 (FMC) – The rogue TPLF group has a long record of placing the wealth and political survival of its leaders above the rights, aspirations and well-being of the Ethiopian people. Rather than ensuring equitable opportunities, streng",
     "source": "FBC English",
     "publishedAt": "Fri, 20 Nov 2026 10:26:26 +0000"
-  },
-  {
-    "title": "Ethiopia Deepens Aviation Cooperation with Qatar, Somalia and Mauritius",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia is advancing efforts to strengthen aviation partnerships with Qatar, Somalia and Mauritius following a series of bilateral engagements held by Ambassador Tewodros Girma on the sidelines of the 7th Worldwide Air T",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 09:32:16 +0000"
   },
   {
     "title": "በትግራይ ክልል አስገደ ፅምብላ ወረዳ ከ200 በላይ የሕገወጡ ህወሓት ታጣቂዎች የሰላም አማራጭን ተቀበሉ",
