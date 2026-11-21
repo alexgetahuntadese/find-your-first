@@ -9,6 +9,18 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 20 Nov 2026 21:19:35 +0000"
   },
   {
+    "title": "ህጻናትን ማዕከል ያደረጉ የልማት መርሐ ግብሮቻችን",
+    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ሰው ተኮር የልማት ዕሳቤን መሠረት በማድረግ በሥርዓተ ምግብ፣ በቀዳማይ ልጅነት ክብካቤ፣ በአረንጓዴ ዐሻራ፣ በትምህርት እና በጤና መሠረተ ልማቶች ላይ የተቀናጁ ፕሮግራሞችን በመተግበር የህጻናት ሁለንተናዊ ዕድገትን በማሻሻል ላይ ይገኛል። በስርዓተ ምግብ እና የምግብ ዋስትናን በማረጋገጥ ረገድ የትምህርት ቤት መገባ መርሐ ግብር እና የሌማት ት",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 20 Nov 2026 18:12:55 +0000"
+  },
+  {
+    "title": "36 ነጥብ 2 ሚሊየን የተማሪና የመምህር መምሪያ መጻሕፍት እየተሰራጩ ነው – ትምህርት ሚኒስቴር",
+    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) በ2019 በጀት ዓመት 36 ነጥብ 2 ሚሊየን የተማሪና የመምህር መምሪያ መጻሕፍት ታትመው በመላ ኢትዮጵያ መሰራጨት ጀምረዋል አለ የትምህርት ሚኒስቴር። በሚኒስቴሩ የትምህርት ልማት ዘርፍና የሥርዓተ ትምህርት ማበልጸጊያ ተወካይ ዋና ሥራ አስፈጻሚ አበበ ጋረደው (ዶ/ር)÷ መጻሕፍት ለመማር ማስተማር ሒደትና ለትምህርት ጥራት ወሳኝ ግብዓት መሆናቸውን ገልጸዋል። በመ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 20 Nov 2026 17:50:52 +0000"
+  },
+  {
     "title": "Ethiopia and UK Put Climate Implementation at Centre of COP32–G20 Cooperation",
     "summary": "Addis Ababa, November 20, 2026 (FMC) – The upcoming UK G20 Presidency is set to provide an additional avenue for aligning international climate efforts with the implementation agenda of Ethiopia’s COP32 Presidency, following talks between the two countries’ cl",
     "source": "FBC English",
@@ -27,10 +39,28 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 20 Nov 2026 17:16:40 +0000"
   },
   {
+    "title": "ዓለም አቀፉ የሲቪል አቪዬሽን ድርጅት ኢትዮጵያ በአቪዬሽን ዘርፍ ያስመዘገበችውን ዕድገት አደነቀ",
+    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በሲቪል አቪዬሽን ዘርፍ ያስመዘገበችው ዕድገት የሚደነቅ ነው አሉ የዓለም አቀፉ ሲቪል አቪዬሽን ድርጅት ፕሬዚዳንት ቶሺዩኪ ኦኑማ። በካናዳ ሞንትሪያል እየተካሄደ ከሚገኘው 7ኛው ዓለም አቀፍ የአየር ትራንስፖርት ጉባዔ ጎን ለጎን ኢትዮጵያና የአፍሪካ ሲቪል አቪዬሽን ኮሚሽን በጋራ ያዘጋጁት መርሐ ግብር ተካሂዷል፡፡ የዓለም አቀፉ ሲቪል አቪዬሽን ድርጅት ፕ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 20 Nov 2026 15:46:05 +0000"
+  },
+  {
     "title": "Mekelle City Registering Youth and Former Combatants for Jobs in Planned Corridor Development Projects",
     "summary": "Addis Ababa, November 20, 2026 (FMC) – Digital registration is underway in Mekelle to identify and engage young people in job creation initiatives, including the city’s corridor development projects, Mekelle Mayor Shishay Amare said. Speaking during a review o",
     "source": "FBC English",
     "publishedAt": "Fri, 20 Nov 2026 14:47:09 +0000"
+  },
+  {
+    "title": "በመቐለ ከተማ ለሥራ እድል ፈጠራ የሚሆን የዲጂታል ምዝገባ እየተከናወነ ነው – ከንቲባ ሺሻይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ ለሥራ እድል ፈጠራ የሚሆን የዲጂታል ምዝገባ እየተከናወነ ነው አሉ በትግራይ ክልል ባለአደራ አስተዳደር የመቐለ ከተማ ከንቲባ ሺሻይ አማረ(ዶ/ር)። የመቐለ ከተማ ባለአደራ አስተዳደር ያለፉትን 30 ቀናት አፈጻጸም ገምግሟል። ከንቲባ ሺሻይ (ዶ/ር) በሰጡት መግለጫ እንዳሉት፤ የተሃድሶ ስልጠና የወሰዱ የቀድሞ ታጣቂዎች በመቐለ የኮሪደር ልማት የሥራ ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 20 Nov 2026 14:17:12 +0000"
+  },
+  {
+    "title": "የትግራይ ሕዝብ ለሕገወጡ ቡድን መወገድ ያሳየው ቁርጠኝነት ከፍተኛ ፅናት የታየበት ነው – ከንቲባ ሺሻይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) የትግራይ ሕዝብ ለሕገወጡ ቡድን መወገድ ያሳየው ቁርጠኝነት ከፍተኛ ፅናትና ጥንካሬ የታየበት ነው አሉ በትግራይ ክልል ባለአደራ አስተዳደር የመቐለ ከተማ ከንቲባ ሺሻይ አማረ(ዶ/ር)። የመቐለ ከተማ ባለአደራ አስተዳደር ያለፉትን 30 ቀናት አፈጻጸም ገምግሟል። ከንቲባ ሺሻይ (ዶ/ር) በሰጡት መግለጫ በከተማዋ የአገልግሎት ዘርፉን በፍጥነት ወደ ሥራ ለማስገባት የተ",
+    "source": "Fana Media",
+    "publishedAt": "Fri, 20 Nov 2026 14:01:09 +0000"
   },
   {
     "title": "ICAO Member States Reach Broad Agreement on Reforms to Reshape Global Aviation’s Economic and Regulatory Framework",
@@ -39,39 +69,9 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Fri, 20 Nov 2026 13:44:21 +0000"
   },
   {
-    "title": "The TPLF’s Double Game: Setting Ethiopia Ablaze, Hiding Behind Tigray’s Suffering",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Few political organizations have left such a long trail of conflict, destruction and unresolved wounds in Ethiopia as the TPLF. Its history is not simply one of a movement that fought its way to power and later lost it. I",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 11:46:53 +0000"
-  },
-  {
-    "title": "The Rogue TPLF: A Record of Provocation, Destruction and a Calculated Cry of Victimhood",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – The history of the rogue TPLF is marked by a recurring pattern: provoke confrontation, deepen divisions, inflict destruction and then present itself as the victim. Whenever its actions bring consequences, the group turns ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 11:16:45 +0000"
-  },
-  {
-    "title": "The Defunct TPLF’s Propaganda Machine: A Desperate Campaign to Bury the Truth and Escape Accountability",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – The defunct TPLF group has turned propaganda into an instrument of political survival, seeking to bury the truth beneath a relentless barrage of false narratives, fabricated accusations and calculated distortions. Having ",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 10:54:41 +0000"
-  },
-  {
-    "title": "The Illegal TPLF Group’s War Obsession That Slammed Every Door to Peace Shut",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – The rogue TPLF group has a long record of placing the wealth and political survival of its leaders above the rights, aspirations and well-being of the Ethiopian people. Rather than ensuring equitable opportunities, streng",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 10:26:26 +0000"
-  },
-  {
-    "title": "በትግራይ ክልል አስገደ ፅምብላ ወረዳ ከ200 በላይ የሕገወጡ ህወሓት ታጣቂዎች የሰላም አማራጭን ተቀበሉ",
-    "summary": "አዲስ አበባ፣ ሕዳር 10፣ 2019 (ኤፍ ኤም ሲ) በትግራይ ክልል ሰሜን ምዕራብ ዞን አስገደ ፅምብላ ወረዳ ከሕገወጡ የህወሓት ቡድን ጋር ሸፍተው የነበሩ ከ200 በላይ ታጣቂዎች የሰላም አማራጭን በመቀበል እጃቸውን ሰጡ። ‎ታጣቂዎቹ በወረዳው በረሃማ አካባቢዎች ተሰማርተው የቆዩ ሲሆን፤ የተፈጠረላቸውን የሰላም አጋጣሚ በመጠቀም፤ ለሀገር መከላከያ ሠራዊት እጃቸውን ሰጥተዋል። ወደ መደበኛ ሰላማዊ ሕይወታቸው ለመመለ",
+    "title": "በመቐለ ከተማ ባለፉት 30 ቀናት ሰላምን በማስፈን እና ተቋማትን ወደ መደበኛ ሥራ በመመለስ ረገድ ውጤታማ ተግባራት ተከናውነዋል – ሺሻይ አማረ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ ባለፉት 30 ቀናት ሰላምን በማስፈን፣ መንግሥታዊ ተቋማትን እና የንግድ እንቅስቃሴዎችን ወደ መደበኛ ሥራ በመመለስ ረገድ ውጤታማ ተግባራት ተከናውነዋል አሉ በትግራይ ክልል ባለአደራ አስተዳደር የመቀሌ ከተማ ከንቲባ ሽሻይ አማረ(ዶ/ር)። የከተማ አስተዳደሩ ያለፉት 30 ቀናት የሥራ አፈጻጸምን ከተለያዩ ቢሮዎች ጋር በገመገመበት ወቅት እንደተመላከተው",
     "source": "Fana Media",
-    "publishedAt": "Thu, 19 Nov 2026 14:24:15 +0000"
-  },
-  {
-    "title": "የልማት ትልቁ ትርጉም በዜጎች ኑሮ ላይ ተጨባጭ ለውጥ ማምጣት ነው – ከንቲባ አዳነች አቤቤ",
-    "summary": "አዲስ አበባ፣ ሕዳር 10፣ 2019 (ኤፍ ኤም ሲ) የልማት ትልቁ ትርጉም በዜጎች ዕለታዊ ኑሮ ላይ ተጨባጭ ለውጥ ማምጣት ነው አሉ የአዲስ አበባ ከተማ አስተዳደር ከንቲባ አዳነች አቤቤ። ከንቲባዋ በማህበራዊ የትስስር ገጻቸው ባስተላለፉት መልዕክት እንዳሉት፤ ትናንት ያስመረቅነው የኮሪደር ልማት የከተማችንን መሠረተ ልማቶች በማገናኘትና የመንገድ ኔትወርካችንን በማስፋት ከተማችንን የበለጠ ምቹና ለኑሮ ተስማሚ ከማድ",
-    "source": "Fana Media",
-    "publishedAt": "Thu, 19 Nov 2026 12:53:29 +0000"
+    "publishedAt": "Fri, 20 Nov 2026 13:31:19 +0000"
   }
 ];
