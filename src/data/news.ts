@@ -33,6 +33,36 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Sat, 21 Nov 2026 13:17:24 +0000"
   },
   {
+    "title": "የኢትዮጵያ የባሕር በር ባለቤትነት ጥያቄ የጋራ ተጠቃሚነትን የሚያረጋግጥ መሰረታዊ ጉዳይ ነው",
+    "summary": "አቶ ሞቱማ መቃሳ እንደገለጹት፤ ኢትዮጵያ በቀይ ባሕር ባላት መልክዓ ምድራዊ አቀማመጥ፣ በታሪክም ሆነ በሕግ የባሕር በር ባለቤትነቷን የማረጋገጥ መብት አላት። ኢትዮጵያ ኢኮኖሚዋ በማደግ ላይ የሚገኝ ትልቅ ሀገር በመሆኗ ይህ ዕድገት ታፍኖ ሊቀጥል እንደማይችል ገልጸው፤ ከቀይ ባሕር በጣም በቅርብ ርቀት ላይ መገኘቷ ጉዳዩን ተግባራዊ እንደሚያደርገው አመልክተዋል። በታሪክ የኢትዮጵያ የነበረው የባሕር በር ባለቤትነት",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 21 Nov 2026 09:27:50 +0000"
+  },
+  {
+    "title": "የሞሐመድ ቢን ዛይድ የሰብዓዊነት ፋውንዴሽን በአፍሪካ ሀገራት ተንቀሳቃሽ የዓይን ሕክምና አገልግሎት አስጀመረ",
+    "summary": "የሞሐመድ ቢን ዛይድ የሰብዓዊነት ፋውንዴሽን በአፍሪካ ገጠራማ አካባቢዎች ለሚኖሩ ማኅበረሰቦች የዓይን ሕክምና አገልግሎትን ለማዳረስ የተንቀሳቃሽ ክሊኒክ ፕሮግራም መጀመሩን ይፋ አድርጓል፡፡ የፕሮግራሙ ማስጀመሪያ መርሐ ግብር በሞሮኮና ሞዛምቢክ የተካሄደ ÷ ከሁለቱም ሀገራት የጤና ሚኒስቴሮች ጋር በትብብር ይተገበራል። በቀጣይም የጤና አገልግሎት ለማግኘት በርቀትና በሌሎች ተግዳሮቶች ምክንያት የሚቸገሩ ማኅበረሰቦች",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 21 Nov 2026 09:21:39 +0000"
+  },
+  {
+    "title": "በደቡብ ኢትዮጵያና ደቡብ ምዕራብ ኢትዮጵያ ክልሎች የፖሊዮ ክትባት ዘመቻ ተጀመረ",
+    "summary": "አዲስ አበባ፣ ሕዳር 12፣ 2019 (ኤፍ ኤም ሲ) በደቡብ ኢትዮጵያ እና ደቡብ ምዕራብ ኢትዮጵያ ሕዝቦች ክልሎች የፖሊዮ ክትባት ዘመቻ ዛሬ በይፋ ተጀምሯል፡፡ በደቡብ ኢትዮጵያ ክልል ጋሞ ዞን ጨንቻ ዙሪያ ወረዳ በተካሄደው የማስጀመሪያ መርሐ ግብር ላይ የፌዴራል እና የክልል መንግሥታት የሥራ ኃላፊዎች ተገኝተዋል፡፡ ዘመቻው ከዛሬ ጀምሮ እስከ ሕዳር 15 ቀን 2019 ዓ.ም የሚካሄድ ሲሆን÷ በዚህም በክልሉ […] ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 21 Nov 2026 09:03:35 +0000"
+  },
+  {
+    "title": "ኢትዮጵያ እና ብሪክስ – ከኒውዴልሂ እስከ ሞንትሪያል",
+    "summary": "አዲስ አበባ፣ ሕዳር 12፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በካናዳ ሞንትሪያል በተካሄደው 43ኛው የዓለም አቀፉ አቪዬሽን ድርጅት ጉባኤ ላይ የድርጅቱ ምክር ቤት አባል ሆና ተመርጣለች። ኢትዮጵያ 133 የአባል ሀገራቱን ድምፅ በማግኘት ለምክር ቤቱ አባልነት የተመረጠች ሲሆን፤ ከዚህ ቀደም የብሪክስ አባል ሀገራት ለኢትዮጵያ እጩነት ድጋፋቸውን መግለጻቸው ይታወሳል፡፡ ኢትዮጵያ የብሪክስ አባል ከሆነችበት ጊዜ አንስ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 21 Nov 2026 08:35:40 +0000"
+  },
+  {
+    "title": "የኢትዮጵያ እና አሜሪካን የኢኮኖሚ ግንኙነት ማጠናከር ያለመ ምክክር ተካሄደ",
+    "summary": "አዲስ አበባ፣ ሕዳር 12፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና አሜሪካ የንግድ ዲፕሎማሲን በማሳደግ ኢኮኖሚያዊ ግንኙነታቸውን ለማጠናከር በሚያስችሉ ጉዳዮች ዙሪያ ውይይት አካሂደዋል፡፡ የገንዘብ ሚኒስትር ፍጹም አሰፋ (ዶ/ር) በአሜሪካ የንግድ ሚኒስቴር የአፍሪካ ጉዳዮች ምክትል ረዳት ጸሃፊ ማርክ ሚሼል ከተመራ የልዑካን ቡድን ጋር ተወያይተዋል፡፡ በውይይታቸውም ንግድን ኢንቨስትመንትን በማስፋፋት ለግል ዘርፍ አ",
+    "source": "Fana Media",
+    "publishedAt": "Sat, 21 Nov 2026 07:29:45 +0000"
+  },
+  {
     "title": "Ethiopia Elected to ICAO Council as Africa’s Sole Representative",
     "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia has been elected to the Council of the International Civil Aviation Organization (ICAO), securing one of four additional seats in the global aviation governing body following its endorsement as Africa’s sole cand",
     "source": "FBC English",
@@ -43,35 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ሰው ተኮር የልማት ዕሳቤን መሠረት በማድረግ በሥርዓተ ምግብ፣ በቀዳማይ ልጅነት ክብካቤ፣ በአረንጓዴ ዐሻራ፣ በትምህርት እና በጤና መሠረተ ልማቶች ላይ የተቀናጁ ፕሮግራሞችን በመተግበር የህጻናት ሁለንተናዊ ዕድገትን በማሻሻል ላይ ይገኛል። በስርዓተ ምግብ እና የምግብ ዋስትናን በማረጋገጥ ረገድ የትምህርት ቤት መገባ መርሐ ግብር እና የሌማት ት",
     "source": "Fana Media",
     "publishedAt": "Fri, 20 Nov 2026 18:12:55 +0000"
-  },
-  {
-    "title": "36 ነጥብ 2 ሚሊየን የተማሪና የመምህር መምሪያ መጻሕፍት እየተሰራጩ ነው – ትምህርት ሚኒስቴር",
-    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) በ2019 በጀት ዓመት 36 ነጥብ 2 ሚሊየን የተማሪና የመምህር መምሪያ መጻሕፍት ታትመው በመላ ኢትዮጵያ መሰራጨት ጀምረዋል አለ የትምህርት ሚኒስቴር። በሚኒስቴሩ የትምህርት ልማት ዘርፍና የሥርዓተ ትምህርት ማበልጸጊያ ተወካይ ዋና ሥራ አስፈጻሚ አበበ ጋረደው (ዶ/ር)÷ መጻሕፍት ለመማር ማስተማር ሒደትና ለትምህርት ጥራት ወሳኝ ግብዓት መሆናቸውን ገልጸዋል። በመ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 20 Nov 2026 17:50:52 +0000"
-  },
-  {
-    "title": "Ethiopia and UK Put Climate Implementation at Centre of COP32–G20 Cooperation",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – The upcoming UK G20 Presidency is set to provide an additional avenue for aligning international climate efforts with the implementation agenda of Ethiopia’s COP32 Presidency, following talks between the two countries’ cl",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 17:46:22 +0000"
-  },
-  {
-    "title": "Ethiopia and Small Island States Rally Around an Inclusive COP32 Process and Stronger Multilateral Climate Cooperation",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia’s incoming COP32 Presidency and the Alliance of Small Island States (AOSIS) have reaffirmed their shared commitment to an inclusive climate negotiation process and stronger multilateral cooperation, as preparatio",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 17:38:29 +0000"
-  },
-  {
-    "title": "AFCAC Calls on ICAO Member States to Support Ethiopia’s Bid for Council Seat",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – The President of the African Civil Aviation Commission (AFCAC), Florent Serge, has called on member states of the International Civil Aviation Organization (ICAO) to support Ethiopia’s candidacy for a seat on the ICAO Cou",
-    "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 17:16:40 +0000"
-  },
-  {
-    "title": "ዓለም አቀፉ የሲቪል አቪዬሽን ድርጅት ኢትዮጵያ በአቪዬሽን ዘርፍ ያስመዘገበችውን ዕድገት አደነቀ",
-    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በሲቪል አቪዬሽን ዘርፍ ያስመዘገበችው ዕድገት የሚደነቅ ነው አሉ የዓለም አቀፉ ሲቪል አቪዬሽን ድርጅት ፕሬዚዳንት ቶሺዩኪ ኦኑማ። በካናዳ ሞንትሪያል እየተካሄደ ከሚገኘው 7ኛው ዓለም አቀፍ የአየር ትራንስፖርት ጉባዔ ጎን ለጎን ኢትዮጵያና የአፍሪካ ሲቪል አቪዬሽን ኮሚሽን በጋራ ያዘጋጁት መርሐ ግብር ተካሂዷል፡፡ የዓለም አቀፉ ሲቪል አቪዬሽን ድርጅት ፕ",
-    "source": "Fana Media",
-    "publishedAt": "Fri, 20 Nov 2026 15:46:05 +0000"
   }
 ];
