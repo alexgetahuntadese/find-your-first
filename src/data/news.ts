@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Minister of Culture and Tourism Says Ethiopia Aims to Make COP32 a Platform for Tourism-Driven Climate Action",
-    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia is seeking to position tourism as a major driver of climate action, environmental conservation and sustainable development as it prepares to host the 32nd UN Climate Change Conference (COP32) in 2027. Minister of",
+    "title": "PM Abiy Ahmed and Ugandan Vice President Discuss Deepening Bilateral Ties and Regional Cooperation",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Prime Minister Abiy Ahmed has held discussions with Uganda’s Vice President Jessica Alupo on strengthening cooperation between the two countries and advancing shared regional progress. The meeting took place on the sideli",
     "source": "FBC English",
-    "publishedAt": "Sat, 21 Nov 2026 14:40:30 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 07:57:23 +0000"
   },
   {
-    "title": "UN Secretary-General Appoints Former Ethiopian Deputy PM to Global Nutrition Leadership Group",
-    "summary": "Addis Ababa, November 21, 2026 (FMC) – United Nations Secretary-General António Guterres has appointed former Ethiopian Deputy Prime Minister Demeke Mekonnen to the Lead Group of the Scaling Up Nutrition (SUN) Movement, recognizing his commitment to advancing ",
+    "title": "Ethiopia and UAE Reaffirm Longstanding Relations, Explore Practical Cooperation",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopia and the United Arab Emirates have reaffirmed their longstanding relations, with Prime Minister Abiy Ahmed holding discussions with Sheikh Shakhboot bin Nahyan Al Nahyan, UAE Minister of State at the Ministry of F",
     "source": "FBC English",
-    "publishedAt": "Sat, 21 Nov 2026 14:09:45 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 07:52:29 +0000"
   },
   {
-    "title": "Ethiopia Will Advance Global Cohesion and Cooperation for Humanity Through Medemer Philosophy: Foreign Minister",
-    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia will advance global cohesion and cooperation for the benefit of its people and humanity through the philosophy of Medemer, Foreign Minister and COP32 President-Designate Gedion Timothewos (PhD) has affirmed. Addr",
+    "title": "Ethiopia and Burundi Leaders Review Bilateral Ties and Shared Continental Priorities",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Prime Minister Abiy Ahmed and President Évariste Ndayishimiye of Burundi have reviewed their countries’ bilateral relations and discussed shared regional and continental priorities during talks held on the sidelines of CP",
     "source": "FBC English",
-    "publishedAt": "Sat, 21 Nov 2026 13:44:31 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 07:37:45 +0000"
   },
   {
-    "title": "Ethiopian Foreign Minister Outlines High-Impact COP32 Initiatives to Turn Climate Commitments into an Integrated Programme of Action",
-    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia’s incoming COP32 Presidency will pursue a focused set of high-impact initiatives designed to bring different stakeholders together and accelerate the implementation of climate commitments, Foreign Minister and CO",
+    "title": "Ethiopian PM Abiy Ahmed Holds Talks with Sierra Leonean President Julius Maada Bio",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD) has received and held talks with President Julius Maada Bio of Sierra Leone in Addis Ababa today, on the sidelines of the 5th International Conference on Public Health in Africa (",
     "source": "FBC English",
-    "publishedAt": "Sat, 21 Nov 2026 13:40:02 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 07:28:25 +0000"
   },
   {
-    "title": "Ethiopia Sets Three Priorities for COP32: Restoring Hope, Rebuilding Trust and Mobilizing Collective Climate Action",
-    "summary": "Addis Ababa, November 21, 2026 (FMC) – Ethiopia has outlined an ambitious direction for its incoming COP32 Presidency, placing renewed trust in multilateral climate cooperation, effective implementation of global commitments and the integration of climate acti",
+    "title": "CPHIA 2026 Kicks Off in Addis Ababa as Africa Advances Health Sovereignty",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – The 5th International Conference on Public Health in Africa (CPHIA 2026) has kicked off in Addis Ababa, bringing together Heads of State and Government, senior officials, public health experts and distinguished participan",
     "source": "FBC English",
-    "publishedAt": "Sat, 21 Nov 2026 13:17:24 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 07:23:45 +0000"
   },
   {
-    "title": "የኢትዮጵያ የባሕር በር ባለቤትነት ጥያቄ የጋራ ተጠቃሚነትን የሚያረጋግጥ መሰረታዊ ጉዳይ ነው",
-    "summary": "አቶ ሞቱማ መቃሳ እንደገለጹት፤ ኢትዮጵያ በቀይ ባሕር ባላት መልክዓ ምድራዊ አቀማመጥ፣ በታሪክም ሆነ በሕግ የባሕር በር ባለቤትነቷን የማረጋገጥ መብት አላት። ኢትዮጵያ ኢኮኖሚዋ በማደግ ላይ የሚገኝ ትልቅ ሀገር በመሆኗ ይህ ዕድገት ታፍኖ ሊቀጥል እንደማይችል ገልጸው፤ ከቀይ ባሕር በጣም በቅርብ ርቀት ላይ መገኘቷ ጉዳዩን ተግባራዊ እንደሚያደርገው አመልክተዋል። በታሪክ የኢትዮጵያ የነበረው የባሕር በር ባለቤትነት",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 21 Nov 2026 09:27:50 +0000"
-  },
-  {
-    "title": "የሞሐመድ ቢን ዛይድ የሰብዓዊነት ፋውንዴሽን በአፍሪካ ሀገራት ተንቀሳቃሽ የዓይን ሕክምና አገልግሎት አስጀመረ",
-    "summary": "የሞሐመድ ቢን ዛይድ የሰብዓዊነት ፋውንዴሽን በአፍሪካ ገጠራማ አካባቢዎች ለሚኖሩ ማኅበረሰቦች የዓይን ሕክምና አገልግሎትን ለማዳረስ የተንቀሳቃሽ ክሊኒክ ፕሮግራም መጀመሩን ይፋ አድርጓል፡፡ የፕሮግራሙ ማስጀመሪያ መርሐ ግብር በሞሮኮና ሞዛምቢክ የተካሄደ ÷ ከሁለቱም ሀገራት የጤና ሚኒስቴሮች ጋር በትብብር ይተገበራል። በቀጣይም የጤና አገልግሎት ለማግኘት በርቀትና በሌሎች ተግዳሮቶች ምክንያት የሚቸገሩ ማኅበረሰቦች",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 21 Nov 2026 09:21:39 +0000"
-  },
-  {
-    "title": "በደቡብ ኢትዮጵያና ደቡብ ምዕራብ ኢትዮጵያ ክልሎች የፖሊዮ ክትባት ዘመቻ ተጀመረ",
-    "summary": "አዲስ አበባ፣ ሕዳር 12፣ 2019 (ኤፍ ኤም ሲ) በደቡብ ኢትዮጵያ እና ደቡብ ምዕራብ ኢትዮጵያ ሕዝቦች ክልሎች የፖሊዮ ክትባት ዘመቻ ዛሬ በይፋ ተጀምሯል፡፡ በደቡብ ኢትዮጵያ ክልል ጋሞ ዞን ጨንቻ ዙሪያ ወረዳ በተካሄደው የማስጀመሪያ መርሐ ግብር ላይ የፌዴራል እና የክልል መንግሥታት የሥራ ኃላፊዎች ተገኝተዋል፡፡ ዘመቻው ከዛሬ ጀምሮ እስከ ሕዳር 15 ቀን 2019 ዓ.ም የሚካሄድ ሲሆን÷ በዚህም በክልሉ […] ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 21 Nov 2026 09:03:35 +0000"
-  },
-  {
-    "title": "ኢትዮጵያ እና ብሪክስ – ከኒውዴልሂ እስከ ሞንትሪያል",
-    "summary": "አዲስ አበባ፣ ሕዳር 12፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ በካናዳ ሞንትሪያል በተካሄደው 43ኛው የዓለም አቀፉ አቪዬሽን ድርጅት ጉባኤ ላይ የድርጅቱ ምክር ቤት አባል ሆና ተመርጣለች። ኢትዮጵያ 133 የአባል ሀገራቱን ድምፅ በማግኘት ለምክር ቤቱ አባልነት የተመረጠች ሲሆን፤ ከዚህ ቀደም የብሪክስ አባል ሀገራት ለኢትዮጵያ እጩነት ድጋፋቸውን መግለጻቸው ይታወሳል፡፡ ኢትዮጵያ የብሪክስ አባል ከሆነችበት ጊዜ አንስ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 21 Nov 2026 08:35:40 +0000"
-  },
-  {
-    "title": "የኢትዮጵያ እና አሜሪካን የኢኮኖሚ ግንኙነት ማጠናከር ያለመ ምክክር ተካሄደ",
-    "summary": "አዲስ አበባ፣ ሕዳር 12፣ 2019 (ኤፍ ኤም ሲ) ኢትዮጵያ እና አሜሪካ የንግድ ዲፕሎማሲን በማሳደግ ኢኮኖሚያዊ ግንኙነታቸውን ለማጠናከር በሚያስችሉ ጉዳዮች ዙሪያ ውይይት አካሂደዋል፡፡ የገንዘብ ሚኒስትር ፍጹም አሰፋ (ዶ/ር) በአሜሪካ የንግድ ሚኒስቴር የአፍሪካ ጉዳዮች ምክትል ረዳት ጸሃፊ ማርክ ሚሼል ከተመራ የልዑካን ቡድን ጋር ተወያይተዋል፡፡ በውይይታቸውም ንግድን ኢንቨስትመንትን በማስፋፋት ለግል ዘርፍ አ",
-    "source": "Fana Media",
-    "publishedAt": "Sat, 21 Nov 2026 07:29:45 +0000"
-  },
-  {
-    "title": "Ethiopia Elected to ICAO Council as Africa’s Sole Representative",
-    "summary": "Addis Ababa, November 20, 2026 (FMC) – Ethiopia has been elected to the Council of the International Civil Aviation Organization (ICAO), securing one of four additional seats in the global aviation governing body following its endorsement as Africa’s sole cand",
+    "title": "CPHIA 2026 to Kick Off Today as 30,000+ Delegates Converge on Addis Ababa for Africa’s Health Sovereignty Drive",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – More than 30,000 delegates from Africa and beyond are expected to converge on Addis Ababa as the Fifth International Conference on Public Health in Africa (CPHIA 2026) is set to kick off today, bringing together African l",
     "source": "FBC English",
-    "publishedAt": "Fri, 20 Nov 2026 21:19:35 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 05:15:32 +0000"
   },
   {
-    "title": "ህጻናትን ማዕከል ያደረጉ የልማት መርሐ ግብሮቻችን",
-    "summary": "አዲስ አበባ፣ ሕዳር 11፣ 2019 (ኤፍ ኤም ሲ) የመደመር መንግሥት ሰው ተኮር የልማት ዕሳቤን መሠረት በማድረግ በሥርዓተ ምግብ፣ በቀዳማይ ልጅነት ክብካቤ፣ በአረንጓዴ ዐሻራ፣ በትምህርት እና በጤና መሠረተ ልማቶች ላይ የተቀናጁ ፕሮግራሞችን በመተግበር የህጻናት ሁለንተናዊ ዕድገትን በማሻሻል ላይ ይገኛል። በስርዓተ ምግብ እና የምግብ ዋስትናን በማረጋገጥ ረገድ የትምህርት ቤት መገባ መርሐ ግብር እና የሌማት ት",
+    "title": "How Ethiopia Ended Up as Africa’s Champion for AI and Digital Health",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopia’s emergence as the African Union’s Champion for Artificial Intelligence and Digital Health is rooted in a much wider transformation of its health sector. The recognition of Prime Minister Abiy Ahmed by the AU Ass",
+    "source": "FBC English",
+    "publishedAt": "Mon, 23 Nov 2026 00:47:51 +0000"
+  },
+  {
+    "title": "From Imported Pills to Homegrown Power: Is Ethiopia Changing the DNA of Africa’s Pharmaceutical Future?",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – A continent seeking to take greater control of its health future is gathering in Addis Ababa, where more than 30,000 delegates from Africa and beyond are expected to converge for the Fifth International Conference on Publ",
+    "source": "FBC English",
+    "publishedAt": "Sun, 22 Nov 2026 23:58:08 +0000"
+  },
+  {
+    "title": "ታላቁ ሩጫ በኢትዮጵያ ተተኪ ስፖርተኞችን ማፍራት ላይ በትኩረት ይሰራል – አትሌት ሻለቃ ኃይሌ ገብረሥላሴ",
+    "summary": "አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) ታላቁ ሩጫ በኢትዮጵያ በቀጣይ ተተኪ ስፖርተኞችን ማፍራት ላይ በትኩረት ይሰራል አሉ የታላቁ ሩጫ በኢትዮጵያ መሥራች አትሌት ሻለቃ ኃይሌ ገብረሥላሴ። 26ኛው ታላቁ ሩጫ በኢትዮጵያ በዛሬው ዕለት “ሩጫዬ ቀለሜ” በሚል መሪ ሐሳብ ከ61 ሺህ በላይ ሰዎች በተሳተፉበት በደመቀ ሁኔታ ተካሂዷል። አትሌት ሻለቃ ኃይሌ ገብረሥላሴ ውድድሩን አስመልክቶ በሰጡት አስተያየት እ",
     "source": "Fana Media",
-    "publishedAt": "Fri, 20 Nov 2026 18:12:55 +0000"
+    "publishedAt": "Sun, 22 Nov 2026 16:27:02 +0000"
+  },
+  {
+    "title": "ሩጫ ሀገርን በመልካም ስም የሚፅፍ ብዕር",
+    "summary": "‎አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) አንዳንድ ሀገራት በጦር ኃይላቸው ይታወቃሉ፤ አንዳንዶቹ በሀብታቸው። ኢትዮጵያ ደግሞ ዓለምን በረጅም ርቀት ሩጫ ውድድር ታስደምማለች፡፡ ዓለም በቡናችን የሚውቀንን ያህል በታላላቅ ሯጮቻችን ያወቀናል፡፡ ‎አሁን ደግሞ ኢትዮጵያ የዓለምን የውድድር መድረክ ከተቆጣጠሩት ኮከብ አትሌቶቿ በተጨማሪ በሀገር ውስጥ በምታዘጋጀው ታላቁ ሩጫ በኢትዮጵያ ትታወቃለች፡፡ ታላቁ ሩ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 22 Nov 2026 14:56:46 +0000"
+  },
+  {
+    "title": "ታላቁ ሩጫ የኢትዮጵያን ድንቅ እሴቶች በማስተዋወቅ ረገድ የላቀ ሚና እየተጫወተ ነው – ሰላማዊት ካሳ",
+    "summary": "አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) ታላቁ ሩጫ በኢትዮጵያ የስፖርት ቱሪዝምን ከማነቃቃት ባለፈ የኢትዮጵያን ድንቅ እሴቶች ለዓለም በማስተዋወቅ ረገድ የላቀ ሚና እየተጫወተ ነው አሉ የቱሪዝም ሚኒስትር ሰላማዊት ካሳ። ታላቁ ሩጫ በኢትዮጵያ በዛሬው ዕለት በደመቀ ሁኔታ ተካሂዶ ተጠናቋል። ሚኒስትሯ በዚሁ ወቅት እንዳሉት፤ ታላቁ ሩጫ አዲስ አበባ በየዓመቱ የምትደምቅበት ታላቅ ሁነት ነው። በውድድሩ ላይ",
+    "source": "Fana Media",
+    "publishedAt": "Sun, 22 Nov 2026 12:57:37 +0000"
+  },
+  {
+    "title": "Great Ethiopian Run Reinforces National Unity and Showcases Ethiopia’s Global Image",
+    "summary": "Addis Ababa, November 22, 2026 (FMC) – The 26th edition of the Great Ethiopian Run brought more than 60,000 participants onto the streets of Addis Ababa under the theme “My Run, My Color,” turning the annual sporting event into a celebration of unity, diversit",
+    "source": "FBC English",
+    "publishedAt": "Sun, 22 Nov 2026 12:51:43 +0000"
   }
 ];
