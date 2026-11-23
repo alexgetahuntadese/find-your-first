@@ -3,52 +3,64 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "PM Abiy Ahmed and Ugandan Vice President Discuss Deepening Bilateral Ties and Regional Cooperation",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Prime Minister Abiy Ahmed has held discussions with Uganda’s Vice President Jessica Alupo on strengthening cooperation between the two countries and advancing shared regional progress. The meeting took place on the sideli",
+    "title": "Russian President Reiterates Strategic Importance of Health Cooperation with Africa, Extends Joint Programme to 2029",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Russian President Vladimir Putin has underscored the strategic importance of cooperation with African countries in public health, pointing to the extension of a joint programme on health protection and infectious disease ",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 07:57:23 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 14:50:40 +0000"
   },
   {
-    "title": "Ethiopia and UAE Reaffirm Longstanding Relations, Explore Practical Cooperation",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopia and the United Arab Emirates have reaffirmed their longstanding relations, with Prime Minister Abiy Ahmed holding discussions with Sheikh Shakhboot bin Nahyan Al Nahyan, UAE Minister of State at the Ministry of F",
+    "title": "Norway Reaffirms Support for African Health Sovereignty, Country-Led Development and Resilient Health Systems",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Norwegian Prime Minister Jonas Gahr Støre has reaffirmed Norway’s commitment to advancing Africa’s health security and sovereignty, emphasizing the importance of country-led development, domestic health financing and stro",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 07:52:29 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 14:38:06 +0000"
   },
   {
-    "title": "Ethiopia and Burundi Leaders Review Bilateral Ties and Shared Continental Priorities",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Prime Minister Abiy Ahmed and President Évariste Ndayishimiye of Burundi have reviewed their countries’ bilateral relations and discussed shared regional and continental priorities during talks held on the sidelines of CP",
+    "title": "Africa’s Health Sovereignty Must Be Built on Strong Institutions, Accountable Leadership and Continental Ownership: Africa CDC Chief",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Africa CDC Director-General Dr. Jean Kaseya has called for a decisive shift towards African ownership of the continent’s health future, emphasizing that health sovereignty must rest on strong institutions, accountable lea",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 07:37:45 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 14:33:34 +0000"
   },
   {
-    "title": "Ethiopian PM Abiy Ahmed Holds Talks with Sierra Leonean President Julius Maada Bio",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD) has received and held talks with President Julius Maada Bio of Sierra Leone in Addis Ababa today, on the sidelines of the 5th International Conference on Public Health in Africa (",
+    "title": "PM Abiy Calls for African Ownership of AI and Digital Health to Transform the Continent’s Healthcare Future",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD), in his capacity as African Union Champion for AI and Digital Health, has called for African researchers, health professionals and institutions to take a leading role in developin",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 07:28:25 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 13:54:16 +0000"
   },
   {
-    "title": "CPHIA 2026 Kicks Off in Addis Ababa as Africa Advances Health Sovereignty",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – The 5th International Conference on Public Health in Africa (CPHIA 2026) has kicked off in Addis Ababa, bringing together Heads of State and Government, senior officials, public health experts and distinguished participan",
+    "title": "“A Patient’s Treatment Cannot Stop Because the Funding Agreement Has Ended”: PM Abiy Calls for Sustainable Health Financing",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – The continuity of healthcare must be secured through dependable, long-term financing rather than arrangements that leave essential treatment vulnerable to the expiry of funding agreements, Ethiopian Prime Minister Abiy Ah",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 07:23:45 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 13:50:08 +0000"
   },
   {
-    "title": "CPHIA 2026 to Kick Off Today as 30,000+ Delegates Converge on Addis Ababa for Africa’s Health Sovereignty Drive",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – More than 30,000 delegates from Africa and beyond are expected to converge on Addis Ababa as the Fifth International Conference on Public Health in Africa (CPHIA 2026) is set to kick off today, bringing together African l",
+    "title": "Ethiopia and Rwanda Seek to Elevate Bilateral Partnership Through Practical Cooperation",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed held talks with Rwandan Prime Minister Justin Nsengiyumva to exchange views on advancing practical collaboration and explore opportunities for deeper cooperation across areas of mutual ",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 05:15:32 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 13:38:22 +0000"
   },
   {
-    "title": "How Ethiopia Ended Up as Africa’s Champion for AI and Digital Health",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopia’s emergence as the African Union’s Champion for Artificial Intelligence and Digital Health is rooted in a much wider transformation of its health sector. The recognition of Prime Minister Abiy Ahmed by the AU Ass",
+    "title": "Tanzania President Acclaims Ethiopia’s Bounty of the Basket Initiative and Seqota Declaration for Advancing Maternal and Child Health",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Tanzanian President Samia Suluhu Hassan has commended Ethiopian Prime Minister Abiy Ahmed’s visionary leadership and pioneering role in advancing the Bounty of the Basket Initiative, known in Amharic as Yelemat Tirufat, a",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 00:47:51 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 13:30:50 +0000"
   },
   {
-    "title": "From Imported Pills to Homegrown Power: Is Ethiopia Changing the DNA of Africa’s Pharmaceutical Future?",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – A continent seeking to take greater control of its health future is gathering in Addis Ababa, where more than 30,000 delegates from Africa and beyond are expected to converge for the Fifth International Conference on Publ",
+    "title": "PM Abiy, President Samia Discuss Advancing Ethiopia–Tanzania Relations into Broader Cooperation",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed and Tanzanian President Samia Suluhu Hassan have held bilateral talks in Addis Ababa, exploring ways to strengthen longstanding relations and expand cooperation across areas of mutual i",
     "source": "FBC English",
-    "publishedAt": "Sun, 22 Nov 2026 23:58:08 +0000"
+    "publishedAt": "Mon, 23 Nov 2026 12:06:16 +0000"
+  },
+  {
+    "title": "AU Commission Chairperson Calls for Decisive Shift from Health Dependency to African Self-Reliance and Sovereignty",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Chairperson of the African Union (AU) Commission Mahmoud Ali Youssouf has called for a decisive continental shift from dependence on external health resources towards African self-reliance, urging Member States to strengt",
+    "source": "FBC English",
+    "publishedAt": "Mon, 23 Nov 2026 11:55:07 +0000"
+  },
+  {
+    "title": "PM Abiy Ahmed Proposes Three Priorities to Advance Africa’s Health Sovereignty",
+    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD) has proposed three priority areas for collective African action to accelerate the continent’s transition from health dependency to sovereignty, calling for expanded centres of med",
+    "source": "FBC English",
+    "publishedAt": "Mon, 23 Nov 2026 11:12:21 +0000"
   },
   {
     "title": "ታላቁ ሩጫ በኢትዮጵያ ተተኪ ስፖርተኞችን ማፍራት ላይ በትኩረት ይሰራል – አትሌት ሻለቃ ኃይሌ ገብረሥላሴ",
@@ -61,17 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "‎አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) አንዳንድ ሀገራት በጦር ኃይላቸው ይታወቃሉ፤ አንዳንዶቹ በሀብታቸው። ኢትዮጵያ ደግሞ ዓለምን በረጅም ርቀት ሩጫ ውድድር ታስደምማለች፡፡ ዓለም በቡናችን የሚውቀንን ያህል በታላላቅ ሯጮቻችን ያወቀናል፡፡ ‎አሁን ደግሞ ኢትዮጵያ የዓለምን የውድድር መድረክ ከተቆጣጠሩት ኮከብ አትሌቶቿ በተጨማሪ በሀገር ውስጥ በምታዘጋጀው ታላቁ ሩጫ በኢትዮጵያ ትታወቃለች፡፡ ታላቁ ሩ",
     "source": "Fana Media",
     "publishedAt": "Sun, 22 Nov 2026 14:56:46 +0000"
-  },
-  {
-    "title": "ታላቁ ሩጫ የኢትዮጵያን ድንቅ እሴቶች በማስተዋወቅ ረገድ የላቀ ሚና እየተጫወተ ነው – ሰላማዊት ካሳ",
-    "summary": "አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) ታላቁ ሩጫ በኢትዮጵያ የስፖርት ቱሪዝምን ከማነቃቃት ባለፈ የኢትዮጵያን ድንቅ እሴቶች ለዓለም በማስተዋወቅ ረገድ የላቀ ሚና እየተጫወተ ነው አሉ የቱሪዝም ሚኒስትር ሰላማዊት ካሳ። ታላቁ ሩጫ በኢትዮጵያ በዛሬው ዕለት በደመቀ ሁኔታ ተካሂዶ ተጠናቋል። ሚኒስትሯ በዚሁ ወቅት እንዳሉት፤ ታላቁ ሩጫ አዲስ አበባ በየዓመቱ የምትደምቅበት ታላቅ ሁነት ነው። በውድድሩ ላይ",
-    "source": "Fana Media",
-    "publishedAt": "Sun, 22 Nov 2026 12:57:37 +0000"
-  },
-  {
-    "title": "Great Ethiopian Run Reinforces National Unity and Showcases Ethiopia’s Global Image",
-    "summary": "Addis Ababa, November 22, 2026 (FMC) – The 26th edition of the Great Ethiopian Run brought more than 60,000 participants onto the streets of Addis Ababa under the theme “My Run, My Color,” turning the annual sporting event into a celebration of unity, diversit",
-    "source": "FBC English",
-    "publishedAt": "Sun, 22 Nov 2026 12:51:43 +0000"
   }
 ];
