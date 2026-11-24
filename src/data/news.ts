@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Russian President Reiterates Strategic Importance of Health Cooperation with Africa, Extends Joint Programme to 2029",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Russian President Vladimir Putin has underscored the strategic importance of cooperation with African countries in public health, pointing to the extension of a joint programme on health protection and infectious disease ",
+    "title": "Deputy PM Temesgen Underscores African Ownership of Artificial Intelligence and Homegrown Innovation",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopian Deputy Prime Minister Temesgen Truneh has underscored the importance of African ownership of artificial intelligence (AI), emphasizing the need to build indigenous technological capabilities, strengthen research",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 14:50:40 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 14:41:55 +0000"
   },
   {
-    "title": "Norway Reaffirms Support for African Health Sovereignty, Country-Led Development and Resilient Health Systems",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Norwegian Prime Minister Jonas Gahr Støre has reaffirmed Norway’s commitment to advancing Africa’s health security and sovereignty, emphasizing the importance of country-led development, domestic health financing and stro",
+    "title": "Ethiopia Earns $572.9 Million from Pulses and Oilseeds Exports, Seeks to Expand Global Market Share",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopia generated 572.9 million US dollars from pulses and oilseeds exports in the 2025/26 fiscal year, accounting for approximately five percent of the country’s total export earnings of 11.2 billion US dollars, Ministe",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 14:38:06 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 13:38:36 +0000"
   },
   {
-    "title": "Africa’s Health Sovereignty Must Be Built on Strong Institutions, Accountable Leadership and Continental Ownership: Africa CDC Chief",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Africa CDC Director-General Dr. Jean Kaseya has called for a decisive shift towards African ownership of the continent’s health future, emphasizing that health sovereignty must rest on strong institutions, accountable lea",
+    "title": "Water Is Indispensable to Building an Ethiopian Civilization under the Grand Medemer Strategy",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – Harnessing Ethiopia’s water resources and securing access to the sea are fundamental to the country’s ambition to build a prosperous, productive and self-reliant civilization under the Grand Medemer Strategy, as these str",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 14:33:34 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 13:15:12 +0000"
   },
   {
-    "title": "PM Abiy Calls for African Ownership of AI and Digital Health to Transform the Continent’s Healthcare Future",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD), in his capacity as African Union Champion for AI and Digital Health, has called for African researchers, health professionals and institutions to take a leading role in developin",
+    "title": "Ethiopian Air Force to Continue Making History by Foiling Threats Against the Nation: Commander",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – The Ethiopian Air Force will continue equipping itself with modern technological capabilities and enhancing the capacity of its personnel to foil threats against the nation, Air Force Commander Lieutenant General Yilma Me",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 13:54:16 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 09:27:24 +0000"
   },
   {
-    "title": "“A Patient’s Treatment Cannot Stop Because the Funding Agreement Has Ended”: PM Abiy Calls for Sustainable Health Financing",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – The continuity of healthcare must be secured through dependable, long-term financing rather than arrangements that leave essential treatment vulnerable to the expiry of funding agreements, Ethiopian Prime Minister Abiy Ah",
+    "title": "Ethiopian Air Force Set to Celebrate 91st Anniversary with Bishoftu 10km Road Race",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – The Ethiopian Air Force is set to celebrate its 91st anniversary on November 29 and 30, 2026, with a series of activities, including the second Bishoftu 10km road race, expected to attract more than 10,000 participants, i",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 13:50:08 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 08:49:33 +0000"
   },
   {
-    "title": "Ethiopia and Rwanda Seek to Elevate Bilateral Partnership Through Practical Cooperation",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed held talks with Rwandan Prime Minister Justin Nsengiyumva to exchange views on advancing practical collaboration and explore opportunities for deeper cooperation across areas of mutual ",
+    "title": "China–Ethiopia Vocational Training Initiative Equips Local Workforce with Water Engineering Skills",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – Recently, with the support of Ethiopia’s Ministry of Labour and Skills, the 2026 teaching activities of the “Chinese + Vocational Skills” program, jointly implemented by Ethiopian Technical Excellence Institute (ETEI; for",
     "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 13:38:22 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 08:22:07 +0000"
   },
   {
-    "title": "Tanzania President Acclaims Ethiopia’s Bounty of the Basket Initiative and Seqota Declaration for Advancing Maternal and Child Health",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Tanzanian President Samia Suluhu Hassan has commended Ethiopian Prime Minister Abiy Ahmed’s visionary leadership and pioneering role in advancing the Bounty of the Basket Initiative, known in Amharic as Yelemat Tirufat, a",
-    "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 13:30:50 +0000"
-  },
-  {
-    "title": "PM Abiy, President Samia Discuss Advancing Ethiopia–Tanzania Relations into Broader Cooperation",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed and Tanzanian President Samia Suluhu Hassan have held bilateral talks in Addis Ababa, exploring ways to strengthen longstanding relations and expand cooperation across areas of mutual i",
-    "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 12:06:16 +0000"
-  },
-  {
-    "title": "AU Commission Chairperson Calls for Decisive Shift from Health Dependency to African Self-Reliance and Sovereignty",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Chairperson of the African Union (AU) Commission Mahmoud Ali Youssouf has called for a decisive continental shift from dependence on external health resources towards African self-reliance, urging Member States to strengt",
-    "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 11:55:07 +0000"
-  },
-  {
-    "title": "PM Abiy Ahmed Proposes Three Priorities to Advance Africa’s Health Sovereignty",
-    "summary": "Addis Ababa, November 23, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD) has proposed three priority areas for collective African action to accelerate the continent’s transition from health dependency to sovereignty, calling for expanded centres of med",
-    "source": "FBC English",
-    "publishedAt": "Mon, 23 Nov 2026 11:12:21 +0000"
-  },
-  {
-    "title": "ታላቁ ሩጫ በኢትዮጵያ ተተኪ ስፖርተኞችን ማፍራት ላይ በትኩረት ይሰራል – አትሌት ሻለቃ ኃይሌ ገብረሥላሴ",
-    "summary": "አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) ታላቁ ሩጫ በኢትዮጵያ በቀጣይ ተተኪ ስፖርተኞችን ማፍራት ላይ በትኩረት ይሰራል አሉ የታላቁ ሩጫ በኢትዮጵያ መሥራች አትሌት ሻለቃ ኃይሌ ገብረሥላሴ። 26ኛው ታላቁ ሩጫ በኢትዮጵያ በዛሬው ዕለት “ሩጫዬ ቀለሜ” በሚል መሪ ሐሳብ ከ61 ሺህ በላይ ሰዎች በተሳተፉበት በደመቀ ሁኔታ ተካሂዷል። አትሌት ሻለቃ ኃይሌ ገብረሥላሴ ውድድሩን አስመልክቶ በሰጡት አስተያየት እ",
+    "title": "በጥቅምት ወር ከ66 ሺህ በላይ አዳዲስ ደንበኞች የኤሌክትሪክ ተጠቃሚ ሆኑ",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ኤሌክትሪክ አገልግሎት በ2019 በጀት ዓመት ጥቅምት ወር ብቻ 66 ሺህ 473 አዳዲስ ደንበኞችን ከኤሌክትሪክ መረብ ጋር በማገናኘት የኤሌክትሪክ ተጠቃሚ ሆነዋል አለ። በወሩ 88 ሺህ 253 አዳዲስ ደንበኞችን የኤሌክትሪክ ተጠቃሚ ለማድረግ ታቅዶ 75 ነጥብ 3 በመቶ የሚሆነው ዕቅድ መሳካቱን የተቋሙ ኮሙኒኬሽን ስራ አስፈፃሚ አቶ አንዋር አብራር ለፋና ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 22 Nov 2026 16:27:02 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 07:59:39 +0000"
   },
   {
-    "title": "ሩጫ ሀገርን በመልካም ስም የሚፅፍ ብዕር",
-    "summary": "‎አዲስ አበባ፣ ሕዳር 13፣ 2019 (ኤፍ ኤም ሲ) አንዳንድ ሀገራት በጦር ኃይላቸው ይታወቃሉ፤ አንዳንዶቹ በሀብታቸው። ኢትዮጵያ ደግሞ ዓለምን በረጅም ርቀት ሩጫ ውድድር ታስደምማለች፡፡ ዓለም በቡናችን የሚውቀንን ያህል በታላላቅ ሯጮቻችን ያወቀናል፡፡ ‎አሁን ደግሞ ኢትዮጵያ የዓለምን የውድድር መድረክ ከተቆጣጠሩት ኮከብ አትሌቶቿ በተጨማሪ በሀገር ውስጥ በምታዘጋጀው ታላቁ ሩጫ በኢትዮጵያ ትታወቃለች፡፡ ታላቁ ሩ",
+    "title": "91ኛውን የአየር ኃይል ምስረታ ቀን ምክንያት በማድረግ የቢሾፍቱ የጎዳና ላይ የሩጫ ውድድር ይካሄዳል",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) 91ኛውን የኢትዮጵያ አየር ኃይል ምስረታ በዓል አስመልክቶ ሁለተኛው የቢሾፍቱ 10 ኪሎ ሜትር የጎዳና ላይ ሩጫ ይካሄዳል። የኢትዮጵያ አየር ኃይል በዛሬው ዕለት በሰጠው መግለጫ እንደገለጸው፤ ውድድሩ “አየር ኃይላችን መመኪያችን” በሚል መሪ ሐሳብ ሕዳር 20 ቀን 2019 ዓ.ም በቢሾፍቱ ከተማ ይካሄዳል። በውድድሩ 800 ፕሮፌሽናል አትሌቶችን ጨምሮ ከ10 ሺህ በላ",
     "source": "Fana Media",
-    "publishedAt": "Sun, 22 Nov 2026 14:56:46 +0000"
+    "publishedAt": "Tue, 24 Nov 2026 07:51:01 +0000"
+  },
+  {
+    "title": "Ethiopian Parliament to Convene Regular Session with PM Abiy Ahmed in Attendance on Thursday",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopia’s House of Peoples’ Representatives (HoPR) is scheduled to hold its fourth regular session of the first year of its current term on Thursday, November 26, 2026, in the presence of Prime Minister Abiy Ahmed (PhD).",
+    "source": "FBC English",
+    "publishedAt": "Tue, 24 Nov 2026 06:50:55 +0000"
+  },
+  {
+    "title": "በመቐለ ከተማ የነዳጅ ማደያዎች ወደ መደበኛ ሥራ ተመለሱ",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ የሚገኙ የነዳጅ ማደያዎች ከዛሬ ጀምሮ ወደ መደበኛ አገልግሎት ተመልሰዋል። የነዳጅ ማደያዎቹ ወደ መደበኛ ሥራ መመለሳቸው በከተማዋ ለሚገኙ የነዳጅ ተጠቃሚዎች የአቅርቦት ችግርን ለማቃለል እንደሚያግዝ ይጠበቃል። እርምጃው በነዳጅ አቅርቦትና ስርጭት ሂደት ላይ የሚስተዋሉ ሕገወጥ አሠራሮችን ለመቆጣጠርና ለማስተካከልም አስተዋጽኦ ያደርጋል። ተደራሽና የ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 24 Nov 2026 06:19:54 +0000"
+  },
+  {
+    "title": "ምክር ቤቱ ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) በሚገኙበት መደበኛ ጉባኤውን በመጪው ሐሙስ ያካሂዳል",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) የሕዝብ ተወካዮች ምክር ቤት 1ኛ ዓመት የሥራ ዘመን 4ኛ መደበኛ ጉባኤውን ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በሚገኙበት በመጪው ሐሙስ ያካሂዳል፡፡ ጠቅላይ ሚኒስትሩ ከምክር ቤቱ አባላት ለሚነሱ ጥያቄዎችና አስተያየቶች ምላሽና ማብራሪያ እንደሚሰጡ ከምክር ቤቱ ያገኘነው መረጃ ያመለክታል፡፡ ምክር ቤቱ ህዳር 17 ቀን 2019 ዓ.ም ከጠዋቱ 2፡30 ጀምሮ በሚ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 24 Nov 2026 06:14:38 +0000"
+  },
+  {
+    "title": "Russia and Iran Exploring Expanded Cooperation in Mining, Industry and Technology",
+    "summary": "Addis Ababa, November 24, 2026 (FMC) – Russia and Iran are seeking to expand industrial and trade cooperation, with mining emerging as one of the promising areas of partnership alongside shipbuilding, pharmaceuticals, information technology and scientific rese",
+    "source": "FBC English",
+    "publishedAt": "Tue, 24 Nov 2026 05:57:10 +0000"
   }
 ];
