@@ -3,6 +3,36 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "Open Arms in Times of Crisis, Tireless Efforts for Peace: Ethiopia’s Enduring Solidarity with Sudan",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – As Sudan continues to endure a devastating conflict, Ethiopia’s solidarity with its neighbour is reflected in its continued welcome to people forced to flee violence and its sustained efforts to help bring the war to an e",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 14:42:32 +0000"
+  },
+  {
+    "title": "Ethiopia’s Sustained Diplomatic Efforts to End Sudan’s Conflict Reflect a Commitment to Lasting Regional Peace",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – Ethiopia’s latest offer to host an inclusive, Sudanese-led dialogue to end the devastating conflict in Sudan is not an isolated diplomatic initiative. It is the latest chapter in a sustained engagement spanning years, roo",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 13:47:19 +0000"
+  },
+  {
+    "title": "PM Abiy to Address Ethiopian Parliament on Federal Government Performance, National Priorities Tomorrow",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD) is scheduled to address the country’s House of Peoples’ Representatives (HoPR) tomorrow, Thursday, November 26, during the fourth regular session of the first year of the current ",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 12:07:35 +0000"
+  },
+  {
+    "title": "Ethiopia’s Health Innovations Strengthen Africa’s Voice in Global Health Governance: Health Minister",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – Ethiopia is demonstrating how its progress in health innovation, digital technology and healthcare delivery can strengthen Africa’s voice and role in shaping global health governance, Minister of Health Dr. Mekdes Daba sa",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 11:58:02 +0000"
+  },
+  {
+    "title": "Horn Dialogue Champions Regional Ownership and Collective Action for Regional Security",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – Countries of the Horn of Africa must take greater ownership of regional security, reconcile national interests with shared priorities and move beyond fragmented approaches to address the conflicts and challenges confronti",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 11:02:24 +0000"
+  },
+  {
     "title": "India Prepares First Bullet Train Section for Trial Runs in May 2027",
     "summary": "Addis Ababa, November 25, 2026 (FMC) – India is preparing to begin trial runs of its first bullet train in May 2027 on a 50-kilometre section between Surat and Bilimora along the Mumbai-Ahmedabad High-Speed Rail Corridor, Indian Railway Minister Ashwini Vaishn",
     "source": "FBC English",
@@ -39,39 +69,9 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Tue, 24 Nov 2026 13:38:36 +0000"
   },
   {
-    "title": "Water Is Indispensable to Building an Ethiopian Civilization under the Grand Medemer Strategy",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – Harnessing Ethiopia’s water resources and securing access to the sea are fundamental to the country’s ambition to build a prosperous, productive and self-reliant civilization under the Grand Medemer Strategy, as these str",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 13:15:12 +0000"
-  },
-  {
     "title": "በአማራ ክልል 41 ነጥብ 4 ቢሊየን ብር ገቢ ተሰበሰበ",
     "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ከተለያዩ የገቢ ምንጮች 41 ነጥብ 4 ቢሊየን ብር ገቢ ተሰብስቧል አለ የክልሉ ገቢዎች ቢሮ። በቢሮው የግብር ትምህርትና ኮሙኒኬሽን ዳይሬክተር አቶ ታዘባቸው ጣሴ በሰጡት መግለጫ እንዳሉት፤ በ2019 በጀት ዓመት 166 ነጥብ 8 ቢሊየን ብር ገቢ ለመሰብሰብ ታቅዶ ወደ ሥራ ተገብቷል። በዚህም እስከ ሕዳር 14 ቀን 2019 […] The post በአማራ",
     "source": "Fana Media",
     "publishedAt": "Tue, 24 Nov 2026 13:09:13 +0000"
-  },
-  {
-    "title": "በመቐለ ሁሉም አገልግሎት ሰጪ ተሽከርካሪዎች ነዳጅ እንዲያገኙ ተመቻችቷል – የክልሉ ንግድ ቢሮ",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ ሁሉም የትራንስፖርት አገልግሎት ሰጪ ተሽከርካሪዎች ነዳጅ እንዲያገኙ ተመቻችችቷል አለ የትግራይ ክልል ንግድ ቢሮ። የክልሉ ንግድ ቢሮ ኃላፊ አቶ ተስፋይ ግርማይ እንዳሉት፤ በከተማዋ 750 ታክሲዎች በልዩነት በተመደቡ ማደያዎች ነዳጅ እንዲያገኙ እየተደረገ ነው። ፈቃድ ካገኙ 15 የከተማዋ የነዳጅ ማደያዎች ውስጥ 12ቱ ነዳጅ ከጅቡቲ በማስገባት ማከፋ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 12:15:41 +0000"
-  },
-  {
-    "title": "Ethiopian Air Force to Continue Making History by Foiling Threats Against the Nation: Commander",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – The Ethiopian Air Force will continue equipping itself with modern technological capabilities and enhancing the capacity of its personnel to foil threats against the nation, Air Force Commander Lieutenant General Yilma Me",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 09:27:24 +0000"
-  },
-  {
-    "title": "Ethiopian Air Force Set to Celebrate 91st Anniversary with Bishoftu 10km Road Race",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – The Ethiopian Air Force is set to celebrate its 91st anniversary on November 29 and 30, 2026, with a series of activities, including the second Bishoftu 10km road race, expected to attract more than 10,000 participants, i",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 08:49:33 +0000"
-  },
-  {
-    "title": "China–Ethiopia Vocational Training Initiative Equips Local Workforce with Water Engineering Skills",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – Recently, with the support of Ethiopia’s Ministry of Labour and Skills, the 2026 teaching activities of the “Chinese + Vocational Skills” program, jointly implemented by Ethiopian Technical Excellence Institute (ETEI; for",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 08:22:07 +0000"
   }
 ];
