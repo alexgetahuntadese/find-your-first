@@ -3,6 +3,30 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
+    "title": "India Prepares First Bullet Train Section for Trial Runs in May 2027",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – India is preparing to begin trial runs of its first bullet train in May 2027 on a 50-kilometre section between Surat and Bilimora along the Mumbai-Ahmedabad High-Speed Rail Corridor, Indian Railway Minister Ashwini Vaishn",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 08:59:28 +0000"
+  },
+  {
+    "title": "BRICS to Launch Cross-Border Taxpayer Assistance Network in 2027",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – BRICS countries will launch a mutual assistance system for taxpayers on January 1, 2027, enabling individuals and businesses to obtain official guidance on tax matters when operating across member states, TV BRICS reporte",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 08:48:02 +0000"
+  },
+  {
+    "title": "Second Edition of Arkwood Africa Film Market and Awards to Convene in Addis Ababa",
+    "summary": "Addis Ababa, November 25, 2026 (FMC) – The second edition of the Arkwood Africa Film Market and Awards will take place at the Adwa Victory Memorial Museum in Addis Ababa from November 27 to 28, 2026, the Ministry of Culture and Tourism has announced. The Arkwo",
+    "source": "FBC English",
+    "publishedAt": "Wed, 25 Nov 2026 05:26:54 +0000"
+  },
+  {
+    "title": "የሴኔጋል የአፍሪካ ዋንጫ ሻምፒዮንነት ተረጋገጠ",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) ሴኔጋል በአፍሪካ ዋንጫ ያገኘችው የሻምፒዮንነት ውጤት በዓለም አቀፉ የስፖርት ገላጋይ ፍርድ ቤት በተሰጠ ውሳኔ ተረጋግጧል። በውዝግብ የተጠናቀቀው የ2025 የአፍሪካ ዋንጫ ፍጻሜ ውጤት በዓለም አቀፉ የስፖርት ገላጋይ ፍርድ ቤት ውሳኔ የተቀየረ ሲሆን፣ ሴኔጋል የሻምፒዮንነት ስያሜን እንደገና ማግኘቷ ተገልጿል። ሴኔጋል ከሞሮኮ ጋር ባደረገችው የአፍሪካ ዋንጫ የፍጻ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 24 Nov 2026 15:01:15 +0000"
+  },
+  {
     "title": "Deputy PM Temesgen Underscores African Ownership of Artificial Intelligence and Homegrown Innovation",
     "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopian Deputy Prime Minister Temesgen Truneh has underscored the importance of African ownership of artificial intelligence (AI), emphasizing the need to build indigenous technological capabilities, strengthen research",
     "source": "FBC English",
@@ -21,6 +45,18 @@ export const latestNews: NewsItem[] = [
     "publishedAt": "Tue, 24 Nov 2026 13:15:12 +0000"
   },
   {
+    "title": "በአማራ ክልል 41 ነጥብ 4 ቢሊየን ብር ገቢ ተሰበሰበ",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ከተለያዩ የገቢ ምንጮች 41 ነጥብ 4 ቢሊየን ብር ገቢ ተሰብስቧል አለ የክልሉ ገቢዎች ቢሮ። በቢሮው የግብር ትምህርትና ኮሙኒኬሽን ዳይሬክተር አቶ ታዘባቸው ጣሴ በሰጡት መግለጫ እንዳሉት፤ በ2019 በጀት ዓመት 166 ነጥብ 8 ቢሊየን ብር ገቢ ለመሰብሰብ ታቅዶ ወደ ሥራ ተገብቷል። በዚህም እስከ ሕዳር 14 ቀን 2019 […] The post በአማራ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 24 Nov 2026 13:09:13 +0000"
+  },
+  {
+    "title": "በመቐለ ሁሉም አገልግሎት ሰጪ ተሽከርካሪዎች ነዳጅ እንዲያገኙ ተመቻችቷል – የክልሉ ንግድ ቢሮ",
+    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ ሁሉም የትራንስፖርት አገልግሎት ሰጪ ተሽከርካሪዎች ነዳጅ እንዲያገኙ ተመቻችችቷል አለ የትግራይ ክልል ንግድ ቢሮ። የክልሉ ንግድ ቢሮ ኃላፊ አቶ ተስፋይ ግርማይ እንዳሉት፤ በከተማዋ 750 ታክሲዎች በልዩነት በተመደቡ ማደያዎች ነዳጅ እንዲያገኙ እየተደረገ ነው። ፈቃድ ካገኙ 15 የከተማዋ የነዳጅ ማደያዎች ውስጥ 12ቱ ነዳጅ ከጅቡቲ በማስገባት ማከፋ",
+    "source": "Fana Media",
+    "publishedAt": "Tue, 24 Nov 2026 12:15:41 +0000"
+  },
+  {
     "title": "Ethiopian Air Force to Continue Making History by Foiling Threats Against the Nation: Commander",
     "summary": "Addis Ababa, November 24, 2026 (FMC) – The Ethiopian Air Force will continue equipping itself with modern technological capabilities and enhancing the capacity of its personnel to foil threats against the nation, Air Force Commander Lieutenant General Yilma Me",
     "source": "FBC English",
@@ -37,41 +73,5 @@ export const latestNews: NewsItem[] = [
     "summary": "Addis Ababa, November 24, 2026 (FMC) – Recently, with the support of Ethiopia’s Ministry of Labour and Skills, the 2026 teaching activities of the “Chinese + Vocational Skills” program, jointly implemented by Ethiopian Technical Excellence Institute (ETEI; for",
     "source": "FBC English",
     "publishedAt": "Tue, 24 Nov 2026 08:22:07 +0000"
-  },
-  {
-    "title": "በጥቅምት ወር ከ66 ሺህ በላይ አዳዲስ ደንበኞች የኤሌክትሪክ ተጠቃሚ ሆኑ",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) የኢትዮጵያ ኤሌክትሪክ አገልግሎት በ2019 በጀት ዓመት ጥቅምት ወር ብቻ 66 ሺህ 473 አዳዲስ ደንበኞችን ከኤሌክትሪክ መረብ ጋር በማገናኘት የኤሌክትሪክ ተጠቃሚ ሆነዋል አለ። በወሩ 88 ሺህ 253 አዳዲስ ደንበኞችን የኤሌክትሪክ ተጠቃሚ ለማድረግ ታቅዶ 75 ነጥብ 3 በመቶ የሚሆነው ዕቅድ መሳካቱን የተቋሙ ኮሙኒኬሽን ስራ አስፈፃሚ አቶ አንዋር አብራር ለፋና ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 07:59:39 +0000"
-  },
-  {
-    "title": "91ኛውን የአየር ኃይል ምስረታ ቀን ምክንያት በማድረግ የቢሾፍቱ የጎዳና ላይ የሩጫ ውድድር ይካሄዳል",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) 91ኛውን የኢትዮጵያ አየር ኃይል ምስረታ በዓል አስመልክቶ ሁለተኛው የቢሾፍቱ 10 ኪሎ ሜትር የጎዳና ላይ ሩጫ ይካሄዳል። የኢትዮጵያ አየር ኃይል በዛሬው ዕለት በሰጠው መግለጫ እንደገለጸው፤ ውድድሩ “አየር ኃይላችን መመኪያችን” በሚል መሪ ሐሳብ ሕዳር 20 ቀን 2019 ዓ.ም በቢሾፍቱ ከተማ ይካሄዳል። በውድድሩ 800 ፕሮፌሽናል አትሌቶችን ጨምሮ ከ10 ሺህ በላ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 07:51:01 +0000"
-  },
-  {
-    "title": "Ethiopian Parliament to Convene Regular Session with PM Abiy Ahmed in Attendance on Thursday",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopia’s House of Peoples’ Representatives (HoPR) is scheduled to hold its fourth regular session of the first year of its current term on Thursday, November 26, 2026, in the presence of Prime Minister Abiy Ahmed (PhD).",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 06:50:55 +0000"
-  },
-  {
-    "title": "በመቐለ ከተማ የነዳጅ ማደያዎች ወደ መደበኛ ሥራ ተመለሱ",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በመቐለ ከተማ የሚገኙ የነዳጅ ማደያዎች ከዛሬ ጀምሮ ወደ መደበኛ አገልግሎት ተመልሰዋል። የነዳጅ ማደያዎቹ ወደ መደበኛ ሥራ መመለሳቸው በከተማዋ ለሚገኙ የነዳጅ ተጠቃሚዎች የአቅርቦት ችግርን ለማቃለል እንደሚያግዝ ይጠበቃል። እርምጃው በነዳጅ አቅርቦትና ስርጭት ሂደት ላይ የሚስተዋሉ ሕገወጥ አሠራሮችን ለመቆጣጠርና ለማስተካከልም አስተዋጽኦ ያደርጋል። ተደራሽና የ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 06:19:54 +0000"
-  },
-  {
-    "title": "ምክር ቤቱ ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር) በሚገኙበት መደበኛ ጉባኤውን በመጪው ሐሙስ ያካሂዳል",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) የሕዝብ ተወካዮች ምክር ቤት 1ኛ ዓመት የሥራ ዘመን 4ኛ መደበኛ ጉባኤውን ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በሚገኙበት በመጪው ሐሙስ ያካሂዳል፡፡ ጠቅላይ ሚኒስትሩ ከምክር ቤቱ አባላት ለሚነሱ ጥያቄዎችና አስተያየቶች ምላሽና ማብራሪያ እንደሚሰጡ ከምክር ቤቱ ያገኘነው መረጃ ያመለክታል፡፡ ምክር ቤቱ ህዳር 17 ቀን 2019 ዓ.ም ከጠዋቱ 2፡30 ጀምሮ በሚ",
-    "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 06:14:38 +0000"
-  },
-  {
-    "title": "Russia and Iran Exploring Expanded Cooperation in Mining, Industry and Technology",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – Russia and Iran are seeking to expand industrial and trade cooperation, with mining emerging as one of the promising areas of partnership alongside shipbuilding, pharmaceuticals, information technology and scientific rese",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 05:57:10 +0000"
   }
 ];
