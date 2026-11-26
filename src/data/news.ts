@@ -3,75 +3,75 @@ export type NewsItem = { title: string; summary: string; source: string; publish
 
 export const latestNews: NewsItem[] = [
   {
-    "title": "Open Arms in Times of Crisis, Tireless Efforts for Peace: Ethiopia’s Enduring Solidarity with Sudan",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – As Sudan continues to endure a devastating conflict, Ethiopia’s solidarity with its neighbour is reflected in its continued welcome to people forced to flee violence and its sustained efforts to help bring the war to an e",
+    "title": "Ethiopia Asserts Strategic Autonomy and Results-Driven Diplomacy in Briefing for Newly Appointed Ambassadors",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) – Ethiopia has underscored the strategic direction of its diplomacy, placing national interests, protected sovereignty and strategic autonomy at the centre of its international engagement, as the Ministry of Foreign Affairs",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 14:42:32 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 13:06:57 +0000"
   },
   {
-    "title": "Ethiopia’s Sustained Diplomatic Efforts to End Sudan’s Conflict Reflect a Commitment to Lasting Regional Peace",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – Ethiopia’s latest offer to host an inclusive, Sudanese-led dialogue to end the devastating conflict in Sudan is not an isolated diplomatic initiative. It is the latest chapter in a sustained engagement spanning years, roo",
+    "title": "Ethiopia’s Public Enterprises Create Nearly 72,000 Jobs in Three Months as Reform Drives Improved Performance: PM Abiy",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Ethiopia’s public enterprises have created nearly 72,000 jobs in the past three months, while the value of assets under Ethiopian Investment Holdings has surged from 2.6 trillion Birr to 9 trillion Birr, Prime Minister Ab",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 13:47:19 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 13:00:33 +0000"
   },
   {
-    "title": "PM Abiy to Address Ethiopian Parliament on Federal Government Performance, National Priorities Tomorrow",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – Ethiopian Prime Minister Abiy Ahmed (PhD) is scheduled to address the country’s House of Peoples’ Representatives (HoPR) tomorrow, Thursday, November 26, during the fourth regular session of the first year of the current ",
+    "title": "PM Abiy: Eritrea Rejected Ethiopia’s Electricity, Infrastructure and Port Partnership Offers Despite Shared Development Prospects",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Prime Minister Abiy Ahmed has disclosed that Ethiopia made several proposals to Eritrea for joint development, including electricity supply at domestic Ethiopian rates and cooperation in building roads and ports, but the ",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 12:07:35 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 12:30:16 +0000"
   },
   {
-    "title": "Ethiopia’s Health Innovations Strengthen Africa’s Voice in Global Health Governance: Health Minister",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – Ethiopia is demonstrating how its progress in health innovation, digital technology and healthcare delivery can strengthen Africa’s voice and role in shaping global health governance, Minister of Health Dr. Mekdes Daba sa",
+    "title": "Ethiopia Pursuing Generational Transformation Through Grand Medemer Strategy: PM Abiy",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Ethiopia’s ambition to overcome poverty and translate its considerable national wealth into lasting prosperity requires a vision extending well beyond the political lifespan of any government, Prime Minister Abiy Ahmed ha",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 11:58:02 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 12:11:09 +0000"
   },
   {
-    "title": "Horn Dialogue Champions Regional Ownership and Collective Action for Regional Security",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – Countries of the Horn of Africa must take greater ownership of regional security, reconcile national interests with shared priorities and move beyond fragmented approaches to address the conflicts and challenges confronti",
+    "title": "PM Abiy Encourages Parents to Give Children Opportunities to Build Discipline, Patriotism and a Spirit of Service",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Prime Minister Abiy Ahmed has called on parents across Ethiopia to ensure that their children have opportunities to acquire discipline, humility, patriotism and a strong sense of public responsibility through short-term t",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 11:02:24 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 12:03:51 +0000"
   },
   {
-    "title": "India Prepares First Bullet Train Section for Trial Runs in May 2027",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – India is preparing to begin trial runs of its first bullet train in May 2027 on a 50-kilometre section between Surat and Bilimora along the Mumbai-Ahmedabad High-Speed Rail Corridor, Indian Railway Minister Ashwini Vaishn",
+    "title": "Ethio-Djibouti Railway Corporation Raises Profit to 43 Billion Birr as Ethiopia Expands Domestic Construction Capacity",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — The Ethio-Djibouti Railway Corporation has increased its profits from 3.4 billion Birr to 43 billion Birr, while significantly expanding its operational capacity and strengthening Ethiopia’s role in managing and developin",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 08:59:28 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 10:41:57 +0000"
   },
   {
-    "title": "BRICS to Launch Cross-Border Taxpayer Assistance Network in 2027",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – BRICS countries will launch a mutual assistance system for taxpayers on January 1, 2027, enabling individuals and businesses to obtain official guidance on tax matters when operating across member states, TV BRICS reporte",
+    "title": "Ethiopia’s Digital Finance Transactions Reach 11 Trillion Birr as Mobile Banking Users Near 70 Million",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Ethiopia’s digital financial system has expanded significantly, with around 70 million people now accessing financial services through mobile banking platforms and digital financial transactions reaching 11 trillion Birr,",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 08:48:02 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 10:34:35 +0000"
   },
   {
-    "title": "Second Edition of Arkwood Africa Film Market and Awards to Convene in Addis Ababa",
-    "summary": "Addis Ababa, November 25, 2026 (FMC) – The second edition of the Arkwood Africa Film Market and Awards will take place at the Adwa Victory Memorial Museum in Addis Ababa from November 27 to 28, 2026, the Ministry of Culture and Tourism has announced. The Arkwo",
+    "title": "Industry and Construction Surpass Agriculture in Ethiopia’s Economic Growth Contribution for the First Time",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Ethiopia is witnessing a historic shift in its economic structure, with industry and construction projected to contribute more to overall economic growth than agriculture for the first time, Prime Minister Abiy Ahmed (PhD",
     "source": "FBC English",
-    "publishedAt": "Wed, 25 Nov 2026 05:26:54 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 09:45:08 +0000"
   },
   {
-    "title": "የሴኔጋል የአፍሪካ ዋንጫ ሻምፒዮንነት ተረጋገጠ",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) ሴኔጋል በአፍሪካ ዋንጫ ያገኘችው የሻምፒዮንነት ውጤት በዓለም አቀፉ የስፖርት ገላጋይ ፍርድ ቤት በተሰጠ ውሳኔ ተረጋግጧል። በውዝግብ የተጠናቀቀው የ2025 የአፍሪካ ዋንጫ ፍጻሜ ውጤት በዓለም አቀፉ የስፖርት ገላጋይ ፍርድ ቤት ውሳኔ የተቀየረ ሲሆን፣ ሴኔጋል የሻምፒዮንነት ስያሜን እንደገና ማግኘቷ ተገልጿል። ሴኔጋል ከሞሮኮ ጋር ባደረገችው የአፍሪካ ዋንጫ የፍጻ",
+    "title": "PM Abiy Says Ethiopia’s Rebased Economy Reaches $210 Billion, Ranks Third-Largest in Sub-Saharan Africa",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Ethiopia’s economy has reached 210 billion dollars following a comprehensive rebasing exercise, placing the country among the three largest economies in Sub-Saharan Africa, Prime Minister Abiy Ahmed (PhD) disclosed during",
+    "source": "FBC English",
+    "publishedAt": "Thu, 26 Nov 2026 09:36:24 +0000"
+  },
+  {
+    "title": "Ethiopia’s Debt Vulnerability Falls from High to Moderate Ahead of Schedule, Marking Major Reform Achievement: PM Abiy",
+    "summary": "Addis Ababa, November 26, 2026 (FMC) — Ethiopia’s debt vulnerability has declined from high to moderate ahead of the government’s planned timeline, marking one of the major achievements of the country’s macroeconomic reform, Prime Minister Abiy Ahmed (PhD) dis",
+    "source": "FBC English",
+    "publishedAt": "Thu, 26 Nov 2026 09:21:56 +0000"
+  },
+  {
+    "title": "ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) በሕዝብ ተወካዮች ምክር ቤት የመጀመሪያ ዓመት የሥራ ዘመን 4ኛ መደበኛ ጉባኤ ላይ ያነሷቸው ዋና ዋና ነጥቦች፡-",
+    "summary": "👉 ከአገልግሎት ዘርፍ ባለፉት ሶስት ወራት 2 ነጥብ 9 ቢሊየን ዶላር አግኝተናል፤ ይህም ከአምናው ጋር ሲነጻጸር 27 በመቶ እድገት አለው። 👉 ከውጭ ቀጥተኛ ኢንቨስትመንት ባለፉት ሦስት ወራት 1 ነጥብ 28 ቢሊየን ዶላር ማግኘት ተችሏል፤ ይህም ከአምናው ተመሳሳይ ጊዜ ሲወዳደር 34 በመቶ እድገት አለው። 👉 በወጪ ንግድ፣ በአገልግሎት ዘርፍ፣ በውጭ ቀጥተኛ ኢንቨስትመንት፣ በሃዋላ እንዲሁም በልዩ ልዩ […] ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 15:01:15 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 09:05:04 +0000"
   },
   {
-    "title": "Deputy PM Temesgen Underscores African Ownership of Artificial Intelligence and Homegrown Innovation",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopian Deputy Prime Minister Temesgen Truneh has underscored the importance of African ownership of artificial intelligence (AI), emphasizing the need to build indigenous technological capabilities, strengthen research",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 14:41:55 +0000"
-  },
-  {
-    "title": "Ethiopia Earns $572.9 Million from Pulses and Oilseeds Exports, Seeks to Expand Global Market Share",
-    "summary": "Addis Ababa, November 24, 2026 (FMC) – Ethiopia generated 572.9 million US dollars from pulses and oilseeds exports in the 2025/26 fiscal year, accounting for approximately five percent of the country’s total export earnings of 11.2 billion US dollars, Ministe",
-    "source": "FBC English",
-    "publishedAt": "Tue, 24 Nov 2026 13:38:36 +0000"
-  },
-  {
-    "title": "በአማራ ክልል 41 ነጥብ 4 ቢሊየን ብር ገቢ ተሰበሰበ",
-    "summary": "አዲስ አበባ፣ ሕዳር 15፣ 2019 (ኤፍ ኤም ሲ) በአማራ ክልል ከተለያዩ የገቢ ምንጮች 41 ነጥብ 4 ቢሊየን ብር ገቢ ተሰብስቧል አለ የክልሉ ገቢዎች ቢሮ። በቢሮው የግብር ትምህርትና ኮሙኒኬሽን ዳይሬክተር አቶ ታዘባቸው ጣሴ በሰጡት መግለጫ እንዳሉት፤ በ2019 በጀት ዓመት 166 ነጥብ 8 ቢሊየን ብር ገቢ ለመሰብሰብ ታቅዶ ወደ ሥራ ተገብቷል። በዚህም እስከ ሕዳር 14 ቀን 2019 […] The post በአማራ",
+    "title": "የተገበርነው ማሻሻያ ችግሮችን ተቋቁመን እንደ ሀገር እንድንጸና አግዞናል – ጠቅላይ ሚኒስትር ዐቢይ (ዶ/ር)",
+    "summary": "አዲስ አበባ፣ ሕዳር 17፣ 2019 (ኤፍ ኤም ሲ) ጠቅላይ ሚኒስትር ዐቢይ አሕመድ (ዶ/ር) ባለፉት ጥቂት ዓመታት የተገበርናቸው ማሻሻያዎች ኢኮኖሚያችን ችግሮችን ተቋቁሞ እንደ ሀገር እንድንጸና አግዞናል አሉ፡፡ ጠቅላይ ሚኒስትሩ በሕዝብ ተወካዮች ም/ቤት የመጀመሪያ ዓመት የሥራ ዘመን 4ኛ መደበኛ ጉባኤ ላይ ተገኝተው ከምክር ቤቱ አባላት ለተሱላቸው ጥያቄዎች ምላሽና ማብራሪያ ሰጥተዋል፡፡ ኢትዮጵያ የተገበረቻቸው ",
     "source": "Fana Media",
-    "publishedAt": "Tue, 24 Nov 2026 13:09:13 +0000"
+    "publishedAt": "Thu, 26 Nov 2026 08:04:17 +0000"
   }
 ];
